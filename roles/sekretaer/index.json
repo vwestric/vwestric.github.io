@@ -7,7 +7,7 @@
   },
   "@id": "ri:sekretaer",
   "owl:equivalentClass": {
-    "@id": "wd:Q738142"
+    "@id": "wd:Q319544"
   },
   "rdfs:label": "Sekretär"
 }
