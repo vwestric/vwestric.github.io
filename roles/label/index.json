@@ -1,0 +1,16 @@
+{
+  "@context": {
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/roles/",
+    "wd": "http://www.wikidata.org/entity/"
+  },
+  "@id": "ri:label",
+  "owl:equivalentClass": {
+    "@id": "wd:owl:sameAs"
+  },
+  "rdfs:label": "LABEL",
+  "rdfs:subClassOf": {
+    "@id": "wd:SUBCLASS_OF"
+  }
+}
