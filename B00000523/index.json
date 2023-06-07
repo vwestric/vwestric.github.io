@@ -1,0 +1,348 @@
+{
+    "identifier": "B00000523",
+    "type": "place",
+    "name": "Bayern",
+    "roles": [
+        {
+            "role": {
+                "identifier": "https://www.wikidata.org/entity/Q166886",
+                "label": "Herzog"
+            },
+            "subject": {
+                "identifier": "http://www.regesta-imperii.de/registry/B00000528",
+                "label": null
+            }
+        },
+        {
+            "role": {
+                "identifier": "https://www.wikidata.org/entity/Q7325",
+                "label": "Juden"
+            },
+            "subject": {
+                "identifier": "http://www.regesta-imperii.de/registry/B00000624",
+                "label": null
+            }
+        },
+        {
+            "role": {
+                "identifier": "http://www.regesta-imperii.de/ontology/RIO-0001",
+                "label": "Landgericht"
+            },
+            "subject": {
+                "identifier": "http://www.regesta-imperii.de/registry/B00000627",
+                "label": null
+            }
+        },
+        {
+            "role": {
+                "identifier": "https://www.wikidata.org/entity/Q166886",
+                "label": "Herzog"
+            },
+            "subject": {
+                "identifier": "http://www.regesta-imperii.de/registry/B00000530",
+                "label": "Albrecht"
+            }
+        },
+        {
+            "role": {
+                "identifier": "https://www.wikidata.org/entity/Q166886",
+                "label": "Herzog"
+            },
+            "subject": {
+                "identifier": "http://www.regesta-imperii.de/registry/B00000532",
+                "label": "Friedrich"
+            }
+        },
+        {
+            "role": {
+                "identifier": "https://www.wikidata.org/entity/Q166886",
+                "label": "Herzog"
+            },
+            "subject": {
+                "identifier": "http://www.regesta-imperii.de/registry/B00000533",
+                "label": "Heinrich"
+            }
+        },
+        {
+            "role": {
+                "identifier": "https://www.wikidata.org/entity/Q166886",
+                "label": "Herzog"
+            },
+            "subject": {
+                "identifier": "http://www.regesta-imperii.de/registry/B00000534",
+                "label": "Heinrich"
+            }
+        },
+        {
+            "role": {
+                "identifier": "https://www.wikidata.org/entity/Q166886",
+                "label": "Herzog"
+            },
+            "subject": {
+                "identifier": "http://www.regesta-imperii.de/registry/B00000535",
+                "label": "Heinrich"
+            }
+        },
+        {
+            "role": {
+                "identifier": "https://www.wikidata.org/entity/Q166886",
+                "label": "Herzog"
+            },
+            "subject": {
+                "identifier": "http://www.regesta-imperii.de/registry/B00000537",
+                "label": "Ludwig"
+            }
+        },
+        {
+            "role": {
+                "identifier": "https://www.wikidata.org/entity/Q166886",
+                "label": "Herzog"
+            },
+            "subject": {
+                "identifier": "http://www.regesta-imperii.de/registry/B00000538",
+                "label": "Ludwig"
+            }
+        },
+        {
+            "role": {
+                "identifier": "https://www.wikidata.org/entity/Q166886",
+                "label": "Herzog"
+            },
+            "subject": {
+                "identifier": "http://www.regesta-imperii.de/registry/B00000539",
+                "label": "Otto"
+            }
+        },
+        {
+            "role": {
+                "identifier": "https://www.wikidata.org/entity/Q166886",
+                "label": "Herzog"
+            },
+            "subject": {
+                "identifier": "http://www.regesta-imperii.de/registry/B00000540",
+                "label": "Otto"
+            }
+        },
+        {
+            "role": {
+                "identifier": "https://www.wikidata.org/entity/Q166886",
+                "label": "Herzog"
+            },
+            "subject": {
+                "identifier": "http://www.regesta-imperii.de/registry/B00000541",
+                "label": "Otto"
+            }
+        },
+        {
+            "role": {
+                "identifier": "https://www.wikidata.org/entity/Q166886",
+                "label": "Herzog"
+            },
+            "subject": {
+                "identifier": "http://www.regesta-imperii.de/registry/B00000542",
+                "label": "Otto"
+            }
+        },
+        {
+            "role": {
+                "identifier": "https://www.wikidata.org/entity/Q166886",
+                "label": "Herzog"
+            },
+            "subject": {
+                "identifier": "http://www.regesta-imperii.de/registry/B00000543",
+                "label": "Siegmund"
+            }
+        },
+        {
+            "role": {
+                "identifier": "https://www.wikidata.org/entity/Q166886",
+                "label": "Herzog"
+            },
+            "subject": {
+                "identifier": "http://www.regesta-imperii.de/registry/B00000544",
+                "label": "Stephan"
+            }
+        },
+        {
+            "role": {
+                "identifier": "https://www.wikidata.org/entity/Q166886",
+                "label": "Herzog"
+            },
+            "subject": {
+                "identifier": "http://www.regesta-imperii.de/registry/B00000545",
+                "label": "Stephan"
+            }
+        },
+        {
+            "role": {
+                "identifier": "https://www.wikidata.org/entity/Q166886",
+                "label": "Herzog"
+            },
+            "subject": {
+                "identifier": "http://www.regesta-imperii.de/registry/B00000546",
+                "label": "Ulrich"
+            }
+        },
+        {
+            "role": {
+                "identifier": "https://www.wikidata.org/entity/Q166886",
+                "label": "Herzog"
+            },
+            "subject": {
+                "identifier": "http://www.regesta-imperii.de/registry/B00000547",
+                "label": "Wilhelm"
+            }
+        },
+        {
+            "role": {
+                "identifier": "https://www.wikidata.org/entity/Q166886",
+                "label": "Herzog"
+            },
+            "subject": {
+                "identifier": "http://www.regesta-imperii.de/registry/P00000961",
+                "label": null
+            }
+        },
+        {
+            "role": {
+                "identifier": "https://www.wikidata.org/entity/Q166886",
+                "label": "Herzog"
+            },
+            "subject": {
+                "identifier": "http://www.regesta-imperii.de/registry/P00000962",
+                "label": "Friedrich"
+            }
+        },
+        {
+            "role": {
+                "identifier": "https://www.wikidata.org/entity/Q166886",
+                "label": "Herzog"
+            },
+            "subject": {
+                "identifier": "http://www.regesta-imperii.de/registry/P00000973",
+                "label": "Friedrich"
+            }
+        },
+        {
+            "role": {
+                "identifier": "https://www.wikidata.org/entity/Q166886",
+                "label": "Herzog"
+            },
+            "subject": {
+                "identifier": "http://www.regesta-imperii.de/registry/P00000974",
+                "label": "Karl"
+            }
+        },
+        {
+            "role": {
+                "identifier": "https://www.wikidata.org/entity/Q166886",
+                "label": "Herzog"
+            },
+            "subject": {
+                "identifier": "http://www.regesta-imperii.de/registry/P00000975",
+                "label": "Ludwig"
+            }
+        },
+        {
+            "role": {
+                "identifier": "https://www.wikidata.org/entity/Q166886",
+                "label": "Herzog"
+            },
+            "subject": {
+                "identifier": "http://www.regesta-imperii.de/registry/P00000976",
+                "label": "Ludwig"
+            }
+        },
+        {
+            "role": {
+                "identifier": "https://www.wikidata.org/entity/Q166886",
+                "label": "Herzog"
+            },
+            "subject": {
+                "identifier": "http://www.regesta-imperii.de/registry/P00000985",
+                "label": "Ludwig"
+            }
+        },
+        {
+            "role": {
+                "identifier": "https://www.wikidata.org/entity/Q166886",
+                "label": "Herzog"
+            },
+            "subject": {
+                "identifier": "http://www.regesta-imperii.de/registry/P00000987",
+                "label": "Mechthild"
+            }
+        },
+        {
+            "role": {
+                "identifier": "https://www.wikidata.org/entity/Q166886",
+                "label": "Herzog"
+            },
+            "subject": {
+                "identifier": "http://www.regesta-imperii.de/registry/P00000998",
+                "label": "Philipp"
+            }
+        },
+        {
+            "role": {
+                "identifier": "https://www.wikidata.org/entity/Q166886",
+                "label": "Herzog"
+            },
+            "subject": {
+                "identifier": "http://www.regesta-imperii.de/registry/P00001007",
+                "label": "Rudolf"
+            }
+        },
+        {
+            "role": {
+                "identifier": "https://www.wikidata.org/entity/Q166886",
+                "label": "Herzog"
+            },
+            "subject": {
+                "identifier": "http://www.regesta-imperii.de/registry/P00001008",
+                "label": "Ruprecht"
+            }
+        },
+        {
+            "role": {
+                "identifier": "https://www.wikidata.org/entity/Q166886",
+                "label": "Herzog"
+            },
+            "subject": {
+                "identifier": "http://www.regesta-imperii.de/registry/P00001009",
+                "label": "Ruprecht"
+            }
+        },
+        {
+            "role": {
+                "identifier": "https://www.wikidata.org/entity/Q166886",
+                "label": "Herzog"
+            },
+            "subject": {
+                "identifier": "http://www.regesta-imperii.de/registry/P00001010",
+                "label": "Ruprecht"
+            }
+        },
+        {
+            "role": {
+                "identifier": "https://www.wikidata.org/entity/Q166886",
+                "label": "Herzog"
+            },
+            "subject": {
+                "identifier": "http://www.regesta-imperii.de/registry/P00001011",
+                "label": "Ruprecht"
+            }
+        },
+        {
+            "role": {
+                "identifier": "https://www.wikidata.org/entity/Q166886",
+                "label": "Herzog"
+            },
+            "subject": {
+                "identifier": "http://www.regesta-imperii.de/registry/P00001023",
+                "label": "Pfalzgraf"
+            }
+        }
+    ],
+    "weight": 34
+}
