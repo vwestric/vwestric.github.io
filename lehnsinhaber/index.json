@@ -1,0 +1,13 @@
+{
+  "@context": {
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/",
+    "wd": "http://www.wikidata.org/entity/"
+  },
+  "@id": "ri:lehnsinhaber",
+  "owl:equivalentClass": {
+    "@id": "wd:Q223266"
+  },
+  "rdfs:label": "Lehnsinhaber"
+}
