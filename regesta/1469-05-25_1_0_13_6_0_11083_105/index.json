@@ -1,0 +1,90 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1469-05-25_1_0_13_6_0_11083_105",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N40c0b36f08d44d64b5e09de7a40ee700"
+      }
+    },
+    {
+      "@id": "_:N40c0b36f08d44d64b5e09de7a40ee700",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N2f3f04679b06477c8027b6527ad7da20"
+      },
+      "ps:P291": {
+        "@id": "_:N12b51a0e6b1648f49a586999a11084a0"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:Nd597859e1e514a2c96c05e67c885b283"
+        },
+        {
+          "@id": "_:N1c1095b4157a4ad497d417bcfda5f218"
+        }
+      ]
+    },
+    {
+      "@id": "_:N12b51a0e6b1648f49a586999a11084a0",
+      "https://schema.org#geo": {
+        "@id": "_:N134ecc4f7b584900bfc9d31fe9cac05b"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q13298"
+      },
+      "rdfs:label": "Graz"
+    },
+    {
+      "@id": "_:N134ecc4f7b584900bfc9d31fe9cac05b",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.06667",
+      "https://schema.org#longitude": "15.45"
+    },
+    {
+      "@id": "_:N2f3f04679b06477c8027b6527ad7da20",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1469-05-25"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1469-05-25"
+      }
+    },
+    {
+      "@id": "_:Nd597859e1e514a2c96c05e67c885b283",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:O00000622"
+      },
+      "ps:P39": {
+        "@id": "ri:herzog"
+      },
+      "rdfs:label": "Hz. Sigmunds von Österreich"
+    },
+    {
+      "@id": "_:N1c1095b4157a4ad497d417bcfda5f218",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:P00000307"
+      },
+      "ps:P39": {
+        "@id": "ri:papst"
+      },
+      "rdfs:label": "Papst (Paul II.)"
+    }
+  ]
+}

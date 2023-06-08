@@ -1,0 +1,52 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:dbc25e86-6b7d-4237-b17a-441ca3320acc",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Ne0ac9c39fc2644db8e7528827130273c"
+      }
+    },
+    {
+      "@id": "_:Ne0ac9c39fc2644db8e7528827130273c",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N4c98e06e02c04d529c51a3e02cb6f2df"
+      },
+      "ps:P3342": {
+        "@id": "_:N7ace479f29524a73af7f5171e82e1c5a"
+      }
+    },
+    {
+      "@id": "_:N4c98e06e02c04d529c51a3e02cb6f2df",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1469-06-12"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1469-06-12"
+      }
+    },
+    {
+      "@id": "_:N7ace479f29524a73af7f5171e82e1c5a",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:L00001584"
+      },
+      "rdfs:label": "Herbords von der Linden"
+    }
+  ]
+}

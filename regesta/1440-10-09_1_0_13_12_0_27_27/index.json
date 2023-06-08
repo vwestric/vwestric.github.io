@@ -1,0 +1,87 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1440-10-09_1_0_13_12_0_27_27",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N6e8fd4bd61d2444ebd21c6a69e136b7c"
+      }
+    },
+    {
+      "@id": "_:N6e8fd4bd61d2444ebd21c6a69e136b7c",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Na3d9e9c9cedb4b71bcafd065008b3a22"
+      },
+      "ps:P291": {
+        "@id": "_:N3bf4d459cbed45dbb1923feafe287d1a"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N45f4ca0f50884a50bda5646d8edee13a"
+        },
+        {
+          "@id": "_:N533367d2f8324282b04269319ba115d1"
+        }
+      ]
+    },
+    {
+      "@id": "_:N3bf4d459cbed45dbb1923feafe287d1a",
+      "https://schema.org#geo": {
+        "@id": "_:N6cb6fe78abff4367a5b72fd814d4ff30"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q63939"
+      },
+      "rdfs:label": "Baden"
+    },
+    {
+      "@id": "_:N6cb6fe78abff4367a5b72fd814d4ff30",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.47333",
+      "https://schema.org#longitude": "8.30592"
+    },
+    {
+      "@id": "_:Na3d9e9c9cedb4b71bcafd065008b3a22",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1440-10-09"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1440-10-09"
+      }
+    },
+    {
+      "@id": "_:N45f4ca0f50884a50bda5646d8edee13a",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:N00000238"
+      },
+      "rdfs:label": "Leopold von Neidegg"
+    },
+    {
+      "@id": "_:N533367d2f8324282b04269319ba115d1",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:O00000599"
+      },
+      "ps:P39": {
+        "@id": "ri:koenig"
+      },
+      "rdfs:label": "Kg. Ladislaus"
+    }
+  ]
+}

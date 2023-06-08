@@ -1,0 +1,71 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:ae3742e7-b6e8-436a-835a-4d7f9395de83",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N6ddfc84a5bf94bbabc21227940e9e02e"
+      }
+    },
+    {
+      "@id": "_:N6ddfc84a5bf94bbabc21227940e9e02e",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N27aa18ade1c842f8bf1157e4f087c4cc"
+      },
+      "ps:P291": {
+        "@id": "_:Nb7af8ed8684b4b1e804ac37abbc32588"
+      },
+      "ps:P3342": {
+        "@id": "_:N652f35092d344c13b7ce5bda32293040"
+      }
+    },
+    {
+      "@id": "_:Nb7af8ed8684b4b1e804ac37abbc32588",
+      "https://schema.org#geo": {
+        "@id": "_:Nbf13ebf934c6442c99694ba406bf4594"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q131612"
+      },
+      "rdfs:label": "Wiener Neustadt"
+    },
+    {
+      "@id": "_:Nbf13ebf934c6442c99694ba406bf4594",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.813153",
+      "https://schema.org#longitude": "16.24444"
+    },
+    {
+      "@id": "_:N27aa18ade1c842f8bf1157e4f087c4cc",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1461-09-02"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1461-09-02"
+      }
+    },
+    {
+      "@id": "_:N652f35092d344c13b7ce5bda32293040",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:L00000609"
+      },
+      "rdfs:label": "Reginhard Laurender"
+    }
+  ]
+}

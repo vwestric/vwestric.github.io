@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1452-03-26_1_0_13_16_0_34_34",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Nbc1c246597784df1b667a77435ae5f75"
+      }
+    },
+    {
+      "@id": "_:Nbc1c246597784df1b667a77435ae5f75",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N5c964d2af6c846aca9a5ba0831b3f06e"
+      },
+      "ps:P291": {
+        "@id": "_:N3fa8436c449d4d1db520f59be0d9db84"
+      },
+      "ps:P3342": {
+        "@id": "_:N1d5c5fc3aec8458283adf5f40c7a5e6e"
+      }
+    },
+    {
+      "@id": "_:N3fa8436c449d4d1db520f59be0d9db84",
+      "https://schema.org#geo": {
+        "@id": "_:N9d58fbf677154382b28939929d90711a"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q220"
+      },
+      "rdfs:label": "Rom"
+    },
+    {
+      "@id": "_:N9d58fbf677154382b28939929d90711a",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "41.89193",
+      "https://schema.org#longitude": "12.51133"
+    },
+    {
+      "@id": "_:N5c964d2af6c846aca9a5ba0831b3f06e",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1452-03-26"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1452-03-26"
+      }
+    },
+    {
+      "@id": "_:N1d5c5fc3aec8458283adf5f40c7a5e6e",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00003529"
+      },
+      "ps:P39": {
+        "@id": "ri:kaiser"
+      },
+      "rdfs:label": "K. Sigmunds"
+    }
+  ]
+}

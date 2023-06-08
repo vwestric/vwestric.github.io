@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1485-02-23_1_0_13_30_0_161_161",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Nd835ec93361247c0b83773734792c2a7"
+      }
+    },
+    {
+      "@id": "_:Nd835ec93361247c0b83773734792c2a7",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N0d205e4dcc894b93b3b23380c50904b1"
+      },
+      "ps:P291": {
+        "@id": "_:N24739065ed4944ba972bd8549e075096"
+      },
+      "ps:P3342": {
+        "@id": "_:Nae3b33b42f80428da1ee1b9487670428"
+      }
+    },
+    {
+      "@id": "_:N24739065ed4944ba972bd8549e075096",
+      "https://schema.org#geo": {
+        "@id": "_:N84f90cc53fe747549ea7363a64225027"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q430449"
+      },
+      "rdfs:label": "Gmunden"
+    },
+    {
+      "@id": "_:N84f90cc53fe747549ea7363a64225027",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.91839",
+      "https://schema.org#longitude": "13.79933"
+    },
+    {
+      "@id": "_:N0d205e4dcc894b93b3b23380c50904b1",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1485-02-23"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1485-02-23"
+      }
+    },
+    {
+      "@id": "_:Nae3b33b42f80428da1ee1b9487670428",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:W00001886"
+      },
+      "ps:P39": {
+        "@id": "ri:buerger"
+      },
+      "rdfs:label": "Wiener Bürger Wolfgang Widmer"
+    }
+  ]
+}

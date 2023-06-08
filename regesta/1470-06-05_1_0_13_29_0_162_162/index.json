@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1470-06-05_1_0_13_29_0_162_162",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N99f127b7c0c349489d2f651c85beefac"
+      }
+    },
+    {
+      "@id": "_:N99f127b7c0c349489d2f651c85beefac",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N820f2243f47445e4881f91c89a1818fd"
+      },
+      "ps:P291": {
+        "@id": "_:N35539ba962a144d6be8e3941379a516f"
+      },
+      "ps:P3342": {
+        "@id": "_:N181def1a09f44537a68a3ac684000c11"
+      }
+    },
+    {
+      "@id": "_:N35539ba962a144d6be8e3941379a516f",
+      "https://schema.org#geo": {
+        "@id": "_:Nc8829aa8c9ad4336a754d52c1e1d367e"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q164488"
+      },
+      "rdfs:label": "Völkermarkt"
+    },
+    {
+      "@id": "_:Nc8829aa8c9ad4336a754d52c1e1d367e",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "46.66222",
+      "https://schema.org#longitude": "14.63444"
+    },
+    {
+      "@id": "_:N820f2243f47445e4881f91c89a1818fd",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1470-06-05"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1470-06-05"
+      }
+    },
+    {
+      "@id": "_:N181def1a09f44537a68a3ac684000c11",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:L00000112"
+      },
+      "ps:P39": {
+        "@id": "ri:bischof"
+      },
+      "rdfs:label": "Bf. Sigmunds von Laibach"
+    }
+  ]
+}

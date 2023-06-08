@@ -1,0 +1,90 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:f6d6b5b5-c409-4af5-ae81-5a3aba28d380",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N7733bcfb42f34226bae83e8265c16264"
+      }
+    },
+    {
+      "@id": "_:N7733bcfb42f34226bae83e8265c16264",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N3521f77a59314d17a9af5bd34e180640"
+      },
+      "ps:P291": {
+        "@id": "_:Nba18e20dcc8b49a4ad7245672a955185"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:Na352cbce7ed54ac38366f8ca810b6242"
+        },
+        {
+          "@id": "_:Nd63e9c83b1e64a30a153bd054d642f2a"
+        }
+      ]
+    },
+    {
+      "@id": "_:Nba18e20dcc8b49a4ad7245672a955185",
+      "https://schema.org#geo": {
+        "@id": "_:Nab29dc654a8f47a3990b34ee6ba6e139"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q2999"
+      },
+      "rdfs:label": "Würzburg"
+    },
+    {
+      "@id": "_:Nab29dc654a8f47a3990b34ee6ba6e139",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "49.79391",
+      "https://schema.org#longitude": "9.95121"
+    },
+    {
+      "@id": "_:N3521f77a59314d17a9af5bd34e180640",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1474-11-18"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1474-11-18"
+      }
+    },
+    {
+      "@id": "_:Na352cbce7ed54ac38366f8ca810b6242",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:P00001026"
+      },
+      "ps:P39": {
+        "@id": "ri:pfalzgraf"
+      },
+      "rdfs:label": "Pfgf. Friedrichs bei Rhein"
+    },
+    {
+      "@id": "_:Nd63e9c83b1e64a30a153bd054d642f2a",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:A00001566"
+      },
+      "ps:P39": {
+        "@id": "ri:bischof"
+      },
+      "rdfs:label": "Bf. (Johann II.) von Augsburg"
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1488-05-21_1_0_13_9_0_12931_389",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N4e08a2cbcc4a4d2cb0b3982868b97bd8"
+      }
+    },
+    {
+      "@id": "_:N4e08a2cbcc4a4d2cb0b3982868b97bd8",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N28b85dbebdfb4d2eb93e7526368bf1ee"
+      },
+      "ps:P291": {
+        "@id": "_:Nadd3924c5f854928af855f2c31b0a2eb"
+      },
+      "ps:P3342": {
+        "@id": "_:Nc4bf2133c51d49f591d61632f22e2ca9"
+      }
+    },
+    {
+      "@id": "_:Nadd3924c5f854928af855f2c31b0a2eb",
+      "https://schema.org#geo": {
+        "@id": "_:N3adaf26d66974b03a077d138b6c37a0c"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q1309"
+      },
+      "rdfs:label": "Maastricht"
+    },
+    {
+      "@id": "_:N3adaf26d66974b03a077d138b6c37a0c",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "50.84833",
+      "https://schema.org#longitude": "5.68889"
+    },
+    {
+      "@id": "_:N28b85dbebdfb4d2eb93e7526368bf1ee",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1488-05-21"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1488-05-21"
+      }
+    },
+    {
+      "@id": "_:Nc4bf2133c51d49f591d61632f22e2ca9",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:M00001151"
+      },
+      "ps:P39": {
+        "@id": "ri:koenig"
+      },
+      "rdfs:label": "Kg. Maximilians"
+    }
+  ]
+}

@@ -1,0 +1,189 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1452-03-19_2_0_13_24_0_107_107",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N8f4b408275b842d7972f65f2dc5a6b67"
+      }
+    },
+    {
+      "@id": "_:N8f4b408275b842d7972f65f2dc5a6b67",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Nf797367e26a0406c9c243c1341f49366"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:Na20e9986c0e44051a58f1c02b46d9cf0"
+        },
+        {
+          "@id": "_:Nb14a0290bcc94b0ab79cf1971261b301"
+        },
+        {
+          "@id": "_:Nacb244504d8e47df88a3e8a54c944edd"
+        },
+        {
+          "@id": "_:N52724ff91fe04dbd88ee93bbc809b22f"
+        },
+        {
+          "@id": "_:N13a2deaa01844628a63f59dd4a667bfa"
+        },
+        {
+          "@id": "_:N58400729591d474a9f15ea9b68fbf0f9"
+        },
+        {
+          "@id": "_:Nc9f237eb180d482aa16a63787c1d624d"
+        },
+        {
+          "@id": "_:N058bccf5b0df45f0a6a08a3440899b24"
+        },
+        {
+          "@id": "_:N64b1d38fe6f444a1aa8a7641ce968110"
+        },
+        {
+          "@id": "_:N82b4f5168b3c47449659752161489f59"
+        },
+        {
+          "@id": "_:N5f06690350764fa6a439771cef6993f3"
+        },
+        {
+          "@id": "_:N5df16184c38146178f38033477c2af4a"
+        },
+        {
+          "@id": "_:N64a193c14a4544b687b4fe2e33b046c3"
+        }
+      ]
+    },
+    {
+      "@id": "_:Nf797367e26a0406c9c243c1341f49366",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1452-03-19"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1452-03-19"
+      }
+    },
+    {
+      "@id": "_:Na20e9986c0e44051a58f1c02b46d9cf0",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:L00000357"
+      },
+      "rdfs:label": "Niklas Lang"
+    },
+    {
+      "@id": "_:Nb14a0290bcc94b0ab79cf1971261b301",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:R00002137"
+      },
+      "rdfs:label": "Jorgen Roder"
+    },
+    {
+      "@id": "_:Nacb244504d8e47df88a3e8a54c944edd",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:C00000502"
+      },
+      "rdfs:label": "Niklas Claß"
+    },
+    {
+      "@id": "_:N52724ff91fe04dbd88ee93bbc809b22f",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:W00002884"
+      },
+      "rdfs:label": "Hans Wolf"
+    },
+    {
+      "@id": "_:N13a2deaa01844628a63f59dd4a667bfa",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00000917"
+      },
+      "rdfs:label": "Laurenz Berber"
+    },
+    {
+      "@id": "_:N58400729591d474a9f15ea9b68fbf0f9",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00003168"
+      },
+      "rdfs:label": "Niklas Burdener"
+    },
+    {
+      "@id": "_:Nc9f237eb180d482aa16a63787c1d624d",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00000021"
+      },
+      "rdfs:label": "Niklas Babentzin"
+    },
+    {
+      "@id": "_:N058bccf5b0df45f0a6a08a3440899b24",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00004321"
+      },
+      "rdfs:label": "Peter Spilner"
+    },
+    {
+      "@id": "_:N64b1d38fe6f444a1aa8a7641ce968110",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:H00002712"
+      },
+      "rdfs:label": "Stefan Hoffmann"
+    },
+    {
+      "@id": "_:N82b4f5168b3c47449659752161489f59",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:H00001469"
+      },
+      "rdfs:label": "Matthias Heinrich"
+    },
+    {
+      "@id": "_:N5f06690350764fa6a439771cef6993f3",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00003212"
+      },
+      "ps:P39": {
+        "@id": "ri:burggraf"
+      },
+      "rdfs:label": "Kaspar Burggraf"
+    },
+    {
+      "@id": "_:N5df16184c38146178f38033477c2af4a",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:P00001323"
+      },
+      "rdfs:label": "Peter Pilgrim"
+    },
+    {
+      "@id": "_:N64a193c14a4544b687b4fe2e33b046c3",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:W00000028"
+      },
+      "rdfs:label": "Martin Wachsschmid"
+    }
+  ]
+}

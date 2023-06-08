@@ -1,0 +1,95 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1468-11-09_1_0_13_23_0_578_575",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N185de1550f0e44a0a701824bc1127d18"
+      }
+    },
+    {
+      "@id": "_:N185de1550f0e44a0a701824bc1127d18",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N20805ae6f44c45ee9e38a378d96a039f"
+      },
+      "ps:P291": {
+        "@id": "_:Nb61cb5cc4d2f471296b3f3cdf4b96663"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N536940fb1a0a4185adc527a42aeddf63"
+        },
+        {
+          "@id": "_:N75910a50ac4547c8974a71fc67fe034b"
+        }
+      ]
+    },
+    {
+      "@id": "_:Nb61cb5cc4d2f471296b3f3cdf4b96663",
+      "https://schema.org#geo": {
+        "@id": "_:N2fd6f5bc81d847859d425a886670f1b1"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q13298"
+      },
+      "rdfs:label": "Graz"
+    },
+    {
+      "@id": "_:N2fd6f5bc81d847859d425a886670f1b1",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.06667",
+      "https://schema.org#longitude": "15.45"
+    },
+    {
+      "@id": "_:N20805ae6f44c45ee9e38a378d96a039f",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1468-11-09"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1468-11-09"
+      }
+    },
+    {
+      "@id": "_:N536940fb1a0a4185adc527a42aeddf63",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00000164"
+      },
+      "ps:P39": [
+        {
+          "@id": "ri:erzherzog"
+        },
+        {
+          "@id": "ri:erzherzogin"
+        }
+      ],
+      "rdfs:label": "Erzherzogin Mechthild von Österreich"
+    },
+    {
+      "@id": "_:N75910a50ac4547c8974a71fc67fe034b",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00000075"
+      },
+      "ps:P39": {
+        "@id": "ri:markgraf"
+      },
+      "rdfs:label": "Mgf. Karl von Baden"
+    }
+  ]
+}

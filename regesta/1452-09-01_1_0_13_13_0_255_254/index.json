@@ -1,0 +1,160 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1452-09-01_1_0_13_13_0_255_254",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Nfcf47498af2d4583bfbdc117dede2c68"
+      }
+    },
+    {
+      "@id": "_:Nfcf47498af2d4583bfbdc117dede2c68",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N6616848af1cf4bbc9441c8ce03d4474e"
+      },
+      "ps:P291": {
+        "@id": "_:N18587eb32c8d496ca43cdd6ce6436e5c"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N0abd6726da074501ab4077af966d2614"
+        },
+        {
+          "@id": "_:N8f6553b786cf4babae94441d392eccc2"
+        },
+        {
+          "@id": "_:N22f1f302665e4465b4f85e5d69f02686"
+        },
+        {
+          "@id": "_:N51725524a91949dda7e925cb5cfee0f5"
+        },
+        {
+          "@id": "_:N4a10f588fca1459f823df090687acfa4"
+        },
+        {
+          "@id": "_:Nbea6d775bd2949e3ada333d06e194f5e"
+        },
+        {
+          "@id": "_:N5bc4e4b8b25b485bb680c2701583d1bb"
+        }
+      ]
+    },
+    {
+      "@id": "_:N18587eb32c8d496ca43cdd6ce6436e5c",
+      "https://schema.org#geo": {
+        "@id": "_:N40f7c0b12b9b490dab2f172aabc62761"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q131612"
+      },
+      "rdfs:label": "Wiener Neustadt"
+    },
+    {
+      "@id": "_:N40f7c0b12b9b490dab2f172aabc62761",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.813153",
+      "https://schema.org#longitude": "16.24444"
+    },
+    {
+      "@id": "_:N6616848af1cf4bbc9441c8ce03d4474e",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1452-09-01"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1452-09-01"
+      }
+    },
+    {
+      "@id": "_:N0abd6726da074501ab4077af966d2614",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:F00001127"
+      },
+      "ps:P39": {
+        "@id": "ri:bischof"
+      },
+      "rdfs:label": "Bf. Johann von Freising"
+    },
+    {
+      "@id": "_:N8f6553b786cf4babae94441d392eccc2",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:R00000840"
+      },
+      "ps:P39": {
+        "@id": "ri:bischof"
+      },
+      "rdfs:label": "Bf. Friedrich von Regensburg"
+    },
+    {
+      "@id": "_:N22f1f302665e4465b4f85e5d69f02686",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00000075"
+      },
+      "ps:P39": {
+        "@id": "ri:markgraf"
+      },
+      "rdfs:label": "Mgf. Karl (I.) von Baden"
+    },
+    {
+      "@id": "_:N51725524a91949dda7e925cb5cfee0f5",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:C00000462"
+      },
+      "ps:P39": {
+        "@id": "ri:graf"
+      },
+      "rdfs:label": "Gf. Ulrich von Cilli"
+    },
+    {
+      "@id": "_:N4a10f588fca1459f823df090687acfa4",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:O00000599"
+      },
+      "ps:P39": {
+        "@id": "ri:koenig"
+      },
+      "rdfs:label": "Kg. Ladislaus"
+    },
+    {
+      "@id": "_:Nbea6d775bd2949e3ada333d06e194f5e",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00002248"
+      },
+      "ps:P39": {
+        "@id": "ri:markgraf"
+      },
+      "rdfs:label": "Mgf. Albrecht von Brandenburg"
+    },
+    {
+      "@id": "_:N5bc4e4b8b25b485bb680c2701583d1bb",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00000075"
+      },
+      "ps:P39": {
+        "@id": "ri:markgraf"
+      },
+      "rdfs:label": "Mgf. Karl von Baden"
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1443-12-26_1_0_13_12_0_186_186",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N77063711e15640fb9c8e93d7db6afaa5"
+      }
+    },
+    {
+      "@id": "_:N77063711e15640fb9c8e93d7db6afaa5",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N4fa3402db2f74c69a301e09b8b2515de"
+      },
+      "ps:P291": {
+        "@id": "_:Nfa1c510a5def492d90eaff5854e239b1"
+      },
+      "ps:P3342": {
+        "@id": "_:N1f05bacf97994da3bcf81a2dbebf851a"
+      }
+    },
+    {
+      "@id": "_:Nfa1c510a5def492d90eaff5854e239b1",
+      "https://schema.org#geo": {
+        "@id": "_:Nf987ec5e19004d72b052ccef5d7985cf"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q13298"
+      },
+      "rdfs:label": "Graz"
+    },
+    {
+      "@id": "_:Nf987ec5e19004d72b052ccef5d7985cf",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.06667",
+      "https://schema.org#longitude": "15.45"
+    },
+    {
+      "@id": "_:N4fa3402db2f74c69a301e09b8b2515de",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1443-12-26"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1443-12-26"
+      }
+    },
+    {
+      "@id": "_:N1f05bacf97994da3bcf81a2dbebf851a",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:R00002924"
+      },
+      "ps:P39": {
+        "@id": "ri:koenig"
+      },
+      "rdfs:label": "Kg. Rudolf (I.)"
+    }
+  ]
+}

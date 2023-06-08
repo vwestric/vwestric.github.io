@@ -1,0 +1,87 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:ecc0b23e-658c-4f3c-9c12-74c3cb59f630",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Nf90592ada52a42a5845dae7cfc5753b4"
+      }
+    },
+    {
+      "@id": "_:Nf90592ada52a42a5845dae7cfc5753b4",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Ncd8496309a3a48a0b86b57e4694172e9"
+      },
+      "ps:P291": {
+        "@id": "_:N2cd095473bbc44b4a3206b5a72050208"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:Nc68113c693024a9a89908ec8cc37a14a"
+        },
+        {
+          "@id": "_:N70cd21fa02954f5db4846eb73454f470"
+        }
+      ]
+    },
+    {
+      "@id": "_:N2cd095473bbc44b4a3206b5a72050208",
+      "https://schema.org#geo": {
+        "@id": "_:Nfb802813f4e14bfbb0437db824d1b386"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q13298"
+      },
+      "rdfs:label": "Graz"
+    },
+    {
+      "@id": "_:Nfb802813f4e14bfbb0437db824d1b386",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.06667",
+      "https://schema.org#longitude": "15.45"
+    },
+    {
+      "@id": "_:Ncd8496309a3a48a0b86b57e4694172e9",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1456-01-24"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1456-01-24"
+      }
+    },
+    {
+      "@id": "_:Nc68113c693024a9a89908ec8cc37a14a",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:G00002669"
+      },
+      "rdfs:label": "Niklas von Guttenstein"
+    },
+    {
+      "@id": "_:N70cd21fa02954f5db4846eb73454f470",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:O00000599"
+      },
+      "ps:P39": {
+        "@id": "ri:koenig"
+      },
+      "rdfs:label": "Kg. Ladislaus"
+    }
+  ]
+}

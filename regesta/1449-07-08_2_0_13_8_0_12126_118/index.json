@@ -1,0 +1,90 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1449-07-08_2_0_13_8_0_12126_118",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Ne980564760d04d8ead7dcd41e8d0e0da"
+      }
+    },
+    {
+      "@id": "_:Ne980564760d04d8ead7dcd41e8d0e0da",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N3c8aaf4d92ea4fd4ae4530986704752d"
+      },
+      "ps:P291": {
+        "@id": "_:Ne978a67f48454b5d9995aacd6a89a714"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N0c476ee74060484196786fec99820db2"
+        },
+        {
+          "@id": "_:N45dfb668f7044468ae1771d2e9be946a"
+        }
+      ]
+    },
+    {
+      "@id": "_:Ne978a67f48454b5d9995aacd6a89a714",
+      "https://schema.org#geo": {
+        "@id": "_:N7e3cdedd31a243a382efb5fb2e051950"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q13298"
+      },
+      "rdfs:label": "Graz"
+    },
+    {
+      "@id": "_:N7e3cdedd31a243a382efb5fb2e051950",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.06667",
+      "https://schema.org#longitude": "15.45"
+    },
+    {
+      "@id": "_:N3c8aaf4d92ea4fd4ae4530986704752d",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1449-07-08"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1449-07-08"
+      }
+    },
+    {
+      "@id": "_:N0c476ee74060484196786fec99820db2",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:I00000279"
+      },
+      "ps:P39": {
+        "@id": "ri:graf"
+      },
+      "rdfs:label": "Gf. Diether von Isenburg-Büdingen"
+    },
+    {
+      "@id": "_:N45dfb668f7044468ae1771d2e9be946a",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:C00000330"
+      },
+      "ps:P39": {
+        "@id": "ri:bischof"
+      },
+      "rdfs:label": "Bf. Silvester von Chiemsee"
+    }
+  ]
+}

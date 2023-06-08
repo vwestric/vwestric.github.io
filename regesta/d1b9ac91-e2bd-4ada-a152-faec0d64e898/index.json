@@ -1,0 +1,104 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:d1b9ac91-e2bd-4ada-a152-faec0d64e898",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N5a0594f09015469daeae78e567b2ef49"
+      }
+    },
+    {
+      "@id": "_:N5a0594f09015469daeae78e567b2ef49",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N470b57c1b8c34ba098d1119019dc20c1"
+      },
+      "ps:P291": {
+        "@id": "_:N89b8909eda9e40b4aa348010a5d969c0"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N0a574d11958d45038fd17479d7cc9d9a"
+        },
+        {
+          "@id": "_:N7b1e00faff0949f09ddd1b5ff8dfed47"
+        },
+        {
+          "@id": "_:Nac0255703c67499781aba610c3fd57b6"
+        }
+      ]
+    },
+    {
+      "@id": "_:N89b8909eda9e40b4aa348010a5d969c0",
+      "https://schema.org#geo": {
+        "@id": "_:N0058c1246404421a88a9c6ca07fd2077"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q131612"
+      },
+      "rdfs:label": "Wiener Neustadt"
+    },
+    {
+      "@id": "_:N0058c1246404421a88a9c6ca07fd2077",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.813153",
+      "https://schema.org#longitude": "16.24444"
+    },
+    {
+      "@id": "_:N470b57c1b8c34ba098d1119019dc20c1",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1464-01-23"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1464-01-23"
+      }
+    },
+    {
+      "@id": "_:N0a574d11958d45038fd17479d7cc9d9a",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:W00003211"
+      },
+      "ps:P39": {
+        "@id": "ri:graf"
+      },
+      "rdfs:label": "Gf. Ulrich (V.) von Württemberg"
+    },
+    {
+      "@id": "_:N7b1e00faff0949f09ddd1b5ff8dfed47",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00000565"
+      },
+      "ps:P39": {
+        "@id": "ri:herzog"
+      },
+      "rdfs:label": "Hz. Ludwig (IX.) von Bayern(-Landshut)"
+    },
+    {
+      "@id": "_:Nac0255703c67499781aba610c3fd57b6",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:G00002570"
+      },
+      "ps:P39": {
+        "@id": "ri:bischof"
+      },
+      "rdfs:label": "Bf. Ulrich von Gurk"
+    }
+  ]
+}

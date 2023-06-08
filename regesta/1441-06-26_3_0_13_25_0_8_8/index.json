@@ -1,0 +1,104 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1441-06-26_3_0_13_25_0_8_8",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N8f6de4a7d39a4ed6b2086be28e35b30b"
+      }
+    },
+    {
+      "@id": "_:N8f6de4a7d39a4ed6b2086be28e35b30b",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N9fc7819474614e4a93125e5a7e7276a4"
+      },
+      "ps:P291": {
+        "@id": "_:N2dc343866c4e466a8fca7703cd348a16"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N61e6d32d216c44f885cbb339747c87d6"
+        },
+        {
+          "@id": "_:N20863b14f48d41919df28cd45c029389"
+        },
+        {
+          "@id": "_:N47a83a6b0aad4a988657c8e3bea0faa0"
+        }
+      ]
+    },
+    {
+      "@id": "_:N2dc343866c4e466a8fca7703cd348a16",
+      "https://schema.org#geo": {
+        "@id": "_:N51f3922e7eb949adb9fb4d9b5bcf7be4"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q1741"
+      },
+      "rdfs:label": "Wien"
+    },
+    {
+      "@id": "_:N51f3922e7eb949adb9fb4d9b5bcf7be4",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "48.20849",
+      "https://schema.org#longitude": "16.37208"
+    },
+    {
+      "@id": "_:N9fc7819474614e4a93125e5a7e7276a4",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1441-06-26"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1441-06-26"
+      }
+    },
+    {
+      "@id": "_:N61e6d32d216c44f885cbb339747c87d6",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:T00001172"
+      },
+      "ps:P39": {
+        "@id": "ri:erzbischof"
+      },
+      "rdfs:label": "Eb. Jakob von Trier"
+    },
+    {
+      "@id": "_:N20863b14f48d41919df28cd45c029389",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:M00000305"
+      },
+      "ps:P39": {
+        "@id": "ri:erzbischof"
+      },
+      "rdfs:label": "Eb. Dietrichs von Mainz"
+    },
+    {
+      "@id": "_:N47a83a6b0aad4a988657c8e3bea0faa0",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:K00000431"
+      },
+      "ps:P39": {
+        "@id": "ri:kaiser"
+      },
+      "rdfs:label": "K. Karl IV."
+    }
+  ]
+}

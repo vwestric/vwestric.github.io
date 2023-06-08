@@ -1,0 +1,204 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1453-01-24_1_0_13_5_0_10724_100",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Nc1e7348b0f9844f8ac5fd4e46ec4ba23"
+      }
+    },
+    {
+      "@id": "_:Nc1e7348b0f9844f8ac5fd4e46ec4ba23",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Nbb18277ec46c4819a285246ce7e6377c"
+      },
+      "ps:P291": {
+        "@id": "_:N7361999e3974477ca14a3a2f44c48fbf"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:Na63ad1282f8245c7ab79caf3cde623c0"
+        },
+        {
+          "@id": "_:N1ee15012919745dfb0758d7488a524aa"
+        },
+        {
+          "@id": "_:N7ab3d3a5a3894bf7b6b64333ea9bd02b"
+        },
+        {
+          "@id": "_:N58bcf2696b3948639d7b9b82b679c7d9"
+        },
+        {
+          "@id": "_:N6f00f6f5a683468dbaed048e4be4530b"
+        },
+        {
+          "@id": "_:N9e496c93fe4a4f29832e2a7dcb02aa27"
+        },
+        {
+          "@id": "_:N8a8c99da79bc4f6093030df867813741"
+        },
+        {
+          "@id": "_:Ne1ba319298724b86afd7a019d0f2cc9b"
+        },
+        {
+          "@id": "_:Nab72635a16214c6fb4b26b45bd6f5105"
+        },
+        {
+          "@id": "_:N58afa2e5615e43488cdd839db1f8c1d9"
+        },
+        {
+          "@id": "_:Nd6493aa320aa4450b00907138332d150"
+        }
+      ]
+    },
+    {
+      "@id": "_:N7361999e3974477ca14a3a2f44c48fbf",
+      "https://schema.org#geo": {
+        "@id": "_:Nfe5b414bfe0d4b8a8c131bd1af880dc3"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q131612"
+      },
+      "rdfs:label": "Wiener Neustadt"
+    },
+    {
+      "@id": "_:Nfe5b414bfe0d4b8a8c131bd1af880dc3",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.813153",
+      "https://schema.org#longitude": "16.24444"
+    },
+    {
+      "@id": "_:Nbb18277ec46c4819a285246ce7e6377c",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1453-01-24"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1453-01-24"
+      }
+    },
+    {
+      "@id": "_:Na63ad1282f8245c7ab79caf3cde623c0",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00002248"
+      },
+      "ps:P39": {
+        "@id": "ri:markgraf"
+      },
+      "rdfs:label": "Mgf. Albrecht von Brandenburg"
+    },
+    {
+      "@id": "_:N1ee15012919745dfb0758d7488a524aa",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00000565"
+      },
+      "ps:P39": {
+        "@id": "ri:herzog"
+      },
+      "rdfs:label": "Hz. Ludwig von Bayern(-Landshut)"
+    },
+    {
+      "@id": "_:N7ab3d3a5a3894bf7b6b64333ea9bd02b",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:E00000937"
+      },
+      "ps:P39": {
+        "@id": "ri:bischof"
+      },
+      "rdfs:label": "Bf. Eneas von Siena"
+    },
+    {
+      "@id": "_:N58bcf2696b3948639d7b9b82b679c7d9",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:P00001018"
+      },
+      "ps:P39": {
+        "@id": "ri:pfalzgraf"
+      },
+      "rdfs:label": "Pfgf. Otto (von Mosbach)"
+    },
+    {
+      "@id": "_:N6f00f6f5a683468dbaed048e4be4530b",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00000075"
+      },
+      "ps:P39": {
+        "@id": "ri:markgraf"
+      },
+      "rdfs:label": "Mgf. Karl von Baden"
+    },
+    {
+      "@id": "_:N9e496c93fe4a4f29832e2a7dcb02aa27",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00000099"
+      },
+      "ps:P39": {
+        "@id": "ri:herzog"
+      },
+      "rdfs:label": "Hz. Wilhelm von Sachsen"
+    },
+    {
+      "@id": "_:N8a8c99da79bc4f6093030df867813741",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:O00000786"
+      },
+      "rdfs:label": "Ulrich von Oettingen"
+    },
+    {
+      "@id": "_:Ne1ba319298724b86afd7a019d0f2cc9b",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00005969"
+      },
+      "rdfs:label": "Alwig von Sulz"
+    },
+    {
+      "@id": "_:Nab72635a16214c6fb4b26b45bd6f5105",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:H00002908"
+      },
+      "rdfs:label": "Albrecht von Hohenlohe"
+    },
+    {
+      "@id": "_:N58afa2e5615e43488cdd839db1f8c1d9",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:M00000902"
+      },
+      "rdfs:label": "Konrad von Pappenheim"
+    },
+    {
+      "@id": "_:Nd6493aa320aa4450b00907138332d150",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:F00001023"
+      },
+      "ps:P39": {
+        "@id": "ri:frau"
+      },
+      "rdfs:label": "Hans von Fraunberg"
+    }
+  ]
+}

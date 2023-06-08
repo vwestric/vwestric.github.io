@@ -1,0 +1,115 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1442-07-18_3_0_13_3_0_9380_12",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Nd25401d9f7fd4900b5c02b771f2b6f22"
+      }
+    },
+    {
+      "@id": "_:Nd25401d9f7fd4900b5c02b771f2b6f22",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N43c26b033bbf46f993c946e7357c8cc8"
+      },
+      "ps:P291": {
+        "@id": "_:N5334a1cf8f8946399616ece1ef58a11a"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:Ne667983a35e34f96bde915ecd922e995"
+        },
+        {
+          "@id": "_:N0dc6e5d6d1b94d83ad512e2826a3f9c2"
+        },
+        {
+          "@id": "_:N6eff22bdcabc40bba1d7e58bbbb0fd92"
+        },
+        {
+          "@id": "_:Na039867f6d614a519899c073c38770e5"
+        }
+      ]
+    },
+    {
+      "@id": "_:N5334a1cf8f8946399616ece1ef58a11a",
+      "https://schema.org#geo": {
+        "@id": "_:N479b3bde52624660895f5a6c3c426a91"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q1794"
+      },
+      "rdfs:label": "Frankfurt"
+    },
+    {
+      "@id": "_:N479b3bde52624660895f5a6c3c426a91",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "50.110556",
+      "https://schema.org#longitude": "8.682222"
+    },
+    {
+      "@id": "_:N43c26b033bbf46f993c946e7357c8cc8",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1442-07-18"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1442-07-18"
+      }
+    },
+    {
+      "@id": "_:Ne667983a35e34f96bde915ecd922e995",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:T00001172"
+      },
+      "ps:P39": {
+        "@id": "ri:erzbischof"
+      },
+      "rdfs:label": "Eb. Jakob von Trier"
+    },
+    {
+      "@id": "_:N0dc6e5d6d1b94d83ad512e2826a3f9c2",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:K00001681"
+      },
+      "ps:P39": {
+        "@id": "ri:erzbischof"
+      },
+      "rdfs:label": "Eb. Dietrich von Köln"
+    },
+    {
+      "@id": "_:N6eff22bdcabc40bba1d7e58bbbb0fd92",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:A00001569"
+      },
+      "ps:P39": {
+        "@id": "ri:bischof"
+      },
+      "rdfs:label": "Bf. Peter von Augsburg"
+    },
+    {
+      "@id": "_:Na039867f6d614a519899c073c38770e5",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:W00000940"
+      },
+      "rdfs:label": "Konrad von Weinsberg"
+    }
+  ]
+}

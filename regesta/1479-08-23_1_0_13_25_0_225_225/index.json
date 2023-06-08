@@ -1,0 +1,71 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1479-08-23_1_0_13_25_0_225_225",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N73d6d7c4c3a04bd9bd74f8ef43f6c5cb"
+      }
+    },
+    {
+      "@id": "_:N73d6d7c4c3a04bd9bd74f8ef43f6c5cb",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N6fa451240ef04356a7d5a8caaaceab36"
+      },
+      "ps:P291": {
+        "@id": "_:N51f70c3e318a4df8b460bfb34ede7c1a"
+      },
+      "ps:P3342": {
+        "@id": "_:Nba19fd739f41453096f90cb20661e4fc"
+      }
+    },
+    {
+      "@id": "_:N51f70c3e318a4df8b460bfb34ede7c1a",
+      "https://schema.org#geo": {
+        "@id": "_:N0e63bd7c407d436c8b2b55ea5bc0ce01"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q13298"
+      },
+      "rdfs:label": "Graz"
+    },
+    {
+      "@id": "_:N0e63bd7c407d436c8b2b55ea5bc0ce01",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.06667",
+      "https://schema.org#longitude": "15.45"
+    },
+    {
+      "@id": "_:N6fa451240ef04356a7d5a8caaaceab36",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1479-08-23"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1479-08-23"
+      }
+    },
+    {
+      "@id": "_:Nba19fd739f41453096f90cb20661e4fc",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:I00000279"
+      },
+      "rdfs:label": "Diether von Isenburg"
+    }
+  ]
+}

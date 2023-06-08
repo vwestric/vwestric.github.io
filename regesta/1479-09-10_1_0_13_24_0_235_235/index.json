@@ -1,0 +1,87 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1479-09-10_1_0_13_24_0_235_235",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N8323032d5b1f496eb965905e999bc159"
+      }
+    },
+    {
+      "@id": "_:N8323032d5b1f496eb965905e999bc159",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Ne55579a2f7174ddab843a54abe81898d"
+      },
+      "ps:P291": {
+        "@id": "_:N66059591bb9f48e49be67db98cb37987"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:Nd0198a4dddf14ff0bce4efcd182fa9ac"
+        },
+        {
+          "@id": "_:N89ae81f0cc8b4d76beddc2f640dfd647"
+        }
+      ]
+    },
+    {
+      "@id": "_:N66059591bb9f48e49be67db98cb37987",
+      "https://schema.org#geo": {
+        "@id": "_:N6e6df186ffbb4bea90fa3536329c7bf3"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q13298"
+      },
+      "rdfs:label": "Graz"
+    },
+    {
+      "@id": "_:N6e6df186ffbb4bea90fa3536329c7bf3",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.06667",
+      "https://schema.org#longitude": "15.45"
+    },
+    {
+      "@id": "_:Ne55579a2f7174ddab843a54abe81898d",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1479-09-10"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1479-09-10"
+      }
+    },
+    {
+      "@id": "_:Nd0198a4dddf14ff0bce4efcd182fa9ac",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:P00001851"
+      },
+      "ps:P39": {
+        "@id": "ri:herzog"
+      },
+      "rdfs:label": "Hz. Bogislaw (X.) von Pommern (-Stettin)"
+    },
+    {
+      "@id": "_:N89ae81f0cc8b4d76beddc2f640dfd647",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:L00001584"
+      },
+      "rdfs:label": "Herbord von der Linden"
+    }
+  ]
+}

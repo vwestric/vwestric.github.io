@@ -1,0 +1,90 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1465-06-24_1_0_13_10_0_13215_255",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Nd5d32363a8c842049bc8d6cf732e6244"
+      }
+    },
+    {
+      "@id": "_:Nd5d32363a8c842049bc8d6cf732e6244",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Na613813060a54b24b65610abc462da4d"
+      },
+      "ps:P291": {
+        "@id": "_:Ndd088a5dbdee47a280292c271ab65319"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N7d63051fb85446b8a087bc7731f50833"
+        },
+        {
+          "@id": "_:N5dcfd3216ded47d283162cf7814fad95"
+        }
+      ]
+    },
+    {
+      "@id": "_:Ndd088a5dbdee47a280292c271ab65319",
+      "https://schema.org#geo": {
+        "@id": "_:Nc41f74e9c0254712b3bd53ca83cd6bde"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q131612"
+      },
+      "rdfs:label": "Wiener Neustadt"
+    },
+    {
+      "@id": "_:Nc41f74e9c0254712b3bd53ca83cd6bde",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.813153",
+      "https://schema.org#longitude": "16.24444"
+    },
+    {
+      "@id": "_:Na613813060a54b24b65610abc462da4d",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1465-06-24"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1465-06-24"
+      }
+    },
+    {
+      "@id": "_:N7d63051fb85446b8a087bc7731f50833",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00000065"
+      },
+      "ps:P39": {
+        "@id": "ri:kurfuerst"
+      },
+      "rdfs:label": "Kf. Ernst von Sachsen"
+    },
+    {
+      "@id": "_:N5dcfd3216ded47d283162cf7814fad95",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00000099"
+      },
+      "ps:P39": {
+        "@id": "ri:herzog"
+      },
+      "rdfs:label": "Hz. Wilhelm (III.) von Sachsen"
+    }
+  ]
+}

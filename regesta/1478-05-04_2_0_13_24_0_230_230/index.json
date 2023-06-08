@@ -1,0 +1,71 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1478-05-04_2_0_13_24_0_230_230",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Nd5bcc8746a004a00827a826e5a9bc89a"
+      }
+    },
+    {
+      "@id": "_:Nd5bcc8746a004a00827a826e5a9bc89a",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N5435aa989c47435bbaf3464431909fb8"
+      },
+      "ps:P291": {
+        "@id": "_:Nbac9722e424e4977b595bfe04637a140"
+      },
+      "ps:P3342": {
+        "@id": "_:Nc11ad6a4ed5c44778cb23ccc26189b5d"
+      }
+    },
+    {
+      "@id": "_:Nbac9722e424e4977b595bfe04637a140",
+      "https://schema.org#geo": {
+        "@id": "_:N664b70898f21425889d3638857860084"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q13298"
+      },
+      "rdfs:label": "Graz"
+    },
+    {
+      "@id": "_:N664b70898f21425889d3638857860084",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.06667",
+      "https://schema.org#longitude": "15.45"
+    },
+    {
+      "@id": "_:N5435aa989c47435bbaf3464431909fb8",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1478-05-04"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1478-05-04"
+      }
+    },
+    {
+      "@id": "_:Nc11ad6a4ed5c44778cb23ccc26189b5d",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:L00001584"
+      },
+      "rdfs:label": "Herbord von der Linden"
+    }
+  ]
+}

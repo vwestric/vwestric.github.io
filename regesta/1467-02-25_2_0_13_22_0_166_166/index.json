@@ -1,0 +1,84 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1467-02-25_2_0_13_22_0_166_166",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N634cd4e32a9b4e7d8e121b16b594a63f"
+      }
+    },
+    {
+      "@id": "_:N634cd4e32a9b4e7d8e121b16b594a63f",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N554b50df045c4289beea0f7dc315f7d7"
+      },
+      "ps:P291": {
+        "@id": "_:Nf1c275dc54474ce28383bc6c565682a2"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:Nc7b4da8eff8649459463cbb550cfa44e"
+        },
+        {
+          "@id": "_:N44f38c697e0a4d6aa8cf54a866c0dcd4"
+        }
+      ]
+    },
+    {
+      "@id": "_:Nf1c275dc54474ce28383bc6c565682a2",
+      "https://schema.org#geo": {
+        "@id": "_:N6e2b373f07b748889b742b6adfc1773f"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q131612"
+      },
+      "rdfs:label": "Wiener Neustadt"
+    },
+    {
+      "@id": "_:N6e2b373f07b748889b742b6adfc1773f",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.813153",
+      "https://schema.org#longitude": "16.24444"
+    },
+    {
+      "@id": "_:N554b50df045c4289beea0f7dc315f7d7",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1467-02-25"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1467-02-25"
+      }
+    },
+    {
+      "@id": "_:Nc7b4da8eff8649459463cbb550cfa44e",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:N00000562"
+      },
+      "rdfs:label": "Melchior von Neuneck, Landkomtur der Ballei des Deutschen Ordens in Franken und Komtur von Ellingen"
+    },
+    {
+      "@id": "_:N44f38c697e0a4d6aa8cf54a866c0dcd4",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:P00000358"
+      },
+      "rdfs:label": "Anton Paumgartner"
+    }
+  ]
+}

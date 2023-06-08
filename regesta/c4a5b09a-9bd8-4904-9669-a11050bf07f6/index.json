@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:c4a5b09a-9bd8-4904-9669-a11050bf07f6",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N236741118c7c44219c9ce9fd3c8b9cc1"
+      }
+    },
+    {
+      "@id": "_:N236741118c7c44219c9ce9fd3c8b9cc1",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N14d1fd0401a84108abe323dfa2a96577"
+      },
+      "ps:P291": {
+        "@id": "_:N267bdb1269ef4fbcad2b815660ac9bae"
+      },
+      "ps:P3342": {
+        "@id": "_:N5cc33086d15f4e4fa69193059feb33c7"
+      }
+    },
+    {
+      "@id": "_:N267bdb1269ef4fbcad2b815660ac9bae",
+      "https://schema.org#geo": {
+        "@id": "_:Nce31fddc8e06445bbc094443dacf466a"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q264999"
+      },
+      "rdfs:label": "Ortenburg"
+    },
+    {
+      "@id": "_:Nce31fddc8e06445bbc094443dacf466a",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "48.54597",
+      "https://schema.org#longitude": "13.2225"
+    },
+    {
+      "@id": "_:N14d1fd0401a84108abe323dfa2a96577",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1457-08-10"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1457-08-10"
+      }
+    },
+    {
+      "@id": "_:N5cc33086d15f4e4fa69193059feb33c7",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00003264"
+      },
+      "ps:P39": {
+        "@id": "ri:herzog"
+      },
+      "rdfs:label": "Hz. Philipp von Burgund"
+    }
+  ]
+}

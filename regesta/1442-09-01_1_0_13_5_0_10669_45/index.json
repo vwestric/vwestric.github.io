@@ -1,0 +1,90 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1442-09-01_1_0_13_5_0_10669_45",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N98b4588757f94bc2829de6021c78485e"
+      }
+    },
+    {
+      "@id": "_:N98b4588757f94bc2829de6021c78485e",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N5f64abc9d5ab4c3594d50a81b9b14421"
+      },
+      "ps:P291": {
+        "@id": "_:N060ea0334c594fbeb9e9b0226a1aa793"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:Nb2c8d2f1250043e7bf41b3d6a7ce8b38"
+        },
+        {
+          "@id": "_:Ndb021d301fcb4178a3bbb3a7f09518dd"
+        }
+      ]
+    },
+    {
+      "@id": "_:N060ea0334c594fbeb9e9b0226a1aa793",
+      "https://schema.org#geo": {
+        "@id": "_:N2357093209b44dfa925290924ead6eb2"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q489911"
+      },
+      "rdfs:label": "Breisach"
+    },
+    {
+      "@id": "_:N2357093209b44dfa925290924ead6eb2",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "48.028889",
+      "https://schema.org#longitude": "7.58"
+    },
+    {
+      "@id": "_:N5f64abc9d5ab4c3594d50a81b9b14421",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1442-09-01"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1442-09-01"
+      }
+    },
+    {
+      "@id": "_:Nb2c8d2f1250043e7bf41b3d6a7ce8b38",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:T00001172"
+      },
+      "ps:P39": {
+        "@id": "ri:erzbischof"
+      },
+      "rdfs:label": "Eb. Jakob von Trier"
+    },
+    {
+      "@id": "_:Ndb021d301fcb4178a3bbb3a7f09518dd",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:N00000130"
+      },
+      "ps:P39": {
+        "@id": "ri:graf"
+      },
+      "rdfs:label": "Gf. Philipp von Nassau"
+    }
+  ]
+}

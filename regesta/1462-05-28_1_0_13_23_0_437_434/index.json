@@ -1,0 +1,120 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1462-05-28_1_0_13_23_0_437_434",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Ne5142246ddf94d449261fab6f9e91db1"
+      }
+    },
+    {
+      "@id": "_:Ne5142246ddf94d449261fab6f9e91db1",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N0dbd8d2aed2b421bb5e271481e7cbd65"
+      },
+      "ps:P291": {
+        "@id": "_:N17a412dc8fd04d08abe0aead537ba68d"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N007b444b8c6f44f2b40e86adb2436ad6"
+        },
+        {
+          "@id": "_:N9f65875c8c46468db4b6fafaf037ec49"
+        },
+        {
+          "@id": "_:N37fd8baa202c438092d040adf76e63a5"
+        },
+        {
+          "@id": "_:N3b62f468e46c46c38ab12aeb809c59a5"
+        }
+      ]
+    },
+    {
+      "@id": "_:N17a412dc8fd04d08abe0aead537ba68d",
+      "https://schema.org#geo": {
+        "@id": "_:N21fa7be9106b46d19a415220ab1c1cef"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q13298"
+      },
+      "rdfs:label": "Graz"
+    },
+    {
+      "@id": "_:N21fa7be9106b46d19a415220ab1c1cef",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.06667",
+      "https://schema.org#longitude": "15.45"
+    },
+    {
+      "@id": "_:N0dbd8d2aed2b421bb5e271481e7cbd65",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1462-05-28"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1462-05-28"
+      }
+    },
+    {
+      "@id": "_:N007b444b8c6f44f2b40e86adb2436ad6",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:A00001569"
+      },
+      "ps:P39": [
+        {
+          "@id": "ri:kardinal"
+        },
+        {
+          "@id": "ri:bischof"
+        }
+      ],
+      "rdfs:label": "Kardinal Bf. Peter von Augsburg"
+    },
+    {
+      "@id": "_:N9f65875c8c46468db4b6fafaf037ec49",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:F00001020"
+      },
+      "ps:P39": {
+        "@id": "ri:frau"
+      },
+      "rdfs:label": "Hans Fraunberger von Prunn"
+    },
+    {
+      "@id": "_:N37fd8baa202c438092d040adf76e63a5",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00000565"
+      },
+      "ps:P39": {
+        "@id": "ri:herzog"
+      },
+      "rdfs:label": "Hz. Ludwig (IX.) von Bayern (-Landshut)"
+    },
+    {
+      "@id": "_:N3b62f468e46c46c38ab12aeb809c59a5",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00000596"
+      },
+      "rdfs:label": "Sigmund von Bayern"
+    }
+  ]
+}

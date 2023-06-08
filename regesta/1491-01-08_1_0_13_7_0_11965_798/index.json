@@ -1,0 +1,95 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1491-01-08_1_0_13_7_0_11965_798",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Nba15bed1049f456d9ae9361be7f3299a"
+      }
+    },
+    {
+      "@id": "_:Nba15bed1049f456d9ae9361be7f3299a",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N4400823b877e45b4afb1dc737d60de18"
+      },
+      "ps:P291": {
+        "@id": "_:N99821114145d4daeb99022d0beae3135"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N2515837c962b4ab19f5507a3ed7df8a5"
+        },
+        {
+          "@id": "_:N4f2eb8ad953e4ad0a1009f43910b8121"
+        }
+      ]
+    },
+    {
+      "@id": "_:N99821114145d4daeb99022d0beae3135",
+      "https://schema.org#geo": {
+        "@id": "_:N284e9413d1aa4d7999756c013246004b"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q41329"
+      },
+      "rdfs:label": "Linz"
+    },
+    {
+      "@id": "_:N284e9413d1aa4d7999756c013246004b",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "48.303056",
+      "https://schema.org#longitude": "14.290556"
+    },
+    {
+      "@id": "_:N4400823b877e45b4afb1dc737d60de18",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1491-01-08"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1491-01-08"
+      }
+    },
+    {
+      "@id": "_:N2515837c962b4ab19f5507a3ed7df8a5",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00001765"
+      },
+      "ps:P39": [
+        {
+          "@id": "ri:lehrer"
+        },
+        {
+          "@id": "ri:dechant"
+        }
+      ],
+      "rdfs:label": "Johann von Bockum, Lehrer der Rechte, Dechant zu Düsseldorf"
+    },
+    {
+      "@id": "_:N4f2eb8ad953e4ad0a1009f43910b8121",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:M00003137"
+      },
+      "ps:P39": {
+        "@id": "ri:buerger"
+      },
+      "rdfs:label": "Bürger Johann Muysgin"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1475-08-09_1_0_13_15_0_308_308",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N5600ee1b85ce463c81ae1c2127a259e1"
+      }
+    },
+    {
+      "@id": "_:N5600ee1b85ce463c81ae1c2127a259e1",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N8e0799e56e73483b8e028438e66f21fb"
+      },
+      "ps:P291": {
+        "@id": "_:Ne641b6e26dd545808db86e8642c59b12"
+      }
+    },
+    {
+      "@id": "_:Ne641b6e26dd545808db86e8642c59b12",
+      "https://schema.org#geo": {
+        "@id": "_:N262e5e7eb73b405fae1bab6da2d40b6c"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q365"
+      },
+      "rdfs:label": "Köln"
+    },
+    {
+      "@id": "_:N262e5e7eb73b405fae1bab6da2d40b6c",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "50.93333",
+      "https://schema.org#longitude": "6.95"
+    },
+    {
+      "@id": "_:N8e0799e56e73483b8e028438e66f21fb",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1475-08-09"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1475-08-09"
+      }
+    }
+  ]
+}

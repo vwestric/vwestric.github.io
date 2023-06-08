@@ -1,0 +1,112 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1487-04-23_1_0_13_10_0_13497_537",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N51c8b42e99c1428b8533d48301eda881"
+      }
+    },
+    {
+      "@id": "_:N51c8b42e99c1428b8533d48301eda881",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Nbffcb7844fc1489199f06e87be548b54"
+      },
+      "ps:P291": {
+        "@id": "_:Na1da4b3a112647deaeae8377ad4d3b8d"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N9b54ccb846af4adaa2caf0d2e4bab914"
+        },
+        {
+          "@id": "_:Nf2c43ed1182642ee91969d1b63d355c4"
+        },
+        {
+          "@id": "_:Nafd1c93db90a434195cb98504caf1270"
+        },
+        {
+          "@id": "_:Na73562a9f76e4f8aac32d0a0a9c74216"
+        }
+      ]
+    },
+    {
+      "@id": "_:Na1da4b3a112647deaeae8377ad4d3b8d",
+      "https://schema.org#geo": {
+        "@id": "_:N1b8feebca246404f82a800f606b66f11"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q2090"
+      },
+      "rdfs:label": "Nürnberg"
+    },
+    {
+      "@id": "_:N1b8feebca246404f82a800f606b66f11",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "49.45421",
+      "https://schema.org#longitude": "11.07752"
+    },
+    {
+      "@id": "_:Nbffcb7844fc1489199f06e87be548b54",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1487-04-23"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1487-04-23"
+      }
+    },
+    {
+      "@id": "_:N9b54ccb846af4adaa2caf0d2e4bab914",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00000085"
+      },
+      "ps:P39": {
+        "@id": "ri:kurfuerst"
+      },
+      "rdfs:label": "Kf. Friedrich (III.) von Sachsen"
+    },
+    {
+      "@id": "_:Nf2c43ed1182642ee91969d1b63d355c4",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00000064"
+      },
+      "ps:P39": {
+        "@id": "ri:herzog"
+      },
+      "rdfs:label": "Hz. Albrecht von Sachsen"
+    },
+    {
+      "@id": "_:Nafd1c93db90a434195cb98504caf1270",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00000099"
+      },
+      "rdfs:label": "Wilhelm (III.) von Sachsen"
+    },
+    {
+      "@id": "_:Na73562a9f76e4f8aac32d0a0a9c74216",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:K00000431"
+      },
+      "rdfs:label": "Karl IV."
+    }
+  ]
+}

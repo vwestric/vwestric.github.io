@@ -1,0 +1,60 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:a462942c-fa61-4c11-a5cf-c5da886fd9fd",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Nacc13b3e24094587a16aa393a0ef3665"
+      }
+    },
+    {
+      "@id": "_:Nacc13b3e24094587a16aa393a0ef3665",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N488645470fa74868a85c9e69774ca767"
+      },
+      "ps:P291": {
+        "@id": "_:N1828c734a35347a9ac1a44da37e1c3ad"
+      }
+    },
+    {
+      "@id": "_:N1828c734a35347a9ac1a44da37e1c3ad",
+      "https://schema.org#geo": {
+        "@id": "_:N0787b21547d2421e9e9a35921ff9f6c1"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q15917"
+      },
+      "rdfs:label": "Feistritz"
+    },
+    {
+      "@id": "_:N0787b21547d2421e9e9a35921ff9f6c1",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "46.39278",
+      "https://schema.org#longitude": "15.57444"
+    },
+    {
+      "@id": "_:N488645470fa74868a85c9e69774ca767",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1457-03-18"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1457-03-18"
+      }
+    }
+  ]
+}

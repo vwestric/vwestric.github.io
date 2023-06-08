@@ -1,0 +1,104 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:cebeff6c-d404-47a7-95f3-6c56641eb261",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Nb06a35295e5f408dbc6f5db6e244efaa"
+      }
+    },
+    {
+      "@id": "_:Nb06a35295e5f408dbc6f5db6e244efaa",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N51b767f335c14d7ca96689bdc306ffcf"
+      },
+      "ps:P291": {
+        "@id": "_:N6810eb69f1ac43079526b022388c5468"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:Nc784b97852de4223903dea2bceec887d"
+        },
+        {
+          "@id": "_:N50b12d53470441e7b5fd606450b43d83"
+        },
+        {
+          "@id": "_:N3a05c0820a89450688ac5f208c3f33c7"
+        }
+      ]
+    },
+    {
+      "@id": "_:N6810eb69f1ac43079526b022388c5468",
+      "https://schema.org#geo": {
+        "@id": "_:N80ddb477a7184265b13964881735f54f"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q13298"
+      },
+      "rdfs:label": "Graz"
+    },
+    {
+      "@id": "_:N80ddb477a7184265b13964881735f54f",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.06667",
+      "https://schema.org#longitude": "15.45"
+    },
+    {
+      "@id": "_:N51b767f335c14d7ca96689bdc306ffcf",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1462-05-26"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1462-05-26"
+      }
+    },
+    {
+      "@id": "_:Nc784b97852de4223903dea2bceec887d",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:W00003211"
+      },
+      "ps:P39": {
+        "@id": "ri:graf"
+      },
+      "rdfs:label": "Gf. Ulrich (V.) von Württemberg"
+    },
+    {
+      "@id": "_:N50b12d53470441e7b5fd606450b43d83",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00000075"
+      },
+      "ps:P39": {
+        "@id": "ri:markgraf"
+      },
+      "rdfs:label": "Mgf. Karl (I.) von Baden"
+    },
+    {
+      "@id": "_:N3a05c0820a89450688ac5f208c3f33c7",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00002248"
+      },
+      "ps:P39": {
+        "@id": "ri:markgraf"
+      },
+      "rdfs:label": "Mgf. Albrecht von Brandenburg"
+    }
+  ]
+}

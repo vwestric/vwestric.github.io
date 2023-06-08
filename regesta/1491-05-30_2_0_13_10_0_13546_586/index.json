@@ -1,0 +1,71 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1491-05-30_2_0_13_10_0_13546_586",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N7b4a3d8d4ec94e2184955eddbe8cf13f"
+      }
+    },
+    {
+      "@id": "_:N7b4a3d8d4ec94e2184955eddbe8cf13f",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Na3b1f5bd435045188bfd82902aed75df"
+      },
+      "ps:P291": {
+        "@id": "_:N4d7da52f40aa4da4ad54804cc2a1b70f"
+      },
+      "ps:P3342": {
+        "@id": "_:Nb43e2239305e407a8bd73b5665b72656"
+      }
+    },
+    {
+      "@id": "_:N4d7da52f40aa4da4ad54804cc2a1b70f",
+      "https://schema.org#geo": {
+        "@id": "_:N08f34f95face48a69a9da6094f64a598"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q41329"
+      },
+      "rdfs:label": "Linz"
+    },
+    {
+      "@id": "_:N08f34f95face48a69a9da6094f64a598",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "48.303056",
+      "https://schema.org#longitude": "14.290556"
+    },
+    {
+      "@id": "_:Na3b1f5bd435045188bfd82902aed75df",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1491-05-30"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1491-05-30"
+      }
+    },
+    {
+      "@id": "_:Nb43e2239305e407a8bd73b5665b72656",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:A00000955"
+      },
+      "rdfs:label": "Fürst Waldemar (VI.) von Anhalt (-Köthen)"
+    }
+  ]
+}

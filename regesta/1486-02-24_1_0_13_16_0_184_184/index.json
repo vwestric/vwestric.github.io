@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1486-02-24_1_0_13_16_0_184_184",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N30500e878bef408ab03a9ad5b278f1e9"
+      }
+    },
+    {
+      "@id": "_:N30500e878bef408ab03a9ad5b278f1e9",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Nb22eaad1e8aa41cfbd7532b660f15dfb"
+      },
+      "ps:P291": {
+        "@id": "_:Ndd237859db654f46a9cebdc801c8804f"
+      },
+      "ps:P3342": {
+        "@id": "_:N74a3ea555e00445b97bdb6a2019aa40a"
+      }
+    },
+    {
+      "@id": "_:Ndd237859db654f46a9cebdc801c8804f",
+      "https://schema.org#geo": {
+        "@id": "_:N8cdb4cb0febb49aba3b83527c31497de"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q1794"
+      },
+      "rdfs:label": "Frankfurt"
+    },
+    {
+      "@id": "_:N8cdb4cb0febb49aba3b83527c31497de",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "50.110556",
+      "https://schema.org#longitude": "8.682222"
+    },
+    {
+      "@id": "_:Nb22eaad1e8aa41cfbd7532b660f15dfb",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1486-02-24"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1486-02-24"
+      }
+    },
+    {
+      "@id": "_:N74a3ea555e00445b97bdb6a2019aa40a",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00000064"
+      },
+      "ps:P39": {
+        "@id": "ri:herzog"
+      },
+      "rdfs:label": "Hz. Albrecht von Sachsen"
+    }
+  ]
+}

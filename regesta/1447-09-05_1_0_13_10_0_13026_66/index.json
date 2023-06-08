@@ -1,0 +1,90 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1447-09-05_1_0_13_10_0_13026_66",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N834c3a736a4043bcb92d3ca316e3597b"
+      }
+    },
+    {
+      "@id": "_:N834c3a736a4043bcb92d3ca316e3597b",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Ndb5d8fac464e426190986bd9e9f0d049"
+      },
+      "ps:P291": {
+        "@id": "_:N34335b4e24804e54a634d2a3459a8faf"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N093bb6bd990b4d92a84b8ccb3bef26a0"
+        },
+        {
+          "@id": "_:N7b5e701360904365827f11e32b44b301"
+        }
+      ]
+    },
+    {
+      "@id": "_:N34335b4e24804e54a634d2a3459a8faf",
+      "https://schema.org#geo": {
+        "@id": "_:Ne72d37052d0e49d78c4530a008196b53"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q1741"
+      },
+      "rdfs:label": "Wien"
+    },
+    {
+      "@id": "_:Ne72d37052d0e49d78c4530a008196b53",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "48.20849",
+      "https://schema.org#longitude": "16.37208"
+    },
+    {
+      "@id": "_:Ndb5d8fac464e426190986bd9e9f0d049",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1447-09-05"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1447-09-05"
+      }
+    },
+    {
+      "@id": "_:N093bb6bd990b4d92a84b8ccb3bef26a0",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:H00002093"
+      },
+      "ps:P39": {
+        "@id": "ri:landgraf"
+      },
+      "rdfs:label": "Ldgf. Ludwig (I.) von Hessen"
+    },
+    {
+      "@id": "_:N7b5e701360904365827f11e32b44b301",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00000076"
+      },
+      "ps:P39": {
+        "@id": "ri:kurfuerst"
+      },
+      "rdfs:label": "Kf. Friedrich (II.) von Sachsen"
+    }
+  ]
+}

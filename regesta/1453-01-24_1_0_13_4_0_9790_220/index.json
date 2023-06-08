@@ -1,0 +1,90 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1453-01-24_1_0_13_4_0_9790_220",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Na148bac29d9f4c5ebbbeb4127869589c"
+      }
+    },
+    {
+      "@id": "_:Na148bac29d9f4c5ebbbeb4127869589c",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Ne1240ad1dcca4ceeac019bcb4764abb2"
+      },
+      "ps:P291": {
+        "@id": "_:Nf2ed8d01a260429dae00395c82d5917d"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N8ec00630d08f40b1be5277f139d023da"
+        },
+        {
+          "@id": "_:N219ff215352042b6965237fe3a1bb6f0"
+        }
+      ]
+    },
+    {
+      "@id": "_:Nf2ed8d01a260429dae00395c82d5917d",
+      "https://schema.org#geo": {
+        "@id": "_:Na3cc0830803149dc99e6f7b08c53a026"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q131612"
+      },
+      "rdfs:label": "Wiener Neustadt"
+    },
+    {
+      "@id": "_:Na3cc0830803149dc99e6f7b08c53a026",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.813153",
+      "https://schema.org#longitude": "16.24444"
+    },
+    {
+      "@id": "_:Ne1240ad1dcca4ceeac019bcb4764abb2",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1453-01-24"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1453-01-24"
+      }
+    },
+    {
+      "@id": "_:N8ec00630d08f40b1be5277f139d023da",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00003529"
+      },
+      "ps:P39": {
+        "@id": "ri:koenig"
+      },
+      "rdfs:label": "Kg. Sigmund"
+    },
+    {
+      "@id": "_:N219ff215352042b6965237fe3a1bb6f0",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00002265"
+      },
+      "ps:P39": {
+        "@id": "ri:markgraf"
+      },
+      "rdfs:label": "Mgf. Friedrich von Brandenburg"
+    }
+  ]
+}

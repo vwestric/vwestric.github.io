@@ -1,0 +1,71 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1470-05-27_1_0_13_27_0_48_48",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Nee996ed9406645b9b55d4221cd1ce82f"
+      }
+    },
+    {
+      "@id": "_:Nee996ed9406645b9b55d4221cd1ce82f",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N70fccd0934e44a39bd5ebcb22571f533"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N94ee09238de1416fa7a8d0d78ba93550"
+        },
+        {
+          "@id": "_:Nd71155a9df424ef0ac35beb4dbbe8ed1"
+        }
+      ]
+    },
+    {
+      "@id": "_:N70fccd0934e44a39bd5ebcb22571f533",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1470-05-27"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1470-05-27"
+      }
+    },
+    {
+      "@id": "_:N94ee09238de1416fa7a8d0d78ba93550",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:G00001632"
+      },
+      "ps:P39": {
+        "@id": "ri:graf"
+      },
+      "rdfs:label": "Wilhelm Graf"
+    },
+    {
+      "@id": "_:Nd71155a9df424ef0ac35beb4dbbe8ed1",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:G00001632"
+      },
+      "ps:P39": {
+        "@id": "ri:graf"
+      },
+      "rdfs:label": "Wilhelm Graf"
+    }
+  ]
+}

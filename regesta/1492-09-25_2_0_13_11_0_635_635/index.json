@@ -1,0 +1,132 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1492-09-25_2_0_13_11_0_635_635",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Nfcc532de335d47a28da936128ed2d4b2"
+      }
+    },
+    {
+      "@id": "_:Nfcc532de335d47a28da936128ed2d4b2",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N43125bb2488849ec949ae87d5db861c0"
+      },
+      "ps:P291": {
+        "@id": "_:Nce1b15f6b8334e369c8bb2909e65969c"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N238ea4011d0b4b1ab32b376da650a139"
+        },
+        {
+          "@id": "_:N0e9240c530444984ac1f389b16a7fd66"
+        },
+        {
+          "@id": "_:Nfc3559c954ce4000ae74756edcb42584"
+        },
+        {
+          "@id": "_:N057e5794bd574f31a2bd0c3f8d429051"
+        },
+        {
+          "@id": "_:N424e516bd4c84bbdbc9cbe9f1e0568e6"
+        }
+      ]
+    },
+    {
+      "@id": "_:Nce1b15f6b8334e369c8bb2909e65969c",
+      "https://schema.org#geo": {
+        "@id": "_:N3a1540c8fa0c4f6fa1d406ef7d755fdf"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q41329"
+      },
+      "rdfs:label": "Linz"
+    },
+    {
+      "@id": "_:N3a1540c8fa0c4f6fa1d406ef7d755fdf",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "48.303056",
+      "https://schema.org#longitude": "14.290556"
+    },
+    {
+      "@id": "_:N43125bb2488849ec949ae87d5db861c0",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1492-09-25"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1492-09-25"
+      }
+    },
+    {
+      "@id": "_:N238ea4011d0b4b1ab32b376da650a139",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:M00000078"
+      },
+      "ps:P39": {
+        "@id": "ri:erzbischof"
+      },
+      "rdfs:label": "Eb. Ernst von Magdeburg"
+    },
+    {
+      "@id": "_:N0e9240c530444984ac1f389b16a7fd66",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:F00000907"
+      },
+      "ps:P39": {
+        "@id": "ri:koenig"
+      },
+      "rdfs:label": "Kg. (Karl VIII.) von Frankreich"
+    },
+    {
+      "@id": "_:Nfc3559c954ce4000ae74756edcb42584",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:M00001151"
+      },
+      "ps:P39": {
+        "@id": "ri:koenig"
+      },
+      "rdfs:label": "Kg. Maximilian"
+    },
+    {
+      "@id": "_:N057e5794bd574f31a2bd0c3f8d429051",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00002275"
+      },
+      "ps:P39": {
+        "@id": "ri:kurfuerst"
+      },
+      "rdfs:label": "Kf. Johann von Brandenburg"
+    },
+    {
+      "@id": "_:N424e516bd4c84bbdbc9cbe9f1e0568e6",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:M00001687"
+      },
+      "ps:P39": {
+        "@id": "ri:bischof"
+      },
+      "rdfs:label": "Bf. (Thilo) von Merseburg"
+    }
+  ]
+}

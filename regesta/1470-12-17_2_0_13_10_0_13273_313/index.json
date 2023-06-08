@@ -1,0 +1,87 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1470-12-17_2_0_13_10_0_13273_313",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N78e6bfab8cf64927a139014cd97bfa20"
+      }
+    },
+    {
+      "@id": "_:N78e6bfab8cf64927a139014cd97bfa20",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Na2bff66feadd42b0b265c1be67aeaf9d"
+      },
+      "ps:P291": {
+        "@id": "_:Na7f7fa4d24ea4e768f00724732a8b825"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:Nb7bcf71c4b26485791acee3372499858"
+        },
+        {
+          "@id": "_:Ne64416cb2d0c4fcfbf3094d2809fd232"
+        }
+      ]
+    },
+    {
+      "@id": "_:Na7f7fa4d24ea4e768f00724732a8b825",
+      "https://schema.org#geo": {
+        "@id": "_:N7b56672b9cdb4cd88a02d62ed49bb9f2"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q13298"
+      },
+      "rdfs:label": "Graz"
+    },
+    {
+      "@id": "_:N7b56672b9cdb4cd88a02d62ed49bb9f2",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.06667",
+      "https://schema.org#longitude": "15.45"
+    },
+    {
+      "@id": "_:Na2bff66feadd42b0b265c1be67aeaf9d",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1470-12-17"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1470-12-17"
+      }
+    },
+    {
+      "@id": "_:Nb7bcf71c4b26485791acee3372499858",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00002248"
+      },
+      "ps:P39": {
+        "@id": "ri:kurfuerst"
+      },
+      "rdfs:label": "Kf. Albrechts von Brandenburg"
+    },
+    {
+      "@id": "_:Ne64416cb2d0c4fcfbf3094d2809fd232",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:P00001852"
+      },
+      "rdfs:label": "Wartislaw (X.) von (Pommern-) Wolgast und Barth"
+    }
+  ]
+}

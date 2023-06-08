@@ -1,0 +1,84 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1455-06-06_1_0_13_19_0_532_530",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N492422240ba04a5a8d221df623dbe30c"
+      }
+    },
+    {
+      "@id": "_:N492422240ba04a5a8d221df623dbe30c",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N2e2ba4ce9bab43e288c3cad2985a8b65"
+      },
+      "ps:P291": {
+        "@id": "_:Nccafcad0e939400d84f81788ff441810"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N44dc3b9382b9495d9a6494f1c373b039"
+        },
+        {
+          "@id": "_:Nce17b10dbd3d4646a92400716c0b17a4"
+        }
+      ]
+    },
+    {
+      "@id": "_:Nccafcad0e939400d84f81788ff441810",
+      "https://schema.org#geo": {
+        "@id": "_:N11e1d71f6fc44260990812907e20ee7d"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q131612"
+      },
+      "rdfs:label": "Wiener Neustadt"
+    },
+    {
+      "@id": "_:N11e1d71f6fc44260990812907e20ee7d",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.813153",
+      "https://schema.org#longitude": "16.24444"
+    },
+    {
+      "@id": "_:N2e2ba4ce9bab43e288c3cad2985a8b65",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1455-06-06"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1455-06-06"
+      }
+    },
+    {
+      "@id": "_:N44dc3b9382b9495d9a6494f1c373b039",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:W00000308"
+      },
+      "rdfs:label": "Hans Waldstromer"
+    },
+    {
+      "@id": "_:Nce17b10dbd3d4646a92400716c0b17a4",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:P00001107"
+      },
+      "rdfs:label": "Berthold Pfinzing"
+    }
+  ]
+}

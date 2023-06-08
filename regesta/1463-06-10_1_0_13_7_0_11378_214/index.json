@@ -1,0 +1,139 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1463-06-10_1_0_13_7_0_11378_214",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N39a8c334b9674a738b0ee53c031601da"
+      }
+    },
+    {
+      "@id": "_:N39a8c334b9674a738b0ee53c031601da",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N07e68f09c4a94007b996909b9e87cc88"
+      },
+      "ps:P291": {
+        "@id": "_:N8f90d03433a646edb4ab2dec7f8c933e"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N6b9d66a1f04e4f73af868efeb1a5447d"
+        },
+        {
+          "@id": "_:Ne4c5c83f88db47e5ac50a7810d9ae6b4"
+        },
+        {
+          "@id": "_:N9f57a0f55e8d41c38dbeeda252cfeb60"
+        },
+        {
+          "@id": "_:N6d82f73827b944f98b8caddb26cbc8c9"
+        },
+        {
+          "@id": "_:Nd4bf59946b4a442f8a3f6c88964cc3b0"
+        },
+        {
+          "@id": "_:N1aa7575085834edcbc4c52a8cfea8641"
+        },
+        {
+          "@id": "_:Ned631b61748f493094f3c7b0857d0c89"
+        }
+      ]
+    },
+    {
+      "@id": "_:N8f90d03433a646edb4ab2dec7f8c933e",
+      "https://schema.org#geo": {
+        "@id": "_:N0d7b9396faff45b4a971743c99203baa"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q131612"
+      },
+      "rdfs:label": "Wiener Neustadt"
+    },
+    {
+      "@id": "_:N0d7b9396faff45b4a971743c99203baa",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.813153",
+      "https://schema.org#longitude": "16.24444"
+    },
+    {
+      "@id": "_:N07e68f09c4a94007b996909b9e87cc88",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1463-06-10"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1463-06-10"
+      }
+    },
+    {
+      "@id": "_:N6b9d66a1f04e4f73af868efeb1a5447d",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:K00001326"
+      },
+      "rdfs:label": "Johann von Kleve"
+    },
+    {
+      "@id": "_:Ne4c5c83f88db47e5ac50a7810d9ae6b4",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:J00000257"
+      },
+      "rdfs:label": "Gerhard von Jülich, Geldern und Berg"
+    },
+    {
+      "@id": "_:N9f57a0f55e8d41c38dbeeda252cfeb60",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00000290"
+      },
+      "rdfs:label": "Johann von Salm"
+    },
+    {
+      "@id": "_:N6d82f73827b944f98b8caddb26cbc8c9",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:R00003099"
+      },
+      "rdfs:label": "Dietrich von Runkel"
+    },
+    {
+      "@id": "_:Nd4bf59946b4a442f8a3f6c88964cc3b0",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:R00001183"
+      },
+      "rdfs:label": "Wilhelm von Reichenstein"
+    },
+    {
+      "@id": "_:N1aa7575085834edcbc4c52a8cfea8641",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:N00000339"
+      },
+      "rdfs:label": "Wilhelm von Nesselrode"
+    },
+    {
+      "@id": "_:Ned631b61748f493094f3c7b0857d0c89",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:G00000422"
+      },
+      "rdfs:label": "Arnold von Egmond"
+    }
+  ]
+}

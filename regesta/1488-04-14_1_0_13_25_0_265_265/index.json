@@ -1,0 +1,90 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1488-04-14_1_0_13_25_0_265_265",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N5f08209256e24d6ea0ffa0ca92cb5939"
+      }
+    },
+    {
+      "@id": "_:N5f08209256e24d6ea0ffa0ca92cb5939",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N3cb99264757b479fa60f57739264f453"
+      },
+      "ps:P291": {
+        "@id": "_:N98e6fcf6cf0b45e5846999ebdc1051fb"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:Nd8348f7641f9499d819c4ffb4965b5ae"
+        },
+        {
+          "@id": "_:N52b4c0956df347c49e04e67012aa9d5e"
+        }
+      ]
+    },
+    {
+      "@id": "_:N98e6fcf6cf0b45e5846999ebdc1051fb",
+      "https://schema.org#geo": {
+        "@id": "_:N2f1a6a5f8b2746e1b4424c3b9afd1fd7"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q523273"
+      },
+      "rdfs:label": "Bacharach"
+    },
+    {
+      "@id": "_:N2f1a6a5f8b2746e1b4424c3b9afd1fd7",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "50.05725",
+      "https://schema.org#longitude": "7.76948"
+    },
+    {
+      "@id": "_:N3cb99264757b479fa60f57739264f453",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1488-04-14"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1488-04-14"
+      }
+    },
+    {
+      "@id": "_:Nd8348f7641f9499d819c4ffb4965b5ae",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:M00000268"
+      },
+      "ps:P39": {
+        "@id": "ri:erzbischof"
+      },
+      "rdfs:label": "Eb. Berthold von Mainz"
+    },
+    {
+      "@id": "_:N52b4c0956df347c49e04e67012aa9d5e",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:M00001151"
+      },
+      "ps:P39": {
+        "@id": "ri:koenig"
+      },
+      "rdfs:label": "Kg. Maximilians"
+    }
+  ]
+}

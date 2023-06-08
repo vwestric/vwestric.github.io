@@ -1,0 +1,112 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1446-06-03_1_0_13_14_0_346_346",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N12ef5df170164c2fadace77be127e162"
+      }
+    },
+    {
+      "@id": "_:N12ef5df170164c2fadace77be127e162",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N9cd4c955f3e04377b35dc5ad975c9459"
+      },
+      "ps:P291": {
+        "@id": "_:Nc483b0f26e794ab5960afe5d9a6c57bd"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N2a7184c5df19425dad0d0ccccfff5283"
+        },
+        {
+          "@id": "_:N69a9fb9376ac4c34b248623f80e3eb54"
+        },
+        {
+          "@id": "_:N500b80741f9043148d56c01c677889d4"
+        },
+        {
+          "@id": "_:N058ce3066f754de08415200d0f3f50cf"
+        }
+      ]
+    },
+    {
+      "@id": "_:Nc483b0f26e794ab5960afe5d9a6c57bd",
+      "https://schema.org#geo": {
+        "@id": "_:Ndfbef1aaa4854fde959f5eef197e32ad"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q1741"
+      },
+      "rdfs:label": "Wien"
+    },
+    {
+      "@id": "_:Ndfbef1aaa4854fde959f5eef197e32ad",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "48.20849",
+      "https://schema.org#longitude": "16.37208"
+    },
+    {
+      "@id": "_:N9cd4c955f3e04377b35dc5ad975c9459",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1446-06-03"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1446-06-03"
+      }
+    },
+    {
+      "@id": "_:N2a7184c5df19425dad0d0ccccfff5283",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:M00000277"
+      },
+      "rdfs:label": "Dietrich von Mainz"
+    },
+    {
+      "@id": "_:N69a9fb9376ac4c34b248623f80e3eb54",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:P00000962"
+      },
+      "ps:P39": {
+        "@id": "ri:pfalzgraf"
+      },
+      "rdfs:label": "Pfgf. Friedrich bei Rhein"
+    },
+    {
+      "@id": "_:N500b80741f9043148d56c01c677889d4",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:O00000622"
+      },
+      "rdfs:label": "Sigmund von Österreich"
+    },
+    {
+      "@id": "_:N058ce3066f754de08415200d0f3f50cf",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00000071"
+      },
+      "ps:P39": {
+        "@id": "ri:markgraf"
+      },
+      "rdfs:label": "Mgf. Jakob (I.) von Baden"
+    }
+  ]
+}

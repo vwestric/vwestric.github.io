@@ -1,0 +1,52 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1468-04-20_1_0_13_22_0_219_219",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N1b2bf36c3f0445c9931edc3b31238ccc"
+      }
+    },
+    {
+      "@id": "_:N1b2bf36c3f0445c9931edc3b31238ccc",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Nb1004de03b67498bb269ba4f6044f111"
+      },
+      "ps:P3342": {
+        "@id": "_:N601bcd31b1084279a2d65a96c80bd585"
+      }
+    },
+    {
+      "@id": "_:Nb1004de03b67498bb269ba4f6044f111",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1468-04-20"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1468-04-20"
+      }
+    },
+    {
+      "@id": "_:N601bcd31b1084279a2d65a96c80bd585",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:A00001518"
+      },
+      "rdfs:label": "Wilhelm von Auersperg"
+    }
+  ]
+}

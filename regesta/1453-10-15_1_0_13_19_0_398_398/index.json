@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1453-10-15_1_0_13_19_0_398_398",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N35ef3dd2c4c140f7a1b1ef7cafb1212f"
+      }
+    },
+    {
+      "@id": "_:N35ef3dd2c4c140f7a1b1ef7cafb1212f",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Nd00422aed0a2445ab282a5d4db201899"
+      },
+      "ps:P291": {
+        "@id": "_:Nf6efcb4c0663452daa2eb55c024d6844"
+      },
+      "ps:P3342": {
+        "@id": "_:N8cdfff59b56e4d85bd88695ec6ba2da1"
+      }
+    },
+    {
+      "@id": "_:Nf6efcb4c0663452daa2eb55c024d6844",
+      "https://schema.org#geo": {
+        "@id": "_:Nb6f2a20b544049979fc68891d1f9a78a"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q131612"
+      },
+      "rdfs:label": "Wiener Neustadt"
+    },
+    {
+      "@id": "_:Nb6f2a20b544049979fc68891d1f9a78a",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.813153",
+      "https://schema.org#longitude": "16.24444"
+    },
+    {
+      "@id": "_:Nd00422aed0a2445ab282a5d4db201899",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1453-10-15"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1453-10-15"
+      }
+    },
+    {
+      "@id": "_:N8cdfff59b56e4d85bd88695ec6ba2da1",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:M00000893"
+      },
+      "ps:P39": {
+        "@id": "ri:erbmarschall"
+      },
+      "rdfs:label": "Erbmarschall Heinrich von Pappenheim"
+    }
+  ]
+}

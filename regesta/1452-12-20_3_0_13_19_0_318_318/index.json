@@ -1,0 +1,90 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1452-12-20_3_0_13_19_0_318_318",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N5e3a6429f56b4bc9a7644e483d1baf3f"
+      }
+    },
+    {
+      "@id": "_:N5e3a6429f56b4bc9a7644e483d1baf3f",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N7c5ab9f69cb24274b3deecb35cc4240f"
+      },
+      "ps:P291": {
+        "@id": "_:N893ce0c39fcb4d9980f6f46683e16dd3"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N0ef4635e6cf54dfebc5ddff63f8d6966"
+        },
+        {
+          "@id": "_:Nfef40367b3434373902653116d881f3c"
+        }
+      ]
+    },
+    {
+      "@id": "_:N893ce0c39fcb4d9980f6f46683e16dd3",
+      "https://schema.org#geo": {
+        "@id": "_:Nc1c9b4b3158e4357a8c8d38abb37b215"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q131612"
+      },
+      "rdfs:label": "Wiener Neustadt"
+    },
+    {
+      "@id": "_:Nc1c9b4b3158e4357a8c8d38abb37b215",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.813153",
+      "https://schema.org#longitude": "16.24444"
+    },
+    {
+      "@id": "_:N7c5ab9f69cb24274b3deecb35cc4240f",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1452-12-20"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1452-12-20"
+      }
+    },
+    {
+      "@id": "_:N0ef4635e6cf54dfebc5ddff63f8d6966",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:L00002110"
+      },
+      "ps:P39": {
+        "@id": "ri:kaiser"
+      },
+      "rdfs:label": "K. Ludwigs (d. Bayern)"
+    },
+    {
+      "@id": "_:Nfef40367b3434373902653116d881f3c",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:K00000431"
+      },
+      "ps:P39": {
+        "@id": "ri:kaiser"
+      },
+      "rdfs:label": "K. Karls IV."
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1488-02-01_1_0_13_20_0_301_301",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Nd2ffb6c187bd425ba3c0a0a77853767f"
+      }
+    },
+    {
+      "@id": "_:Nd2ffb6c187bd425ba3c0a0a77853767f",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N6f33f52201e1475d82525461e583b366"
+      },
+      "ps:P291": {
+        "@id": "_:Ncd14594325594730a8ac42fbf2fd2127"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:Neb49ca1902e241879761e3c91dd7390c"
+        },
+        {
+          "@id": "_:N28ada2cdad304309b5fdd318c026626b"
+        }
+      ]
+    },
+    {
+      "@id": "_:Ncd14594325594730a8ac42fbf2fd2127",
+      "https://schema.org#geo": {
+        "@id": "_:Nc85b9a42eb37454eab4eab8646b5bcc8"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q1735"
+      },
+      "rdfs:label": "Innsbruck"
+    },
+    {
+      "@id": "_:Nc85b9a42eb37454eab4eab8646b5bcc8",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.26266",
+      "https://schema.org#longitude": "11.39454"
+    },
+    {
+      "@id": "_:N6f33f52201e1475d82525461e583b366",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1488-02-01"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1488-02-01"
+      }
+    },
+    {
+      "@id": "_:Neb49ca1902e241879761e3c91dd7390c",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00002281"
+      },
+      "rdfs:label": "Sigmund von Brandenburg"
+    },
+    {
+      "@id": "_:N28ada2cdad304309b5fdd318c026626b",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:M00001151"
+      },
+      "ps:P39": {
+        "@id": "ri:koenig"
+      },
+      "rdfs:label": "Kg. Maximilian"
+    }
+  ]
+}

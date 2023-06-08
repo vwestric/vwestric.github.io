@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1461-04-06_2_0_13_28_0_282_282",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N94743c0855a84b02852ac11f4ffcdd90"
+      }
+    },
+    {
+      "@id": "_:N94743c0855a84b02852ac11f4ffcdd90",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Nf4b5d0f66ecf40cdb76859c569dc7810"
+      },
+      "ps:P291": {
+        "@id": "_:N4ec126374d6a439a9afe84d9aea21da9"
+      },
+      "ps:P3342": {
+        "@id": "_:N0461d2912e6a4f2796f1e8a6d6b6758b"
+      }
+    },
+    {
+      "@id": "_:N4ec126374d6a439a9afe84d9aea21da9",
+      "https://schema.org#geo": {
+        "@id": "_:Nd36048924c7f45c1bd20bee5f2b376c4"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q13298"
+      },
+      "rdfs:label": "Graz"
+    },
+    {
+      "@id": "_:Nd36048924c7f45c1bd20bee5f2b376c4",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.06667",
+      "https://schema.org#longitude": "15.45"
+    },
+    {
+      "@id": "_:Nf4b5d0f66ecf40cdb76859c569dc7810",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1461-04-06"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1461-04-06"
+      }
+    },
+    {
+      "@id": "_:N0461d2912e6a4f2796f1e8a6d6b6758b",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:M00000893"
+      },
+      "ps:P39": {
+        "@id": "ri:erbmarschall"
+      },
+      "rdfs:label": "Erbmarschall Heinrich von Pappenheim"
+    }
+  ]
+}

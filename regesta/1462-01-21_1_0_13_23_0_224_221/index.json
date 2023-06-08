@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1462-01-21_1_0_13_23_0_224_221",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N0812f124fdc742608ab068461ec178b6"
+      }
+    },
+    {
+      "@id": "_:N0812f124fdc742608ab068461ec178b6",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Nab7a6d38c81a4747b69a5ce56ff2ebe1"
+      },
+      "ps:P291": {
+        "@id": "_:Nd4bd117eadd04badaeec11ce65320a51"
+      },
+      "ps:P3342": {
+        "@id": "_:N5aefdcc591d74624af3865ee6a00126f"
+      }
+    },
+    {
+      "@id": "_:Nd4bd117eadd04badaeec11ce65320a51",
+      "https://schema.org#geo": {
+        "@id": "_:N6f00d350d6144b699267700388fff984"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q13298"
+      },
+      "rdfs:label": "Graz"
+    },
+    {
+      "@id": "_:N6f00d350d6144b699267700388fff984",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.06667",
+      "https://schema.org#longitude": "15.45"
+    },
+    {
+      "@id": "_:Nab7a6d38c81a4747b69a5ce56ff2ebe1",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1462-01-21"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1462-01-21"
+      }
+    },
+    {
+      "@id": "_:N5aefdcc591d74624af3865ee6a00126f",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:W00003211"
+      },
+      "ps:P39": {
+        "@id": "ri:graf"
+      },
+      "rdfs:label": "Gf. Ulrich (V.) von Württemberg"
+    }
+  ]
+}

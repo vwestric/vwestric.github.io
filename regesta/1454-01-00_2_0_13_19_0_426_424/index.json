@@ -1,0 +1,55 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1454-01-00_2_0_13_19_0_426_424",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Nc536ffe57b184f90a3d7d7704f5c23c3"
+      }
+    },
+    {
+      "@id": "_:Nc536ffe57b184f90a3d7d7704f5c23c3",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N5148c1c3a7814c459cbbc189afb99bc9"
+      },
+      "ps:P3342": {
+        "@id": "_:N6e82ad801dcd454fa58e8e32af8e9829"
+      }
+    },
+    {
+      "@id": "_:N5148c1c3a7814c459cbbc189afb99bc9",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1454-01-01"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1454-01-31"
+      }
+    },
+    {
+      "@id": "_:N6e82ad801dcd454fa58e8e32af8e9829",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:M00002942"
+      },
+      "ps:P39": {
+        "@id": "ri:buerger"
+      },
+      "rdfs:label": "Nürnberger Bürger Niklas Muffel"
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1472-12-03_1_0_13_2_0_9267_139",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N15d7af8529cc4118b76f04d4e9a114c1"
+      }
+    },
+    {
+      "@id": "_:N15d7af8529cc4118b76f04d4e9a114c1",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N3232d53d04a341c8bdffbf1f1bcbf6e2"
+      },
+      "ps:P291": {
+        "@id": "_:N655f0aeea2ab4384bfa4ca7503b336ff"
+      },
+      "ps:P3342": {
+        "@id": "_:Nd610f688f81649b7a17e8a89472ef015"
+      }
+    },
+    {
+      "@id": "_:N655f0aeea2ab4384bfa4ca7503b336ff",
+      "https://schema.org#geo": {
+        "@id": "_:Nc50aa62fa83442928b30f7863ea3c5b7"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q13298"
+      },
+      "rdfs:label": "Graz"
+    },
+    {
+      "@id": "_:Nc50aa62fa83442928b30f7863ea3c5b7",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.06667",
+      "https://schema.org#longitude": "15.45"
+    },
+    {
+      "@id": "_:N3232d53d04a341c8bdffbf1f1bcbf6e2",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1472-12-03"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1472-12-03"
+      }
+    },
+    {
+      "@id": "_:Nd610f688f81649b7a17e8a89472ef015",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:K00000775"
+      },
+      "ps:P39": {
+        "@id": "ri:abt"
+      },
+      "rdfs:label": "Abt Johann von Kempten"
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1474-06-07_1_0_13_10_0_13342_382",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Nf24f9c21a8b34c4f8b5a895318d850d1"
+      }
+    },
+    {
+      "@id": "_:Nf24f9c21a8b34c4f8b5a895318d850d1",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N9d47e6585bfd407ba7a09aa921f6f027"
+      },
+      "ps:P291": {
+        "@id": "_:N36e66f3d76374ff09a4f12743d1d5a1b"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N884f2840616a44d5af513f01ac8d0ff2"
+        },
+        {
+          "@id": "_:Nbd683c50869c40b7900bb567281dc9bf"
+        }
+      ]
+    },
+    {
+      "@id": "_:N36e66f3d76374ff09a4f12743d1d5a1b",
+      "https://schema.org#geo": {
+        "@id": "_:Nc367586c31a04966aa0b90e222e8b6f3"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q2749"
+      },
+      "rdfs:label": "Augsburg"
+    },
+    {
+      "@id": "_:Nc367586c31a04966aa0b90e222e8b6f3",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "48.37154",
+      "https://schema.org#longitude": "10.89851"
+    },
+    {
+      "@id": "_:N9d47e6585bfd407ba7a09aa921f6f027",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1474-06-07"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1474-06-07"
+      }
+    },
+    {
+      "@id": "_:N884f2840616a44d5af513f01ac8d0ff2",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:E00000497"
+      },
+      "ps:P39": {
+        "@id": "ri:bischof"
+      },
+      "rdfs:label": "Bf. Wilhelm von Eichstätt"
+    },
+    {
+      "@id": "_:Nbd683c50869c40b7900bb567281dc9bf",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00002248"
+      },
+      "ps:P39": {
+        "@id": "ri:kurfuerst"
+      },
+      "rdfs:label": "Kf. Albrechts von Brandenburg"
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:e7eb8be2-3059-41f7-9125-d5492a1e82f8",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N196dfb85f389492ba0ae9eebcbc90356"
+      }
+    },
+    {
+      "@id": "_:N196dfb85f389492ba0ae9eebcbc90356",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N3accac7882244ffc815e34cfd05864e9"
+      },
+      "ps:P291": {
+        "@id": "_:Na99da6ccc052458a9cfba212c4a9e222"
+      },
+      "ps:P3342": {
+        "@id": "_:Nec13c08de80f455ca86a0a7b8aba72ed"
+      }
+    },
+    {
+      "@id": "_:Na99da6ccc052458a9cfba212c4a9e222",
+      "https://schema.org#geo": {
+        "@id": "_:N7efbade5946e45b49f5abb17aa41e8ee"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q2749"
+      },
+      "rdfs:label": "Augsburg"
+    },
+    {
+      "@id": "_:N7efbade5946e45b49f5abb17aa41e8ee",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "48.37154",
+      "https://schema.org#longitude": "10.89851"
+    },
+    {
+      "@id": "_:N3accac7882244ffc815e34cfd05864e9",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1474-09-24"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1474-09-24"
+      }
+    },
+    {
+      "@id": "_:Nec13c08de80f455ca86a0a7b8aba72ed",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00002248"
+      },
+      "ps:P39": {
+        "@id": "ri:kurfuerst"
+      },
+      "rdfs:label": "Kf. Albrecht von Brandenburg"
+    }
+  ]
+}

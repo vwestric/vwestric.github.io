@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1455-05-02_1_0_13_24_0_201_201",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N15730871b48c4eac9edb1acb0a138407"
+      }
+    },
+    {
+      "@id": "_:N15730871b48c4eac9edb1acb0a138407",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N8a8df46649634a2e9b623bebc8ec4aed"
+      },
+      "ps:P291": {
+        "@id": "_:N853370b1dff849e2852fa2b6a40e7f5f"
+      },
+      "ps:P3342": {
+        "@id": "_:Ne5f786aaff4c49dcbd8842c1f6d585a6"
+      }
+    },
+    {
+      "@id": "_:N853370b1dff849e2852fa2b6a40e7f5f",
+      "https://schema.org#geo": {
+        "@id": "_:Nddbd5cc063f94a36b3a2ddb9bcbeb4c1"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q131612"
+      },
+      "rdfs:label": "Wiener Neustadt"
+    },
+    {
+      "@id": "_:Nddbd5cc063f94a36b3a2ddb9bcbeb4c1",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.813153",
+      "https://schema.org#longitude": "16.24444"
+    },
+    {
+      "@id": "_:N8a8df46649634a2e9b623bebc8ec4aed",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1455-05-02"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1455-05-02"
+      }
+    },
+    {
+      "@id": "_:Ne5f786aaff4c49dcbd8842c1f6d585a6",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:E00000743"
+      },
+      "ps:P39": {
+        "@id": "ri:hochmeister"
+      },
+      "rdfs:label": "Hochmeister des Deutschen Ordens Ludwig von Erlichshausen"
+    }
+  ]
+}

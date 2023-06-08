@@ -1,0 +1,71 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1450-05-20_14_0_13_4_0_9757_187",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N7b25bbbcba8d45408c3124b641e367f7"
+      }
+    },
+    {
+      "@id": "_:N7b25bbbcba8d45408c3124b641e367f7",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N51d4688bfdb041aba9aebac585bf6f86"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:Na514083335684cefbce5d0d9f308065e"
+        },
+        {
+          "@id": "_:N129f788ccb0742e6b5b1570c1247a337"
+        }
+      ]
+    },
+    {
+      "@id": "_:N51d4688bfdb041aba9aebac585bf6f86",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1450-05-20"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1450-05-20"
+      }
+    },
+    {
+      "@id": "_:Na514083335684cefbce5d0d9f308065e",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:N00000104"
+      },
+      "ps:P39": {
+        "@id": "ri:graf"
+      },
+      "rdfs:label": "Gf. Johann von Nassau"
+    },
+    {
+      "@id": "_:N129f788ccb0742e6b5b1570c1247a337",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:M00000277"
+      },
+      "ps:P39": {
+        "@id": "ri:erzbischof"
+      },
+      "rdfs:label": "Eb. Dietrich von Mainz"
+    }
+  ]
+}

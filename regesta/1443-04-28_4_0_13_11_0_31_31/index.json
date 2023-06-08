@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1443-04-28_4_0_13_11_0_31_31",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Ne7217a19a17c46e58f6a3e0e36298c0c"
+      }
+    },
+    {
+      "@id": "_:Ne7217a19a17c46e58f6a3e0e36298c0c",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Nd5b7338a25fa4ee09f0757e8d857a032"
+      },
+      "ps:P291": {
+        "@id": "_:Ne439c295759c4ba9968bcc179ed3eed5"
+      },
+      "ps:P3342": {
+        "@id": "_:Nb3570270e1ee453e92ba308611910e60"
+      }
+    },
+    {
+      "@id": "_:Ne439c295759c4ba9968bcc179ed3eed5",
+      "https://schema.org#geo": {
+        "@id": "_:Naa4f6b55dd8a446282900843d870d294"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q131612"
+      },
+      "rdfs:label": "Wiener Neustadt"
+    },
+    {
+      "@id": "_:Naa4f6b55dd8a446282900843d870d294",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.813153",
+      "https://schema.org#longitude": "16.24444"
+    },
+    {
+      "@id": "_:Nd5b7338a25fa4ee09f0757e8d857a032",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1443-04-28"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1443-04-28"
+      }
+    },
+    {
+      "@id": "_:Nb3570270e1ee453e92ba308611910e60",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00000099"
+      },
+      "ps:P39": {
+        "@id": "ri:herzog"
+      },
+      "rdfs:label": "Hz. Wilhelm (III.) von Sachsen"
+    }
+  ]
+}

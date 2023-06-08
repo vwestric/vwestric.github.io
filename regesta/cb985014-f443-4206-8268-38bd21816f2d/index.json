@@ -1,0 +1,109 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:cb985014-f443-4206-8268-38bd21816f2d",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N6760bcdfb6894930abbf73ba21e7329f"
+      }
+    },
+    {
+      "@id": "_:N6760bcdfb6894930abbf73ba21e7329f",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N572f19681430401db74fcc7600a89482"
+      },
+      "ps:P291": {
+        "@id": "_:N88f56c781e3548dfbf607634ed97a0e5"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N003727ddaa31401ba951f2d3528964f5"
+        },
+        {
+          "@id": "_:N252684cf885142fb84c7a20efe20a667"
+        },
+        {
+          "@id": "_:Na3069b49a31b471393d009fb959f20d9"
+        },
+        {
+          "@id": "_:N03506bb9ba4e472282c5f81f0394e0c9"
+        }
+      ]
+    },
+    {
+      "@id": "_:N88f56c781e3548dfbf607634ed97a0e5",
+      "https://schema.org#geo": {
+        "@id": "_:N0cd7188728314071963992ebd5ef57f8"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q1741"
+      },
+      "rdfs:label": "Wien"
+    },
+    {
+      "@id": "_:N0cd7188728314071963992ebd5ef57f8",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "48.20849",
+      "https://schema.org#longitude": "16.37208"
+    },
+    {
+      "@id": "_:N572f19681430401db74fcc7600a89482",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1459-04-27"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1459-04-27"
+      }
+    },
+    {
+      "@id": "_:N003727ddaa31401ba951f2d3528964f5",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00000095"
+      },
+      "ps:P39": {
+        "@id": "ri:markgraf"
+      },
+      "rdfs:label": "Mgf. Wilhelm von Hachberg"
+    },
+    {
+      "@id": "_:N252684cf885142fb84c7a20efe20a667",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:P00000202"
+      },
+      "rdfs:label": "Hans von Parsberg"
+    },
+    {
+      "@id": "_:Na3069b49a31b471393d009fb959f20d9",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00006304"
+      },
+      "rdfs:label": "Sigmund vom Stein"
+    },
+    {
+      "@id": "_:N03506bb9ba4e472282c5f81f0394e0c9",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:L00000247"
+      },
+      "rdfs:label": "Lutz von Landau"
+    }
+  ]
+}

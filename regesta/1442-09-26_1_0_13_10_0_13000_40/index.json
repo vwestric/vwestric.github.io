@@ -1,0 +1,87 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1442-09-26_1_0_13_10_0_13000_40",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N0bd7f770c7504a88b7a0e97b45e51fd4"
+      }
+    },
+    {
+      "@id": "_:N0bd7f770c7504a88b7a0e97b45e51fd4",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N777634b623234074857704ec32f9e5cc"
+      },
+      "ps:P291": {
+        "@id": "_:Na9782ec7808040da8de3dfb49bd0ff31"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N5becd67865ab47ecb6576a9fa5829f6a"
+        },
+        {
+          "@id": "_:Nda9acbddc351497c8657fc1304e6a562"
+        }
+      ]
+    },
+    {
+      "@id": "_:Na9782ec7808040da8de3dfb49bd0ff31",
+      "https://schema.org#geo": {
+        "@id": "_:N58be4c3832c84135a64553e34beefc89"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q72"
+      },
+      "rdfs:label": "Zürich"
+    },
+    {
+      "@id": "_:N58be4c3832c84135a64553e34beefc89",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.36667",
+      "https://schema.org#longitude": "8.55"
+    },
+    {
+      "@id": "_:N777634b623234074857704ec32f9e5cc",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1442-09-26"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1442-09-26"
+      }
+    },
+    {
+      "@id": "_:N5becd67865ab47ecb6576a9fa5829f6a",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:L00002362"
+      },
+      "rdfs:label": "Elisabeth von Görlitz"
+    },
+    {
+      "@id": "_:Nda9acbddc351497c8657fc1304e6a562",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:K00001681"
+      },
+      "ps:P39": {
+        "@id": "ri:erzbischof"
+      },
+      "rdfs:label": "Eb. Dietrich von Köln"
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1455-03-31_1_0_13_16_0_42_42",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Nb70e82b52f294ecf93e6ff211a254872"
+      }
+    },
+    {
+      "@id": "_:Nb70e82b52f294ecf93e6ff211a254872",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Nd3401fb078bc426fb3fc2196d68d47b5"
+      },
+      "ps:P291": {
+        "@id": "_:N40f85297a00f49b58e8c6a97c5a956d7"
+      },
+      "ps:P3342": {
+        "@id": "_:N5f752e54ab6648d58670c430c034db7b"
+      }
+    },
+    {
+      "@id": "_:N40f85297a00f49b58e8c6a97c5a956d7",
+      "https://schema.org#geo": {
+        "@id": "_:N9e5520af4037466d901d16c665ccae2c"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q131612"
+      },
+      "rdfs:label": "Wiener Neustadt"
+    },
+    {
+      "@id": "_:N9e5520af4037466d901d16c665ccae2c",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.813153",
+      "https://schema.org#longitude": "16.24444"
+    },
+    {
+      "@id": "_:Nd3401fb078bc426fb3fc2196d68d47b5",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1455-03-31"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1455-03-31"
+      }
+    },
+    {
+      "@id": "_:N5f752e54ab6648d58670c430c034db7b",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:M00000277"
+      },
+      "ps:P39": {
+        "@id": "ri:erzbischof"
+      },
+      "rdfs:label": "Eb. Dietrich von Mainz"
+    }
+  ]
+}

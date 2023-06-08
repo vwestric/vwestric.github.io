@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:d0c47c3d-e7d8-41e0-aeb3-af54495cb738",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N2391ccd4db5249eea0b4c824d0212e60"
+      }
+    },
+    {
+      "@id": "_:N2391ccd4db5249eea0b4c824d0212e60",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N8c9f6d5cd7ec45d59ea34a52ecb5d53e"
+      },
+      "ps:P291": {
+        "@id": "_:N34da9b61ca3c4b1d9c9c85c2d92c4b85"
+      },
+      "ps:P3342": {
+        "@id": "_:Nf1de2795b5d541d9add9091f2ae120c1"
+      }
+    },
+    {
+      "@id": "_:N34da9b61ca3c4b1d9c9c85c2d92c4b85",
+      "https://schema.org#geo": {
+        "@id": "_:N8687fa1cd5c841b487454d045ede539b"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q13298"
+      },
+      "rdfs:label": "Graz"
+    },
+    {
+      "@id": "_:N8687fa1cd5c841b487454d045ede539b",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.06667",
+      "https://schema.org#longitude": "15.45"
+    },
+    {
+      "@id": "_:N8c9f6d5cd7ec45d59ea34a52ecb5d53e",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1470-12-12"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1470-12-12"
+      }
+    },
+    {
+      "@id": "_:Nf1de2795b5d541d9add9091f2ae120c1",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00002248"
+      },
+      "ps:P39": {
+        "@id": "ri:markgraf"
+      },
+      "rdfs:label": "Mgf. Albrecht von Brandenburg"
+    }
+  ]
+}

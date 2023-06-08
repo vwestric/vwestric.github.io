@@ -1,0 +1,90 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:c1fece50-bef9-4a8a-b836-d661b9fd76cb",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Nd11a958ef94a4a2890decf1917894fc5"
+      }
+    },
+    {
+      "@id": "_:Nd11a958ef94a4a2890decf1917894fc5",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N8a4fadc2a4a246f9bd2361476fb015b8"
+      },
+      "ps:P291": {
+        "@id": "_:Ncd25e4d570704beba024c746fc01019d"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:Neb35dbf2e5cd4c969474cb1be262501c"
+        },
+        {
+          "@id": "_:Ne553c66463d246dfa30e031cba2a1126"
+        }
+      ]
+    },
+    {
+      "@id": "_:Ncd25e4d570704beba024c746fc01019d",
+      "https://schema.org#geo": {
+        "@id": "_:N07d50cd436c4416eb31b046828c88b25"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q485294"
+      },
+      "rdfs:label": "Leoben"
+    },
+    {
+      "@id": "_:N07d50cd436c4416eb31b046828c88b25",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.3765",
+      "https://schema.org#longitude": "15.09144"
+    },
+    {
+      "@id": "_:N8a4fadc2a4a246f9bd2361476fb015b8",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1461-09-19"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1461-09-19"
+      }
+    },
+    {
+      "@id": "_:Neb35dbf2e5cd4c969474cb1be262501c",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00002248"
+      },
+      "ps:P39": {
+        "@id": "ri:markgraf"
+      },
+      "rdfs:label": "Mgf. Albrecht von Brandenburg"
+    },
+    {
+      "@id": "_:Ne553c66463d246dfa30e031cba2a1126",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00000565"
+      },
+      "ps:P39": {
+        "@id": "ri:herzog"
+      },
+      "rdfs:label": "Hz. Ludwig (IX.) von Bayern(-Landshut)"
+    }
+  ]
+}

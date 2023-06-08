@@ -1,0 +1,84 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1451-08-16_1_0_13_8_0_12145_137",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Ndfa083390d044256a548044a5d4a8675"
+      }
+    },
+    {
+      "@id": "_:Ndfa083390d044256a548044a5d4a8675",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N7292fb74b4ab40309c6242561b3f0f4b"
+      },
+      "ps:P291": {
+        "@id": "_:N934e434224ea43cebf7e95742f01819d"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:Nbc11899cdc0d4348a5520217f29e736d"
+        },
+        {
+          "@id": "_:N9518c1faff9d4d20b31d589cff2f9cd1"
+        }
+      ]
+    },
+    {
+      "@id": "_:N934e434224ea43cebf7e95742f01819d",
+      "https://schema.org#geo": {
+        "@id": "_:N9eb902d7864946eb99aa692d2e955ba6"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q1741"
+      },
+      "rdfs:label": "Wien"
+    },
+    {
+      "@id": "_:N9eb902d7864946eb99aa692d2e955ba6",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "48.20849",
+      "https://schema.org#longitude": "16.37208"
+    },
+    {
+      "@id": "_:N7292fb74b4ab40309c6242561b3f0f4b",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1451-08-16"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1451-08-16"
+      }
+    },
+    {
+      "@id": "_:Nbc11899cdc0d4348a5520217f29e736d",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:P00002036"
+      },
+      "rdfs:label": "Albrechts von Pottendorf"
+    },
+    {
+      "@id": "_:N9518c1faff9d4d20b31d589cff2f9cd1",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:W00002450"
+      },
+      "rdfs:label": "Eberhard Windecke"
+    }
+  ]
+}

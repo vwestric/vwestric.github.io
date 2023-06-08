@@ -1,0 +1,90 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1455-03-31_2_0_13_9_0_12668_131",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N539038ceed844d878a9ac4e88b75dd13"
+      }
+    },
+    {
+      "@id": "_:N539038ceed844d878a9ac4e88b75dd13",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Na29cf1cd37424a71a90d246fe56e7f46"
+      },
+      "ps:P291": {
+        "@id": "_:N3dd19870324b4b888435c406e310dad1"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N9ee40a551e3743de8ce7f7dd2b61668d"
+        },
+        {
+          "@id": "_:N5744f0cb762847cb9fc82a18f39393a3"
+        }
+      ]
+    },
+    {
+      "@id": "_:N3dd19870324b4b888435c406e310dad1",
+      "https://schema.org#geo": {
+        "@id": "_:N782971df79aa47d58b6704f8f5afa0f2"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q131612"
+      },
+      "rdfs:label": "Wiener Neustadt"
+    },
+    {
+      "@id": "_:N782971df79aa47d58b6704f8f5afa0f2",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.813153",
+      "https://schema.org#longitude": "16.24444"
+    },
+    {
+      "@id": "_:Na29cf1cd37424a71a90d246fe56e7f46",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1455-03-31"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1455-03-31"
+      }
+    },
+    {
+      "@id": "_:N9ee40a551e3743de8ce7f7dd2b61668d",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00000075"
+      },
+      "ps:P39": {
+        "@id": "ri:markgraf"
+      },
+      "rdfs:label": "Mgf. Karl von Baden"
+    },
+    {
+      "@id": "_:N5744f0cb762847cb9fc82a18f39393a3",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:P00001026"
+      },
+      "ps:P39": {
+        "@id": "ri:pfalzgraf"
+      },
+      "rdfs:label": "Pfgf. Friedrich von (Simmern-)Sponheim"
+    }
+  ]
+}

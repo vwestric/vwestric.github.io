@@ -1,0 +1,140 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1442-09-26_1_0_13_11_0_24_24",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N9fbd5c5747ad457c82215d489d5a3145"
+      }
+    },
+    {
+      "@id": "_:N9fbd5c5747ad457c82215d489d5a3145",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N8add612d52004c9dbf7541c55958ecbd"
+      },
+      "ps:P291": {
+        "@id": "_:N3bbbb6779c4d47c7b66c63ee2a5351a1"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N94985b21334542988221a3c15a856b99"
+        },
+        {
+          "@id": "_:N72f776d17e814c5788ff04b16b320d24"
+        },
+        {
+          "@id": "_:N82e64bfa36954f9c8d1fec573d68db3a"
+        },
+        {
+          "@id": "_:N82f0b30f3636431d816f3a29bdf79755"
+        },
+        {
+          "@id": "_:N28cb0bca7376450684c847ba028c5d37"
+        },
+        {
+          "@id": "_:N47e168485b1346b6a8d9b6bb39fa179c"
+        }
+      ]
+    },
+    {
+      "@id": "_:N3bbbb6779c4d47c7b66c63ee2a5351a1",
+      "https://schema.org#geo": {
+        "@id": "_:N8c42710e64414eb6b2d1d28b7f232c8b"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q72"
+      },
+      "rdfs:label": "Zürich"
+    },
+    {
+      "@id": "_:N8c42710e64414eb6b2d1d28b7f232c8b",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.36667",
+      "https://schema.org#longitude": "8.55"
+    },
+    {
+      "@id": "_:N8add612d52004c9dbf7541c55958ecbd",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1442-09-26"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1442-09-26"
+      }
+    },
+    {
+      "@id": "_:N94985b21334542988221a3c15a856b99",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00000076"
+      },
+      "ps:P39": {
+        "@id": "ri:kurfuerst"
+      },
+      "rdfs:label": "Kf. Friedrich (II.) von Sachsen"
+    },
+    {
+      "@id": "_:N72f776d17e814c5788ff04b16b320d24",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:K00001681"
+      },
+      "ps:P39": {
+        "@id": "ri:erzbischof"
+      },
+      "rdfs:label": "Eb. Dietrich von Köln"
+    },
+    {
+      "@id": "_:N82e64bfa36954f9c8d1fec573d68db3a",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00003264"
+      },
+      "ps:P39": {
+        "@id": "ri:herzog"
+      },
+      "rdfs:label": "Hz. Philipp von Burgund"
+    },
+    {
+      "@id": "_:N82f0b30f3636431d816f3a29bdf79755",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:L00002362"
+      },
+      "rdfs:label": "Elisabeth von Görlitz"
+    },
+    {
+      "@id": "_:N28cb0bca7376450684c847ba028c5d37",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00000099"
+      },
+      "ps:P39": {
+        "@id": "ri:herzog"
+      },
+      "rdfs:label": "Hz. Wilhelm (III.) von Sachsen"
+    },
+    {
+      "@id": "_:N47e168485b1346b6a8d9b6bb39fa179c",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:N00000407"
+      },
+      "rdfs:label": "Gumprecht von Neuenahr"
+    }
+  ]
+}

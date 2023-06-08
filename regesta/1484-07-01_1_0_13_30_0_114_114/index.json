@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1484-07-01_1_0_13_30_0_114_114",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N49718dd8f72341d28bfb9a11586354d0"
+      }
+    },
+    {
+      "@id": "_:N49718dd8f72341d28bfb9a11586354d0",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Nd48da5f502e3450981369dedc1a016e6"
+      },
+      "ps:P291": {
+        "@id": "_:Nd2e5c9887db84a53b604d81de20654ea"
+      },
+      "ps:P3342": {
+        "@id": "_:N8718ed30410d4a22846764c8824a4557"
+      }
+    },
+    {
+      "@id": "_:Nd2e5c9887db84a53b604d81de20654ea",
+      "https://schema.org#geo": {
+        "@id": "_:N5be90be6ce6d4c5bbaad03e6d0acbc39"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q13298"
+      },
+      "rdfs:label": "Graz"
+    },
+    {
+      "@id": "_:N5be90be6ce6d4c5bbaad03e6d0acbc39",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.06667",
+      "https://schema.org#longitude": "15.45"
+    },
+    {
+      "@id": "_:Nd48da5f502e3450981369dedc1a016e6",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1484-07-01"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1484-07-01"
+      }
+    },
+    {
+      "@id": "_:N8718ed30410d4a22846764c8824a4557",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:W00003368"
+      },
+      "ps:P39": {
+        "@id": "ri:bischof"
+      },
+      "rdfs:label": "Bf. Rudolf von Würzburg"
+    }
+  ]
+}

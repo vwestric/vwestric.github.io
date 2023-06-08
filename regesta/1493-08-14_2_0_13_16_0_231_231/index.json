@@ -1,0 +1,79 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1493-08-14_2_0_13_16_0_231_231",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N36bad30123344d31b0b101b934dc19ba"
+      }
+    },
+    {
+      "@id": "_:N36bad30123344d31b0b101b934dc19ba",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N3aa79693ed1148b8809f89ec4a088b29"
+      },
+      "ps:P291": {
+        "@id": "_:Ne37ae66afd6f4f26a6652dc9122ea96c"
+      },
+      "ps:P3342": {
+        "@id": "_:N801ee445a72d449eafeff1e1ce07b591"
+      }
+    },
+    {
+      "@id": "_:Ne37ae66afd6f4f26a6652dc9122ea96c",
+      "https://schema.org#geo": {
+        "@id": "_:Ne7b01332a9794329839a840235037d8d"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q41329"
+      },
+      "rdfs:label": "Linz"
+    },
+    {
+      "@id": "_:Ne7b01332a9794329839a840235037d8d",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "48.303056",
+      "https://schema.org#longitude": "14.290556"
+    },
+    {
+      "@id": "_:N3aa79693ed1148b8809f89ec4a088b29",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1493-08-14"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1493-08-14"
+      }
+    },
+    {
+      "@id": "_:N801ee445a72d449eafeff1e1ce07b591",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:M00000078"
+      },
+      "ps:P39": [
+        {
+          "@id": "ri:erzbischof"
+        },
+        {
+          "@id": "ri:administrator"
+        }
+      ],
+      "rdfs:label": "Ernst, Eb. von Magdeburg und Administrator des Stifts Halberstadt"
+    }
+  ]
+}

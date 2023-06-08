@@ -1,0 +1,85 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1480-03-00_1_0_13_5_0_10900_276",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N228d346c39434783a2b886325d3637bd"
+      }
+    },
+    {
+      "@id": "_:N228d346c39434783a2b886325d3637bd",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N86bf6a95e0ab4c7993c0b17b5a1c7c4e"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N845f1c33a18d4b7bbad5ae51ff5b2517"
+        },
+        {
+          "@id": "_:Nfb49953819204ce68535eff0243530dc"
+        },
+        {
+          "@id": "_:N6a6d1030646b40049cda4b5261f22727"
+        }
+      ]
+    },
+    {
+      "@id": "_:N86bf6a95e0ab4c7993c0b17b5a1c7c4e",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1480-03-01"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1480-03-31"
+      }
+    },
+    {
+      "@id": "_:N845f1c33a18d4b7bbad5ae51ff5b2517",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:N00000104"
+      },
+      "ps:P39": {
+        "@id": "ri:graf"
+      },
+      "rdfs:label": "Gf. Johann von Nassau"
+    },
+    {
+      "@id": "_:Nfb49953819204ce68535eff0243530dc",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:N00000115"
+      },
+      "ps:P39": {
+        "@id": "ri:graf"
+      },
+      "rdfs:label": "Gf. Johann von Nassau-Saarbrücken"
+    },
+    {
+      "@id": "_:N6a6d1030646b40049cda4b5261f22727",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:U00000212"
+      },
+      "ps:P39": {
+        "@id": "ri:koenig"
+      },
+      "rdfs:label": "Kg. (Matthias) von Ungarn"
+    }
+  ]
+}

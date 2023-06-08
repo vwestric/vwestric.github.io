@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1468-10-13_1_0_13_15_0_229_229",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N6254f2b1a1e34a9c8a719c1e253eaf42"
+      }
+    },
+    {
+      "@id": "_:N6254f2b1a1e34a9c8a719c1e253eaf42",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N1082d2af7069490e9933a2302a4aedab"
+      },
+      "ps:P291": {
+        "@id": "_:Ne253322b763b493ba3ab6a36d1eaedbb"
+      },
+      "ps:P3342": {
+        "@id": "_:N6efe708a49d0426db4b53feac9e09f5d"
+      }
+    },
+    {
+      "@id": "_:Ne253322b763b493ba3ab6a36d1eaedbb",
+      "https://schema.org#geo": {
+        "@id": "_:N9e3ecf52f5984174ab2132ff823289a0"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q13298"
+      },
+      "rdfs:label": "Graz"
+    },
+    {
+      "@id": "_:N9e3ecf52f5984174ab2132ff823289a0",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.06667",
+      "https://schema.org#longitude": "15.45"
+    },
+    {
+      "@id": "_:N1082d2af7069490e9933a2302a4aedab",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1468-10-13"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1468-10-13"
+      }
+    },
+    {
+      "@id": "_:N6efe708a49d0426db4b53feac9e09f5d",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00000582"
+      },
+      "ps:P39": {
+        "@id": "ri:herzog"
+      },
+      "rdfs:label": "Hz. Albrecht von Bayern (-München)"
+    }
+  ]
+}

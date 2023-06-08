@@ -1,0 +1,90 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1463-04-22_1_0_13_3_0_9452_84",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N0f24f673002f43409583db94f9ed398a"
+      }
+    },
+    {
+      "@id": "_:N0f24f673002f43409583db94f9ed398a",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Nb8f6a3f195fd44fe90b9d26eeaec0f25"
+      },
+      "ps:P291": {
+        "@id": "_:Nf8d71ceb4e5b4d80ab2825dfacb7c2d9"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N44146ac301934869abefa4ff64ee6553"
+        },
+        {
+          "@id": "_:Na2d2b9ea76714a198b4a8c4fc461e9d7"
+        }
+      ]
+    },
+    {
+      "@id": "_:Nf8d71ceb4e5b4d80ab2825dfacb7c2d9",
+      "https://schema.org#geo": {
+        "@id": "_:N884b3c9730674634b8759f158416b80e"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q131612"
+      },
+      "rdfs:label": "Wiener Neustadt"
+    },
+    {
+      "@id": "_:N884b3c9730674634b8759f158416b80e",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.813153",
+      "https://schema.org#longitude": "16.24444"
+    },
+    {
+      "@id": "_:Nb8f6a3f195fd44fe90b9d26eeaec0f25",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1463-04-22"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1463-04-22"
+      }
+    },
+    {
+      "@id": "_:N44146ac301934869abefa4ff64ee6553",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00001825"
+      },
+      "ps:P39": {
+        "@id": "ri:koenig"
+      },
+      "rdfs:label": "Kg. Georg von Böhmen"
+    },
+    {
+      "@id": "_:Na2d2b9ea76714a198b4a8c4fc461e9d7",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:K00000579"
+      },
+      "ps:P39": {
+        "@id": "ri:graf"
+      },
+      "rdfs:label": "Gf. Philipps von Katzenelnbogen"
+    }
+  ]
+}

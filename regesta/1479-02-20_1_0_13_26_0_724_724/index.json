@@ -1,0 +1,90 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1479-02-20_1_0_13_26_0_724_724",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Nd2186412f42844d0a1de3c74dec332ad"
+      }
+    },
+    {
+      "@id": "_:Nd2186412f42844d0a1de3c74dec332ad",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Nb720f631988e4d71a98bcd854eca1109"
+      },
+      "ps:P291": {
+        "@id": "_:Nc7bb584e7127498a94f8d7ffcee0d69d"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N4a1484c697c649b2bb425d8118f5baa0"
+        },
+        {
+          "@id": "_:N6ab9199c81064e5b8f94fdfb794551c6"
+        }
+      ]
+    },
+    {
+      "@id": "_:Nc7bb584e7127498a94f8d7ffcee0d69d",
+      "https://schema.org#geo": {
+        "@id": "_:N8ff1bfed1782444d8a150f3dc964053c"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q13298"
+      },
+      "rdfs:label": "Graz"
+    },
+    {
+      "@id": "_:N8ff1bfed1782444d8a150f3dc964053c",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.06667",
+      "https://schema.org#longitude": "15.45"
+    },
+    {
+      "@id": "_:Nb720f631988e4d71a98bcd854eca1109",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1479-02-20"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1479-02-20"
+      }
+    },
+    {
+      "@id": "_:N4a1484c697c649b2bb425d8118f5baa0",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00001841"
+      },
+      "ps:P39": {
+        "@id": "ri:koenig"
+      },
+      "rdfs:label": "Kg. Wladislaw (II.) von Böhmen"
+    },
+    {
+      "@id": "_:N6ab9199c81064e5b8f94fdfb794551c6",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00002248"
+      },
+      "ps:P39": {
+        "@id": "ri:kurfuerst"
+      },
+      "rdfs:label": "Kf. Albrecht von Brandenburg"
+    }
+  ]
+}

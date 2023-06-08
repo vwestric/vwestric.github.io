@@ -1,0 +1,106 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1457-12-16_1_0_13_4_0_9842_272",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N4cfd3aa8923546ad990e799af319889f"
+      }
+    },
+    {
+      "@id": "_:N4cfd3aa8923546ad990e799af319889f",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N1647de73c84745afb0a982f808f2664c"
+      },
+      "ps:P291": {
+        "@id": "_:N2e9506af29964a7ebf391b623233053e"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N6058f4c627ae43e28993e19f1b2a2053"
+        },
+        {
+          "@id": "_:N9cf1a0856fba43a5abb0579553bc4190"
+        },
+        {
+          "@id": "_:N6c5c758d39e9486a99f8cb6273031241"
+        },
+        {
+          "@id": "_:N655c9c4cedbc4958a0a293df2bec397b"
+        }
+      ]
+    },
+    {
+      "@id": "_:N2e9506af29964a7ebf391b623233053e",
+      "https://schema.org#geo": {
+        "@id": "_:N130c6d697d4a4c5fa15d11fe62c6387f"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q13298"
+      },
+      "rdfs:label": "Graz"
+    },
+    {
+      "@id": "_:N130c6d697d4a4c5fa15d11fe62c6387f",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.06667",
+      "https://schema.org#longitude": "15.45"
+    },
+    {
+      "@id": "_:N1647de73c84745afb0a982f808f2664c",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1457-12-16"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1457-12-16"
+      }
+    },
+    {
+      "@id": "_:N6058f4c627ae43e28993e19f1b2a2053",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:W00000477"
+      },
+      "rdfs:label": "Hennemann Waltmann"
+    },
+    {
+      "@id": "_:N9cf1a0856fba43a5abb0579553bc4190",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:M00000975"
+      },
+      "rdfs:label": "Hans von Maßbach"
+    },
+    {
+      "@id": "_:N6c5c758d39e9486a99f8cb6273031241",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:K00002779"
+      },
+      "rdfs:label": "Jakob von Kronberg"
+    },
+    {
+      "@id": "_:N655c9c4cedbc4958a0a293df2bec397b",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:R00002101"
+      },
+      "rdfs:label": "Philipp Rode"
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1461-07-18_2_0_13_11_0_338_338",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N59dcc1a704d448dcab5a6dbe65177509"
+      }
+    },
+    {
+      "@id": "_:N59dcc1a704d448dcab5a6dbe65177509",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N22b3bb18ad5043d2ab4bb488254e9054"
+      },
+      "ps:P291": {
+        "@id": "_:Nc0a777d373f84769a0a6ddc1abc93eb8"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N98d25d38c85b4c19a162b60d81af6eaa"
+        },
+        {
+          "@id": "_:N90853bbae1c84cfda5baff18fc44d7b4"
+        },
+        {
+          "@id": "_:N3aee061edd574a239f0994567f8103fd"
+        },
+        {
+          "@id": "_:N26ab3a3231be42279602db984f3133eb"
+        }
+      ]
+    },
+    {
+      "@id": "_:Nc0a777d373f84769a0a6ddc1abc93eb8",
+      "https://schema.org#geo": {
+        "@id": "_:N507f5e865e3e473ba10a081a8b9ef695"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q13298"
+      },
+      "rdfs:label": "Graz"
+    },
+    {
+      "@id": "_:N507f5e865e3e473ba10a081a8b9ef695",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.06667",
+      "https://schema.org#longitude": "15.45"
+    },
+    {
+      "@id": "_:N22b3bb18ad5043d2ab4bb488254e9054",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1461-07-18"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1461-07-18"
+      }
+    },
+    {
+      "@id": "_:N98d25d38c85b4c19a162b60d81af6eaa",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00000099"
+      },
+      "ps:P39": {
+        "@id": "ri:herzog"
+      },
+      "rdfs:label": "Hz. Wilhelm (III.) von Sachsen"
+    },
+    {
+      "@id": "_:N90853bbae1c84cfda5baff18fc44d7b4",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00002248"
+      },
+      "rdfs:label": "Albrecht von Brandenburg"
+    },
+    {
+      "@id": "_:N3aee061edd574a239f0994567f8103fd",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00000075"
+      },
+      "rdfs:label": "Karl (I.) von Baden"
+    },
+    {
+      "@id": "_:N26ab3a3231be42279602db984f3133eb",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:W00003211"
+      },
+      "ps:P39": {
+        "@id": "ri:graf"
+      },
+      "rdfs:label": "Gf. Ulrich (V.) von Württemberg"
+    }
+  ]
+}

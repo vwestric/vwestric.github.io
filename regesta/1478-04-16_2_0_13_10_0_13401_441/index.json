@@ -1,0 +1,55 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1478-04-16_2_0_13_10_0_13401_441",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N750f9f7a19a24de8b89380599b8e34e8"
+      }
+    },
+    {
+      "@id": "_:N750f9f7a19a24de8b89380599b8e34e8",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N00e46841e8fe4580a5cb9467c6ef19e1"
+      },
+      "ps:P3342": {
+        "@id": "_:Ne25dfbce96d148ab988b6eb5a911fd5a"
+      }
+    },
+    {
+      "@id": "_:N00e46841e8fe4580a5cb9467c6ef19e1",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1478-04-16"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1478-04-16"
+      }
+    },
+    {
+      "@id": "_:Ne25dfbce96d148ab988b6eb5a911fd5a",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00000099"
+      },
+      "ps:P39": {
+        "@id": "ri:herzog"
+      },
+      "rdfs:label": "Hz. Wilhelm (III.) von Sachsen"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1473-12-31_1_0_13_5_0_10874_250",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N7a2406c3f04046bc8177b423d943b7db"
+      }
+    },
+    {
+      "@id": "_:N7a2406c3f04046bc8177b423d943b7db",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Na4002cdbc34d49c8be2dc5bcf70f41f0"
+      },
+      "ps:P3342": {
+        "@id": "_:Ne126446e2e2043c69df8bddeab69917f"
+      }
+    },
+    {
+      "@id": "_:Na4002cdbc34d49c8be2dc5bcf70f41f0",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1473-12-31"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1473-12-31"
+      }
+    },
+    {
+      "@id": "_:Ne126446e2e2043c69df8bddeab69917f",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:K00001690"
+      },
+      "ps:P39": {
+        "@id": "ri:erzbischof"
+      },
+      "rdfs:label": "Eb. Ruprecht von Köln"
+    }
+  ]
+}

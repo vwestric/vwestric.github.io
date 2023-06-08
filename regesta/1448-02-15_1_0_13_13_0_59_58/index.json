@@ -1,0 +1,87 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1448-02-15_1_0_13_13_0_59_58",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Na349279f4f0f458aa8bfaa89f616be28"
+      }
+    },
+    {
+      "@id": "_:Na349279f4f0f458aa8bfaa89f616be28",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N7fbf6217d96143a28d1a44e514bc03ac"
+      },
+      "ps:P291": {
+        "@id": "_:N18034e6e0f2947d0aad9198e8ee399db"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N2a266f47df644230846446f3ba6f8b79"
+        },
+        {
+          "@id": "_:Nbda6b3b7619c4d6592c836e01dfa357b"
+        }
+      ]
+    },
+    {
+      "@id": "_:N18034e6e0f2947d0aad9198e8ee399db",
+      "https://schema.org#geo": {
+        "@id": "_:N71ae485540584bd3a568b1a6bde4f97b"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q1741"
+      },
+      "rdfs:label": "Wien"
+    },
+    {
+      "@id": "_:N71ae485540584bd3a568b1a6bde4f97b",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "48.20849",
+      "https://schema.org#longitude": "16.37208"
+    },
+    {
+      "@id": "_:N7fbf6217d96143a28d1a44e514bc03ac",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1448-02-15"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1448-02-15"
+      }
+    },
+    {
+      "@id": "_:N2a266f47df644230846446f3ba6f8b79",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:O00000599"
+      },
+      "ps:P39": {
+        "@id": "ri:koenig"
+      },
+      "rdfs:label": "Kg. Ladislaus"
+    },
+    {
+      "@id": "_:Nbda6b3b7619c4d6592c836e01dfa357b",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:L00001708"
+      },
+      "rdfs:label": "Pankraz von Galitz"
+    }
+  ]
+}

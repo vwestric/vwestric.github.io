@@ -1,0 +1,132 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1486-03-20_1_0_13_30_0_204_204",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Ne0479ad8ebd345ad830954615c783e63"
+      }
+    },
+    {
+      "@id": "_:Ne0479ad8ebd345ad830954615c783e63",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Nfb05e45186d54c43b9af16858e294f9d"
+      },
+      "ps:P291": {
+        "@id": "_:N8cc44c207159401c82ac422a75451434"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N4559a7571b4747849844308384805e50"
+        },
+        {
+          "@id": "_:N5dc1461f58c34e88abf7d2acb25ef2ba"
+        },
+        {
+          "@id": "_:Ncd7546c0495549e09506eff66e992c80"
+        },
+        {
+          "@id": "_:Nea87f9e0a3404d1d9c2f130212281885"
+        },
+        {
+          "@id": "_:N5f56a7388f9c426d91c3c2a09dfa841c"
+        }
+      ]
+    },
+    {
+      "@id": "_:N8cc44c207159401c82ac422a75451434",
+      "https://schema.org#geo": {
+        "@id": "_:Naa08bb574d444fd09aaa58206e77a6dd"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q1794"
+      },
+      "rdfs:label": "Frankfurt"
+    },
+    {
+      "@id": "_:Naa08bb574d444fd09aaa58206e77a6dd",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "50.110556",
+      "https://schema.org#longitude": "8.682222"
+    },
+    {
+      "@id": "_:Nfb05e45186d54c43b9af16858e294f9d",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1486-03-20"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1486-03-20"
+      }
+    },
+    {
+      "@id": "_:N4559a7571b4747849844308384805e50",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:M00001151"
+      },
+      "ps:P39": {
+        "@id": "ri:koenig"
+      },
+      "rdfs:label": "Kg. Maximilian"
+    },
+    {
+      "@id": "_:N5dc1461f58c34e88abf7d2acb25ef2ba",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:M00000268"
+      },
+      "ps:P39": {
+        "@id": "ri:erzbischof"
+      },
+      "rdfs:label": "Eb. Berthold von Mainz"
+    },
+    {
+      "@id": "_:Ncd7546c0495549e09506eff66e992c80",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:P00000998"
+      },
+      "ps:P39": {
+        "@id": "ri:pfalzgraf"
+      },
+      "rdfs:label": "Pfgf. Philipp bei Rhein"
+    },
+    {
+      "@id": "_:Nea87f9e0a3404d1d9c2f130212281885",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00000065"
+      },
+      "ps:P39": {
+        "@id": "ri:herzog"
+      },
+      "rdfs:label": "Hz. Ernst von Sachsen"
+    },
+    {
+      "@id": "_:N5f56a7388f9c426d91c3c2a09dfa841c",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:U00000212"
+      },
+      "ps:P39": {
+        "@id": "ri:koenig"
+      },
+      "rdfs:label": "Kg. Matthias von Ungarn"
+    }
+  ]
+}

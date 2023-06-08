@@ -1,0 +1,112 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1451-07-09_1_0_13_7_0_11256_94",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Nc1b54d775a514b528da4d28df85a3196"
+      }
+    },
+    {
+      "@id": "_:Nc1b54d775a514b528da4d28df85a3196",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Nd4abd32ffb454345927c60d3351933a5"
+      },
+      "ps:P291": {
+        "@id": "_:Na28c71345e9541d5acc6886131c3de54"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N27a15388b71c49d3bd7f1edfe5b6ccdb"
+        },
+        {
+          "@id": "_:N97d0a869eacb43f9a0dc38c0ebd14766"
+        },
+        {
+          "@id": "_:N445f32d773cc4bdfbae46d102b490df9"
+        },
+        {
+          "@id": "_:Nbc073d868213473d8f171ca7b912eb36"
+        }
+      ]
+    },
+    {
+      "@id": "_:Na28c71345e9541d5acc6886131c3de54",
+      "https://schema.org#geo": {
+        "@id": "_:N6e33a05be73449dcb3c3d2a0aae4914b"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q1741"
+      },
+      "rdfs:label": "Wien"
+    },
+    {
+      "@id": "_:N6e33a05be73449dcb3c3d2a0aae4914b",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "48.20849",
+      "https://schema.org#longitude": "16.37208"
+    },
+    {
+      "@id": "_:Nd4abd32ffb454345927c60d3351933a5",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1451-07-09"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1451-07-09"
+      }
+    },
+    {
+      "@id": "_:N27a15388b71c49d3bd7f1edfe5b6ccdb",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:G00001897"
+      },
+      "rdfs:label": "Mainzer Domdechanten Heinrich Greiffenclau"
+    },
+    {
+      "@id": "_:N97d0a869eacb43f9a0dc38c0ebd14766",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:L00002440"
+      },
+      "ps:P39": {
+        "@id": "ri:propst"
+      },
+      "rdfs:label": "Propst von Liebfrauen zu Mainz, Johann Lisura"
+    },
+    {
+      "@id": "_:N445f32d773cc4bdfbae46d102b490df9",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:R00002506"
+      },
+      "rdfs:label": "Johann Rosenkranz"
+    },
+    {
+      "@id": "_:Nbc073d868213473d8f171ca7b912eb36",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:V00000400"
+      },
+      "ps:P39": {
+        "@id": "ri:buerger"
+      },
+      "rdfs:label": "Kölner Bürger Gerhard von dem Viehhof"
+    }
+  ]
+}

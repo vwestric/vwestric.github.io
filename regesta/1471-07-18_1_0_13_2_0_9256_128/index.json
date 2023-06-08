@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1471-07-18_1_0_13_2_0_9256_128",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N4fae2a5e82b9498389c2bb77de2ee579"
+      }
+    },
+    {
+      "@id": "_:N4fae2a5e82b9498389c2bb77de2ee579",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N3b1e48fc614e4cd59072e2ff712b7640"
+      },
+      "ps:P291": {
+        "@id": "_:Nb31a3cbd150f4ed58d4adeeefc56d370"
+      },
+      "ps:P3342": {
+        "@id": "_:N606326dcaa01417fb7c18dda63769793"
+      }
+    },
+    {
+      "@id": "_:Nb31a3cbd150f4ed58d4adeeefc56d370",
+      "https://schema.org#geo": {
+        "@id": "_:N5c838e8811e74eacba1c2dc1790dec62"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q2978"
+      },
+      "rdfs:label": "Regensburg"
+    },
+    {
+      "@id": "_:N5c838e8811e74eacba1c2dc1790dec62",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "49.0054",
+      "https://schema.org#longitude": "12.0606"
+    },
+    {
+      "@id": "_:N3b1e48fc614e4cd59072e2ff712b7640",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1471-07-18"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1471-07-18"
+      }
+    },
+    {
+      "@id": "_:N606326dcaa01417fb7c18dda63769793",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00003529"
+      },
+      "ps:P39": {
+        "@id": "ri:kaiser"
+      },
+      "rdfs:label": "Kaiser Siegmund"
+    }
+  ]
+}

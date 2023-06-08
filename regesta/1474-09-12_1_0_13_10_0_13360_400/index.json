@@ -1,0 +1,90 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1474-09-12_1_0_13_10_0_13360_400",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N16a0d1270dee49748b73874155b76e28"
+      }
+    },
+    {
+      "@id": "_:N16a0d1270dee49748b73874155b76e28",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Nac867c0dfa374450b6c3246e03919501"
+      },
+      "ps:P291": {
+        "@id": "_:N8f4fc7d892084112990e778bc60dc61c"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N41459f4313ce4ef9aa6f7e8cd78cde2e"
+        },
+        {
+          "@id": "_:N254ebe082249401389ff32e943e98bb2"
+        }
+      ]
+    },
+    {
+      "@id": "_:N8f4fc7d892084112990e778bc60dc61c",
+      "https://schema.org#geo": {
+        "@id": "_:Nf9563c5caddc4bbdbdd289f03a0400a4"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q2749"
+      },
+      "rdfs:label": "Augsburg"
+    },
+    {
+      "@id": "_:Nf9563c5caddc4bbdbdd289f03a0400a4",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "48.37154",
+      "https://schema.org#longitude": "10.89851"
+    },
+    {
+      "@id": "_:Nac867c0dfa374450b6c3246e03919501",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1474-09-12"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1474-09-12"
+      }
+    },
+    {
+      "@id": "_:N41459f4313ce4ef9aa6f7e8cd78cde2e",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00001841"
+      },
+      "ps:P39": {
+        "@id": "ri:koenig"
+      },
+      "rdfs:label": "Kg. Wladislaw (II.) von Böhmen"
+    },
+    {
+      "@id": "_:N254ebe082249401389ff32e943e98bb2",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00001841"
+      },
+      "ps:P39": {
+        "@id": "ri:koenig"
+      },
+      "rdfs:label": "Königs (Matthias) von Ungarn"
+    }
+  ]
+}

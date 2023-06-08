@@ -1,0 +1,90 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1487-07-30_1_0_13_11_0_574_574",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N9f240a8412f14c18a58501ed54676cc6"
+      }
+    },
+    {
+      "@id": "_:N9f240a8412f14c18a58501ed54676cc6",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N0a191822a1d44944a61e520aabc90f2b"
+      },
+      "ps:P291": {
+        "@id": "_:N94356b3c1a1d420d89e2d5a25d0e791e"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:Nd864043f360844a68999f3118c4d26e9"
+        },
+        {
+          "@id": "_:Naee7b8b258034145bf2b991262886922"
+        }
+      ]
+    },
+    {
+      "@id": "_:N94356b3c1a1d420d89e2d5a25d0e791e",
+      "https://schema.org#geo": {
+        "@id": "_:Nce439691379c4cc98d8e0f42d962b765"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q2090"
+      },
+      "rdfs:label": "Nürnberg"
+    },
+    {
+      "@id": "_:Nce439691379c4cc98d8e0f42d962b765",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "49.45421",
+      "https://schema.org#longitude": "11.07752"
+    },
+    {
+      "@id": "_:N0a191822a1d44944a61e520aabc90f2b",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1487-07-30"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1487-07-30"
+      }
+    },
+    {
+      "@id": "_:Nd864043f360844a68999f3118c4d26e9",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00000064"
+      },
+      "ps:P39": {
+        "@id": "ri:herzog"
+      },
+      "rdfs:label": "Hz. Albrecht von Sachsen"
+    },
+    {
+      "@id": "_:Naee7b8b258034145bf2b991262886922",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:U00000212"
+      },
+      "ps:P39": {
+        "@id": "ri:koenig"
+      },
+      "rdfs:label": "Kg. Matthias von Ungarn"
+    }
+  ]
+}

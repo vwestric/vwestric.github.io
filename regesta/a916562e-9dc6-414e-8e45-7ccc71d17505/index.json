@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:a916562e-9dc6-414e-8e45-7ccc71d17505",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N505b847bdad7484f879273cdd7aee255"
+      }
+    },
+    {
+      "@id": "_:N505b847bdad7484f879273cdd7aee255",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N95abe29ea4114b6c89971045f39f7cf9"
+      },
+      "ps:P291": {
+        "@id": "_:Nbdd639827eaa43a5ad7cbd21c7d22cb0"
+      },
+      "ps:P3342": {
+        "@id": "_:N68a36bbc53f4468b846c26298ceac9e6"
+      }
+    },
+    {
+      "@id": "_:Nbdd639827eaa43a5ad7cbd21c7d22cb0",
+      "https://schema.org#geo": {
+        "@id": "_:N586298be0fef4456aabf8b6f26be5642"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q41329"
+      },
+      "rdfs:label": "Linz"
+    },
+    {
+      "@id": "_:N586298be0fef4456aabf8b6f26be5642",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "48.303056",
+      "https://schema.org#longitude": "14.290556"
+    },
+    {
+      "@id": "_:N95abe29ea4114b6c89971045f39f7cf9",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1492-01-26"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1492-01-26"
+      }
+    },
+    {
+      "@id": "_:N68a36bbc53f4468b846c26298ceac9e6",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:F00000907"
+      },
+      "ps:P39": {
+        "@id": "ri:koenig"
+      },
+      "rdfs:label": "Kg. (Karl VIII.) von Frankreich"
+    }
+  ]
+}

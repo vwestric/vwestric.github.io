@@ -1,0 +1,90 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1465-07-19_1_0_13_3_0_9461_93",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N26137904adc94e5e83c9dce760243ee8"
+      }
+    },
+    {
+      "@id": "_:N26137904adc94e5e83c9dce760243ee8",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Neaa5e018bed740238d736c1ab5be1746"
+      },
+      "ps:P291": {
+        "@id": "_:N990058074c9f422da65842f77207ec21"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N792344ce92f0431da9db9fb7c3641df9"
+        },
+        {
+          "@id": "_:Nc80e7366bea14a3284cca9a705a22137"
+        }
+      ]
+    },
+    {
+      "@id": "_:N990058074c9f422da65842f77207ec21",
+      "https://schema.org#geo": {
+        "@id": "_:N32b2c29229b4414eb4505bb85f74735c"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q131612"
+      },
+      "rdfs:label": "Wiener Neustadt"
+    },
+    {
+      "@id": "_:N32b2c29229b4414eb4505bb85f74735c",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.813153",
+      "https://schema.org#longitude": "16.24444"
+    },
+    {
+      "@id": "_:Neaa5e018bed740238d736c1ab5be1746",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1465-07-19"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1465-07-19"
+      }
+    },
+    {
+      "@id": "_:N792344ce92f0431da9db9fb7c3641df9",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00001064"
+      },
+      "ps:P39": {
+        "@id": "ri:graf"
+      },
+      "rdfs:label": "Gf. Gerhard von Sayn"
+    },
+    {
+      "@id": "_:Nc80e7366bea14a3284cca9a705a22137",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:H00002096"
+      },
+      "ps:P39": {
+        "@id": "ri:landgraf"
+      },
+      "rdfs:label": "Ldgf. Ludwig von Hessen"
+    }
+  ]
+}

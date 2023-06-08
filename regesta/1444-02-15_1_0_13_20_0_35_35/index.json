@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1444-02-15_1_0_13_20_0_35_35",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N440f5c4018234460bf53f5e645abd5c4"
+      }
+    },
+    {
+      "@id": "_:N440f5c4018234460bf53f5e645abd5c4",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N55bb799b18584816ae048a49bf019aa4"
+      },
+      "ps:P291": {
+        "@id": "_:N1d11bf4469ed4cd3835247dce2c2e040"
+      },
+      "ps:P3342": {
+        "@id": "_:N4296482b55df4eb09ab09e65f96d911a"
+      }
+    },
+    {
+      "@id": "_:N1d11bf4469ed4cd3835247dce2c2e040",
+      "https://schema.org#geo": {
+        "@id": "_:Nf7da31391d2b4771adb1d00b75027ac0"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q437"
+      },
+      "rdfs:label": "Laibach"
+    },
+    {
+      "@id": "_:Nf7da31391d2b4771adb1d00b75027ac0",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "46.05108",
+      "https://schema.org#longitude": "14.50513"
+    },
+    {
+      "@id": "_:N55bb799b18584816ae048a49bf019aa4",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1444-02-15"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1444-02-15"
+      }
+    },
+    {
+      "@id": "_:N4296482b55df4eb09ab09e65f96d911a",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:G00001711"
+      },
+      "ps:P39": {
+        "@id": "ri:erzbischof"
+      },
+      "rdfs:label": "Eb. Dionys Szecsy von Gran"
+    }
+  ]
+}

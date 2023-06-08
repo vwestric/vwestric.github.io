@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:abde2083-c70b-4c15-93b8-41482a6694f8",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N6d3e6af3324f45e5bc946ef38eedf50f"
+      }
+    },
+    {
+      "@id": "_:N6d3e6af3324f45e5bc946ef38eedf50f",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N88be16f015a14be59e107ba18f31f920"
+      },
+      "ps:P291": {
+        "@id": "_:N34f45d5530af472287bdf131e2213c44"
+      },
+      "ps:P3342": {
+        "@id": "_:N05428640a2ac49ab96d4e98a042a4e43"
+      }
+    },
+    {
+      "@id": "_:N34f45d5530af472287bdf131e2213c44",
+      "https://schema.org#geo": {
+        "@id": "_:N43a3fbdd665c403c9d9079cced0e800e"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q131612"
+      },
+      "rdfs:label": "Wiener Neustadt"
+    },
+    {
+      "@id": "_:N43a3fbdd665c403c9d9079cced0e800e",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.813153",
+      "https://schema.org#longitude": "16.24444"
+    },
+    {
+      "@id": "_:N88be16f015a14be59e107ba18f31f920",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1476-12-08"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1476-12-08"
+      }
+    },
+    {
+      "@id": "_:N05428640a2ac49ab96d4e98a042a4e43",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00001841"
+      },
+      "ps:P39": {
+        "@id": "ri:koenig"
+      },
+      "rdfs:label": "Kg. Wladislaw (II.) von Böhmen"
+    }
+  ]
+}

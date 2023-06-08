@@ -1,0 +1,137 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1478-05-17_2_0_13_16_0_149_149",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N86b2f42ae11e4d3f889cbabe22898971"
+      }
+    },
+    {
+      "@id": "_:N86b2f42ae11e4d3f889cbabe22898971",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N348f6eef84d941088b9ae329ea930f4c"
+      },
+      "ps:P291": {
+        "@id": "_:N827ceac439dc47c68ec7547a44da2470"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N1c8a6417644b4ae48bebd5f391b3eb58"
+        },
+        {
+          "@id": "_:N0b3ded635fee4df496b761d3e82cc465"
+        },
+        {
+          "@id": "_:N02fa2d80982644d18330c83fdcf74d81"
+        },
+        {
+          "@id": "_:N1a970ef830b94e2a9b813daf0c901490"
+        },
+        {
+          "@id": "_:Nd558cffbd8dd4082906e1192a52e7ab3"
+        },
+        {
+          "@id": "_:N921465469b9445a29b5a1f2630f3913f"
+        }
+      ]
+    },
+    {
+      "@id": "_:N827ceac439dc47c68ec7547a44da2470",
+      "https://schema.org#geo": {
+        "@id": "_:Ndb81b1f9d924400c8f6322f06ab3e696"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q13298"
+      },
+      "rdfs:label": "Graz"
+    },
+    {
+      "@id": "_:Ndb81b1f9d924400c8f6322f06ab3e696",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.06667",
+      "https://schema.org#longitude": "15.45"
+    },
+    {
+      "@id": "_:N348f6eef84d941088b9ae329ea930f4c",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1478-05-17"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1478-05-17"
+      }
+    },
+    {
+      "@id": "_:N1c8a6417644b4ae48bebd5f391b3eb58",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00000065"
+      },
+      "ps:P39": {
+        "@id": "ri:herzog"
+      },
+      "rdfs:label": "Hz. Ernst von Sachsen"
+    },
+    {
+      "@id": "_:N0b3ded635fee4df496b761d3e82cc465",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00002248"
+      },
+      "ps:P39": {
+        "@id": "ri:markgraf"
+      },
+      "rdfs:label": "Mgf. Albrecht von Brandenburg"
+    },
+    {
+      "@id": "_:N02fa2d80982644d18330c83fdcf74d81",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:M00000078"
+      },
+      "ps:P39": {
+        "@id": "ri:erzbischof"
+      },
+      "rdfs:label": "Eb. Ernst von Magdeburg"
+    },
+    {
+      "@id": "_:N1a970ef830b94e2a9b813daf0c901490",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:M00001687"
+      },
+      "rdfs:label": "Thilo von Merseburg"
+    },
+    {
+      "@id": "_:Nd558cffbd8dd4082906e1192a52e7ab3",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00000055"
+      },
+      "rdfs:label": "Albrecht von Sachsen"
+    },
+    {
+      "@id": "_:N921465469b9445a29b5a1f2630f3913f",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00005421"
+      },
+      "rdfs:label": "Heinrich (d. Ä.) von Stolberg"
+    }
+  ]
+}

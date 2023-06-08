@@ -1,0 +1,55 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1475-02-17_1_0_13_7_0_11608_442",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N8ef56e76cc134f8eaa1b2de4e1079279"
+      }
+    },
+    {
+      "@id": "_:N8ef56e76cc134f8eaa1b2de4e1079279",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Nc06663931c7940dabc365a5f12578420"
+      },
+      "ps:P3342": {
+        "@id": "_:N93f8e72f9855436e9be357f0a6183979"
+      }
+    },
+    {
+      "@id": "_:Nc06663931c7940dabc365a5f12578420",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1475-02-17"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1475-02-17"
+      }
+    },
+    {
+      "@id": "_:N93f8e72f9855436e9be357f0a6183979",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:D00000033"
+      },
+      "ps:P39": {
+        "@id": "ri:koenig"
+      },
+      "rdfs:label": "Kg. (Christian I.) von Dänemark"
+    }
+  ]
+}

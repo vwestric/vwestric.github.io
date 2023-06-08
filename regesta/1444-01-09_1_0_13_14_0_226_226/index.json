@@ -1,0 +1,60 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1444-01-09_1_0_13_14_0_226_226",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N78a8d6458a834be2bdf59d0185a1fa16"
+      }
+    },
+    {
+      "@id": "_:N78a8d6458a834be2bdf59d0185a1fa16",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Nddc8f5e7a21643f186dc75483d500842"
+      },
+      "ps:P291": {
+        "@id": "_:Nddce0861356349738a613afe51fd9857"
+      }
+    },
+    {
+      "@id": "_:Nddce0861356349738a613afe51fd9857",
+      "https://schema.org#geo": {
+        "@id": "_:N840ecf60a5784e5f95190038ea0c5541"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q494604"
+      },
+      "rdfs:label": "St. Veit in Kärnten"
+    },
+    {
+      "@id": "_:N840ecf60a5784e5f95190038ea0c5541",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "46.767222",
+      "https://schema.org#longitude": "14.359722"
+    },
+    {
+      "@id": "_:Nddc8f5e7a21643f186dc75483d500842",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1444-01-09"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1444-01-09"
+      }
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1457-02-27_3_0_13_28_0_82_82",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Nfa58bc18a4744879b9303f6c59b9b600"
+      }
+    },
+    {
+      "@id": "_:Nfa58bc18a4744879b9303f6c59b9b600",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Nfdadf5f9c9bd413ba2efdd0da4489132"
+      },
+      "ps:P291": {
+        "@id": "_:N600dd41a8e304da2be3a0d54950205c4"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:Nb33f51a8ea2c4d03b9e77a2ccc0f1263"
+        },
+        {
+          "@id": "_:Nd4b0735fb6ad41aa993dbbbe5f76b2c1"
+        },
+        {
+          "@id": "_:Ne2e06b6cb0834aa9985f759b51b6d60c"
+        }
+      ]
+    },
+    {
+      "@id": "_:N600dd41a8e304da2be3a0d54950205c4",
+      "https://schema.org#geo": {
+        "@id": "_:N1096378ef66b41bfaf555687769ba448"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q13298"
+      },
+      "rdfs:label": "Graz"
+    },
+    {
+      "@id": "_:N1096378ef66b41bfaf555687769ba448",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.06667",
+      "https://schema.org#longitude": "15.45"
+    },
+    {
+      "@id": "_:Nfdadf5f9c9bd413ba2efdd0da4489132",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1457-02-27"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1457-02-27"
+      }
+    },
+    {
+      "@id": "_:Nb33f51a8ea2c4d03b9e77a2ccc0f1263",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:T00001724"
+      },
+      "rdfs:label": "Anton Tetzel von Forchheim (Vorcheim)"
+    },
+    {
+      "@id": "_:Nd4b0735fb6ad41aa993dbbbe5f76b2c1",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:W00003629"
+      },
+      "rdfs:label": "Kunigunde Wilant von Windsheim (Winshaim)"
+    },
+    {
+      "@id": "_:Ne2e06b6cb0834aa9985f759b51b6d60c",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00000238"
+      },
+      "ps:P39": {
+        "@id": "ri:dompropst"
+      },
+      "rdfs:label": "Georg von Schaumberg, Dompropst zu Bamberg"
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1473-05-25_1_0_13_23_0_611_608",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Nf3bd256a439b48148936bd7701d4e9bb"
+      }
+    },
+    {
+      "@id": "_:Nf3bd256a439b48148936bd7701d4e9bb",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N6d9b47157f034135a5eeeacfba7194f2"
+      },
+      "ps:P291": {
+        "@id": "_:N45f4850b26354c2b822b6c36e380679a"
+      },
+      "ps:P3342": {
+        "@id": "_:Nfb7d9de5d4984ff5b0cede176088f685"
+      }
+    },
+    {
+      "@id": "_:N45f4850b26354c2b822b6c36e380679a",
+      "https://schema.org#geo": {
+        "@id": "_:N2b3a671fecce4fa9b653f6390631970b"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q2749"
+      },
+      "rdfs:label": "Augsburg"
+    },
+    {
+      "@id": "_:N2b3a671fecce4fa9b653f6390631970b",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "48.37154",
+      "https://schema.org#longitude": "10.89851"
+    },
+    {
+      "@id": "_:N6d9b47157f034135a5eeeacfba7194f2",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1473-05-25"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1473-05-25"
+      }
+    },
+    {
+      "@id": "_:Nfb7d9de5d4984ff5b0cede176088f685",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:W00003211"
+      },
+      "ps:P39": {
+        "@id": "ri:graf"
+      },
+      "rdfs:label": "Gf. Ulrich (V.) von Württemberg"
+    }
+  ]
+}

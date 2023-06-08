@@ -1,0 +1,71 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1479-05-09_1_0_13_3_0_9518_150",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N30a2cee0ff1042a59c41767d5b7655e9"
+      }
+    },
+    {
+      "@id": "_:N30a2cee0ff1042a59c41767d5b7655e9",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N2bbee96ae8074dcc8629c1615de754f8"
+      },
+      "ps:P291": {
+        "@id": "_:N19107512b81149d6b0f2b77399d514d3"
+      },
+      "ps:P3342": {
+        "@id": "_:N333e3b8b81424e00a20abf750c4b9324"
+      }
+    },
+    {
+      "@id": "_:N19107512b81149d6b0f2b77399d514d3",
+      "https://schema.org#geo": {
+        "@id": "_:N4495d32f7b1d416fab1a3e51c8952ded"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q13298"
+      },
+      "rdfs:label": "Graz"
+    },
+    {
+      "@id": "_:N4495d32f7b1d416fab1a3e51c8952ded",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.06667",
+      "https://schema.org#longitude": "15.45"
+    },
+    {
+      "@id": "_:N2bbee96ae8074dcc8629c1615de754f8",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1479-05-09"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1479-05-09"
+      }
+    },
+    {
+      "@id": "_:N333e3b8b81424e00a20abf750c4b9324",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00004284"
+      },
+      "rdfs:label": "Sigfried von Speyer"
+    }
+  ]
+}

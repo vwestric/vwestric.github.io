@@ -1,0 +1,154 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1459-06-30_2_0_13_28_0_180_180",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N4f61bb2521454000ae883651ad6bc73b"
+      }
+    },
+    {
+      "@id": "_:N4f61bb2521454000ae883651ad6bc73b",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N141e12298bbd45ac9237a9ab94ea6eaf"
+      },
+      "ps:P291": {
+        "@id": "_:N2a58bea19e18413c98de02c7920446f2"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N65ca20cdf9ee44be8e2e28a8b3ef30b4"
+        },
+        {
+          "@id": "_:N7190e2d05ddc45cbac7dd4a89f124702"
+        },
+        {
+          "@id": "_:Nacf974a06fa24cf193feb51dc9421c00"
+        },
+        {
+          "@id": "_:N70ca3fb4b8c64832849ef305b492fa2e"
+        },
+        {
+          "@id": "_:N4f61262a9931445899e9c6576158bcdc"
+        },
+        {
+          "@id": "_:N0f4f6cb0d3ea49449ada66cd474c6e32"
+        },
+        {
+          "@id": "_:N996544526d4a427b809b3fa5e62a28ef"
+        }
+      ]
+    },
+    {
+      "@id": "_:N2a58bea19e18413c98de02c7920446f2",
+      "https://schema.org#geo": {
+        "@id": "_:N70e717283bf3409799ab3a41525689b3"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q1741"
+      },
+      "rdfs:label": "Wien"
+    },
+    {
+      "@id": "_:N70e717283bf3409799ab3a41525689b3",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "48.20849",
+      "https://schema.org#longitude": "16.37208"
+    },
+    {
+      "@id": "_:N141e12298bbd45ac9237a9ab94ea6eaf",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1459-06-30"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1459-06-30"
+      }
+    },
+    {
+      "@id": "_:N65ca20cdf9ee44be8e2e28a8b3ef30b4",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00000582"
+      },
+      "ps:P39": {
+        "@id": "ri:herzog"
+      },
+      "rdfs:label": "Hz. Albrecht (III.) von Bayern (-München)"
+    },
+    {
+      "@id": "_:N7190e2d05ddc45cbac7dd4a89f124702",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00000565"
+      },
+      "ps:P39": {
+        "@id": "ri:herzog"
+      },
+      "rdfs:label": "Hz. Ludwig (IX.) von Bayern (-Landshut)"
+    },
+    {
+      "@id": "_:Nacf974a06fa24cf193feb51dc9421c00",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:O00000622"
+      },
+      "ps:P39": {
+        "@id": "ri:herzog"
+      },
+      "rdfs:label": "Hz. Sigmund von Österreich"
+    },
+    {
+      "@id": "_:N70ca3fb4b8c64832849ef305b492fa2e",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00002248"
+      },
+      "ps:P39": {
+        "@id": "ri:markgraf"
+      },
+      "rdfs:label": "Mgf. Albrecht von Brandenburg"
+    },
+    {
+      "@id": "_:N4f61262a9931445899e9c6576158bcdc",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:W00001556"
+      },
+      "rdfs:label": "Johann von Wertheim"
+    },
+    {
+      "@id": "_:N0f4f6cb0d3ea49449ada66cd474c6e32",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:O00000788"
+      },
+      "rdfs:label": "Wilhelm von Oettingen"
+    },
+    {
+      "@id": "_:N996544526d4a427b809b3fa5e62a28ef",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:W00003365"
+      },
+      "ps:P39": {
+        "@id": "ri:bischof"
+      },
+      "rdfs:label": "Bf. Johann von Würzburg"
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1485-08-17_1_0_13_6_0_11127_149",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N971cdb3c8774481bb54af4369c636d54"
+      }
+    },
+    {
+      "@id": "_:N971cdb3c8774481bb54af4369c636d54",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Nac27db3c9c8a49bea6baad2c0af75bbd"
+      },
+      "ps:P291": {
+        "@id": "_:Nc0918683ea8b4c5387414e68d2e51fcd"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N888cab75abc0487393e7d08ff4f326c2"
+        },
+        {
+          "@id": "_:N627233fbb2794537b7ecd7eedeeec409"
+        }
+      ]
+    },
+    {
+      "@id": "_:Nc0918683ea8b4c5387414e68d2e51fcd",
+      "https://schema.org#geo": {
+        "@id": "_:N5e24c8f9a3804661940cf1918c843541"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q3834"
+      },
+      "rdfs:label": "Konstanz"
+    },
+    {
+      "@id": "_:N5e24c8f9a3804661940cf1918c843541",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.66033",
+      "https://schema.org#longitude": "9.17582"
+    },
+    {
+      "@id": "_:Nac27db3c9c8a49bea6baad2c0af75bbd",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1485-08-17"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1485-08-17"
+      }
+    },
+    {
+      "@id": "_:N888cab75abc0487393e7d08ff4f326c2",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00000574"
+      },
+      "ps:P39": {
+        "@id": "ri:abt"
+      },
+      "rdfs:label": "Abt Ulrich des Klosters St. Gallen"
+    },
+    {
+      "@id": "_:N627233fbb2794537b7ecd7eedeeec409",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00003679"
+      },
+      "ps:P39": {
+        "@id": "ri:papst"
+      },
+      "rdfs:label": "Papst Sixtus IV."
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1456-08-04_1_0_13_9_0_12691_154",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Nc3806814953149d6adfa1a52bb78cadc"
+      }
+    },
+    {
+      "@id": "_:Nc3806814953149d6adfa1a52bb78cadc",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N57e222b2253340dc8266d41e97692aba"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:Nf12bd4f37bbc4961bc3780ec2c15fa1b"
+        },
+        {
+          "@id": "_:Nde8d96eedf604a528674a2d978f35a48"
+        },
+        {
+          "@id": "_:Ne919b62ff69f4affb4d45c54a447fdad"
+        }
+      ]
+    },
+    {
+      "@id": "_:N57e222b2253340dc8266d41e97692aba",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1456-08-04"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1456-08-04"
+      }
+    },
+    {
+      "@id": "_:Nf12bd4f37bbc4961bc3780ec2c15fa1b",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00000075"
+      },
+      "ps:P39": {
+        "@id": "ri:markgraf"
+      },
+      "rdfs:label": "Mgf. Karl von Baden"
+    },
+    {
+      "@id": "_:Nde8d96eedf604a528674a2d978f35a48",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:M00000893"
+      },
+      "ps:P39": [
+        {
+          "@id": "ri:erbmarschall"
+        },
+        {
+          "@id": "ri:rat"
+        }
+      ],
+      "rdfs:label": "Erbmarschall und ksl. Rat Heinrich von Pappenheim"
+    },
+    {
+      "@id": "_:Ne919b62ff69f4affb4d45c54a447fdad",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:H00003482"
+      },
+      "rdfs:label": "Walter von Hürnheim"
+    }
+  ]
+}

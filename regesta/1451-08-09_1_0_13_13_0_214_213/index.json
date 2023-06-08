@@ -1,0 +1,79 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1451-08-09_1_0_13_13_0_214_213",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Nebf557c11f3b40d5a20886c41c6f1eb0"
+      }
+    },
+    {
+      "@id": "_:Nebf557c11f3b40d5a20886c41c6f1eb0",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Na022e1578c1c4a819e53bd02dc54be24"
+      },
+      "ps:P291": {
+        "@id": "_:N8992ef75bc5e4614aef325211e561a69"
+      },
+      "ps:P3342": {
+        "@id": "_:N513e0aa9ce5f42478041aa2fcdef566c"
+      }
+    },
+    {
+      "@id": "_:N8992ef75bc5e4614aef325211e561a69",
+      "https://schema.org#geo": {
+        "@id": "_:Na728426267fd432b8cdcfb15c3c02ad6"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q1741"
+      },
+      "rdfs:label": "Wien"
+    },
+    {
+      "@id": "_:Na728426267fd432b8cdcfb15c3c02ad6",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "48.20849",
+      "https://schema.org#longitude": "16.37208"
+    },
+    {
+      "@id": "_:Na022e1578c1c4a819e53bd02dc54be24",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1451-08-09"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1451-08-09"
+      }
+    },
+    {
+      "@id": "_:N513e0aa9ce5f42478041aa2fcdef566c",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:E00000068"
+      },
+      "ps:P39": [
+        {
+          "@id": "ri:kaemmerer"
+        },
+        {
+          "@id": "ri:hubmeister"
+        }
+      ],
+      "rdfs:label": "Sigmund von Ebersdorf, Oberster Kämmerer und Hubmeister in Österreich"
+    }
+  ]
+}

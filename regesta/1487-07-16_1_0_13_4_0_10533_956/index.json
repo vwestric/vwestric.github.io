@@ -1,0 +1,90 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1487-07-16_1_0_13_4_0_10533_956",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Nb7375b9c7ac54cdbaf4bdb5ba737d9ac"
+      }
+    },
+    {
+      "@id": "_:Nb7375b9c7ac54cdbaf4bdb5ba737d9ac",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N076fefa829294fe7bcbacb4b73a2b0b4"
+      },
+      "ps:P291": {
+        "@id": "_:Nb17311cd8e8e4c98b40571ceed8ea7a1"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N3f20fa784d5b49a2a5791559c4792acc"
+        },
+        {
+          "@id": "_:Nf88c14f745494fb8ad7793536ae8f1e2"
+        }
+      ]
+    },
+    {
+      "@id": "_:Nb17311cd8e8e4c98b40571ceed8ea7a1",
+      "https://schema.org#geo": {
+        "@id": "_:Nece6fd150f7d4870aff615f1e6aea864"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q2090"
+      },
+      "rdfs:label": "Nürnberg"
+    },
+    {
+      "@id": "_:Nece6fd150f7d4870aff615f1e6aea864",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "49.45421",
+      "https://schema.org#longitude": "11.07752"
+    },
+    {
+      "@id": "_:N076fefa829294fe7bcbacb4b73a2b0b4",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1487-07-16"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1487-07-16"
+      }
+    },
+    {
+      "@id": "_:N3f20fa784d5b49a2a5791559c4792acc",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00000064"
+      },
+      "ps:P39": {
+        "@id": "ri:herzog"
+      },
+      "rdfs:label": "Hz. Albrecht von Sachsen"
+    },
+    {
+      "@id": "_:Nf88c14f745494fb8ad7793536ae8f1e2",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00002265"
+      },
+      "ps:P39": {
+        "@id": "ri:markgraf"
+      },
+      "rdfs:label": "Mgf. Friedrich von Brandenburg"
+    }
+  ]
+}

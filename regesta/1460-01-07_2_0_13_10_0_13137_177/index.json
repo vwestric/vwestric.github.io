@@ -1,0 +1,85 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1460-01-07_2_0_13_10_0_13137_177",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N73b8ca228f3f40c9b32336f614a54b7f"
+      }
+    },
+    {
+      "@id": "_:N73b8ca228f3f40c9b32336f614a54b7f",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Nd598c3b0970c4ab1be8a8b759ef17d9e"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:Nc5df32b173274744bf0c105210fcefe9"
+        },
+        {
+          "@id": "_:Ne14c51ca38e54e6386ccf7cde4995a29"
+        },
+        {
+          "@id": "_:N43c879d7d5724cf0ba7765d890095d63"
+        }
+      ]
+    },
+    {
+      "@id": "_:Nd598c3b0970c4ab1be8a8b759ef17d9e",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1460-01-07"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1460-01-07"
+      }
+    },
+    {
+      "@id": "_:Nc5df32b173274744bf0c105210fcefe9",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:P00000962"
+      },
+      "ps:P39": {
+        "@id": "ri:pfalzgraf"
+      },
+      "rdfs:label": "Pfgf. Friedrich (I.) bei Rhein"
+    },
+    {
+      "@id": "_:Ne14c51ca38e54e6386ccf7cde4995a29",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00000565"
+      },
+      "ps:P39": {
+        "@id": "ri:herzog"
+      },
+      "rdfs:label": "Hz. Ludwig (IX.) von Bayern (-Landshut)"
+    },
+    {
+      "@id": "_:N43c879d7d5724cf0ba7765d890095d63",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:E00000494"
+      },
+      "ps:P39": {
+        "@id": "ri:bischof"
+      },
+      "rdfs:label": "Bf. Johann (III.) von Eichstätt"
+    }
+  ]
+}

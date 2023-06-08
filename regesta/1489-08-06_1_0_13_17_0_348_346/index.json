@@ -1,0 +1,84 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1489-08-06_1_0_13_17_0_348_346",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N6d31b2af48b846a0892d3a865ecf6ca4"
+      }
+    },
+    {
+      "@id": "_:N6d31b2af48b846a0892d3a865ecf6ca4",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Nbf240f7a988542b9ad992cab18919362"
+      },
+      "ps:P291": {
+        "@id": "_:Na58aea9bad6e4fe49430107963bb662e"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N77fc6e880f494435b72b268d40277056"
+        },
+        {
+          "@id": "_:N8088517c98704f449f1c5b2e5871a4c4"
+        }
+      ]
+    },
+    {
+      "@id": "_:Na58aea9bad6e4fe49430107963bb662e",
+      "https://schema.org#geo": {
+        "@id": "_:N7287d505822749f2b435404e7619209e"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q6606"
+      },
+      "rdfs:label": "Portenau"
+    },
+    {
+      "@id": "_:N7287d505822749f2b435404e7619209e",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "45.95689",
+      "https://schema.org#longitude": "12.66051"
+    },
+    {
+      "@id": "_:Nbf240f7a988542b9ad992cab18919362",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1489-08-06"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1489-08-06"
+      }
+    },
+    {
+      "@id": "_:N77fc6e880f494435b72b268d40277056",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00000945"
+      },
+      "rdfs:label": "Peter Sassensacks von Speyer"
+    },
+    {
+      "@id": "_:N8088517c98704f449f1c5b2e5871a4c4",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:W00000932"
+      },
+      "rdfs:label": "Hans Weinrich"
+    }
+  ]
+}

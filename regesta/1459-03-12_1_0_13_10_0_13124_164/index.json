@@ -1,0 +1,96 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1459-03-12_1_0_13_10_0_13124_164",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Nff032f82870349bca0565cefe8073d7b"
+      }
+    },
+    {
+      "@id": "_:Nff032f82870349bca0565cefe8073d7b",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N32a067ef60be4950b99fa4cfc959a0ee"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N02fa7eee832f404c99e39277bd56a44f"
+        },
+        {
+          "@id": "_:N18340de2cb3d454cb98703105e0994bf"
+        },
+        {
+          "@id": "_:Nbe906c861c1548d9bc57dc5788eaeca2"
+        },
+        {
+          "@id": "_:N52d7cdfc859b45ed89ce1caf89630de7"
+        }
+      ]
+    },
+    {
+      "@id": "_:N32a067ef60be4950b99fa4cfc959a0ee",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1459-03-12"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1459-03-12"
+      }
+    },
+    {
+      "@id": "_:N02fa7eee832f404c99e39277bd56a44f",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00002319"
+      },
+      "rdfs:label": "Kathrin Schrotlerin"
+    },
+    {
+      "@id": "_:N18340de2cb3d454cb98703105e0994bf",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00002711"
+      },
+      "ps:P39": {
+        "@id": "ri:graf"
+      },
+      "rdfs:label": "Gf. Heinrich von Schwarzburg"
+    },
+    {
+      "@id": "_:Nbe906c861c1548d9bc57dc5788eaeca2",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:H00001720"
+      },
+      "ps:P39": {
+        "@id": "ri:graf"
+      },
+      "rdfs:label": "Gf. Wilhelm (III.) von Henneberg (-Schleusingen)"
+    },
+    {
+      "@id": "_:N52d7cdfc859b45ed89ce1caf89630de7",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00002711"
+      },
+      "ps:P39": {
+        "@id": "ri:graf"
+      },
+      "rdfs:label": "Gf. Heinrich von Schwarzburg"
+    }
+  ]
+}

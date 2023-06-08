@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1444-09-28_1_0_13_16_0_16_16",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Nd663c39cafae4f77953ca012c3d6c1f7"
+      }
+    },
+    {
+      "@id": "_:Nd663c39cafae4f77953ca012c3d6c1f7",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N10e7c6a0823240b89af4601923ea76f7"
+      },
+      "ps:P291": {
+        "@id": "_:Nff32aeff380a4166b15917609d76a51a"
+      },
+      "ps:P3342": {
+        "@id": "_:Nf9a2d1cac2464b178e2211b825be49f9"
+      }
+    },
+    {
+      "@id": "_:Nff32aeff380a4166b15917609d76a51a",
+      "https://schema.org#geo": {
+        "@id": "_:N31ac0738ea6249ee96682b25d47a0eb6"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q2090"
+      },
+      "rdfs:label": "Nürnberg"
+    },
+    {
+      "@id": "_:N31ac0738ea6249ee96682b25d47a0eb6",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "49.45421",
+      "https://schema.org#longitude": "11.07752"
+    },
+    {
+      "@id": "_:N10e7c6a0823240b89af4601923ea76f7",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1444-09-28"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1444-09-28"
+      }
+    },
+    {
+      "@id": "_:Nf9a2d1cac2464b178e2211b825be49f9",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:H00001720"
+      },
+      "ps:P39": {
+        "@id": "ri:graf"
+      },
+      "rdfs:label": "Gf. Wilhelm (III.) von Henneberg (-Schleusingen)"
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1469-05-02_2_0_13_23_0_587_584",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N0e11947813384bf09ea8e908affe579d"
+      }
+    },
+    {
+      "@id": "_:N0e11947813384bf09ea8e908affe579d",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N2ade7a17f8af4c52bc8187ae5af481e5"
+      },
+      "ps:P291": {
+        "@id": "_:N0ebb972fd7e24b1b8512d7978d799f87"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N14f981931abd487bbee795a669b5ef52"
+        },
+        {
+          "@id": "_:Na3515b272e124ee98e59b7006481ca46"
+        },
+        {
+          "@id": "_:N5eb420c712dd484bae7cff39e8c544c6"
+        },
+        {
+          "@id": "_:Na00106f7413b403784b74de48793e192"
+        },
+        {
+          "@id": "_:Nf2ae3c50f8ce44c897da0ba0ed2ff47d"
+        },
+        {
+          "@id": "_:N97a236c1d56f40cba84f99cd5f054e3d"
+        },
+        {
+          "@id": "_:N718d55ef23284179bf298b3852f64600"
+        }
+      ]
+    },
+    {
+      "@id": "_:N0ebb972fd7e24b1b8512d7978d799f87",
+      "https://schema.org#geo": {
+        "@id": "_:Na1b1e39e8478483d8fa03afca06c69e5"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q131612"
+      },
+      "rdfs:label": "Wiener Neustadt"
+    },
+    {
+      "@id": "_:Na1b1e39e8478483d8fa03afca06c69e5",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.813153",
+      "https://schema.org#longitude": "16.24444"
+    },
+    {
+      "@id": "_:N2ade7a17f8af4c52bc8187ae5af481e5",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1469-05-02"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1469-05-02"
+      }
+    },
+    {
+      "@id": "_:N14f981931abd487bbee795a669b5ef52",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:K00002070"
+      },
+      "rdfs:label": "Hermann von Konstanz"
+    },
+    {
+      "@id": "_:Na3515b272e124ee98e59b7006481ca46",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00000385"
+      },
+      "rdfs:label": "Johann von Basel"
+    },
+    {
+      "@id": "_:N5eb420c712dd484bae7cff39e8c544c6",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:O00000622"
+      },
+      "ps:P39": {
+        "@id": "ri:herzog"
+      },
+      "rdfs:label": "Hz. Sigmund von Österreich (-Tirol)"
+    },
+    {
+      "@id": "_:Na00106f7413b403784b74de48793e192",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00000075"
+      },
+      "ps:P39": {
+        "@id": "ri:markgraf"
+      },
+      "rdfs:label": "Mgf. Karl von Baden"
+    },
+    {
+      "@id": "_:Nf2ae3c50f8ce44c897da0ba0ed2ff47d",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:F00001864"
+      },
+      "rdfs:label": "Egen von Fürstenberg"
+    },
+    {
+      "@id": "_:N97a236c1d56f40cba84f99cd5f054e3d",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:T00001488"
+      },
+      "rdfs:label": "Konrad von Tübingen"
+    },
+    {
+      "@id": "_:N718d55ef23284179bf298b3852f64600",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:E00000087"
+      },
+      "rdfs:label": "Bernhard von Eberstein"
+    }
+  ]
+}

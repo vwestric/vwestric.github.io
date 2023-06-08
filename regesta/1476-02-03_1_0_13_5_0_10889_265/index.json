@@ -1,0 +1,55 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1476-02-03_1_0_13_5_0_10889_265",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N719a90d4eec74a3c8758798567a548da"
+      }
+    },
+    {
+      "@id": "_:N719a90d4eec74a3c8758798567a548da",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N71995c78f52b471caa9f9694891439d7"
+      },
+      "ps:P3342": {
+        "@id": "_:Nffe324e3e27141fd9b1495011f204bfb"
+      }
+    },
+    {
+      "@id": "_:N71995c78f52b471caa9f9694891439d7",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1476-02-03"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1476-02-03"
+      }
+    },
+    {
+      "@id": "_:Nffe324e3e27141fd9b1495011f204bfb",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00001064"
+      },
+      "ps:P39": {
+        "@id": "ri:graf"
+      },
+      "rdfs:label": "Gf. Gerhards von Sayn"
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1442-08-18_1_0_13_16_0_14_14",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N0712ff9f23b44d899e95c337a1245a6c"
+      }
+    },
+    {
+      "@id": "_:N0712ff9f23b44d899e95c337a1245a6c",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N329a370895234186b5656627f129c4b8"
+      },
+      "ps:P291": {
+        "@id": "_:N9776cecc1d3c43c4808d72a1e9c35e1a"
+      },
+      "ps:P3342": {
+        "@id": "_:Nc2783792fb2d4c1bbe8967546cc8c4aa"
+      }
+    },
+    {
+      "@id": "_:N9776cecc1d3c43c4808d72a1e9c35e1a",
+      "https://schema.org#geo": {
+        "@id": "_:Ned89f21030ed436fa653987aa4efe44f"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q1720"
+      },
+      "rdfs:label": "Mainz"
+    },
+    {
+      "@id": "_:Ned89f21030ed436fa653987aa4efe44f",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "49.99",
+      "https://schema.org#longitude": "8.28"
+    },
+    {
+      "@id": "_:N329a370895234186b5656627f129c4b8",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1442-08-18"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1442-08-18"
+      }
+    },
+    {
+      "@id": "_:Nc2783792fb2d4c1bbe8967546cc8c4aa",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00000076"
+      },
+      "ps:P39": {
+        "@id": "ri:kurfuerst"
+      },
+      "rdfs:label": "Kf. Friedrich (II.) von Sachsen"
+    }
+  ]
+}

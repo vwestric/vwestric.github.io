@@ -1,0 +1,90 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1470-05-23_1_0_13_8_0_12311_303",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Nf8a4b6cfd1894e5d9a40bf9b4e935c96"
+      }
+    },
+    {
+      "@id": "_:Nf8a4b6cfd1894e5d9a40bf9b4e935c96",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N9d9fac5e72f240bb861c624aa469ddf0"
+      },
+      "ps:P291": {
+        "@id": "_:Nfd70043f507841d8874012cb68817a93"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:Nb5f5dd96f5a149888445a9dd6a752a77"
+        },
+        {
+          "@id": "_:N45f51b871b204336b9b443ee3aa69aa7"
+        }
+      ]
+    },
+    {
+      "@id": "_:Nfd70043f507841d8874012cb68817a93",
+      "https://schema.org#geo": {
+        "@id": "_:Nfc370d832ad548c08f7fc5eaa4a57426"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q164488"
+      },
+      "rdfs:label": "Völkermarkt"
+    },
+    {
+      "@id": "_:Nfc370d832ad548c08f7fc5eaa4a57426",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "46.66222",
+      "https://schema.org#longitude": "14.63444"
+    },
+    {
+      "@id": "_:N9d9fac5e72f240bb861c624aa469ddf0",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1470-05-23"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1470-05-23"
+      }
+    },
+    {
+      "@id": "_:Nb5f5dd96f5a149888445a9dd6a752a77",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:R00001863"
+      },
+      "ps:P39": {
+        "@id": "ri:graf"
+      },
+      "rdfs:label": "Gf. Philipp d. J. von Rieneck"
+    },
+    {
+      "@id": "_:N45f51b871b204336b9b443ee3aa69aa7",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:M00000255"
+      },
+      "ps:P39": {
+        "@id": "ri:erzbischof"
+      },
+      "rdfs:label": "Eb. Adolf von Mainz"
+    }
+  ]
+}

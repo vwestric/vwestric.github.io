@@ -1,0 +1,104 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:d1865b23-f890-4f57-9b58-9845baeea435",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N552ef939759045dd9cc26afee0fc7464"
+      }
+    },
+    {
+      "@id": "_:N552ef939759045dd9cc26afee0fc7464",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Nd165a950520948af98b3f2937b12e073"
+      },
+      "ps:P291": {
+        "@id": "_:N716740912f91462a96013c95f63c392d"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N67ebf5649b5140ffb35739d96dc8cd1a"
+        },
+        {
+          "@id": "_:N892202a3f27a47d1b18c42f64ca4d187"
+        },
+        {
+          "@id": "_:N9e29915dd5f040e7b57ed34add6d24fc"
+        }
+      ]
+    },
+    {
+      "@id": "_:N716740912f91462a96013c95f63c392d",
+      "https://schema.org#geo": {
+        "@id": "_:N44cd9f1f621a476c81b48dbe057105d5"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q219964"
+      },
+      "rdfs:label": "Castrum Zons am Rhein"
+    },
+    {
+      "@id": "_:N44cd9f1f621a476c81b48dbe057105d5",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "51.121944",
+      "https://schema.org#longitude": "6.842778"
+    },
+    {
+      "@id": "_:Nd165a950520948af98b3f2937b12e073",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1475-05-17"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1475-05-17"
+      }
+    },
+    {
+      "@id": "_:N67ebf5649b5140ffb35739d96dc8cd1a",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:F00000908"
+      },
+      "ps:P39": {
+        "@id": "ri:koenig"
+      },
+      "rdfs:label": "Kg. Ludwig (XI.) von Frankreich"
+    },
+    {
+      "@id": "_:N892202a3f27a47d1b18c42f64ca4d187",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00003253"
+      },
+      "ps:P39": {
+        "@id": "ri:herzog"
+      },
+      "rdfs:label": "Hz. Karl von Burgund"
+    },
+    {
+      "@id": "_:N9e29915dd5f040e7b57ed34add6d24fc",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00002248"
+      },
+      "ps:P39": {
+        "@id": "ri:markgraf"
+      },
+      "rdfs:label": "Mgf. Albrecht von Brandenburg"
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1471-01-09_2_0_13_27_0_85_85",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Nb7ccef623a0f403598545f4fa28f30c5"
+      }
+    },
+    {
+      "@id": "_:Nb7ccef623a0f403598545f4fa28f30c5",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N349d6e416afc4d36bce04f216f5ea8de"
+      },
+      "ps:P291": {
+        "@id": "_:Nd48389d8da4f4d0aadaca1bf17bb3435"
+      },
+      "ps:P3342": {
+        "@id": "_:N2f292beb34cc4ae48f731139613760df"
+      }
+    },
+    {
+      "@id": "_:Nd48389d8da4f4d0aadaca1bf17bb3435",
+      "https://schema.org#geo": {
+        "@id": "_:Ne43d5bf495ee4ecbb5c78950b8f53f06"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q13298"
+      },
+      "rdfs:label": "Graz"
+    },
+    {
+      "@id": "_:Ne43d5bf495ee4ecbb5c78950b8f53f06",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.06667",
+      "https://schema.org#longitude": "15.45"
+    },
+    {
+      "@id": "_:N349d6e416afc4d36bce04f216f5ea8de",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1471-01-09"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1471-01-09"
+      }
+    },
+    {
+      "@id": "_:N2f292beb34cc4ae48f731139613760df",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:O00000622"
+      },
+      "ps:P39": {
+        "@id": "ri:herzog"
+      },
+      "rdfs:label": "Hz. Sigmund von Österreich"
+    }
+  ]
+}

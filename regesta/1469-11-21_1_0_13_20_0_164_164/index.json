@@ -1,0 +1,151 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1469-11-21_1_0_13_20_0_164_164",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N8d369dc549284ab7a03f5294b1ddb6d9"
+      }
+    },
+    {
+      "@id": "_:N8d369dc549284ab7a03f5294b1ddb6d9",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N0829a9845bb94f30995d92628bfdd8fe"
+      },
+      "ps:P291": {
+        "@id": "_:Ned092db491e94b29bed6a4bd884a301d"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:Nc1afa1c5a8e642279b7e27aa61acea67"
+        },
+        {
+          "@id": "_:N0a57df4837e6487795c48cbcfdd0280d"
+        },
+        {
+          "@id": "_:N6f680a5eaaa04b97a81b3b002e0619f6"
+        },
+        {
+          "@id": "_:N0d03ed7de38d43f1ade3eb6315a037f4"
+        },
+        {
+          "@id": "_:Nc7e4c9fa2d7e43049a953de44f9059c8"
+        },
+        {
+          "@id": "_:Nb7c1176a17c74024a2448a57586cc4ef"
+        },
+        {
+          "@id": "_:Na923f65a49c64ceb903645dc5d2421ed"
+        }
+      ]
+    },
+    {
+      "@id": "_:Ned092db491e94b29bed6a4bd884a301d",
+      "https://schema.org#geo": {
+        "@id": "_:N9a9bc0dfd37640ed847768e756a23bcc"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q131612"
+      },
+      "rdfs:label": "Wiener Neustadt"
+    },
+    {
+      "@id": "_:N9a9bc0dfd37640ed847768e756a23bcc",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.813153",
+      "https://schema.org#longitude": "16.24444"
+    },
+    {
+      "@id": "_:N0829a9845bb94f30995d92628bfdd8fe",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1469-11-21"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1469-11-21"
+      }
+    },
+    {
+      "@id": "_:Nc1afa1c5a8e642279b7e27aa61acea67",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:D00000033"
+      },
+      "ps:P39": {
+        "@id": "ri:koenig"
+      },
+      "rdfs:label": "Kg. Christian (I.) von Dänemark"
+    },
+    {
+      "@id": "_:N0a57df4837e6487795c48cbcfdd0280d",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:L00002138"
+      },
+      "ps:P39": {
+        "@id": "ri:bischof"
+      },
+      "rdfs:label": "Bf. (Albrecht) von Lübeck"
+    },
+    {
+      "@id": "_:N6f680a5eaaa04b97a81b3b002e0619f6",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00002853"
+      },
+      "ps:P39": {
+        "@id": "ri:bischof"
+      },
+      "rdfs:label": "Bf. (Werner) von Schwerin"
+    },
+    {
+      "@id": "_:N0d03ed7de38d43f1ade3eb6315a037f4",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00002265"
+      },
+      "ps:P39": {
+        "@id": "ri:kurfuerst"
+      },
+      "rdfs:label": "Kf. Friedrich (II.) von Brandenburg"
+    },
+    {
+      "@id": "_:Nc7e4c9fa2d7e43049a953de44f9059c8",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:M00001294"
+      },
+      "rdfs:label": "Balthasar von Mecklenburg"
+    },
+    {
+      "@id": "_:Nb7c1176a17c74024a2448a57586cc4ef",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:P00001856"
+      },
+      "rdfs:label": "Wartislaw (X.) von (Pommern-) Stettin"
+    },
+    {
+      "@id": "_:Na923f65a49c64ceb903645dc5d2421ed",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00000324"
+      },
+      "rdfs:label": "Raven Barnekow"
+    }
+  ]
+}

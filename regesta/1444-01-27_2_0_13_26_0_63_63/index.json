@@ -1,0 +1,52 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1444-01-27_2_0_13_26_0_63_63",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N0552d2d76dd34638acc048a50a6f6495"
+      }
+    },
+    {
+      "@id": "_:N0552d2d76dd34638acc048a50a6f6495",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Na393d4e6028d448494a199e3c4d40dd9"
+      },
+      "ps:P3342": {
+        "@id": "_:N98d5ee3ff43a4b459277d4801ba640ec"
+      }
+    },
+    {
+      "@id": "_:Na393d4e6028d448494a199e3c4d40dd9",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1444-01-27"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1444-01-27"
+      }
+    },
+    {
+      "@id": "_:N98d5ee3ff43a4b459277d4801ba640ec",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:R00002476"
+      },
+      "rdfs:label": "Ulrich von Rosenberg"
+    }
+  ]
+}

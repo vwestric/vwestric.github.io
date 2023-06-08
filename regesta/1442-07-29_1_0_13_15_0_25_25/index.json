@@ -1,0 +1,131 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1442-07-29_1_0_13_15_0_25_25",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N50d59b3723854f6192d75730e5ca4c5a"
+      }
+    },
+    {
+      "@id": "_:N50d59b3723854f6192d75730e5ca4c5a",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N99b9e0926abc4375850f428b856fc257"
+      },
+      "ps:P291": {
+        "@id": "_:Ne292d89be83147e3962f7caec6700333"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:Nbc7b1a2c860f4ceb9ecf8937b6c3ee5d"
+        },
+        {
+          "@id": "_:Nc7928145f494470ca0024c43f7662f03"
+        },
+        {
+          "@id": "_:N6ef4b99fe6794422beba5fa98614c2de"
+        },
+        {
+          "@id": "_:Nbc22dc1dc03646e0aea96e37bb048eb5"
+        },
+        {
+          "@id": "_:N5a91e29efc854ee49ac1c0d25938ada0"
+        },
+        {
+          "@id": "_:N9ac3838f52d04446882cdcf94ba724f1"
+        }
+      ]
+    },
+    {
+      "@id": "_:Ne292d89be83147e3962f7caec6700333",
+      "https://schema.org#geo": {
+        "@id": "_:Nbed8b16315914f73b49cdce5ce8868e3"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q1794"
+      },
+      "rdfs:label": "Frankfurt"
+    },
+    {
+      "@id": "_:Nbed8b16315914f73b49cdce5ce8868e3",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "50.110556",
+      "https://schema.org#longitude": "8.682222"
+    },
+    {
+      "@id": "_:N99b9e0926abc4375850f428b856fc257",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1442-07-29"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1442-07-29"
+      }
+    },
+    {
+      "@id": "_:Nbc7b1a2c860f4ceb9ecf8937b6c3ee5d",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:I00000154"
+      },
+      "rdfs:label": "Lukas Ingolstädter"
+    },
+    {
+      "@id": "_:Nc7928145f494470ca0024c43f7662f03",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:A00000709"
+      },
+      "rdfs:label": "Martin Altmann"
+    },
+    {
+      "@id": "_:N6ef4b99fe6794422beba5fa98614c2de",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:P00000484"
+      },
+      "rdfs:label": "Simon Peitzkofer"
+    },
+    {
+      "@id": "_:Nbc22dc1dc03646e0aea96e37bb048eb5",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:K00002644"
+      },
+      "rdfs:label": "Niklas Kreuzel"
+    },
+    {
+      "@id": "_:N5a91e29efc854ee49ac1c0d25938ada0",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:F00001647"
+      },
+      "rdfs:label": "Friedrich Frieß"
+    },
+    {
+      "@id": "_:N9ac3838f52d04446882cdcf94ba724f1",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:M00000277"
+      },
+      "ps:P39": {
+        "@id": "ri:erzbischof"
+      },
+      "rdfs:label": "Eb. Dietrich von Mainz"
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1469-09-15_2_0_13_25_0_183_183",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Na7274560590449b787b04bee45824b60"
+      }
+    },
+    {
+      "@id": "_:Na7274560590449b787b04bee45824b60",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N3738e09d8a3744eebb81668806b2bb80"
+      },
+      "ps:P291": {
+        "@id": "_:Na26ae445702541cb9a9348bbc53a0a00"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:Nedfd35ef9919481b8c00215434d4dddb"
+        },
+        {
+          "@id": "_:N4c36f16eb72745b9807e3f762a325b66"
+        },
+        {
+          "@id": "_:Nbb819aa63f074dfe87653a11487c0d52"
+        },
+        {
+          "@id": "_:Ne45525ab672d4ac5a4b3cbb87b816278"
+        }
+      ]
+    },
+    {
+      "@id": "_:Na26ae445702541cb9a9348bbc53a0a00",
+      "https://schema.org#geo": {
+        "@id": "_:N58fe6611716a4484897d729c920aad2c"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q13298"
+      },
+      "rdfs:label": "Graz"
+    },
+    {
+      "@id": "_:N58fe6611716a4484897d729c920aad2c",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.06667",
+      "https://schema.org#longitude": "15.45"
+    },
+    {
+      "@id": "_:N3738e09d8a3744eebb81668806b2bb80",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1469-09-15"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1469-09-15"
+      }
+    },
+    {
+      "@id": "_:Nedfd35ef9919481b8c00215434d4dddb",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:M00000255"
+      },
+      "ps:P39": {
+        "@id": "ri:erzbischof"
+      },
+      "rdfs:label": "Eb. Adolf von Mainz"
+    },
+    {
+      "@id": "_:N4c36f16eb72745b9807e3f762a325b66",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:W00003368"
+      },
+      "ps:P39": {
+        "@id": "ri:bischof"
+      },
+      "rdfs:label": "Bf. Rudolf von Würzburg"
+    },
+    {
+      "@id": "_:Nbb819aa63f074dfe87653a11487c0d52",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:H00001704"
+      },
+      "rdfs:label": "Friedrich von Henneberg"
+    },
+    {
+      "@id": "_:Ne45525ab672d4ac5a4b3cbb87b816278",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:H00002908"
+      },
+      "rdfs:label": "Albrecht von Hohenlohe"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1444-10-04_2_0_13_14_0_281_281",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Nf72a058008c84aeaa1fb6a69b29ea683"
+      }
+    },
+    {
+      "@id": "_:Nf72a058008c84aeaa1fb6a69b29ea683",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N8c6e532f5a2b40449722f1bd4d9c56aa"
+      },
+      "ps:P291": {
+        "@id": "_:Nab3c8bf94f074f6e8adb21fabfb2e232"
+      },
+      "ps:P3342": {
+        "@id": "_:Nc755c69e61504e44b9e87decb2fbede7"
+      }
+    },
+    {
+      "@id": "_:Nab3c8bf94f074f6e8adb21fabfb2e232",
+      "https://schema.org#geo": {
+        "@id": "_:N4b920406ab584ff7ae0bd0b028ba0d95"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q2090"
+      },
+      "rdfs:label": "Nürnberg"
+    },
+    {
+      "@id": "_:N4b920406ab584ff7ae0bd0b028ba0d95",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "49.45421",
+      "https://schema.org#longitude": "11.07752"
+    },
+    {
+      "@id": "_:N8c6e532f5a2b40449722f1bd4d9c56aa",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1444-10-04"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1444-10-04"
+      }
+    },
+    {
+      "@id": "_:Nc755c69e61504e44b9e87decb2fbede7",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00002248"
+      },
+      "rdfs:label": "Albrecht von Brandenburg"
+    }
+  ]
+}

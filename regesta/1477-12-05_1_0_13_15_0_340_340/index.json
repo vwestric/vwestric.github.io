@@ -1,0 +1,60 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1477-12-05_1_0_13_15_0_340_340",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N0262f73f61af486487721a0ec5b3a5f1"
+      }
+    },
+    {
+      "@id": "_:N0262f73f61af486487721a0ec5b3a5f1",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N90203dafdac04e85bace5bf718b11844"
+      },
+      "ps:P291": {
+        "@id": "_:Nc51ca5bc4aea4409bcaeaa89908bf9c0"
+      }
+    },
+    {
+      "@id": "_:Nc51ca5bc4aea4409bcaeaa89908bf9c0",
+      "https://schema.org#geo": {
+        "@id": "_:N1a3a12bcc9094d0e89a8e217dc3289f0"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q430449"
+      },
+      "rdfs:label": "Gmunden"
+    },
+    {
+      "@id": "_:N1a3a12bcc9094d0e89a8e217dc3289f0",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.91839",
+      "https://schema.org#longitude": "13.79933"
+    },
+    {
+      "@id": "_:N90203dafdac04e85bace5bf718b11844",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1477-12-05"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1477-12-05"
+      }
+    }
+  ]
+}

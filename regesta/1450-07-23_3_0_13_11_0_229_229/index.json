@@ -1,0 +1,71 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1450-07-23_3_0_13_11_0_229_229",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N91d4c70f01d74e9e9eb6b8e7459d7091"
+      }
+    },
+    {
+      "@id": "_:N91d4c70f01d74e9e9eb6b8e7459d7091",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Nfb7e70527d8b453aa2081a2110e629ca"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N035e54222ee24d7bb3077296ac735393"
+        },
+        {
+          "@id": "_:N771edc8822a94923b30df6fa8c29d924"
+        }
+      ]
+    },
+    {
+      "@id": "_:Nfb7e70527d8b453aa2081a2110e629ca",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1450-07-23"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1450-07-23"
+      }
+    },
+    {
+      "@id": "_:N035e54222ee24d7bb3077296ac735393",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:O00000599"
+      },
+      "ps:P39": {
+        "@id": "ri:koenig"
+      },
+      "rdfs:label": "Kg. Ladislaus"
+    },
+    {
+      "@id": "_:N771edc8822a94923b30df6fa8c29d924",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00000076"
+      },
+      "ps:P39": {
+        "@id": "ri:kurfuerst"
+      },
+      "rdfs:label": "Kf. Friedrich (II.) von Sachsen"
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1468-01-30_1_0_13_22_0_208_208",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N5cd80474a1734007bc5a68af55dd76e4"
+      }
+    },
+    {
+      "@id": "_:N5cd80474a1734007bc5a68af55dd76e4",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N4e44724314944ef984a4418b14a3a488"
+      },
+      "ps:P291": {
+        "@id": "_:Ne6334e65f8b34be598385e530dd8cf55"
+      },
+      "ps:P3342": {
+        "@id": "_:Nf70b63902c584da8b34cc317bf38c9a6"
+      }
+    },
+    {
+      "@id": "_:Ne6334e65f8b34be598385e530dd8cf55",
+      "https://schema.org#geo": {
+        "@id": "_:Nd1af0a13f2b44cf0b3f39df7def16a80"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q259893"
+      },
+      "rdfs:label": "Bruck a. d. Mur"
+    },
+    {
+      "@id": "_:Nd1af0a13f2b44cf0b3f39df7def16a80",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.410556",
+      "https://schema.org#longitude": "15.268889"
+    },
+    {
+      "@id": "_:N4e44724314944ef984a4418b14a3a488",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1468-01-30"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1468-01-30"
+      }
+    },
+    {
+      "@id": "_:Nf70b63902c584da8b34cc317bf38c9a6",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00000565"
+      },
+      "ps:P39": {
+        "@id": "ri:herzog"
+      },
+      "rdfs:label": "Hz. Ludwig (IX.) von Bayern(-Landshut)"
+    }
+  ]
+}

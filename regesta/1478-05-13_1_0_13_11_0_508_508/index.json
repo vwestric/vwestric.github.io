@@ -1,0 +1,92 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1478-05-13_1_0_13_11_0_508_508",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N0cf6756450c9491384318880f52e1a0b"
+      }
+    },
+    {
+      "@id": "_:N0cf6756450c9491384318880f52e1a0b",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N8d20542e75294442bb5ba33d8236a6d6"
+      },
+      "ps:P291": {
+        "@id": "_:N904befd5a86843018e97184b1bc270cd"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N6ac3bfde213445f4b7352576a0e8ede1"
+        },
+        {
+          "@id": "_:Nfd075386cb8145b69e53ca6984efec7b"
+        }
+      ]
+    },
+    {
+      "@id": "_:N904befd5a86843018e97184b1bc270cd",
+      "https://schema.org#geo": {
+        "@id": "_:N9b9478953c0341c8bc37cd8878a8b4c0"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q13298"
+      },
+      "rdfs:label": "Graz"
+    },
+    {
+      "@id": "_:N9b9478953c0341c8bc37cd8878a8b4c0",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.06667",
+      "https://schema.org#longitude": "15.45"
+    },
+    {
+      "@id": "_:N8d20542e75294442bb5ba33d8236a6d6",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1478-05-13"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1478-05-13"
+      }
+    },
+    {
+      "@id": "_:N6ac3bfde213445f4b7352576a0e8ede1",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:M00003175"
+      },
+      "ps:P39": [
+        {
+          "@id": "ri:graf"
+        },
+        {
+          "@id": "ri:herr"
+        }
+      ],
+      "rdfs:label": "Gf. Günther von Mühlingen, Herrn zu Barby"
+    },
+    {
+      "@id": "_:Nfd075386cb8145b69e53ca6984efec7b",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:A00000946"
+      },
+      "rdfs:label": "Bernhard (VI.) von Anhalt (-Bernburg)"
+    }
+  ]
+}

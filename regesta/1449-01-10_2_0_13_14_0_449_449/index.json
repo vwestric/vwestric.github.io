@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1449-01-10_2_0_13_14_0_449_449",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N10ab0e106a1b42558d69a019843746b5"
+      }
+    },
+    {
+      "@id": "_:N10ab0e106a1b42558d69a019843746b5",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N86e0306d38bc45dca8c010a38a895814"
+      },
+      "ps:P291": {
+        "@id": "_:Nacea521c3bb1466db1e329f466a8fb76"
+      },
+      "ps:P3342": {
+        "@id": "_:N270aa6ba7f584cca8cc4d3586b5262a0"
+      }
+    },
+    {
+      "@id": "_:Nacea521c3bb1466db1e329f466a8fb76",
+      "https://schema.org#geo": {
+        "@id": "_:N5137c481bb804147b0210c2a5ae60085"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q131612"
+      },
+      "rdfs:label": "Wiener Neustadt"
+    },
+    {
+      "@id": "_:N5137c481bb804147b0210c2a5ae60085",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.813153",
+      "https://schema.org#longitude": "16.24444"
+    },
+    {
+      "@id": "_:N86e0306d38bc45dca8c010a38a895814",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1449-01-10"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1449-01-10"
+      }
+    },
+    {
+      "@id": "_:N270aa6ba7f584cca8cc4d3586b5262a0",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:O00000786"
+      },
+      "ps:P39": {
+        "@id": "ri:graf"
+      },
+      "rdfs:label": "Gf. Ulrich von Oettingen"
+    }
+  ]
+}

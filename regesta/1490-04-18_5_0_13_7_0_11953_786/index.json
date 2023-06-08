@@ -1,0 +1,101 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1490-04-18_5_0_13_7_0_11953_786",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N27038a0479134d0fb1a735479565c6f1"
+      }
+    },
+    {
+      "@id": "_:N27038a0479134d0fb1a735479565c6f1",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N05b280eaef1b48ff90a5fc288a79976f"
+      },
+      "ps:P291": {
+        "@id": "_:Nb044ff444d164204846999151c4244e4"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N5cd67ecb2a474791baeea89f8713c71b"
+        },
+        {
+          "@id": "_:N014d612d14f24886a4b94356e4e7c001"
+        },
+        {
+          "@id": "_:N9a9b0b5201a14702979ec41c5f87399f"
+        }
+      ]
+    },
+    {
+      "@id": "_:Nb044ff444d164204846999151c4244e4",
+      "https://schema.org#geo": {
+        "@id": "_:Ncad5a8225157471c93a8f97dd2753bb0"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q41329"
+      },
+      "rdfs:label": "Linz"
+    },
+    {
+      "@id": "_:Ncad5a8225157471c93a8f97dd2753bb0",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "48.303056",
+      "https://schema.org#longitude": "14.290556"
+    },
+    {
+      "@id": "_:N05b280eaef1b48ff90a5fc288a79976f",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1490-04-18"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1490-04-18"
+      }
+    },
+    {
+      "@id": "_:N5cd67ecb2a474791baeea89f8713c71b",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:M00000268"
+      },
+      "rdfs:label": "(Berthold) von Mainz"
+    },
+    {
+      "@id": "_:N014d612d14f24886a4b94356e4e7c001",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:P00000998"
+      },
+      "ps:P39": {
+        "@id": "ri:pfalzgraf"
+      },
+      "rdfs:label": "Pfgf. Philipp bei Rhein"
+    },
+    {
+      "@id": "_:N9a9b0b5201a14702979ec41c5f87399f",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:H00002105"
+      },
+      "ps:P39": {
+        "@id": "ri:landgraf"
+      },
+      "rdfs:label": "Ldgf. Wilhelm d. J. von Hessen"
+    }
+  ]
+}

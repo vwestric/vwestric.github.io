@@ -1,0 +1,79 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1445-08-07_1_0_13_12_0_291_291",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Nca546bb641b043039144d3e28c630785"
+      }
+    },
+    {
+      "@id": "_:Nca546bb641b043039144d3e28c630785",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N15dd6e9c9eba4bc3b58861368b147dd9"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N42c0caaa376c4aabb6672271229f1f61"
+        },
+        {
+          "@id": "_:N006b516f0d3b4b94a9fa921186d8e1a9"
+        },
+        {
+          "@id": "_:N14446d9be06b440f8879494dd202a346"
+        }
+      ]
+    },
+    {
+      "@id": "_:N15dd6e9c9eba4bc3b58861368b147dd9",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1445-08-07"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1445-08-07"
+      }
+    },
+    {
+      "@id": "_:N42c0caaa376c4aabb6672271229f1f61",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:O00000599"
+      },
+      "ps:P39": {
+        "@id": "ri:koenig"
+      },
+      "rdfs:label": "Kg. Ladislaus"
+    },
+    {
+      "@id": "_:N006b516f0d3b4b94a9fa921186d8e1a9",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:K00000672"
+      },
+      "rdfs:label": "Hans Kelbel"
+    },
+    {
+      "@id": "_:N14446d9be06b440f8879494dd202a346",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:G00000146"
+      },
+      "rdfs:label": "Wolfgang Gang"
+    }
+  ]
+}

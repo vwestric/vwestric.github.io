@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1456-12-17_1_0_13_17_0_113_112",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N6da6a440a9334cdd906f039056def18e"
+      }
+    },
+    {
+      "@id": "_:N6da6a440a9334cdd906f039056def18e",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N5b7c9e444d0346f7a9c48832b4501178"
+      },
+      "ps:P291": {
+        "@id": "_:N4cf056222c99484e86f9e7b9bddde9a2"
+      },
+      "ps:P3342": {
+        "@id": "_:Nd1d5b230de8449c286d36e023b73b9ec"
+      }
+    },
+    {
+      "@id": "_:N4cf056222c99484e86f9e7b9bddde9a2",
+      "https://schema.org#geo": {
+        "@id": "_:N6093ce8cf0dd4beaa13967e3a0151e3e"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q131612"
+      },
+      "rdfs:label": "Wiener Neustadt"
+    },
+    {
+      "@id": "_:N6093ce8cf0dd4beaa13967e3a0151e3e",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.813153",
+      "https://schema.org#longitude": "16.24444"
+    },
+    {
+      "@id": "_:N5b7c9e444d0346f7a9c48832b4501178",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1456-12-17"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1456-12-17"
+      }
+    },
+    {
+      "@id": "_:Nd1d5b230de8449c286d36e023b73b9ec",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:F00001021"
+      },
+      "ps:P39": {
+        "@id": "ri:frau"
+      },
+      "rdfs:label": "Hans von Fraunberg (zu Haag und Prunn)"
+    }
+  ]
+}

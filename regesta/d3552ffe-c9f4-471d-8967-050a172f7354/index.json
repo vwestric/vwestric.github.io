@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:d3552ffe-c9f4-471d-8967-050a172f7354",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N0cd31c8642284236a0e2b2fef3e0372f"
+      }
+    },
+    {
+      "@id": "_:N0cd31c8642284236a0e2b2fef3e0372f",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Nd620a1ca6ac1413ca8576b0414214198"
+      },
+      "ps:P291": {
+        "@id": "_:Nf65d64a40c6e4e2fb0963a7e5fb87c85"
+      },
+      "ps:P3342": {
+        "@id": "_:N74d416beb4a5455080f07914e4b6f0c0"
+      }
+    },
+    {
+      "@id": "_:Nf65d64a40c6e4e2fb0963a7e5fb87c85",
+      "https://schema.org#geo": {
+        "@id": "_:N8f06d8e645a14b769b089cdf32a681e5"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q131612"
+      },
+      "rdfs:label": "Wiener Neustadt"
+    },
+    {
+      "@id": "_:N8f06d8e645a14b769b089cdf32a681e5",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.813153",
+      "https://schema.org#longitude": "16.24444"
+    },
+    {
+      "@id": "_:Nd620a1ca6ac1413ca8576b0414214198",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1463-04-22"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1463-04-22"
+      }
+    },
+    {
+      "@id": "_:N74d416beb4a5455080f07914e4b6f0c0",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00001825"
+      },
+      "ps:P39": {
+        "@id": "ri:koenig"
+      },
+      "rdfs:label": "Kg. Georg von Böhmen"
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1449-07-08_1_0_13_3_0_9418_50",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Nd2b32a0d90094b059cd5cc809c001811"
+      }
+    },
+    {
+      "@id": "_:Nd2b32a0d90094b059cd5cc809c001811",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N804dff6821534a8591d62093e2abaaf4"
+      },
+      "ps:P291": {
+        "@id": "_:N9d211f1c228f403abf27fb6b0711491c"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N9627e810ad8543b4b65644fb29f76c50"
+        },
+        {
+          "@id": "_:Ncb01693cef1e4156ba26d0d06145aae4"
+        },
+        {
+          "@id": "_:Nbdc4d710e5ad40fcb3bdf9be4e2a6695"
+        },
+        {
+          "@id": "_:N0669a8bb5df54a008ba70d40e9d6bd7e"
+        }
+      ]
+    },
+    {
+      "@id": "_:N9d211f1c228f403abf27fb6b0711491c",
+      "https://schema.org#geo": {
+        "@id": "_:N4fa3323010314294be3840a1c44800f2"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q13298"
+      },
+      "rdfs:label": "Graz"
+    },
+    {
+      "@id": "_:N4fa3323010314294be3840a1c44800f2",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.06667",
+      "https://schema.org#longitude": "15.45"
+    },
+    {
+      "@id": "_:N804dff6821534a8591d62093e2abaaf4",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1449-07-08"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1449-07-08"
+      }
+    },
+    {
+      "@id": "_:N9627e810ad8543b4b65644fb29f76c50",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:I00000279"
+      },
+      "ps:P39": {
+        "@id": "ri:graf"
+      },
+      "rdfs:label": "Gf. Diether von Isenburg-Büdingen"
+    },
+    {
+      "@id": "_:Ncb01693cef1e4156ba26d0d06145aae4",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:I00000279"
+      },
+      "rdfs:label": "Diether von Isenburg"
+    },
+    {
+      "@id": "_:Nbdc4d710e5ad40fcb3bdf9be4e2a6695",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:C00000330"
+      },
+      "ps:P39": {
+        "@id": "ri:bischof"
+      },
+      "rdfs:label": "Bf. Sylvester von Chiemsee"
+    },
+    {
+      "@id": "_:N0669a8bb5df54a008ba70d40e9d6bd7e",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:K00000431"
+      },
+      "ps:P39": {
+        "@id": "ri:kaiser"
+      },
+      "rdfs:label": "K. Karl (IV.)"
+    }
+  ]
+}

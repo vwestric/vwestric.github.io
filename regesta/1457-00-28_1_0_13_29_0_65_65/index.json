@@ -1,0 +1,60 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1457-00-28_1_0_13_29_0_65_65",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N5ad88d99d8f746a79a41397a367fca54"
+      }
+    },
+    {
+      "@id": "_:N5ad88d99d8f746a79a41397a367fca54",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Naeabd30191f54823a060776e496e78aa"
+      },
+      "ps:P291": {
+        "@id": "_:N61e3bc171fe24c02b663e8907c284b0f"
+      }
+    },
+    {
+      "@id": "_:N61e3bc171fe24c02b663e8907c284b0f",
+      "https://schema.org#geo": {
+        "@id": "_:N2fded03c8bc44aec990697f9e2efd922"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q164488"
+      },
+      "rdfs:label": "Völkermarkt]"
+    },
+    {
+      "@id": "_:N2fded03c8bc44aec990697f9e2efd922",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "46.66222",
+      "https://schema.org#longitude": "14.63444"
+    },
+    {
+      "@id": "_:Naeabd30191f54823a060776e496e78aa",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1457-10-28"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1457-10-28"
+      }
+    }
+  ]
+}

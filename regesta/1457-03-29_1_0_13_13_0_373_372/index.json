@@ -1,0 +1,71 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1457-03-29_1_0_13_13_0_373_372",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Na13e86e3ea494ebf9b72140a50e6730c"
+      }
+    },
+    {
+      "@id": "_:Na13e86e3ea494ebf9b72140a50e6730c",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Nbbccaaffbc5447d980d2cd4e710f4c21"
+      },
+      "ps:P291": {
+        "@id": "_:Ne15e7869132743619330791b1e4f9b44"
+      },
+      "ps:P3342": {
+        "@id": "_:N667a3c9aeef04b0d832e46b96688a438"
+      }
+    },
+    {
+      "@id": "_:Ne15e7869132743619330791b1e4f9b44",
+      "https://schema.org#geo": {
+        "@id": "_:N6a747afafc814a4da6c504360647f3d6"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q1012"
+      },
+      "rdfs:label": "Cilli"
+    },
+    {
+      "@id": "_:N6a747afafc814a4da6c504360647f3d6",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "46.2259741",
+      "https://schema.org#longitude": "15.2686029"
+    },
+    {
+      "@id": "_:Nbbccaaffbc5447d980d2cd4e710f4c21",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1457-03-29"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1457-03-29"
+      }
+    },
+    {
+      "@id": "_:N667a3c9aeef04b0d832e46b96688a438",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:D00000387"
+      },
+      "rdfs:label": "Gregor Dienstl"
+    }
+  ]
+}

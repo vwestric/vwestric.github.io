@@ -1,0 +1,98 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1448-06-19_3_0_13_8_0_12113_105",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Nf8025aa2cd3e4ff38bcf4ca1a13dbe1a"
+      }
+    },
+    {
+      "@id": "_:Nf8025aa2cd3e4ff38bcf4ca1a13dbe1a",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N13e5aea0a0254bc1b7ea8884acbcd802"
+      },
+      "ps:P291": {
+        "@id": "_:N7f3a3c5948d242b7a7627c60bd37184c"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N8d9397d3a9e342bebe89a066b9bb074f"
+        },
+        {
+          "@id": "_:N35e080718f654d2bae9c31a260798f8a"
+        },
+        {
+          "@id": "_:N14cbc756aa2e4ff6abdba9159f7b7585"
+        }
+      ]
+    },
+    {
+      "@id": "_:N7f3a3c5948d242b7a7627c60bd37184c",
+      "https://schema.org#geo": {
+        "@id": "_:Nf7b5b26641044425b7eb8c069ecff30e"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q13298"
+      },
+      "rdfs:label": "Graz"
+    },
+    {
+      "@id": "_:Nf7b5b26641044425b7eb8c069ecff30e",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.06667",
+      "https://schema.org#longitude": "15.45"
+    },
+    {
+      "@id": "_:N13e5aea0a0254bc1b7ea8884acbcd802",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1448-06-19"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1448-06-19"
+      }
+    },
+    {
+      "@id": "_:N8d9397d3a9e342bebe89a066b9bb074f",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:I00000279"
+      },
+      "ps:P39": {
+        "@id": "ri:graf"
+      },
+      "rdfs:label": "Gf. Diether von Isenburg-Büdingen"
+    },
+    {
+      "@id": "_:N35e080718f654d2bae9c31a260798f8a",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:K00000417"
+      },
+      "rdfs:label": "Ruprecht von Karben"
+    },
+    {
+      "@id": "_:N14cbc756aa2e4ff6abdba9159f7b7585",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:K00001550"
+      },
+      "rdfs:label": "Gerlach Koch"
+    }
+  ]
+}

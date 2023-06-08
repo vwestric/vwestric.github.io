@@ -1,0 +1,87 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1457-09-24_1_0_13_28_0_100_100",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Nf058a6a842b2416aacda2845014280db"
+      }
+    },
+    {
+      "@id": "_:Nf058a6a842b2416aacda2845014280db",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N1db24647b77b4c21aef7e6b159bc0988"
+      },
+      "ps:P291": {
+        "@id": "_:N0d67ba5fbf4b4396b407b62bb1821f3d"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N82a839b5409942b08917627ff190067b"
+        },
+        {
+          "@id": "_:Naa65b5e895794074bbfd5f63f8e63309"
+        }
+      ]
+    },
+    {
+      "@id": "_:N0d67ba5fbf4b4396b407b62bb1821f3d",
+      "https://schema.org#geo": {
+        "@id": "_:Nc6e23e6ce0134a538916556f4793eb50"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q494604"
+      },
+      "rdfs:label": "St. Veit in Kärnten"
+    },
+    {
+      "@id": "_:Nc6e23e6ce0134a538916556f4793eb50",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "46.767222",
+      "https://schema.org#longitude": "14.359722"
+    },
+    {
+      "@id": "_:N1db24647b77b4c21aef7e6b159bc0988",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1457-09-24"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1457-09-24"
+      }
+    },
+    {
+      "@id": "_:N82a839b5409942b08917627ff190067b",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:M00000893"
+      },
+      "ps:P39": {
+        "@id": "ri:erbmarschall"
+      },
+      "rdfs:label": "Erbmarschall Heinrich von Pappenheim"
+    },
+    {
+      "@id": "_:Naa65b5e895794074bbfd5f63f8e63309",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:H00001319"
+      },
+      "rdfs:label": "Konrad von Heideck"
+    }
+  ]
+}

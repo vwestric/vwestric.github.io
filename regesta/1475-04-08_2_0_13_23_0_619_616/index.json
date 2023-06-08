@@ -1,0 +1,90 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1475-04-08_2_0_13_23_0_619_616",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Nb94d21d13bd5461781217dc110a5c699"
+      }
+    },
+    {
+      "@id": "_:Nb94d21d13bd5461781217dc110a5c699",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N8c8ece19a7b24246a567ba3737bab7fc"
+      },
+      "ps:P291": {
+        "@id": "_:N51927e65aa1646739cf449ba05d886a2"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:Ndb6109bfffc2478887b900ba0a1d6abd"
+        },
+        {
+          "@id": "_:N9a84b6b780c14978ab44f2f5cb5c5684"
+        }
+      ]
+    },
+    {
+      "@id": "_:N51927e65aa1646739cf449ba05d886a2",
+      "https://schema.org#geo": {
+        "@id": "_:N4466059292454115871ad19fc02a2b67"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q365"
+      },
+      "rdfs:label": "Köln"
+    },
+    {
+      "@id": "_:N4466059292454115871ad19fc02a2b67",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "50.93333",
+      "https://schema.org#longitude": "6.95"
+    },
+    {
+      "@id": "_:N8c8ece19a7b24246a567ba3737bab7fc",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1475-04-08"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1475-04-08"
+      }
+    },
+    {
+      "@id": "_:Ndb6109bfffc2478887b900ba0a1d6abd",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:W00003211"
+      },
+      "ps:P39": {
+        "@id": "ri:graf"
+      },
+      "rdfs:label": "Gf. Ulrich (V.) von Württemberg"
+    },
+    {
+      "@id": "_:N9a84b6b780c14978ab44f2f5cb5c5684",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00003679"
+      },
+      "ps:P39": {
+        "@id": "ri:papst"
+      },
+      "rdfs:label": "Papst (Sixtus IV.)"
+    }
+  ]
+}

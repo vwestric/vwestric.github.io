@@ -1,0 +1,117 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1448-04-08_2_0_13_13_0_70_69",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N9afd2b1a26e34ca9ab1a6a833c5bf544"
+      }
+    },
+    {
+      "@id": "_:N9afd2b1a26e34ca9ab1a6a833c5bf544",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N0bfc5c82efa340d892214efa6e5859f8"
+      },
+      "ps:P291": {
+        "@id": "_:N0fbe75f6ceb042d9b0789fb880ac760c"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:Necfc713c3a4147109c6c7605e0597730"
+        },
+        {
+          "@id": "_:Nd3fa33f43b7246d59823a0e0ef0ec7d4"
+        },
+        {
+          "@id": "_:N9076ddcff6b343da9fc3dfcce1592e98"
+        },
+        {
+          "@id": "_:Nd756f13f8c324be1ad5b00573f7d1e87"
+        },
+        {
+          "@id": "_:N74e2bc242f404b788cf91fbfa84c9725"
+        }
+      ]
+    },
+    {
+      "@id": "_:N0fbe75f6ceb042d9b0789fb880ac760c",
+      "https://schema.org#geo": {
+        "@id": "_:N8a280aa6a4d34e259b4b77620b389f95"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q131612"
+      },
+      "rdfs:label": "Wiener Neustadt"
+    },
+    {
+      "@id": "_:N8a280aa6a4d34e259b4b77620b389f95",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.813153",
+      "https://schema.org#longitude": "16.24444"
+    },
+    {
+      "@id": "_:N0bfc5c82efa340d892214efa6e5859f8",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1448-04-08"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1448-04-08"
+      }
+    },
+    {
+      "@id": "_:Necfc713c3a4147109c6c7605e0597730",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:P00000628"
+      },
+      "rdfs:label": "Jörg Perkheimer"
+    },
+    {
+      "@id": "_:Nd3fa33f43b7246d59823a0e0ef0ec7d4",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:Z00000092"
+      },
+      "rdfs:label": "Walther Zebinger"
+    },
+    {
+      "@id": "_:N9076ddcff6b343da9fc3dfcce1592e98",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:U00000280"
+      },
+      "rdfs:label": "Hans Ungnad"
+    },
+    {
+      "@id": "_:Nd756f13f8c324be1ad5b00573f7d1e87",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:F00000399"
+      },
+      "rdfs:label": "Ulrich von Fladnitz"
+    },
+    {
+      "@id": "_:N74e2bc242f404b788cf91fbfa84c9725",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:D00000713"
+      },
+      "rdfs:label": "Jörg von Dornberg"
+    }
+  ]
+}

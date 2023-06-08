@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1442-08-08_1_0_13_6_0_11009_31",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Nb79aee7bc5994fa1b26101bc0d8fc32c"
+      }
+    },
+    {
+      "@id": "_:Nb79aee7bc5994fa1b26101bc0d8fc32c",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N15ea268ee96f49b5a79dba2fe760cde7"
+      },
+      "ps:P291": {
+        "@id": "_:Nb439d953948347d0887310ad2b353e20"
+      },
+      "ps:P3342": {
+        "@id": "_:Ncc7eacb6d90144ae9bffe70150a6d82b"
+      }
+    },
+    {
+      "@id": "_:Nb439d953948347d0887310ad2b353e20",
+      "https://schema.org#geo": {
+        "@id": "_:Nd3c650a6ee4d433b9a3c1cc84db4dc52"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q1794"
+      },
+      "rdfs:label": "Frankfurt"
+    },
+    {
+      "@id": "_:Nd3c650a6ee4d433b9a3c1cc84db4dc52",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "50.110556",
+      "https://schema.org#longitude": "8.682222"
+    },
+    {
+      "@id": "_:N15ea268ee96f49b5a79dba2fe760cde7",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1442-08-08"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1442-08-08"
+      }
+    },
+    {
+      "@id": "_:Ncc7eacb6d90144ae9bffe70150a6d82b",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:T00001381"
+      },
+      "ps:P39": {
+        "@id": "ri:truchsess"
+      },
+      "rdfs:label": "Jakob Truchseß von Waldburg, Reichslandvogt in Schwaben"
+    }
+  ]
+}

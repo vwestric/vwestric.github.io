@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:d562d145-681c-4337-b518-b2dfefcb4d12",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N6539fa2a88294c3ebc7bd8c172c1d7bd"
+      }
+    },
+    {
+      "@id": "_:N6539fa2a88294c3ebc7bd8c172c1d7bd",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N24920b5fa0b343f2a140a36c92465fc2"
+      },
+      "ps:P291": {
+        "@id": "_:N6e750e0fd2424b9e99ebf69388db95ef"
+      },
+      "ps:P3342": {
+        "@id": "_:N3042a2e3e26a4f10aa9a8ec8eed19ffa"
+      }
+    },
+    {
+      "@id": "_:N6e750e0fd2424b9e99ebf69388db95ef",
+      "https://schema.org#geo": {
+        "@id": "_:N88b606ece72d4345a64815de6884932e"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q490058"
+      },
+      "rdfs:label": "Andernach"
+    },
+    {
+      "@id": "_:N88b606ece72d4345a64815de6884932e",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "50.4333",
+      "https://schema.org#longitude": "7.4"
+    },
+    {
+      "@id": "_:N24920b5fa0b343f2a140a36c92465fc2",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1475-02-09"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1475-02-09"
+      }
+    },
+    {
+      "@id": "_:N3042a2e3e26a4f10aa9a8ec8eed19ffa",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00002248"
+      },
+      "ps:P39": {
+        "@id": "ri:kurfuerst"
+      },
+      "rdfs:label": "Kf. Albrecht von Brandenburg"
+    }
+  ]
+}

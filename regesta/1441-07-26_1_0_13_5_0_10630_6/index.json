@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1441-07-26_1_0_13_5_0_10630_6",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N86efeab830a04a8aa4a768979fcaa0a6"
+      }
+    },
+    {
+      "@id": "_:N86efeab830a04a8aa4a768979fcaa0a6",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N416aa2c6768b44e7922ad740205c8f68"
+      },
+      "ps:P291": {
+        "@id": "_:N417c3769e1194e328a52c4356cb7ab0f"
+      },
+      "ps:P3342": {
+        "@id": "_:Nf827ae4d10fc4a5f99b63285741a5cae"
+      }
+    },
+    {
+      "@id": "_:N417c3769e1194e328a52c4356cb7ab0f",
+      "https://schema.org#geo": {
+        "@id": "_:Ne200bd20e54f42b9b916804d693ba6e1"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q131612"
+      },
+      "rdfs:label": "Wiener Neustadt"
+    },
+    {
+      "@id": "_:Ne200bd20e54f42b9b916804d693ba6e1",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.813153",
+      "https://schema.org#longitude": "16.24444"
+    },
+    {
+      "@id": "_:N416aa2c6768b44e7922ad740205c8f68",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1441-07-26"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1441-07-26"
+      }
+    },
+    {
+      "@id": "_:Nf827ae4d10fc4a5f99b63285741a5cae",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:T00001172"
+      },
+      "ps:P39": {
+        "@id": "ri:erzbischof"
+      },
+      "rdfs:label": "Eb. Jakob von Trier"
+    }
+  ]
+}

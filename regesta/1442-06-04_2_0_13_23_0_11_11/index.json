@@ -1,0 +1,71 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1442-06-04_2_0_13_23_0_11_11",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Ncabe9a9355cf47cbac82171e90f146bd"
+      }
+    },
+    {
+      "@id": "_:Ncabe9a9355cf47cbac82171e90f146bd",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N3cd0d2bd5f134967bbc86706f5e5fe5d"
+      },
+      "ps:P291": {
+        "@id": "_:N517d0e53c3c44ae5ae26d996c22632d7"
+      },
+      "ps:P3342": {
+        "@id": "_:N6cf41d3718b847be94696f36cd556e27"
+      }
+    },
+    {
+      "@id": "_:N517d0e53c3c44ae5ae26d996c22632d7",
+      "https://schema.org#geo": {
+        "@id": "_:Nb76d265d7d70469e8182f68f61001603"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q1794"
+      },
+      "rdfs:label": "Frankfurt a.M."
+    },
+    {
+      "@id": "_:Nb76d265d7d70469e8182f68f61001603",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "50.110556",
+      "https://schema.org#longitude": "8.682222"
+    },
+    {
+      "@id": "_:N3cd0d2bd5f134967bbc86706f5e5fe5d",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1442-06-04"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1442-06-04"
+      }
+    },
+    {
+      "@id": "_:N6cf41d3718b847be94696f36cd556e27",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:Y00000022"
+      },
+      "rdfs:label": "Anselms von Yberg"
+    }
+  ]
+}

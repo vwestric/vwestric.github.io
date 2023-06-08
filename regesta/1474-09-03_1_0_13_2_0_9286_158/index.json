@@ -1,0 +1,60 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1474-09-03_1_0_13_2_0_9286_158",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N276143ba95994a28abdff7cff8c1f98b"
+      }
+    },
+    {
+      "@id": "_:N276143ba95994a28abdff7cff8c1f98b",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N19251a99bbf34149b1ec2e111b3aae44"
+      },
+      "ps:P291": {
+        "@id": "_:Nebef475158f24c3dadd2f211ef87188d"
+      }
+    },
+    {
+      "@id": "_:Nebef475158f24c3dadd2f211ef87188d",
+      "https://schema.org#geo": {
+        "@id": "_:Nd5874056557549df89847af83adcf0a1"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q2749"
+      },
+      "rdfs:label": "Augsburg"
+    },
+    {
+      "@id": "_:Nd5874056557549df89847af83adcf0a1",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "48.37154",
+      "https://schema.org#longitude": "10.89851"
+    },
+    {
+      "@id": "_:N19251a99bbf34149b1ec2e111b3aae44",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1474-09-03"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1474-09-03"
+      }
+    }
+  ]
+}

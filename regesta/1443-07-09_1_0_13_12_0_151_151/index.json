@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1443-07-09_1_0_13_12_0_151_151",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N8f3d877619ef472b943e7f9a2cc797fc"
+      }
+    },
+    {
+      "@id": "_:N8f3d877619ef472b943e7f9a2cc797fc",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Nc99bc618ba1941cc89030d2ebfe96bd8"
+      },
+      "ps:P291": {
+        "@id": "_:N24099d699a3f4f05aa08cc8707736b11"
+      },
+      "ps:P3342": {
+        "@id": "_:N23a54ff0a442469bbae61dbe72db913a"
+      }
+    },
+    {
+      "@id": "_:N24099d699a3f4f05aa08cc8707736b11",
+      "https://schema.org#geo": {
+        "@id": "_:Neeafe9b088794584b68ea590c53d6120"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q1741"
+      },
+      "rdfs:label": "Wien"
+    },
+    {
+      "@id": "_:Neeafe9b088794584b68ea590c53d6120",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "48.20849",
+      "https://schema.org#longitude": "16.37208"
+    },
+    {
+      "@id": "_:Nc99bc618ba1941cc89030d2ebfe96bd8",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1443-07-09"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1443-07-09"
+      }
+    },
+    {
+      "@id": "_:N23a54ff0a442469bbae61dbe72db913a",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:O00000599"
+      },
+      "ps:P39": {
+        "@id": "ri:koenig"
+      },
+      "rdfs:label": "Kg. Ladislaus"
+    }
+  ]
+}

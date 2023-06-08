@@ -1,0 +1,193 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1476-11-12_1_0_13_4_0_10340_768",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Ndd7c7256edaa493abb8d896bb8049bba"
+      }
+    },
+    {
+      "@id": "_:Ndd7c7256edaa493abb8d896bb8049bba",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N23e8c23c1efc47ec9348cc0511aa884b"
+      },
+      "ps:P291": {
+        "@id": "_:Ne441b19f8a5a4248902512a5a11f6de7"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N2a688e507ea24b2a8769cbfac1e0724a"
+        },
+        {
+          "@id": "_:Nc0f4a165ffdb4891a3f089ceea128f6f"
+        },
+        {
+          "@id": "_:N7438afb1f9d04ce58317783db0bfc6d3"
+        },
+        {
+          "@id": "_:N48e6b94ba6154e9994f687007ab58ea4"
+        },
+        {
+          "@id": "_:Nfd167d2f085c473aa8daf012909a7dc9"
+        },
+        {
+          "@id": "_:N0f4ba5f9d38141309a92c59baf80148e"
+        },
+        {
+          "@id": "_:Nbbbbbbaa7865460daa9bea72aba0558c"
+        },
+        {
+          "@id": "_:Nd5e49a7762fa4fb891301d65c4832352"
+        },
+        {
+          "@id": "_:N637d9ffbda4e4489b1970a89f4cb6386"
+        },
+        {
+          "@id": "_:N17e889c9427c4ba897c8dec82ee4c04f"
+        }
+      ]
+    },
+    {
+      "@id": "_:Ne441b19f8a5a4248902512a5a11f6de7",
+      "https://schema.org#geo": {
+        "@id": "_:Nfab513c0f23d4df0b6895c36a3db10cf"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q131612"
+      },
+      "rdfs:label": "Wiener Neustadt"
+    },
+    {
+      "@id": "_:Nfab513c0f23d4df0b6895c36a3db10cf",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.813153",
+      "https://schema.org#longitude": "16.24444"
+    },
+    {
+      "@id": "_:N23e8c23c1efc47ec9348cc0511aa884b",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1476-11-12"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1476-11-12"
+      }
+    },
+    {
+      "@id": "_:N2a688e507ea24b2a8769cbfac1e0724a",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:K00000693"
+      },
+      "ps:P39": {
+        "@id": "ri:rat"
+      },
+      "rdfs:label": "Rats und Kammerprokurator-Fiskals Johann Kellner"
+    },
+    {
+      "@id": "_:Nc0f4a165ffdb4891a3f089ceea128f6f",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:C00000472"
+      },
+      "ps:P39": {
+        "@id": "ri:dompropst"
+      },
+      "rdfs:label": "Dompropst Thomas von Cilli"
+    },
+    {
+      "@id": "_:N7438afb1f9d04ce58317783db0bfc6d3",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:C00000119"
+      },
+      "rdfs:label": "Dr. Hartung von Kappel"
+    },
+    {
+      "@id": "_:N48e6b94ba6154e9994f687007ab58ea4",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:F00001792"
+      },
+      "rdfs:label": "Hofmarschall Georg Fuchs"
+    },
+    {
+      "@id": "_:Nfd167d2f085c473aa8daf012909a7dc9",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:F00000608"
+      },
+      "ps:P39": {
+        "@id": "ri:forstmeister"
+      },
+      "rdfs:label": "Balthasar Forstmeister"
+    },
+    {
+      "@id": "_:N0f4ba5f9d38141309a92c59baf80148e",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00002248"
+      },
+      "ps:P39": {
+        "@id": "ri:markgraf"
+      },
+      "rdfs:label": "Mgf. Albrecht von Brandenburg"
+    },
+    {
+      "@id": "_:Nbbbbbbaa7865460daa9bea72aba0558c",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:F00001130"
+      },
+      "ps:P39": {
+        "@id": "ri:bischof"
+      },
+      "rdfs:label": "Bf. Sixtus von Freising"
+    },
+    {
+      "@id": "_:Nd5e49a7762fa4fb891301d65c4832352",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:L00001157"
+      },
+      "ps:P39": {
+        "@id": "ri:landgraf"
+      },
+      "rdfs:label": "Ldgf. Friedrich von Leuchtenberg"
+    },
+    {
+      "@id": "_:N637d9ffbda4e4489b1970a89f4cb6386",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00000164"
+      },
+      "rdfs:label": "Hermann von Sachsenheim"
+    },
+    {
+      "@id": "_:N17e889c9427c4ba897c8dec82ee4c04f",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00003529"
+      },
+      "ps:P39": {
+        "@id": "ri:kaiser"
+      },
+      "rdfs:label": "K. Sigmunds"
+    }
+  ]
+}

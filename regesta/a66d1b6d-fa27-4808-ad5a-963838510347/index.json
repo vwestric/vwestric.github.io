@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:a66d1b6d-fa27-4808-ad5a-963838510347",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Nc80dc07c765f49d89974c3aa27a209b0"
+      }
+    },
+    {
+      "@id": "_:Nc80dc07c765f49d89974c3aa27a209b0",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N51dab4ccaccc49d1b8c4eb16c1fbd53e"
+      },
+      "ps:P291": {
+        "@id": "_:N5da734860af14cf2931361b4337c111c"
+      },
+      "ps:P3342": {
+        "@id": "_:N568326c701314dcd8bef0c98c3c2392d"
+      }
+    },
+    {
+      "@id": "_:N5da734860af14cf2931361b4337c111c",
+      "https://schema.org#geo": {
+        "@id": "_:N38fbe8676bcf4f24b7fc6a4e3d165a4e"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q1794"
+      },
+      "rdfs:label": "Frankfurt"
+    },
+    {
+      "@id": "_:N38fbe8676bcf4f24b7fc6a4e3d165a4e",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "50.110556",
+      "https://schema.org#longitude": "8.682222"
+    },
+    {
+      "@id": "_:N51dab4ccaccc49d1b8c4eb16c1fbd53e",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1442-07-18"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1442-07-18"
+      }
+    },
+    {
+      "@id": "_:N568326c701314dcd8bef0c98c3c2392d",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00002265"
+      },
+      "ps:P39": {
+        "@id": "ri:markgraf"
+      },
+      "rdfs:label": "Mgf. Friedrich (II.) von Brandenburg"
+    }
+  ]
+}

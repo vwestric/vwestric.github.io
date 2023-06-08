@@ -1,0 +1,79 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1442-12-04_1_0_13_14_0_159_159",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N13d1f9d2a31c471887d992b08c33f5a5"
+      }
+    },
+    {
+      "@id": "_:N13d1f9d2a31c471887d992b08c33f5a5",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Nd2946c5525ad477098fad175046499a3"
+      },
+      "ps:P291": {
+        "@id": "_:Nfc89db1b57994c8691e0d85f8d87e4eb"
+      },
+      "ps:P3342": {
+        "@id": "_:Nd9d59befad8742e3836ae091c06c73f3"
+      }
+    },
+    {
+      "@id": "_:Nfc89db1b57994c8691e0d85f8d87e4eb",
+      "https://schema.org#geo": {
+        "@id": "_:N6d6982a5ce024ae9a9419971c955b646"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q183104"
+      },
+      "rdfs:label": "Feldkirch"
+    },
+    {
+      "@id": "_:N6d6982a5ce024ae9a9419971c955b646",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.23306",
+      "https://schema.org#longitude": "9.6"
+    },
+    {
+      "@id": "_:Nd2946c5525ad477098fad175046499a3",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1442-12-04"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1442-12-04"
+      }
+    },
+    {
+      "@id": "_:Nd9d59befad8742e3836ae091c06c73f3",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:M00000893"
+      },
+      "ps:P39": [
+        {
+          "@id": "ri:erbmarschall"
+        },
+        {
+          "@id": "ri:rat"
+        }
+      ],
+      "rdfs:label": "Erbmarschall und kgl. Rat Heinrich von Pappenheim"
+    }
+  ]
+}

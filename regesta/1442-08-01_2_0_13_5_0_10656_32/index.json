@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1442-08-01_2_0_13_5_0_10656_32",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Nb1015f490a45470a8dfab99487290b12"
+      }
+    },
+    {
+      "@id": "_:Nb1015f490a45470a8dfab99487290b12",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N7511346fc9824ad6bc65f343faf0f00e"
+      },
+      "ps:P291": {
+        "@id": "_:Nc24eb7348993413295001c8d8e778220"
+      },
+      "ps:P3342": {
+        "@id": "_:Nd1981b3ea68e4b1da4755631a9b29089"
+      }
+    },
+    {
+      "@id": "_:Nc24eb7348993413295001c8d8e778220",
+      "https://schema.org#geo": {
+        "@id": "_:N3d10d7632794460d92a083a4dca67775"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q1794"
+      },
+      "rdfs:label": "Frankfurt"
+    },
+    {
+      "@id": "_:N3d10d7632794460d92a083a4dca67775",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "50.110556",
+      "https://schema.org#longitude": "8.682222"
+    },
+    {
+      "@id": "_:N7511346fc9824ad6bc65f343faf0f00e",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1442-08-01"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1442-08-01"
+      }
+    },
+    {
+      "@id": "_:Nd1981b3ea68e4b1da4755631a9b29089",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:H00001471"
+      },
+      "ps:P39": {
+        "@id": "ri:kaiser"
+      },
+      "rdfs:label": "K. Heinrichs III."
+    }
+  ]
+}

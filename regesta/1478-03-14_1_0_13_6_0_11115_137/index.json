@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1478-03-14_1_0_13_6_0_11115_137",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N9b1971aaf03848e396de26ab4fa79282"
+      }
+    },
+    {
+      "@id": "_:N9b1971aaf03848e396de26ab4fa79282",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Nd358d57aa1f2426b91e8ea1d1e95e9fd"
+      },
+      "ps:P291": {
+        "@id": "_:N5038c704f77f45c684ae0c8527fd7ed0"
+      },
+      "ps:P3342": {
+        "@id": "_:N837217a33511435188991b68ee38fa18"
+      }
+    },
+    {
+      "@id": "_:N5038c704f77f45c684ae0c8527fd7ed0",
+      "https://schema.org#geo": {
+        "@id": "_:N60926eca7b3c44388da0587aa6b8a9e1"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q13298"
+      },
+      "rdfs:label": "Graz"
+    },
+    {
+      "@id": "_:N60926eca7b3c44388da0587aa6b8a9e1",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.06667",
+      "https://schema.org#longitude": "15.45"
+    },
+    {
+      "@id": "_:Nd358d57aa1f2426b91e8ea1d1e95e9fd",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1478-03-14"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1478-03-14"
+      }
+    },
+    {
+      "@id": "_:N837217a33511435188991b68ee38fa18",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00003679"
+      },
+      "ps:P39": {
+        "@id": "ri:papst"
+      },
+      "rdfs:label": "Papst (Sixtus IV.)"
+    }
+  ]
+}

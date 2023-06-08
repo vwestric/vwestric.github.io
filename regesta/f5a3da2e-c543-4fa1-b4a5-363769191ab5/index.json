@@ -1,0 +1,132 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:f5a3da2e-c543-4fa1-b4a5-363769191ab5",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N178fe595558046ca8fa866188ff976d8"
+      }
+    },
+    {
+      "@id": "_:N178fe595558046ca8fa866188ff976d8",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N8ca18b0c63bd47f9ab7db67ff04e7522"
+      },
+      "ps:P291": {
+        "@id": "_:N2c9d955738e54b288bf1e739c9373954"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N7d36a0b10e2942148751f265be509003"
+        },
+        {
+          "@id": "_:N61910eba8482431aba50dee0f50456ec"
+        },
+        {
+          "@id": "_:N901b1b99709c4f7bbd06ccd75566667a"
+        },
+        {
+          "@id": "_:N120d81fd72c343ef82dfe59b14ae4df9"
+        },
+        {
+          "@id": "_:Nd46f550790794654b9474aa260400765"
+        }
+      ]
+    },
+    {
+      "@id": "_:N2c9d955738e54b288bf1e739c9373954",
+      "https://schema.org#geo": {
+        "@id": "_:Nb2027cd5b5914fb5a9f60fc81145ab5a"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q13298"
+      },
+      "rdfs:label": "Graz"
+    },
+    {
+      "@id": "_:Nb2027cd5b5914fb5a9f60fc81145ab5a",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.06667",
+      "https://schema.org#longitude": "15.45"
+    },
+    {
+      "@id": "_:N8ca18b0c63bd47f9ab7db67ff04e7522",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1462-07-18"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1462-07-18"
+      }
+    },
+    {
+      "@id": "_:N7d36a0b10e2942148751f265be509003",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00002248"
+      },
+      "ps:P39": {
+        "@id": "ri:markgraf"
+      },
+      "rdfs:label": "Mgf. Albrecht von Brandenburg"
+    },
+    {
+      "@id": "_:N61910eba8482431aba50dee0f50456ec",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00001825"
+      },
+      "ps:P39": {
+        "@id": "ri:koenig"
+      },
+      "rdfs:label": "Kg. (Georgs) von Böhmen"
+    },
+    {
+      "@id": "_:N901b1b99709c4f7bbd06ccd75566667a",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00002265"
+      },
+      "ps:P39": {
+        "@id": "ri:kurfuerst"
+      },
+      "rdfs:label": "Kf. Friedrich (II.) von Brandenburg"
+    },
+    {
+      "@id": "_:N120d81fd72c343ef82dfe59b14ae4df9",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00000565"
+      },
+      "ps:P39": {
+        "@id": "ri:herzog"
+      },
+      "rdfs:label": "Hz. Ludwig (IX.) von Bayern(-Landshut)"
+    },
+    {
+      "@id": "_:Nd46f550790794654b9474aa260400765",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:P00001458"
+      },
+      "ps:P39": {
+        "@id": "ri:papst"
+      },
+      "rdfs:label": "Papst (Pius II.)"
+    }
+  ]
+}

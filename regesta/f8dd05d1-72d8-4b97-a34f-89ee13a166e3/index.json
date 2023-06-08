@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:f8dd05d1-72d8-4b97-a34f-89ee13a166e3",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N02663cb2714347f3bb5075cb9a08f7c4"
+      }
+    },
+    {
+      "@id": "_:N02663cb2714347f3bb5075cb9a08f7c4",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Nea27d4ab25e64c1096a11f68bd9c869e"
+      },
+      "ps:P291": {
+        "@id": "_:Nc5206009137f4583acf8bb11b44bcbc0"
+      },
+      "ps:P3342": {
+        "@id": "_:N0c6ace4773dd47f49d271b4e540e6229"
+      }
+    },
+    {
+      "@id": "_:Nc5206009137f4583acf8bb11b44bcbc0",
+      "https://schema.org#geo": {
+        "@id": "_:N919628e459144a3f8d1c5bf1cb80cef3"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q153494"
+      },
+      "rdfs:label": "Rothenburg o. d. T."
+    },
+    {
+      "@id": "_:N919628e459144a3f8d1c5bf1cb80cef3",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "49.3775",
+      "https://schema.org#longitude": "10.178889"
+    },
+    {
+      "@id": "_:Nea27d4ab25e64c1096a11f68bd9c869e",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1474-02-14"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1474-02-14"
+      }
+    },
+    {
+      "@id": "_:N0c6ace4773dd47f49d271b4e540e6229",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:D00000033"
+      },
+      "ps:P39": {
+        "@id": "ri:koenig"
+      },
+      "rdfs:label": "Kg. Christian (I.) von Dänemark"
+    }
+  ]
+}

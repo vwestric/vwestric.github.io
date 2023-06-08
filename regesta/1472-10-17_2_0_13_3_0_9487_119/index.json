@@ -1,0 +1,104 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1472-10-17_2_0_13_3_0_9487_119",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Ne7eb7a9fab3743959b400a2f0dea5115"
+      }
+    },
+    {
+      "@id": "_:Ne7eb7a9fab3743959b400a2f0dea5115",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N6abbea075ecf4fd1a44af92bd386daf6"
+      },
+      "ps:P291": {
+        "@id": "_:Ne02cef3aed6c480f931bc66e8e9ba47c"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N3003d14e1d0a4970b47d636988687621"
+        },
+        {
+          "@id": "_:N38c4a3e61e394035958112100b57f3aa"
+        },
+        {
+          "@id": "_:Nc7f9fdb9e4264b958e7e061013c22545"
+        }
+      ]
+    },
+    {
+      "@id": "_:Ne02cef3aed6c480f931bc66e8e9ba47c",
+      "https://schema.org#geo": {
+        "@id": "_:N895abd84e0db4e36964febac07750a7c"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q131612"
+      },
+      "rdfs:label": "Wiener Neustadt"
+    },
+    {
+      "@id": "_:N895abd84e0db4e36964febac07750a7c",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.813153",
+      "https://schema.org#longitude": "16.24444"
+    },
+    {
+      "@id": "_:N6abbea075ecf4fd1a44af92bd386daf6",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1472-10-17"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1472-10-17"
+      }
+    },
+    {
+      "@id": "_:N3003d14e1d0a4970b47d636988687621",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:M00000255"
+      },
+      "ps:P39": {
+        "@id": "ri:erzbischof"
+      },
+      "rdfs:label": "Eb. Adolf von Mainz"
+    },
+    {
+      "@id": "_:N38c4a3e61e394035958112100b57f3aa",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:E00001151"
+      },
+      "ps:P39": {
+        "@id": "ri:koenig"
+      },
+      "rdfs:label": "Eberhards von Eppstein-Königstein"
+    },
+    {
+      "@id": "_:Nc7f9fdb9e4264b958e7e061013c22545",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:K00000431"
+      },
+      "ps:P39": {
+        "@id": "ri:kaiser"
+      },
+      "rdfs:label": "K. Karls IV."
+    }
+  ]
+}

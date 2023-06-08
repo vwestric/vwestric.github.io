@@ -1,0 +1,84 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1491-10-25_2_0_13_17_0_369_367",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N131dc4de422846cbb05043c33a03a7df"
+      }
+    },
+    {
+      "@id": "_:N131dc4de422846cbb05043c33a03a7df",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N06cd2c3f48674ca98b2c484ba94f8d18"
+      },
+      "ps:P291": {
+        "@id": "_:N4552d60765f149978d0ca6ee823a8d59"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:Nd1f4a3b5e8434597883212f206d2dca2"
+        },
+        {
+          "@id": "_:Nfba3c6beb64c45a097a798a40f10120d"
+        }
+      ]
+    },
+    {
+      "@id": "_:N4552d60765f149978d0ca6ee823a8d59",
+      "https://schema.org#geo": {
+        "@id": "_:Ne2ee7a6991bf4d2fa31d6c6f4db41667"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q41329"
+      },
+      "rdfs:label": "Linz"
+    },
+    {
+      "@id": "_:Ne2ee7a6991bf4d2fa31d6c6f4db41667",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "48.303056",
+      "https://schema.org#longitude": "14.290556"
+    },
+    {
+      "@id": "_:N06cd2c3f48674ca98b2c484ba94f8d18",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1491-10-25"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1491-10-25"
+      }
+    },
+    {
+      "@id": "_:Nd1f4a3b5e8434597883212f206d2dca2",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:H00000141"
+      },
+      "rdfs:label": "Niclas zum Hag"
+    },
+    {
+      "@id": "_:Nfba3c6beb64c45a097a798a40f10120d",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:D00000383"
+      },
+      "rdfs:label": "Jost Diel"
+    }
+  ]
+}

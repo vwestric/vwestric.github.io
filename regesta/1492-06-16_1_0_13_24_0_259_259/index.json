@@ -1,0 +1,90 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1492-06-16_1_0_13_24_0_259_259",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N57eac5b4cdaf402d972a1e1246ff2f62"
+      }
+    },
+    {
+      "@id": "_:N57eac5b4cdaf402d972a1e1246ff2f62",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N058a10b8db9c4177b9520d08a4bd7db6"
+      },
+      "ps:P291": {
+        "@id": "_:N4c53af71fd1546cfbc6ed2f2d1bd3eda"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N0d53186f18124c319a3a79f2425d7936"
+        },
+        {
+          "@id": "_:N38a1d8df83c044558fb944f2cb662d68"
+        }
+      ]
+    },
+    {
+      "@id": "_:N4c53af71fd1546cfbc6ed2f2d1bd3eda",
+      "https://schema.org#geo": {
+        "@id": "_:N7b778c32a6154e9dbdb422338b431691"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q41329"
+      },
+      "rdfs:label": "Linz"
+    },
+    {
+      "@id": "_:N7b778c32a6154e9dbdb422338b431691",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "48.303056",
+      "https://schema.org#longitude": "14.290556"
+    },
+    {
+      "@id": "_:N058a10b8db9c4177b9520d08a4bd7db6",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1492-06-16"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1492-06-16"
+      }
+    },
+    {
+      "@id": "_:N0d53186f18124c319a3a79f2425d7936",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:F00000907"
+      },
+      "ps:P39": {
+        "@id": "ri:koenig"
+      },
+      "rdfs:label": "Kg. (Karl VIII.) von Frankreich"
+    },
+    {
+      "@id": "_:N38a1d8df83c044558fb944f2cb662d68",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:M00001151"
+      },
+      "ps:P39": {
+        "@id": "ri:koenig"
+      },
+      "rdfs:label": "Kg. Maximilian (I.)"
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1469-09-30_1_0_13_20_0_162_162",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Ndc15fa86b5de40048c8ed3dfbd271daf"
+      }
+    },
+    {
+      "@id": "_:Ndc15fa86b5de40048c8ed3dfbd271daf",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Ne67604d55ff9482e964e6486c35ab187"
+      },
+      "ps:P291": {
+        "@id": "_:Ned1645d99baa4a28836c53abab2894bc"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N2c37fd3ae5ff42f2b388d3ad46bb5611"
+        },
+        {
+          "@id": "_:N42160aeed6004a51a49096c615c11b94"
+        }
+      ]
+    },
+    {
+      "@id": "_:Ned1645d99baa4a28836c53abab2894bc",
+      "https://schema.org#geo": {
+        "@id": "_:N1cbfdba7b2de412d83c9770e278bb313"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q13298"
+      },
+      "rdfs:label": "Graz"
+    },
+    {
+      "@id": "_:N1cbfdba7b2de412d83c9770e278bb313",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.06667",
+      "https://schema.org#longitude": "15.45"
+    },
+    {
+      "@id": "_:Ne67604d55ff9482e964e6486c35ab187",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1469-09-30"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1469-09-30"
+      }
+    },
+    {
+      "@id": "_:N2c37fd3ae5ff42f2b388d3ad46bb5611",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00002248"
+      },
+      "ps:P39": {
+        "@id": "ri:markgraf"
+      },
+      "rdfs:label": "Mgf. Albrecht von Brandenburg"
+    },
+    {
+      "@id": "_:N42160aeed6004a51a49096c615c11b94",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:P00001761"
+      },
+      "ps:P39": {
+        "@id": "ri:koenig"
+      },
+      "rdfs:label": "Kg. Kasimir (IV.) von Polen"
+    }
+  ]
+}

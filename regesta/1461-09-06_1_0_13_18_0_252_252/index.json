@@ -1,0 +1,90 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1461-09-06_1_0_13_18_0_252_252",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N4607267b242c445a984bb2abb91282b1"
+      }
+    },
+    {
+      "@id": "_:N4607267b242c445a984bb2abb91282b1",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N72efc95fc17b45338dfaae18b3ce9755"
+      },
+      "ps:P291": {
+        "@id": "_:Nd85f3dd6bc41462ab109518a10667ffb"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:Ndf67b341b9494461b35a0480810b9ccd"
+        },
+        {
+          "@id": "_:Na6947f6b0fbe4880be66218fefe726e1"
+        }
+      ]
+    },
+    {
+      "@id": "_:Nd85f3dd6bc41462ab109518a10667ffb",
+      "https://schema.org#geo": {
+        "@id": "_:N5b47038021994e6792c55a94d20fae55"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q699437"
+      },
+      "rdfs:label": "im Feld bei Laxenburg"
+    },
+    {
+      "@id": "_:N5b47038021994e6792c55a94d20fae55",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "48.068333",
+      "https://schema.org#longitude": "16.3575"
+    },
+    {
+      "@id": "_:N72efc95fc17b45338dfaae18b3ce9755",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1461-09-06"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1461-09-06"
+      }
+    },
+    {
+      "@id": "_:Ndf67b341b9494461b35a0480810b9ccd",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00001825"
+      },
+      "ps:P39": {
+        "@id": "ri:koenig"
+      },
+      "rdfs:label": "Kg. Georg von Böhmen"
+    },
+    {
+      "@id": "_:Na6947f6b0fbe4880be66218fefe726e1",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00000565"
+      },
+      "ps:P39": {
+        "@id": "ri:herzog"
+      },
+      "rdfs:label": "Hz. Ludwig (IX.) von Bayern (-Landshut)"
+    }
+  ]
+}

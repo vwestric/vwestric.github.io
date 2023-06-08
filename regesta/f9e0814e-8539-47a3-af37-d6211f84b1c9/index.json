@@ -1,0 +1,60 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:f9e0814e-8539-47a3-af37-d6211f84b1c9",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N4ff3babe69e9427bbf614d492f61a40b"
+      }
+    },
+    {
+      "@id": "_:N4ff3babe69e9427bbf614d492f61a40b",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Nd73ae5f8c1944253a379a5bf3639c8a3"
+      },
+      "ps:P291": {
+        "@id": "_:N708f0f71e27e4dbeb2b5084777755532"
+      }
+    },
+    {
+      "@id": "_:N708f0f71e27e4dbeb2b5084777755532",
+      "https://schema.org#geo": {
+        "@id": "_:N75eef4dfe22a4c4a82189ccac97fd05f"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q4100"
+      },
+      "rdfs:label": "Niederbaden"
+    },
+    {
+      "@id": "_:N75eef4dfe22a4c4a82189ccac97fd05f",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "48.7606",
+      "https://schema.org#longitude": "8.23975"
+    },
+    {
+      "@id": "_:Nd73ae5f8c1944253a379a5bf3639c8a3",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1473-07-23"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1473-07-23"
+      }
+    }
+  ]
+}

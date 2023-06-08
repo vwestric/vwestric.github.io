@@ -1,0 +1,84 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1453-08-13_1_0_13_13_0_278_277",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N14b429eb407249a1974796d7a51546c0"
+      }
+    },
+    {
+      "@id": "_:N14b429eb407249a1974796d7a51546c0",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Nf70b6dacda7248ca981d133de639c3f6"
+      },
+      "ps:P291": {
+        "@id": "_:Nd8432e0dc8444f6f8e27737800389cd4"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:Naee16a3b0c1e464791dbe02e9a038f2d"
+        },
+        {
+          "@id": "_:Na1f969f679c54f9f8f17f323d9eb60f2"
+        }
+      ]
+    },
+    {
+      "@id": "_:Nd8432e0dc8444f6f8e27737800389cd4",
+      "https://schema.org#geo": {
+        "@id": "_:N1b499429b14b4df28b1d6f597de3af38"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q13298"
+      },
+      "rdfs:label": "Graz"
+    },
+    {
+      "@id": "_:N1b499429b14b4df28b1d6f597de3af38",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.06667",
+      "https://schema.org#longitude": "15.45"
+    },
+    {
+      "@id": "_:Nf70b6dacda7248ca981d133de639c3f6",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1453-08-13"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1453-08-13"
+      }
+    },
+    {
+      "@id": "_:Naee16a3b0c1e464791dbe02e9a038f2d",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:P00002036"
+      },
+      "rdfs:label": "Albrecht von Pottendorf"
+    },
+    {
+      "@id": "_:Na1f969f679c54f9f8f17f323d9eb60f2",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:W00002456"
+      },
+      "rdfs:label": "Hermann Windeckes von Mainz"
+    }
+  ]
+}

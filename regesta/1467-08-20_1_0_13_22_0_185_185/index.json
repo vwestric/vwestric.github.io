@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1467-08-20_1_0_13_22_0_185_185",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Nf910e03be25c4dafbba0740690367dc4"
+      }
+    },
+    {
+      "@id": "_:Nf910e03be25c4dafbba0740690367dc4",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Nf85c45737421492aa80971d565c859ba"
+      },
+      "ps:P291": {
+        "@id": "_:N99ddf29c97254615a3048728762e3bb0"
+      },
+      "ps:P3342": {
+        "@id": "_:Na3bc3771ca414f25a45c9ad974cd56b9"
+      }
+    },
+    {
+      "@id": "_:N99ddf29c97254615a3048728762e3bb0",
+      "https://schema.org#geo": {
+        "@id": "_:N90f84ead19f1402387c43dedd86bc1f5"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q131612"
+      },
+      "rdfs:label": "Wiener Neustadt"
+    },
+    {
+      "@id": "_:N90f84ead19f1402387c43dedd86bc1f5",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.813153",
+      "https://schema.org#longitude": "16.24444"
+    },
+    {
+      "@id": "_:Nf85c45737421492aa80971d565c859ba",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1467-08-20"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1467-08-20"
+      }
+    },
+    {
+      "@id": "_:Na3bc3771ca414f25a45c9ad974cd56b9",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:O00000622"
+      },
+      "ps:P39": {
+        "@id": "ri:herzog"
+      },
+      "rdfs:label": "Hz. Sigmund von Österreich"
+    }
+  ]
+}

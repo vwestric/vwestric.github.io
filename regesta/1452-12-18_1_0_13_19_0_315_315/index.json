@@ -1,0 +1,146 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1452-12-18_1_0_13_19_0_315_315",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N34805773d50b41e38910662c39715531"
+      }
+    },
+    {
+      "@id": "_:N34805773d50b41e38910662c39715531",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Nb4017da4fbc2495abf4c1bf66b588416"
+      },
+      "ps:P291": {
+        "@id": "_:N9daad1c7d40040b4b9decd30efea95c2"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:Nab40ae2c7f144f88b451ae3ef7e90cfc"
+        },
+        {
+          "@id": "_:N7937294d635b4923bfebd7bbb949838b"
+        },
+        {
+          "@id": "_:N2b6caa797a3243f1b9a546e9e70f1b28"
+        },
+        {
+          "@id": "_:N7715d688ff8146e58a3846fdb4120db7"
+        },
+        {
+          "@id": "_:Nc4546c88311d46adab8827131c77127f"
+        },
+        {
+          "@id": "_:N9c63824ec8c94775b98a685f4bf8a56c"
+        }
+      ]
+    },
+    {
+      "@id": "_:N9daad1c7d40040b4b9decd30efea95c2",
+      "https://schema.org#geo": {
+        "@id": "_:Nc3a31c08c25f4d3cb1e130dca21b0286"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q131612"
+      },
+      "rdfs:label": "Wiener Neustadt"
+    },
+    {
+      "@id": "_:Nc3a31c08c25f4d3cb1e130dca21b0286",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.813153",
+      "https://schema.org#longitude": "16.24444"
+    },
+    {
+      "@id": "_:Nb4017da4fbc2495abf4c1bf66b588416",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1452-12-18"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1452-12-18"
+      }
+    },
+    {
+      "@id": "_:Nab40ae2c7f144f88b451ae3ef7e90cfc",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00002248"
+      },
+      "ps:P39": {
+        "@id": "ri:markgraf"
+      },
+      "rdfs:label": "Mgf. Albrecht von Brandenburg"
+    },
+    {
+      "@id": "_:N7937294d635b4923bfebd7bbb949838b",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:K00000431"
+      },
+      "ps:P39": {
+        "@id": "ri:kaiser"
+      },
+      "rdfs:label": "K. Karls IV."
+    },
+    {
+      "@id": "_:N2b6caa797a3243f1b9a546e9e70f1b28",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00000565"
+      },
+      "ps:P39": {
+        "@id": "ri:herzog"
+      },
+      "rdfs:label": "Hz. Ludwig (IX.) von Bayern(-Landshut)"
+    },
+    {
+      "@id": "_:N7715d688ff8146e58a3846fdb4120db7",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00000099"
+      },
+      "ps:P39": {
+        "@id": "ri:herzog"
+      },
+      "rdfs:label": "Hz. Wilhelm von Sachsen"
+    },
+    {
+      "@id": "_:Nc4546c88311d46adab8827131c77127f",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:P00001018"
+      },
+      "ps:P39": {
+        "@id": "ri:pfalzgraf"
+      },
+      "rdfs:label": "Pfgf. Otto (von Mosbach)"
+    },
+    {
+      "@id": "_:N9c63824ec8c94775b98a685f4bf8a56c",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00000075"
+      },
+      "ps:P39": {
+        "@id": "ri:markgraf"
+      },
+      "rdfs:label": "Mgf. Karl (I.) von Baden"
+    }
+  ]
+}

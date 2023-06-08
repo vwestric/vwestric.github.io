@@ -1,0 +1,162 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1476-07-09_1_0_13_23_0_646_643",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Nbb2771e0f2d34a40b411c16c47e434fa"
+      }
+    },
+    {
+      "@id": "_:Nbb2771e0f2d34a40b411c16c47e434fa",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N199b0d7312f440a3828bbdbde001fd57"
+      },
+      "ps:P291": {
+        "@id": "_:N4e962dbcc698453aac876e88110f7bb7"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N3d0080fa6c9741389d5beaa240ca1a3c"
+        },
+        {
+          "@id": "_:N64de969c49504341b6e616b18c8b4303"
+        },
+        {
+          "@id": "_:N2005848d34a74d8a92450820098d7769"
+        },
+        {
+          "@id": "_:Nb18ca1f31d6e418e9b03e2df10213a08"
+        },
+        {
+          "@id": "_:N092e909cba394e078b5acbdffbd73a65"
+        },
+        {
+          "@id": "_:N76acd37704744ef5809a09cdd4c9f8b1"
+        },
+        {
+          "@id": "_:N273370d18f8347aa94675077df03f8cc"
+        }
+      ]
+    },
+    {
+      "@id": "_:N4e962dbcc698453aac876e88110f7bb7",
+      "https://schema.org#geo": {
+        "@id": "_:N2f2a60e9f83a4366b66a3098152a106b"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q131612"
+      },
+      "rdfs:label": "Wiener Neustadt"
+    },
+    {
+      "@id": "_:N2f2a60e9f83a4366b66a3098152a106b",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.813153",
+      "https://schema.org#longitude": "16.24444"
+    },
+    {
+      "@id": "_:N199b0d7312f440a3828bbdbde001fd57",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1476-07-09"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1476-07-09"
+      }
+    },
+    {
+      "@id": "_:N3d0080fa6c9741389d5beaa240ca1a3c",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:O00000622"
+      },
+      "ps:P39": {
+        "@id": "ri:herzog"
+      },
+      "rdfs:label": "Hz. Sigmund von Österreich (-Tirol)"
+    },
+    {
+      "@id": "_:N64de969c49504341b6e616b18c8b4303",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00000164"
+      },
+      "ps:P39": [
+        {
+          "@id": "ri:erzherzog"
+        },
+        {
+          "@id": "ri:erzherzogin"
+        }
+      ],
+      "rdfs:label": "Erzherzogin Mechthild von Österreich"
+    },
+    {
+      "@id": "_:N2005848d34a74d8a92450820098d7769",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:W00003283"
+      },
+      "ps:P39": {
+        "@id": "ri:graf"
+      },
+      "rdfs:label": "Gf. Eberhard (V.) d.Ä. von Württemberg"
+    },
+    {
+      "@id": "_:Nb18ca1f31d6e418e9b03e2df10213a08",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:L00000112"
+      },
+      "ps:P39": {
+        "@id": "ri:bischof"
+      },
+      "rdfs:label": "Bf. Sigmund von Laibach"
+    },
+    {
+      "@id": "_:N092e909cba394e078b5acbdffbd73a65",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:C00000472"
+      },
+      "ps:P39": {
+        "@id": "ri:dompropst"
+      },
+      "rdfs:label": "Dompropst Thomas von Cilli"
+    },
+    {
+      "@id": "_:N76acd37704744ef5809a09cdd4c9f8b1",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:C00000119"
+      },
+      "rdfs:label": "Dr. Hartung von Kappel"
+    },
+    {
+      "@id": "_:N273370d18f8347aa94675077df03f8cc",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:M00000255"
+      },
+      "ps:P39": {
+        "@id": "ri:erzbischof"
+      },
+      "rdfs:label": "Eb. Adolf von Mainz"
+    }
+  ]
+}

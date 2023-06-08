@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1475-10-14_2_0_13_9_0_12861_322",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Nd6f7407ce0b444b080a6984acdef9e2c"
+      }
+    },
+    {
+      "@id": "_:Nd6f7407ce0b444b080a6984acdef9e2c",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N9af552d5910b4d17ae24b8f1a33911f6"
+      },
+      "ps:P291": {
+        "@id": "_:N3c4d27a8d7ad425caf890dfff9b94a68"
+      },
+      "ps:P3342": {
+        "@id": "_:N8a0bae857c634eba8939256524242c58"
+      }
+    },
+    {
+      "@id": "_:N3c4d27a8d7ad425caf890dfff9b94a68",
+      "https://schema.org#geo": {
+        "@id": "_:N8d4fceb1283f438291a78372f16088e2"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q390125"
+      },
+      "rdfs:label": "Linz am Rhein"
+    },
+    {
+      "@id": "_:N8d4fceb1283f438291a78372f16088e2",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "50.568611",
+      "https://schema.org#longitude": "7.283056"
+    },
+    {
+      "@id": "_:N9af552d5910b4d17ae24b8f1a33911f6",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1475-10-14"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1475-10-14"
+      }
+    },
+    {
+      "@id": "_:N8a0bae857c634eba8939256524242c58",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:K00001692"
+      },
+      "ps:P39": {
+        "@id": "ri:landgraf"
+      },
+      "rdfs:label": "Ldgf. Hermann von Hessen, Gubernator des Stifts Köln"
+    }
+  ]
+}

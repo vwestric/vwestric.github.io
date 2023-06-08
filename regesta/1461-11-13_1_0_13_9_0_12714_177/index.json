@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1461-11-13_1_0_13_9_0_12714_177",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Nd3fa9a24a6c940a887800338f30d833d"
+      }
+    },
+    {
+      "@id": "_:Nd3fa9a24a6c940a887800338f30d833d",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Nb82d938d49d942ae826189887e3b67e4"
+      },
+      "ps:P291": {
+        "@id": "_:Nebe544ce87df4c3d8e007c2eda0d758c"
+      },
+      "ps:P3342": {
+        "@id": "_:N1b3042832bb34b6993b965db3a840e31"
+      }
+    },
+    {
+      "@id": "_:Nebe544ce87df4c3d8e007c2eda0d758c",
+      "https://schema.org#geo": {
+        "@id": "_:Ne77f5264a71640e2bf0a367b191e7749"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q13298"
+      },
+      "rdfs:label": "Graz"
+    },
+    {
+      "@id": "_:Ne77f5264a71640e2bf0a367b191e7749",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.06667",
+      "https://schema.org#longitude": "15.45"
+    },
+    {
+      "@id": "_:Nb82d938d49d942ae826189887e3b67e4",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1461-11-13"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1461-11-13"
+      }
+    },
+    {
+      "@id": "_:N1b3042832bb34b6993b965db3a840e31",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:P00001458"
+      },
+      "ps:P39": {
+        "@id": "ri:papst"
+      },
+      "rdfs:label": "Papst (Pius II.)"
+    }
+  ]
+}

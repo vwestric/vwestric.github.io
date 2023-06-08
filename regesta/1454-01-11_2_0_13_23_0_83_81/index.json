@@ -1,0 +1,104 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1454-01-11_2_0_13_23_0_83_81",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N2033a953deb243338b8bacd53d0a0c3a"
+      }
+    },
+    {
+      "@id": "_:N2033a953deb243338b8bacd53d0a0c3a",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N7ceef998c2134a9a8f2cff192866acd1"
+      },
+      "ps:P291": {
+        "@id": "_:N0e7d825c652f4ae2937b7d4a84aca589"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:Na3e2df5eee18427097a87227b59bea7d"
+        },
+        {
+          "@id": "_:Neb03c42cde9e4836802495b9250e1863"
+        },
+        {
+          "@id": "_:N0d8e73fbd3484de2b7c5eda029a3f352"
+        }
+      ]
+    },
+    {
+      "@id": "_:N0e7d825c652f4ae2937b7d4a84aca589",
+      "https://schema.org#geo": {
+        "@id": "_:N14f3c1e4cdc1473b8c314414075e9217"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q131612"
+      },
+      "rdfs:label": "Wiener Neustadt"
+    },
+    {
+      "@id": "_:N14f3c1e4cdc1473b8c314414075e9217",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.813153",
+      "https://schema.org#longitude": "16.24444"
+    },
+    {
+      "@id": "_:N7ceef998c2134a9a8f2cff192866acd1",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1454-01-11"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1454-01-11"
+      }
+    },
+    {
+      "@id": "_:Na3e2df5eee18427097a87227b59bea7d",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:W00003211"
+      },
+      "ps:P39": {
+        "@id": "ri:graf"
+      },
+      "rdfs:label": "Gf. Ulrich (V.) von Württemberg"
+    },
+    {
+      "@id": "_:Neb03c42cde9e4836802495b9250e1863",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00003529"
+      },
+      "ps:P39": {
+        "@id": "ri:koenig"
+      },
+      "rdfs:label": "Kg. Sigmund"
+    },
+    {
+      "@id": "_:N0d8e73fbd3484de2b7c5eda029a3f352",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:P00000962"
+      },
+      "ps:P39": {
+        "@id": "ri:pfalzgraf"
+      },
+      "rdfs:label": "Pfgf. Friedrich bei Rhein"
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1466-08-14_4_0_13_17_0_182_180",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N4d1a3bd1aef94e54a4f2269736bc26ee"
+      }
+    },
+    {
+      "@id": "_:N4d1a3bd1aef94e54a4f2269736bc26ee",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N3a96eb0044714ad9b41a47fac3697da4"
+      },
+      "ps:P291": {
+        "@id": "_:N38d506ee1f684054a9f263586fe5f33c"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N074f2a0ac0b1428b91b5b294343cf836"
+        },
+        {
+          "@id": "_:Nc920443a02ae4e828d0e43473bc4f70e"
+        },
+        {
+          "@id": "_:Neeea916821464678ae8a82ca0c12c6ab"
+        },
+        {
+          "@id": "_:Nae66f8aaf52847e5ad233f0749e710f8"
+        },
+        {
+          "@id": "_:N22d4f26f831a43f880a44899411e5e61"
+        }
+      ]
+    },
+    {
+      "@id": "_:N38d506ee1f684054a9f263586fe5f33c",
+      "https://schema.org#geo": {
+        "@id": "_:N41b5fc592ec244b0aed632f8c7c06ccd"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q13298"
+      },
+      "rdfs:label": "Graz"
+    },
+    {
+      "@id": "_:N41b5fc592ec244b0aed632f8c7c06ccd",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.06667",
+      "https://schema.org#longitude": "15.45"
+    },
+    {
+      "@id": "_:N3a96eb0044714ad9b41a47fac3697da4",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1466-08-14"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1466-08-14"
+      }
+    },
+    {
+      "@id": "_:N074f2a0ac0b1428b91b5b294343cf836",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00000075"
+      },
+      "ps:P39": {
+        "@id": "ri:markgraf"
+      },
+      "rdfs:label": "Mgf. Karl (I.) von Baden"
+    },
+    {
+      "@id": "_:Nc920443a02ae4e828d0e43473bc4f70e",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:H00003157"
+      },
+      "rdfs:label": "Heinrich Holzapfel von Herxheim"
+    },
+    {
+      "@id": "_:Neeea916821464678ae8a82ca0c12c6ab",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:W00002751"
+      },
+      "rdfs:label": "Adam Wißhar"
+    },
+    {
+      "@id": "_:Nae66f8aaf52847e5ad233f0749e710f8",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:A00001258"
+      },
+      "rdfs:label": "Hans Arnold"
+    },
+    {
+      "@id": "_:N22d4f26f831a43f880a44899411e5e61",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00002098"
+      },
+      "rdfs:label": "Debolt Borlin (Burlin)"
+    }
+  ]
+}

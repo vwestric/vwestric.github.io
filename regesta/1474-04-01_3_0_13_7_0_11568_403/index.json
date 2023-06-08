@@ -1,0 +1,104 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1474-04-01_3_0_13_7_0_11568_403",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N551cb4654f204f41ba3a5208d841ee83"
+      }
+    },
+    {
+      "@id": "_:N551cb4654f204f41ba3a5208d841ee83",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Nb0ceefe5fc5a424089b1af0daf4b62e4"
+      },
+      "ps:P291": {
+        "@id": "_:Nac6438cefb044a86927946d7e37564a2"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N3f2b010a0ab94b90b4aac7c4d816c2cd"
+        },
+        {
+          "@id": "_:N1bdc509f55024cb28a0e18a535c699fd"
+        },
+        {
+          "@id": "_:N99b4c54a89de4fd99f5e52637d64b6c9"
+        }
+      ]
+    },
+    {
+      "@id": "_:Nac6438cefb044a86927946d7e37564a2",
+      "https://schema.org#geo": {
+        "@id": "_:N4c3809d588aa4f2083fcf6bf36a5597d"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q14910"
+      },
+      "rdfs:label": "Schwäbisch Hall"
+    },
+    {
+      "@id": "_:N4c3809d588aa4f2083fcf6bf36a5597d",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "49.112222",
+      "https://schema.org#longitude": "9.7375"
+    },
+    {
+      "@id": "_:Nb0ceefe5fc5a424089b1af0daf4b62e4",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1474-04-01"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1474-04-01"
+      }
+    },
+    {
+      "@id": "_:N3f2b010a0ab94b90b4aac7c4d816c2cd",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:K00001690"
+      },
+      "ps:P39": {
+        "@id": "ri:erzbischof"
+      },
+      "rdfs:label": "Eb. Ruprecht von Köln"
+    },
+    {
+      "@id": "_:N1bdc509f55024cb28a0e18a535c699fd",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00003253"
+      },
+      "ps:P39": {
+        "@id": "ri:herzog"
+      },
+      "rdfs:label": "Hz. Karl von Burgund"
+    },
+    {
+      "@id": "_:N99b4c54a89de4fd99f5e52637d64b6c9",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00003679"
+      },
+      "ps:P39": {
+        "@id": "ri:papst"
+      },
+      "rdfs:label": "Papst (Sixtus IV.)"
+    }
+  ]
+}

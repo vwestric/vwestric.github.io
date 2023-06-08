@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1475-09-02_3_0_13_7_0_11671_505",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N4bffa3b0053c421685dc105f7261bc8b"
+      }
+    },
+    {
+      "@id": "_:N4bffa3b0053c421685dc105f7261bc8b",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N12182acdd4824390b0c15c26bf154518"
+      },
+      "ps:P291": {
+        "@id": "_:N5e0908bf24114e83a6b54e3d3a91b461"
+      },
+      "ps:P3342": {
+        "@id": "_:N0618ac7d117549ffb9923d0e0411b2d0"
+      }
+    },
+    {
+      "@id": "_:N5e0908bf24114e83a6b54e3d3a91b461",
+      "https://schema.org#geo": {
+        "@id": "_:N84dafd070e804b7c91eab024051a74d2"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q2948"
+      },
+      "rdfs:label": "Neuss"
+    },
+    {
+      "@id": "_:N84dafd070e804b7c91eab024051a74d2",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "51.198611",
+      "https://schema.org#longitude": "6.691389"
+    },
+    {
+      "@id": "_:N12182acdd4824390b0c15c26bf154518",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1475-09-02"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1475-09-02"
+      }
+    },
+    {
+      "@id": "_:N0618ac7d117549ffb9923d0e0411b2d0",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00003253"
+      },
+      "ps:P39": {
+        "@id": "ri:herzog"
+      },
+      "rdfs:label": "Hz. (Karl) von Burgund"
+    }
+  ]
+}

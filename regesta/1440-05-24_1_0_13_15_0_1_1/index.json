@@ -1,0 +1,162 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1440-05-24_1_0_13_15_0_1_1",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Na34bf7de141546aabd52f263c22a0c05"
+      }
+    },
+    {
+      "@id": "_:Na34bf7de141546aabd52f263c22a0c05",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N828727958cde4d79afde59bc72c99374"
+      },
+      "ps:P291": {
+        "@id": "_:N329aa567fb5147258dd3b57bdeb3792f"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N705a026de2664559acea04820a8f90bd"
+        },
+        {
+          "@id": "_:N0592d0be6bf940029bcf91657567c0d0"
+        },
+        {
+          "@id": "_:N9457c694125b4332bc24ca890f55226a"
+        },
+        {
+          "@id": "_:Nd75c0be8a69e48889702091e4279110b"
+        },
+        {
+          "@id": "_:Na9ed7892f2bb4dc0b85c86f77dc49b00"
+        },
+        {
+          "@id": "_:N3e10364a2bd34c968b18ce4db1c2f7fb"
+        },
+        {
+          "@id": "_:Ndfe29cb04da142f3ab4f9f2c8b9352dd"
+        },
+        {
+          "@id": "_:N61deb62652ea48f2964402a4008b5b38"
+        }
+      ]
+    },
+    {
+      "@id": "_:N329aa567fb5147258dd3b57bdeb3792f",
+      "https://schema.org#geo": {
+        "@id": "_:N6fab0c09ecc84bad89226a1de14808b0"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q131612"
+      },
+      "rdfs:label": "Wiener Neustadt"
+    },
+    {
+      "@id": "_:N6fab0c09ecc84bad89226a1de14808b0",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.813153",
+      "https://schema.org#longitude": "16.24444"
+    },
+    {
+      "@id": "_:N828727958cde4d79afde59bc72c99374",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1440-05-24"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1440-05-24"
+      }
+    },
+    {
+      "@id": "_:N705a026de2664559acea04820a8f90bd",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00000372"
+      },
+      "ps:P39": {
+        "@id": "ri:erzbischof"
+      },
+      "rdfs:label": "Eb. Johann von Salzburg"
+    },
+    {
+      "@id": "_:N0592d0be6bf940029bcf91657567c0d0",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:A00000709"
+      },
+      "rdfs:label": "Martin Altmann"
+    },
+    {
+      "@id": "_:N9457c694125b4332bc24ca890f55226a",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:P00000484"
+      },
+      "rdfs:label": "Simon Peitzkofer"
+    },
+    {
+      "@id": "_:Nd75c0be8a69e48889702091e4279110b",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:K00002644"
+      },
+      "rdfs:label": "Niklas Kreuzel"
+    },
+    {
+      "@id": "_:Na9ed7892f2bb4dc0b85c86f77dc49b00",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:F00001647"
+      },
+      "rdfs:label": "Friedrich Frieß"
+    },
+    {
+      "@id": "_:N3e10364a2bd34c968b18ce4db1c2f7fb",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00000582"
+      },
+      "ps:P39": {
+        "@id": "ri:herzog"
+      },
+      "rdfs:label": "Hz. Albrecht (III.) von Bayern (-München)"
+    },
+    {
+      "@id": "_:Ndfe29cb04da142f3ab4f9f2c8b9352dd",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:A00000457"
+      },
+      "ps:P39": {
+        "@id": "ri:koenig"
+      },
+      "rdfs:label": "Kg. Albrecht (II.)"
+    },
+    {
+      "@id": "_:N61deb62652ea48f2964402a4008b5b38",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:R00000840"
+      },
+      "ps:P39": {
+        "@id": "ri:bischof"
+      },
+      "rdfs:label": "Bf. Friedrich von Regensburg"
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1442-07-18_1_0_13_24_0_9_9",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Nc47b4037222147e39089695d06728e2e"
+      }
+    },
+    {
+      "@id": "_:Nc47b4037222147e39089695d06728e2e",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Nc361b34d2dee4be590ce75c83f7f52db"
+      },
+      "ps:P291": {
+        "@id": "_:N3f27f9663f834fa284e0204e049c0999"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N42af4fc4172d483591297cea4419c7f0"
+        },
+        {
+          "@id": "_:N780f68dc301d4d0894cce1c45b72b1b2"
+        },
+        {
+          "@id": "_:Nf60b8b7e75af42dabb97971961991497"
+        },
+        {
+          "@id": "_:N49bea6bc7c804c0491dd215c5b8ddb4e"
+        }
+      ]
+    },
+    {
+      "@id": "_:N3f27f9663f834fa284e0204e049c0999",
+      "https://schema.org#geo": {
+        "@id": "_:N18815a2b14084167838a6c19e76011c5"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q1794"
+      },
+      "rdfs:label": "Frankfurt"
+    },
+    {
+      "@id": "_:N18815a2b14084167838a6c19e76011c5",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "50.110556",
+      "https://schema.org#longitude": "8.682222"
+    },
+    {
+      "@id": "_:Nc361b34d2dee4be590ce75c83f7f52db",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1442-07-18"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1442-07-18"
+      }
+    },
+    {
+      "@id": "_:N42af4fc4172d483591297cea4419c7f0",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:E00000740"
+      },
+      "ps:P39": {
+        "@id": "ri:hochmeister"
+      },
+      "rdfs:label": "Hochmeisters Konrad von Erlichshausen"
+    },
+    {
+      "@id": "_:N780f68dc301d4d0894cce1c45b72b1b2",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:T00001172"
+      },
+      "ps:P39": {
+        "@id": "ri:erzbischof"
+      },
+      "rdfs:label": "Eb. Jakob von Trier"
+    },
+    {
+      "@id": "_:Nf60b8b7e75af42dabb97971961991497",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:A00001569"
+      },
+      "ps:P39": {
+        "@id": "ri:bischof"
+      },
+      "rdfs:label": "Bf. Peter von Augsburg"
+    },
+    {
+      "@id": "_:N49bea6bc7c804c0491dd215c5b8ddb4e",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:W00003211"
+      },
+      "ps:P39": {
+        "@id": "ri:graf"
+      },
+      "rdfs:label": "Gf. Ulrich (V.) von Württemberg"
+    }
+  ]
+}

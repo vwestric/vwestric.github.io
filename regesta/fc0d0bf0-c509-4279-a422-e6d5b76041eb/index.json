@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:fc0d0bf0-c509-4279-a422-e6d5b76041eb",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Nd5454f3b9f8a47d4b37cc9166a578a67"
+      }
+    },
+    {
+      "@id": "_:Nd5454f3b9f8a47d4b37cc9166a578a67",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Neb2f82da06ce49bf8d691afa964857a4"
+      },
+      "ps:P291": {
+        "@id": "_:N343c3ff8401b4738a5a62cccbb7c692c"
+      },
+      "ps:P3342": {
+        "@id": "_:N9e21dce253654a36ae153189f09a723d"
+      }
+    },
+    {
+      "@id": "_:N343c3ff8401b4738a5a62cccbb7c692c",
+      "https://schema.org#geo": {
+        "@id": "_:N4726775f748b419e9cbcad8a6d937ddf"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q13298"
+      },
+      "rdfs:label": "Graz"
+    },
+    {
+      "@id": "_:N4726775f748b419e9cbcad8a6d937ddf",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.06667",
+      "https://schema.org#longitude": "15.45"
+    },
+    {
+      "@id": "_:Neb2f82da06ce49bf8d691afa964857a4",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1461-08-25"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1461-08-25"
+      }
+    },
+    {
+      "@id": "_:N9e21dce253654a36ae153189f09a723d",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00001825"
+      },
+      "ps:P39": {
+        "@id": "ri:koenig"
+      },
+      "rdfs:label": "Kg. Georg von Böhmen"
+    }
+  ]
+}

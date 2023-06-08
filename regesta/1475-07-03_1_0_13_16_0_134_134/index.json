@@ -1,0 +1,87 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1475-07-03_1_0_13_16_0_134_134",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N4c9b9844abd0486789abd2ceb5786b25"
+      }
+    },
+    {
+      "@id": "_:N4c9b9844abd0486789abd2ceb5786b25",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N6e3bd7fdaf5d4fc597481f3bc14a0c54"
+      },
+      "ps:P291": {
+        "@id": "_:Ne64cb06f44d14a6ab05406cbc63e5dbe"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N9f412c28263b43e9b73f3ce6d4cff4d5"
+        },
+        {
+          "@id": "_:N7b3df0ee18fb43d99181ece026d323bd"
+        }
+      ]
+    },
+    {
+      "@id": "_:Ne64cb06f44d14a6ab05406cbc63e5dbe",
+      "https://schema.org#geo": {
+        "@id": "_:Nd412f97931bd4e91a1a3014461e4f610"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q365"
+      },
+      "rdfs:label": "Köln"
+    },
+    {
+      "@id": "_:Nd412f97931bd4e91a1a3014461e4f610",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "50.93333",
+      "https://schema.org#longitude": "6.95"
+    },
+    {
+      "@id": "_:N6e3bd7fdaf5d4fc597481f3bc14a0c54",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1475-07-03"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1475-07-03"
+      }
+    },
+    {
+      "@id": "_:N9f412c28263b43e9b73f3ce6d4cff4d5",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00000065"
+      },
+      "ps:P39": {
+        "@id": "ri:kurfuerst"
+      },
+      "rdfs:label": "Kf. Ernst von Sachsen"
+    },
+    {
+      "@id": "_:N7b3df0ee18fb43d99181ece026d323bd",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:A00000955"
+      },
+      "rdfs:label": "Fürst Waidemars (VI.) von Anhalt"
+    }
+  ]
+}

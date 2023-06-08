@@ -1,0 +1,84 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1475-09-16_5_0_13_8_0_12388_380",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N68b54f49469b4c709f370ded0d920ebc"
+      }
+    },
+    {
+      "@id": "_:N68b54f49469b4c709f370ded0d920ebc",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N9381e81ec91a47828df5d4cb2ed20032"
+      },
+      "ps:P291": {
+        "@id": "_:N58ae58343aed43849c854513cb1d8444"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:Nc22124a480d14ba089bbae15a3f71247"
+        },
+        {
+          "@id": "_:N4648c33d503148638d9a272632d2b910"
+        }
+      ]
+    },
+    {
+      "@id": "_:N58ae58343aed43849c854513cb1d8444",
+      "https://schema.org#geo": {
+        "@id": "_:Nda3497e1bcc243d78bc3b7ec6d04c61a"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q365"
+      },
+      "rdfs:label": "Köln"
+    },
+    {
+      "@id": "_:Nda3497e1bcc243d78bc3b7ec6d04c61a",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "50.93333",
+      "https://schema.org#longitude": "6.95"
+    },
+    {
+      "@id": "_:N9381e81ec91a47828df5d4cb2ed20032",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1475-09-16"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1475-09-16"
+      }
+    },
+    {
+      "@id": "_:Nc22124a480d14ba089bbae15a3f71247",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:H00000634"
+      },
+      "rdfs:label": "Philipp d. J. von Hanau"
+    },
+    {
+      "@id": "_:N4648c33d503148638d9a272632d2b910",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:I00000292"
+      },
+      "rdfs:label": "Ludwig von Isenburg-Büdingen"
+    }
+  ]
+}

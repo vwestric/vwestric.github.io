@@ -1,0 +1,90 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:e6ce15e3-8a09-4e15-9eb0-17067bf9a757",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N64f4a7303cc8443b9b9ef003a8d1445f"
+      }
+    },
+    {
+      "@id": "_:N64f4a7303cc8443b9b9ef003a8d1445f",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N70594bf6953e4717b25965080e2e04ab"
+      },
+      "ps:P291": {
+        "@id": "_:N1d13b1f4848b4bed81922d70ca97f211"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:Ndb9f1143ec844b83a21d3abba8d6b0f3"
+        },
+        {
+          "@id": "_:Nb8b2ae87aaf14c8b974c94e43b7bd369"
+        }
+      ]
+    },
+    {
+      "@id": "_:N1d13b1f4848b4bed81922d70ca97f211",
+      "https://schema.org#geo": {
+        "@id": "_:N0d394fa47aa94aa89cce6d387e344c13"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q153494"
+      },
+      "rdfs:label": "Rothenburg o. d. T."
+    },
+    {
+      "@id": "_:N0d394fa47aa94aa89cce6d387e344c13",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "49.3775",
+      "https://schema.org#longitude": "10.178889"
+    },
+    {
+      "@id": "_:N70594bf6953e4717b25965080e2e04ab",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1474-02-20"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1474-02-20"
+      }
+    },
+    {
+      "@id": "_:Ndb9f1143ec844b83a21d3abba8d6b0f3",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:P00001761"
+      },
+      "ps:P39": {
+        "@id": "ri:koenig"
+      },
+      "rdfs:label": "Kg. Kasimir (IV.) von Polen"
+    },
+    {
+      "@id": "_:Nb8b2ae87aaf14c8b974c94e43b7bd369",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00001841"
+      },
+      "ps:P39": {
+        "@id": "ri:koenig"
+      },
+      "rdfs:label": "Kg. Wladislaw (II.) von Böhmen"
+    }
+  ]
+}

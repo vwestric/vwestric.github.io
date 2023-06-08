@@ -1,0 +1,79 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1472-12-04_1_0_13_27_0_180_180",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N85c878955fd24038954af62b86eb9f4a"
+      }
+    },
+    {
+      "@id": "_:N85c878955fd24038954af62b86eb9f4a",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Nd9616322bdd44fb0abe2da684e86c08c"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:Ne1b2a97dfa1c4c95acdb7375fd94f1c8"
+        },
+        {
+          "@id": "_:N019dd3c281e84f3dbb3b9b14a3550c4b"
+        },
+        {
+          "@id": "_:Nade6c21dd8d64763948d64c884616c25"
+        }
+      ]
+    },
+    {
+      "@id": "_:Nd9616322bdd44fb0abe2da684e86c08c",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1472-12-04"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1472-12-04"
+      }
+    },
+    {
+      "@id": "_:Ne1b2a97dfa1c4c95acdb7375fd94f1c8",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:U00000212"
+      },
+      "ps:P39": {
+        "@id": "ri:koenig"
+      },
+      "rdfs:label": "Kg. Matthias von Ungarn"
+    },
+    {
+      "@id": "_:N019dd3c281e84f3dbb3b9b14a3550c4b",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:P00002041"
+      },
+      "rdfs:label": "Jörg von Pottendorf"
+    },
+    {
+      "@id": "_:Nade6c21dd8d64763948d64c884616c25",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00003138"
+      },
+      "rdfs:label": "Jörg von Seisenegg"
+    }
+  ]
+}

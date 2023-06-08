@@ -1,0 +1,87 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1485-04-26_1_0_13_26_0_758_758",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N127d11676244401badbc77209d553086"
+      }
+    },
+    {
+      "@id": "_:N127d11676244401badbc77209d553086",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N35b644663ccc4b9c87032ca416c30b77"
+      },
+      "ps:P291": {
+        "@id": "_:N043d43b138bf45b29839392a030b175a"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:Ne6c6371308a04fd5bc8a0b87b1736dc6"
+        },
+        {
+          "@id": "_:N0cb2181d09c44dbf8b1b4490697dad1d"
+        }
+      ]
+    },
+    {
+      "@id": "_:N043d43b138bf45b29839392a030b175a",
+      "https://schema.org#geo": {
+        "@id": "_:N83454f58ed3442f982120d63587588c8"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q41329"
+      },
+      "rdfs:label": "Linz"
+    },
+    {
+      "@id": "_:N83454f58ed3442f982120d63587588c8",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "48.303056",
+      "https://schema.org#longitude": "14.290556"
+    },
+    {
+      "@id": "_:N35b644663ccc4b9c87032ca416c30b77",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1485-04-26"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1485-04-26"
+      }
+    },
+    {
+      "@id": "_:Ne6c6371308a04fd5bc8a0b87b1736dc6",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00002248"
+      },
+      "ps:P39": {
+        "@id": "ri:kurfuerst"
+      },
+      "rdfs:label": "Kf. Albrecht von Brandenburg"
+    },
+    {
+      "@id": "_:N0cb2181d09c44dbf8b1b4490697dad1d",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00002750"
+      },
+      "rdfs:label": "Sigmund d. J. von Schwarzenberg"
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1486-02-15_2_0_13_4_0_10472_896",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Nfe8f1cc5d9a2470cb5d9beca7ded32cf"
+      }
+    },
+    {
+      "@id": "_:Nfe8f1cc5d9a2470cb5d9beca7ded32cf",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Nfe396af3f5984e8facf0488703396b75"
+      },
+      "ps:P291": {
+        "@id": "_:N5d30a2ba8a46412cb8e9f4318d8e78b7"
+      },
+      "ps:P3342": {
+        "@id": "_:Nd0b60ec909394ed0a6c14d8e52368ef4"
+      }
+    },
+    {
+      "@id": "_:N5d30a2ba8a46412cb8e9f4318d8e78b7",
+      "https://schema.org#geo": {
+        "@id": "_:N4f9b41e81d04469a9df38773b3b9a8be"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q1794"
+      },
+      "rdfs:label": "[Frankfurt]"
+    },
+    {
+      "@id": "_:N4f9b41e81d04469a9df38773b3b9a8be",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "50.110556",
+      "https://schema.org#longitude": "8.682222"
+    },
+    {
+      "@id": "_:Nfe396af3f5984e8facf0488703396b75",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1486-02-15"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1486-02-15"
+      }
+    },
+    {
+      "@id": "_:Nd0b60ec909394ed0a6c14d8e52368ef4",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:P00000998"
+      },
+      "ps:P39": {
+        "@id": "ri:pfalzgraf"
+      },
+      "rdfs:label": "Pfgf. Philipp bei Rhein"
+    }
+  ]
+}

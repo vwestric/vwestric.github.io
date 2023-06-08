@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1446-04-07_1_0_13_12_0_320_320",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Nf219cc4d5d12460d9216aee0a5d24f14"
+      }
+    },
+    {
+      "@id": "_:Nf219cc4d5d12460d9216aee0a5d24f14",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N2afa6d3a40074bd6960604d2ed60de68"
+      },
+      "ps:P291": {
+        "@id": "_:N73ae968a743f47b1a31c7e89d458abd2"
+      },
+      "ps:P3342": {
+        "@id": "_:N732136e8f91f4c6f9003d8282916faed"
+      }
+    },
+    {
+      "@id": "_:N73ae968a743f47b1a31c7e89d458abd2",
+      "https://schema.org#geo": {
+        "@id": "_:N3d2ea65116ba4a099780573c80a671f8"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q1741"
+      },
+      "rdfs:label": "Wien"
+    },
+    {
+      "@id": "_:N3d2ea65116ba4a099780573c80a671f8",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "48.20849",
+      "https://schema.org#longitude": "16.37208"
+    },
+    {
+      "@id": "_:N2afa6d3a40074bd6960604d2ed60de68",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1446-04-07"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1446-04-07"
+      }
+    },
+    {
+      "@id": "_:N732136e8f91f4c6f9003d8282916faed",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:O00000622"
+      },
+      "ps:P39": {
+        "@id": "ri:herzog"
+      },
+      "rdfs:label": "Hz. Sigmund von Österreich"
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1468-08-18_1_0_13_7_0_11453_289",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N7a75ae4dc0af4b43b03bfdb95f32bf1d"
+      }
+    },
+    {
+      "@id": "_:N7a75ae4dc0af4b43b03bfdb95f32bf1d",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N1b94b0299e7e4544a5bd9ac980b9abc0"
+      },
+      "ps:P291": {
+        "@id": "_:N4fd1795ac9404dd18427e32275443a19"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N046242c4eede401ca3d496f07c3d4a9e"
+        },
+        {
+          "@id": "_:N37d0ef9bd7ba46f5aaafafefec6bf26b"
+        },
+        {
+          "@id": "_:N048a353a182e424883ff8958f2f6f95a"
+        },
+        {
+          "@id": "_:N70f4be24424e437db64c70404dbfbf60"
+        },
+        {
+          "@id": "_:N4ae29f09a8d14cf9a2f174800c292f2b"
+        },
+        {
+          "@id": "_:N255eb158ca434dcc826c58271249ae42"
+        }
+      ]
+    },
+    {
+      "@id": "_:N4fd1795ac9404dd18427e32275443a19",
+      "https://schema.org#geo": {
+        "@id": "_:N457a1d830b2d4ee0afdb35c992ec4ed1"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q13298"
+      },
+      "rdfs:label": "Graz"
+    },
+    {
+      "@id": "_:N457a1d830b2d4ee0afdb35c992ec4ed1",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.06667",
+      "https://schema.org#longitude": "15.45"
+    },
+    {
+      "@id": "_:N1b94b0299e7e4544a5bd9ac980b9abc0",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1468-08-18"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1468-08-18"
+      }
+    },
+    {
+      "@id": "_:N046242c4eede401ca3d496f07c3d4a9e",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:M00000255"
+      },
+      "ps:P39": {
+        "@id": "ri:erzbischof"
+      },
+      "rdfs:label": "Eb. Adolf von Mainz"
+    },
+    {
+      "@id": "_:N37d0ef9bd7ba46f5aaafafefec6bf26b",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:W00003114"
+      },
+      "rdfs:label": "Reinhard von Worms"
+    },
+    {
+      "@id": "_:N048a353a182e424883ff8958f2f6f95a",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:K00001326"
+      },
+      "rdfs:label": "Johann von Kleve"
+    },
+    {
+      "@id": "_:N70f4be24424e437db64c70404dbfbf60",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:R00003099"
+      },
+      "rdfs:label": "Dietrich von Runkel"
+    },
+    {
+      "@id": "_:N4ae29f09a8d14cf9a2f174800c292f2b",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:R00001183"
+      },
+      "rdfs:label": "Wilhelm von Reichenstein"
+    },
+    {
+      "@id": "_:N255eb158ca434dcc826c58271249ae42",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:G00000422"
+      },
+      "rdfs:label": "Arnold von Egmond"
+    }
+  ]
+}

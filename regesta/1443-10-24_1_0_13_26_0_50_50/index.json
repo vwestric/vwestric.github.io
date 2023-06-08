@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1443-10-24_1_0_13_26_0_50_50",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N8c3acbb4d6954f60a5ba7f464094cb09"
+      }
+    },
+    {
+      "@id": "_:N8c3acbb4d6954f60a5ba7f464094cb09",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N25cb3dfa91a3428c8522c9ac6797a4ef"
+      },
+      "ps:P291": {
+        "@id": "_:Nfd549d209408423db6477b3232bc256a"
+      },
+      "ps:P3342": {
+        "@id": "_:N0ef35593cadc4f15ad808ed246e5812f"
+      }
+    },
+    {
+      "@id": "_:Nfd549d209408423db6477b3232bc256a",
+      "https://schema.org#geo": {
+        "@id": "_:N447f31347bc0480da06dfde21316344a"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q1741"
+      },
+      "rdfs:label": "Wien"
+    },
+    {
+      "@id": "_:N447f31347bc0480da06dfde21316344a",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "48.20849",
+      "https://schema.org#longitude": "16.37208"
+    },
+    {
+      "@id": "_:N25cb3dfa91a3428c8522c9ac6797a4ef",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1443-10-24"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1443-10-24"
+      }
+    },
+    {
+      "@id": "_:N0ef35593cadc4f15ad808ed246e5812f",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:A00000457"
+      },
+      "ps:P39": {
+        "@id": "ri:koenig"
+      },
+      "rdfs:label": "Kg. Albrecht (II.)"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1488-08-27_2_0_13_7_0_11921_754",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N9748a4afc97b4566b41489d014f09657"
+      }
+    },
+    {
+      "@id": "_:N9748a4afc97b4566b41489d014f09657",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Naaa4ee08feec4d8789d8231c9916dca3"
+      },
+      "ps:P291": {
+        "@id": "_:N2b499940e0b54c21b30e333f5b63f6f0"
+      }
+    },
+    {
+      "@id": "_:N2b499940e0b54c21b30e333f5b63f6f0",
+      "https://schema.org#geo": {
+        "@id": "_:N9732d12f309e44739f4561a5cdde19a4"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q12892"
+      },
+      "rdfs:label": "Antwerpen"
+    },
+    {
+      "@id": "_:N9732d12f309e44739f4561a5cdde19a4",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "51.21989",
+      "https://schema.org#longitude": "4.40346"
+    },
+    {
+      "@id": "_:Naaa4ee08feec4d8789d8231c9916dca3",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1488-08-27"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1488-08-27"
+      }
+    }
+  ]
+}

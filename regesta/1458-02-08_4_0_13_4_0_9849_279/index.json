@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1458-02-08_4_0_13_4_0_9849_279",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N92159a78cac344beb2f007ca8ae0e59c"
+      }
+    },
+    {
+      "@id": "_:N92159a78cac344beb2f007ca8ae0e59c",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N167749b44f9d4afca7fd7726142d6b47"
+      },
+      "ps:P291": {
+        "@id": "_:Naaa873bbdb684cf8a07531ffcd00bad7"
+      },
+      "ps:P3342": {
+        "@id": "_:N27375940a38c4b3195a8ed800708da5e"
+      }
+    },
+    {
+      "@id": "_:Naaa873bbdb684cf8a07531ffcd00bad7",
+      "https://schema.org#geo": {
+        "@id": "_:N0bceefda0bea42cd89611f482267520a"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q131612"
+      },
+      "rdfs:label": "Wiener Neustadt"
+    },
+    {
+      "@id": "_:N0bceefda0bea42cd89611f482267520a",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.813153",
+      "https://schema.org#longitude": "16.24444"
+    },
+    {
+      "@id": "_:N167749b44f9d4afca7fd7726142d6b47",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1458-02-08"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1458-02-08"
+      }
+    },
+    {
+      "@id": "_:N27375940a38c4b3195a8ed800708da5e",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:P00000962"
+      },
+      "ps:P39": {
+        "@id": "ri:pfalzgraf"
+      },
+      "rdfs:label": "Pfgf. Friedrich bei Rhein"
+    }
+  ]
+}

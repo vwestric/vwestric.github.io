@@ -1,0 +1,104 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1484-07-25_2_0_13_23_0_715_711",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Nc91a5067839a489bb77279a9bfab5290"
+      }
+    },
+    {
+      "@id": "_:Nc91a5067839a489bb77279a9bfab5290",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N2ed4383b10354c46a45051b4de13ab65"
+      },
+      "ps:P291": {
+        "@id": "_:N5e9b2fb4b730469f9245c9cc8468e2ac"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N1d97feb20827492e94de345dd350fa1b"
+        },
+        {
+          "@id": "_:Nc2355ad9a2c64b92adaeac7302660235"
+        },
+        {
+          "@id": "_:N8b37802601d144d1b4a26f046755a35f"
+        }
+      ]
+    },
+    {
+      "@id": "_:N5e9b2fb4b730469f9245c9cc8468e2ac",
+      "https://schema.org#geo": {
+        "@id": "_:N313fd8e9f51f4ee6806c60ec75568c79"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q13298"
+      },
+      "rdfs:label": "Graz"
+    },
+    {
+      "@id": "_:N313fd8e9f51f4ee6806c60ec75568c79",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.06667",
+      "https://schema.org#longitude": "15.45"
+    },
+    {
+      "@id": "_:N2ed4383b10354c46a45051b4de13ab65",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1484-07-25"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1484-07-25"
+      }
+    },
+    {
+      "@id": "_:N1d97feb20827492e94de345dd350fa1b",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:W00001440"
+      },
+      "ps:P39": {
+        "@id": "ri:graf"
+      },
+      "rdfs:label": "Gf. Haug von Werdenberg (- Heiligenberg)"
+    },
+    {
+      "@id": "_:Nc2355ad9a2c64b92adaeac7302660235",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:W00003283"
+      },
+      "ps:P39": {
+        "@id": "ri:graf"
+      },
+      "rdfs:label": "Gf. Eberhards (VI.) d.J. von Württemberg"
+    },
+    {
+      "@id": "_:N8b37802601d144d1b4a26f046755a35f",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:W00003283"
+      },
+      "ps:P39": {
+        "@id": "ri:graf"
+      },
+      "rdfs:label": "Gf. Eberhard (V.) d.Ä. von Württemberg"
+    }
+  ]
+}

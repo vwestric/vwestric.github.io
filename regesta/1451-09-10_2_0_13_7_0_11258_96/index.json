@@ -1,0 +1,84 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1451-09-10_2_0_13_7_0_11258_96",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Naa20038167664dea905daa6b0e436729"
+      }
+    },
+    {
+      "@id": "_:Naa20038167664dea905daa6b0e436729",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N74b9c0f897884ac4aa6e243b1a1e6812"
+      },
+      "ps:P291": {
+        "@id": "_:N9c3ddbd91eba45b1af61a9b2a5836b5b"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N119ff29145634a83827d59a50a18a65f"
+        },
+        {
+          "@id": "_:Ne18e48b73b934a3e9ff21b60a529d793"
+        }
+      ]
+    },
+    {
+      "@id": "_:N9c3ddbd91eba45b1af61a9b2a5836b5b",
+      "https://schema.org#geo": {
+        "@id": "_:N8287f128ecf8448e925b69f3df9c260d"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q131612"
+      },
+      "rdfs:label": "Wiener Neustadt"
+    },
+    {
+      "@id": "_:N8287f128ecf8448e925b69f3df9c260d",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.813153",
+      "https://schema.org#longitude": "16.24444"
+    },
+    {
+      "@id": "_:N74b9c0f897884ac4aa6e243b1a1e6812",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1451-09-10"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1451-09-10"
+      }
+    },
+    {
+      "@id": "_:N119ff29145634a83827d59a50a18a65f",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:H00003380"
+      },
+      "rdfs:label": "Gerhard von der Hosen"
+    },
+    {
+      "@id": "_:Ne18e48b73b934a3e9ff21b60a529d793",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:L00002203"
+      },
+      "rdfs:label": "Dietrich von Lünen"
+    }
+  ]
+}

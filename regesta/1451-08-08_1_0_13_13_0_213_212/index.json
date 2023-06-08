@@ -1,0 +1,90 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1451-08-08_1_0_13_13_0_213_212",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N4268c42914674f4e9ee3fbee9d15c409"
+      }
+    },
+    {
+      "@id": "_:N4268c42914674f4e9ee3fbee9d15c409",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Nafcb1fc5ae23427589b3bfda1c00b5a7"
+      },
+      "ps:P291": {
+        "@id": "_:Nbfad475c9492483da8bf0b8c78327fa2"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:Neeac6f03c6404be694e483b07488594e"
+        },
+        {
+          "@id": "_:N9fe7ba8ba5074f3c92cd55f734dee4d6"
+        }
+      ]
+    },
+    {
+      "@id": "_:Nbfad475c9492483da8bf0b8c78327fa2",
+      "https://schema.org#geo": {
+        "@id": "_:N639c27e156e24ef8933120c05eebb1da"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q1741"
+      },
+      "rdfs:label": "Wien"
+    },
+    {
+      "@id": "_:N639c27e156e24ef8933120c05eebb1da",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "48.20849",
+      "https://schema.org#longitude": "16.37208"
+    },
+    {
+      "@id": "_:Nafcb1fc5ae23427589b3bfda1c00b5a7",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1451-08-08"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1451-08-08"
+      }
+    },
+    {
+      "@id": "_:Neeac6f03c6404be694e483b07488594e",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:O00000599"
+      },
+      "ps:P39": {
+        "@id": "ri:koenig"
+      },
+      "rdfs:label": "Kg. Ladislaus"
+    },
+    {
+      "@id": "_:N9fe7ba8ba5074f3c92cd55f734dee4d6",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:A00000457"
+      },
+      "ps:P39": {
+        "@id": "ri:koenig"
+      },
+      "rdfs:label": "Kg. Albrecht (II.)"
+    }
+  ]
+}

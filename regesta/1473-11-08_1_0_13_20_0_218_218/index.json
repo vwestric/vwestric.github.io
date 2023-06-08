@@ -1,0 +1,104 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1473-11-08_1_0_13_20_0_218_218",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Nbbc6da23623f4c9cbc6d5d67d35ff043"
+      }
+    },
+    {
+      "@id": "_:Nbbc6da23623f4c9cbc6d5d67d35ff043",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Nd862418d6ea74422b213877f41ab0579"
+      },
+      "ps:P291": {
+        "@id": "_:N0faa10162989460f8f7bce4ac71e9446"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N1acc40cbb562472389c9bd2d1f9fca55"
+        },
+        {
+          "@id": "_:Nc73671148c634023b977ba85c5ce8e0b"
+        },
+        {
+          "@id": "_:N05080606851e4334b940a2f34294cec2"
+        }
+      ]
+    },
+    {
+      "@id": "_:N0faa10162989460f8f7bce4ac71e9446",
+      "https://schema.org#geo": {
+        "@id": "_:Na51b8f8daf4549b8915558b68b4c62af"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q3138"
+      },
+      "rdfs:label": "Trier"
+    },
+    {
+      "@id": "_:Na51b8f8daf4549b8915558b68b4c62af",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "49.75565",
+      "https://schema.org#longitude": "6.63935"
+    },
+    {
+      "@id": "_:Nd862418d6ea74422b213877f41ab0579",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1473-11-08"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1473-11-08"
+      }
+    },
+    {
+      "@id": "_:N1acc40cbb562472389c9bd2d1f9fca55",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00002248"
+      },
+      "ps:P39": {
+        "@id": "ri:kurfuerst"
+      },
+      "rdfs:label": "Kf. Albrecht von Brandenburg"
+    },
+    {
+      "@id": "_:Nc73671148c634023b977ba85c5ce8e0b",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00000565"
+      },
+      "ps:P39": {
+        "@id": "ri:herzog"
+      },
+      "rdfs:label": "Hz. Ludwig (IX.) von Bayern (-Landshut)"
+    },
+    {
+      "@id": "_:N05080606851e4334b940a2f34294cec2",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:A00001566"
+      },
+      "ps:P39": {
+        "@id": "ri:bischof"
+      },
+      "rdfs:label": "Bf. (Johann II.) von Augsburg"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1452-08-26_1_0_13_3_0_9432_64",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N0735266a260e4561861d50952074346e"
+      }
+    },
+    {
+      "@id": "_:N0735266a260e4561861d50952074346e",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Nd063e7d45d2346349e470f7016dac983"
+      },
+      "ps:P291": {
+        "@id": "_:Nff6beccaf8ff4f81b29367c92741a577"
+      },
+      "ps:P3342": {
+        "@id": "_:N27b2a440daa74993a426d45c5d8f11e6"
+      }
+    },
+    {
+      "@id": "_:Nff6beccaf8ff4f81b29367c92741a577",
+      "https://schema.org#geo": {
+        "@id": "_:Na6fd4d945ea74d7b94c3ea1925e6ba3f"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q131612"
+      },
+      "rdfs:label": "Wiener Neustadt"
+    },
+    {
+      "@id": "_:Na6fd4d945ea74d7b94c3ea1925e6ba3f",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.813153",
+      "https://schema.org#longitude": "16.24444"
+    },
+    {
+      "@id": "_:Nd063e7d45d2346349e470f7016dac983",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1452-08-26"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1452-08-26"
+      }
+    },
+    {
+      "@id": "_:N27b2a440daa74993a426d45c5d8f11e6",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:W00000993"
+      },
+      "rdfs:label": "Hert Weiß von Frankfurt"
+    }
+  ]
+}

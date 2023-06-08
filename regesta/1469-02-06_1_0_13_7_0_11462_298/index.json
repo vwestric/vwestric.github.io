@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1469-02-06_1_0_13_7_0_11462_298",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N4600cd98ca294133b992fbbbd94240d6"
+      }
+    },
+    {
+      "@id": "_:N4600cd98ca294133b992fbbbd94240d6",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N6b1f39a406c14a11a2cfbae6bc9eb234"
+      },
+      "ps:P291": {
+        "@id": "_:N8cdfbc9e34a14b92b3498691cd3ca8d2"
+      },
+      "ps:P3342": {
+        "@id": "_:N7b23ce2fbb8244dd9913f8899e084b2d"
+      }
+    },
+    {
+      "@id": "_:N8cdfbc9e34a14b92b3498691cd3ca8d2",
+      "https://schema.org#geo": {
+        "@id": "_:N6e40826d7dcd4e2497eef7e905e6686c"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q641"
+      },
+      "rdfs:label": "Venedig"
+    },
+    {
+      "@id": "_:N6e40826d7dcd4e2497eef7e905e6686c",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "45.43384",
+      "https://schema.org#longitude": "12.34028"
+    },
+    {
+      "@id": "_:N6b1f39a406c14a11a2cfbae6bc9eb234",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1469-02-06"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1469-02-06"
+      }
+    },
+    {
+      "@id": "_:N7b23ce2fbb8244dd9913f8899e084b2d",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:J00000257"
+      },
+      "ps:P39": {
+        "@id": "ri:herzog"
+      },
+      "rdfs:label": "Hz. Gerhard von Jülich und Berg"
+    }
+  ]
+}

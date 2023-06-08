@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1487-09-15_1_0_13_6_0_11134_156",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N1331658b5f08491c8148fb609373bbed"
+      }
+    },
+    {
+      "@id": "_:N1331658b5f08491c8148fb609373bbed",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Nc559c0fb20ae476e8f9f139f89b3575d"
+      },
+      "ps:P291": {
+        "@id": "_:N9ea2677254e14b2e8e6b0b77b8aef1a1"
+      },
+      "ps:P3342": {
+        "@id": "_:N0b0ad5ece36d4fa8ac32580714665a9b"
+      }
+    },
+    {
+      "@id": "_:N9ea2677254e14b2e8e6b0b77b8aef1a1",
+      "https://schema.org#geo": {
+        "@id": "_:Nec3bc0aff9e442ac93e273c1323fe4a1"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q2090"
+      },
+      "rdfs:label": "Nürnberg"
+    },
+    {
+      "@id": "_:Nec3bc0aff9e442ac93e273c1323fe4a1",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "49.45421",
+      "https://schema.org#longitude": "11.07752"
+    },
+    {
+      "@id": "_:Nc559c0fb20ae476e8f9f139f89b3575d",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1487-09-15"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1487-09-15"
+      }
+    },
+    {
+      "@id": "_:N0b0ad5ece36d4fa8ac32580714665a9b",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00000574"
+      },
+      "ps:P39": {
+        "@id": "ri:abt"
+      },
+      "rdfs:label": "Abt Ulrich des Klosters St. Gallen"
+    }
+  ]
+}

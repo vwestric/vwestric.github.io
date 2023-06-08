@@ -1,0 +1,60 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1461-09-25_2_0_13_23_0_175_172",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Nbabe88fb94154db0872a0c85a0ce1ba8"
+      }
+    },
+    {
+      "@id": "_:Nbabe88fb94154db0872a0c85a0ce1ba8",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N043b6c6d8aa44147b8db6cb863cc5992"
+      },
+      "ps:P291": {
+        "@id": "_:N2aea8e7343ef4fcb931bcd8207ebcdf1"
+      }
+    },
+    {
+      "@id": "_:N2aea8e7343ef4fcb931bcd8207ebcdf1",
+      "https://schema.org#geo": {
+        "@id": "_:N187a3aa0f5354925b003abb2ae638a6b"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q485294"
+      },
+      "rdfs:label": "Leoben"
+    },
+    {
+      "@id": "_:N187a3aa0f5354925b003abb2ae638a6b",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.3765",
+      "https://schema.org#longitude": "15.09144"
+    },
+    {
+      "@id": "_:N043b6c6d8aa44147b8db6cb863cc5992",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1461-09-25"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1461-09-25"
+      }
+    }
+  ]
+}

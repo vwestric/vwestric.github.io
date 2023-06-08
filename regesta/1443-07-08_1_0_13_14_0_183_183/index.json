@@ -1,0 +1,95 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1443-07-08_1_0_13_14_0_183_183",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N68cb98c1c0c54f24aa278f7e5ea8b52b"
+      }
+    },
+    {
+      "@id": "_:N68cb98c1c0c54f24aa278f7e5ea8b52b",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N7218669b2d3e4549b9e0eba43d63bd7a"
+      },
+      "ps:P291": {
+        "@id": "_:N767445e7f17547b39ee651c654822fb4"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N1d048d4078db4ed49b7e288a406e88eb"
+        },
+        {
+          "@id": "_:N67b9fb74055e4c7f8cca325a071f5be5"
+        }
+      ]
+    },
+    {
+      "@id": "_:N767445e7f17547b39ee651c654822fb4",
+      "https://schema.org#geo": {
+        "@id": "_:Nb27b6655031346ee9d3e7d52a5ff8b8e"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q1741"
+      },
+      "rdfs:label": "Wien"
+    },
+    {
+      "@id": "_:Nb27b6655031346ee9d3e7d52a5ff8b8e",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "48.20849",
+      "https://schema.org#longitude": "16.37208"
+    },
+    {
+      "@id": "_:N7218669b2d3e4549b9e0eba43d63bd7a",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1443-07-08"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1443-07-08"
+      }
+    },
+    {
+      "@id": "_:N1d048d4078db4ed49b7e288a406e88eb",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:M00000893"
+      },
+      "ps:P39": [
+        {
+          "@id": "ri:erbmarschall"
+        },
+        {
+          "@id": "ri:rat"
+        }
+      ],
+      "rdfs:label": "Erbmarschall und kgl. Rat Heinrich von Pappenheim"
+    },
+    {
+      "@id": "_:N67b9fb74055e4c7f8cca325a071f5be5",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00002248"
+      },
+      "ps:P39": {
+        "@id": "ri:markgraf"
+      },
+      "rdfs:label": "Mgf. Albrecht von Brandenburg"
+    }
+  ]
+}

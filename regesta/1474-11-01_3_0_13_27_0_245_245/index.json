@@ -1,0 +1,71 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1474-11-01_3_0_13_27_0_245_245",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N99dba2b299b046dc8d9213aa4607f920"
+      }
+    },
+    {
+      "@id": "_:N99dba2b299b046dc8d9213aa4607f920",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Nf39668a7ec8140c183c7bc3b062bf449"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:Na9ba97809e7c414ba728092f51b0bc93"
+        },
+        {
+          "@id": "_:N0f90ab8486c94af2a50b5f4d649335ad"
+        }
+      ]
+    },
+    {
+      "@id": "_:Nf39668a7ec8140c183c7bc3b062bf449",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1474-11-01"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1474-11-01"
+      }
+    },
+    {
+      "@id": "_:Na9ba97809e7c414ba728092f51b0bc93",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00003253"
+      },
+      "ps:P39": {
+        "@id": "ri:herzog"
+      },
+      "rdfs:label": "Hz. Karl von Burgund"
+    },
+    {
+      "@id": "_:N0f90ab8486c94af2a50b5f4d649335ad",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:H00002084"
+      },
+      "ps:P39": {
+        "@id": "ri:landgraf"
+      },
+      "rdfs:label": "Ldgf. Heinrich von Hessen"
+    }
+  ]
+}

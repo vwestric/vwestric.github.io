@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1485-12-27_1_0_13_16_0_180_180",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N1d1bc71872664e31a0eaadcdaeb2af03"
+      }
+    },
+    {
+      "@id": "_:N1d1bc71872664e31a0eaadcdaeb2af03",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N0c030d5126e34026a24cee642ea2e7d2"
+      },
+      "ps:P291": {
+        "@id": "_:N13e3b52372f9407db0bac0977016a525"
+      },
+      "ps:P3342": {
+        "@id": "_:Nce8e07b7671b4707a57c5fe281644db1"
+      }
+    },
+    {
+      "@id": "_:N13e3b52372f9407db0bac0977016a525",
+      "https://schema.org#geo": {
+        "@id": "_:N0d370831a8e147fabbc235ed07492d6f"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q1017"
+      },
+      "rdfs:label": "Aachen"
+    },
+    {
+      "@id": "_:N0d370831a8e147fabbc235ed07492d6f",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "50.77664",
+      "https://schema.org#longitude": "6.08342"
+    },
+    {
+      "@id": "_:N0c030d5126e34026a24cee642ea2e7d2",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1485-12-27"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1485-12-27"
+      }
+    },
+    {
+      "@id": "_:Nce8e07b7671b4707a57c5fe281644db1",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00000065"
+      },
+      "ps:P39": {
+        "@id": "ri:herzog"
+      },
+      "rdfs:label": "Hz. Ernst von Sachsen"
+    }
+  ]
+}

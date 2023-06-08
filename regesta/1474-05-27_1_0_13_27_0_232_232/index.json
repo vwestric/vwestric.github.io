@@ -1,0 +1,199 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1474-05-27_1_0_13_27_0_232_232",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N0ca801c741fb42f7b94e390105269cae"
+      }
+    },
+    {
+      "@id": "_:N0ca801c741fb42f7b94e390105269cae",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N70a1cafc0d88452ebed1caed577fff04"
+      },
+      "ps:P291": {
+        "@id": "_:Nc73ddfebba174ade9139fe01647e0fa6"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:Nda68ebba199647a9aa4eca9c8a27996e"
+        },
+        {
+          "@id": "_:N6fba00a12fc24cbdbbd274fc701baf91"
+        },
+        {
+          "@id": "_:N787850b78f8f43f3a400ab1bf998cf71"
+        },
+        {
+          "@id": "_:Na54acd1355b84f03a5c4d0591abbdc8d"
+        },
+        {
+          "@id": "_:N75a518b466db4869bbab5bf9da523fe4"
+        },
+        {
+          "@id": "_:N41dcc33a63de4e47aa88eb6a8a433d15"
+        },
+        {
+          "@id": "_:N66827f53ce814cd48e3f453b6b88ed6b"
+        },
+        {
+          "@id": "_:N9650f8e5e3144b87915a36a0811c1bc4"
+        },
+        {
+          "@id": "_:N6b759480a16f4561962452209b1b727a"
+        },
+        {
+          "@id": "_:Nb8f0fef8b8044bd989157b224582c3d0"
+        }
+      ]
+    },
+    {
+      "@id": "_:Nc73ddfebba174ade9139fe01647e0fa6",
+      "https://schema.org#geo": {
+        "@id": "_:Nb6ba94c578f2408b99c4f77b725f91a2"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q2749"
+      },
+      "rdfs:label": "Augsburg"
+    },
+    {
+      "@id": "_:Nb6ba94c578f2408b99c4f77b725f91a2",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "48.37154",
+      "https://schema.org#longitude": "10.89851"
+    },
+    {
+      "@id": "_:N70a1cafc0d88452ebed1caed577fff04",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1474-05-27"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1474-05-27"
+      }
+    },
+    {
+      "@id": "_:Nda68ebba199647a9aa4eca9c8a27996e",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:M00000255"
+      },
+      "ps:P39": {
+        "@id": "ri:erzbischof"
+      },
+      "rdfs:label": "Eb. Adolf von Mainz"
+    },
+    {
+      "@id": "_:N6fba00a12fc24cbdbbd274fc701baf91",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:E00000497"
+      },
+      "ps:P39": {
+        "@id": "ri:bischof"
+      },
+      "rdfs:label": "Bf. Wilhelm von Eichstätt"
+    },
+    {
+      "@id": "_:N787850b78f8f43f3a400ab1bf998cf71",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:A00001566"
+      },
+      "ps:P39": {
+        "@id": "ri:bischof"
+      },
+      "rdfs:label": "Bf. Johann von Augsburg"
+    },
+    {
+      "@id": "_:Na54acd1355b84f03a5c4d0591abbdc8d",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:F00001130"
+      },
+      "ps:P39": {
+        "@id": "ri:bischof"
+      },
+      "rdfs:label": "Bf. Sixtus von Freising"
+    },
+    {
+      "@id": "_:N75a518b466db4869bbab5bf9da523fe4",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00000587"
+      },
+      "ps:P39": {
+        "@id": "ri:herzog"
+      },
+      "rdfs:label": "Hz. Albrecht (IV.) von Bayern(-München)"
+    },
+    {
+      "@id": "_:N41dcc33a63de4e47aa88eb6a8a433d15",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:K00000775"
+      },
+      "ps:P39": {
+        "@id": "ri:abt"
+      },
+      "rdfs:label": "Abt Johann von Kempten"
+    },
+    {
+      "@id": "_:N66827f53ce814cd48e3f453b6b88ed6b",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00002248"
+      },
+      "ps:P39": {
+        "@id": "ri:markgraf"
+      },
+      "rdfs:label": "Mgf. Albrecht von Brandenburg"
+    },
+    {
+      "@id": "_:N9650f8e5e3144b87915a36a0811c1bc4",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:M00000893"
+      },
+      "ps:P39": {
+        "@id": "ri:erbmarschall"
+      },
+      "rdfs:label": "Erbmarschall Heinrich von Pappenheim"
+    },
+    {
+      "@id": "_:N6b759480a16f4561962452209b1b727a",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:M00000893"
+      },
+      "rdfs:label": "Heinrich von Pappenheim"
+    },
+    {
+      "@id": "_:Nb8f0fef8b8044bd989157b224582c3d0",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00000582"
+      },
+      "ps:P39": {
+        "@id": "ri:herzog"
+      },
+      "rdfs:label": "Hz. Albrecht von Bayern"
+    }
+  ]
+}

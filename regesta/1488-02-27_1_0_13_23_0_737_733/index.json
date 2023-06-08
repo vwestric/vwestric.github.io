@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1488-02-27_1_0_13_23_0_737_733",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N8a8313e4768d4b629ceb58d871127b3f"
+      }
+    },
+    {
+      "@id": "_:N8a8313e4768d4b629ceb58d871127b3f",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N2ea860aa958c4216aac58f342043ffaf"
+      },
+      "ps:P291": {
+        "@id": "_:N17b8df22659c433cb8cb199b20b22061"
+      },
+      "ps:P3342": {
+        "@id": "_:N44088f38dd9c4106bad0c180f8e2f67c"
+      }
+    },
+    {
+      "@id": "_:N17b8df22659c433cb8cb199b20b22061",
+      "https://schema.org#geo": {
+        "@id": "_:Nef31fc50c6c54eafb0b3565b1139ffd3"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q1735"
+      },
+      "rdfs:label": "Innsbruck"
+    },
+    {
+      "@id": "_:Nef31fc50c6c54eafb0b3565b1139ffd3",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.26266",
+      "https://schema.org#longitude": "11.39454"
+    },
+    {
+      "@id": "_:N2ea860aa958c4216aac58f342043ffaf",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1488-02-27"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1488-02-27"
+      }
+    },
+    {
+      "@id": "_:N44088f38dd9c4106bad0c180f8e2f67c",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:W00003283"
+      },
+      "ps:P39": {
+        "@id": "ri:graf"
+      },
+      "rdfs:label": "Gf. Eberhard (V.) d. Ä. von Württemberg"
+    }
+  ]
+}

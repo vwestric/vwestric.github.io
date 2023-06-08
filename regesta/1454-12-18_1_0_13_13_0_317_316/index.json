@@ -1,0 +1,104 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1454-12-18_1_0_13_13_0_317_316",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N5e57eac16fcd4c538d01ebc86d401f2b"
+      }
+    },
+    {
+      "@id": "_:N5e57eac16fcd4c538d01ebc86d401f2b",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N9372374316ae40eba7dc3d4e71958d77"
+      },
+      "ps:P291": {
+        "@id": "_:N11a6090623634645936faa98fda7c662"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N814c60c0007f486e8c4c2892bfee7326"
+        },
+        {
+          "@id": "_:N1e9705d895ac4d799cb4abaae7832c52"
+        },
+        {
+          "@id": "_:N8b9abc1e7cc4434e9d67328802ac15c2"
+        }
+      ]
+    },
+    {
+      "@id": "_:N11a6090623634645936faa98fda7c662",
+      "https://schema.org#geo": {
+        "@id": "_:Nea16ae57c6da49e3b396febf2075da6d"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q131612"
+      },
+      "rdfs:label": "Wiener Neustadt"
+    },
+    {
+      "@id": "_:Nea16ae57c6da49e3b396febf2075da6d",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.813153",
+      "https://schema.org#longitude": "16.24444"
+    },
+    {
+      "@id": "_:N9372374316ae40eba7dc3d4e71958d77",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1454-12-18"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1454-12-18"
+      }
+    },
+    {
+      "@id": "_:N814c60c0007f486e8c4c2892bfee7326",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00000064"
+      },
+      "ps:P39": {
+        "@id": "ri:markgraf"
+      },
+      "rdfs:label": "Mgf. Bernhard (II.) von Baden"
+    },
+    {
+      "@id": "_:N1e9705d895ac4d799cb4abaae7832c52",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:H00001470"
+      },
+      "ps:P39": {
+        "@id": "ri:koenig"
+      },
+      "rdfs:label": "Kg. Heinrichs (II.)"
+    },
+    {
+      "@id": "_:N8b9abc1e7cc4434e9d67328802ac15c2",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:O00000599"
+      },
+      "ps:P39": {
+        "@id": "ri:koenig"
+      },
+      "rdfs:label": "Kg. Ladislaus"
+    }
+  ]
+}

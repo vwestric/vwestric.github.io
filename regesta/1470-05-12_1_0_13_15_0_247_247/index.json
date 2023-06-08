@@ -1,0 +1,95 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1470-05-12_1_0_13_15_0_247_247",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N871925cf2f294852862972f9703be99c"
+      }
+    },
+    {
+      "@id": "_:N871925cf2f294852862972f9703be99c",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N3cbed1a944b446f9a6dd77d28dac70ce"
+      },
+      "ps:P291": {
+        "@id": "_:Nba3245d5cc124ef3ada4e500b6589e78"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:Ne86e8dd0c74f4b5f969bdfa8acfd774f"
+        },
+        {
+          "@id": "_:N2436363a20504c019e725ae336076ce1"
+        },
+        {
+          "@id": "_:N5d7c45d5a3db4dd5a0efa034a3090cf0"
+        }
+      ]
+    },
+    {
+      "@id": "_:Nba3245d5cc124ef3ada4e500b6589e78",
+      "https://schema.org#geo": {
+        "@id": "_:N6b6b333be48140cd8106799cdaacdad4"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q164488"
+      },
+      "rdfs:label": "Völkermarkt"
+    },
+    {
+      "@id": "_:N6b6b333be48140cd8106799cdaacdad4",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "46.66222",
+      "https://schema.org#longitude": "14.63444"
+    },
+    {
+      "@id": "_:N3cbed1a944b446f9a6dd77d28dac70ce",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1470-05-12"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1470-05-12"
+      }
+    },
+    {
+      "@id": "_:Ne86e8dd0c74f4b5f969bdfa8acfd774f",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:A00000709"
+      },
+      "rdfs:label": "Martin Altmann"
+    },
+    {
+      "@id": "_:N2436363a20504c019e725ae336076ce1",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:G00001459"
+      },
+      "rdfs:label": "Andreas Goppolt von Regensburg"
+    },
+    {
+      "@id": "_:N5d7c45d5a3db4dd5a0efa034a3090cf0",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:G00001460"
+      },
+      "rdfs:label": "Hans Goppolt"
+    }
+  ]
+}

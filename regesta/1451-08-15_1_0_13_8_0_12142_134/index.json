@@ -1,0 +1,178 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1451-08-15_1_0_13_8_0_12142_134",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N9c28febf42d647d5bc384b43933f445a"
+      }
+    },
+    {
+      "@id": "_:N9c28febf42d647d5bc384b43933f445a",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Nde16935587ae4ae38d1796341d3db0fe"
+      },
+      "ps:P291": {
+        "@id": "_:N168a7e2bd1d84467a59e7866bc4e3bd8"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N40dbdc7dc7e74e43a5660dd174fec77b"
+        },
+        {
+          "@id": "_:N993352876d624c8aa63b58fddd54f810"
+        },
+        {
+          "@id": "_:Naadf087ce15245558ad3ab64f71e0868"
+        },
+        {
+          "@id": "_:N2c3b7818ae654259948eb126b53dd4cc"
+        },
+        {
+          "@id": "_:Nb7dcbb916fdb4d54a32e0bd323c276a9"
+        },
+        {
+          "@id": "_:N6427da1c7af04759b7556cecaad7e7ca"
+        },
+        {
+          "@id": "_:Nba41cff9c39a4b22b7f9b20690578c61"
+        },
+        {
+          "@id": "_:Nb2e942d524ed45d49a21a4e78610922c"
+        },
+        {
+          "@id": "_:Nf52fc12a05d7472b95dc8cd0096a86e2"
+        },
+        {
+          "@id": "_:N6b2013286752433b8d0e16374f78adae"
+        }
+      ]
+    },
+    {
+      "@id": "_:N168a7e2bd1d84467a59e7866bc4e3bd8",
+      "https://schema.org#geo": {
+        "@id": "_:Na590514eb9b9497593d82bd6d7a20710"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q1741"
+      },
+      "rdfs:label": "Wien"
+    },
+    {
+      "@id": "_:Na590514eb9b9497593d82bd6d7a20710",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "48.20849",
+      "https://schema.org#longitude": "16.37208"
+    },
+    {
+      "@id": "_:Nde16935587ae4ae38d1796341d3db0fe",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1451-08-15"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1451-08-15"
+      }
+    },
+    {
+      "@id": "_:N40dbdc7dc7e74e43a5660dd174fec77b",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:I00000279"
+      },
+      "ps:P39": {
+        "@id": "ri:graf"
+      },
+      "rdfs:label": "Gf. Diether von Isenburg-Büdingen"
+    },
+    {
+      "@id": "_:N993352876d624c8aa63b58fddd54f810",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:I00000279"
+      },
+      "rdfs:label": "Diether von Isenburg"
+    },
+    {
+      "@id": "_:Naadf087ce15245558ad3ab64f71e0868",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:K00000417"
+      },
+      "rdfs:label": "Ruprecht von Karben"
+    },
+    {
+      "@id": "_:N2c3b7818ae654259948eb126b53dd4cc",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:K00001550"
+      },
+      "rdfs:label": "Gerlach Koch"
+    },
+    {
+      "@id": "_:Nb7dcbb916fdb4d54a32e0bd323c276a9",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:H00000653"
+      },
+      "ps:P39": {
+        "@id": "ri:graf"
+      },
+      "rdfs:label": "Gf. Reinhard von Hanau"
+    },
+    {
+      "@id": "_:N6427da1c7af04759b7556cecaad7e7ca",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:M00000277"
+      },
+      "rdfs:label": "Dietrich von Mainz"
+    },
+    {
+      "@id": "_:Nba41cff9c39a4b22b7f9b20690578c61",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00004611"
+      },
+      "rdfs:label": "Rüdiger von Starhemberg"
+    },
+    {
+      "@id": "_:Nb2e942d524ed45d49a21a4e78610922c",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:C00000119"
+      },
+      "rdfs:label": "Hartung von Cappel"
+    },
+    {
+      "@id": "_:Nf52fc12a05d7472b95dc8cd0096a86e2",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:L00002238"
+      },
+      "rdfs:label": "Nikolaus von Lützelburg"
+    },
+    {
+      "@id": "_:N6b2013286752433b8d0e16374f78adae",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:G00001059"
+      },
+      "rdfs:label": "Nikolaus von Glatz"
+    }
+  ]
+}

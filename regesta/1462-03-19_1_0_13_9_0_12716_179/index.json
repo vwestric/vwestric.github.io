@@ -1,0 +1,151 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1462-03-19_1_0_13_9_0_12716_179",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N20decb5a5a834b478be14cf5ec9bec7b"
+      }
+    },
+    {
+      "@id": "_:N20decb5a5a834b478be14cf5ec9bec7b",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N13cc1b008c964cd086b7fb841d5e8c3f"
+      },
+      "ps:P291": {
+        "@id": "_:N001808cf16414c3ea03df1246db8ca1e"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N2acd4e204b62495f841cc16271a7aaeb"
+        },
+        {
+          "@id": "_:Neba00e75e4104c84be476cda8323fa8b"
+        },
+        {
+          "@id": "_:N30bbf8dceb5f4ff9b1154897f48cca59"
+        },
+        {
+          "@id": "_:N3512444b9e224f06bd97367841755b6c"
+        },
+        {
+          "@id": "_:N6cfdd8d4f04e4fe3b06140d4015a9f23"
+        },
+        {
+          "@id": "_:Nccc6b70587f54fe08599241b1bd01241"
+        },
+        {
+          "@id": "_:Ne8850f67c8334ba18541cd86f3e33538"
+        }
+      ]
+    },
+    {
+      "@id": "_:N001808cf16414c3ea03df1246db8ca1e",
+      "https://schema.org#geo": {
+        "@id": "_:N50daa8bf5c744eaaa6f93cedbda11f11"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q13298"
+      },
+      "rdfs:label": "Graz"
+    },
+    {
+      "@id": "_:N50daa8bf5c744eaaa6f93cedbda11f11",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.06667",
+      "https://schema.org#longitude": "15.45"
+    },
+    {
+      "@id": "_:N13cc1b008c964cd086b7fb841d5e8c3f",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1462-03-19"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1462-03-19"
+      }
+    },
+    {
+      "@id": "_:N2acd4e204b62495f841cc16271a7aaeb",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:T00001183"
+      },
+      "ps:P39": {
+        "@id": "ri:erzbischof"
+      },
+      "rdfs:label": "Eb. Johann von Trier"
+    },
+    {
+      "@id": "_:Neba00e75e4104c84be476cda8323fa8b",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00000565"
+      },
+      "ps:P39": {
+        "@id": "ri:herzog"
+      },
+      "rdfs:label": "Hz. Ludwig von Bayern"
+    },
+    {
+      "@id": "_:N30bbf8dceb5f4ff9b1154897f48cca59",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:P00000962"
+      },
+      "ps:P39": {
+        "@id": "ri:pfalzgraf"
+      },
+      "rdfs:label": "Pfgf. Friedrich bei Rhein"
+    },
+    {
+      "@id": "_:N3512444b9e224f06bd97367841755b6c",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:I00000279"
+      },
+      "rdfs:label": "Diether von Isenburg"
+    },
+    {
+      "@id": "_:N6cfdd8d4f04e4fe3b06140d4015a9f23",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:M00000255"
+      },
+      "ps:P39": {
+        "@id": "ri:erzbischof"
+      },
+      "rdfs:label": "Eb. Adolf von Mainz"
+    },
+    {
+      "@id": "_:Nccc6b70587f54fe08599241b1bd01241",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00002248"
+      },
+      "rdfs:label": "Albrecht von Brandenburg"
+    },
+    {
+      "@id": "_:Ne8850f67c8334ba18541cd86f3e33538",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00000075"
+      },
+      "rdfs:label": "Karl von Baden"
+    }
+  ]
+}

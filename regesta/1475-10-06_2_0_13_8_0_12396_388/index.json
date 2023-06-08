@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1475-10-06_2_0_13_8_0_12396_388",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Nf4c33207d2e84f40b192af898d3d8e45"
+      }
+    },
+    {
+      "@id": "_:Nf4c33207d2e84f40b192af898d3d8e45",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N13cc7450bb6b434f973fa6fd60c68d79"
+      },
+      "ps:P291": {
+        "@id": "_:N3c936304e4904e07afa18b3dc4211c74"
+      },
+      "ps:P3342": {
+        "@id": "_:N09a42f544ac9450aa2cebcf24c7c8205"
+      }
+    },
+    {
+      "@id": "_:N3c936304e4904e07afa18b3dc4211c74",
+      "https://schema.org#geo": {
+        "@id": "_:N02cdd97b7376421fb07c2dd393d5e97a"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q365"
+      },
+      "rdfs:label": "Köln"
+    },
+    {
+      "@id": "_:N02cdd97b7376421fb07c2dd393d5e97a",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "50.93333",
+      "https://schema.org#longitude": "6.95"
+    },
+    {
+      "@id": "_:N13cc7450bb6b434f973fa6fd60c68d79",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1475-10-06"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1475-10-06"
+      }
+    },
+    {
+      "@id": "_:N09a42f544ac9450aa2cebcf24c7c8205",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:H00000641"
+      },
+      "ps:P39": {
+        "@id": "ri:graf"
+      },
+      "rdfs:label": "Gf. Philipp d. J. von Hanau"
+    }
+  ]
+}

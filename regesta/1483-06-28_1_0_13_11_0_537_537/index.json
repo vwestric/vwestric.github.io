@@ -1,0 +1,71 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1483-06-28_1_0_13_11_0_537_537",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Nf1f2391f769b4d3784d11aa3a4c05b4b"
+      }
+    },
+    {
+      "@id": "_:Nf1f2391f769b4d3784d11aa3a4c05b4b",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Nf94f583e807b4a2990ed7a16c99c039c"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N5de16b1c117f487f89eccf56930be02a"
+        },
+        {
+          "@id": "_:N55c7903456fb4d4587075dcb46250610"
+        }
+      ]
+    },
+    {
+      "@id": "_:Nf94f583e807b4a2990ed7a16c99c039c",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1483-06-28"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1483-06-28"
+      }
+    },
+    {
+      "@id": "_:N5de16b1c117f487f89eccf56930be02a",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00002248"
+      },
+      "ps:P39": {
+        "@id": "ri:kurfuerst"
+      },
+      "rdfs:label": "Kf. Albrecht von Brandenburg"
+    },
+    {
+      "@id": "_:N55c7903456fb4d4587075dcb46250610",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:E00000497"
+      },
+      "ps:P39": {
+        "@id": "ri:bischof"
+      },
+      "rdfs:label": "Bf. Wilhelm von Eichstätt"
+    }
+  ]
+}

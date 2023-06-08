@@ -1,0 +1,90 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1483-06-25_1_0_13_3_0_9529_161",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N357d5a8e8ee541f58e0dbf3a1b9ecd6d"
+      }
+    },
+    {
+      "@id": "_:N357d5a8e8ee541f58e0dbf3a1b9ecd6d",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N9ef494b47617406980f50aaf28b96724"
+      },
+      "ps:P291": {
+        "@id": "_:N8ad392cbc24a43af935c131f0fef2fed"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:Nd910d3a5a3e04a16abde5bacb2fb59bd"
+        },
+        {
+          "@id": "_:Nd738905af5a7404dba61f44eea2dc302"
+        }
+      ]
+    },
+    {
+      "@id": "_:N8ad392cbc24a43af935c131f0fef2fed",
+      "https://schema.org#geo": {
+        "@id": "_:Nd94ae439a89c4b93812fa1cf9cc182e9"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q13298"
+      },
+      "rdfs:label": "Graz"
+    },
+    {
+      "@id": "_:Nd94ae439a89c4b93812fa1cf9cc182e9",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.06667",
+      "https://schema.org#longitude": "15.45"
+    },
+    {
+      "@id": "_:N9ef494b47617406980f50aaf28b96724",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1483-06-25"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1483-06-25"
+      }
+    },
+    {
+      "@id": "_:Nd910d3a5a3e04a16abde5bacb2fb59bd",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00000065"
+      },
+      "ps:P39": {
+        "@id": "ri:herzog"
+      },
+      "rdfs:label": "Hz. Ernst von Sachsen"
+    },
+    {
+      "@id": "_:Nd738905af5a7404dba61f44eea2dc302",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:H00002096"
+      },
+      "ps:P39": {
+        "@id": "ri:landgraf"
+      },
+      "rdfs:label": "Ldgf. Ludwig von Hessen"
+    }
+  ]
+}

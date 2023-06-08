@@ -1,0 +1,354 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1443-10-04_3_0_13_14_0_198_198",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N5c80dd75b3334f8896b468fa1e5d2a0d"
+      }
+    },
+    {
+      "@id": "_:N5c80dd75b3334f8896b468fa1e5d2a0d",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Nf7f00790f7084c68b246200c541727bd"
+      },
+      "ps:P291": {
+        "@id": "_:N05effb808ecd4da8b1caa114246c6018"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N8f17273c12374d2ba7e2cc8320ac3c93"
+        },
+        {
+          "@id": "_:Nf7f619f4c8b4472089d45f412882590a"
+        },
+        {
+          "@id": "_:N5c15d83e78684c84943421fa6a4e407d"
+        },
+        {
+          "@id": "_:N34f8938f4c274c6fb95e43330d3664c6"
+        },
+        {
+          "@id": "_:Nf18bd23c084144829b85eead740680ec"
+        },
+        {
+          "@id": "_:N639c0d37dde64a9ca37d1ed385eaad1c"
+        },
+        {
+          "@id": "_:Nd397117bccef458b9e638df5a3cf73b7"
+        },
+        {
+          "@id": "_:N8f1cbd80c1394ec99ec55d7aaa13656b"
+        },
+        {
+          "@id": "_:Ne866428f969041c9b6ba86bb4c375baf"
+        },
+        {
+          "@id": "_:N0165000003744153bf95f30ab96f97dc"
+        },
+        {
+          "@id": "_:Na7842c96820647d7b16a869837895169"
+        },
+        {
+          "@id": "_:Na228492e2db34c9b94e08826ead60cdc"
+        },
+        {
+          "@id": "_:Nd5bb2d224c874c46b8b390c2f1fa552d"
+        },
+        {
+          "@id": "_:N26952def06d64d9d99259b1a910aa89f"
+        },
+        {
+          "@id": "_:N27074e8652ee410ebd637adc6dc328ca"
+        },
+        {
+          "@id": "_:N2a6ff695b1d240168b68ae4413837983"
+        },
+        {
+          "@id": "_:N348ab8aa6b234e6aa417b9c3d45ae11c"
+        },
+        {
+          "@id": "_:Nfca7abfed7974e0c96c979cb636c8bbf"
+        },
+        {
+          "@id": "_:N00e7c87f20344dbfbbff040939d50f0c"
+        },
+        {
+          "@id": "_:N20f20349ecc84f3fb249d829215f5b3e"
+        },
+        {
+          "@id": "_:Ncb87be042b56455c8dc3d82506172588"
+        },
+        {
+          "@id": "_:Nfa5cc7d291f84f3d8590761713d76e3e"
+        },
+        {
+          "@id": "_:N3511525e3d504d4c9f9e0b23de3e9ca1"
+        },
+        {
+          "@id": "_:Nd958a3b9889446bc8fd42312559621be"
+        },
+        {
+          "@id": "_:N234b8c7392464efbbdc27678e6ec60a0"
+        },
+        {
+          "@id": "_:N6d0a2b7de0f0426a9a36aa21c6f35667"
+        }
+      ]
+    },
+    {
+      "@id": "_:N05effb808ecd4da8b1caa114246c6018",
+      "https://schema.org#geo": {
+        "@id": "_:N4e796333e4584a8786e0946bc6f30939"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q131612"
+      },
+      "rdfs:label": "Wiener Neustadt"
+    },
+    {
+      "@id": "_:N4e796333e4584a8786e0946bc6f30939",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.813153",
+      "https://schema.org#longitude": "16.24444"
+    },
+    {
+      "@id": "_:Nf7f00790f7084c68b246200c541727bd",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1443-10-04"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1443-10-04"
+      }
+    },
+    {
+      "@id": "_:N8f17273c12374d2ba7e2cc8320ac3c93",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:V00000418"
+      },
+      "rdfs:label": "Dietrich von Vietinghoff"
+    },
+    {
+      "@id": "_:Nf7f619f4c8b4472089d45f412882590a",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00005727"
+      },
+      "ps:P39": {
+        "@id": "ri:buerger"
+      },
+      "rdfs:label": "Nürnberger Bürger Ulrich Haller"
+    },
+    {
+      "@id": "_:N5c15d83e78684c84943421fa6a4e407d",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:T00000364"
+      },
+      "rdfs:label": "Hans Tetzel"
+    },
+    {
+      "@id": "_:N34f8938f4c274c6fb95e43330d3664c6",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:V00000897"
+      },
+      "rdfs:label": "Paul Vorchtel"
+    },
+    {
+      "@id": "_:Nf18bd23c084144829b85eead740680ec",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:G00002099"
+      },
+      "rdfs:label": "Hans Groland (Gralant)"
+    },
+    {
+      "@id": "_:N639c0d37dde64a9ca37d1ed385eaad1c",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:H00003207"
+      },
+      "rdfs:label": "Karl Holzschuher"
+    },
+    {
+      "@id": "_:Nd397117bccef458b9e638df5a3cf73b7",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:N00001479"
+      },
+      "rdfs:label": "Berthold Nützel"
+    },
+    {
+      "@id": "_:N8f1cbd80c1394ec99ec55d7aaa13656b",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:P00001107"
+      },
+      "rdfs:label": "Berthold Pfinzing"
+    },
+    {
+      "@id": "_:Ne866428f969041c9b6ba86bb4c375baf",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:E00000117"
+      },
+      "rdfs:label": "Mathes Ebner"
+    },
+    {
+      "@id": "_:N0165000003744153bf95f30ab96f97dc",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:G00002343"
+      },
+      "rdfs:label": "Paul Grundherr"
+    },
+    {
+      "@id": "_:Na7842c96820647d7b16a869837895169",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:M00001563"
+      },
+      "rdfs:label": "Peter Mendel"
+    },
+    {
+      "@id": "_:Na228492e2db34c9b94e08826ead60cdc",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:M00002942"
+      },
+      "rdfs:label": "Niklas Muffel"
+    },
+    {
+      "@id": "_:Nd5bb2d224c874c46b8b390c2f1fa552d",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00005727"
+      },
+      "rdfs:label": "Ulrich Stromer"
+    },
+    {
+      "@id": "_:N26952def06d64d9d99259b1a910aa89f",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00002362"
+      },
+      "rdfs:label": "Erhard Schürstab"
+    },
+    {
+      "@id": "_:N27074e8652ee410ebd637adc6dc328ca",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:H00000527"
+      },
+      "rdfs:label": "Georg Haller"
+    },
+    {
+      "@id": "_:N2a6ff695b1d240168b68ae4413837983",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:R00003072"
+      },
+      "rdfs:label": "Heinrich Rummel"
+    },
+    {
+      "@id": "_:N348ab8aa6b234e6aa417b9c3d45ae11c",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:G00000869"
+      },
+      "rdfs:label": "Georg Geuder"
+    },
+    {
+      "@id": "_:Nfca7abfed7974e0c96c979cb636c8bbf",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:H00001298"
+      },
+      "rdfs:label": "Ulman Hegnein (Hegen)"
+    },
+    {
+      "@id": "_:N00e7c87f20344dbfbbff040939d50f0c",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:T00001467"
+      },
+      "rdfs:label": "Berthold Tucher"
+    },
+    {
+      "@id": "_:N20f20349ecc84f3fb249d829215f5b3e",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:R00001905"
+      },
+      "rdfs:label": "Peter Rieter"
+    },
+    {
+      "@id": "_:Ncb87be042b56455c8dc3d82506172588",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:G00001731"
+      },
+      "rdfs:label": "Hans Graser"
+    },
+    {
+      "@id": "_:Nfa5cc7d291f84f3d8590761713d76e3e",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:P00001104"
+      },
+      "rdfs:label": "Ludwig Pfinzing"
+    },
+    {
+      "@id": "_:N3511525e3d504d4c9f9e0b23de3e9ca1",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:E00001511"
+      },
+      "rdfs:label": "Konrad Eschenloer (Escheloer)"
+    },
+    {
+      "@id": "_:Nd958a3b9889446bc8fd42312559621be",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:P00001536"
+      },
+      "rdfs:label": "Friedrich Plecher"
+    },
+    {
+      "@id": "_:N234b8c7392464efbbdc27678e6ec60a0",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:P00001141"
+      },
+      "rdfs:label": "Dietrich Pflüger"
+    },
+    {
+      "@id": "_:N6d0a2b7de0f0426a9a36aa21c6f35667",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:I00000082"
+      },
+      "ps:P39": {
+        "@id": "ri:buerger"
+      },
+      "rdfs:label": "Nürnberger Bürgers Heinz Imhoff"
+    }
+  ]
+}

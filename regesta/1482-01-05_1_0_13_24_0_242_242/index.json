@@ -1,0 +1,87 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1482-01-05_1_0_13_24_0_242_242",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Nb3560a0c11864b159de0804f3d3c1190"
+      }
+    },
+    {
+      "@id": "_:Nb3560a0c11864b159de0804f3d3c1190",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N1fc621f08721409d85cb8b6517ea8b20"
+      },
+      "ps:P291": {
+        "@id": "_:N0d93564f96b5485fb82528c318f30229"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N528213676f6b4f26accb6c0817cc0c65"
+        },
+        {
+          "@id": "_:N7f881d0d6de64b799970bdb2909754af"
+        }
+      ]
+    },
+    {
+      "@id": "_:N0d93564f96b5485fb82528c318f30229",
+      "https://schema.org#geo": {
+        "@id": "_:N07b378dfbe074514a7479371f59ab2ba"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q1741"
+      },
+      "rdfs:label": "Wien"
+    },
+    {
+      "@id": "_:N07b378dfbe074514a7479371f59ab2ba",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "48.20849",
+      "https://schema.org#longitude": "16.37208"
+    },
+    {
+      "@id": "_:N1fc621f08721409d85cb8b6517ea8b20",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1482-01-05"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1482-01-05"
+      }
+    },
+    {
+      "@id": "_:N528213676f6b4f26accb6c0817cc0c65",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:P00001851"
+      },
+      "ps:P39": {
+        "@id": "ri:herzog"
+      },
+      "rdfs:label": "Hz. Bogislaw (X.) von Pommern (-Stettin)"
+    },
+    {
+      "@id": "_:N7f881d0d6de64b799970bdb2909754af",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:L00001584"
+      },
+      "rdfs:label": "Herbord von der Linden"
+    }
+  ]
+}

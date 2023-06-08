@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:a4284252-b29a-4080-b06b-23857ec958fa",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Nc220b3077c2d4f49a7d949c92ff2c976"
+      }
+    },
+    {
+      "@id": "_:Nc220b3077c2d4f49a7d949c92ff2c976",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Nc86a806b991d4d50a89570758187661e"
+      },
+      "ps:P291": {
+        "@id": "_:N10ea959da4284fb585ea532a0d8836fe"
+      },
+      "ps:P3342": {
+        "@id": "_:Ncd4a2ddc1a6147e0978cb1015d522da9"
+      }
+    },
+    {
+      "@id": "_:N10ea959da4284fb585ea532a0d8836fe",
+      "https://schema.org#geo": {
+        "@id": "_:N331bc41fd11242c998513c3b8054d118"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q1741"
+      },
+      "rdfs:label": "Wien"
+    },
+    {
+      "@id": "_:N331bc41fd11242c998513c3b8054d118",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "48.20849",
+      "https://schema.org#longitude": "16.37208"
+    },
+    {
+      "@id": "_:Nc86a806b991d4d50a89570758187661e",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1462-10-01"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1462-10-01"
+      }
+    },
+    {
+      "@id": "_:Ncd4a2ddc1a6147e0978cb1015d522da9",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:W00003365"
+      },
+      "ps:P39": {
+        "@id": "ri:bischof"
+      },
+      "rdfs:label": "Bf. Johann (III.) von Würzburg"
+    }
+  ]
+}

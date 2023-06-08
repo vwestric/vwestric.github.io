@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1452-05-31_11_0_13_19_0_247_247",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N87d1d288461e43f8b40fdcc0f178f34b"
+      }
+    },
+    {
+      "@id": "_:N87d1d288461e43f8b40fdcc0f178f34b",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N0a3b555fd4304ed3affbc25a11c0aa7d"
+      },
+      "ps:P291": {
+        "@id": "_:Nfb7aeabddd2149f7aead1b7fe6d1442a"
+      },
+      "ps:P3342": {
+        "@id": "_:Nf5952d848afd4569a52da33c37e52535"
+      }
+    },
+    {
+      "@id": "_:Nfb7aeabddd2149f7aead1b7fe6d1442a",
+      "https://schema.org#geo": {
+        "@id": "_:Nd9f90b63332b4ab2aa6c2cf549fda7c5"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q641"
+      },
+      "rdfs:label": "Venedig"
+    },
+    {
+      "@id": "_:Nd9f90b63332b4ab2aa6c2cf549fda7c5",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "45.43384",
+      "https://schema.org#longitude": "12.34028"
+    },
+    {
+      "@id": "_:N0a3b555fd4304ed3affbc25a11c0aa7d",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1452-05-31"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1452-05-31"
+      }
+    },
+    {
+      "@id": "_:Nf5952d848afd4569a52da33c37e52535",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:P00001018"
+      },
+      "ps:P39": {
+        "@id": "ri:pfalzgraf"
+      },
+      "rdfs:label": "Pfgf. Otto (I.) bei Rhein (-Mosbach)"
+    }
+  ]
+}

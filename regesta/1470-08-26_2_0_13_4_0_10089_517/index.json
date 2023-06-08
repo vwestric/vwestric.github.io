@@ -1,0 +1,71 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1470-08-26_2_0_13_4_0_10089_517",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N71a2d5475f7e4670a9266378403fdc5d"
+      }
+    },
+    {
+      "@id": "_:N71a2d5475f7e4670a9266378403fdc5d",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N3910e1d9aa92467383309fb605c392a9"
+      },
+      "ps:P291": {
+        "@id": "_:Nad8677101c51413caaafd564833dce30"
+      },
+      "ps:P3342": {
+        "@id": "_:Nad54a856d444439582e283e359266135"
+      }
+    },
+    {
+      "@id": "_:Nad8677101c51413caaafd564833dce30",
+      "https://schema.org#geo": {
+        "@id": "_:N7f7f96a7392741bc8446a8edbec418be"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q13298"
+      },
+      "rdfs:label": "Graz"
+    },
+    {
+      "@id": "_:N7f7f96a7392741bc8446a8edbec418be",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.06667",
+      "https://schema.org#longitude": "15.45"
+    },
+    {
+      "@id": "_:N3910e1d9aa92467383309fb605c392a9",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1470-08-26"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1470-08-26"
+      }
+    },
+    {
+      "@id": "_:Nad54a856d444439582e283e359266135",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:I00000292"
+      },
+      "rdfs:label": "Ludwig von Isenburg-Büdingen"
+    }
+  ]
+}

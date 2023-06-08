@@ -1,0 +1,52 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1461-09-22_1_0_13_18_0_253_253",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N67f930d3751f4f329ec120284d2b58cc"
+      }
+    },
+    {
+      "@id": "_:N67f930d3751f4f329ec120284d2b58cc",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N70b530a6dd4e4d6aa4f9eced51e3caa6"
+      },
+      "ps:P3342": {
+        "@id": "_:Nfd0c12c76a6142bebefa25a2ddcf6f36"
+      }
+    },
+    {
+      "@id": "_:N70b530a6dd4e4d6aa4f9eced51e3caa6",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1461-09-22"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1461-09-22"
+      }
+    },
+    {
+      "@id": "_:Nfd0c12c76a6142bebefa25a2ddcf6f36",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:K00000477"
+      },
+      "rdfs:label": "Jörg Karschaner"
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1442-01-14_2_0_13_8_0_12016_8",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N226e6082dcfd4d7ea82e6ca38c3bfd15"
+      }
+    },
+    {
+      "@id": "_:N226e6082dcfd4d7ea82e6ca38c3bfd15",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Nb37d901677624ee2ac0d865ee765ace7"
+      },
+      "ps:P291": {
+        "@id": "_:N2a706ebb219841d9ab45a7515f67a34c"
+      },
+      "ps:P3342": {
+        "@id": "_:N7b20ab40b1344814892e6fe49d22968e"
+      }
+    },
+    {
+      "@id": "_:N2a706ebb219841d9ab45a7515f67a34c",
+      "https://schema.org#geo": {
+        "@id": "_:Ne20e1e94eb4b4bbfbf0ec46b24cd0f4f"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q385567"
+      },
+      "rdfs:label": "Rein"
+    },
+    {
+      "@id": "_:Ne20e1e94eb4b4bbfbf0ec46b24cd0f4f",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.13333",
+      "https://schema.org#longitude": "15.28333"
+    },
+    {
+      "@id": "_:Nb37d901677624ee2ac0d865ee765ace7",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1442-01-14"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1442-01-14"
+      }
+    },
+    {
+      "@id": "_:N7b20ab40b1344814892e6fe49d22968e",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:M00000277"
+      },
+      "ps:P39": {
+        "@id": "ri:erzbischof"
+      },
+      "rdfs:label": "Eb. Dietrich von Mainz"
+    }
+  ]
+}

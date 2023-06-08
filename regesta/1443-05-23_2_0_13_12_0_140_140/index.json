@@ -1,0 +1,71 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1443-05-23_2_0_13_12_0_140_140",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N626ad423f92f4d52ac912e06737ddee7"
+      }
+    },
+    {
+      "@id": "_:N626ad423f92f4d52ac912e06737ddee7",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N9aba740ef60e4914bcc8643d838cf70c"
+      },
+      "ps:P291": {
+        "@id": "_:N0e0e2b6607ef454a992f4920aaa365c9"
+      },
+      "ps:P3342": {
+        "@id": "_:N0f57e75b7eb044cea0d2c6cdf8334bc2"
+      }
+    },
+    {
+      "@id": "_:N0e0e2b6607ef454a992f4920aaa365c9",
+      "https://schema.org#geo": {
+        "@id": "_:N8d9cb19e124743a681d2be40120d7722"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q1741"
+      },
+      "rdfs:label": "Wien"
+    },
+    {
+      "@id": "_:N8d9cb19e124743a681d2be40120d7722",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "48.20849",
+      "https://schema.org#longitude": "16.37208"
+    },
+    {
+      "@id": "_:N9aba740ef60e4914bcc8643d838cf70c",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1443-05-23"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1443-05-23"
+      }
+    },
+    {
+      "@id": "_:N0f57e75b7eb044cea0d2c6cdf8334bc2",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:L00000601"
+      },
+      "rdfs:label": "Hans Laun von Hanstein"
+    }
+  ]
+}

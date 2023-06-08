@@ -1,0 +1,98 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1487-10-01_1_0_13_30_0_286_286",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Nc2d5ddeb743642bc9c238d59469b4816"
+      }
+    },
+    {
+      "@id": "_:Nc2d5ddeb743642bc9c238d59469b4816",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N28f4961e99b14ccb8b5dfad38affc063"
+      },
+      "ps:P291": {
+        "@id": "_:N09c2633f0ba64599b7f326ef071e4e76"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N9bf4447de32b46ec9bca5eba261aa299"
+        },
+        {
+          "@id": "_:N22fe61fdd7ba4a309310fccfeefeb495"
+        },
+        {
+          "@id": "_:N89da4720fee7441f8b3aa2b027dda07e"
+        }
+      ]
+    },
+    {
+      "@id": "_:N09c2633f0ba64599b7f326ef071e4e76",
+      "https://schema.org#geo": {
+        "@id": "_:N4b1a392e89734b498ff8d2c06ae3a677"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q2090"
+      },
+      "rdfs:label": "Nürnberg"
+    },
+    {
+      "@id": "_:N4b1a392e89734b498ff8d2c06ae3a677",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "49.45421",
+      "https://schema.org#longitude": "11.07752"
+    },
+    {
+      "@id": "_:N28f4961e99b14ccb8b5dfad38affc063",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1487-10-01"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1487-10-01"
+      }
+    },
+    {
+      "@id": "_:N9bf4447de32b46ec9bca5eba261aa299",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:A00000111"
+      },
+      "rdfs:label": "Hans Jörg von Absberg"
+    },
+    {
+      "@id": "_:N22fe61fdd7ba4a309310fccfeefeb495",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:R00002460"
+      },
+      "rdfs:label": "Kunz von Rosenberg"
+    },
+    {
+      "@id": "_:N89da4720fee7441f8b3aa2b027dda07e",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00003095"
+      },
+      "ps:P39": {
+        "@id": "ri:domherr"
+      },
+      "rdfs:label": "Hartwig von Bülow, dem Domherrn zu Bremen und Lübeck"
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1456-11-24_1_0_13_11_0_316_316",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Nf10af4fc31d5459f97daaccb89f6eee7"
+      }
+    },
+    {
+      "@id": "_:Nf10af4fc31d5459f97daaccb89f6eee7",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N3a10edfc6ae149d6a3deece71d8491fa"
+      },
+      "ps:P291": {
+        "@id": "_:Ne201fbe319e44d6f9fde23809fb87080"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:Ncc8e2dceb88c403b924ac74d6613f166"
+        },
+        {
+          "@id": "_:Na66fc486e7264d7d8c66b6d993067826"
+        },
+        {
+          "@id": "_:Nb1ce3919dac34766b0a97e4fce6e391c"
+        }
+      ]
+    },
+    {
+      "@id": "_:Ne201fbe319e44d6f9fde23809fb87080",
+      "https://schema.org#geo": {
+        "@id": "_:N4ee3f193672a4d0fb787abe94fea0354"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q131612"
+      },
+      "rdfs:label": "Wiener Neustadt"
+    },
+    {
+      "@id": "_:N4ee3f193672a4d0fb787abe94fea0354",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.813153",
+      "https://schema.org#longitude": "16.24444"
+    },
+    {
+      "@id": "_:N3a10edfc6ae149d6a3deece71d8491fa",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1456-11-24"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1456-11-24"
+      }
+    },
+    {
+      "@id": "_:Ncc8e2dceb88c403b924ac74d6613f166",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:A00001569"
+      },
+      "ps:P39": [
+        {
+          "@id": "ri:kardinal"
+        },
+        {
+          "@id": "ri:bischof"
+        }
+      ],
+      "rdfs:label": "Kardinal Bf. Peter von Augsburg"
+    },
+    {
+      "@id": "_:Na66fc486e7264d7d8c66b6d993067826",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00000216"
+      },
+      "rdfs:label": "Anton von Bamberg"
+    },
+    {
+      "@id": "_:Nb1ce3919dac34766b0a97e4fce6e391c",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00002272"
+      },
+      "ps:P39": {
+        "@id": "ri:markgraf"
+      },
+      "rdfs:label": "Mgf. Johann von Brandenburg"
+    }
+  ]
+}

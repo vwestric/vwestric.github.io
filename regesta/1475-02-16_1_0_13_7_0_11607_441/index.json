@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1475-02-16_1_0_13_7_0_11607_441",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N1fcb6a8f93f7431b82e6449d420a3653"
+      }
+    },
+    {
+      "@id": "_:N1fcb6a8f93f7431b82e6449d420a3653",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Nb1abeec6ce66430eb000442b04cc6f4d"
+      },
+      "ps:P291": {
+        "@id": "_:N5ef47eb36b8e42f394b04f4d1ac970ea"
+      },
+      "ps:P3342": {
+        "@id": "_:N061980a4a7ed4ff3b5be5aa4cdbfa17b"
+      }
+    },
+    {
+      "@id": "_:N5ef47eb36b8e42f394b04f4d1ac970ea",
+      "https://schema.org#geo": {
+        "@id": "_:Ndb0f6beb19a44724b24dfd6c4e8b15b6"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q490058"
+      },
+      "rdfs:label": "Andernach"
+    },
+    {
+      "@id": "_:Ndb0f6beb19a44724b24dfd6c4e8b15b6",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "50.4333",
+      "https://schema.org#longitude": "7.4"
+    },
+    {
+      "@id": "_:Nb1abeec6ce66430eb000442b04cc6f4d",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1475-02-16"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1475-02-16"
+      }
+    },
+    {
+      "@id": "_:N061980a4a7ed4ff3b5be5aa4cdbfa17b",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00003253"
+      },
+      "ps:P39": {
+        "@id": "ri:herzog"
+      },
+      "rdfs:label": "Hz. (Karl) von Burgund"
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1461-10-04_1_0_13_23_0_187_184",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N567d66d91c8d40a4bf3b4581fcfb4c01"
+      }
+    },
+    {
+      "@id": "_:N567d66d91c8d40a4bf3b4581fcfb4c01",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Nf3eb9391859446b0aac2522552fbaa3c"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N2f651de05dd144bda4aaae2c8565ee5e"
+        },
+        {
+          "@id": "_:Nf6801d8caa7545fa98a6730d4bf787e3"
+        },
+        {
+          "@id": "_:N0132255c76a54b80a8f73bed96d9ab0e"
+        },
+        {
+          "@id": "_:N38fe5cd3f77e4c7494395eb1b1ef86c4"
+        }
+      ]
+    },
+    {
+      "@id": "_:Nf3eb9391859446b0aac2522552fbaa3c",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1461-10-04"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1461-10-04"
+      }
+    },
+    {
+      "@id": "_:N2f651de05dd144bda4aaae2c8565ee5e",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:O00000786"
+      },
+      "ps:P39": {
+        "@id": "ri:graf"
+      },
+      "rdfs:label": "Gf. Ulrich von Oettingen"
+    },
+    {
+      "@id": "_:Nf6801d8caa7545fa98a6730d4bf787e3",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00000565"
+      },
+      "ps:P39": {
+        "@id": "ri:herzog"
+      },
+      "rdfs:label": "Hz. Ludwig (IX.) von Bayern (-Landshut)"
+    },
+    {
+      "@id": "_:N0132255c76a54b80a8f73bed96d9ab0e",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00002248"
+      },
+      "ps:P39": {
+        "@id": "ri:markgraf"
+      },
+      "rdfs:label": "Mgf. Albrecht von Brandenburg"
+    },
+    {
+      "@id": "_:N38fe5cd3f77e4c7494395eb1b1ef86c4",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:W00003211"
+      },
+      "ps:P39": {
+        "@id": "ri:graf"
+      },
+      "rdfs:label": "Gf. Ulrich (V.) von Württemberg"
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1454-04-04_2_0_13_10_0_13067_107",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Nacb9cc64e7e441b7af217908c82829b3"
+      }
+    },
+    {
+      "@id": "_:Nacb9cc64e7e441b7af217908c82829b3",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Nd58ac84ba862407784119700e8825747"
+      },
+      "ps:P291": {
+        "@id": "_:Nc4b3084527f74958bf1ca6f3118a896b"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N98a6eba98974403bbb39cd9331909498"
+        },
+        {
+          "@id": "_:N6be5eccbb59a4423982cb60ae554d57e"
+        }
+      ]
+    },
+    {
+      "@id": "_:Nc4b3084527f74958bf1ca6f3118a896b",
+      "https://schema.org#geo": {
+        "@id": "_:N52021f349bc04237b375c20455d6fe0e"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q131612"
+      },
+      "rdfs:label": "Wiener Neustadt"
+    },
+    {
+      "@id": "_:N52021f349bc04237b375c20455d6fe0e",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.813153",
+      "https://schema.org#longitude": "16.24444"
+    },
+    {
+      "@id": "_:Nd58ac84ba862407784119700e8825747",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1454-04-04"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1454-04-04"
+      }
+    },
+    {
+      "@id": "_:N98a6eba98974403bbb39cd9331909498",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:G00000176"
+      },
+      "rdfs:label": "Johann Gardenwech"
+    },
+    {
+      "@id": "_:N6be5eccbb59a4423982cb60ae554d57e",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00000099"
+      },
+      "ps:P39": {
+        "@id": "ri:herzog"
+      },
+      "rdfs:label": "Hz. Wilhelm (III.) von Sachsen"
+    }
+  ]
+}

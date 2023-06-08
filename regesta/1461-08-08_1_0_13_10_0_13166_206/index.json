@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1461-08-08_1_0_13_10_0_13166_206",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N8dd2df8e91be4e08943f72717310ba30"
+      }
+    },
+    {
+      "@id": "_:N8dd2df8e91be4e08943f72717310ba30",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N8dd7198270724075b85ad152a775ac9f"
+      },
+      "ps:P291": {
+        "@id": "_:Nbc364443ecb543249b3ad57e96514e66"
+      },
+      "ps:P3342": {
+        "@id": "_:N9c73b8e4f0984e179bcb558bd319750a"
+      }
+    },
+    {
+      "@id": "_:Nbc364443ecb543249b3ad57e96514e66",
+      "https://schema.org#geo": {
+        "@id": "_:N1406868f50e64d9ca72a03840c6dbb08"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q13298"
+      },
+      "rdfs:label": "Graz"
+    },
+    {
+      "@id": "_:N1406868f50e64d9ca72a03840c6dbb08",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.06667",
+      "https://schema.org#longitude": "15.45"
+    },
+    {
+      "@id": "_:N8dd7198270724075b85ad152a775ac9f",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1461-08-08"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1461-08-08"
+      }
+    },
+    {
+      "@id": "_:N9c73b8e4f0984e179bcb558bd319750a",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00000076"
+      },
+      "ps:P39": {
+        "@id": "ri:kurfuerst"
+      },
+      "rdfs:label": "Kf. Friedrich (II.) von Sachsen"
+    }
+  ]
+}

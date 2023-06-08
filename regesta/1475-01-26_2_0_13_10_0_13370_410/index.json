@@ -1,0 +1,118 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1475-01-26_2_0_13_10_0_13370_410",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N240e23aef9954ab1be655aeefd310860"
+      }
+    },
+    {
+      "@id": "_:N240e23aef9954ab1be655aeefd310860",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Nd1db314103ac444384e57ff269ebfffa"
+      },
+      "ps:P291": {
+        "@id": "_:N668b8269b8f64bdf893d3c3b490e30a3"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N963395ce53a94b04acda59ec4dc36155"
+        },
+        {
+          "@id": "_:Nc4b26c939e0c41d782ac4b021d25b5ca"
+        },
+        {
+          "@id": "_:N5087445a126849a197f5f9605e6c6b90"
+        },
+        {
+          "@id": "_:N166b8b64becd484c8f81b7656fce10a1"
+        }
+      ]
+    },
+    {
+      "@id": "_:N668b8269b8f64bdf893d3c3b490e30a3",
+      "https://schema.org#geo": {
+        "@id": "_:N79ce6725ce7647afb1135061ae2eed0d"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q490058"
+      },
+      "rdfs:label": "Andernach"
+    },
+    {
+      "@id": "_:N79ce6725ce7647afb1135061ae2eed0d",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "50.4333",
+      "https://schema.org#longitude": "7.4"
+    },
+    {
+      "@id": "_:Nd1db314103ac444384e57ff269ebfffa",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1475-01-26"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1475-01-26"
+      }
+    },
+    {
+      "@id": "_:N963395ce53a94b04acda59ec4dc36155",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00000065"
+      },
+      "ps:P39": {
+        "@id": "ri:kurfuerst"
+      },
+      "rdfs:label": "Kf. Ernst von Sachsen"
+    },
+    {
+      "@id": "_:Nc4b26c939e0c41d782ac4b021d25b5ca",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00000099"
+      },
+      "ps:P39": {
+        "@id": "ri:herzog"
+      },
+      "rdfs:label": "Hz. Wilhelm (III.) von Sachsen"
+    },
+    {
+      "@id": "_:N5087445a126849a197f5f9605e6c6b90",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00003253"
+      },
+      "ps:P39": {
+        "@id": "ri:herzog"
+      },
+      "rdfs:label": "Hz. (Karl) von Burgund"
+    },
+    {
+      "@id": "_:N166b8b64becd484c8f81b7656fce10a1",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00000064"
+      },
+      "ps:P39": {
+        "@id": "ri:herzog"
+      },
+      "rdfs:label": "Hz. Albrecht von Sachsen"
+    }
+  ]
+}

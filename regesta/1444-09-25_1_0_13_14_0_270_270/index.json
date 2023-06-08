@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1444-09-25_1_0_13_14_0_270_270",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N99075a33b78449aeb176aa3ae387aa5f"
+      }
+    },
+    {
+      "@id": "_:N99075a33b78449aeb176aa3ae387aa5f",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Ndfe04008b62a4d1fbf0594ee204ed18a"
+      },
+      "ps:P291": {
+        "@id": "_:Ne36a328d56d545bb9e80dc5dd1bd77e4"
+      },
+      "ps:P3342": {
+        "@id": "_:N7e67c3c10dd444cbb3b2b0d1087199e5"
+      }
+    },
+    {
+      "@id": "_:Ne36a328d56d545bb9e80dc5dd1bd77e4",
+      "https://schema.org#geo": {
+        "@id": "_:Nd648b5fd3f514199b6d4115236d89983"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q2090"
+      },
+      "rdfs:label": "Nürnberg"
+    },
+    {
+      "@id": "_:Nd648b5fd3f514199b6d4115236d89983",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "49.45421",
+      "https://schema.org#longitude": "11.07752"
+    },
+    {
+      "@id": "_:Ndfe04008b62a4d1fbf0594ee204ed18a",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1444-09-25"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1444-09-25"
+      }
+    },
+    {
+      "@id": "_:N7e67c3c10dd444cbb3b2b0d1087199e5",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:P00000976"
+      },
+      "ps:P39": {
+        "@id": "ri:pfalzgraf"
+      },
+      "rdfs:label": "Pfgf. Ludwig (IV.) bei Rhein"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:e8f1bad6-1f4d-4942-862b-ee2876e350ec",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Ne5ad5c12241043349150b74546881a95"
+      }
+    },
+    {
+      "@id": "_:Ne5ad5c12241043349150b74546881a95",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N12de7bc63bb6485f861b51c9575e2fbb"
+      },
+      "ps:P291": {
+        "@id": "_:Nb5f45a7103ed4c7696797f2f2273eeab"
+      }
+    },
+    {
+      "@id": "_:Nb5f45a7103ed4c7696797f2f2273eeab",
+      "https://schema.org#geo": {
+        "@id": "_:N5e5675ff9cb24b218067d9ffe102bc1b"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q483522"
+      },
+      "rdfs:label": "Villach"
+    },
+    {
+      "@id": "_:N5e5675ff9cb24b218067d9ffe102bc1b",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "46.61028",
+      "https://schema.org#longitude": "13.85583"
+    },
+    {
+      "@id": "_:N12de7bc63bb6485f861b51c9575e2fbb",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1457-07-19"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1457-07-19"
+      }
+    }
+  ]
+}

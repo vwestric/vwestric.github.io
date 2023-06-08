@@ -1,0 +1,71 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1468-06-30_1_0_13_17_0_209_207",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Na74bb360d79047e4af91b1a19faf51f9"
+      }
+    },
+    {
+      "@id": "_:Na74bb360d79047e4af91b1a19faf51f9",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N1ce84184dcae4c54a86f093513f3d944"
+      },
+      "ps:P291": {
+        "@id": "_:N078841dd88904b25a3756e7fdc4dfd8d"
+      },
+      "ps:P3342": {
+        "@id": "_:Nf31997df2638479690b2efa0e71c8661"
+      }
+    },
+    {
+      "@id": "_:N078841dd88904b25a3756e7fdc4dfd8d",
+      "https://schema.org#geo": {
+        "@id": "_:N3c6db40d4055418293abb5e660d33caa"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q13298"
+      },
+      "rdfs:label": "Graz"
+    },
+    {
+      "@id": "_:N3c6db40d4055418293abb5e660d33caa",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.06667",
+      "https://schema.org#longitude": "15.45"
+    },
+    {
+      "@id": "_:N1ce84184dcae4c54a86f093513f3d944",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1468-06-30"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1468-06-30"
+      }
+    },
+    {
+      "@id": "_:Nf31997df2638479690b2efa0e71c8661",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:N00001462"
+      },
+      "rdfs:label": "Jakob von Nürnberg"
+    }
+  ]
+}

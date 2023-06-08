@@ -1,0 +1,79 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:ebff026e-0325-4e56-8aab-c1be59e38af3",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N109d32b2ebe1498c8fad6bef2b5c46d1"
+      }
+    },
+    {
+      "@id": "_:N109d32b2ebe1498c8fad6bef2b5c46d1",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Nfa01f219d4304b34ace1a52c17a11008"
+      },
+      "ps:P291": {
+        "@id": "_:N7bd6f373d0f247b29e8d8af78a21eac9"
+      },
+      "ps:P3342": {
+        "@id": "_:Nf015e9962dbe46bb8a5501854ac72254"
+      }
+    },
+    {
+      "@id": "_:N7bd6f373d0f247b29e8d8af78a21eac9",
+      "https://schema.org#geo": {
+        "@id": "_:N13adf222903046aeac66c23e8ad4bfbb"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q13298"
+      },
+      "rdfs:label": "Graz"
+    },
+    {
+      "@id": "_:N13adf222903046aeac66c23e8ad4bfbb",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.06667",
+      "https://schema.org#longitude": "15.45"
+    },
+    {
+      "@id": "_:Nfa01f219d4304b34ace1a52c17a11008",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1478-02-04"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1478-02-04"
+      }
+    },
+    {
+      "@id": "_:Nf015e9962dbe46bb8a5501854ac72254",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:Q00000035"
+      },
+      "ps:P39": [
+        {
+          "@id": "ri:herzog"
+        },
+        {
+          "@id": "ri:herzogin"
+        }
+      ],
+      "rdfs:label": "Äbtissin Hedwig von Quedlinburg, geb. Herzogin von Sachsen"
+    }
+  ]
+}

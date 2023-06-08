@@ -1,0 +1,170 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1449-08-16_1_0_13_14_0_490_492",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N30842f22c11b4d7291a5514936b50f9c"
+      }
+    },
+    {
+      "@id": "_:N30842f22c11b4d7291a5514936b50f9c",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Nab1fc09bba104537865e88bb7dd9da93"
+      },
+      "ps:P291": {
+        "@id": "_:Nd1dae54431a542008176f59e97e47b72"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N9728cb17c2ab43b7962dc597beb19b56"
+        },
+        {
+          "@id": "_:N5618bed92a4e4ef09a27e8b849264a51"
+        },
+        {
+          "@id": "_:Nbf213c57ffe24b62882d75cc3a0632c7"
+        },
+        {
+          "@id": "_:N696ee4584afa4f2b97366ae5c40f5865"
+        },
+        {
+          "@id": "_:N86a6a13dcfa2438e9202d24271e5212a"
+        },
+        {
+          "@id": "_:Nbe89f6a3ef4c4942b5f9d0c1eb47af3e"
+        },
+        {
+          "@id": "_:N30695dd464464579bd93a0f7d044b6d4"
+        },
+        {
+          "@id": "_:N21134d0f4114414ea6565a1d3df4ed2b"
+        },
+        {
+          "@id": "_:N0fbbd17b4e4e437cbe2067677e562853"
+        }
+      ]
+    },
+    {
+      "@id": "_:Nd1dae54431a542008176f59e97e47b72",
+      "https://schema.org#geo": {
+        "@id": "_:N9768044eced94cc7b3685bbe714b854d"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q494604"
+      },
+      "rdfs:label": "St. Veit in Kärnten"
+    },
+    {
+      "@id": "_:N9768044eced94cc7b3685bbe714b854d",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "46.767222",
+      "https://schema.org#longitude": "14.359722"
+    },
+    {
+      "@id": "_:Nab1fc09bba104537865e88bb7dd9da93",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1449-08-16"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1449-08-16"
+      }
+    },
+    {
+      "@id": "_:N9728cb17c2ab43b7962dc597beb19b56",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:P00000976"
+      },
+      "ps:P39": {
+        "@id": "ri:pfalzgraf"
+      },
+      "rdfs:label": "Pfgf. Ludwig (IV.) bei Rhein"
+    },
+    {
+      "@id": "_:N5618bed92a4e4ef09a27e8b849264a51",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00000076"
+      },
+      "ps:P39": {
+        "@id": "ri:herzog"
+      },
+      "rdfs:label": "Hz. Friedrich (II.) von Sachsen"
+    },
+    {
+      "@id": "_:Nbf213c57ffe24b62882d75cc3a0632c7",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00002265"
+      },
+      "ps:P39": {
+        "@id": "ri:markgraf"
+      },
+      "rdfs:label": "Mgf. Friedrich (II.) von Brandenburg"
+    },
+    {
+      "@id": "_:N696ee4584afa4f2b97366ae5c40f5865",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:K00000579"
+      },
+      "rdfs:label": "Philipp von Katzenelnbogen"
+    },
+    {
+      "@id": "_:N86a6a13dcfa2438e9202d24271e5212a",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:Z00000209"
+      },
+      "rdfs:label": "Hans Zenger"
+    },
+    {
+      "@id": "_:Nbe89f6a3ef4c4942b5f9d0c1eb47af3e",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:W00002281"
+      },
+      "rdfs:label": "Martin von Wildenstein"
+    },
+    {
+      "@id": "_:N30695dd464464579bd93a0f7d044b6d4",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:D00000165"
+      },
+      "rdfs:label": "Hans von Degenberg"
+    },
+    {
+      "@id": "_:N21134d0f4114414ea6565a1d3df4ed2b",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:M00000277"
+      },
+      "rdfs:label": "Dietrich von Mainz"
+    },
+    {
+      "@id": "_:N0fbbd17b4e4e437cbe2067677e562853",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00000216"
+      },
+      "rdfs:label": "Anton von Bamberg"
+    }
+  ]
+}

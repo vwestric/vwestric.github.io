@@ -1,0 +1,90 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1456-01-12_1_0_13_26_0_548_548",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Nffc3fb2932284df7a3e5fa011436d123"
+      }
+    },
+    {
+      "@id": "_:Nffc3fb2932284df7a3e5fa011436d123",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N86e02072e4294e85a99faa4805e94b89"
+      },
+      "ps:P291": {
+        "@id": "_:Nc601823a806846c08ee25cbbf6f57185"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N6a72e5503c46428486831fc4967e5384"
+        },
+        {
+          "@id": "_:N9905fd84840c44f7840f2f970c91ea44"
+        }
+      ]
+    },
+    {
+      "@id": "_:Nc601823a806846c08ee25cbbf6f57185",
+      "https://schema.org#geo": {
+        "@id": "_:Nd20b7928ab1247acb5d9d85f25ba205a"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q13298"
+      },
+      "rdfs:label": "Graz"
+    },
+    {
+      "@id": "_:Nd20b7928ab1247acb5d9d85f25ba205a",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.06667",
+      "https://schema.org#longitude": "15.45"
+    },
+    {
+      "@id": "_:N86e02072e4294e85a99faa4805e94b89",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1456-01-12"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1456-01-12"
+      }
+    },
+    {
+      "@id": "_:N6a72e5503c46428486831fc4967e5384",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00002248"
+      },
+      "ps:P39": {
+        "@id": "ri:markgraf"
+      },
+      "rdfs:label": "Mgf. Albrecht von Brandenburg"
+    },
+    {
+      "@id": "_:N9905fd84840c44f7840f2f970c91ea44",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:C00000462"
+      },
+      "ps:P39": {
+        "@id": "ri:graf"
+      },
+      "rdfs:label": "Gf. Ulrich von Cilli"
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1480-03-03_1_0_13_10_0_13417_457",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N27e53dee51e4487baeae470e039cf6bb"
+      }
+    },
+    {
+      "@id": "_:N27e53dee51e4487baeae470e039cf6bb",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Nc2f0805b91f6450e996a740384daac09"
+      },
+      "ps:P291": {
+        "@id": "_:N979371b5c01d4657930162fc42b0c581"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:Nc7dcf7edf62941a5bbc88b6cba6b5cbe"
+        },
+        {
+          "@id": "_:N6e928172745c428cae09887cbd452cba"
+        }
+      ]
+    },
+    {
+      "@id": "_:N979371b5c01d4657930162fc42b0c581",
+      "https://schema.org#geo": {
+        "@id": "_:N773466e2a8504020bb7248013677f1e4"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q131612"
+      },
+      "rdfs:label": "Wiener Neustadt"
+    },
+    {
+      "@id": "_:N773466e2a8504020bb7248013677f1e4",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.813153",
+      "https://schema.org#longitude": "16.24444"
+    },
+    {
+      "@id": "_:Nc2f0805b91f6450e996a740384daac09",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1480-03-03"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1480-03-03"
+      }
+    },
+    {
+      "@id": "_:Nc7dcf7edf62941a5bbc88b6cba6b5cbe",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00000064"
+      },
+      "ps:P39": {
+        "@id": "ri:herzog"
+      },
+      "rdfs:label": "Hz. Albrecht von Sachsen"
+    },
+    {
+      "@id": "_:N6e928172745c428cae09887cbd452cba",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:I00000279"
+      },
+      "rdfs:label": "Diether von Isenburg"
+    }
+  ]
+}

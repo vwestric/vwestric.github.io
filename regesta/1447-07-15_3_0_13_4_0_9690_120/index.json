@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1447-07-15_3_0_13_4_0_9690_120",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N8807a88e05a14be084744a6e2e463536"
+      }
+    },
+    {
+      "@id": "_:N8807a88e05a14be084744a6e2e463536",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N3c16a8c47a9c46bd93fbf2be0cd3e3fa"
+      },
+      "ps:P291": {
+        "@id": "_:N2ac7bb92476349a0ab29092e8b26e8a2"
+      },
+      "ps:P3342": {
+        "@id": "_:N8db2eae257c4484f848a9bb147f80c64"
+      }
+    },
+    {
+      "@id": "_:N2ac7bb92476349a0ab29092e8b26e8a2",
+      "https://schema.org#geo": {
+        "@id": "_:N727d930fc7b94865b31789dd727eddfc"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q1741"
+      },
+      "rdfs:label": "Wien"
+    },
+    {
+      "@id": "_:N727d930fc7b94865b31789dd727eddfc",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "48.20849",
+      "https://schema.org#longitude": "16.37208"
+    },
+    {
+      "@id": "_:N3c16a8c47a9c46bd93fbf2be0cd3e3fa",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1447-07-15"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1447-07-15"
+      }
+    },
+    {
+      "@id": "_:N8db2eae257c4484f848a9bb147f80c64",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:K00001681"
+      },
+      "ps:P39": {
+        "@id": "ri:erzbischof"
+      },
+      "rdfs:label": "Eb. Dietrichs von Köln"
+    }
+  ]
+}

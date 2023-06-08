@@ -1,0 +1,247 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1442-05-09_1_0_13_12_0_99_99",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N18d39b1f556d435c8e323bd53bcae9e2"
+      }
+    },
+    {
+      "@id": "_:N18d39b1f556d435c8e323bd53bcae9e2",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N6242581c315542f9b373d586137e5bee"
+      },
+      "ps:P291": {
+        "@id": "_:Nd866220d48f44fe9abc48ffa4f06d639"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:Nbf59fb8dac754ad3bdb60d7ebf67577f"
+        },
+        {
+          "@id": "_:Na9fdda15430f4af19244722ff1977492"
+        },
+        {
+          "@id": "_:N9e03bee8b8944235b2ef86ed9c264f37"
+        },
+        {
+          "@id": "_:N4e62ac1873e04269a440f7b08f7cef7c"
+        },
+        {
+          "@id": "_:Neab2a01a339b454fa4087e09a2ec798b"
+        },
+        {
+          "@id": "_:Ne954959b056f42148fa7e2310036f12c"
+        },
+        {
+          "@id": "_:N4a8b689e64494177b6b279cef1e837ab"
+        },
+        {
+          "@id": "_:Nb5cfbbe5f76f4ad786c4d6e664ef1b36"
+        },
+        {
+          "@id": "_:N402ffb4cc8324af9a471ee132144e1fd"
+        },
+        {
+          "@id": "_:N65ecd5d862ad49028586f8f993df0466"
+        },
+        {
+          "@id": "_:Na8c4a4d1b2fd41cb87209f248382d04b"
+        },
+        {
+          "@id": "_:Nac6c7cb53c424ce59351605d458aaa6b"
+        },
+        {
+          "@id": "_:N1291faaab09b4cb1b2a53281f9e9624b"
+        },
+        {
+          "@id": "_:N03cbc1381a814825b306b4c0de412373"
+        }
+      ]
+    },
+    {
+      "@id": "_:Nd866220d48f44fe9abc48ffa4f06d639",
+      "https://schema.org#geo": {
+        "@id": "_:Nc9f480a1ee2c4239a86e6031f07c4a6f"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q2090"
+      },
+      "rdfs:label": "Nürnberg"
+    },
+    {
+      "@id": "_:Nc9f480a1ee2c4239a86e6031f07c4a6f",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "49.45421",
+      "https://schema.org#longitude": "11.07752"
+    },
+    {
+      "@id": "_:N6242581c315542f9b373d586137e5bee",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1442-05-09"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1442-05-09"
+      }
+    },
+    {
+      "@id": "_:Nbf59fb8dac754ad3bdb60d7ebf67577f",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:F00001129"
+      },
+      "ps:P39": {
+        "@id": "ri:bischof"
+      },
+      "rdfs:label": "Bf. Nikodemus von Freising"
+    },
+    {
+      "@id": "_:Na9fdda15430f4af19244722ff1977492",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:P00000246"
+      },
+      "ps:P39": {
+        "@id": "ri:bischof"
+      },
+      "rdfs:label": "Bf. Leonhard von Passau"
+    },
+    {
+      "@id": "_:N9e03bee8b8944235b2ef86ed9c264f37",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00001346"
+      },
+      "ps:P39": {
+        "@id": "ri:graf"
+      },
+      "rdfs:label": "Gf. Johann von Schaunberg"
+    },
+    {
+      "@id": "_:N4e62ac1873e04269a440f7b08f7cef7c",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00001346"
+      },
+      "ps:P39": {
+        "@id": "ri:graf"
+      },
+      "rdfs:label": "Gf. Johann von Schaunberg, Oberstmarschall in Steyr"
+    },
+    {
+      "@id": "_:Neab2a01a339b454fa4087e09a2ec798b",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:W00000388"
+      },
+      "rdfs:label": "Reinprecht von Wallsee"
+    },
+    {
+      "@id": "_:Ne954959b056f42148fa7e2310036f12c",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:W00000388"
+      },
+      "ps:P39": [
+        {
+          "@id": "ri:truchsess"
+        },
+        {
+          "@id": "ri:hauptmann"
+        }
+      ],
+      "rdfs:label": "Reinprecht von Wallsee, Oberstmarschall in Österreich, Oberster Truchseß in Steyr und Hauptmann ob der Enns"
+    },
+    {
+      "@id": "_:N4a8b689e64494177b6b279cef1e837ab",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00004611"
+      },
+      "rdfs:label": "Rüdiger von Starhemberg"
+    },
+    {
+      "@id": "_:Nb5cfbbe5f76f4ad786c4d6e664ef1b36",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:P00002036"
+      },
+      "rdfs:label": "Albrecht von Pottendorf"
+    },
+    {
+      "@id": "_:N402ffb4cc8324af9a471ee132144e1fd",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:E00000618"
+      },
+      "rdfs:label": "Ulrich Eitzinger von Eitzing"
+    },
+    {
+      "@id": "_:N65ecd5d862ad49028586f8f993df0466",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00001384"
+      },
+      "rdfs:label": "Jörg Scheck von Wald"
+    },
+    {
+      "@id": "_:Na8c4a4d1b2fd41cb87209f248382d04b",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:N00000238"
+      },
+      "rdfs:label": "Leopold von Neidegg"
+    },
+    {
+      "@id": "_:Nac6c7cb53c424ce59351605d458aaa6b",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:T00001395"
+      },
+      "ps:P39": {
+        "@id": "ri:truchsess"
+      },
+      "rdfs:label": "Niklas Truchseß (zu Staatz)"
+    },
+    {
+      "@id": "_:N1291faaab09b4cb1b2a53281f9e9624b",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:P00000628"
+      },
+      "rdfs:label": "Jörg Perkheimer"
+    },
+    {
+      "@id": "_:N03cbc1381a814825b306b4c0de412373",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:M00000169"
+      },
+      "ps:P39": [
+        {
+          "@id": "ri:meister"
+        },
+        {
+          "@id": "ri:pfarrer"
+        }
+      ],
+      "rdfs:label": "Meister Hans (Pauli) von Maiers, Pfarrer zu Gars"
+    }
+  ]
+}

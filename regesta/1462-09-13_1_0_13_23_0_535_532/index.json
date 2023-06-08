@@ -1,0 +1,90 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1462-09-13_1_0_13_23_0_535_532",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Na815a1659a7b4df5bc2924b67182892f"
+      }
+    },
+    {
+      "@id": "_:Na815a1659a7b4df5bc2924b67182892f",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N6dbca772d97745599d4c1339fc773a94"
+      },
+      "ps:P291": {
+        "@id": "_:N8c165583e99740b4b71ca888a397c239"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:Nb1fed643f5a141edbde42bdb5239008d"
+        },
+        {
+          "@id": "_:N9c9cf38f5d814a618f8372abdb9ec0e5"
+        }
+      ]
+    },
+    {
+      "@id": "_:N8c165583e99740b4b71ca888a397c239",
+      "https://schema.org#geo": {
+        "@id": "_:N4e26239875f8444d8e7b4dcc7ab98171"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q1741"
+      },
+      "rdfs:label": "Wien"
+    },
+    {
+      "@id": "_:N4e26239875f8444d8e7b4dcc7ab98171",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "48.20849",
+      "https://schema.org#longitude": "16.37208"
+    },
+    {
+      "@id": "_:N6dbca772d97745599d4c1339fc773a94",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1462-09-13"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1462-09-13"
+      }
+    },
+    {
+      "@id": "_:Nb1fed643f5a141edbde42bdb5239008d",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00000565"
+      },
+      "ps:P39": {
+        "@id": "ri:herzog"
+      },
+      "rdfs:label": "Hz. Ludwig (IX.) von Bayern (-Landshut)"
+    },
+    {
+      "@id": "_:N9c9cf38f5d814a618f8372abdb9ec0e5",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:O00000557"
+      },
+      "ps:P39": {
+        "@id": "ri:herzog"
+      },
+      "rdfs:label": "Hz. Albrecht (VI. von Österreich)"
+    }
+  ]
+}

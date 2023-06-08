@@ -1,0 +1,117 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1448-08-11_1_0_13_26_0_476_476",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Nd74fb43955454ea9b8e0932e73d8595b"
+      }
+    },
+    {
+      "@id": "_:Nd74fb43955454ea9b8e0932e73d8595b",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N46cd2b972f364992a307ab4f810b9291"
+      },
+      "ps:P291": {
+        "@id": "_:N318e1aa8b1b44d358cdd2cdd3efa396d"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:Naca5e9fc39414506af285272932c2380"
+        },
+        {
+          "@id": "_:N052392feb93b4ef490bb562c96fa52a0"
+        },
+        {
+          "@id": "_:N6b479e46cbfa4840b5a93af4b07af20a"
+        },
+        {
+          "@id": "_:N44880a438046450e9c7effd5955c75de"
+        },
+        {
+          "@id": "_:N0c2a991a495a49bbbe1dd7917f6cc276"
+        }
+      ]
+    },
+    {
+      "@id": "_:N318e1aa8b1b44d358cdd2cdd3efa396d",
+      "https://schema.org#geo": {
+        "@id": "_:Nd7a61b92a10b4524a6e015a1198cd89f"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q131612"
+      },
+      "rdfs:label": "Wiener Neustadt"
+    },
+    {
+      "@id": "_:Nd7a61b92a10b4524a6e015a1198cd89f",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.813153",
+      "https://schema.org#longitude": "16.24444"
+    },
+    {
+      "@id": "_:N46cd2b972f364992a307ab4f810b9291",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1448-08-11"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1448-08-11"
+      }
+    },
+    {
+      "@id": "_:Naca5e9fc39414506af285272932c2380",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:N00000470"
+      },
+      "rdfs:label": "Meinhard von Neuhaus"
+    },
+    {
+      "@id": "_:N052392feb93b4ef490bb562c96fa52a0",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00005153"
+      },
+      "rdfs:label": "Alesch von Sternberg"
+    },
+    {
+      "@id": "_:N6b479e46cbfa4840b5a93af4b07af20a",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:W00000299"
+      },
+      "rdfs:label": "Hassko von Waldstein"
+    },
+    {
+      "@id": "_:N44880a438046450e9c7effd5955c75de",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00005161"
+      },
+      "rdfs:label": "Zdenko von Sternberg"
+    },
+    {
+      "@id": "_:N0c2a991a495a49bbbe1dd7917f6cc276",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:E00001651"
+      },
+      "rdfs:label": "Wilhelm von Eulenburg"
+    }
+  ]
+}

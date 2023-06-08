@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1466-08-07_1_0_13_15_0_197_197",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N35410c99fe2d49b5ab5d3858247846aa"
+      }
+    },
+    {
+      "@id": "_:N35410c99fe2d49b5ab5d3858247846aa",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N9d82621a970843f892bbcc44b7c212db"
+      },
+      "ps:P291": {
+        "@id": "_:Ne18c323bad534bccbd214b132156862b"
+      },
+      "ps:P3342": {
+        "@id": "_:N8aa01e90459544b78ce5ed1ddde6ba6f"
+      }
+    },
+    {
+      "@id": "_:Ne18c323bad534bccbd214b132156862b",
+      "https://schema.org#geo": {
+        "@id": "_:Ndd8cf82528264b35823e8ffe270ef332"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q131612"
+      },
+      "rdfs:label": "Wiener Neustadt"
+    },
+    {
+      "@id": "_:Ndd8cf82528264b35823e8ffe270ef332",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.813153",
+      "https://schema.org#longitude": "16.24444"
+    },
+    {
+      "@id": "_:N9d82621a970843f892bbcc44b7c212db",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1466-08-07"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1466-08-07"
+      }
+    },
+    {
+      "@id": "_:N8aa01e90459544b78ce5ed1ddde6ba6f",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:P00000307"
+      },
+      "ps:P39": {
+        "@id": "ri:papst"
+      },
+      "rdfs:label": "Papstes (Paul II.)"
+    }
+  ]
+}

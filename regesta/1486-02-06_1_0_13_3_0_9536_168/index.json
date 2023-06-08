@@ -1,0 +1,90 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1486-02-06_1_0_13_3_0_9536_168",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Nf18f8f5152c8458fa4bc13b5facc0fd6"
+      }
+    },
+    {
+      "@id": "_:Nf18f8f5152c8458fa4bc13b5facc0fd6",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N19e942c1c85d4b8ba6cfa3d555e903fd"
+      },
+      "ps:P291": {
+        "@id": "_:N8b701b62349b48bd8462baadb738aa68"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N5b2f726edd9c45e0b6ab2b4d25fd7603"
+        },
+        {
+          "@id": "_:Nc66d9e78c62d4800bccb9126a68440a8"
+        }
+      ]
+    },
+    {
+      "@id": "_:N8b701b62349b48bd8462baadb738aa68",
+      "https://schema.org#geo": {
+        "@id": "_:N857e2d90db4a44018667402cbfc606b7"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q1794"
+      },
+      "rdfs:label": "Frankfurt"
+    },
+    {
+      "@id": "_:N857e2d90db4a44018667402cbfc606b7",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "50.110556",
+      "https://schema.org#longitude": "8.682222"
+    },
+    {
+      "@id": "_:N19e942c1c85d4b8ba6cfa3d555e903fd",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1486-02-06"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1486-02-06"
+      }
+    },
+    {
+      "@id": "_:N5b2f726edd9c45e0b6ab2b4d25fd7603",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:N00000981"
+      },
+      "ps:P39": {
+        "@id": "ri:kaemmerer"
+      },
+      "rdfs:label": "Kämmerer Sigmund von Niedertor"
+    },
+    {
+      "@id": "_:Nc66d9e78c62d4800bccb9126a68440a8",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:K00000579"
+      },
+      "ps:P39": {
+        "@id": "ri:graf"
+      },
+      "rdfs:label": "Gf. Philipps von Katzenelnbogen"
+    }
+  ]
+}

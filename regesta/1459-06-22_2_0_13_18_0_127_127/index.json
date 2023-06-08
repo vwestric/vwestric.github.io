@@ -1,0 +1,68 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1459-06-22_2_0_13_18_0_127_127",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Ncea22513a94045a59a147a8ec5bf0ffa"
+      }
+    },
+    {
+      "@id": "_:Ncea22513a94045a59a147a8ec5bf0ffa",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N3e9edaa394ae4744a73147f53a0ae931"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N3c1d1c4923dc4a0d9bd8c191836e8315"
+        },
+        {
+          "@id": "_:N18ae94fa07b047e0a73284d0ec1ca9c4"
+        }
+      ]
+    },
+    {
+      "@id": "_:N3e9edaa394ae4744a73147f53a0ae931",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1459-06-22"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1459-06-22"
+      }
+    },
+    {
+      "@id": "_:N3c1d1c4923dc4a0d9bd8c191836e8315",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00000095"
+      },
+      "ps:P39": {
+        "@id": "ri:markgraf"
+      },
+      "rdfs:label": "Mgf. Wilhelms von (Baden-)Hochberg"
+    },
+    {
+      "@id": "_:N18ae94fa07b047e0a73284d0ec1ca9c4",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:V00000729"
+      },
+      "rdfs:label": "Ursula Vohler"
+    }
+  ]
+}

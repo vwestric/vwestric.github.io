@@ -1,0 +1,101 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1459-03-14_1_0_13_11_0_330_330",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Nf69e28994a554111a3a825eee813dc41"
+      }
+    },
+    {
+      "@id": "_:Nf69e28994a554111a3a825eee813dc41",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N17e5f7efc6454743a5729e047b66fa1c"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N737f9b0082ee4110964704b133b9c98f"
+        },
+        {
+          "@id": "_:N89e39fad01c548f18e945c251c85c5eb"
+        },
+        {
+          "@id": "_:Nad58018600854b7490150e5e4eb9d49e"
+        },
+        {
+          "@id": "_:N1becbe318a6d4793b00f9a034723ca0f"
+        },
+        {
+          "@id": "_:Nceb5f59985e74cb2b19101a1472cc5cf"
+        }
+      ]
+    },
+    {
+      "@id": "_:N17e5f7efc6454743a5729e047b66fa1c",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1459-03-14"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1459-03-14"
+      }
+    },
+    {
+      "@id": "_:N737f9b0082ee4110964704b133b9c98f",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00000095"
+      },
+      "ps:P39": {
+        "@id": "ri:markgraf"
+      },
+      "rdfs:label": "Mgf. Wilhelm von Hachberg"
+    },
+    {
+      "@id": "_:N89e39fad01c548f18e945c251c85c5eb",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:R00003256"
+      },
+      "rdfs:label": "Michel Mort"
+    },
+    {
+      "@id": "_:Nad58018600854b7490150e5e4eb9d49e",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:D00000165"
+      },
+      "rdfs:label": "Hans von Degenberg"
+    },
+    {
+      "@id": "_:N1becbe318a6d4793b00f9a034723ca0f",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00004832"
+      },
+      "rdfs:label": "David vom Stein"
+    },
+    {
+      "@id": "_:Nceb5f59985e74cb2b19101a1472cc5cf",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:M00003048"
+      },
+      "rdfs:label": "Erhard von Murach"
+    }
+  ]
+}

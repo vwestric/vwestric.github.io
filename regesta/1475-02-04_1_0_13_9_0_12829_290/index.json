@@ -1,0 +1,90 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1475-02-04_1_0_13_9_0_12829_290",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N7deeb282f950494ba8d181bd9bf5a25a"
+      }
+    },
+    {
+      "@id": "_:N7deeb282f950494ba8d181bd9bf5a25a",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N65703dec536046149c0257c30339c090"
+      },
+      "ps:P291": {
+        "@id": "_:N8549f50cdf424b1187a2c22282dcb10f"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:Nca12fbfe1fc546bcb391f926f9cc99eb"
+        },
+        {
+          "@id": "_:Nf42d76cc88db4b0a844e96b29080975c"
+        }
+      ]
+    },
+    {
+      "@id": "_:N8549f50cdf424b1187a2c22282dcb10f",
+      "https://schema.org#geo": {
+        "@id": "_:Nad7db8aa92bc4e5d8b493fd2f2832de7"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q490058"
+      },
+      "rdfs:label": "Andernach"
+    },
+    {
+      "@id": "_:Nad7db8aa92bc4e5d8b493fd2f2832de7",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "50.4333",
+      "https://schema.org#longitude": "7.4"
+    },
+    {
+      "@id": "_:N65703dec536046149c0257c30339c090",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1475-02-04"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1475-02-04"
+      }
+    },
+    {
+      "@id": "_:Nca12fbfe1fc546bcb391f926f9cc99eb",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:T00001183"
+      },
+      "ps:P39": {
+        "@id": "ri:erzbischof"
+      },
+      "rdfs:label": "Eb. Johann von Trier"
+    },
+    {
+      "@id": "_:Nf42d76cc88db4b0a844e96b29080975c",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00002248"
+      },
+      "ps:P39": {
+        "@id": "ri:markgraf"
+      },
+      "rdfs:label": "Mgf. Albrechts von Brandenburg"
+    }
+  ]
+}

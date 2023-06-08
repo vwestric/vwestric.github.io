@@ -1,0 +1,52 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1471-11-20_1_0_13_4_0_10127_555",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N38fade206724400fa06d0d854d7b6601"
+      }
+    },
+    {
+      "@id": "_:N38fade206724400fa06d0d854d7b6601",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Ne1cc6b57c36d47fc92621b996e2124cc"
+      },
+      "ps:P3342": {
+        "@id": "_:Ne775e89d8fae4356894f4aaf1a1bdbad"
+      }
+    },
+    {
+      "@id": "_:Ne1cc6b57c36d47fc92621b996e2124cc",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1471-11-20"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1471-11-20"
+      }
+    },
+    {
+      "@id": "_:Ne775e89d8fae4356894f4aaf1a1bdbad",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00000504"
+      },
+      "rdfs:label": "Claus Bavare von Colmar"
+    }
+  ]
+}

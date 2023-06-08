@@ -1,0 +1,55 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:d8bda72d-67e7-4b2a-8038-36530280526c",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N4549caa788cc4dd483f15013a75f85e5"
+      }
+    },
+    {
+      "@id": "_:N4549caa788cc4dd483f15013a75f85e5",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N4e3fe6ae15bc461aae1b4165762e02ae"
+      },
+      "ps:P3342": {
+        "@id": "_:N2e20675e2bda4e5582ee11a12bd3f9af"
+      }
+    },
+    {
+      "@id": "_:N4e3fe6ae15bc461aae1b4165762e02ae",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1486-05-20"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1486-05-20"
+      }
+    },
+    {
+      "@id": "_:N2e20675e2bda4e5582ee11a12bd3f9af",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00000064"
+      },
+      "ps:P39": {
+        "@id": "ri:herzog"
+      },
+      "rdfs:label": "Hz. Albrecht von Sachsen"
+    }
+  ]
+}

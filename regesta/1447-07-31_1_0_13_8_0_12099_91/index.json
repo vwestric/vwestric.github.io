@@ -1,0 +1,112 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1447-07-31_1_0_13_8_0_12099_91",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Nb9c8edbe0a724eb392a0102a3a286b7a"
+      }
+    },
+    {
+      "@id": "_:Nb9c8edbe0a724eb392a0102a3a286b7a",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N7c0d476380a54634bdb48c722e581e81"
+      },
+      "ps:P291": {
+        "@id": "_:N3975b2037f664d269e948a85d9e27d33"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N7a1da694e3b84cfa90e9942595ada976"
+        },
+        {
+          "@id": "_:Na9dfdf4af94d43398421d3257577ee75"
+        },
+        {
+          "@id": "_:N6414f83c5bc64b5caf1733c47dffe133"
+        },
+        {
+          "@id": "_:N6bf0c3b50bd64f8e84ba90e90b10961a"
+        }
+      ]
+    },
+    {
+      "@id": "_:N3975b2037f664d269e948a85d9e27d33",
+      "https://schema.org#geo": {
+        "@id": "_:N465982c09eb44047b0473e612a8c0cb6"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q1741"
+      },
+      "rdfs:label": "Wien"
+    },
+    {
+      "@id": "_:N465982c09eb44047b0473e612a8c0cb6",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "48.20849",
+      "https://schema.org#longitude": "16.37208"
+    },
+    {
+      "@id": "_:N7c0d476380a54634bdb48c722e581e81",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1447-07-31"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1447-07-31"
+      }
+    },
+    {
+      "@id": "_:N7a1da694e3b84cfa90e9942595ada976",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:I00000279"
+      },
+      "ps:P39": {
+        "@id": "ri:graf"
+      },
+      "rdfs:label": "Gf. Diether von Isenburg-Büdingen"
+    },
+    {
+      "@id": "_:Na9dfdf4af94d43398421d3257577ee75",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:W00002456"
+      },
+      "rdfs:label": "Hermann Windeckes von Mainz"
+    },
+    {
+      "@id": "_:N6414f83c5bc64b5caf1733c47dffe133",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:K00000431"
+      },
+      "ps:P39": {
+        "@id": "ri:kaiser"
+      },
+      "rdfs:label": "Kaiser Karl (IV.)"
+    },
+    {
+      "@id": "_:N6bf0c3b50bd64f8e84ba90e90b10961a",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:W00002450"
+      },
+      "rdfs:label": "Eberhard Windecke"
+    }
+  ]
+}

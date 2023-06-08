@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1470-12-17_6_0_13_20_0_178_178",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N36f378ccb81e44c0b75b0ffb92c7de5d"
+      }
+    },
+    {
+      "@id": "_:N36f378ccb81e44c0b75b0ffb92c7de5d",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N8acba33127324f729a614b15703c0d3c"
+      },
+      "ps:P291": {
+        "@id": "_:N535c6598b04841a191ca51c6ebe1b234"
+      },
+      "ps:P3342": {
+        "@id": "_:N14a66fee4f8b4a299295c30ad03c7576"
+      }
+    },
+    {
+      "@id": "_:N535c6598b04841a191ca51c6ebe1b234",
+      "https://schema.org#geo": {
+        "@id": "_:Nc19fd83cbd544d31a85d9c7c02788b76"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q13298"
+      },
+      "rdfs:label": "Graz"
+    },
+    {
+      "@id": "_:Nc19fd83cbd544d31a85d9c7c02788b76",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.06667",
+      "https://schema.org#longitude": "15.45"
+    },
+    {
+      "@id": "_:N8acba33127324f729a614b15703c0d3c",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1470-12-17"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1470-12-17"
+      }
+    },
+    {
+      "@id": "_:N14a66fee4f8b4a299295c30ad03c7576",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00002248"
+      },
+      "ps:P39": {
+        "@id": "ri:kurfuerst"
+      },
+      "rdfs:label": "Kf. Albrechts von Brandenburg"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:cdf1ebca-4ce2-4316-9b78-69a3804e3feb",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N151974b05b3b4b0e8e2f8c67661a69d7"
+      }
+    },
+    {
+      "@id": "_:N151974b05b3b4b0e8e2f8c67661a69d7",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N3cac4f7c8e0d400898d38a1c08b563e9"
+      },
+      "ps:P291": {
+        "@id": "_:N2111b23c5ea04e3aa3cb70a3d05436a3"
+      }
+    },
+    {
+      "@id": "_:N2111b23c5ea04e3aa3cb70a3d05436a3",
+      "https://schema.org#geo": {
+        "@id": "_:N6c91d2ba14a44261be6d410ea118874e"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q78"
+      },
+      "rdfs:label": "Basel"
+    },
+    {
+      "@id": "_:N6c91d2ba14a44261be6d410ea118874e",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.55839",
+      "https://schema.org#longitude": "7.57327"
+    },
+    {
+      "@id": "_:N3cac4f7c8e0d400898d38a1c08b563e9",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1442-11-13"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1442-11-13"
+      }
+    }
+  ]
+}

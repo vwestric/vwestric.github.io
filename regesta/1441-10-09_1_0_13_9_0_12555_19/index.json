@@ -1,0 +1,90 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1441-10-09_1_0_13_9_0_12555_19",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N6a55ef9cafb94138a625654969b2c384"
+      }
+    },
+    {
+      "@id": "_:N6a55ef9cafb94138a625654969b2c384",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N0dbc602b88ed4494b31e709e889751f0"
+      },
+      "ps:P291": {
+        "@id": "_:Nf1da0d32a9474fa881997721f3945fd5"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N29a802d0e0544ee1aae2b7350477315b"
+        },
+        {
+          "@id": "_:Nb5be48f5829c4755a57674ecde5c6290"
+        }
+      ]
+    },
+    {
+      "@id": "_:Nf1da0d32a9474fa881997721f3945fd5",
+      "https://schema.org#geo": {
+        "@id": "_:Nd7b7ae4f2dbf4a069db372ae740eb78c"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q13298"
+      },
+      "rdfs:label": "Graz"
+    },
+    {
+      "@id": "_:Nd7b7ae4f2dbf4a069db372ae740eb78c",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.06667",
+      "https://schema.org#longitude": "15.45"
+    },
+    {
+      "@id": "_:N0dbc602b88ed4494b31e709e889751f0",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1441-10-09"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1441-10-09"
+      }
+    },
+    {
+      "@id": "_:N29a802d0e0544ee1aae2b7350477315b",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:F00000906"
+      },
+      "ps:P39": {
+        "@id": "ri:koenig"
+      },
+      "rdfs:label": "Kg. Karl (VII.) von Frankreich"
+    },
+    {
+      "@id": "_:Nb5be48f5829c4755a57674ecde5c6290",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:T00001172"
+      },
+      "ps:P39": {
+        "@id": "ri:erzbischof"
+      },
+      "rdfs:label": "Eb. Jakob von Trier"
+    }
+  ]
+}

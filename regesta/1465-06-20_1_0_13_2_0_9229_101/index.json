@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1465-06-20_1_0_13_2_0_9229_101",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Nab8a936a08b74d9280adcf0842ab095d"
+      }
+    },
+    {
+      "@id": "_:Nab8a936a08b74d9280adcf0842ab095d",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Nae40ddfccaaa4e62a34b37151c4c7bf3"
+      },
+      "ps:P291": {
+        "@id": "_:Na2228970d3b545a697aa99c7304cc27a"
+      },
+      "ps:P3342": {
+        "@id": "_:N0d87c57d13c34f0cbb7ff799970cf419"
+      }
+    },
+    {
+      "@id": "_:Na2228970d3b545a697aa99c7304cc27a",
+      "https://schema.org#geo": {
+        "@id": "_:N9e189f6221844c81ae61b98e56a3c06e"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q131612"
+      },
+      "rdfs:label": "Wiener Neustadt"
+    },
+    {
+      "@id": "_:N9e189f6221844c81ae61b98e56a3c06e",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.813153",
+      "https://schema.org#longitude": "16.24444"
+    },
+    {
+      "@id": "_:Nae40ddfccaaa4e62a34b37151c4c7bf3",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1465-06-20"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1465-06-20"
+      }
+    },
+    {
+      "@id": "_:N0d87c57d13c34f0cbb7ff799970cf419",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:U00000433"
+      },
+      "ps:P39": {
+        "@id": "ri:abt"
+      },
+      "rdfs:label": "Abt Ulrich des Klosters Ursberg"
+    }
+  ]
+}

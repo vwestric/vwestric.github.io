@@ -1,0 +1,85 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1459-06-04_3_0_13_4_0_9861_291",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N95e4d0384e4c41ed866746e3b07b721a"
+      }
+    },
+    {
+      "@id": "_:N95e4d0384e4c41ed866746e3b07b721a",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N0555831f2d7c489c92a5dfada54fbf57"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N2c929c69b02c42e5add1e8417669c9a4"
+        },
+        {
+          "@id": "_:Nd3598f23075c450e9ef36f5aa8b85dbe"
+        },
+        {
+          "@id": "_:N8e0c91ca9f1f4dd0bb937b38ea5aa52a"
+        }
+      ]
+    },
+    {
+      "@id": "_:N0555831f2d7c489c92a5dfada54fbf57",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1459-06-04"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1459-06-04"
+      }
+    },
+    {
+      "@id": "_:N2c929c69b02c42e5add1e8417669c9a4",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00000099"
+      },
+      "ps:P39": {
+        "@id": "ri:herzog"
+      },
+      "rdfs:label": "Hz. Wilhelm von Sachsen"
+    },
+    {
+      "@id": "_:Nd3598f23075c450e9ef36f5aa8b85dbe",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00000565"
+      },
+      "ps:P39": {
+        "@id": "ri:herzog"
+      },
+      "rdfs:label": "Hz. Ludwig (IX.) von Bayern(-Landshut)"
+    },
+    {
+      "@id": "_:N8e0c91ca9f1f4dd0bb937b38ea5aa52a",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00002248"
+      },
+      "ps:P39": {
+        "@id": "ri:markgraf"
+      },
+      "rdfs:label": "Mgf. Albrecht von Brandenburg"
+    }
+  ]
+}

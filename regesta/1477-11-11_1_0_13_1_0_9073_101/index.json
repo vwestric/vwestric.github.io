@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1477-11-11_1_0_13_1_0_9073_101",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N790fa918ad8442d4b487b0e777b8cbd0"
+      }
+    },
+    {
+      "@id": "_:N790fa918ad8442d4b487b0e777b8cbd0",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N50554f486ba1464b9f87c7ed9f9e7a9a"
+      },
+      "ps:P291": {
+        "@id": "_:Nb73924f68bf44862941eb8a2ad6abf34"
+      },
+      "ps:P3342": {
+        "@id": "_:Nc72312cfff8d4eb7adc1683158981f89"
+      }
+    },
+    {
+      "@id": "_:Nb73924f68bf44862941eb8a2ad6abf34",
+      "https://schema.org#geo": {
+        "@id": "_:Nbb697ab819b245cab569ecd683f507c9"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q430449"
+      },
+      "rdfs:label": "Gmunden"
+    },
+    {
+      "@id": "_:Nbb697ab819b245cab569ecd683f507c9",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.91839",
+      "https://schema.org#longitude": "13.79933"
+    },
+    {
+      "@id": "_:N50554f486ba1464b9f87c7ed9f9e7a9a",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1477-11-11"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1477-11-11"
+      }
+    },
+    {
+      "@id": "_:Nc72312cfff8d4eb7adc1683158981f89",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:M00002433"
+      },
+      "ps:P39": {
+        "@id": "ri:graf"
+      },
+      "rdfs:label": "Gf. Ulrich von Montfort"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1441-09-27_1_0_13_24_0_5_5",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N9fee1af08f0a49fc81eb757420ef3aba"
+      }
+    },
+    {
+      "@id": "_:N9fee1af08f0a49fc81eb757420ef3aba",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Nced679b9d00e4c0481c921e1e15e9e41"
+      },
+      "ps:P3342": {
+        "@id": "_:Nc98ad97c63364ca399cc350ba31fdda9"
+      }
+    },
+    {
+      "@id": "_:Nced679b9d00e4c0481c921e1e15e9e41",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1441-09-27"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1441-09-27"
+      }
+    },
+    {
+      "@id": "_:Nc98ad97c63364ca399cc350ba31fdda9",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:E00000740"
+      },
+      "ps:P39": {
+        "@id": "ri:hochmeister"
+      },
+      "rdfs:label": "Hochmeister des Deutschen Ordens Konrad von Erlichshausen"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1492-11-08_1_0_13_26_0_802_802",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N77e484543e2e4299a3e48c0e8bec28bf"
+      }
+    },
+    {
+      "@id": "_:N77e484543e2e4299a3e48c0e8bec28bf",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N9cef78189b114bd3b08cf51ecb0b32de"
+      },
+      "ps:P291": {
+        "@id": "_:N99c138f3b54f4178b3162ae90756ab4b"
+      },
+      "ps:P3342": {
+        "@id": "_:N0a79b1ac23fc47d79fb6d056be1631d7"
+      }
+    },
+    {
+      "@id": "_:N99c138f3b54f4178b3162ae90756ab4b",
+      "https://schema.org#geo": {
+        "@id": "_:N85def553f83d4dc9822277f4be913f61"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q41329"
+      },
+      "rdfs:label": "Linz"
+    },
+    {
+      "@id": "_:N85def553f83d4dc9822277f4be913f61",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "48.303056",
+      "https://schema.org#longitude": "14.290556"
+    },
+    {
+      "@id": "_:N9cef78189b114bd3b08cf51ecb0b32de",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1492-11-08"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1492-11-08"
+      }
+    },
+    {
+      "@id": "_:N0a79b1ac23fc47d79fb6d056be1631d7",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:W00003411"
+      },
+      "rdfs:label": "Watzlaw Wulczko"
+    }
+  ]
+}

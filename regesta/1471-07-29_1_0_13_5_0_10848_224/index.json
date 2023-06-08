@@ -1,0 +1,90 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1471-07-29_1_0_13_5_0_10848_224",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N2f6fb44e9c52446dac2b42a2c8bcc2d7"
+      }
+    },
+    {
+      "@id": "_:N2f6fb44e9c52446dac2b42a2c8bcc2d7",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Nd209d6523cde4309a9ec8c0072580c8e"
+      },
+      "ps:P291": {
+        "@id": "_:N381d20b5684f4ff49eb62be1e84f6924"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:Nf31697a59a6844c889550a524448dafd"
+        },
+        {
+          "@id": "_:Ncd8b6aacd0d14472b279d9533f55e46e"
+        }
+      ]
+    },
+    {
+      "@id": "_:N381d20b5684f4ff49eb62be1e84f6924",
+      "https://schema.org#geo": {
+        "@id": "_:N45afc659d9ac41818bb9f7afc1167429"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q2978"
+      },
+      "rdfs:label": "Regensburg"
+    },
+    {
+      "@id": "_:N45afc659d9ac41818bb9f7afc1167429",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "49.0054",
+      "https://schema.org#longitude": "12.0606"
+    },
+    {
+      "@id": "_:Nd209d6523cde4309a9ec8c0072580c8e",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1471-07-29"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1471-07-29"
+      }
+    },
+    {
+      "@id": "_:Nf31697a59a6844c889550a524448dafd",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00001064"
+      },
+      "ps:P39": {
+        "@id": "ri:graf"
+      },
+      "rdfs:label": "Gf. Gerhard von Sayn"
+    },
+    {
+      "@id": "_:Ncd8b6aacd0d14472b279d9533f55e46e",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:K00001690"
+      },
+      "ps:P39": {
+        "@id": "ri:erzbischof"
+      },
+      "rdfs:label": "Eb. Ruprecht von Köln"
+    }
+  ]
+}

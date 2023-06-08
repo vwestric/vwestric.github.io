@@ -1,0 +1,87 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1449-05-05_1_0_13_2_0_9161_33",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N479e95100b004ca19b45c6dfd7748dfb"
+      }
+    },
+    {
+      "@id": "_:N479e95100b004ca19b45c6dfd7748dfb",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Nf6524dcc76b54df88bcb45b4b09fc1a4"
+      },
+      "ps:P291": {
+        "@id": "_:N5a774582019047a2b94a6c1d5495f898"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:Nc5be987d549d4c45b22e7f73a7f5c753"
+        },
+        {
+          "@id": "_:N5a2cba0b73cd4e84bfcee9dd35c5f731"
+        }
+      ]
+    },
+    {
+      "@id": "_:N5a774582019047a2b94a6c1d5495f898",
+      "https://schema.org#geo": {
+        "@id": "_:Neb89474bb433405480e4e3ecbc44191d"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q1741"
+      },
+      "rdfs:label": "Wien"
+    },
+    {
+      "@id": "_:Neb89474bb433405480e4e3ecbc44191d",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "48.20849",
+      "https://schema.org#longitude": "16.37208"
+    },
+    {
+      "@id": "_:Nf6524dcc76b54df88bcb45b4b09fc1a4",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1449-05-05"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1449-05-05"
+      }
+    },
+    {
+      "@id": "_:Nc5be987d549d4c45b22e7f73a7f5c753",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:C00000330"
+      },
+      "ps:P39": {
+        "@id": "ri:bischof"
+      },
+      "rdfs:label": "Bischof Silvester von Chiemsee"
+    },
+    {
+      "@id": "_:N5a2cba0b73cd4e84bfcee9dd35c5f731",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00001602"
+      },
+      "rdfs:label": "Jörg Schermer"
+    }
+  ]
+}

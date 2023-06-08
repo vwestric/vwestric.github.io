@@ -1,0 +1,101 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1453-08-13_1_0_13_8_0_12160_152",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Na67b63047d014d65ad37dd9c537d94f1"
+      }
+    },
+    {
+      "@id": "_:Na67b63047d014d65ad37dd9c537d94f1",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N6ee9ec5b747f42df8f9f0d2b8c3e0062"
+      },
+      "ps:P291": {
+        "@id": "_:N51ea071b173448f88cfe21a03ac33633"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N6e48d035660c4f4eb5ccd96b0ae22e1a"
+        },
+        {
+          "@id": "_:Nf5fd4a1589f74c82a02ea0c26941f6fd"
+        },
+        {
+          "@id": "_:Nbd5112e0d19d4985979d18903b9aeb46"
+        }
+      ]
+    },
+    {
+      "@id": "_:N51ea071b173448f88cfe21a03ac33633",
+      "https://schema.org#geo": {
+        "@id": "_:N652614a353e94772955483feabe4d087"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q13298"
+      },
+      "rdfs:label": "Graz"
+    },
+    {
+      "@id": "_:N652614a353e94772955483feabe4d087",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.06667",
+      "https://schema.org#longitude": "15.45"
+    },
+    {
+      "@id": "_:N6ee9ec5b747f42df8f9f0d2b8c3e0062",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1453-08-13"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1453-08-13"
+      }
+    },
+    {
+      "@id": "_:N6e48d035660c4f4eb5ccd96b0ae22e1a",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:T00001172"
+      },
+      "ps:P39": {
+        "@id": "ri:erzbischof"
+      },
+      "rdfs:label": "Eb. Jakob von Trier"
+    },
+    {
+      "@id": "_:Nf5fd4a1589f74c82a02ea0c26941f6fd",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:I00000279"
+      },
+      "ps:P39": {
+        "@id": "ri:graf"
+      },
+      "rdfs:label": "Gf. Diether von Isenburg-Büdingen"
+    },
+    {
+      "@id": "_:Nbd5112e0d19d4985979d18903b9aeb46",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:P00002036"
+      },
+      "rdfs:label": "Albrechts von Pottendorf"
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1477-05-21_1_0_13_9_0_12875_336",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Ned13b3418cff44b8a30dfdf57baeeabc"
+      }
+    },
+    {
+      "@id": "_:Ned13b3418cff44b8a30dfdf57baeeabc",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N4a0a173da68e4a34b0c5375a465bb95e"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:Nfa38f9ea3191456ebf2cf7c4b2bae15f"
+        },
+        {
+          "@id": "_:Nf13ab03011ed4f15892ec328b85c3ab8"
+        },
+        {
+          "@id": "_:Na47d47f97aea42c080b56664648cdf54"
+        },
+        {
+          "@id": "_:N719291b3a70a4b44b5dbdd9554e33b72"
+        }
+      ]
+    },
+    {
+      "@id": "_:N4a0a173da68e4a34b0c5375a465bb95e",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1477-05-21"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1477-05-21"
+      }
+    },
+    {
+      "@id": "_:Nfa38f9ea3191456ebf2cf7c4b2bae15f",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:L00002223"
+      },
+      "ps:P39": {
+        "@id": "ri:bischof"
+      },
+      "rdfs:label": "Bf. Ludwig von Lüttich"
+    },
+    {
+      "@id": "_:Nf13ab03011ed4f15892ec328b85c3ab8",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:P00001026"
+      },
+      "ps:P39": {
+        "@id": "ri:pfalzgraf"
+      },
+      "rdfs:label": "Pfgf. Friedrich von (Simmern-)Sponheim"
+    },
+    {
+      "@id": "_:Na47d47f97aea42c080b56664648cdf54",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:M00002247"
+      },
+      "ps:P39": {
+        "@id": "ri:graf"
+      },
+      "rdfs:label": "Gf. Vincenz von Moers-Saarwerden"
+    },
+    {
+      "@id": "_:N719291b3a70a4b44b5dbdd9554e33b72",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:M00000513"
+      },
+      "ps:P39": {
+        "@id": "ri:graf"
+      },
+      "rdfs:label": "Gf. Dietrich von Manderscheid"
+    }
+  ]
+}

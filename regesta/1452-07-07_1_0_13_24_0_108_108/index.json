@@ -1,0 +1,208 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1452-07-07_1_0_13_24_0_108_108",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N005020c93f4841bea0ec1026cb87ec4e"
+      }
+    },
+    {
+      "@id": "_:N005020c93f4841bea0ec1026cb87ec4e",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N9135081e26c4455f9b701d047a5e2fe4"
+      },
+      "ps:P291": {
+        "@id": "_:N3e9ae55d82724b2ea5e16c30bc479a5b"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N20d8269d9ffc41889edde7642d32653f"
+        },
+        {
+          "@id": "_:N1375d61efc524a6a9f4ed9cc2eb7cf10"
+        },
+        {
+          "@id": "_:N7cb637f5bc1c47548d5a6f2491be8504"
+        },
+        {
+          "@id": "_:N3e13baf1ab88421c8ade947417045e2c"
+        },
+        {
+          "@id": "_:Na46ddf6ee1c0478292c0721ce2d87557"
+        },
+        {
+          "@id": "_:Ne0bf460629ed4115ab7495e583733bc2"
+        },
+        {
+          "@id": "_:N945f065f6b9948b6b843a982ccaf6842"
+        },
+        {
+          "@id": "_:N8e69b1ef0dbf437681a85b381fd43d2b"
+        },
+        {
+          "@id": "_:N8f411a06077b4ff981422425a84bf5ed"
+        },
+        {
+          "@id": "_:N9ddb0afd1b91461d8f08a9d5222e8bfa"
+        },
+        {
+          "@id": "_:Nc12aebe28eab44049884b4b6c517c2e7"
+        },
+        {
+          "@id": "_:N255ae94da48842058802af3ff9d3e054"
+        },
+        {
+          "@id": "_:N148d051e9ec74fa9ba6b753ed1161794"
+        }
+      ]
+    },
+    {
+      "@id": "_:N3e9ae55d82724b2ea5e16c30bc479a5b",
+      "https://schema.org#geo": {
+        "@id": "_:N96f8ea03a7bf495bac8e765385c490b9"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q131612"
+      },
+      "rdfs:label": "Wiener Neustadt"
+    },
+    {
+      "@id": "_:N96f8ea03a7bf495bac8e765385c490b9",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.813153",
+      "https://schema.org#longitude": "16.24444"
+    },
+    {
+      "@id": "_:N9135081e26c4455f9b701d047a5e2fe4",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1452-07-07"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1452-07-07"
+      }
+    },
+    {
+      "@id": "_:N20d8269d9ffc41889edde7642d32653f",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:L00000357"
+      },
+      "rdfs:label": "Niklas Lang"
+    },
+    {
+      "@id": "_:N1375d61efc524a6a9f4ed9cc2eb7cf10",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:R00002137"
+      },
+      "rdfs:label": "Jorgen Roder"
+    },
+    {
+      "@id": "_:N7cb637f5bc1c47548d5a6f2491be8504",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:C00000502"
+      },
+      "rdfs:label": "Niklas Claß"
+    },
+    {
+      "@id": "_:N3e13baf1ab88421c8ade947417045e2c",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:W00002884"
+      },
+      "rdfs:label": "Hans Wolf"
+    },
+    {
+      "@id": "_:Na46ddf6ee1c0478292c0721ce2d87557",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00000917"
+      },
+      "rdfs:label": "Laurenz Berber"
+    },
+    {
+      "@id": "_:Ne0bf460629ed4115ab7495e583733bc2",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00003168"
+      },
+      "rdfs:label": "Niklas Burdener"
+    },
+    {
+      "@id": "_:N945f065f6b9948b6b843a982ccaf6842",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00000021"
+      },
+      "rdfs:label": "Niklas Babentzin"
+    },
+    {
+      "@id": "_:N8e69b1ef0dbf437681a85b381fd43d2b",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00004321"
+      },
+      "rdfs:label": "Peter Spilner"
+    },
+    {
+      "@id": "_:N8f411a06077b4ff981422425a84bf5ed",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:H00002712"
+      },
+      "rdfs:label": "Stefan Hoffmann"
+    },
+    {
+      "@id": "_:N9ddb0afd1b91461d8f08a9d5222e8bfa",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:H00001469"
+      },
+      "rdfs:label": "Matthias Heinrich"
+    },
+    {
+      "@id": "_:Nc12aebe28eab44049884b4b6c517c2e7",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00003212"
+      },
+      "ps:P39": {
+        "@id": "ri:burggraf"
+      },
+      "rdfs:label": "Kaspar Burggraf"
+    },
+    {
+      "@id": "_:N255ae94da48842058802af3ff9d3e054",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:P00001323"
+      },
+      "rdfs:label": "Peter Pilgrim"
+    },
+    {
+      "@id": "_:N148d051e9ec74fa9ba6b753ed1161794",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:W00000028"
+      },
+      "rdfs:label": "Martin Wachsschmid"
+    }
+  ]
+}

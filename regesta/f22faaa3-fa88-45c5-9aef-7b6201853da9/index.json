@@ -1,0 +1,101 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:f22faaa3-fa88-45c5-9aef-7b6201853da9",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N8b5050a005bc4d83ba6384fabe1de1a3"
+      }
+    },
+    {
+      "@id": "_:N8b5050a005bc4d83ba6384fabe1de1a3",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N888def7e4bfe449ea394ce40c7103536"
+      },
+      "ps:P291": {
+        "@id": "_:Nfb9c990a91f1490eb713b28515fe2270"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N9e5273ac354c4d58b89c79850f3f3560"
+        },
+        {
+          "@id": "_:N058984675e174809a05fa9ccf9da0188"
+        },
+        {
+          "@id": "_:N5a028ed775264a8899ad0c5fdb76c980"
+        }
+      ]
+    },
+    {
+      "@id": "_:Nfb9c990a91f1490eb713b28515fe2270",
+      "https://schema.org#geo": {
+        "@id": "_:Nab64feb2f87c4078ba10acde3c3e36e3"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q13298"
+      },
+      "rdfs:label": "Graz"
+    },
+    {
+      "@id": "_:Nab64feb2f87c4078ba10acde3c3e36e3",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.06667",
+      "https://schema.org#longitude": "15.45"
+    },
+    {
+      "@id": "_:N888def7e4bfe449ea394ce40c7103536",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1462-03-24"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1462-03-24"
+      }
+    },
+    {
+      "@id": "_:N9e5273ac354c4d58b89c79850f3f3560",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00000565"
+      },
+      "ps:P39": {
+        "@id": "ri:herzog"
+      },
+      "rdfs:label": "Hz. Ludwig (IX.) von Bayern(-Landshut)"
+    },
+    {
+      "@id": "_:N058984675e174809a05fa9ccf9da0188",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:P00000962"
+      },
+      "ps:P39": {
+        "@id": "ri:pfalzgraf"
+      },
+      "rdfs:label": "Pfgf. Friedrich (I.) bei Rhein"
+    },
+    {
+      "@id": "_:N5a028ed775264a8899ad0c5fdb76c980",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:I00000279"
+      },
+      "rdfs:label": "Diether von Isenburg"
+    }
+  ]
+}

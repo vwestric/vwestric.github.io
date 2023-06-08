@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1447-10-23_2_0_13_17_0_83_82",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N98392eda0f474501b442ac79dd363677"
+      }
+    },
+    {
+      "@id": "_:N98392eda0f474501b442ac79dd363677",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N5782faf3c6aa4debb3aca10d7ce6c080"
+      },
+      "ps:P291": {
+        "@id": "_:N6ec9914e4e0145f884cf27c305305f29"
+      },
+      "ps:P3342": {
+        "@id": "_:N6387fc24450d4738a8311fc273e93475"
+      }
+    },
+    {
+      "@id": "_:N6ec9914e4e0145f884cf27c305305f29",
+      "https://schema.org#geo": {
+        "@id": "_:N2d07a6f651554ffca342abd0fcd17920"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q1741"
+      },
+      "rdfs:label": "Wien"
+    },
+    {
+      "@id": "_:N2d07a6f651554ffca342abd0fcd17920",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "48.20849",
+      "https://schema.org#longitude": "16.37208"
+    },
+    {
+      "@id": "_:N5782faf3c6aa4debb3aca10d7ce6c080",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1447-10-23"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1447-10-23"
+      }
+    },
+    {
+      "@id": "_:N6387fc24450d4738a8311fc273e93475",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:C00000462"
+      },
+      "ps:P39": {
+        "@id": "ri:graf"
+      },
+      "rdfs:label": "Gf. Ulrich von Cilli"
+    }
+  ]
+}

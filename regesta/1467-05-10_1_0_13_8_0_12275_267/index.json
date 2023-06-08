@@ -1,0 +1,222 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1467-05-10_1_0_13_8_0_12275_267",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Na047a638d8f74cf29c0a56b97e247fd1"
+      }
+    },
+    {
+      "@id": "_:Na047a638d8f74cf29c0a56b97e247fd1",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N3437ebad0ca047ecb019aa2539deff79"
+      },
+      "ps:P291": {
+        "@id": "_:Na067f628b26349cdb9c54c7ba74cb845"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:Ne11d0e7991af4d4ba255ecfb8e0282b8"
+        },
+        {
+          "@id": "_:N6d36c65a59824e8ba42d1ff7eb7c0297"
+        },
+        {
+          "@id": "_:N04c6d6da60bd4d518c487c46a648b4e9"
+        },
+        {
+          "@id": "_:N20e29b5262bf45b8afaf6b50cada7afd"
+        },
+        {
+          "@id": "_:N925cfe09b80645b9a0daa2e1ffb46b6d"
+        },
+        {
+          "@id": "_:Nc2ee18f50959473187d27d2ee72ddc6b"
+        },
+        {
+          "@id": "_:Nefe8e2b3c26b4653a69fe9d6aa8e7d04"
+        },
+        {
+          "@id": "_:Nc54f70077efe4e2f930d7f6276516660"
+        },
+        {
+          "@id": "_:N9438ccdecb1d44a4b54633045e4db44f"
+        },
+        {
+          "@id": "_:N702daa33a13d46a58e5083c62bc60722"
+        },
+        {
+          "@id": "_:N7232fb8a34304ceb9d36622f603ce303"
+        },
+        {
+          "@id": "_:Nfce4c5040b7842f1a5d142cbecef6228"
+        },
+        {
+          "@id": "_:N6a29511f0d1045c88bf554e165fff03c"
+        },
+        {
+          "@id": "_:Ne292d336c0564184adb3346ebefed8f4"
+        }
+      ]
+    },
+    {
+      "@id": "_:Na067f628b26349cdb9c54c7ba74cb845",
+      "https://schema.org#geo": {
+        "@id": "_:N54cabcaf38f14cb7b5b3c7e94d2a8a70"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q131612"
+      },
+      "rdfs:label": "Wiener Neustadt"
+    },
+    {
+      "@id": "_:N54cabcaf38f14cb7b5b3c7e94d2a8a70",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.813153",
+      "https://schema.org#longitude": "16.24444"
+    },
+    {
+      "@id": "_:N3437ebad0ca047ecb019aa2539deff79",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1467-05-10"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1467-05-10"
+      }
+    },
+    {
+      "@id": "_:Ne11d0e7991af4d4ba255ecfb8e0282b8",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:M00001793"
+      },
+      "rdfs:label": "Georg von Metz"
+    },
+    {
+      "@id": "_:N6d36c65a59824e8ba42d1ff7eb7c0297",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00000385"
+      },
+      "rdfs:label": "Johann von Basel"
+    },
+    {
+      "@id": "_:N04c6d6da60bd4d518c487c46a648b4e9",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:W00003114"
+      },
+      "rdfs:label": "Reinhard von Worms"
+    },
+    {
+      "@id": "_:N20e29b5262bf45b8afaf6b50cada7afd",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:P00001020"
+      },
+      "ps:P39": {
+        "@id": "ri:pfalzgraf"
+      },
+      "rdfs:label": "Pfgf. Otto bei Rhein(-Mosbach)"
+    },
+    {
+      "@id": "_:N925cfe09b80645b9a0daa2e1ffb46b6d",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:O00000622"
+      },
+      "rdfs:label": "Sigmund von Österreich"
+    },
+    {
+      "@id": "_:Nc2ee18f50959473187d27d2ee72ddc6b",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00002248"
+      },
+      "rdfs:label": "Albrecht von Brandenburg"
+    },
+    {
+      "@id": "_:Nefe8e2b3c26b4653a69fe9d6aa8e7d04",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00000075"
+      },
+      "rdfs:label": "Karl von Baden"
+    },
+    {
+      "@id": "_:Nc54f70077efe4e2f930d7f6276516660",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:K00000579"
+      },
+      "rdfs:label": "Philipp von Katzenelnbogen"
+    },
+    {
+      "@id": "_:N9438ccdecb1d44a4b54633045e4db44f",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00000290"
+      },
+      "rdfs:label": "Johann von Salm"
+    },
+    {
+      "@id": "_:N702daa33a13d46a58e5083c62bc60722",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:E00000087"
+      },
+      "rdfs:label": "Bernhard von Eberstein"
+    },
+    {
+      "@id": "_:N7232fb8a34304ceb9d36622f603ce303",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:L00002291"
+      },
+      "rdfs:label": "Sigmund von Lupfen"
+    },
+    {
+      "@id": "_:Nfce4c5040b7842f1a5d142cbecef6228",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:H00002908"
+      },
+      "rdfs:label": "Albrecht von Hohenlohe"
+    },
+    {
+      "@id": "_:N6a29511f0d1045c88bf554e165fff03c",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:O00000427"
+      },
+      "rdfs:label": "Georg von Ochsenstein"
+    },
+    {
+      "@id": "_:Ne292d336c0564184adb3346ebefed8f4",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:L00001300"
+      },
+      "ps:P39": {
+        "@id": "ri:lic"
+      },
+      "rdfs:label": "Ludwig von Lichtenberg"
+    }
+  ]
+}

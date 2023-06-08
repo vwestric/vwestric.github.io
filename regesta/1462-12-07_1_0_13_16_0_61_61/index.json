@@ -1,0 +1,98 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1462-12-07_1_0_13_16_0_61_61",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N205a64a6a2904cf0b3d1a046350154c6"
+      }
+    },
+    {
+      "@id": "_:N205a64a6a2904cf0b3d1a046350154c6",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Nf058e86616aa44c587df41085ceb38dc"
+      },
+      "ps:P291": {
+        "@id": "_:Nc98ec6f3432944469f578ad95e8f4ec5"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N0feab23c7196473384271777e2c6979f"
+        },
+        {
+          "@id": "_:Nfb2c204cbace4847a507a02ede59d8dc"
+        },
+        {
+          "@id": "_:Nb5645beeaf6641579fecc09c8b0b8f1f"
+        }
+      ]
+    },
+    {
+      "@id": "_:Nc98ec6f3432944469f578ad95e8f4ec5",
+      "https://schema.org#geo": {
+        "@id": "_:N458b7c1eda574fe5a349aedda587bdc0"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q659841"
+      },
+      "rdfs:label": "Korneuburg"
+    },
+    {
+      "@id": "_:N458b7c1eda574fe5a349aedda587bdc0",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "48.35",
+      "https://schema.org#longitude": "16.33333"
+    },
+    {
+      "@id": "_:Nf058e86616aa44c587df41085ceb38dc",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1462-12-07"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1462-12-07"
+      }
+    },
+    {
+      "@id": "_:N0feab23c7196473384271777e2c6979f",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00001825"
+      },
+      "ps:P39": {
+        "@id": "ri:koenig"
+      },
+      "rdfs:label": "Kg. Georgs von Böhmen"
+    },
+    {
+      "@id": "_:Nfb2c204cbace4847a507a02ede59d8dc",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00005161"
+      },
+      "rdfs:label": "Zdenko von Sternberg"
+    },
+    {
+      "@id": "_:Nb5645beeaf6641579fecc09c8b0b8f1f",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:R00000028"
+      },
+      "rdfs:label": "Prokop von Rabenstein"
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1442-08-07_1_0_13_5_0_10659_35",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Na5d7909630cc4895ab60e232fc90ba58"
+      }
+    },
+    {
+      "@id": "_:Na5d7909630cc4895ab60e232fc90ba58",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Ndd894bf7964d4c808de418d1cf92862d"
+      },
+      "ps:P291": {
+        "@id": "_:N5ce5dd406dd94cacb421133e9385c4d1"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N353fbb519340412eb3da3df244617901"
+        },
+        {
+          "@id": "_:Nfbf4cafa7ff34ec7946e5e491b95f615"
+        }
+      ]
+    },
+    {
+      "@id": "_:N5ce5dd406dd94cacb421133e9385c4d1",
+      "https://schema.org#geo": {
+        "@id": "_:N7792fbb8d642438690eacc9c900df590"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q1794"
+      },
+      "rdfs:label": "Frankfurt"
+    },
+    {
+      "@id": "_:N7792fbb8d642438690eacc9c900df590",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "50.110556",
+      "https://schema.org#longitude": "8.682222"
+    },
+    {
+      "@id": "_:Ndd894bf7964d4c808de418d1cf92862d",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1442-08-07"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1442-08-07"
+      }
+    },
+    {
+      "@id": "_:N353fbb519340412eb3da3df244617901",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:K00002756"
+      },
+      "rdfs:label": "Frank (XI.) d. J. von Kronberg"
+    },
+    {
+      "@id": "_:Nfbf4cafa7ff34ec7946e5e491b95f615",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:K00002769"
+      },
+      "ps:P39": {
+        "@id": "ri:ritter"
+      },
+      "rdfs:label": "Ritters Hartmann von Kronberg"
+    }
+  ]
+}

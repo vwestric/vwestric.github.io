@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1474-06-27_1_0_13_2_0_9282_154",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Na608030c078e43dc8f59000ac92cee2c"
+      }
+    },
+    {
+      "@id": "_:Na608030c078e43dc8f59000ac92cee2c",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N8ecbf080e3004d059e7c8029086d64ef"
+      },
+      "ps:P291": {
+        "@id": "_:N089e4a4f77904c4b8ed1cb1058ce24df"
+      },
+      "ps:P3342": {
+        "@id": "_:Nfacdc938da5f4b43b495d5c54aad9d70"
+      }
+    },
+    {
+      "@id": "_:N089e4a4f77904c4b8ed1cb1058ce24df",
+      "https://schema.org#geo": {
+        "@id": "_:N247b180a478448dd9726eb324af01d8c"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q2749"
+      },
+      "rdfs:label": "Augsburg"
+    },
+    {
+      "@id": "_:N247b180a478448dd9726eb324af01d8c",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "48.37154",
+      "https://schema.org#longitude": "10.89851"
+    },
+    {
+      "@id": "_:N8ecbf080e3004d059e7c8029086d64ef",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1474-06-27"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1474-06-27"
+      }
+    },
+    {
+      "@id": "_:Nfacdc938da5f4b43b495d5c54aad9d70",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:K00000775"
+      },
+      "ps:P39": {
+        "@id": "ri:abt"
+      },
+      "rdfs:label": "Abt Johann von Kempten"
+    }
+  ]
+}

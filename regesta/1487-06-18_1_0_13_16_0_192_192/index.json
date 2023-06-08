@@ -1,0 +1,71 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1487-06-18_1_0_13_16_0_192_192",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Nda557c49736d47d7899cd56b8fd9b21c"
+      }
+    },
+    {
+      "@id": "_:Nda557c49736d47d7899cd56b8fd9b21c",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N0528368799324c89901e6fec2457176d"
+      },
+      "ps:P291": {
+        "@id": "_:N654c78445d384c6eb02d186847d1c9f0"
+      },
+      "ps:P3342": {
+        "@id": "_:N0cd120fe92314caa81ff928bd92494b1"
+      }
+    },
+    {
+      "@id": "_:N654c78445d384c6eb02d186847d1c9f0",
+      "https://schema.org#geo": {
+        "@id": "_:Nf71ead1d31ca4e4f8b83dc7fe183ae9d"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q2090"
+      },
+      "rdfs:label": "Nürnberg"
+    },
+    {
+      "@id": "_:Nf71ead1d31ca4e4f8b83dc7fe183ae9d",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "49.45421",
+      "https://schema.org#longitude": "11.07752"
+    },
+    {
+      "@id": "_:N0528368799324c89901e6fec2457176d",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1487-06-18"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1487-06-18"
+      }
+    },
+    {
+      "@id": "_:N0cd120fe92314caa81ff928bd92494b1",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:M00000583"
+      },
+      "rdfs:label": "Volrad (III.) von Mansfeld"
+    }
+  ]
+}

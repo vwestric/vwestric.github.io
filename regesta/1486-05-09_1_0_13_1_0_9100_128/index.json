@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1486-05-09_1_0_13_1_0_9100_128",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Nc841f8087fdf48fe88f681af47d5a701"
+      }
+    },
+    {
+      "@id": "_:Nc841f8087fdf48fe88f681af47d5a701",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N86b724e8d9204fe2871bc7a1668ad830"
+      },
+      "ps:P291": {
+        "@id": "_:Nee851b3dbda54714b9756726d173f681"
+      },
+      "ps:P3342": {
+        "@id": "_:Nc280389414b1432297451e7f35d0d459"
+      }
+    },
+    {
+      "@id": "_:Nee851b3dbda54714b9756726d173f681",
+      "https://schema.org#geo": {
+        "@id": "_:N48e67b5942804b7dbb05d1ed4006c4e0"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q365"
+      },
+      "rdfs:label": "Köln"
+    },
+    {
+      "@id": "_:N48e67b5942804b7dbb05d1ed4006c4e0",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "50.93333",
+      "https://schema.org#longitude": "6.95"
+    },
+    {
+      "@id": "_:N86b724e8d9204fe2871bc7a1668ad830",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1486-05-09"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1486-05-09"
+      }
+    },
+    {
+      "@id": "_:Nc280389414b1432297451e7f35d0d459",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:K00000775"
+      },
+      "ps:P39": {
+        "@id": "ri:abt"
+      },
+      "rdfs:label": "Abt Johann von Kempten"
+    }
+  ]
+}

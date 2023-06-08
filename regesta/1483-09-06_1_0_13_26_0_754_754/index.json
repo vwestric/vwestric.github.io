@@ -1,0 +1,95 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1483-09-06_1_0_13_26_0_754_754",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N7b2ebba1b8dc4321a0e65844d2b5074a"
+      }
+    },
+    {
+      "@id": "_:N7b2ebba1b8dc4321a0e65844d2b5074a",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N7b4ca8d9121748f6936b0b9694f62415"
+      },
+      "ps:P291": {
+        "@id": "_:N7e67e36eab6e46b0896d9545730fd24d"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N5c18e7733a034c68a2fb2e2a25fb3e46"
+        },
+        {
+          "@id": "_:N3943f7780c5446acb1e156fcc778b382"
+        }
+      ]
+    },
+    {
+      "@id": "_:N7e67e36eab6e46b0896d9545730fd24d",
+      "https://schema.org#geo": {
+        "@id": "_:Nf539b19cfb374051b0f4915ee804b7c1"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q13298"
+      },
+      "rdfs:label": "Graz"
+    },
+    {
+      "@id": "_:Nf539b19cfb374051b0f4915ee804b7c1",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.06667",
+      "https://schema.org#longitude": "15.45"
+    },
+    {
+      "@id": "_:N7b4ca8d9121748f6936b0b9694f62415",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1483-09-06"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1483-09-06"
+      }
+    },
+    {
+      "@id": "_:N5c18e7733a034c68a2fb2e2a25fb3e46",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:R00002243"
+      },
+      "ps:P39": [
+        {
+          "@id": "ri:kaemmerer"
+        },
+        {
+          "@id": "ri:pfleger"
+        }
+      ],
+      "rdfs:label": "Kaspar von Roggendorf, seinem Kämmerer und Pfleger zu Ybbs"
+    },
+    {
+      "@id": "_:N3943f7780c5446acb1e156fcc778b382",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:P00001489"
+      },
+      "ps:P39": {
+        "@id": "ri:diener"
+      },
+      "rdfs:label": "Diener Hans von Plankenstein"
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1449-12-20_3_0_13_8_0_12136_128",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N5be9ce4cc0e84b7cbd43572f67a72817"
+      }
+    },
+    {
+      "@id": "_:N5be9ce4cc0e84b7cbd43572f67a72817",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Nfe343aca1a774657a33bff5955a1a877"
+      },
+      "ps:P291": {
+        "@id": "_:Nd58f6efeb4a34a158bdd4902c86378d7"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:Na2b8d3a8388947ae94c6826e7d67692a"
+        },
+        {
+          "@id": "_:N960ddc4eedc046f08b34e0ac9e9d7b60"
+        },
+        {
+          "@id": "_:Na6031ec84dd34ff8b370c58e2e49b4ae"
+        }
+      ]
+    },
+    {
+      "@id": "_:Nd58f6efeb4a34a158bdd4902c86378d7",
+      "https://schema.org#geo": {
+        "@id": "_:Ned3c8361ad094e34b51e22700bed54ca"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q131612"
+      },
+      "rdfs:label": "Wiener Neustadt"
+    },
+    {
+      "@id": "_:Ned3c8361ad094e34b51e22700bed54ca",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.813153",
+      "https://schema.org#longitude": "16.24444"
+    },
+    {
+      "@id": "_:Nfe343aca1a774657a33bff5955a1a877",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1449-12-20"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1449-12-20"
+      }
+    },
+    {
+      "@id": "_:Na2b8d3a8388947ae94c6826e7d67692a",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:K00000417"
+      },
+      "ps:P39": {
+        "@id": "ri:graf"
+      },
+      "rdfs:label": "Gf. Diethers von Isenburg-Büdingen"
+    },
+    {
+      "@id": "_:N960ddc4eedc046f08b34e0ac9e9d7b60",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:K00001550"
+      },
+      "rdfs:label": "Gerlach Koch"
+    },
+    {
+      "@id": "_:Na6031ec84dd34ff8b370c58e2e49b4ae",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:H00000653"
+      },
+      "ps:P39": {
+        "@id": "ri:graf"
+      },
+      "rdfs:label": "Gf. Reinhard von Hanau"
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1469-09-04_5_0_13_5_0_10823_199",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N1202340f850b48928fd733788073125b"
+      }
+    },
+    {
+      "@id": "_:N1202340f850b48928fd733788073125b",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N541906408c7e411aa6114472f7d5d4b6"
+      },
+      "ps:P291": {
+        "@id": "_:N31e9bd30ba08413791df5941a857335a"
+      },
+      "ps:P3342": {
+        "@id": "_:N1b91bef1c67c4e1bb4f96ca9b1975d76"
+      }
+    },
+    {
+      "@id": "_:N31e9bd30ba08413791df5941a857335a",
+      "https://schema.org#geo": {
+        "@id": "_:N82707d42cbaf45ebbe87e1b72437ad68"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q13298"
+      },
+      "rdfs:label": "Graz"
+    },
+    {
+      "@id": "_:N82707d42cbaf45ebbe87e1b72437ad68",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.06667",
+      "https://schema.org#longitude": "15.45"
+    },
+    {
+      "@id": "_:N541906408c7e411aa6114472f7d5d4b6",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1469-09-04"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1469-09-04"
+      }
+    },
+    {
+      "@id": "_:N1b91bef1c67c4e1bb4f96ca9b1975d76",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00001064"
+      },
+      "ps:P39": {
+        "@id": "ri:graf"
+      },
+      "rdfs:label": "Gf. Gerhard von Sayn"
+    }
+  ]
+}

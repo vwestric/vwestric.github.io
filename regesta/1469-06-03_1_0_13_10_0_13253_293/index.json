@@ -1,0 +1,79 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1469-06-03_1_0_13_10_0_13253_293",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Ne478dd9b7b314cb39569821caafe155f"
+      }
+    },
+    {
+      "@id": "_:Ne478dd9b7b314cb39569821caafe155f",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Nce85dbcb42ca49c6b54229f8512b4742"
+      },
+      "ps:P291": {
+        "@id": "_:N12e3b7e6b75e4bb3b42c7a701bff4e78"
+      },
+      "ps:P3342": {
+        "@id": "_:N2575a14dd3064ee596befa62d01cd4cd"
+      }
+    },
+    {
+      "@id": "_:N12e3b7e6b75e4bb3b42c7a701bff4e78",
+      "https://schema.org#geo": {
+        "@id": "_:Nbb10706de8504c7392c5228f70ad70ec"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q131612"
+      },
+      "rdfs:label": "Wiener Neustadt"
+    },
+    {
+      "@id": "_:Nbb10706de8504c7392c5228f70ad70ec",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.813153",
+      "https://schema.org#longitude": "16.24444"
+    },
+    {
+      "@id": "_:Nce85dbcb42ca49c6b54229f8512b4742",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1469-06-03"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1469-06-03"
+      }
+    },
+    {
+      "@id": "_:N2575a14dd3064ee596befa62d01cd4cd",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:P00000251"
+      },
+      "ps:P39": [
+        {
+          "@id": "ri:kanzler"
+        },
+        {
+          "@id": "ri:bischof"
+        }
+      ],
+      "rdfs:label": "römischen Kanzlers Bf. Ulrich von Passau"
+    }
+  ]
+}

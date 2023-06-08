@@ -1,0 +1,55 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1474-10-28_1_0_13_27_0_241_241",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N194cec6e66ab4f2db2f9ebb92d730cbe"
+      }
+    },
+    {
+      "@id": "_:N194cec6e66ab4f2db2f9ebb92d730cbe",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N4bb21d5a192647699efd2f9dd4047717"
+      },
+      "ps:P3342": {
+        "@id": "_:N2f8ad0dae9394cb6886a7cfffb0f03f5"
+      }
+    },
+    {
+      "@id": "_:N4bb21d5a192647699efd2f9dd4047717",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1474-10-28"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1474-10-28"
+      }
+    },
+    {
+      "@id": "_:N2f8ad0dae9394cb6886a7cfffb0f03f5",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:O00000622"
+      },
+      "ps:P39": {
+        "@id": "ri:herzog"
+      },
+      "rdfs:label": "Hz. Sigmund von Österreich"
+    }
+  ]
+}

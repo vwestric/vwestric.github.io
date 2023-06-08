@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1486-02-20_1_0_13_9_0_12907_365",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N1f4f212af12c45cd997ffdcb88fff935"
+      }
+    },
+    {
+      "@id": "_:N1f4f212af12c45cd997ffdcb88fff935",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Nd61736e73b644bc9b25d46971e23e754"
+      },
+      "ps:P291": {
+        "@id": "_:N6606ac7d122949a19c90231880f9853d"
+      },
+      "ps:P3342": {
+        "@id": "_:N2e6ed6e9ae98475283bdd54cf8986f37"
+      }
+    },
+    {
+      "@id": "_:N6606ac7d122949a19c90231880f9853d",
+      "https://schema.org#geo": {
+        "@id": "_:Ncbc845bfefff4170bf37057df4c64118"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q1794"
+      },
+      "rdfs:label": "Frankfurt"
+    },
+    {
+      "@id": "_:Ncbc845bfefff4170bf37057df4c64118",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "50.110556",
+      "https://schema.org#longitude": "8.682222"
+    },
+    {
+      "@id": "_:Nd61736e73b644bc9b25d46971e23e754",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1486-02-20"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1486-02-20"
+      }
+    },
+    {
+      "@id": "_:N2e6ed6e9ae98475283bdd54cf8986f37",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:H00001475"
+      },
+      "ps:P39": {
+        "@id": "ri:koenig"
+      },
+      "rdfs:label": "Kg. Heinrichs (VII.)"
+    }
+  ]
+}

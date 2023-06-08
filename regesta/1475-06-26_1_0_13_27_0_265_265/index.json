@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1475-06-26_1_0_13_27_0_265_265",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N93b0d26301cc40ba982e9c18b59d56e8"
+      }
+    },
+    {
+      "@id": "_:N93b0d26301cc40ba982e9c18b59d56e8",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N7937d917945347c193ac800959bea676"
+      },
+      "ps:P291": {
+        "@id": "_:Nbeadab2eae864e0db1c4952cdcfded11"
+      },
+      "ps:P3342": {
+        "@id": "_:Nc3c5e1f9f7bb4331bbf87db8f942177a"
+      }
+    },
+    {
+      "@id": "_:Nbeadab2eae864e0db1c4952cdcfded11",
+      "https://schema.org#geo": {
+        "@id": "_:N7acecaa868f8498da022b96f5ab07fed"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q2948"
+      },
+      "rdfs:label": "im kaiserlichen Heer bei Neuss"
+    },
+    {
+      "@id": "_:N7acecaa868f8498da022b96f5ab07fed",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "51.198611",
+      "https://schema.org#longitude": "6.691389"
+    },
+    {
+      "@id": "_:N7937d917945347c193ac800959bea676",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1475-06-26"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1475-06-26"
+      }
+    },
+    {
+      "@id": "_:Nc3c5e1f9f7bb4331bbf87db8f942177a",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:O00000622"
+      },
+      "ps:P39": {
+        "@id": "ri:herzog"
+      },
+      "rdfs:label": "Hz. Sigmund von Österreich"
+    }
+  ]
+}

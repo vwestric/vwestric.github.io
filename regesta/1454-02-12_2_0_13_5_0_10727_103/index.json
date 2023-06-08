@@ -1,0 +1,71 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1454-02-12_2_0_13_5_0_10727_103",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N1edec472056e46039ae4f2b6093113d1"
+      }
+    },
+    {
+      "@id": "_:N1edec472056e46039ae4f2b6093113d1",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Nf44e7cae68d147ac89f94c028fc39824"
+      },
+      "ps:P291": {
+        "@id": "_:Nc7787a8fdfb44dce95806a534275854d"
+      },
+      "ps:P3342": {
+        "@id": "_:N83f7d633b63e4138866cd265453f6540"
+      }
+    },
+    {
+      "@id": "_:Nc7787a8fdfb44dce95806a534275854d",
+      "https://schema.org#geo": {
+        "@id": "_:N2de05fe5182543d3bb55a6b05bb5177f"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q131612"
+      },
+      "rdfs:label": "Wiener Neustadt"
+    },
+    {
+      "@id": "_:N2de05fe5182543d3bb55a6b05bb5177f",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.813153",
+      "https://schema.org#longitude": "16.24444"
+    },
+    {
+      "@id": "_:Nf44e7cae68d147ac89f94c028fc39824",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1454-02-12"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1454-02-12"
+      }
+    },
+    {
+      "@id": "_:N83f7d633b63e4138866cd265453f6540",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:E00001166"
+      },
+      "rdfs:label": "Gottfried von Eppstein(-Münzenberg)"
+    }
+  ]
+}

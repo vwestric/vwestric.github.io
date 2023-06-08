@@ -1,0 +1,126 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1441-06-26_2_0_13_4_0_9582_12",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N13f8ad3d76aa4145b81033c4eecf2459"
+      }
+    },
+    {
+      "@id": "_:N13f8ad3d76aa4145b81033c4eecf2459",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Na5f70bf4dec740fcb07c5c58ca0698b5"
+      },
+      "ps:P291": {
+        "@id": "_:Nf71d9850e1ed4fc882d27b6c8186e044"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N5ffc757005374bb29d48672d0e7d6e14"
+        },
+        {
+          "@id": "_:N41d547fb4ecd4ba5a02a35a9e3756b84"
+        },
+        {
+          "@id": "_:N183933103f6448dbae858e53aa411d5c"
+        },
+        {
+          "@id": "_:Na79f66c90ed44ebbb572db4c75a28385"
+        },
+        {
+          "@id": "_:N7885edded5ff4b4f925cedfa013a613f"
+        }
+      ]
+    },
+    {
+      "@id": "_:Nf71d9850e1ed4fc882d27b6c8186e044",
+      "https://schema.org#geo": {
+        "@id": "_:N64ad548881a74647a95f0a3e6dc1586c"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q1741"
+      },
+      "rdfs:label": "Wien"
+    },
+    {
+      "@id": "_:N64ad548881a74647a95f0a3e6dc1586c",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "48.20849",
+      "https://schema.org#longitude": "16.37208"
+    },
+    {
+      "@id": "_:Na5f70bf4dec740fcb07c5c58ca0698b5",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1441-06-26"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1441-06-26"
+      }
+    },
+    {
+      "@id": "_:N5ffc757005374bb29d48672d0e7d6e14",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:T00001172"
+      },
+      "ps:P39": {
+        "@id": "ri:erzbischof"
+      },
+      "rdfs:label": "Eb. Jakob von Trier"
+    },
+    {
+      "@id": "_:N41d547fb4ecd4ba5a02a35a9e3756b84",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:M00000277"
+      },
+      "ps:P39": {
+        "@id": "ri:erzbischof"
+      },
+      "rdfs:label": "Eb. Dietrich von Mainz"
+    },
+    {
+      "@id": "_:N183933103f6448dbae858e53aa411d5c",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:E00001151"
+      },
+      "ps:P39": {
+        "@id": "ri:koenig"
+      },
+      "rdfs:label": "Eberhard von Eppstein-Königstein"
+    },
+    {
+      "@id": "_:Na79f66c90ed44ebbb572db4c75a28385",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:I00000279"
+      },
+      "rdfs:label": "Diether von Isenburg-Büdingen"
+    },
+    {
+      "@id": "_:N7885edded5ff4b4f925cedfa013a613f",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:E00001166"
+      },
+      "rdfs:label": "Gottfried von Eppstein"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1466-03-11_1_0_13_8_0_12237_229",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N5cc4fc64bc654109bf1f5b7b4a7d2bd9"
+      }
+    },
+    {
+      "@id": "_:N5cc4fc64bc654109bf1f5b7b4a7d2bd9",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Nfe5cbc425db54b0e8257711bd24943ee"
+      },
+      "ps:P291": {
+        "@id": "_:Nd2ec7135e8844a67b73b771e070ad6fd"
+      },
+      "ps:P3342": {
+        "@id": "_:N68f4f6374fb14fd3958937ebd156ca7c"
+      }
+    },
+    {
+      "@id": "_:Nd2ec7135e8844a67b73b771e070ad6fd",
+      "https://schema.org#geo": {
+        "@id": "_:N51185dcff15b4fafa024b878e93c2fc2"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q131612"
+      },
+      "rdfs:label": "[Wiener Neustadt]"
+    },
+    {
+      "@id": "_:N51185dcff15b4fafa024b878e93c2fc2",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.813153",
+      "https://schema.org#longitude": "16.24444"
+    },
+    {
+      "@id": "_:Nfe5cbc425db54b0e8257711bd24943ee",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1466-03-11"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1466-03-11"
+      }
+    },
+    {
+      "@id": "_:N68f4f6374fb14fd3958937ebd156ca7c",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:E00001170"
+      },
+      "rdfs:label": "Gottfried (IX.) von Eppstein-Münzenberg"
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1488-12-04_1_0_13_25_0_276_276",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N110c865034b74ac6a6f5107db7f88a85"
+      }
+    },
+    {
+      "@id": "_:N110c865034b74ac6a6f5107db7f88a85",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N095f623425944d208644eec41c38ca73"
+      },
+      "ps:P291": {
+        "@id": "_:N841a2a1327844085a9cb84219f146f98"
+      },
+      "ps:P3342": {
+        "@id": "_:Ncf85dfc4ea5e49b7bd61681adb68a163"
+      }
+    },
+    {
+      "@id": "_:N841a2a1327844085a9cb84219f146f98",
+      "https://schema.org#geo": {
+        "@id": "_:Nf12613868f3b49cab8578642dc7c982f"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q3786"
+      },
+      "rdfs:label": "Esslingen"
+    },
+    {
+      "@id": "_:Nf12613868f3b49cab8578642dc7c982f",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "48.740556",
+      "https://schema.org#longitude": "9.310833"
+    },
+    {
+      "@id": "_:N095f623425944d208644eec41c38ca73",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1488-12-04"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1488-12-04"
+      }
+    },
+    {
+      "@id": "_:Ncf85dfc4ea5e49b7bd61681adb68a163",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:M00000268"
+      },
+      "ps:P39": {
+        "@id": "ri:erzbischof"
+      },
+      "rdfs:label": "Eb. Berthold von Mainz"
+    }
+  ]
+}

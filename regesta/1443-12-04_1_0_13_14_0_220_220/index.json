@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1443-12-04_1_0_13_14_0_220_220",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N224316cc170b45a0a5148c321bd5decd"
+      }
+    },
+    {
+      "@id": "_:N224316cc170b45a0a5148c321bd5decd",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N1ade5380646c4f859bbf184a644fbc60"
+      },
+      "ps:P291": {
+        "@id": "_:N7f0a5c1661d04a5ca4f6ee8bbf6b8ea5"
+      },
+      "ps:P3342": {
+        "@id": "_:N1d8330a3bcd340ef94edaeab08e05646"
+      }
+    },
+    {
+      "@id": "_:N7f0a5c1661d04a5ca4f6ee8bbf6b8ea5",
+      "https://schema.org#geo": {
+        "@id": "_:N0198c818d36a41eb93b13f24705151b2"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q13298"
+      },
+      "rdfs:label": "Graz"
+    },
+    {
+      "@id": "_:N0198c818d36a41eb93b13f24705151b2",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.06667",
+      "https://schema.org#longitude": "15.45"
+    },
+    {
+      "@id": "_:N1ade5380646c4f859bbf184a644fbc60",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1443-12-04"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1443-12-04"
+      }
+    },
+    {
+      "@id": "_:N1d8330a3bcd340ef94edaeab08e05646",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:R00003121"
+      },
+      "ps:P39": {
+        "@id": "ri:koenig"
+      },
+      "rdfs:label": "Kg. Ruprechts"
+    }
+  ]
+}

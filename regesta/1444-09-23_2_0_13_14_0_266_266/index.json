@@ -1,0 +1,76 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1444-09-23_2_0_13_14_0_266_266",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Nc6cc82eb91c44a8fa46c755816bd74e2"
+      }
+    },
+    {
+      "@id": "_:Nc6cc82eb91c44a8fa46c755816bd74e2",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N312d975a43cd4f2f93bb9977e7c3e87f"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N380da3fbf8ed479bb3e8b5a5a888155c"
+        },
+        {
+          "@id": "_:Nb8831e82148843f28322c0f43b41b641"
+        },
+        {
+          "@id": "_:N350b154541204bfc9e7233bfb7aba42d"
+        }
+      ]
+    },
+    {
+      "@id": "_:N312d975a43cd4f2f93bb9977e7c3e87f",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1444-09-23"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1444-09-23"
+      }
+    },
+    {
+      "@id": "_:N380da3fbf8ed479bb3e8b5a5a888155c",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:T00000364"
+      },
+      "rdfs:label": "Hans Tetzel"
+    },
+    {
+      "@id": "_:Nb8831e82148843f28322c0f43b41b641",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:H00000527"
+      },
+      "rdfs:label": "Ulrich Haller"
+    },
+    {
+      "@id": "_:N350b154541204bfc9e7233bfb7aba42d",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:V00000897"
+      },
+      "rdfs:label": "Paul Vorchtel"
+    }
+  ]
+}

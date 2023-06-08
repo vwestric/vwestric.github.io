@@ -1,0 +1,117 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1486-11-27_4_0_13_7_0_11886_719",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N7e949d6d4023423bb8cffd7513ae4d86"
+      }
+    },
+    {
+      "@id": "_:N7e949d6d4023423bb8cffd7513ae4d86",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N1e5b2e525750427e981960c223c148de"
+      },
+      "ps:P291": {
+        "@id": "_:N13e6f655e10e493fbb29b3fbcf25c1f6"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:Nded60dcf8b2449fda514bc65b71ef28c"
+        },
+        {
+          "@id": "_:Nddd68984a33a448a8f423df9341e204a"
+        },
+        {
+          "@id": "_:N5e3d198f111149fa9d85d7630c406375"
+        },
+        {
+          "@id": "_:Nfbc2adff9504459bb9e3b4702e4664e4"
+        },
+        {
+          "@id": "_:N8f046d29e68945a0a08ed74abfdbc1a2"
+        }
+      ]
+    },
+    {
+      "@id": "_:N13e6f655e10e493fbb29b3fbcf25c1f6",
+      "https://schema.org#geo": {
+        "@id": "_:Nba53e762d2ba46b7bb2d155d05310dbd"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q490058"
+      },
+      "rdfs:label": "Andernach"
+    },
+    {
+      "@id": "_:Nba53e762d2ba46b7bb2d155d05310dbd",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "50.4333",
+      "https://schema.org#longitude": "7.4"
+    },
+    {
+      "@id": "_:N1e5b2e525750427e981960c223c148de",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1486-11-27"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1486-11-27"
+      }
+    },
+    {
+      "@id": "_:Nded60dcf8b2449fda514bc65b71ef28c",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:R00002457"
+      },
+      "rdfs:label": "Friedrich von Rosenberg"
+    },
+    {
+      "@id": "_:Nddd68984a33a448a8f423df9341e204a",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:K00002778"
+      },
+      "rdfs:label": "Johann von Kronberg"
+    },
+    {
+      "@id": "_:N5e3d198f111149fa9d85d7630c406375",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:R00002961"
+      },
+      "rdfs:label": "Philipp von Rüdigheim"
+    },
+    {
+      "@id": "_:Nfbc2adff9504459bb9e3b4702e4664e4",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:K00002779"
+      },
+      "rdfs:label": "Philipp von Kronberg"
+    },
+    {
+      "@id": "_:N8f046d29e68945a0a08ed74abfdbc1a2",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:F00000448"
+      },
+      "rdfs:label": "Friedrich von Fleckenstein"
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1442-08-05_1_0_13_6_0_11008_30",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N88942d394ce0461cba1face8552be158"
+      }
+    },
+    {
+      "@id": "_:N88942d394ce0461cba1face8552be158",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N3a086755314045cdb994bdd235a7deb9"
+      },
+      "ps:P291": {
+        "@id": "_:Ne0eee856eeb74e329a3dd8268a9ce950"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N9f19820e827b4a058f6f63c7fc19b0eb"
+        },
+        {
+          "@id": "_:Nbac38d826a1042e28b79d177aad04caf"
+        }
+      ]
+    },
+    {
+      "@id": "_:Ne0eee856eeb74e329a3dd8268a9ce950",
+      "https://schema.org#geo": {
+        "@id": "_:N4330c88766fb4f1792b9f58c62b2116e"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q1794"
+      },
+      "rdfs:label": "Frankfurt"
+    },
+    {
+      "@id": "_:N4330c88766fb4f1792b9f58c62b2116e",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "50.110556",
+      "https://schema.org#longitude": "8.682222"
+    },
+    {
+      "@id": "_:N3a086755314045cdb994bdd235a7deb9",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1442-08-05"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1442-08-05"
+      }
+    },
+    {
+      "@id": "_:N9f19820e827b4a058f6f63c7fc19b0eb",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00005403"
+      },
+      "rdfs:label": "Hans Ulrich von Stoffeln"
+    },
+    {
+      "@id": "_:Nbac38d826a1042e28b79d177aad04caf",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00003529"
+      },
+      "ps:P39": {
+        "@id": "ri:kaiser"
+      },
+      "rdfs:label": "K. Sigismund"
+    }
+  ]
+}

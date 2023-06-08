@@ -1,0 +1,104 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1441-07-16_1_0_13_12_0_61_61",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N3cfe599d89594f108b396d54875628e9"
+      }
+    },
+    {
+      "@id": "_:N3cfe599d89594f108b396d54875628e9",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Nf47fdf7c3bed46a58b7f92303af69f40"
+      },
+      "ps:P291": {
+        "@id": "_:N02cd4882a1f8446f9119c11f7a6adfb9"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N66fe8280092342eaa49c4c88146c1dd7"
+        },
+        {
+          "@id": "_:Na804bf6bf00842ada758696084ad6cde"
+        },
+        {
+          "@id": "_:Nb17e58b0fd8b4a598b4b4f3308644c7a"
+        }
+      ]
+    },
+    {
+      "@id": "_:N02cd4882a1f8446f9119c11f7a6adfb9",
+      "https://schema.org#geo": {
+        "@id": "_:Neca1a05ba3f84be083434df96bebdc4d"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q1741"
+      },
+      "rdfs:label": "Wien"
+    },
+    {
+      "@id": "_:Neca1a05ba3f84be083434df96bebdc4d",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "48.20849",
+      "https://schema.org#longitude": "16.37208"
+    },
+    {
+      "@id": "_:Nf47fdf7c3bed46a58b7f92303af69f40",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1441-07-16"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1441-07-16"
+      }
+    },
+    {
+      "@id": "_:N66fe8280092342eaa49c4c88146c1dd7",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:O00000599"
+      },
+      "ps:P39": {
+        "@id": "ri:koenig"
+      },
+      "rdfs:label": "Kg. Ladislaus"
+    },
+    {
+      "@id": "_:Na804bf6bf00842ada758696084ad6cde",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:F00001129"
+      },
+      "ps:P39": {
+        "@id": "ri:bischof"
+      },
+      "rdfs:label": "Bf. Nikodemus von Freising"
+    },
+    {
+      "@id": "_:Nb17e58b0fd8b4a598b4b4f3308644c7a",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00001346"
+      },
+      "ps:P39": {
+        "@id": "ri:graf"
+      },
+      "rdfs:label": "Gf. Johann von Schaunberg, Oberstmarschall in Steyr"
+    }
+  ]
+}

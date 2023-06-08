@@ -1,0 +1,52 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1483-10-05_1_0_13_11_0_541_541",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N1d2b05ab05f44745b7825364bf7b875d"
+      }
+    },
+    {
+      "@id": "_:N1d2b05ab05f44745b7825364bf7b875d",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Nd3db205e796546bfabbd2e40abc27cf2"
+      },
+      "ps:P3342": {
+        "@id": "_:N8ff4492cc90545639e2ea3ecd77bd03a"
+      }
+    },
+    {
+      "@id": "_:Nd3db205e796546bfabbd2e40abc27cf2",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1483-10-05"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1483-10-05"
+      }
+    },
+    {
+      "@id": "_:N8ff4492cc90545639e2ea3ecd77bd03a",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00000055"
+      },
+      "rdfs:label": "Albrecht von Sachsen"
+    }
+  ]
+}

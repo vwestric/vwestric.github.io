@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1473-10-23_2_0_13_27_0_216_216",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N12e70f18315745ff969ca1c109bad35d"
+      }
+    },
+    {
+      "@id": "_:N12e70f18315745ff969ca1c109bad35d",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Na2ba0ee844ec497986e66ebe32fcb254"
+      },
+      "ps:P291": {
+        "@id": "_:Ne71c71c7332b41e1baf3406356fae44f"
+      },
+      "ps:P3342": {
+        "@id": "_:N9493ff1e525f42cd92fc2d18ce76d1fc"
+      }
+    },
+    {
+      "@id": "_:Ne71c71c7332b41e1baf3406356fae44f",
+      "https://schema.org#geo": {
+        "@id": "_:N20e7f72a0f76427bad0f9b80c26bbc5f"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q3138"
+      },
+      "rdfs:label": "Trier"
+    },
+    {
+      "@id": "_:N20e7f72a0f76427bad0f9b80c26bbc5f",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "49.75565",
+      "https://schema.org#longitude": "6.63935"
+    },
+    {
+      "@id": "_:Na2ba0ee844ec497986e66ebe32fcb254",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1473-10-23"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1473-10-23"
+      }
+    },
+    {
+      "@id": "_:N9493ff1e525f42cd92fc2d18ce76d1fc",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:L00002223"
+      },
+      "ps:P39": {
+        "@id": "ri:bischof"
+      },
+      "rdfs:label": "Bf. Ludwig von Lüttich"
+    }
+  ]
+}

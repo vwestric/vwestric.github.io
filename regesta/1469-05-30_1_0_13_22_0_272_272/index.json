@@ -1,0 +1,60 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1469-05-30_1_0_13_22_0_272_272",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Neb65f635a35c40c6a168707125b14585"
+      }
+    },
+    {
+      "@id": "_:Neb65f635a35c40c6a168707125b14585",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N8cc11dcdba4b4c0eb683c18364b6af95"
+      },
+      "ps:P291": {
+        "@id": "_:Nb18d0224a1334e55b98db6a246a64471"
+      }
+    },
+    {
+      "@id": "_:Nb18d0224a1334e55b98db6a246a64471",
+      "https://schema.org#geo": {
+        "@id": "_:N813747fe22cb4494885db254db0e1a33"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q13298"
+      },
+      "rdfs:label": "Graz"
+    },
+    {
+      "@id": "_:N813747fe22cb4494885db254db0e1a33",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.06667",
+      "https://schema.org#longitude": "15.45"
+    },
+    {
+      "@id": "_:N8cc11dcdba4b4c0eb683c18364b6af95",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1469-05-30"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1469-05-30"
+      }
+    }
+  ]
+}

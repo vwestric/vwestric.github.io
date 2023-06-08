@@ -1,0 +1,60 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1475-10-27_1_0_13_7_0_11728_562",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Nce3f5c9ce89a471cb1fa7f14f7e229dc"
+      }
+    },
+    {
+      "@id": "_:Nce3f5c9ce89a471cb1fa7f14f7e229dc",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Ne2393ba2c16c4fa9ba242af360af003a"
+      },
+      "ps:P291": {
+        "@id": "_:Nb9eb667d93144545be115577d4982ad5"
+      }
+    },
+    {
+      "@id": "_:Nb9eb667d93144545be115577d4982ad5",
+      "https://schema.org#geo": {
+        "@id": "_:N2b76fbe9c9194187b123279a0dd39abe"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q61912"
+      },
+      "rdfs:label": "Wertheim"
+    },
+    {
+      "@id": "_:N2b76fbe9c9194187b123279a0dd39abe",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "49.758889",
+      "https://schema.org#longitude": "9.5175"
+    },
+    {
+      "@id": "_:Ne2393ba2c16c4fa9ba242af360af003a",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1475-10-27"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1475-10-27"
+      }
+    }
+  ]
+}

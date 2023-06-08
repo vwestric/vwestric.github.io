@@ -1,0 +1,71 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1452-03-20_5_0_13_7_0_11265_103",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N376ce5ecac644f11995fcf85a896a254"
+      }
+    },
+    {
+      "@id": "_:N376ce5ecac644f11995fcf85a896a254",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Nd2b90bf4067d430c899850a210f6ac68"
+      },
+      "ps:P291": {
+        "@id": "_:Nbce78d3033454bee82e5cdca5bb5df47"
+      },
+      "ps:P3342": {
+        "@id": "_:N741e90c333f745a491e47325a479c82e"
+      }
+    },
+    {
+      "@id": "_:Nbce78d3033454bee82e5cdca5bb5df47",
+      "https://schema.org#geo": {
+        "@id": "_:Nabc02609ca004ffe94b3d8826fd286bd"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q220"
+      },
+      "rdfs:label": "Rom"
+    },
+    {
+      "@id": "_:Nabc02609ca004ffe94b3d8826fd286bd",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "41.89193",
+      "https://schema.org#longitude": "12.51133"
+    },
+    {
+      "@id": "_:Nd2b90bf4067d430c899850a210f6ac68",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1452-03-20"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1452-03-20"
+      }
+    },
+    {
+      "@id": "_:N741e90c333f745a491e47325a479c82e",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:M00002360"
+      },
+      "rdfs:label": "Christian von Monheim"
+    }
+  ]
+}

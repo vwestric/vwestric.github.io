@@ -1,0 +1,84 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1467-02-28_1_0_13_22_0_167_167",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N728ac5220be9481ca8011c3136e250db"
+      }
+    },
+    {
+      "@id": "_:N728ac5220be9481ca8011c3136e250db",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Naec595c7eda049e3b855b3638f10ebd4"
+      },
+      "ps:P291": {
+        "@id": "_:N6d7907d02819423e9019fd54db388086"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:Na2ea4fd398fe4c83b9597a4ee34b089a"
+        },
+        {
+          "@id": "_:N2bbdbda626754a08a33e0a00d7fde3c0"
+        }
+      ]
+    },
+    {
+      "@id": "_:N6d7907d02819423e9019fd54db388086",
+      "https://schema.org#geo": {
+        "@id": "_:N89023d8dac014f29944991199171fd2c"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q41329"
+      },
+      "rdfs:label": "Linz"
+    },
+    {
+      "@id": "_:N89023d8dac014f29944991199171fd2c",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "48.303056",
+      "https://schema.org#longitude": "14.290556"
+    },
+    {
+      "@id": "_:Naec595c7eda049e3b855b3638f10ebd4",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1467-02-28"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1467-02-28"
+      }
+    },
+    {
+      "@id": "_:Na2ea4fd398fe4c83b9597a4ee34b089a",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:K00001084"
+      },
+      "rdfs:label": "Sigmund Kirchberger"
+    },
+    {
+      "@id": "_:N2bbdbda626754a08a33e0a00d7fde3c0",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:M00000401"
+      },
+      "rdfs:label": "Wolfgang Mair"
+    }
+  ]
+}

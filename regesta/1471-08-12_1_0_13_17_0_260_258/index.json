@@ -1,0 +1,71 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1471-08-12_1_0_13_17_0_260_258",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Nb2d09fc64dbc4e1dab59702d7f09c19e"
+      }
+    },
+    {
+      "@id": "_:Nb2d09fc64dbc4e1dab59702d7f09c19e",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N44d08574e469492c836db3ff0bd10297"
+      },
+      "ps:P291": {
+        "@id": "_:N2cf832bfc0944fa8b3237c87e4f6d17d"
+      },
+      "ps:P3342": {
+        "@id": "_:N2c3ec4e159a44a6d814ac6bd4fad011a"
+      }
+    },
+    {
+      "@id": "_:N2cf832bfc0944fa8b3237c87e4f6d17d",
+      "https://schema.org#geo": {
+        "@id": "_:Na7123bd8d3f943ed9a692c5dbb0b91b0"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q2978"
+      },
+      "rdfs:label": "Regensburg"
+    },
+    {
+      "@id": "_:Na7123bd8d3f943ed9a692c5dbb0b91b0",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "49.0054",
+      "https://schema.org#longitude": "12.0606"
+    },
+    {
+      "@id": "_:N44d08574e469492c836db3ff0bd10297",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1471-08-12"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1471-08-12"
+      }
+    },
+    {
+      "@id": "_:N2c3ec4e159a44a6d814ac6bd4fad011a",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:N00001462"
+      },
+      "rdfs:label": "Jakob von Nürnberg"
+    }
+  ]
+}

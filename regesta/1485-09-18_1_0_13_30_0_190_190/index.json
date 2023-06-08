@@ -1,0 +1,60 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1485-09-18_1_0_13_30_0_190_190",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N35b25bf508e240b29fde9218a01ae614"
+      }
+    },
+    {
+      "@id": "_:N35b25bf508e240b29fde9218a01ae614",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Nf9b40bb2741a45f4b8f3900435b4604e"
+      },
+      "ps:P291": {
+        "@id": "_:N51120a1f68904d1c9c83d2695e688810"
+      }
+    },
+    {
+      "@id": "_:N51120a1f68904d1c9c83d2695e688810",
+      "https://schema.org#geo": {
+        "@id": "_:N968c64356e604d0ba22cfbca3a9529a5"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q22730"
+      },
+      "rdfs:label": "Hagenau"
+    },
+    {
+      "@id": "_:N968c64356e604d0ba22cfbca3a9529a5",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "48.81557",
+      "https://schema.org#longitude": "7.79051"
+    },
+    {
+      "@id": "_:Nf9b40bb2741a45f4b8f3900435b4604e",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1485-09-18"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1485-09-18"
+      }
+    }
+  ]
+}

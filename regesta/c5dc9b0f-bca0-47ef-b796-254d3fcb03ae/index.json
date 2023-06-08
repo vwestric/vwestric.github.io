@@ -1,0 +1,114 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:c5dc9b0f-bca0-47ef-b796-254d3fcb03ae",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Ne36084d371df46c1b83cb27aea1f890b"
+      }
+    },
+    {
+      "@id": "_:Ne36084d371df46c1b83cb27aea1f890b",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N15ba2f3def2a4bf5b0b8ccb70e3f9a1d"
+      },
+      "ps:P291": {
+        "@id": "_:N7ffe56d6d98e424eb50e3458f1bc86b5"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N4d90657e72fa4b36bfc973da95626886"
+        },
+        {
+          "@id": "_:Ne877bc664fb3405fb289f163385545ac"
+        },
+        {
+          "@id": "_:N637a6afa81414ec1b6a40271929c4277"
+        }
+      ]
+    },
+    {
+      "@id": "_:N7ffe56d6d98e424eb50e3458f1bc86b5",
+      "https://schema.org#geo": {
+        "@id": "_:N5541aa5b756949839b794454ff282544"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q1741"
+      },
+      "rdfs:label": "Wien"
+    },
+    {
+      "@id": "_:N5541aa5b756949839b794454ff282544",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "48.20849",
+      "https://schema.org#longitude": "16.37208"
+    },
+    {
+      "@id": "_:N15ba2f3def2a4bf5b0b8ccb70e3f9a1d",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1462-10-13"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1462-10-13"
+      }
+    },
+    {
+      "@id": "_:N4d90657e72fa4b36bfc973da95626886",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00005971"
+      },
+      "ps:P39": [
+        {
+          "@id": "ri:hofrichter"
+        },
+        {
+          "@id": "ri:graf"
+        }
+      ],
+      "rdfs:label": "Hofrichter Gf. Johann von Sulz"
+    },
+    {
+      "@id": "_:Ne877bc664fb3405fb289f163385545ac",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:W00003211"
+      },
+      "ps:P39": [
+        {
+          "@id": "ri:hauptmann"
+        },
+        {
+          "@id": "ri:graf"
+        }
+      ],
+      "rdfs:label": "Hauptmann Gf. Ulrich (V.) von Württemberg"
+    },
+    {
+      "@id": "_:N637a6afa81414ec1b6a40271929c4277",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:P00000962"
+      },
+      "ps:P39": {
+        "@id": "ri:pfalzgraf"
+      },
+      "rdfs:label": "Pfgf. Friedrich bei Rhein"
+    }
+  ]
+}

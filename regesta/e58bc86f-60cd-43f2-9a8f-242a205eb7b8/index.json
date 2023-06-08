@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:e58bc86f-60cd-43f2-9a8f-242a205eb7b8",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Na141e5410da246c1963daa503f555631"
+      }
+    },
+    {
+      "@id": "_:Na141e5410da246c1963daa503f555631",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N7ef551c362044e2e9d680c96a2f98ca6"
+      },
+      "ps:P291": {
+        "@id": "_:Nfc8da074a3634230956002e2d119c9c0"
+      },
+      "ps:P3342": {
+        "@id": "_:Nee6532dcf086461b95ee34bedad8a30a"
+      }
+    },
+    {
+      "@id": "_:Nfc8da074a3634230956002e2d119c9c0",
+      "https://schema.org#geo": {
+        "@id": "_:N77edcd428dad4eb7b89c45293a620b2d"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q131612"
+      },
+      "rdfs:label": "Wiener Neustadt"
+    },
+    {
+      "@id": "_:N77edcd428dad4eb7b89c45293a620b2d",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.813153",
+      "https://schema.org#longitude": "16.24444"
+    },
+    {
+      "@id": "_:N7ef551c362044e2e9d680c96a2f98ca6",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1467-08-20"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1467-08-20"
+      }
+    },
+    {
+      "@id": "_:Nee6532dcf086461b95ee34bedad8a30a",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00000065"
+      },
+      "ps:P39": {
+        "@id": "ri:kurfuerst"
+      },
+      "rdfs:label": "Kf. Ernst von Sachsen"
+    }
+  ]
+}

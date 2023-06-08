@@ -1,0 +1,104 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:ac824ab1-bc1e-405c-8833-74fb932c9f8a",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N22b67546240842fba7c79661d804ca79"
+      }
+    },
+    {
+      "@id": "_:N22b67546240842fba7c79661d804ca79",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Nfd7044ba594541a2a059b4a385733736"
+      },
+      "ps:P291": {
+        "@id": "_:N8653c026cd5340adababad9ec7f624b9"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:Naa1040e8a34f42e18529ee47d82fc09b"
+        },
+        {
+          "@id": "_:N7bb76684b6994fa5b82aaef7a12d8357"
+        },
+        {
+          "@id": "_:N870317d963fd4f499526130797d71d31"
+        }
+      ]
+    },
+    {
+      "@id": "_:N8653c026cd5340adababad9ec7f624b9",
+      "https://schema.org#geo": {
+        "@id": "_:Nfe3d7163fe5e49d09b9f494cdb405a1c"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q153494"
+      },
+      "rdfs:label": "Rothenburg o. T."
+    },
+    {
+      "@id": "_:Nfe3d7163fe5e49d09b9f494cdb405a1c",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "49.3775",
+      "https://schema.org#longitude": "10.178889"
+    },
+    {
+      "@id": "_:Nfd7044ba594541a2a059b4a385733736",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1474-02-13"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1474-02-13"
+      }
+    },
+    {
+      "@id": "_:Naa1040e8a34f42e18529ee47d82fc09b",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00002248"
+      },
+      "ps:P39": {
+        "@id": "ri:kurfuerst"
+      },
+      "rdfs:label": "Kf. Albrecht von Brandenburg"
+    },
+    {
+      "@id": "_:N7bb76684b6994fa5b82aaef7a12d8357",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:M00000083"
+      },
+      "ps:P39": {
+        "@id": "ri:erzbischof"
+      },
+      "rdfs:label": "Eb. Johann von Magdeburg"
+    },
+    {
+      "@id": "_:N870317d963fd4f499526130797d71d31",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:D00000033"
+      },
+      "ps:P39": {
+        "@id": "ri:koenig"
+      },
+      "rdfs:label": "Kg. Christian (I.) von Dänemark"
+    }
+  ]
+}

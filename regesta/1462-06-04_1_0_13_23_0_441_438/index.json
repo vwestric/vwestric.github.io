@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1462-06-04_1_0_13_23_0_441_438",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N7353d01c55734ca1a2358459a37304e7"
+      }
+    },
+    {
+      "@id": "_:N7353d01c55734ca1a2358459a37304e7",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Ndef2d77b9c324ef4974d51ae2b8f1148"
+      },
+      "ps:P291": {
+        "@id": "_:N2324aea869e640168abc8dbf95f5ea7c"
+      },
+      "ps:P3342": {
+        "@id": "_:N35ccedccd81b4d6cba5c243983967f3d"
+      }
+    },
+    {
+      "@id": "_:N2324aea869e640168abc8dbf95f5ea7c",
+      "https://schema.org#geo": {
+        "@id": "_:Nc83893e20ba84655b2a49353e8f202a5"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q13298"
+      },
+      "rdfs:label": "Graz"
+    },
+    {
+      "@id": "_:Nc83893e20ba84655b2a49353e8f202a5",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.06667",
+      "https://schema.org#longitude": "15.45"
+    },
+    {
+      "@id": "_:Ndef2d77b9c324ef4974d51ae2b8f1148",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1462-06-04"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1462-06-04"
+      }
+    },
+    {
+      "@id": "_:N35ccedccd81b4d6cba5c243983967f3d",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00005552"
+      },
+      "ps:P39": {
+        "@id": "ri:bischof"
+      },
+      "rdfs:label": "Bf. Ruprecht von Straßburg"
+    }
+  ]
+}

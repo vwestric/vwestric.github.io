@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1492-02-27_1_0_13_25_0_284_284",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N40b57fc142a547c78bb006bdb0c0bdae"
+      }
+    },
+    {
+      "@id": "_:N40b57fc142a547c78bb006bdb0c0bdae",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Nb2764ca62b85450895bd321100a5c3fa"
+      },
+      "ps:P291": {
+        "@id": "_:N14bbe4a737c447f7be24fe253daaec9b"
+      },
+      "ps:P3342": {
+        "@id": "_:N3d5f4135842240519f2a9378b8d03867"
+      }
+    },
+    {
+      "@id": "_:N14bbe4a737c447f7be24fe253daaec9b",
+      "https://schema.org#geo": {
+        "@id": "_:N5035e2f83c374444986dd0f6d9c106dd"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q41329"
+      },
+      "rdfs:label": "Linz"
+    },
+    {
+      "@id": "_:N5035e2f83c374444986dd0f6d9c106dd",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "48.303056",
+      "https://schema.org#longitude": "14.290556"
+    },
+    {
+      "@id": "_:Nb2764ca62b85450895bd321100a5c3fa",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1492-02-27"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1492-02-27"
+      }
+    },
+    {
+      "@id": "_:N3d5f4135842240519f2a9378b8d03867",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:M00000268"
+      },
+      "ps:P39": {
+        "@id": "ri:erzbischof"
+      },
+      "rdfs:label": "Eb. Berthold von Mainz"
+    }
+  ]
+}

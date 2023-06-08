@@ -1,0 +1,90 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1448-04-27_2_0_13_13_0_73_72",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N3d0ea61d962c448b9b2b0db87f0db55e"
+      }
+    },
+    {
+      "@id": "_:N3d0ea61d962c448b9b2b0db87f0db55e",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N9f36bc2401b9433485e8338f5a0a8131"
+      },
+      "ps:P291": {
+        "@id": "_:N36b10e42047141af8dcc2b0a5ed59dd4"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N6759478e0b7e4c9682b71c49affd899d"
+        },
+        {
+          "@id": "_:Nc8a6219120174cc1b27df38451dbe93b"
+        }
+      ]
+    },
+    {
+      "@id": "_:N36b10e42047141af8dcc2b0a5ed59dd4",
+      "https://schema.org#geo": {
+        "@id": "_:N768d259229364c6f8f20ab4e27631c89"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q13298"
+      },
+      "rdfs:label": "Graz"
+    },
+    {
+      "@id": "_:N768d259229364c6f8f20ab4e27631c89",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.06667",
+      "https://schema.org#longitude": "15.45"
+    },
+    {
+      "@id": "_:N9f36bc2401b9433485e8338f5a0a8131",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1448-04-27"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1448-04-27"
+      }
+    },
+    {
+      "@id": "_:N6759478e0b7e4c9682b71c49affd899d",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00001019"
+      },
+      "ps:P39": {
+        "@id": "ri:herzog"
+      },
+      "rdfs:label": "Hz. Ludwig (I.) von Savoyen"
+    },
+    {
+      "@id": "_:Nc8a6219120174cc1b27df38451dbe93b",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:O00000622"
+      },
+      "ps:P39": {
+        "@id": "ri:herzog"
+      },
+      "rdfs:label": "Hz. Sigmund von Österreich"
+    }
+  ]
+}

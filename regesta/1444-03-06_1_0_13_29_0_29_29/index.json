@@ -1,0 +1,60 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1444-03-06_1_0_13_29_0_29_29",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N859d66d503de48bd9ee52493553bcd36"
+      }
+    },
+    {
+      "@id": "_:N859d66d503de48bd9ee52493553bcd36",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Na7e3bdc6a926427da8d49d7cb67a9345"
+      },
+      "ps:P291": {
+        "@id": "_:N2364837958d84622b22c4ebcd1151f8d"
+      }
+    },
+    {
+      "@id": "_:N2364837958d84622b22c4ebcd1151f8d",
+      "https://schema.org#geo": {
+        "@id": "_:Nfc5836f79cdc4bf1832300cc9c0727ca"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q494604"
+      },
+      "rdfs:label": "Stein in Krain"
+    },
+    {
+      "@id": "_:Nfc5836f79cdc4bf1832300cc9c0727ca",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "46.767222",
+      "https://schema.org#longitude": "14.359722"
+    },
+    {
+      "@id": "_:Na7e3bdc6a926427da8d49d7cb67a9345",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1444-03-06"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1444-03-06"
+      }
+    }
+  ]
+}

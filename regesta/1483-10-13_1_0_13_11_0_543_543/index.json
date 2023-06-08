@@ -1,0 +1,143 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1483-10-13_1_0_13_11_0_543_543",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N1271bf9632e84019baec91c877942136"
+      }
+    },
+    {
+      "@id": "_:N1271bf9632e84019baec91c877942136",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N4ff533c7acd440fcb440be6f9693e887"
+      },
+      "ps:P291": {
+        "@id": "_:Ncca1f112387a41ccb24c145bac9df72d"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N6d90193ac8cd4132a360733dd15afdd2"
+        },
+        {
+          "@id": "_:Nebcd7e4e9d1844abb24a8fec771cb4ae"
+        },
+        {
+          "@id": "_:N5cb02ab455cc416ea77110ca5c72f99b"
+        },
+        {
+          "@id": "_:Nd97b0ac6db9e46b3a4127ff98314688f"
+        },
+        {
+          "@id": "_:N05bc25253a39432caa79a31e45305850"
+        },
+        {
+          "@id": "_:N56da9ac9255f49d49906e21774f73f8c"
+        }
+      ]
+    },
+    {
+      "@id": "_:Ncca1f112387a41ccb24c145bac9df72d",
+      "https://schema.org#geo": {
+        "@id": "_:Nafef7771b6844e82b40ad32445777dde"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q13298"
+      },
+      "rdfs:label": "Graz"
+    },
+    {
+      "@id": "_:Nafef7771b6844e82b40ad32445777dde",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.06667",
+      "https://schema.org#longitude": "15.45"
+    },
+    {
+      "@id": "_:N4ff533c7acd440fcb440be6f9693e887",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1483-10-13"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1483-10-13"
+      }
+    },
+    {
+      "@id": "_:N6d90193ac8cd4132a360733dd15afdd2",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00000064"
+      },
+      "ps:P39": {
+        "@id": "ri:herzog"
+      },
+      "rdfs:label": "Hz. Albrecht von Sachsen"
+    },
+    {
+      "@id": "_:Nebcd7e4e9d1844abb24a8fec771cb4ae",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00000055"
+      },
+      "rdfs:label": "Albrecht von Sachsen"
+    },
+    {
+      "@id": "_:N5cb02ab455cc416ea77110ca5c72f99b",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:U00000212"
+      },
+      "ps:P39": {
+        "@id": "ri:koenig"
+      },
+      "rdfs:label": "Kg. (Matthias) von Ungarn"
+    },
+    {
+      "@id": "_:Nd97b0ac6db9e46b3a4127ff98314688f",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00003679"
+      },
+      "ps:P39": {
+        "@id": "ri:papst"
+      },
+      "rdfs:label": "Papst (Sixtus IV.)"
+    },
+    {
+      "@id": "_:N05bc25253a39432caa79a31e45305850",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00000559"
+      },
+      "ps:P39": {
+        "@id": "ri:herzog"
+      },
+      "rdfs:label": "Hz. Georg von Bayern"
+    },
+    {
+      "@id": "_:N56da9ac9255f49d49906e21774f73f8c",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:G00001713"
+      },
+      "ps:P39": {
+        "@id": "ri:erzbischof"
+      },
+      "rdfs:label": "Eb. Johann von Gran"
+    }
+  ]
+}

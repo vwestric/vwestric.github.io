@@ -1,0 +1,82 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1487-07-11_1_0_13_29_0_234_234",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Nfb81121a7a35483a93715f04bd3f8c19"
+      }
+    },
+    {
+      "@id": "_:Nfb81121a7a35483a93715f04bd3f8c19",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Nd9c159804cb8448cac55bbbdb98faab1"
+      },
+      "ps:P291": {
+        "@id": "_:N59e68a8170664838b1c1ea1bf58e75cd"
+      },
+      "ps:P3342": {
+        "@id": "_:Nbb2ba4bd85074d8491fefb9cbd5cacdd"
+      }
+    },
+    {
+      "@id": "_:N59e68a8170664838b1c1ea1bf58e75cd",
+      "https://schema.org#geo": {
+        "@id": "_:N7108fec1b3d74845b66e41faabb1b06e"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q2090"
+      },
+      "rdfs:label": "Nürnberg"
+    },
+    {
+      "@id": "_:N7108fec1b3d74845b66e41faabb1b06e",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "49.45421",
+      "https://schema.org#longitude": "11.07752"
+    },
+    {
+      "@id": "_:Nd9c159804cb8448cac55bbbdb98faab1",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1487-07-11"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1487-07-11"
+      }
+    },
+    {
+      "@id": "_:Nbb2ba4bd85074d8491fefb9cbd5cacdd",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:A00001518"
+      },
+      "ps:P39": [
+        {
+          "@id": "ri:rat"
+        },
+        {
+          "@id": "ri:kaemmerer"
+        },
+        {
+          "@id": "ri:hauptmann"
+        }
+      ],
+      "rdfs:label": "Wilhelm von Auersperg, seinen Rat, Kämmerer und Hauptmann in Krain"
+    }
+  ]
+}

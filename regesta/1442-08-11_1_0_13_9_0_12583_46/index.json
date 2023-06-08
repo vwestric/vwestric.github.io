@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1442-08-11_1_0_13_9_0_12583_46",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N3f2819547fb74cdeb7a85f2073a24fc6"
+      }
+    },
+    {
+      "@id": "_:N3f2819547fb74cdeb7a85f2073a24fc6",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N084a6f38f8ec4fa58ddab7e76db36bdc"
+      },
+      "ps:P291": {
+        "@id": "_:N4ffe9e98522c4aebbe565198f07196ce"
+      },
+      "ps:P3342": {
+        "@id": "_:N7316c07c878c4bcab5ac7d54d307359c"
+      }
+    },
+    {
+      "@id": "_:N4ffe9e98522c4aebbe565198f07196ce",
+      "https://schema.org#geo": {
+        "@id": "_:N7e4db89fb9ab4cb68de3566a9b86d687"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q1794"
+      },
+      "rdfs:label": "Frankfurt"
+    },
+    {
+      "@id": "_:N7e4db89fb9ab4cb68de3566a9b86d687",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "50.110556",
+      "https://schema.org#longitude": "8.682222"
+    },
+    {
+      "@id": "_:N084a6f38f8ec4fa58ddab7e76db36bdc",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1442-08-11"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1442-08-11"
+      }
+    },
+    {
+      "@id": "_:N7316c07c878c4bcab5ac7d54d307359c",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:T00001172"
+      },
+      "ps:P39": {
+        "@id": "ri:erzbischof"
+      },
+      "rdfs:label": "Eb. Jakob von Trier"
+    }
+  ]
+}

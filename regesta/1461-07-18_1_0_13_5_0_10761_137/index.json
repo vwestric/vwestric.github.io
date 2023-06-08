@@ -1,0 +1,104 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1461-07-18_1_0_13_5_0_10761_137",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N28c3f0b7506b4cc69009454567aa6b27"
+      }
+    },
+    {
+      "@id": "_:N28c3f0b7506b4cc69009454567aa6b27",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N99e4c3a26ad040138c7678cd15584137"
+      },
+      "ps:P291": {
+        "@id": "_:N03c8b75d19f34e3d997453a72d236810"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:Nfd57b0a35aea4466ba33ad52addefa22"
+        },
+        {
+          "@id": "_:N9897470275cb497cb3af125794d53b5d"
+        },
+        {
+          "@id": "_:Na9b4a3612b854cc3acca49f8ae354100"
+        }
+      ]
+    },
+    {
+      "@id": "_:N03c8b75d19f34e3d997453a72d236810",
+      "https://schema.org#geo": {
+        "@id": "_:N7389c01894494ed7b63adeeb93edd020"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q13298"
+      },
+      "rdfs:label": "Graz"
+    },
+    {
+      "@id": "_:N7389c01894494ed7b63adeeb93edd020",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.06667",
+      "https://schema.org#longitude": "15.45"
+    },
+    {
+      "@id": "_:N99e4c3a26ad040138c7678cd15584137",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1461-07-18"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1461-07-18"
+      }
+    },
+    {
+      "@id": "_:Nfd57b0a35aea4466ba33ad52addefa22",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00001064"
+      },
+      "ps:P39": {
+        "@id": "ri:graf"
+      },
+      "rdfs:label": "Gf. Gerhard von Sayn"
+    },
+    {
+      "@id": "_:N9897470275cb497cb3af125794d53b5d",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00002248"
+      },
+      "ps:P39": {
+        "@id": "ri:markgraf"
+      },
+      "rdfs:label": "Mgf. Albrecht von Brandenburg"
+    },
+    {
+      "@id": "_:Na9b4a3612b854cc3acca49f8ae354100",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00000075"
+      },
+      "ps:P39": {
+        "@id": "ri:markgraf"
+      },
+      "rdfs:label": "Mgf. Karl von Baden"
+    }
+  ]
+}

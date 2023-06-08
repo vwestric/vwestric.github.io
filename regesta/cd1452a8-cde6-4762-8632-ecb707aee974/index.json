@@ -1,0 +1,90 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:cd1452a8-cde6-4762-8632-ecb707aee974",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N1fb8b96e04a243f9945a944428dd64b9"
+      }
+    },
+    {
+      "@id": "_:N1fb8b96e04a243f9945a944428dd64b9",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N31139134d6a345fabce28fd12fa09b55"
+      },
+      "ps:P291": {
+        "@id": "_:N144f46e383174e46b45aa98c2b5f15e7"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N1b774e5a48864cfb853ad0d4afff89e4"
+        },
+        {
+          "@id": "_:N16344633e9834ba7ac5e81db9ac0975e"
+        }
+      ]
+    },
+    {
+      "@id": "_:N144f46e383174e46b45aa98c2b5f15e7",
+      "https://schema.org#geo": {
+        "@id": "_:N74fa840c42fc44778c32d79ec88adf14"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q659841"
+      },
+      "rdfs:label": "Korneuburg"
+    },
+    {
+      "@id": "_:N74fa840c42fc44778c32d79ec88adf14",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "48.35",
+      "https://schema.org#longitude": "16.33333"
+    },
+    {
+      "@id": "_:N31139134d6a345fabce28fd12fa09b55",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1462-12-09"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1462-12-09"
+      }
+    },
+    {
+      "@id": "_:N1b774e5a48864cfb853ad0d4afff89e4",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:E00000542"
+      },
+      "ps:P39": {
+        "@id": "ri:ritter"
+      },
+      "rdfs:label": "Ritter Jobst von Einsiedel"
+    },
+    {
+      "@id": "_:N16344633e9834ba7ac5e81db9ac0975e",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00001825"
+      },
+      "ps:P39": {
+        "@id": "ri:koenig"
+      },
+      "rdfs:label": "Kg. Georgs von Böhmen"
+    }
+  ]
+}

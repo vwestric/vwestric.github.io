@@ -1,0 +1,60 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1442-06-17_3_0_13_6_0_10993_15",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Nfa53692d71234bb2a3070f3c91c9d17d"
+      }
+    },
+    {
+      "@id": "_:Nfa53692d71234bb2a3070f3c91c9d17d",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Nd3169c5fa79e47d988f0d8de7066285b"
+      },
+      "ps:P291": {
+        "@id": "_:Nba661bbb4ae54923bc68e443dcb45f24"
+      }
+    },
+    {
+      "@id": "_:Nba661bbb4ae54923bc68e443dcb45f24",
+      "https://schema.org#geo": {
+        "@id": "_:Ne287a3a5a4bb4d81bc9e231f545ed5ff"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q1017"
+      },
+      "rdfs:label": "Aachen"
+    },
+    {
+      "@id": "_:Ne287a3a5a4bb4d81bc9e231f545ed5ff",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "50.77664",
+      "https://schema.org#longitude": "6.08342"
+    },
+    {
+      "@id": "_:Nd3169c5fa79e47d988f0d8de7066285b",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1442-06-17"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1442-06-17"
+      }
+    }
+  ]
+}

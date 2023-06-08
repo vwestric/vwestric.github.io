@@ -1,0 +1,71 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1489-09-19_1_0_13_5_0_10953_329",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Na4741a3cb95b4e2a95ccea47d55651ad"
+      }
+    },
+    {
+      "@id": "_:Na4741a3cb95b4e2a95ccea47d55651ad",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N6b0d6cdbfa6d415b83d989d7aa6cbcff"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N7d294deea7fd4786964c762947ec55b2"
+        },
+        {
+          "@id": "_:Nf084f234fe4e49ce9157e8f0190b0755"
+        }
+      ]
+    },
+    {
+      "@id": "_:N6b0d6cdbfa6d415b83d989d7aa6cbcff",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1489-09-19"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1489-09-19"
+      }
+    },
+    {
+      "@id": "_:N7d294deea7fd4786964c762947ec55b2",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00001064"
+      },
+      "ps:P39": {
+        "@id": "ri:graf"
+      },
+      "rdfs:label": "Gf. Gerhard von Sayn"
+    },
+    {
+      "@id": "_:Nf084f234fe4e49ce9157e8f0190b0755",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:M00001151"
+      },
+      "ps:P39": {
+        "@id": "ri:koenig"
+      },
+      "rdfs:label": "Kg. Maximilian"
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:f259cdf2-0539-4663-bb9b-ac442eab6171",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N09952b984ca74d5db58818c3d713f765"
+      }
+    },
+    {
+      "@id": "_:N09952b984ca74d5db58818c3d713f765",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N1c7ebc903b584fe3aad514fba93b43ce"
+      },
+      "ps:P291": {
+        "@id": "_:Nfe66738163024729b746ee7132081f8f"
+      },
+      "ps:P3342": {
+        "@id": "_:N32af074847544e74803885b30d2227c1"
+      }
+    },
+    {
+      "@id": "_:Nfe66738163024729b746ee7132081f8f",
+      "https://schema.org#geo": {
+        "@id": "_:Nb81fa4919b0a457cbdcc92b78ca863e3"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q1017"
+      },
+      "rdfs:label": "Aachen"
+    },
+    {
+      "@id": "_:Nb81fa4919b0a457cbdcc92b78ca863e3",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "50.77664",
+      "https://schema.org#longitude": "6.08342"
+    },
+    {
+      "@id": "_:N1c7ebc903b584fe3aad514fba93b43ce",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1442-06-19"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1442-06-19"
+      }
+    },
+    {
+      "@id": "_:N32af074847544e74803885b30d2227c1",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00002265"
+      },
+      "ps:P39": {
+        "@id": "ri:kurfuerst"
+      },
+      "rdfs:label": "Kf. Friedrich (II.) von Brandenburg"
+    }
+  ]
+}

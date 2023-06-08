@@ -1,0 +1,90 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1444-10-14_2_0_13_25_0_41_41",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Ne1d6b4552f6b493cab797e050786c76d"
+      }
+    },
+    {
+      "@id": "_:Ne1d6b4552f6b493cab797e050786c76d",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Nee26ba100bbd4c9fb363454cd8352e44"
+      },
+      "ps:P291": {
+        "@id": "_:N2acc79e8992c4c5b93a6cfa4ea9688af"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:Ne3707f43686f4656954dc3b59731fd14"
+        },
+        {
+          "@id": "_:N970c3463e46c425bbe85124ae93f2b5d"
+        }
+      ]
+    },
+    {
+      "@id": "_:N2acc79e8992c4c5b93a6cfa4ea9688af",
+      "https://schema.org#geo": {
+        "@id": "_:N591536b4d2b8407c986e6610e32d6e5e"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q2978"
+      },
+      "rdfs:label": "Regensburg"
+    },
+    {
+      "@id": "_:N591536b4d2b8407c986e6610e32d6e5e",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "49.0054",
+      "https://schema.org#longitude": "12.0606"
+    },
+    {
+      "@id": "_:Nee26ba100bbd4c9fb363454cd8352e44",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1444-10-14"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1444-10-14"
+      }
+    },
+    {
+      "@id": "_:Ne3707f43686f4656954dc3b59731fd14",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:M00000277"
+      },
+      "ps:P39": {
+        "@id": "ri:erzbischof"
+      },
+      "rdfs:label": "Eb. Dietrich von Mainz"
+    },
+    {
+      "@id": "_:N970c3463e46c425bbe85124ae93f2b5d",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:P00000976"
+      },
+      "ps:P39": {
+        "@id": "ri:pfalzgraf"
+      },
+      "rdfs:label": "Pfgf. Ludwig (IV.) bei Rhein"
+    }
+  ]
+}

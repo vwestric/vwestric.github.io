@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1493-03-26_1_0_13_2_0_9366_238",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Ne7ff442d1e45495c8f868ac086e1b654"
+      }
+    },
+    {
+      "@id": "_:Ne7ff442d1e45495c8f868ac086e1b654",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N80724a46f82b480999210f8292f7eba7"
+      },
+      "ps:P291": {
+        "@id": "_:N67ddbacb1df94963803b211d7c46a2cb"
+      },
+      "ps:P3342": {
+        "@id": "_:N4b40d7b16315400cb0ef947874b50f32"
+      }
+    },
+    {
+      "@id": "_:N67ddbacb1df94963803b211d7c46a2cb",
+      "https://schema.org#geo": {
+        "@id": "_:Nbde5f40fb1eb4e629080a844220885e7"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q41329"
+      },
+      "rdfs:label": "Linz"
+    },
+    {
+      "@id": "_:Nbde5f40fb1eb4e629080a844220885e7",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "48.303056",
+      "https://schema.org#longitude": "14.290556"
+    },
+    {
+      "@id": "_:N80724a46f82b480999210f8292f7eba7",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1493-03-26"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1493-03-26"
+      }
+    },
+    {
+      "@id": "_:N4b40d7b16315400cb0ef947874b50f32",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:A00001565"
+      },
+      "ps:P39": {
+        "@id": "ri:bischof"
+      },
+      "rdfs:label": "Bischof Friedrich von Augsburg"
+    }
+  ]
+}

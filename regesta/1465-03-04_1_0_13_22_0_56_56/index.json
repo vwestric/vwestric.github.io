@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1465-03-04_1_0_13_22_0_56_56",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Ne529bcce71e64533bdd8229575c9a3e2"
+      }
+    },
+    {
+      "@id": "_:Ne529bcce71e64533bdd8229575c9a3e2",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N61ee22c931b642988038e30621690a64"
+      },
+      "ps:P291": {
+        "@id": "_:Nc7bd639da34c417cb9a491bae487b6e3"
+      },
+      "ps:P3342": {
+        "@id": "_:N623ede9551ae4e81a8c69e9c12ec971f"
+      }
+    },
+    {
+      "@id": "_:Nc7bd639da34c417cb9a491bae487b6e3",
+      "https://schema.org#geo": {
+        "@id": "_:N3d25dcc6272f4f098ddb816d90e0963a"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q131612"
+      },
+      "rdfs:label": "Wiener Neustadt"
+    },
+    {
+      "@id": "_:N3d25dcc6272f4f098ddb816d90e0963a",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.813153",
+      "https://schema.org#longitude": "16.24444"
+    },
+    {
+      "@id": "_:N61ee22c931b642988038e30621690a64",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1465-03-04"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1465-03-04"
+      }
+    },
+    {
+      "@id": "_:N623ede9551ae4e81a8c69e9c12ec971f",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:P00000251"
+      },
+      "ps:P39": {
+        "@id": "ri:bischof"
+      },
+      "rdfs:label": "Bf. Ulrich von Passau"
+    }
+  ]
+}

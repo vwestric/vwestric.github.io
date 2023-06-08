@@ -1,0 +1,60 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1452-06-02_1_0_13_8_0_12156_148",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N5d3c831cf4d94dbab9093841315b92c5"
+      }
+    },
+    {
+      "@id": "_:N5d3c831cf4d94dbab9093841315b92c5",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N0bbaec052e8b437f995df0ab3805822c"
+      },
+      "ps:P291": {
+        "@id": "_:N37f9fda20c09414eba93333fef98c45b"
+      }
+    },
+    {
+      "@id": "_:N37f9fda20c09414eba93333fef98c45b",
+      "https://schema.org#geo": {
+        "@id": "_:N9115bc25b5ad44be81cbc536e65352b0"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q641"
+      },
+      "rdfs:label": "Venedig"
+    },
+    {
+      "@id": "_:N9115bc25b5ad44be81cbc536e65352b0",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "45.43384",
+      "https://schema.org#longitude": "12.34028"
+    },
+    {
+      "@id": "_:N0bbaec052e8b437f995df0ab3805822c",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1452-06-02"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1452-06-02"
+      }
+    }
+  ]
+}

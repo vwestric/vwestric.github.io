@@ -1,0 +1,90 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1474-12-31_1_0_13_8_0_12370_362",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N1e0fd75485bf4ea6ad7f320ccdc2d65c"
+      }
+    },
+    {
+      "@id": "_:N1e0fd75485bf4ea6ad7f320ccdc2d65c",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N0b6357d7af764fd3bdbe92351e28eeb0"
+      },
+      "ps:P291": {
+        "@id": "_:N48f9808a9c1a4beda51f219905b8a1fe"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N697d60be5e2a4df6b808e8edbff3b164"
+        },
+        {
+          "@id": "_:Nfae7026d27eb4b75858aef193e40e69b"
+        }
+      ]
+    },
+    {
+      "@id": "_:N48f9808a9c1a4beda51f219905b8a1fe",
+      "https://schema.org#geo": {
+        "@id": "_:N5481b7f538c746dfb0fbd0fac5d84913"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q490058"
+      },
+      "rdfs:label": "Andernach"
+    },
+    {
+      "@id": "_:N5481b7f538c746dfb0fbd0fac5d84913",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "50.4333",
+      "https://schema.org#longitude": "7.4"
+    },
+    {
+      "@id": "_:N0b6357d7af764fd3bdbe92351e28eeb0",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1474-12-31"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1474-12-31"
+      }
+    },
+    {
+      "@id": "_:N697d60be5e2a4df6b808e8edbff3b164",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:F00000908"
+      },
+      "ps:P39": {
+        "@id": "ri:koenig"
+      },
+      "rdfs:label": "Kg. Ludwig (XI.) von Frankreich"
+    },
+    {
+      "@id": "_:Nfae7026d27eb4b75858aef193e40e69b",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00003253"
+      },
+      "ps:P39": {
+        "@id": "ri:herzog"
+      },
+      "rdfs:label": "Hz. Karls von Burgund"
+    }
+  ]
+}

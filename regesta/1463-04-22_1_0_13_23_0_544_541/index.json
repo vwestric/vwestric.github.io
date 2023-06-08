@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1463-04-22_1_0_13_23_0_544_541",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N9eab100a1e844f27bbb4882367678307"
+      }
+    },
+    {
+      "@id": "_:N9eab100a1e844f27bbb4882367678307",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Naec2a64cf6c8457f8a2b29880a516d4b"
+      },
+      "ps:P291": {
+        "@id": "_:Nee518c6a973e4879a28fbf004f261d35"
+      },
+      "ps:P3342": {
+        "@id": "_:Naf6773e32ccb42b09289292303321a85"
+      }
+    },
+    {
+      "@id": "_:Nee518c6a973e4879a28fbf004f261d35",
+      "https://schema.org#geo": {
+        "@id": "_:N7b06443d1a424bcc866fa507415dc468"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q131612"
+      },
+      "rdfs:label": "Wiener Neustadt"
+    },
+    {
+      "@id": "_:N7b06443d1a424bcc866fa507415dc468",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.813153",
+      "https://schema.org#longitude": "16.24444"
+    },
+    {
+      "@id": "_:Naec2a64cf6c8457f8a2b29880a516d4b",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1463-04-22"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1463-04-22"
+      }
+    },
+    {
+      "@id": "_:Naf6773e32ccb42b09289292303321a85",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:W00003283"
+      },
+      "ps:P39": {
+        "@id": "ri:graf"
+      },
+      "rdfs:label": "Gf. Eberhard (V.) d.Ä. von Württemberg"
+    }
+  ]
+}

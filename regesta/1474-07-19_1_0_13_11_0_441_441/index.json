@@ -1,0 +1,101 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1474-07-19_1_0_13_11_0_441_441",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N5980465bf3334a9c964bd567aa0a6064"
+      }
+    },
+    {
+      "@id": "_:N5980465bf3334a9c964bd567aa0a6064",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N4549e0a9f4ff41feaa152644257c598f"
+      },
+      "ps:P291": {
+        "@id": "_:N6c290fe41ee04c9a85c4f2def1c2fa18"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N69fdb5c2e39f4bf39bca898f2b2e9807"
+        },
+        {
+          "@id": "_:N5d937f8427fd47c3a241f6d9751793a5"
+        },
+        {
+          "@id": "_:N1454b0b3eaf243788b594d4897777e0b"
+        }
+      ]
+    },
+    {
+      "@id": "_:N6c290fe41ee04c9a85c4f2def1c2fa18",
+      "https://schema.org#geo": {
+        "@id": "_:N30c18c6bdbfd46c0a2648923d05276c8"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q2749"
+      },
+      "rdfs:label": "Augsburg"
+    },
+    {
+      "@id": "_:N30c18c6bdbfd46c0a2648923d05276c8",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "48.37154",
+      "https://schema.org#longitude": "10.89851"
+    },
+    {
+      "@id": "_:N4549e0a9f4ff41feaa152644257c598f",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1474-07-19"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1474-07-19"
+      }
+    },
+    {
+      "@id": "_:N69fdb5c2e39f4bf39bca898f2b2e9807",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00000064"
+      },
+      "ps:P39": {
+        "@id": "ri:herzog"
+      },
+      "rdfs:label": "Hz. Albrecht von Sachsen"
+    },
+    {
+      "@id": "_:N5d937f8427fd47c3a241f6d9751793a5",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00000055"
+      },
+      "rdfs:label": "Albrecht von Sachsen"
+    },
+    {
+      "@id": "_:N1454b0b3eaf243788b594d4897777e0b",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:M00000255"
+      },
+      "ps:P39": {
+        "@id": "ri:erzbischof"
+      },
+      "rdfs:label": "Eb. Adolf von Mainz"
+    }
+  ]
+}

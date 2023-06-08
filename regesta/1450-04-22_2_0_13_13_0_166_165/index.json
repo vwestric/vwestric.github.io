@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1450-04-22_2_0_13_13_0_166_165",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Nde3f50269b2445aab6b3a436e8968236"
+      }
+    },
+    {
+      "@id": "_:Nde3f50269b2445aab6b3a436e8968236",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Nf52a79024d4048fd8ef963f53bd0f27d"
+      },
+      "ps:P291": {
+        "@id": "_:Nd6610643773e4ef18ef7ee59730672db"
+      },
+      "ps:P3342": {
+        "@id": "_:Nea8d285d384647c48b7252ebbcf90f2a"
+      }
+    },
+    {
+      "@id": "_:Nd6610643773e4ef18ef7ee59730672db",
+      "https://schema.org#geo": {
+        "@id": "_:N99498ff526b74b2b8df5a613f0400130"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q63939"
+      },
+      "rdfs:label": "Baden"
+    },
+    {
+      "@id": "_:N99498ff526b74b2b8df5a613f0400130",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.47333",
+      "https://schema.org#longitude": "8.30592"
+    },
+    {
+      "@id": "_:Nf52a79024d4048fd8ef963f53bd0f27d",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1450-04-22"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1450-04-22"
+      }
+    },
+    {
+      "@id": "_:Nea8d285d384647c48b7252ebbcf90f2a",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:O00000579"
+      },
+      "ps:P39": {
+        "@id": "ri:herzog"
+      },
+      "rdfs:label": "Hz. Ernst von Österreich"
+    }
+  ]
+}

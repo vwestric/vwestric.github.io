@@ -1,0 +1,60 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1452-03-20_1_0_13_19_0_234_234",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Nca1ac78195724e138cbf872dcc66a170"
+      }
+    },
+    {
+      "@id": "_:Nca1ac78195724e138cbf872dcc66a170",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N7721dfdcdbb149088d24ce1dcd6f10ab"
+      },
+      "ps:P291": {
+        "@id": "_:N6e9e3e33a27e475b9a2236f1e9991df9"
+      }
+    },
+    {
+      "@id": "_:N6e9e3e33a27e475b9a2236f1e9991df9",
+      "https://schema.org#geo": {
+        "@id": "_:N273084ae0bc949b9a926b1e1d34817e6"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q220"
+      },
+      "rdfs:label": "Rom"
+    },
+    {
+      "@id": "_:N273084ae0bc949b9a926b1e1d34817e6",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "41.89193",
+      "https://schema.org#longitude": "12.51133"
+    },
+    {
+      "@id": "_:N7721dfdcdbb149088d24ce1dcd6f10ab",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1452-03-20"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1452-03-20"
+      }
+    }
+  ]
+}

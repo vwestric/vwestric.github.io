@@ -1,0 +1,71 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1443-09-23_2_0_13_11_0_46_46",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N76d8c4d308814ac381478943070d51ee"
+      }
+    },
+    {
+      "@id": "_:N76d8c4d308814ac381478943070d51ee",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Na0b1d957a546481aad0c2cd82a7deb68"
+      },
+      "ps:P291": {
+        "@id": "_:N70ba019236034115ab1715b9477b4305"
+      },
+      "ps:P3342": {
+        "@id": "_:Ncfaec53061424eec823d5d1398658a08"
+      }
+    },
+    {
+      "@id": "_:N70ba019236034115ab1715b9477b4305",
+      "https://schema.org#geo": {
+        "@id": "_:N98badb08ca50433cbb3c8fd8f1ad92be"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q13298"
+      },
+      "rdfs:label": "Graz"
+    },
+    {
+      "@id": "_:N98badb08ca50433cbb3c8fd8f1ad92be",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.06667",
+      "https://schema.org#longitude": "15.45"
+    },
+    {
+      "@id": "_:Na0b1d957a546481aad0c2cd82a7deb68",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1443-09-23"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1443-09-23"
+      }
+    },
+    {
+      "@id": "_:Ncfaec53061424eec823d5d1398658a08",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:C00000119"
+      },
+      "rdfs:label": "Hartung von Kappel"
+    }
+  ]
+}

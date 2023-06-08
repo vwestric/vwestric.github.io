@@ -1,0 +1,98 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1443-10-04_7_0_13_14_0_202_202",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Nf1d506fe2d5a46238e61b5f5e060ccad"
+      }
+    },
+    {
+      "@id": "_:Nf1d506fe2d5a46238e61b5f5e060ccad",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N6a700e035a5a43c5aa1f27b16cdabca9"
+      },
+      "ps:P291": {
+        "@id": "_:N63aae31adb744d9f968c6fc92ca53d1b"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:Nc0898606086546d796c88eaf5ed0780f"
+        },
+        {
+          "@id": "_:Nf5793b698fcf4b7885c7ab6d5ce2f069"
+        },
+        {
+          "@id": "_:Nbf4b5b0db79e4aaa97728cf2c96cef21"
+        }
+      ]
+    },
+    {
+      "@id": "_:N63aae31adb744d9f968c6fc92ca53d1b",
+      "https://schema.org#geo": {
+        "@id": "_:Nc730d3b685d14d40982fd6a02f1c942c"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q131612"
+      },
+      "rdfs:label": "Wiener Neustadt"
+    },
+    {
+      "@id": "_:Nc730d3b685d14d40982fd6a02f1c942c",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.813153",
+      "https://schema.org#longitude": "16.24444"
+    },
+    {
+      "@id": "_:N6a700e035a5a43c5aa1f27b16cdabca9",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1443-10-04"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1443-10-04"
+      }
+    },
+    {
+      "@id": "_:Nc0898606086546d796c88eaf5ed0780f",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:L00001601"
+      },
+      "ps:P39": {
+        "@id": "ri:freigraf"
+      },
+      "rdfs:label": "Konrad (von Lindenhorst), Freigraf zu Dortmund"
+    },
+    {
+      "@id": "_:Nf5793b698fcf4b7885c7ab6d5ce2f069",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:L00002467"
+      },
+      "rdfs:label": "Hans Löffelholz (Leffelholcz) d. Ä."
+    },
+    {
+      "@id": "_:Nbf4b5b0db79e4aaa97728cf2c96cef21",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:P00000736"
+      },
+      "rdfs:label": "Martin Pesler (Besler)"
+    }
+  ]
+}

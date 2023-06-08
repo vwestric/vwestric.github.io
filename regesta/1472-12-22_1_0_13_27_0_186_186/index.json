@@ -1,0 +1,71 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1472-12-22_1_0_13_27_0_186_186",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Nd66c48875378425eb327219480001ff7"
+      }
+    },
+    {
+      "@id": "_:Nd66c48875378425eb327219480001ff7",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Nae54eea321654b139bd56cf0e2f88ee0"
+      },
+      "ps:P291": {
+        "@id": "_:N4175f81c9ec14da2984ef76deb35dadc"
+      },
+      "ps:P3342": {
+        "@id": "_:N01673b5ea2b14d29abe2b54e927b7939"
+      }
+    },
+    {
+      "@id": "_:N4175f81c9ec14da2984ef76deb35dadc",
+      "https://schema.org#geo": {
+        "@id": "_:N048fd223f4b44ee78c21fc3b93dcc1d1"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q131612"
+      },
+      "rdfs:label": "Wiener Neustadt"
+    },
+    {
+      "@id": "_:N048fd223f4b44ee78c21fc3b93dcc1d1",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.813153",
+      "https://schema.org#longitude": "16.24444"
+    },
+    {
+      "@id": "_:Nae54eea321654b139bd56cf0e2f88ee0",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1472-12-22"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1472-12-22"
+      }
+    },
+    {
+      "@id": "_:N01673b5ea2b14d29abe2b54e927b7939",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:F00001201"
+      },
+      "rdfs:label": "Jacob Fretter aus Hallein"
+    }
+  ]
+}

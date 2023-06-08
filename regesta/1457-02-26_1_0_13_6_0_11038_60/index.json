@@ -1,0 +1,71 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1457-02-26_1_0_13_6_0_11038_60",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N5022f0ac71df4e5384582b43ad81d57a"
+      }
+    },
+    {
+      "@id": "_:N5022f0ac71df4e5384582b43ad81d57a",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N7df9aec7ffce450ba78114b3468c6154"
+      },
+      "ps:P291": {
+        "@id": "_:N530406499bd24c148baf4533aaeb90d4"
+      },
+      "ps:P3342": {
+        "@id": "_:N43d0bda11a3d475da278988bf160e434"
+      }
+    },
+    {
+      "@id": "_:N530406499bd24c148baf4533aaeb90d4",
+      "https://schema.org#geo": {
+        "@id": "_:N0060a0f322a54cd0a04619e5d3ffb59d"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q13298"
+      },
+      "rdfs:label": "Graz"
+    },
+    {
+      "@id": "_:N0060a0f322a54cd0a04619e5d3ffb59d",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.06667",
+      "https://schema.org#longitude": "15.45"
+    },
+    {
+      "@id": "_:N7df9aec7ffce450ba78114b3468c6154",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1457-02-26"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1457-02-26"
+      }
+    },
+    {
+      "@id": "_:N43d0bda11a3d475da278988bf160e434",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:H00002182"
+      },
+      "rdfs:label": "Bilgeri von Heudorf"
+    }
+  ]
+}

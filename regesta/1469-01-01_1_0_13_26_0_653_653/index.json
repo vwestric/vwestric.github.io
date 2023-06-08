@@ -1,0 +1,71 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1469-01-01_1_0_13_26_0_653_653",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N860cc3dc31374fbebcd7a70f42edf080"
+      }
+    },
+    {
+      "@id": "_:N860cc3dc31374fbebcd7a70f42edf080",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Ne3190315022e417b8d63ecc1fe0865ac"
+      },
+      "ps:P291": {
+        "@id": "_:N30b80b069e1a439c85cc8507372dddad"
+      },
+      "ps:P3342": {
+        "@id": "_:N3db809d1f36440a9a91d4a6bad60cfc7"
+      }
+    },
+    {
+      "@id": "_:N30b80b069e1a439c85cc8507372dddad",
+      "https://schema.org#geo": {
+        "@id": "_:N44f60d5998254cf5a0a16d699ac9fc62"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q220"
+      },
+      "rdfs:label": "Rom"
+    },
+    {
+      "@id": "_:N44f60d5998254cf5a0a16d699ac9fc62",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "41.89193",
+      "https://schema.org#longitude": "12.51133"
+    },
+    {
+      "@id": "_:Ne3190315022e417b8d63ecc1fe0865ac",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1469-01-01"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1469-01-01"
+      }
+    },
+    {
+      "@id": "_:N3db809d1f36440a9a91d4a6bad60cfc7",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00005969"
+      },
+      "rdfs:label": "Alwig von Sulz"
+    }
+  ]
+}

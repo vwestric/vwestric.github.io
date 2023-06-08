@@ -1,0 +1,90 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1470-06-08_1_0_13_4_0_10074_502",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N8b37e05e8e5b4ec88fc67fdbf861d258"
+      }
+    },
+    {
+      "@id": "_:N8b37e05e8e5b4ec88fc67fdbf861d258",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N7b08b0a9006e4084866617816534a41f"
+      },
+      "ps:P291": {
+        "@id": "_:N661a22c2b0ae4edc96e6907ff46eb1d4"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N7f7efb7dc83f478cb7faf3450fb28fb8"
+        },
+        {
+          "@id": "_:Ne2728b09e8c34439937dd193b489140b"
+        }
+      ]
+    },
+    {
+      "@id": "_:N661a22c2b0ae4edc96e6907ff46eb1d4",
+      "https://schema.org#geo": {
+        "@id": "_:N8c191dd86eb34ea4b84316a0b3f7ccc1"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q494604"
+      },
+      "rdfs:label": "St. Veit in Kärnten"
+    },
+    {
+      "@id": "_:N8c191dd86eb34ea4b84316a0b3f7ccc1",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "46.767222",
+      "https://schema.org#longitude": "14.359722"
+    },
+    {
+      "@id": "_:N7b08b0a9006e4084866617816534a41f",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1470-06-08"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1470-06-08"
+      }
+    },
+    {
+      "@id": "_:N7f7efb7dc83f478cb7faf3450fb28fb8",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:P00000962"
+      },
+      "ps:P39": {
+        "@id": "ri:pfalzgraf"
+      },
+      "rdfs:label": "Pfgf. Friedrich bei Rhein"
+    },
+    {
+      "@id": "_:Ne2728b09e8c34439937dd193b489140b",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00000565"
+      },
+      "ps:P39": {
+        "@id": "ri:herzog"
+      },
+      "rdfs:label": "Hz. Ludwig von Bayern(-Veldenz)"
+    }
+  ]
+}

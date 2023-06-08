@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1474-04-31_1_0_13_10_0_13366_406",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N33e1201b3f7f4be499df4643051f908a"
+      }
+    },
+    {
+      "@id": "_:N33e1201b3f7f4be499df4643051f908a",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N8dae3e2284254cd8afa28a93ea296e34"
+      },
+      "ps:P291": {
+        "@id": "_:N4a895f24be094624a4b28e841756ef08"
+      },
+      "ps:P3342": {
+        "@id": "_:N78960df067b342c699ad08fb6c69a981"
+      }
+    },
+    {
+      "@id": "_:N4a895f24be094624a4b28e841756ef08",
+      "https://schema.org#geo": {
+        "@id": "_:Ne35d204c6e4d417c99ebe43c27271e16"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q90"
+      },
+      "rdfs:label": "[Paris]"
+    },
+    {
+      "@id": "_:Ne35d204c6e4d417c99ebe43c27271e16",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "48.856667",
+      "https://schema.org#longitude": "2.351667"
+    },
+    {
+      "@id": "_:N8dae3e2284254cd8afa28a93ea296e34",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1474-12-31"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1475-04-01"
+      }
+    },
+    {
+      "@id": "_:N78960df067b342c699ad08fb6c69a981",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:F00000908"
+      },
+      "ps:P39": {
+        "@id": "ri:koenig"
+      },
+      "rdfs:label": "Kg. Ludwig (XI.) von Frankreich"
+    }
+  ]
+}

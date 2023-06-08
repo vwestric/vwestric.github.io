@@ -1,0 +1,60 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1442-08-19_1_0_13_4_0_9612_42",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N2b2d7e66e60a4165b12543b4cf151f94"
+      }
+    },
+    {
+      "@id": "_:N2b2d7e66e60a4165b12543b4cf151f94",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Na3e66acc728443058677912bcf7553e9"
+      },
+      "ps:P291": {
+        "@id": "_:Nc6c205e4e1e144dc9a587c5d73c74ade"
+      }
+    },
+    {
+      "@id": "_:Nc6c205e4e1e144dc9a587c5d73c74ade",
+      "https://schema.org#geo": {
+        "@id": "_:N4862d8ded8624cd3910272ba58f7d718"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q1720"
+      },
+      "rdfs:label": "Mainz"
+    },
+    {
+      "@id": "_:N4862d8ded8624cd3910272ba58f7d718",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "49.99",
+      "https://schema.org#longitude": "8.28"
+    },
+    {
+      "@id": "_:Na3e66acc728443058677912bcf7553e9",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1442-08-19"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1442-08-19"
+      }
+    }
+  ]
+}

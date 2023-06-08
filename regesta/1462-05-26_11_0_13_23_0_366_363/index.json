@@ -1,0 +1,104 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1462-05-26_11_0_13_23_0_366_363",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Nca2d7797478c4269b72ab7f1915a1625"
+      }
+    },
+    {
+      "@id": "_:Nca2d7797478c4269b72ab7f1915a1625",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Nbfd8f9b7d3fd4c2cb39b8c2f194fedf3"
+      },
+      "ps:P291": {
+        "@id": "_:N9d1f385dad294913abdb0be5d5759fc2"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N12551143c5a24d95be191550dbf54ddf"
+        },
+        {
+          "@id": "_:Ne7f7d77665dc4a3f8c99c9e91423fdad"
+        },
+        {
+          "@id": "_:Na3e1094567034d8cacf29a83f6a9b870"
+        }
+      ]
+    },
+    {
+      "@id": "_:N9d1f385dad294913abdb0be5d5759fc2",
+      "https://schema.org#geo": {
+        "@id": "_:Na3a44a3fc1434909bc4c50307fa524f1"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q13298"
+      },
+      "rdfs:label": "Graz"
+    },
+    {
+      "@id": "_:Na3a44a3fc1434909bc4c50307fa524f1",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.06667",
+      "https://schema.org#longitude": "15.45"
+    },
+    {
+      "@id": "_:Nbfd8f9b7d3fd4c2cb39b8c2f194fedf3",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1462-05-26"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1462-05-26"
+      }
+    },
+    {
+      "@id": "_:N12551143c5a24d95be191550dbf54ddf",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:K00002065"
+      },
+      "ps:P39": {
+        "@id": "ri:bischof"
+      },
+      "rdfs:label": "Bf. Heinrich von Konstanz"
+    },
+    {
+      "@id": "_:Ne7f7d77665dc4a3f8c99c9e91423fdad",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:P00000962"
+      },
+      "ps:P39": {
+        "@id": "ri:pfalzgraf"
+      },
+      "rdfs:label": "Pfgf. Friedrich bei Rhein"
+    },
+    {
+      "@id": "_:Na3e1094567034d8cacf29a83f6a9b870",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00000075"
+      },
+      "ps:P39": {
+        "@id": "ri:markgraf"
+      },
+      "rdfs:label": "Mgf. Karl (I.) von Baden"
+    }
+  ]
+}

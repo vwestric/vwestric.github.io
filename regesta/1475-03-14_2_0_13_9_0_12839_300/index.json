@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1475-03-14_2_0_13_9_0_12839_300",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N929b55d97fdc4016b8f9abda73c06be2"
+      }
+    },
+    {
+      "@id": "_:N929b55d97fdc4016b8f9abda73c06be2",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Ne2de30b5f3df4ee2b1981f7b12740745"
+      },
+      "ps:P291": {
+        "@id": "_:N3a5b7512820d43e5a40b61fbda26523a"
+      },
+      "ps:P3342": {
+        "@id": "_:N7b36b9b1cb6149169925421c51ad7e61"
+      }
+    },
+    {
+      "@id": "_:N3a5b7512820d43e5a40b61fbda26523a",
+      "https://schema.org#geo": {
+        "@id": "_:N2154966f677a4a29ba1d2ec3d03f2339"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q365"
+      },
+      "rdfs:label": "Köln"
+    },
+    {
+      "@id": "_:N2154966f677a4a29ba1d2ec3d03f2339",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "50.93333",
+      "https://schema.org#longitude": "6.95"
+    },
+    {
+      "@id": "_:Ne2de30b5f3df4ee2b1981f7b12740745",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1475-03-14"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1475-03-14"
+      }
+    },
+    {
+      "@id": "_:N7b36b9b1cb6149169925421c51ad7e61",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:H00002084"
+      },
+      "ps:P39": {
+        "@id": "ri:landgraf"
+      },
+      "rdfs:label": "Ldgf. Heinrich von Hessen"
+    }
+  ]
+}

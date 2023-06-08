@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1488-03-19_1_0_13_9_0_12928_386",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N238147cd9e43448181ac940edb579435"
+      }
+    },
+    {
+      "@id": "_:N238147cd9e43448181ac940edb579435",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Ndf5a10327aa641429cdc0a880d13a952"
+      },
+      "ps:P291": {
+        "@id": "_:N41b6a1507983472dba9655099ca68e8c"
+      },
+      "ps:P3342": {
+        "@id": "_:N2b4a3d88ad494f0b919d203bb38ce3fc"
+      }
+    },
+    {
+      "@id": "_:N41b6a1507983472dba9655099ca68e8c",
+      "https://schema.org#geo": {
+        "@id": "_:Nfcfc39cce1194b7a944d104d3f5e363a"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q1735"
+      },
+      "rdfs:label": "Innsbruck"
+    },
+    {
+      "@id": "_:Nfcfc39cce1194b7a944d104d3f5e363a",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.26266",
+      "https://schema.org#longitude": "11.39454"
+    },
+    {
+      "@id": "_:Ndf5a10327aa641429cdc0a880d13a952",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1488-03-19"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1488-03-19"
+      }
+    },
+    {
+      "@id": "_:N2b4a3d88ad494f0b919d203bb38ce3fc",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:T00001183"
+      },
+      "ps:P39": {
+        "@id": "ri:erzbischof"
+      },
+      "rdfs:label": "Eb. Johann von Trier"
+    }
+  ]
+}

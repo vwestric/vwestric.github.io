@@ -1,0 +1,134 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1465-05-09_2_0_13_20_0_129_129",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Nd96231279f134a828054a1ccf676f755"
+      }
+    },
+    {
+      "@id": "_:Nd96231279f134a828054a1ccf676f755",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N65208cefe34f4152bee591e959461254"
+      },
+      "ps:P291": {
+        "@id": "_:N54159c38927048a8b7e6bfcf7a4c0446"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N0a454aaf1b114a93849fd009fa968a8d"
+        },
+        {
+          "@id": "_:Nc5a1f02d3a974654b1e8164c2af2b4a0"
+        },
+        {
+          "@id": "_:N6f490bf91239493c8f7c253c990acf27"
+        },
+        {
+          "@id": "_:N2a399400ebaa4dccb82952602ce55aba"
+        },
+        {
+          "@id": "_:Nc68d02da96a043368abb76ab5ba0688d"
+        }
+      ]
+    },
+    {
+      "@id": "_:N54159c38927048a8b7e6bfcf7a4c0446",
+      "https://schema.org#geo": {
+        "@id": "_:N1259fada3bb64809ab86257ffcb34d05"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q131612"
+      },
+      "rdfs:label": "Wiener Neustadt"
+    },
+    {
+      "@id": "_:N1259fada3bb64809ab86257ffcb34d05",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.813153",
+      "https://schema.org#longitude": "16.24444"
+    },
+    {
+      "@id": "_:N65208cefe34f4152bee591e959461254",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1465-05-09"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1465-05-09"
+      }
+    },
+    {
+      "@id": "_:N0a454aaf1b114a93849fd009fa968a8d",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:P00000251"
+      },
+      "ps:P39": [
+        {
+          "@id": "ri:kanzler"
+        },
+        {
+          "@id": "ri:bischof"
+        }
+      ],
+      "rdfs:label": "römischen Kanzlers Bf. Ulrich (III.) von Passau"
+    },
+    {
+      "@id": "_:Nc5a1f02d3a974654b1e8164c2af2b4a0",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00000324"
+      },
+      "rdfs:label": "Jaroslaw Barnekow"
+    },
+    {
+      "@id": "_:N6f490bf91239493c8f7c253c990acf27",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00002853"
+      },
+      "ps:P39": {
+        "@id": "ri:bischof"
+      },
+      "rdfs:label": "Bf. (Werner von Schwerin)"
+    },
+    {
+      "@id": "_:N2a399400ebaa4dccb82952602ce55aba",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:P00001855"
+      },
+      "ps:P39": {
+        "@id": "ri:herzog"
+      },
+      "rdfs:label": "Hz. (Wartislaw IX. von Pommern-Wolgast und Barth)"
+    },
+    {
+      "@id": "_:Nc68d02da96a043368abb76ab5ba0688d",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:L00001819"
+      },
+      "ps:P39": {
+        "@id": "ri:rat"
+      },
+      "rdfs:label": "ksl. Rat Arnold vom Loe"
+    }
+  ]
+}

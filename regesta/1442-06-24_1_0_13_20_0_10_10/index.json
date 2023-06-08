@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1442-06-24_1_0_13_20_0_10_10",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N8914189059264597bbe67b88fdde3d67"
+      }
+    },
+    {
+      "@id": "_:N8914189059264597bbe67b88fdde3d67",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Nbd6454f49605431f8a49eb80008dcbd2"
+      },
+      "ps:P291": {
+        "@id": "_:N995c85a168b24b6998e50d2c3bb52018"
+      },
+      "ps:P3342": {
+        "@id": "_:Na7e06d2f77e14027a2191ceb5ae0931f"
+      }
+    },
+    {
+      "@id": "_:N995c85a168b24b6998e50d2c3bb52018",
+      "https://schema.org#geo": {
+        "@id": "_:N70b19d82b0854d1d84169cea2317303e"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q365"
+      },
+      "rdfs:label": "Köln"
+    },
+    {
+      "@id": "_:N70b19d82b0854d1d84169cea2317303e",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "50.93333",
+      "https://schema.org#longitude": "6.95"
+    },
+    {
+      "@id": "_:Nbd6454f49605431f8a49eb80008dcbd2",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1442-06-24"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1442-06-24"
+      }
+    },
+    {
+      "@id": "_:Na7e06d2f77e14027a2191ceb5ae0931f",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:M00001295"
+      },
+      "ps:P39": {
+        "@id": "ri:herzog"
+      },
+      "rdfs:label": "Hz. Heinrich (IV.) von Mecklenburg"
+    }
+  ]
+}

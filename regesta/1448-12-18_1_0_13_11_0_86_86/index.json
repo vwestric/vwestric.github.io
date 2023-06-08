@@ -1,0 +1,109 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1448-12-18_1_0_13_11_0_86_86",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Nfbd5f17ce8014ac58d3b05c24b56f596"
+      }
+    },
+    {
+      "@id": "_:Nfbd5f17ce8014ac58d3b05c24b56f596",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N4bd448168607471a8f196c276d3a0ed6"
+      },
+      "ps:P291": {
+        "@id": "_:Nec31fa9bc3c948d0a6e25975f116467a"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N495b85fb79d5438d91a210631a7286fa"
+        },
+        {
+          "@id": "_:N21200d3d022a4985b179a0cc0be752df"
+        },
+        {
+          "@id": "_:Nf570c0aae5d84213a4aa760096c4d61d"
+        },
+        {
+          "@id": "_:Nc0f03d4dd50a4c49b0fc225188aa3b7c"
+        }
+      ]
+    },
+    {
+      "@id": "_:Nec31fa9bc3c948d0a6e25975f116467a",
+      "https://schema.org#geo": {
+        "@id": "_:Nc2d31b0c6781476ebcef6fc1aca593e3"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q131612"
+      },
+      "rdfs:label": "Wiener Neustadt"
+    },
+    {
+      "@id": "_:Nc2d31b0c6781476ebcef6fc1aca593e3",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.813153",
+      "https://schema.org#longitude": "16.24444"
+    },
+    {
+      "@id": "_:N4bd448168607471a8f196c276d3a0ed6",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1448-12-18"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1448-12-18"
+      }
+    },
+    {
+      "@id": "_:N495b85fb79d5438d91a210631a7286fa",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00002278"
+      },
+      "rdfs:label": "Hans von Kolditz"
+    },
+    {
+      "@id": "_:N21200d3d022a4985b179a0cc0be752df",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00001825"
+      },
+      "rdfs:label": "Georg von Podiebrad"
+    },
+    {
+      "@id": "_:Nf570c0aae5d84213a4aa760096c4d61d",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:N00000470"
+      },
+      "rdfs:label": "Meinhard von Neuhaus"
+    },
+    {
+      "@id": "_:Nc0f03d4dd50a4c49b0fc225188aa3b7c",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:O00000599"
+      },
+      "ps:P39": {
+        "@id": "ri:koenig"
+      },
+      "rdfs:label": "Kg. Ladislaus"
+    }
+  ]
+}

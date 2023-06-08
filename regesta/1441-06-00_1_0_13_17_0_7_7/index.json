@@ -1,0 +1,71 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1441-06-00_1_0_13_17_0_7_7",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N172a9586b4c3488790ab6674c798dd00"
+      }
+    },
+    {
+      "@id": "_:N172a9586b4c3488790ab6674c798dd00",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N2880904fc46c4effb1922c0ad2b592f3"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N0da300de9dde4861bad17f3d6d6fe355"
+        },
+        {
+          "@id": "_:N10c5e88cd9f645d7974a62d00adcee69"
+        }
+      ]
+    },
+    {
+      "@id": "_:N2880904fc46c4effb1922c0ad2b592f3",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1441-06-01"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1441-06-30"
+      }
+    },
+    {
+      "@id": "_:N0da300de9dde4861bad17f3d6d6fe355",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:L00001160"
+      },
+      "ps:P39": {
+        "@id": "ri:landgraf"
+      },
+      "rdfs:label": "Ldgf. Johann von Leuchtenberg"
+    },
+    {
+      "@id": "_:N10c5e88cd9f645d7974a62d00adcee69",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:F00001011"
+      },
+      "ps:P39": {
+        "@id": "ri:frau"
+      },
+      "rdfs:label": "Georg von Fraunberg (zu Haag)"
+    }
+  ]
+}

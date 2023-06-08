@@ -1,0 +1,60 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1474-03-30_1_0_13_8_0_12364_356",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N0a31036051544dcca5964f1357872f11"
+      }
+    },
+    {
+      "@id": "_:N0a31036051544dcca5964f1357872f11",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Nd1a1db8d08084293b2e0cf90b44f91e7"
+      },
+      "ps:P291": {
+        "@id": "_:N74223b89abf545cfad4d3d4a56087a17"
+      }
+    },
+    {
+      "@id": "_:N74223b89abf545cfad4d3d4a56087a17",
+      "https://schema.org#geo": {
+        "@id": "_:N1a1276554b704b06a42b6a537a05f71c"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q491743"
+      },
+      "rdfs:label": "Dinkelsbühl"
+    },
+    {
+      "@id": "_:N1a1276554b704b06a42b6a537a05f71c",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "49.06942",
+      "https://schema.org#longitude": "10.31985"
+    },
+    {
+      "@id": "_:Nd1a1db8d08084293b2e0cf90b44f91e7",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1474-03-30"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1474-03-30"
+      }
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1465-03-21_3_0_13_20_0_114_114",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Nf208d9c19615445faf28b8a8a5668af7"
+      }
+    },
+    {
+      "@id": "_:Nf208d9c19615445faf28b8a8a5668af7",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N7a5916de3e614bfa93d63d79db15acfc"
+      },
+      "ps:P291": {
+        "@id": "_:N25fb42e77e35453c9858b3d113143429"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N2373f7f218184c8bac655d4c0046f338"
+        },
+        {
+          "@id": "_:Nfbdf6483302244a3bfa91ff9d2cf2185"
+        }
+      ]
+    },
+    {
+      "@id": "_:N25fb42e77e35453c9858b3d113143429",
+      "https://schema.org#geo": {
+        "@id": "_:Nee8c3a32d95048caa0d4d0efa1b05af0"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q131612"
+      },
+      "rdfs:label": "Wiener Neustadt"
+    },
+    {
+      "@id": "_:Nee8c3a32d95048caa0d4d0efa1b05af0",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.813153",
+      "https://schema.org#longitude": "16.24444"
+    },
+    {
+      "@id": "_:N7a5916de3e614bfa93d63d79db15acfc",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1465-03-21"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1465-03-21"
+      }
+    },
+    {
+      "@id": "_:N2373f7f218184c8bac655d4c0046f338",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00002248"
+      },
+      "ps:P39": {
+        "@id": "ri:markgraf"
+      },
+      "rdfs:label": "Mgf. Albrechts von Brandenburg"
+    },
+    {
+      "@id": "_:Nfbdf6483302244a3bfa91ff9d2cf2185",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00002248"
+      },
+      "ps:P39": {
+        "@id": "ri:markgraf"
+      },
+      "rdfs:label": "Mgf. Albrecht von Brandenburg"
+    }
+  ]
+}

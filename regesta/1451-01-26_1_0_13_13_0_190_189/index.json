@@ -1,0 +1,220 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1451-01-26_1_0_13_13_0_190_189",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N2b24bb58d9094f5ab3d67561957d1546"
+      }
+    },
+    {
+      "@id": "_:N2b24bb58d9094f5ab3d67561957d1546",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N01dd418e2aa24bb1bb13b5c7c8eddf48"
+      },
+      "ps:P291": {
+        "@id": "_:Nf9b0ad1926104c2a96b283097ad42ca2"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:Na70583db41974bb9806d71a7ebaf94d8"
+        },
+        {
+          "@id": "_:N289ba5836fd244a4aabb0252b3131199"
+        },
+        {
+          "@id": "_:N7a4b169f38634f179f94ecf8335ee959"
+        },
+        {
+          "@id": "_:N46e227b0279d4f95ada60ed80c301bf1"
+        },
+        {
+          "@id": "_:N8c0ea99094dd49839fcfb390cf8da0f5"
+        },
+        {
+          "@id": "_:N19974f82eb9e40efadcb582ddf79052b"
+        },
+        {
+          "@id": "_:N39fe2e1c6a594eefa6f7dcb5b93e4f99"
+        },
+        {
+          "@id": "_:N5cbef2e675084dab951aa9b9edb8a7fa"
+        },
+        {
+          "@id": "_:N3606f12b79684123bf47e414d58acb4b"
+        },
+        {
+          "@id": "_:N8d13d5b7ee9547488bdb6b97b7727bbe"
+        },
+        {
+          "@id": "_:N9c983b83179546ef8db6f7d9cc37667e"
+        },
+        {
+          "@id": "_:Nc8f105e46f3d4e0c8a355c7e1d9c2c5e"
+        },
+        {
+          "@id": "_:N09ef11f0c507428ea1b24d31ec69f9c6"
+        }
+      ]
+    },
+    {
+      "@id": "_:Nf9b0ad1926104c2a96b283097ad42ca2",
+      "https://schema.org#geo": {
+        "@id": "_:N1b405ec6ee3d4cefb0f4a2b8554de6fa"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q131612"
+      },
+      "rdfs:label": "Wiener Neustadt"
+    },
+    {
+      "@id": "_:N1b405ec6ee3d4cefb0f4a2b8554de6fa",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.813153",
+      "https://schema.org#longitude": "16.24444"
+    },
+    {
+      "@id": "_:N01dd418e2aa24bb1bb13b5c7c8eddf48",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1451-01-26"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1451-01-26"
+      }
+    },
+    {
+      "@id": "_:Na70583db41974bb9806d71a7ebaf94d8",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:G00001288"
+      },
+      "ps:P39": {
+        "@id": "ri:graf"
+      },
+      "rdfs:label": "Gf. Heinrich von Görz"
+    },
+    {
+      "@id": "_:N289ba5836fd244a4aabb0252b3131199",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:C00000456"
+      },
+      "ps:P39": {
+        "@id": "ri:graf"
+      },
+      "rdfs:label": "Gf. Friedrichs von Cilli"
+    },
+    {
+      "@id": "_:N7a4b169f38634f179f94ecf8335ee959",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:D00000713"
+      },
+      "rdfs:label": "Jörg von Dornberg"
+    },
+    {
+      "@id": "_:N46e227b0279d4f95ada60ed80c301bf1",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:T00001395"
+      },
+      "ps:P39": {
+        "@id": "ri:truchsess"
+      },
+      "rdfs:label": "Niklas Truchseß (zu Staatz)"
+    },
+    {
+      "@id": "_:N8c0ea99094dd49839fcfb390cf8da0f5",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:L00002238"
+      },
+      "rdfs:label": "Nikolaus von Lützelburg"
+    },
+    {
+      "@id": "_:N19974f82eb9e40efadcb582ddf79052b",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:G00001059"
+      },
+      "rdfs:label": "Nikolaus von Glatz"
+    },
+    {
+      "@id": "_:N39fe2e1c6a594eefa6f7dcb5b93e4f99",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:H00000555"
+      },
+      "rdfs:label": "Konrad von Hallstatt"
+    },
+    {
+      "@id": "_:N5cbef2e675084dab951aa9b9edb8a7fa",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:Z00000092"
+      },
+      "rdfs:label": "Walther Zebinger"
+    },
+    {
+      "@id": "_:N3606f12b79684123bf47e414d58acb4b",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:U00000280"
+      },
+      "rdfs:label": "Hans Ungnad"
+    },
+    {
+      "@id": "_:N8d13d5b7ee9547488bdb6b97b7727bbe",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00004611"
+      },
+      "rdfs:label": "Rüdiger von Starhemberg"
+    },
+    {
+      "@id": "_:N9c983b83179546ef8db6f7d9cc37667e",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:P00002036"
+      },
+      "rdfs:label": "Albrecht von Pottendorf"
+    },
+    {
+      "@id": "_:Nc8f105e46f3d4e0c8a355c7e1d9c2c5e",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:R00000840"
+      },
+      "ps:P39": {
+        "@id": "ri:bischof"
+      },
+      "rdfs:label": "Bf. Friedrich von Regensburg"
+    },
+    {
+      "@id": "_:N09ef11f0c507428ea1b24d31ec69f9c6",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:F00001127"
+      },
+      "ps:P39": {
+        "@id": "ri:bischof"
+      },
+      "rdfs:label": "Bf. Johann von Freising"
+    }
+  ]
+}

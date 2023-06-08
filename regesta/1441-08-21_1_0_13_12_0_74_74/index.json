@@ -1,0 +1,71 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1441-08-21_1_0_13_12_0_74_74",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N69fda3b2d7344ae193f7646b2ea981d0"
+      }
+    },
+    {
+      "@id": "_:N69fda3b2d7344ae193f7646b2ea981d0",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N2ba40edd92c64affaeb066982a1f5809"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N012deb001ab648b4b2db13952d77a867"
+        },
+        {
+          "@id": "_:N8c6f0a72bdaa4fc98bce37ecb27cfd29"
+        }
+      ]
+    },
+    {
+      "@id": "_:N2ba40edd92c64affaeb066982a1f5809",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1441-08-21"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1441-08-21"
+      }
+    },
+    {
+      "@id": "_:N012deb001ab648b4b2db13952d77a867",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:O00000599"
+      },
+      "ps:P39": {
+        "@id": "ri:koenig"
+      },
+      "rdfs:label": "Kg. Ladislaus"
+    },
+    {
+      "@id": "_:N8c6f0a72bdaa4fc98bce37ecb27cfd29",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:A00000457"
+      },
+      "ps:P39": {
+        "@id": "ri:koenig"
+      },
+      "rdfs:label": "Kg. Albrecht (II.)"
+    }
+  ]
+}

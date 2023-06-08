@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1475-09-27_1_0_13_7_0_11702_536",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N9d75ce5cb9624830ba8f80ede8564c99"
+      }
+    },
+    {
+      "@id": "_:N9d75ce5cb9624830ba8f80ede8564c99",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N1b4950ce9d144c90b76d94c68dbceb4c"
+      },
+      "ps:P291": {
+        "@id": "_:N74c9c73f8a4341a086dbdcdc5614d016"
+      },
+      "ps:P3342": {
+        "@id": "_:Na358285a06be45e48640af5ed7c16664"
+      }
+    },
+    {
+      "@id": "_:N74c9c73f8a4341a086dbdcdc5614d016",
+      "https://schema.org#geo": {
+        "@id": "_:N270e6b225326494386b15a01726fd54d"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q365"
+      },
+      "rdfs:label": "[Köln]"
+    },
+    {
+      "@id": "_:N270e6b225326494386b15a01726fd54d",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "50.93333",
+      "https://schema.org#longitude": "6.95"
+    },
+    {
+      "@id": "_:N1b4950ce9d144c90b76d94c68dbceb4c",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1475-09-27"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1475-09-27"
+      }
+    },
+    {
+      "@id": "_:Na358285a06be45e48640af5ed7c16664",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00003679"
+      },
+      "ps:P39": {
+        "@id": "ri:papst"
+      },
+      "rdfs:label": "Papst Sixtus IV."
+    }
+  ]
+}

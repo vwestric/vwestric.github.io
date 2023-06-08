@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1475-06-07_1_0_13_20_0_237_237",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N5a7a1e56830746acbb3facd04ee2a806"
+      }
+    },
+    {
+      "@id": "_:N5a7a1e56830746acbb3facd04ee2a806",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N53e17fa81e654cf6b6bcc87eab28fc43"
+      },
+      "ps:P291": {
+        "@id": "_:N555a236a8a5c41adb757a4227adc4142"
+      },
+      "ps:P3342": {
+        "@id": "_:Nf5b17496497e435ba811956be5926d56"
+      }
+    },
+    {
+      "@id": "_:N555a236a8a5c41adb757a4227adc4142",
+      "https://schema.org#geo": {
+        "@id": "_:N3688783edf2b4abc85a0b1ea33577a69"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q2948"
+      },
+      "rdfs:label": "im Feld bei Neuss"
+    },
+    {
+      "@id": "_:N3688783edf2b4abc85a0b1ea33577a69",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "51.198611",
+      "https://schema.org#longitude": "6.691389"
+    },
+    {
+      "@id": "_:N53e17fa81e654cf6b6bcc87eab28fc43",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1475-06-07"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1475-06-07"
+      }
+    },
+    {
+      "@id": "_:Nf5b17496497e435ba811956be5926d56",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00003253"
+      },
+      "ps:P39": {
+        "@id": "ri:herzog"
+      },
+      "rdfs:label": "Hz. (Karl) von Burgund"
+    }
+  ]
+}

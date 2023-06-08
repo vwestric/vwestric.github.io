@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:f687cade-297e-4f24-b8a4-0272ae1116ee",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Ndf338000b05a42938b8ae7e5de3351d9"
+      }
+    },
+    {
+      "@id": "_:Ndf338000b05a42938b8ae7e5de3351d9",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Nddc29991ea414d9d81f56968e919e2ca"
+      },
+      "ps:P291": {
+        "@id": "_:N4a7d4f9a49bf40b8b0ce261832c0ba64"
+      },
+      "ps:P3342": {
+        "@id": "_:N1d478330d68247829d5187726b5bb760"
+      }
+    },
+    {
+      "@id": "_:N4a7d4f9a49bf40b8b0ce261832c0ba64",
+      "https://schema.org#geo": {
+        "@id": "_:N188218b4df874872895d12f37c01372a"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q41329"
+      },
+      "rdfs:label": "Linz"
+    },
+    {
+      "@id": "_:N188218b4df874872895d12f37c01372a",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "48.303056",
+      "https://schema.org#longitude": "14.290556"
+    },
+    {
+      "@id": "_:Nddc29991ea414d9d81f56968e919e2ca",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1492-06-04"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1492-06-04"
+      }
+    },
+    {
+      "@id": "_:N1d478330d68247829d5187726b5bb760",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:F00000907"
+      },
+      "ps:P39": {
+        "@id": "ri:koenig"
+      },
+      "rdfs:label": "Kg. Karl von Frankreich"
+    }
+  ]
+}

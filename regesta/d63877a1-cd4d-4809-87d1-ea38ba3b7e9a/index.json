@@ -1,0 +1,162 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:d63877a1-cd4d-4809-87d1-ea38ba3b7e9a",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N06a2631830f9410a9c539f2a4cd70a75"
+      }
+    },
+    {
+      "@id": "_:N06a2631830f9410a9c539f2a4cd70a75",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Nb5cc57ae619e40c5b6b0a4bac62bb720"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N35e6f5b2ec3a481784de823494961730"
+        },
+        {
+          "@id": "_:Ne300c41aff1444b89c32a42e329247f3"
+        },
+        {
+          "@id": "_:N0800ed1fa90f433a9dd54454c6c6b5ed"
+        },
+        {
+          "@id": "_:N901fa752252342c59464d9ab72c00abe"
+        },
+        {
+          "@id": "_:N158f6bd8bf7d47f8982364401a3456f0"
+        },
+        {
+          "@id": "_:N0589003b55974886b0d422db415984bc"
+        },
+        {
+          "@id": "_:N7ccd2d6d57e849f58066eb4c7a4c095b"
+        },
+        {
+          "@id": "_:N60b6a85a5be2451981a739dcb61f6e3a"
+        },
+        {
+          "@id": "_:Ncc1e3914cb934867a994399b6ff90741"
+        },
+        {
+          "@id": "_:N7bbb661989aa4ff4ae1641c32a72bc1d"
+        }
+      ]
+    },
+    {
+      "@id": "_:Nb5cc57ae619e40c5b6b0a4bac62bb720",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1459-03-09"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1459-03-09"
+      }
+    },
+    {
+      "@id": "_:N35e6f5b2ec3a481784de823494961730",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00000064"
+      },
+      "ps:P39": {
+        "@id": "ri:markgraf"
+      },
+      "rdfs:label": "Mgf. Bernhard (II.) von Baden"
+    },
+    {
+      "@id": "_:Ne300c41aff1444b89c32a42e329247f3",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00000095"
+      },
+      "ps:P39": {
+        "@id": "ri:markgraf"
+      },
+      "rdfs:label": "Mgf. Wilhelm von Hachberg"
+    },
+    {
+      "@id": "_:N0800ed1fa90f433a9dd54454c6c6b5ed",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:P00000202"
+      },
+      "rdfs:label": "Hans von Parsberg"
+    },
+    {
+      "@id": "_:N901fa752252342c59464d9ab72c00abe",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:D00000165"
+      },
+      "rdfs:label": "Hans von Degenberg"
+    },
+    {
+      "@id": "_:N158f6bd8bf7d47f8982364401a3456f0",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00006304"
+      },
+      "rdfs:label": "Sigmund vom Stein"
+    },
+    {
+      "@id": "_:N0589003b55974886b0d422db415984bc",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00001681"
+      },
+      "rdfs:label": "Melchior von Blumeneck"
+    },
+    {
+      "@id": "_:N7ccd2d6d57e849f58066eb4c7a4c095b",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:M00003048"
+      },
+      "rdfs:label": "Erhard von Murach"
+    },
+    {
+      "@id": "_:N60b6a85a5be2451981a739dcb61f6e3a",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:R00003009"
+      },
+      "ps:P39": {
+        "@id": "ri:propst"
+      },
+      "rdfs:label": "Johann Rüttler, Propst zu Rheinfelden"
+    },
+    {
+      "@id": "_:Ncc1e3914cb934867a994399b6ff90741",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:H00000555"
+      },
+      "rdfs:label": "Konrad von Hallstatt"
+    },
+    {
+      "@id": "_:N7bbb661989aa4ff4ae1641c32a72bc1d",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:H00001070"
+      },
+      "rdfs:label": "Jobst Hauser"
+    }
+  ]
+}

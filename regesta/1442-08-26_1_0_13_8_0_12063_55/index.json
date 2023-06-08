@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1442-08-26_1_0_13_8_0_12063_55",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N9b98991b7ca244a1bac84505db65cd8a"
+      }
+    },
+    {
+      "@id": "_:N9b98991b7ca244a1bac84505db65cd8a",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Ne04d17852de3487c94bd07347227e14b"
+      },
+      "ps:P291": {
+        "@id": "_:Ncb0c77c931a043c39b568c1d452a3326"
+      },
+      "ps:P3342": {
+        "@id": "_:N79b2785272344a0b9052e606accef1ed"
+      }
+    },
+    {
+      "@id": "_:Ncb0c77c931a043c39b568c1d452a3326",
+      "https://schema.org#geo": {
+        "@id": "_:Ndd9bc72cd1924368a8a9b3ba66a42500"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q6602"
+      },
+      "rdfs:label": "Straßburg"
+    },
+    {
+      "@id": "_:Ndd9bc72cd1924368a8a9b3ba66a42500",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "48.58392",
+      "https://schema.org#longitude": "7.74553"
+    },
+    {
+      "@id": "_:Ne04d17852de3487c94bd07347227e14b",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1442-08-26"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1442-08-26"
+      }
+    },
+    {
+      "@id": "_:N79b2785272344a0b9052e606accef1ed",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:L00001297"
+      },
+      "ps:P39": {
+        "@id": "ri:lic"
+      },
+      "rdfs:label": "Jakob von Lichtenberg"
+    }
+  ]
+}

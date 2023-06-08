@@ -1,0 +1,104 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1479-05-27_3_0_13_23_0_672_668",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N9c6ba7f1d62c419e80bccacaeb873a58"
+      }
+    },
+    {
+      "@id": "_:N9c6ba7f1d62c419e80bccacaeb873a58",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N5e16aa722c2d4db5a726452423e0b006"
+      },
+      "ps:P291": {
+        "@id": "_:Nb4f2e04864bc416c95cab3d0497c0657"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N4a90928166a04555a6424ba7b031d172"
+        },
+        {
+          "@id": "_:N4b2ec0b313504aa7b8343772f1706061"
+        },
+        {
+          "@id": "_:N9c64e16a49294902a615ab1278f57529"
+        }
+      ]
+    },
+    {
+      "@id": "_:Nb4f2e04864bc416c95cab3d0497c0657",
+      "https://schema.org#geo": {
+        "@id": "_:Nb96218ff2127469c9678b4a050462da3"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q13298"
+      },
+      "rdfs:label": "Graz"
+    },
+    {
+      "@id": "_:Nb96218ff2127469c9678b4a050462da3",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.06667",
+      "https://schema.org#longitude": "15.45"
+    },
+    {
+      "@id": "_:N5e16aa722c2d4db5a726452423e0b006",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1479-05-27"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1479-05-27"
+      }
+    },
+    {
+      "@id": "_:N4a90928166a04555a6424ba7b031d172",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:W00003283"
+      },
+      "ps:P39": {
+        "@id": "ri:graf"
+      },
+      "rdfs:label": "Gf. Eberhard (V.) d.Ä. von Württemberg"
+    },
+    {
+      "@id": "_:N4b2ec0b313504aa7b8343772f1706061",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:O00000622"
+      },
+      "ps:P39": {
+        "@id": "ri:erzherzog"
+      },
+      "rdfs:label": "Ehz. Sigmund von Österreich"
+    },
+    {
+      "@id": "_:N9c64e16a49294902a615ab1278f57529",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:A00001566"
+      },
+      "ps:P39": {
+        "@id": "ri:bischof"
+      },
+      "rdfs:label": "Bf. Johann von Augsburg"
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1462-12-07_1_0_13_21_0_87_87",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N9c49a26dedd94a78834f440223f01623"
+      }
+    },
+    {
+      "@id": "_:N9c49a26dedd94a78834f440223f01623",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N57a893f37b9d4242b4a0605495a5ff24"
+      },
+      "ps:P291": {
+        "@id": "_:Nb4af3a7720534725b8062c49f892ae44"
+      },
+      "ps:P3342": {
+        "@id": "_:Nfd3d6c34912b4caf9c6602381157a68f"
+      }
+    },
+    {
+      "@id": "_:Nb4af3a7720534725b8062c49f892ae44",
+      "https://schema.org#geo": {
+        "@id": "_:Na5455058fa0945dab3a230e74940c118"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q659841"
+      },
+      "rdfs:label": "Korneuburg"
+    },
+    {
+      "@id": "_:Na5455058fa0945dab3a230e74940c118",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "48.35",
+      "https://schema.org#longitude": "16.33333"
+    },
+    {
+      "@id": "_:N57a893f37b9d4242b4a0605495a5ff24",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1462-12-07"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1462-12-07"
+      }
+    },
+    {
+      "@id": "_:Nfd3d6c34912b4caf9c6602381157a68f",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00001825"
+      },
+      "ps:P39": {
+        "@id": "ri:koenig"
+      },
+      "rdfs:label": "Kg. Georgs von Böhmen"
+    }
+  ]
+}

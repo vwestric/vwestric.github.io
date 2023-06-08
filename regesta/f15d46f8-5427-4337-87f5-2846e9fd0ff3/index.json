@@ -1,0 +1,109 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:f15d46f8-5427-4337-87f5-2846e9fd0ff3",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N8280a4625a6c4fe0ae76f38b7d287cf4"
+      }
+    },
+    {
+      "@id": "_:N8280a4625a6c4fe0ae76f38b7d287cf4",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N29dadb1edfa1487d9114505336caed8b"
+      },
+      "ps:P291": {
+        "@id": "_:Ndd25d03b560540578464bedffdb862a4"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N6eabae4f1b194db6ae72873552ac3a9a"
+        },
+        {
+          "@id": "_:Na46cdab41944400e97d7f0869dd58997"
+        },
+        {
+          "@id": "_:N4467b66071e146a9ab9ffbcaf04e8af1"
+        },
+        {
+          "@id": "_:Naf94650080e74b8aab30e8ab79873142"
+        }
+      ]
+    },
+    {
+      "@id": "_:Ndd25d03b560540578464bedffdb862a4",
+      "https://schema.org#geo": {
+        "@id": "_:Ncb389545cfc4450397b1e617b520b16e"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q2090"
+      },
+      "rdfs:label": "Nürnberg"
+    },
+    {
+      "@id": "_:Ncb389545cfc4450397b1e617b520b16e",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "49.45421",
+      "https://schema.org#longitude": "11.07752"
+    },
+    {
+      "@id": "_:N29dadb1edfa1487d9114505336caed8b",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1444-09-15"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1444-09-15"
+      }
+    },
+    {
+      "@id": "_:N6eabae4f1b194db6ae72873552ac3a9a",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:W00000940"
+      },
+      "rdfs:label": "Konrad von Weinsberg"
+    },
+    {
+      "@id": "_:Na46cdab41944400e97d7f0869dd58997",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:C00000119"
+      },
+      "rdfs:label": "Hartung von Cappel"
+    },
+    {
+      "@id": "_:N4467b66071e146a9ab9ffbcaf04e8af1",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:F00001027"
+      },
+      "ps:P39": {
+        "@id": "ri:frau"
+      },
+      "rdfs:label": "Wilhelm von Fraunberg"
+    },
+    {
+      "@id": "_:Naf94650080e74b8aab30e8ab79873142",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:P00000202"
+      },
+      "rdfs:label": "Hans von Parsberg"
+    }
+  ]
+}

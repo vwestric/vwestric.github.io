@@ -1,0 +1,87 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:e71edddf-786b-4eb6-8c0b-c79d3b8e6d78",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Nd37400fef9fc4b2284d9ef27dce2a6f9"
+      }
+    },
+    {
+      "@id": "_:Nd37400fef9fc4b2284d9ef27dce2a6f9",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N96150800becb47be9f3d28f91dea5210"
+      },
+      "ps:P291": {
+        "@id": "_:N1914c43b961e494b9b363e09c656e080"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N7ff259b3ea5848cdad88aa81ed0dec0f"
+        },
+        {
+          "@id": "_:Ne221cbec8df743b5a69aa5e1888adf92"
+        }
+      ]
+    },
+    {
+      "@id": "_:N1914c43b961e494b9b363e09c656e080",
+      "https://schema.org#geo": {
+        "@id": "_:N00cccc15de344041a56705f64a41cc45"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q131612"
+      },
+      "rdfs:label": "Wiener Neustadt"
+    },
+    {
+      "@id": "_:N00cccc15de344041a56705f64a41cc45",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.813153",
+      "https://schema.org#longitude": "16.24444"
+    },
+    {
+      "@id": "_:N96150800becb47be9f3d28f91dea5210",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1454-06-19"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1454-06-19"
+      }
+    },
+    {
+      "@id": "_:N7ff259b3ea5848cdad88aa81ed0dec0f",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:W00003361"
+      },
+      "ps:P39": {
+        "@id": "ri:bischof"
+      },
+      "rdfs:label": "Bf. Gottfried von Würzburg"
+    },
+    {
+      "@id": "_:Ne221cbec8df743b5a69aa5e1888adf92",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:G00000746"
+      },
+      "rdfs:label": "Heinrich von Geroldseck"
+    }
+  ]
+}

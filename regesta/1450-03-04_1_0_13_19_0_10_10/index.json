@@ -1,0 +1,79 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1450-03-04_1_0_13_19_0_10_10",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N23e7d5056f284d71a2573ae25eec0890"
+      }
+    },
+    {
+      "@id": "_:N23e7d5056f284d71a2573ae25eec0890",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Na41cbd793ee24e53a18fba78dd195f69"
+      },
+      "ps:P291": {
+        "@id": "_:N3258d5c7d0d24ed8a5286d081925220a"
+      },
+      "ps:P3342": {
+        "@id": "_:Ncd48e81f51784e11ac253bdaeac7768e"
+      }
+    },
+    {
+      "@id": "_:N3258d5c7d0d24ed8a5286d081925220a",
+      "https://schema.org#geo": {
+        "@id": "_:N455ccf9477644b7f9535867f779690da"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q131612"
+      },
+      "rdfs:label": "Wiener Neustadt"
+    },
+    {
+      "@id": "_:N455ccf9477644b7f9535867f779690da",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.813153",
+      "https://schema.org#longitude": "16.24444"
+    },
+    {
+      "@id": "_:Na41cbd793ee24e53a18fba78dd195f69",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1450-03-04"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1450-03-04"
+      }
+    },
+    {
+      "@id": "_:Ncd48e81f51784e11ac253bdaeac7768e",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:A00001569"
+      },
+      "ps:P39": [
+        {
+          "@id": "ri:kardinal"
+        },
+        {
+          "@id": "ri:bischof"
+        }
+      ],
+      "rdfs:label": "Kardinal Bf. (Peter) von Augsburg"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1466-10-19_1_0_13_22_0_144_144",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Nb86822f39b8646de9fb38c036f3c32f2"
+      }
+    },
+    {
+      "@id": "_:Nb86822f39b8646de9fb38c036f3c32f2",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N4152754af19e4e9e933feacccc61e0ee"
+      },
+      "ps:P291": {
+        "@id": "_:N9582980b7d6143309d02b987f1264417"
+      },
+      "ps:P3342": {
+        "@id": "_:N6ecb47aa3f7c41e7b57c10ec1ef43dae"
+      }
+    },
+    {
+      "@id": "_:N9582980b7d6143309d02b987f1264417",
+      "https://schema.org#geo": {
+        "@id": "_:N7a511c9e81ff4d0f81c6cb3b13b5b126"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q13298"
+      },
+      "rdfs:label": "Graz"
+    },
+    {
+      "@id": "_:N7a511c9e81ff4d0f81c6cb3b13b5b126",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.06667",
+      "https://schema.org#longitude": "15.45"
+    },
+    {
+      "@id": "_:N4152754af19e4e9e933feacccc61e0ee",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1466-10-19"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1466-10-19"
+      }
+    },
+    {
+      "@id": "_:N6ecb47aa3f7c41e7b57c10ec1ef43dae",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:R00000449"
+      },
+      "rdfs:label": "Hermann Rauber"
+    }
+  ]
+}

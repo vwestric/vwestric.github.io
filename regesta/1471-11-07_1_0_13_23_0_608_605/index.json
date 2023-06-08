@@ -1,0 +1,95 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1471-11-07_1_0_13_23_0_608_605",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Na1ce58716a1a4a3a8da2b503e75a7c35"
+      }
+    },
+    {
+      "@id": "_:Na1ce58716a1a4a3a8da2b503e75a7c35",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Nedd0cb3a00a541859400bf368f8ca61c"
+      },
+      "ps:P291": {
+        "@id": "_:N4d71fb1dda9044f5ad0c4041af415bfb"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N010e43fe44c04226b0b8e8f87d209183"
+        },
+        {
+          "@id": "_:Nad002243e3984258bf0d919b0132b669"
+        }
+      ]
+    },
+    {
+      "@id": "_:N4d71fb1dda9044f5ad0c4041af415bfb",
+      "https://schema.org#geo": {
+        "@id": "_:N483aadadaa614e60b53a913bdc6ae788"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q1741"
+      },
+      "rdfs:label": "Wien"
+    },
+    {
+      "@id": "_:N483aadadaa614e60b53a913bdc6ae788",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "48.20849",
+      "https://schema.org#longitude": "16.37208"
+    },
+    {
+      "@id": "_:Nedd0cb3a00a541859400bf368f8ca61c",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1471-11-07"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1471-11-07"
+      }
+    },
+    {
+      "@id": "_:N010e43fe44c04226b0b8e8f87d209183",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:O00000622"
+      },
+      "ps:P39": {
+        "@id": "ri:herzog"
+      },
+      "rdfs:label": "Herzog Sigmund von Österreich (-Tirol)"
+    },
+    {
+      "@id": "_:Nad002243e3984258bf0d919b0132b669",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00000164"
+      },
+      "ps:P39": [
+        {
+          "@id": "ri:erzherzog"
+        },
+        {
+          "@id": "ri:erzherzogin"
+        }
+      ],
+      "rdfs:label": "Erzherzogin Mechthild von Österreich"
+    }
+  ]
+}

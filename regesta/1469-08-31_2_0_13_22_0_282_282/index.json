@@ -1,0 +1,203 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1469-08-31_2_0_13_22_0_282_282",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N62ef6cc20ea84c1ab7815daf9e806859"
+      }
+    },
+    {
+      "@id": "_:N62ef6cc20ea84c1ab7815daf9e806859",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N91c71909530548ceba104a306d2ec8eb"
+      },
+      "ps:P291": {
+        "@id": "_:Nc15772eccbb14dbbbac8f8ba258fba84"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:Nf665c05eb0834141a3e03a56431121c0"
+        },
+        {
+          "@id": "_:N3ac7adaf66d441798efd514718a5a898"
+        },
+        {
+          "@id": "_:N34c72e57d3594e77a019f1d0a1270074"
+        },
+        {
+          "@id": "_:Ncfae80c33880445b917561f90aa76425"
+        },
+        {
+          "@id": "_:N63abe5f951894f9396145cc3e943da7c"
+        },
+        {
+          "@id": "_:Nd43ded2d1b004dfda2529348f06949ae"
+        },
+        {
+          "@id": "_:Nf377fde930974c43b9213a8aa166f4da"
+        },
+        {
+          "@id": "_:N1d4b5994f7a24614abaa4ec49ed4587d"
+        },
+        {
+          "@id": "_:Nb9cda56a8fc84b2697f7a6437dfeddee"
+        },
+        {
+          "@id": "_:Nfd560ddf9c624127825f2af8fce79721"
+        },
+        {
+          "@id": "_:Nba5fe3c352d74175b263efe403bfd9ec"
+        },
+        {
+          "@id": "_:N66f13c764e194d4791f364b076e896aa"
+        }
+      ]
+    },
+    {
+      "@id": "_:Nc15772eccbb14dbbbac8f8ba258fba84",
+      "https://schema.org#geo": {
+        "@id": "_:Naca4c7dedf3d469683dee03cdf55c679"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q131612"
+      },
+      "rdfs:label": "Wiener Neustadt"
+    },
+    {
+      "@id": "_:Naca4c7dedf3d469683dee03cdf55c679",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.813153",
+      "https://schema.org#longitude": "16.24444"
+    },
+    {
+      "@id": "_:N91c71909530548ceba104a306d2ec8eb",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1469-08-31"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1469-08-31"
+      }
+    },
+    {
+      "@id": "_:Nf665c05eb0834141a3e03a56431121c0",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:O00000622"
+      },
+      "ps:P39": {
+        "@id": "ri:herzog"
+      },
+      "rdfs:label": "Hz. Sigmund von Österreich"
+    },
+    {
+      "@id": "_:N3ac7adaf66d441798efd514718a5a898",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:M00000255"
+      },
+      "ps:P39": {
+        "@id": "ri:erzbischof"
+      },
+      "rdfs:label": "Eb. Adolf von Mainz"
+    },
+    {
+      "@id": "_:N34c72e57d3594e77a019f1d0a1270074",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:T00001183"
+      },
+      "ps:P39": {
+        "@id": "ri:erzbischof"
+      },
+      "rdfs:label": "Eb. Johann von Trier"
+    },
+    {
+      "@id": "_:Ncfae80c33880445b917561f90aa76425",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:K00002070"
+      },
+      "rdfs:label": "Hermann von Konstanz"
+    },
+    {
+      "@id": "_:N63abe5f951894f9396145cc3e943da7c",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00000385"
+      },
+      "rdfs:label": "Johann von Basel"
+    },
+    {
+      "@id": "_:Nd43ded2d1b004dfda2529348f06949ae",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:F00001865"
+      },
+      "rdfs:label": "Egon von Fürstenberg"
+    },
+    {
+      "@id": "_:Nf377fde930974c43b9213a8aa166f4da",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:H00001558"
+      },
+      "rdfs:label": "Konrad von Helfenstein"
+    },
+    {
+      "@id": "_:N1d4b5994f7a24614abaa4ec49ed4587d",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:W00001556"
+      },
+      "rdfs:label": "Johann von Wertheim"
+    },
+    {
+      "@id": "_:Nb9cda56a8fc84b2697f7a6437dfeddee",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00005969"
+      },
+      "rdfs:label": "Alwig von Sulz"
+    },
+    {
+      "@id": "_:Nfd560ddf9c624127825f2af8fce79721",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:T00001488"
+      },
+      "rdfs:label": "Konrad von Tübingen"
+    },
+    {
+      "@id": "_:Nba5fe3c352d74175b263efe403bfd9ec",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:Z00000331"
+      },
+      "rdfs:label": "Gottfried von Zimmern"
+    },
+    {
+      "@id": "_:N66f13c764e194d4791f364b076e896aa",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:F00000071"
+      },
+      "rdfs:label": "Thomas von Falkenstein"
+    }
+  ]
+}

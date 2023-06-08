@@ -1,0 +1,114 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1445-10-21_2_0_13_12_0_297_297",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N0fe11b47552c4540a09b63b8eaad7aa7"
+      }
+    },
+    {
+      "@id": "_:N0fe11b47552c4540a09b63b8eaad7aa7",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N4f00b4c5a6f44ff592d727e3150127d4"
+      },
+      "ps:P291": {
+        "@id": "_:Ne3b7820ecc974136bc791850211ceb82"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N5237684432e14c2bb20d33a92b8f897d"
+        },
+        {
+          "@id": "_:N7d7422b135204c1ca1669ddfa14e1520"
+        },
+        {
+          "@id": "_:Nd6c22669d7634802a4c5a6f4fdd5e993"
+        },
+        {
+          "@id": "_:Ndf9f8d0e1cf94e009c37103df3a715e7"
+        }
+      ]
+    },
+    {
+      "@id": "_:Ne3b7820ecc974136bc791850211ceb82",
+      "https://schema.org#geo": {
+        "@id": "_:Nd3e60bc7e561436aaf472ddf54caea13"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q1741"
+      },
+      "rdfs:label": "Wien"
+    },
+    {
+      "@id": "_:Nd3e60bc7e561436aaf472ddf54caea13",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "48.20849",
+      "https://schema.org#longitude": "16.37208"
+    },
+    {
+      "@id": "_:N4f00b4c5a6f44ff592d727e3150127d4",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1445-10-21"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1445-10-21"
+      }
+    },
+    {
+      "@id": "_:N5237684432e14c2bb20d33a92b8f897d",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:M00000169"
+      },
+      "ps:P39": [
+        {
+          "@id": "ri:meister"
+        },
+        {
+          "@id": "ri:pfarrer"
+        }
+      ],
+      "rdfs:label": "Meister Hans (Pauli) von Maiers, Pfarrer zu Gars"
+    },
+    {
+      "@id": "_:N7d7422b135204c1ca1669ddfa14e1520",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:K00000672"
+      },
+      "rdfs:label": "Hans Kelbel"
+    },
+    {
+      "@id": "_:Nd6c22669d7634802a4c5a6f4fdd5e993",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:G00000146"
+      },
+      "rdfs:label": "Wolfgang Gang"
+    },
+    {
+      "@id": "_:Ndf9f8d0e1cf94e009c37103df3a715e7",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:W00002579"
+      },
+      "rdfs:label": "Jörg Winter"
+    }
+  ]
+}

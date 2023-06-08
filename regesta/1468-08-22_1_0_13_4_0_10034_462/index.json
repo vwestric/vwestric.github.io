@@ -1,0 +1,131 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1468-08-22_1_0_13_4_0_10034_462",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N35d24d54b8a5416296a9f93119ab6e7c"
+      }
+    },
+    {
+      "@id": "_:N35d24d54b8a5416296a9f93119ab6e7c",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N585c54b0ef44421e9faea386ee8ae0d9"
+      },
+      "ps:P291": {
+        "@id": "_:Nb61ba2a85bd1453f93cde3933b219459"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:Naa033a23518c4a76bc5efc002ebcb399"
+        },
+        {
+          "@id": "_:N3d300dafebd84d4dad07b256658910b6"
+        },
+        {
+          "@id": "_:N1ed5b0bc421d476880ef12353aad028e"
+        },
+        {
+          "@id": "_:Nb9aa59e3029a43488a7013d7ca925e6b"
+        },
+        {
+          "@id": "_:N18726c1108f64ed4a49409f9117bbcf9"
+        },
+        {
+          "@id": "_:Nec47d00699574dbfb454683428c2ad91"
+        }
+      ]
+    },
+    {
+      "@id": "_:Nb61ba2a85bd1453f93cde3933b219459",
+      "https://schema.org#geo": {
+        "@id": "_:N786970062e7942658a4d5d0dae477923"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q13298"
+      },
+      "rdfs:label": "Graz"
+    },
+    {
+      "@id": "_:N786970062e7942658a4d5d0dae477923",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.06667",
+      "https://schema.org#longitude": "15.45"
+    },
+    {
+      "@id": "_:N585c54b0ef44421e9faea386ee8ae0d9",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1468-08-22"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1468-08-22"
+      }
+    },
+    {
+      "@id": "_:Naa033a23518c4a76bc5efc002ebcb399",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:W00003114"
+      },
+      "rdfs:label": "Reinhard von Worms"
+    },
+    {
+      "@id": "_:N3d300dafebd84d4dad07b256658910b6",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:K00001326"
+      },
+      "rdfs:label": "Johann von Kleve"
+    },
+    {
+      "@id": "_:N1ed5b0bc421d476880ef12353aad028e",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:K00000579"
+      },
+      "rdfs:label": "Philipp von Katzenelnbogen"
+    },
+    {
+      "@id": "_:Nb9aa59e3029a43488a7013d7ca925e6b",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00003992"
+      },
+      "rdfs:label": "Otto von Solms"
+    },
+    {
+      "@id": "_:N18726c1108f64ed4a49409f9117bbcf9",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:N00000407"
+      },
+      "rdfs:label": "Gumprecht von Neuenahr"
+    },
+    {
+      "@id": "_:Nec47d00699574dbfb454683428c2ad91",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:U00000212"
+      },
+      "ps:P39": {
+        "@id": "ri:koenig"
+      },
+      "rdfs:label": "Kg. Matthias von Ungarn"
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1455-07-30_1_0_13_17_0_107_106",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N44fdccb9317847ce8b6b50d246caf73e"
+      }
+    },
+    {
+      "@id": "_:N44fdccb9317847ce8b6b50d246caf73e",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Nadbd7047cca449608e2dd8f074ce7c16"
+      },
+      "ps:P291": {
+        "@id": "_:N57653cb72fa14b20a987ecd3313c63f8"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:Ndf2a90a5dbc94a968af8efdf5a3a1135"
+        },
+        {
+          "@id": "_:N95fbea556ece4160b45ace23c244ca2c"
+        },
+        {
+          "@id": "_:Nb953872e9d754a6bb13f8f61dec8c93b"
+        },
+        {
+          "@id": "_:N89d37b6c299a4da1a5875dde03f802c3"
+        }
+      ]
+    },
+    {
+      "@id": "_:N57653cb72fa14b20a987ecd3313c63f8",
+      "https://schema.org#geo": {
+        "@id": "_:N756dc4b9c5c042a9813ffa79f49a1261"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q131612"
+      },
+      "rdfs:label": "[Wiener Neustadt]"
+    },
+    {
+      "@id": "_:N756dc4b9c5c042a9813ffa79f49a1261",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.813153",
+      "https://schema.org#longitude": "16.24444"
+    },
+    {
+      "@id": "_:Nadbd7047cca449608e2dd8f074ce7c16",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1455-07-30"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1455-07-30"
+      }
+    },
+    {
+      "@id": "_:Ndf2a90a5dbc94a968af8efdf5a3a1135",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:E00000494"
+      },
+      "ps:P39": {
+        "@id": "ri:bischof"
+      },
+      "rdfs:label": "Bf. Johann von Eichstätt"
+    },
+    {
+      "@id": "_:N95fbea556ece4160b45ace23c244ca2c",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:M00000893"
+      },
+      "rdfs:label": "Heinrich von Pappenheim"
+    },
+    {
+      "@id": "_:Nb953872e9d754a6bb13f8f61dec8c93b",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:A00001569"
+      },
+      "ps:P39": [
+        {
+          "@id": "ri:kardinal"
+        },
+        {
+          "@id": "ri:bischof"
+        }
+      ],
+      "rdfs:label": "Kardinal Bf. Peter von Augsburg"
+    },
+    {
+      "@id": "_:N89d37b6c299a4da1a5875dde03f802c3",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:P00000962"
+      },
+      "ps:P39": {
+        "@id": "ri:pfalzgraf"
+      },
+      "rdfs:label": "Pfgf. Friedrich (I.) bei Rhein"
+    }
+  ]
+}

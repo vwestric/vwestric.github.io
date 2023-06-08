@@ -1,0 +1,60 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:ec7dbb97-a3cd-4122-8483-72efa49684fa",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N8c620609f4e74a3ead0f6caab7e83ab2"
+      }
+    },
+    {
+      "@id": "_:N8c620609f4e74a3ead0f6caab7e83ab2",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Ne271876967884804ad89ab4dc5070633"
+      },
+      "ps:P291": {
+        "@id": "_:Ncc35089c329c4eb58dd941e082918827"
+      }
+    },
+    {
+      "@id": "_:Ncc35089c329c4eb58dd941e082918827",
+      "https://schema.org#geo": {
+        "@id": "_:Nfecb8c14f8e940f7ad6b71a2be5f8be8"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q1735"
+      },
+      "rdfs:label": "Innsbruck"
+    },
+    {
+      "@id": "_:Nfecb8c14f8e940f7ad6b71a2be5f8be8",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.26266",
+      "https://schema.org#longitude": "11.39454"
+    },
+    {
+      "@id": "_:Ne271876967884804ad89ab4dc5070633",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1485-07-04"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1485-07-04"
+      }
+    }
+  ]
+}

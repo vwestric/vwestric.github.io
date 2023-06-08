@@ -1,0 +1,60 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1442-10-06_1_0_13_6_0_11016_38",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N62bfcdfdbe5e4fa781a0fdc1a40e53fb"
+      }
+    },
+    {
+      "@id": "_:N62bfcdfdbe5e4fa781a0fdc1a40e53fb",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Nea0112c0b997419f94894f761d34b4c0"
+      },
+      "ps:P291": {
+        "@id": "_:Na56083ee63bb4fba8ebde9d6873320f1"
+      }
+    },
+    {
+      "@id": "_:Na56083ee63bb4fba8ebde9d6873320f1",
+      "https://schema.org#geo": {
+        "@id": "_:N8076f43d56e84424ac9e23d5ee2ad8e0"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q7027"
+      },
+      "rdfs:label": "Bern"
+    },
+    {
+      "@id": "_:N8076f43d56e84424ac9e23d5ee2ad8e0",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "46.94798",
+      "https://schema.org#longitude": "7.44743"
+    },
+    {
+      "@id": "_:Nea0112c0b997419f94894f761d34b4c0",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1442-10-06"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1442-10-06"
+      }
+    }
+  ]
+}

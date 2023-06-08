@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1449-02-08_1_0_13_13_0_122_121",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Nacfeccab67f845db8e75110bafb9fbd0"
+      }
+    },
+    {
+      "@id": "_:Nacfeccab67f845db8e75110bafb9fbd0",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N62de27874c534e1997e4ee39cf1f2091"
+      },
+      "ps:P291": {
+        "@id": "_:N47806967c9ef4d9c83e79710c8270cf2"
+      },
+      "ps:P3342": {
+        "@id": "_:N2d666b5f49474d788176d4fe634c8dbd"
+      }
+    },
+    {
+      "@id": "_:N47806967c9ef4d9c83e79710c8270cf2",
+      "https://schema.org#geo": {
+        "@id": "_:Nd7719074fe94405886d19d5e84fd843d"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q131612"
+      },
+      "rdfs:label": "Wiener Neustadt"
+    },
+    {
+      "@id": "_:Nd7719074fe94405886d19d5e84fd843d",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.813153",
+      "https://schema.org#longitude": "16.24444"
+    },
+    {
+      "@id": "_:N62de27874c534e1997e4ee39cf1f2091",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1449-02-08"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1449-02-08"
+      }
+    },
+    {
+      "@id": "_:N2d666b5f49474d788176d4fe634c8dbd",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:O00000599"
+      },
+      "ps:P39": {
+        "@id": "ri:koenig"
+      },
+      "rdfs:label": "Kg. Ladislaus"
+    }
+  ]
+}

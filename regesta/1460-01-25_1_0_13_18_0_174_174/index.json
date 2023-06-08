@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1460-01-25_1_0_13_18_0_174_174",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Na60b40913ec541c099f3d8072e5d595b"
+      }
+    },
+    {
+      "@id": "_:Na60b40913ec541c099f3d8072e5d595b",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N9e83d7dca9db40509a34317f6ec5d333"
+      },
+      "ps:P291": {
+        "@id": "_:Ne5e575670261448690c833702bd49e5e"
+      },
+      "ps:P3342": {
+        "@id": "_:N3f548a6c45f4472ab61f6bbf00624244"
+      }
+    },
+    {
+      "@id": "_:Ne5e575670261448690c833702bd49e5e",
+      "https://schema.org#geo": {
+        "@id": "_:N3f6bc0db7b3a4d50830a94348ba95b08"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q1015350"
+      },
+      "rdfs:label": "Pusarnitz"
+    },
+    {
+      "@id": "_:N3f6bc0db7b3a4d50830a94348ba95b08",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "46.85269",
+      "https://schema.org#longitude": "13.40784"
+    },
+    {
+      "@id": "_:N9e83d7dca9db40509a34317f6ec5d333",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1460-01-25"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1460-01-25"
+      }
+    },
+    {
+      "@id": "_:N3f548a6c45f4472ab61f6bbf00624244",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:G00001296"
+      },
+      "ps:P39": {
+        "@id": "ri:graf"
+      },
+      "rdfs:label": "Gf. Johann von Görz"
+    }
+  ]
+}

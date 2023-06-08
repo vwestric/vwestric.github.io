@@ -1,0 +1,140 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1442-06-21_1_0_13_7_0_11174_12",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N0137c5e7b3184ce883b4ade06b1cbc8f"
+      }
+    },
+    {
+      "@id": "_:N0137c5e7b3184ce883b4ade06b1cbc8f",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Nfbbe863b232842c8b610afb50e95effe"
+      },
+      "ps:P291": {
+        "@id": "_:Nbdf073d203b34a1ab393a4e9c522dd82"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:Na408e156235c4cd0afdcc89c9718db41"
+        },
+        {
+          "@id": "_:Nf66f78579a004cd79f2be78a7d9c8c8a"
+        },
+        {
+          "@id": "_:Nf7fdc6745c4548e0bcaf9fa86ccf93a0"
+        },
+        {
+          "@id": "_:N45bdd752132b47aa9c1857cdf99bfbc3"
+        },
+        {
+          "@id": "_:Ndbbedb4ca86e4ba8b78e0138d6dcd366"
+        },
+        {
+          "@id": "_:Nc449bb1c48844f4c9fd51bdc012c3c24"
+        }
+      ]
+    },
+    {
+      "@id": "_:Nbdf073d203b34a1ab393a4e9c522dd82",
+      "https://schema.org#geo": {
+        "@id": "_:N12e38e2b820c4ca19ca8e2d17eb90ecd"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q1017"
+      },
+      "rdfs:label": "Aachen"
+    },
+    {
+      "@id": "_:N12e38e2b820c4ca19ca8e2d17eb90ecd",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "50.77664",
+      "https://schema.org#longitude": "6.08342"
+    },
+    {
+      "@id": "_:Nfbbe863b232842c8b610afb50e95effe",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1442-06-21"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1442-06-21"
+      }
+    },
+    {
+      "@id": "_:Na408e156235c4cd0afdcc89c9718db41",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00002265"
+      },
+      "ps:P39": {
+        "@id": "ri:markgraf"
+      },
+      "rdfs:label": "Mgf. Friedrich von Brandenburg"
+    },
+    {
+      "@id": "_:Nf66f78579a004cd79f2be78a7d9c8c8a",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:R00000840"
+      },
+      "ps:P39": {
+        "@id": "ri:bischof"
+      },
+      "rdfs:label": "Bf. Friedrich von Regensburg"
+    },
+    {
+      "@id": "_:Nf7fdc6745c4548e0bcaf9fa86ccf93a0",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:G00002566"
+      },
+      "ps:P39": {
+        "@id": "ri:bischof"
+      },
+      "rdfs:label": "Bf. Johann von Gurk"
+    },
+    {
+      "@id": "_:N45bdd752132b47aa9c1857cdf99bfbc3",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00001341"
+      },
+      "rdfs:label": "Bernhard von Schaunberg"
+    },
+    {
+      "@id": "_:Ndbbedb4ca86e4ba8b78e0138d6dcd366",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:T00001381"
+      },
+      "ps:P39": {
+        "@id": "ri:truchsess"
+      },
+      "rdfs:label": "Jakob Truchseß von Waldburg"
+    },
+    {
+      "@id": "_:Nc449bb1c48844f4c9fd51bdc012c3c24",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:F00001792"
+      },
+      "rdfs:label": "Hofmarschall Georg Fuchs"
+    }
+  ]
+}

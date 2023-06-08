@@ -1,0 +1,106 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1485-06-08_1_0_13_29_0_227_227",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N2b0bb8d8008a46dcbe65da9811c6b81a"
+      }
+    },
+    {
+      "@id": "_:N2b0bb8d8008a46dcbe65da9811c6b81a",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Naa0d69209cc1488c8bc5f271f709aefc"
+      },
+      "ps:P291": {
+        "@id": "_:N9ee95c793c674e07aa69afd4ff6bdaf5"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N87022583c6964e9b86994d41c191733e"
+        },
+        {
+          "@id": "_:N7b1d5c88d2f8412db7de883cad49ed96"
+        },
+        {
+          "@id": "_:N8111ba03753c413d8107a4361e9d21c3"
+        }
+      ]
+    },
+    {
+      "@id": "_:N9ee95c793c674e07aa69afd4ff6bdaf5",
+      "https://schema.org#geo": {
+        "@id": "_:Nbbade39a798d4baead5244a6b7858683"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q34713"
+      },
+      "rdfs:label": "Salzburg"
+    },
+    {
+      "@id": "_:Nbbade39a798d4baead5244a6b7858683",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.79941",
+      "https://schema.org#longitude": "13.04399"
+    },
+    {
+      "@id": "_:Naa0d69209cc1488c8bc5f271f709aefc",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1485-06-08"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1485-06-08"
+      }
+    },
+    {
+      "@id": "_:N87022583c6964e9b86994d41c191733e",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:A00001518"
+      },
+      "rdfs:label": "Wilhelm von Auersperg"
+    },
+    {
+      "@id": "_:N7b1d5c88d2f8412db7de883cad49ed96",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:A00001518"
+      },
+      "ps:P39": [
+        {
+          "@id": "ri:rat"
+        },
+        {
+          "@id": "ri:kaemmerer"
+        },
+        {
+          "@id": "ri:hauptmann"
+        }
+      ],
+      "rdfs:label": "Wilhelm von Auersperg, seinen Rat, Kämmerer und Hauptmann in Krain"
+    },
+    {
+      "@id": "_:N8111ba03753c413d8107a4361e9d21c3",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:A00001770"
+      },
+      "rdfs:label": "Andreas Apfaltrer"
+    }
+  ]
+}

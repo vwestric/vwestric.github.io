@@ -1,0 +1,60 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:ebbbd6fa-a5f1-4b27-8b8c-45f3ea1d7f7c",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N0fa95769f1344a50885aa0c792eebe75"
+      }
+    },
+    {
+      "@id": "_:N0fa95769f1344a50885aa0c792eebe75",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N0287316dfc574ced82548b66f8dcb83e"
+      },
+      "ps:P291": {
+        "@id": "_:N913f60d2deac448fad9f683049ca9c79"
+      }
+    },
+    {
+      "@id": "_:N913f60d2deac448fad9f683049ca9c79",
+      "https://schema.org#geo": {
+        "@id": "_:N8f0f2d801be34344979fbb2028a043e7"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q153494"
+      },
+      "rdfs:label": "Rothenburg o. T."
+    },
+    {
+      "@id": "_:N8f0f2d801be34344979fbb2028a043e7",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "49.3775",
+      "https://schema.org#longitude": "10.178889"
+    },
+    {
+      "@id": "_:N0287316dfc574ced82548b66f8dcb83e",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1474-02-13"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1474-02-13"
+      }
+    }
+  ]
+}

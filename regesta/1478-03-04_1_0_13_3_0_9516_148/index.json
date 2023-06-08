@@ -1,0 +1,93 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1478-03-04_1_0_13_3_0_9516_148",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N4c44bd3cd8624a0097d37b04f2deb772"
+      }
+    },
+    {
+      "@id": "_:N4c44bd3cd8624a0097d37b04f2deb772",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N5bf43250039140c1b535db3f00df0b65"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N21b7142ce9894782823a2e518352d738"
+        },
+        {
+          "@id": "_:N60e63dfacb3748a980e5978d0c679dec"
+        },
+        {
+          "@id": "_:N4cd039e8f5534eca893718f1aa699937"
+        },
+        {
+          "@id": "_:Nfc1cc76fa0d048eeb8c80284ac3b7bca"
+        }
+      ]
+    },
+    {
+      "@id": "_:N5bf43250039140c1b535db3f00df0b65",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1478-03-04"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1478-03-04"
+      }
+    },
+    {
+      "@id": "_:N21b7142ce9894782823a2e518352d738",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:H00000634"
+      },
+      "rdfs:label": "Philipp d. J. von Hanau"
+    },
+    {
+      "@id": "_:N60e63dfacb3748a980e5978d0c679dec",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:I00000292"
+      },
+      "rdfs:label": "Ludwig von Isenburg-Büdingen"
+    },
+    {
+      "@id": "_:N4cd039e8f5534eca893718f1aa699937",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:M00000255"
+      },
+      "ps:P39": {
+        "@id": "ri:erzbischof"
+      },
+      "rdfs:label": "Eb. Adolfs von Mainz"
+    },
+    {
+      "@id": "_:Nfc1cc76fa0d048eeb8c80284ac3b7bca",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:F00000608"
+      },
+      "ps:P39": {
+        "@id": "ri:forstmeister"
+      },
+      "rdfs:label": "Balthasar Forstmeister"
+    }
+  ]
+}

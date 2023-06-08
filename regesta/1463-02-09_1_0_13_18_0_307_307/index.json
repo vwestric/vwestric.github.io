@@ -1,0 +1,55 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1463-02-09_1_0_13_18_0_307_307",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N685388740cb5488a80bdd7092b6400ee"
+      }
+    },
+    {
+      "@id": "_:N685388740cb5488a80bdd7092b6400ee",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N8447de8ce25d4b9997ac6f8dadaa7659"
+      },
+      "ps:P3342": {
+        "@id": "_:Ne7c61ebf220d472eb35d031d374ae0d4"
+      }
+    },
+    {
+      "@id": "_:N8447de8ce25d4b9997ac6f8dadaa7659",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1463-02-09"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1463-02-09"
+      }
+    },
+    {
+      "@id": "_:Ne7c61ebf220d472eb35d031d374ae0d4",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:E00001413"
+      },
+      "ps:P39": {
+        "@id": "ri:pfleger"
+      },
+      "rdfs:label": "Jakob von Ernau, Pfleger zu Karlsberg und Vitztum in Kärnten"
+    }
+  ]
+}

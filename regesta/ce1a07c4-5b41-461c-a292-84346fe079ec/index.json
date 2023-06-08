@@ -1,0 +1,90 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:ce1a07c4-5b41-461c-a292-84346fe079ec",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Nd13eddcfee2b468f94b45a67a5a3e6cb"
+      }
+    },
+    {
+      "@id": "_:Nd13eddcfee2b468f94b45a67a5a3e6cb",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N69e148042e4c4ce7a6c48b97f4ccce23"
+      },
+      "ps:P291": {
+        "@id": "_:N464bad02409947bf91d4426adc016dd0"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N7ca8a174f4f04266887780b60ed17d92"
+        },
+        {
+          "@id": "_:N013a70ff06dd4c93a6320f7d4a3ec207"
+        }
+      ]
+    },
+    {
+      "@id": "_:N464bad02409947bf91d4426adc016dd0",
+      "https://schema.org#geo": {
+        "@id": "_:N9b4c2437125840b4ba26282fa5afecb9"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q131612"
+      },
+      "rdfs:label": "Wiener Neustadt"
+    },
+    {
+      "@id": "_:N9b4c2437125840b4ba26282fa5afecb9",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.813153",
+      "https://schema.org#longitude": "16.24444"
+    },
+    {
+      "@id": "_:N69e148042e4c4ce7a6c48b97f4ccce23",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1464-01-23"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1464-01-23"
+      }
+    },
+    {
+      "@id": "_:N7ca8a174f4f04266887780b60ed17d92",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:E00000494"
+      },
+      "ps:P39": {
+        "@id": "ri:bischof"
+      },
+      "rdfs:label": "Bf. Johann (III.) von Eichstätt"
+    },
+    {
+      "@id": "_:N013a70ff06dd4c93a6320f7d4a3ec207",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00002248"
+      },
+      "ps:P39": {
+        "@id": "ri:markgraf"
+      },
+      "rdfs:label": "Mgf. Albrecht von Brandenburg"
+    }
+  ]
+}

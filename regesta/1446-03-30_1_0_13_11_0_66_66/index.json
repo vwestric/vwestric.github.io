@@ -1,0 +1,132 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1446-03-30_1_0_13_11_0_66_66",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Nf13d59f64a6f4978b7adce1b2128330c"
+      }
+    },
+    {
+      "@id": "_:Nf13d59f64a6f4978b7adce1b2128330c",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N22bd9b8d191647a4b37fd55c287d39ab"
+      },
+      "ps:P291": {
+        "@id": "_:N8e9a81e8b76545a5b478a784ea7c2f99"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N75ab6b2f5e3148f2961f0a50473b03f6"
+        },
+        {
+          "@id": "_:Nd09fd0508d644b5090e745b21e3e011b"
+        },
+        {
+          "@id": "_:Naa8dfefab31a44a0873d154d7fb6d61d"
+        },
+        {
+          "@id": "_:Ne2ebba459e8548b0a01eba3ae9e9124a"
+        },
+        {
+          "@id": "_:N81028691c24e4bf08b03007a51d8860f"
+        }
+      ]
+    },
+    {
+      "@id": "_:N8e9a81e8b76545a5b478a784ea7c2f99",
+      "https://schema.org#geo": {
+        "@id": "_:N719fa2af253d4b57b551b898d5f2a8a1"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q1741"
+      },
+      "rdfs:label": "Wien"
+    },
+    {
+      "@id": "_:N719fa2af253d4b57b551b898d5f2a8a1",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "48.20849",
+      "https://schema.org#longitude": "16.37208"
+    },
+    {
+      "@id": "_:N22bd9b8d191647a4b37fd55c287d39ab",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1446-03-30"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1446-03-30"
+      }
+    },
+    {
+      "@id": "_:N75ab6b2f5e3148f2961f0a50473b03f6",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00002711"
+      },
+      "ps:P39": {
+        "@id": "ri:graf"
+      },
+      "rdfs:label": "Gf. Heinrich (XXVI.) von Schwarzburg-Arnstadt-Sondershausen"
+    },
+    {
+      "@id": "_:Nd09fd0508d644b5090e745b21e3e011b",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00000076"
+      },
+      "ps:P39": {
+        "@id": "ri:kurfuerst"
+      },
+      "rdfs:label": "Kf. Friedrich (II.) von Sachsen"
+    },
+    {
+      "@id": "_:Naa8dfefab31a44a0873d154d7fb6d61d",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00002265"
+      },
+      "ps:P39": {
+        "@id": "ri:kurfuerst"
+      },
+      "rdfs:label": "Kf. Friedrich (II.) von Brandenburg"
+    },
+    {
+      "@id": "_:Ne2ebba459e8548b0a01eba3ae9e9124a",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:H00002093"
+      },
+      "ps:P39": {
+        "@id": "ri:landgraf"
+      },
+      "rdfs:label": "Ldgf. Ludwig (I.) von Hessen"
+    },
+    {
+      "@id": "_:N81028691c24e4bf08b03007a51d8860f",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00000099"
+      },
+      "ps:P39": {
+        "@id": "ri:herzog"
+      },
+      "rdfs:label": "Hz. Wilhelm (III.) von Sachsen"
+    }
+  ]
+}

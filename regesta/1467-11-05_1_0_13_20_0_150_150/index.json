@@ -1,0 +1,165 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1467-11-05_1_0_13_20_0_150_150",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Nec5e8d6d2bff405a8e2f856227e0b5f3"
+      }
+    },
+    {
+      "@id": "_:Nec5e8d6d2bff405a8e2f856227e0b5f3",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Nf0caaf37a7af41bd928f0a227b4679d6"
+      },
+      "ps:P291": {
+        "@id": "_:N3462755c89d743088e0da31994511b75"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N0e5d94cd02ad420f982023d07b15b436"
+        },
+        {
+          "@id": "_:N40fb1a784e6d4418bbfd7a3f898a0575"
+        },
+        {
+          "@id": "_:Ne54a01f1a33f4370b79b512fbd13e513"
+        },
+        {
+          "@id": "_:N300659e5538a4f19835dae66c5ed992a"
+        },
+        {
+          "@id": "_:N940bb38b09bd49cf9806bc04ef9da085"
+        },
+        {
+          "@id": "_:N62c35ffd44824a88a91b8d4572326776"
+        },
+        {
+          "@id": "_:N697d18bc483d4f049c951e815cd8ad95"
+        },
+        {
+          "@id": "_:N64eaac52908f4ad388d791785b5213f4"
+        }
+      ]
+    },
+    {
+      "@id": "_:N3462755c89d743088e0da31994511b75",
+      "https://schema.org#geo": {
+        "@id": "_:N3e054f73dbec4aa0af94f9dadf5e5fe6"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q131612"
+      },
+      "rdfs:label": "Wiener Neustadt"
+    },
+    {
+      "@id": "_:N3e054f73dbec4aa0af94f9dadf5e5fe6",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.813153",
+      "https://schema.org#longitude": "16.24444"
+    },
+    {
+      "@id": "_:Nf0caaf37a7af41bd928f0a227b4679d6",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1467-11-05"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1467-11-05"
+      }
+    },
+    {
+      "@id": "_:N0e5d94cd02ad420f982023d07b15b436",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:D00000033"
+      },
+      "ps:P39": {
+        "@id": "ri:koenig"
+      },
+      "rdfs:label": "Kg. Christian (I.) von Dänemark"
+    },
+    {
+      "@id": "_:N40fb1a784e6d4418bbfd7a3f898a0575",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:P00001761"
+      },
+      "ps:P39": {
+        "@id": "ri:koenig"
+      },
+      "rdfs:label": "Kg. Kasimir (IV.) von Polen"
+    },
+    {
+      "@id": "_:Ne54a01f1a33f4370b79b512fbd13e513",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00002853"
+      },
+      "ps:P39": {
+        "@id": "ri:bischof"
+      },
+      "rdfs:label": "Bf. (Werner) von Schwerin"
+    },
+    {
+      "@id": "_:N300659e5538a4f19835dae66c5ed992a",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:L00002138"
+      },
+      "ps:P39": {
+        "@id": "ri:bischof"
+      },
+      "rdfs:label": "Bf. (Albrecht) von Lübeck"
+    },
+    {
+      "@id": "_:N940bb38b09bd49cf9806bc04ef9da085",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00002265"
+      },
+      "ps:P39": {
+        "@id": "ri:kurfuerst"
+      },
+      "rdfs:label": "Kf. Friedrich (II.) von Brandenburg"
+    },
+    {
+      "@id": "_:N62c35ffd44824a88a91b8d4572326776",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:M00001294"
+      },
+      "rdfs:label": "Balthasar von Mecklenburg"
+    },
+    {
+      "@id": "_:N697d18bc483d4f049c951e815cd8ad95",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:P00001856"
+      },
+      "rdfs:label": "Wartislaw (X.) von (Pommern-) Stettin"
+    },
+    {
+      "@id": "_:N64eaac52908f4ad388d791785b5213f4",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00000324"
+      },
+      "rdfs:label": "Jaroslaw Barnekow"
+    }
+  ]
+}

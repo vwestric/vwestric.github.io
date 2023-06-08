@@ -1,0 +1,87 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1452-05-24_6_0_13_11_0_274_274",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N0c3616ea4e674e999c16762b9591a60a"
+      }
+    },
+    {
+      "@id": "_:N0c3616ea4e674e999c16762b9591a60a",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N544aebd5ba7f4c3f8e17afeca047bdca"
+      },
+      "ps:P291": {
+        "@id": "_:N93803e95e23c47cbb4614810a67e55d0"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:Nc735ed80fc8646b1b92e65cc693f4c81"
+        },
+        {
+          "@id": "_:Ne9bc196f63634220bb84c5e300a2a03a"
+        }
+      ]
+    },
+    {
+      "@id": "_:N93803e95e23c47cbb4614810a67e55d0",
+      "https://schema.org#geo": {
+        "@id": "_:Nf29ce009971f416f9b6b24f28ffa6ab3"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q641"
+      },
+      "rdfs:label": "Venedig"
+    },
+    {
+      "@id": "_:Nf29ce009971f416f9b6b24f28ffa6ab3",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "45.43384",
+      "https://schema.org#longitude": "12.34028"
+    },
+    {
+      "@id": "_:N544aebd5ba7f4c3f8e17afeca047bdca",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1452-05-24"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1452-05-24"
+      }
+    },
+    {
+      "@id": "_:Nc735ed80fc8646b1b92e65cc693f4c81",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:E00000546"
+      },
+      "rdfs:label": "Hildebrand von Einsiedel"
+    },
+    {
+      "@id": "_:Ne9bc196f63634220bb84c5e300a2a03a",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:O00000599"
+      },
+      "ps:P39": {
+        "@id": "ri:koenig"
+      },
+      "rdfs:label": "Kg. Ladislaus"
+    }
+  ]
+}

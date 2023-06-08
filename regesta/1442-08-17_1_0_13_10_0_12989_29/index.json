@@ -1,0 +1,101 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1442-08-17_1_0_13_10_0_12989_29",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N954e6f6d734343088fb6471a20cd4d45"
+      }
+    },
+    {
+      "@id": "_:N954e6f6d734343088fb6471a20cd4d45",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N8cd479251ae34750be51309c40d7de2b"
+      },
+      "ps:P291": {
+        "@id": "_:N47ede5b874e74dfa9bedc6128fd4820f"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N3a2722eb39ae4aaab29ba52282e2add1"
+        },
+        {
+          "@id": "_:N2c86903d4d1042fdb08f6c91fe9f55c3"
+        },
+        {
+          "@id": "_:N72784c07f42e46fe8eaac1ed19990169"
+        }
+      ]
+    },
+    {
+      "@id": "_:N47ede5b874e74dfa9bedc6128fd4820f",
+      "https://schema.org#geo": {
+        "@id": "_:N7abd0c7b55374866b4184c194d17e069"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q1794"
+      },
+      "rdfs:label": "Frankfurt"
+    },
+    {
+      "@id": "_:N7abd0c7b55374866b4184c194d17e069",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "50.110556",
+      "https://schema.org#longitude": "8.682222"
+    },
+    {
+      "@id": "_:N8cd479251ae34750be51309c40d7de2b",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1442-08-17"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1442-08-17"
+      }
+    },
+    {
+      "@id": "_:N3a2722eb39ae4aaab29ba52282e2add1",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:M00000277"
+      },
+      "ps:P39": {
+        "@id": "ri:erzbischof"
+      },
+      "rdfs:label": "Eb. Dietrich von Mainz"
+    },
+    {
+      "@id": "_:N2c86903d4d1042fdb08f6c91fe9f55c3",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00000076"
+      },
+      "ps:P39": {
+        "@id": "ri:herzog"
+      },
+      "rdfs:label": "Hz. Friedrich (II.) von Sachsen"
+    },
+    {
+      "@id": "_:N72784c07f42e46fe8eaac1ed19990169",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00002248"
+      },
+      "rdfs:label": "Albrecht von Brandenburg"
+    }
+  ]
+}

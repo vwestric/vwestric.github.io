@@ -1,0 +1,178 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1448-10-03_1_0_13_7_0_11240_78",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Na75a0d0cd73447bda471714591a0a76f"
+      }
+    },
+    {
+      "@id": "_:Na75a0d0cd73447bda471714591a0a76f",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N86f2d76d2f2343cdb3f6410df4f6b294"
+      },
+      "ps:P291": {
+        "@id": "_:N3699117c09a34dd88dc6319ed3b71f1e"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:Nd630e917ca064aa2a96830ea9f5da9ee"
+        },
+        {
+          "@id": "_:Neb741c2a9692454a82c52a31b32d3076"
+        },
+        {
+          "@id": "_:Nc583450d90a740b18f15ff6e5a7b06d7"
+        },
+        {
+          "@id": "_:N6167526a0b1f473e8fcd9eafea861bb4"
+        },
+        {
+          "@id": "_:N7ce0c3e2fcd14ac193168fdfc8366640"
+        },
+        {
+          "@id": "_:N167490d2f3244dcbbaa0e453b13b0eba"
+        },
+        {
+          "@id": "_:N4a54450e69274b8e83b25985b52535aa"
+        },
+        {
+          "@id": "_:N46e0af207b9642bc886065a069ebff0e"
+        },
+        {
+          "@id": "_:N6f449786e65c4f56969ded264e553aee"
+        },
+        {
+          "@id": "_:Nab98648266b1423ba01bf27ecb88afa9"
+        }
+      ]
+    },
+    {
+      "@id": "_:N3699117c09a34dd88dc6319ed3b71f1e",
+      "https://schema.org#geo": {
+        "@id": "_:N5290446e185c42c5afd63bc7c1982a74"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q1741"
+      },
+      "rdfs:label": "Wien"
+    },
+    {
+      "@id": "_:N5290446e185c42c5afd63bc7c1982a74",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "48.20849",
+      "https://schema.org#longitude": "16.37208"
+    },
+    {
+      "@id": "_:N86f2d76d2f2343cdb3f6410df4f6b294",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1448-10-03"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1448-10-03"
+      }
+    },
+    {
+      "@id": "_:Nd630e917ca064aa2a96830ea9f5da9ee",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:K00001681"
+      },
+      "ps:P39": {
+        "@id": "ri:erzbischof"
+      },
+      "rdfs:label": "Eb. Dietrichs (II.) von Köln"
+    },
+    {
+      "@id": "_:Neb741c2a9692454a82c52a31b32d3076",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:C00000102"
+      },
+      "rdfs:label": "Johann Canus"
+    },
+    {
+      "@id": "_:Nc583450d90a740b18f15ff6e5a7b06d7",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:P00000246"
+      },
+      "rdfs:label": "Leonhard von Passau"
+    },
+    {
+      "@id": "_:N6167526a0b1f473e8fcd9eafea861bb4",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:C00000330"
+      },
+      "rdfs:label": "Silvester von Chiemsee"
+    },
+    {
+      "@id": "_:N7ce0c3e2fcd14ac193168fdfc8366640",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:C00000462"
+      },
+      "ps:P39": {
+        "@id": "ri:graf"
+      },
+      "rdfs:label": "Gf. Ulrich von Cilli"
+    },
+    {
+      "@id": "_:N167490d2f3244dcbbaa0e453b13b0eba",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00001341"
+      },
+      "rdfs:label": "Bernhard von Schaunberg"
+    },
+    {
+      "@id": "_:N4a54450e69274b8e83b25985b52535aa",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:R00000028"
+      },
+      "rdfs:label": "Prokop von Rabenstein"
+    },
+    {
+      "@id": "_:N46e0af207b9642bc886065a069ebff0e",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00000648"
+      },
+      "rdfs:label": "Jörg von Bebenburg"
+    },
+    {
+      "@id": "_:N6f449786e65c4f56969ded264e553aee",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:C00000119"
+      },
+      "rdfs:label": "Dr. Hartung von Cappel"
+    },
+    {
+      "@id": "_:Nab98648266b1423ba01bf27ecb88afa9",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:A00001391"
+      },
+      "rdfs:label": "Leopold Aspach"
+    }
+  ]
+}

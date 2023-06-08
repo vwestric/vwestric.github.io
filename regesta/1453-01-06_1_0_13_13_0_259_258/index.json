@@ -1,0 +1,276 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1453-01-06_1_0_13_13_0_259_258",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N92d2a189d01746599895680ed1157789"
+      }
+    },
+    {
+      "@id": "_:N92d2a189d01746599895680ed1157789",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Nfbf58e5082424854a7eb12dee20717e3"
+      },
+      "ps:P291": {
+        "@id": "_:N63d00aed32e6474ab12e4116a779b101"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N71804de34a5043838b4b3f11e78cfa1e"
+        },
+        {
+          "@id": "_:Ne3bd8bc75a0144aab1d9d43e6da03d27"
+        },
+        {
+          "@id": "_:Nf06f065fb5cd4dc3b3db8687f72e3796"
+        },
+        {
+          "@id": "_:Ndb3ad8c6af974a66a64c2f66a266c379"
+        },
+        {
+          "@id": "_:N107269b196344f2d8b172feaf8d3fa6d"
+        },
+        {
+          "@id": "_:Nab220048f20640acb8711dcfbca2f2ef"
+        },
+        {
+          "@id": "_:N6bc1bb9770dc48c5a194a1bb2c23d345"
+        },
+        {
+          "@id": "_:N50d88640ce21427ca9933fc606cfb2fc"
+        },
+        {
+          "@id": "_:Nfb6747ef4e7c455a91dfe614324e0f0c"
+        },
+        {
+          "@id": "_:Nfa46a9fbcb87448fb1f50f6a1734c21c"
+        },
+        {
+          "@id": "_:Ned0470fae3c54098b0d53e47fa9b63e9"
+        },
+        {
+          "@id": "_:N0dc0d829e8df4801953083d67cff5f1f"
+        },
+        {
+          "@id": "_:Nc489dbd731d047298f46183ad9510d34"
+        },
+        {
+          "@id": "_:N1eea8c07e6fb45099ae2ae390218dce2"
+        },
+        {
+          "@id": "_:N332f562a32c149e294a00e77b5af9e75"
+        },
+        {
+          "@id": "_:N897367a47db94b5687403bae26c245e9"
+        },
+        {
+          "@id": "_:Na1e25dc820eb4f7f9d52e9a2e67fa109"
+        }
+      ]
+    },
+    {
+      "@id": "_:N63d00aed32e6474ab12e4116a779b101",
+      "https://schema.org#geo": {
+        "@id": "_:N79d90668842f43048ceaba1e3bd8b607"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q131612"
+      },
+      "rdfs:label": "Wiener Neustadt"
+    },
+    {
+      "@id": "_:N79d90668842f43048ceaba1e3bd8b607",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.813153",
+      "https://schema.org#longitude": "16.24444"
+    },
+    {
+      "@id": "_:Nfbf58e5082424854a7eb12dee20717e3",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1453-01-06"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1453-01-06"
+      }
+    },
+    {
+      "@id": "_:N71804de34a5043838b4b3f11e78cfa1e",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:E00000494"
+      },
+      "ps:P39": {
+        "@id": "ri:bischof"
+      },
+      "rdfs:label": "Bf. Johann von Eichstätt"
+    },
+    {
+      "@id": "_:Ne3bd8bc75a0144aab1d9d43e6da03d27",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00000099"
+      },
+      "ps:P39": {
+        "@id": "ri:herzog"
+      },
+      "rdfs:label": "Hz. Wilhelm (III.) von Sachsen"
+    },
+    {
+      "@id": "_:Nf06f065fb5cd4dc3b3db8687f72e3796",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00002248"
+      },
+      "ps:P39": {
+        "@id": "ri:markgraf"
+      },
+      "rdfs:label": "Mgf. Albrecht von Brandenburg"
+    },
+    {
+      "@id": "_:Ndb3ad8c6af974a66a64c2f66a266c379",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:M00000154"
+      },
+      "ps:P39": {
+        "@id": "ri:burggraf"
+      },
+      "rdfs:label": "Bggf. Michael von Maidburg"
+    },
+    {
+      "@id": "_:N107269b196344f2d8b172feaf8d3fa6d",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00002711"
+      },
+      "ps:P39": {
+        "@id": "ri:graf"
+      },
+      "rdfs:label": "Gf. Heinrich von Schwarzburg"
+    },
+    {
+      "@id": "_:Nab220048f20640acb8711dcfbca2f2ef",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:O00000786"
+      },
+      "ps:P39": {
+        "@id": "ri:graf"
+      },
+      "rdfs:label": "Gf. Ulrich von Oettingen"
+    },
+    {
+      "@id": "_:N6bc1bb9770dc48c5a194a1bb2c23d345",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:M00002433"
+      },
+      "ps:P39": {
+        "@id": "ri:graf"
+      },
+      "rdfs:label": "Gf. Ulrich von Montfort"
+    },
+    {
+      "@id": "_:N50d88640ce21427ca9933fc606cfb2fc",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00001352"
+      },
+      "ps:P39": {
+        "@id": "ri:graf"
+      },
+      "rdfs:label": "Gf. Ulrich von Schaunberg"
+    },
+    {
+      "@id": "_:Nfb6747ef4e7c455a91dfe614324e0f0c",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00004611"
+      },
+      "rdfs:label": "Rüdiger von Starhemberg"
+    },
+    {
+      "@id": "_:Nfa46a9fbcb87448fb1f50f6a1734c21c",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:P00002036"
+      },
+      "rdfs:label": "Albrecht von Pottendorf"
+    },
+    {
+      "@id": "_:Ned0470fae3c54098b0d53e47fa9b63e9",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:U00000280"
+      },
+      "ps:P39": {
+        "@id": "ri:kammermeister"
+      },
+      "rdfs:label": "Kammermeister Hans Ungnad"
+    },
+    {
+      "@id": "_:N0dc0d829e8df4801953083d67cff5f1f",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:F00001792"
+      },
+      "rdfs:label": "Hofmarschall Georg Fuchs"
+    },
+    {
+      "@id": "_:Nc489dbd731d047298f46183ad9510d34",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:Z00000092"
+      },
+      "rdfs:label": "Walther Zebinger"
+    },
+    {
+      "@id": "_:N1eea8c07e6fb45099ae2ae390218dce2",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:R00000028"
+      },
+      "rdfs:label": "Prokop von Rabenstein"
+    },
+    {
+      "@id": "_:N332f562a32c149e294a00e77b5af9e75",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:F00000399"
+      },
+      "rdfs:label": "Ulrich von Fladnitz"
+    },
+    {
+      "@id": "_:N897367a47db94b5687403bae26c245e9",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00000990"
+      },
+      "rdfs:label": "Wolfgang von Saurau"
+    },
+    {
+      "@id": "_:Na1e25dc820eb4f7f9d52e9a2e67fa109",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:A00001391"
+      },
+      "rdfs:label": "Leopold Aspach"
+    }
+  ]
+}

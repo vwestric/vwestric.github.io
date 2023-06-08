@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1469-06-04_2_0_13_23_0_589_586",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N0f2fae457aa64b7fb843747fa8cfbe1d"
+      }
+    },
+    {
+      "@id": "_:N0f2fae457aa64b7fb843747fa8cfbe1d",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Nd6b23e11fc6f4223ad634dda8ed36a20"
+      },
+      "ps:P291": {
+        "@id": "_:Na6c7f5ae82c6438bae7b0948850c306a"
+      },
+      "ps:P3342": {
+        "@id": "_:N6469f573474c466fa3df0a6489d3713c"
+      }
+    },
+    {
+      "@id": "_:Na6c7f5ae82c6438bae7b0948850c306a",
+      "https://schema.org#geo": {
+        "@id": "_:N3976335c2de64e6aa6fb5182a0de496d"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q13298"
+      },
+      "rdfs:label": "Graz"
+    },
+    {
+      "@id": "_:N3976335c2de64e6aa6fb5182a0de496d",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.06667",
+      "https://schema.org#longitude": "15.45"
+    },
+    {
+      "@id": "_:Nd6b23e11fc6f4223ad634dda8ed36a20",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1469-06-04"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1469-06-04"
+      }
+    },
+    {
+      "@id": "_:N6469f573474c466fa3df0a6489d3713c",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00005971"
+      },
+      "ps:P39": {
+        "@id": "ri:graf"
+      },
+      "rdfs:label": "Gf. Johann von Sulz"
+    }
+  ]
+}

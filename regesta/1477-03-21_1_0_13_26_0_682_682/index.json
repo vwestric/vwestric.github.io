@@ -1,0 +1,95 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1477-03-21_1_0_13_26_0_682_682",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N385f3fb5f4114619a406d475f69df31c"
+      }
+    },
+    {
+      "@id": "_:N385f3fb5f4114619a406d475f69df31c",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Nf5640ee909394840a7491089071724a0"
+      },
+      "ps:P291": {
+        "@id": "_:N385e3dba841c4fa091edd2303293399e"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:Ne7df8beab91b435690e892c20722de0b"
+        },
+        {
+          "@id": "_:Nf6ae522130a2438fa1e6ca061d3d4ff2"
+        }
+      ]
+    },
+    {
+      "@id": "_:N385e3dba841c4fa091edd2303293399e",
+      "https://schema.org#geo": {
+        "@id": "_:Nd8ccf4b4cff34c28b4bd051d14f8a7ad"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q1741"
+      },
+      "rdfs:label": "Wien"
+    },
+    {
+      "@id": "_:Nd8ccf4b4cff34c28b4bd051d14f8a7ad",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "48.20849",
+      "https://schema.org#longitude": "16.37208"
+    },
+    {
+      "@id": "_:Nf5640ee909394840a7491089071724a0",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1477-03-21"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1477-03-21"
+      }
+    },
+    {
+      "@id": "_:Ne7df8beab91b435690e892c20722de0b",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:P00001489"
+      },
+      "ps:P39": {
+        "@id": "ri:diener"
+      },
+      "rdfs:label": "Diener Hans von Plankenstein"
+    },
+    {
+      "@id": "_:Nf6ae522130a2438fa1e6ca061d3d4ff2",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:R00002243"
+      },
+      "ps:P39": [
+        {
+          "@id": "ri:truchsess"
+        },
+        {
+          "@id": "ri:pfleger"
+        }
+      ],
+      "rdfs:label": "Kaspar von Roggendorf, seinem Truchseß und Pfleger zu Weitenegg"
+    }
+  ]
+}

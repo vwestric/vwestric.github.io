@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1475-01-08_1_0_13_9_0_12824_285",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Na2ba257e086643be8ee72985c403fdd3"
+      }
+    },
+    {
+      "@id": "_:Na2ba257e086643be8ee72985c403fdd3",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N7e5b31ac061a4dd4b0df322cd0d236b5"
+      },
+      "ps:P291": {
+        "@id": "_:Nfbf215e8156b4faf8b6f97b1b2d1635b"
+      },
+      "ps:P3342": {
+        "@id": "_:Nd238e7b774054852b20f90838c14975e"
+      }
+    },
+    {
+      "@id": "_:Nfbf215e8156b4faf8b6f97b1b2d1635b",
+      "https://schema.org#geo": {
+        "@id": "_:N8ff9cbf369634baea47819b07753a9c1"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q490058"
+      },
+      "rdfs:label": "Andernach"
+    },
+    {
+      "@id": "_:N8ff9cbf369634baea47819b07753a9c1",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "50.4333",
+      "https://schema.org#longitude": "7.4"
+    },
+    {
+      "@id": "_:N7e5b31ac061a4dd4b0df322cd0d236b5",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1475-01-08"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1475-01-08"
+      }
+    },
+    {
+      "@id": "_:Nd238e7b774054852b20f90838c14975e",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:T00001183"
+      },
+      "ps:P39": {
+        "@id": "ri:erzbischof"
+      },
+      "rdfs:label": "Eb. Johann von Trier"
+    }
+  ]
+}

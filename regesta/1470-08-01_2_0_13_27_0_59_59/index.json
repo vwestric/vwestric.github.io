@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1470-08-01_2_0_13_27_0_59_59",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Nfc31411b14af44d28563deb7225c939b"
+      }
+    },
+    {
+      "@id": "_:Nfc31411b14af44d28563deb7225c939b",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Nccbe8d8201994e08a7ebcee8711ad997"
+      },
+      "ps:P291": {
+        "@id": "_:N179ecf9412b84f70b5e4411c43fba972"
+      },
+      "ps:P3342": {
+        "@id": "_:Ndcb3f9a74d1945fd9020de8286ad0baa"
+      }
+    },
+    {
+      "@id": "_:N179ecf9412b84f70b5e4411c43fba972",
+      "https://schema.org#geo": {
+        "@id": "_:Nc026cca9e1cd485f83860da1cabee7cb"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q483522"
+      },
+      "rdfs:label": "Villach"
+    },
+    {
+      "@id": "_:Nc026cca9e1cd485f83860da1cabee7cb",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "46.61028",
+      "https://schema.org#longitude": "13.85583"
+    },
+    {
+      "@id": "_:Nccbe8d8201994e08a7ebcee8711ad997",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1470-08-01"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1470-08-01"
+      }
+    },
+    {
+      "@id": "_:Ndcb3f9a74d1945fd9020de8286ad0baa",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:O00000622"
+      },
+      "ps:P39": {
+        "@id": "ri:herzog"
+      },
+      "rdfs:label": "Hz. Sigmund von Österreich"
+    }
+  ]
+}

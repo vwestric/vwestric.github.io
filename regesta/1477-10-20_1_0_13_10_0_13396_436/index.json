@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1477-10-20_1_0_13_10_0_13396_436",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Nc02ed9f6f5d942e699d26985d47f6513"
+      }
+    },
+    {
+      "@id": "_:Nc02ed9f6f5d942e699d26985d47f6513",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Na9c758e8aca54b9fa4c9518e3fd652cc"
+      },
+      "ps:P291": {
+        "@id": "_:N4efdde15e4ae405da74c9a0d36f2b745"
+      },
+      "ps:P3342": {
+        "@id": "_:N425d7403afac4a6dab29312709f6693f"
+      }
+    },
+    {
+      "@id": "_:N4efdde15e4ae405da74c9a0d36f2b745",
+      "https://schema.org#geo": {
+        "@id": "_:N52e450381aa047a88b2af69bac64ab07"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q260320"
+      },
+      "rdfs:label": "Steyr"
+    },
+    {
+      "@id": "_:N52e450381aa047a88b2af69bac64ab07",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "48.04274",
+      "https://schema.org#longitude": "14.42127"
+    },
+    {
+      "@id": "_:Na9c758e8aca54b9fa4c9518e3fd652cc",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1477-10-20"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1477-10-20"
+      }
+    },
+    {
+      "@id": "_:N425d7403afac4a6dab29312709f6693f",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:H00001720"
+      },
+      "ps:P39": {
+        "@id": "ri:graf"
+      },
+      "rdfs:label": "Gf. Wilhelm (III.) von Henneberg (-Schleusingen)"
+    }
+  ]
+}

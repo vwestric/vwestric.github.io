@@ -1,0 +1,90 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1447-09-07_1_0_13_11_0_79_79",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N418ee5c5a8544847b0dcb09cee90825c"
+      }
+    },
+    {
+      "@id": "_:N418ee5c5a8544847b0dcb09cee90825c",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N2caed779826d49448b3311f2ed3de6c2"
+      },
+      "ps:P291": {
+        "@id": "_:N26b5102b7d3d48caab0b60755750917d"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:Nb38b54b1af0f41059f4f7107b88a826e"
+        },
+        {
+          "@id": "_:N35d0fb4282394f76a58169787f7aa047"
+        }
+      ]
+    },
+    {
+      "@id": "_:N26b5102b7d3d48caab0b60755750917d",
+      "https://schema.org#geo": {
+        "@id": "_:Nd03229c7875f4d298368b18eb403ac37"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q1741"
+      },
+      "rdfs:label": "Wien"
+    },
+    {
+      "@id": "_:Nd03229c7875f4d298368b18eb403ac37",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "48.20849",
+      "https://schema.org#longitude": "16.37208"
+    },
+    {
+      "@id": "_:N2caed779826d49448b3311f2ed3de6c2",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1447-09-07"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1447-09-07"
+      }
+    },
+    {
+      "@id": "_:Nb38b54b1af0f41059f4f7107b88a826e",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00002265"
+      },
+      "ps:P39": {
+        "@id": "ri:kurfuerst"
+      },
+      "rdfs:label": "Kf. Friedrich (II.) von Brandenburg"
+    },
+    {
+      "@id": "_:N35d0fb4282394f76a58169787f7aa047",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00000076"
+      },
+      "ps:P39": {
+        "@id": "ri:kurfuerst"
+      },
+      "rdfs:label": "Kf. Friedrich (II.) von Sachsen"
+    }
+  ]
+}

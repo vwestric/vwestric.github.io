@@ -1,0 +1,55 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1482-11-24_1_0_13_10_0_13473_513",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N778ed08fab9642c4bec945f9bd3c7cc4"
+      }
+    },
+    {
+      "@id": "_:N778ed08fab9642c4bec945f9bd3c7cc4",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Nd0210c366770401299db44435ccb7a3f"
+      },
+      "ps:P3342": {
+        "@id": "_:Ne93a3642b96444adbe17604453383c39"
+      }
+    },
+    {
+      "@id": "_:Nd0210c366770401299db44435ccb7a3f",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1482-11-24"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1482-11-24"
+      }
+    },
+    {
+      "@id": "_:Ne93a3642b96444adbe17604453383c39",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00000065"
+      },
+      "ps:P39": {
+        "@id": "ri:kurfuerst"
+      },
+      "rdfs:label": "Kf. Ernst von Sachsen"
+    }
+  ]
+}

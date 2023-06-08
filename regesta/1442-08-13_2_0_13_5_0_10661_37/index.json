@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1442-08-13_2_0_13_5_0_10661_37",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N3ed0bfaea4544d26b5500054797d9c8f"
+      }
+    },
+    {
+      "@id": "_:N3ed0bfaea4544d26b5500054797d9c8f",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N4131e5f7f6db4df4b61fd6581a277f8e"
+      },
+      "ps:P291": {
+        "@id": "_:N84f7b380ab924596b8cf804887f6f7ca"
+      },
+      "ps:P3342": {
+        "@id": "_:N03e550c662b641e7be47cc781509a688"
+      }
+    },
+    {
+      "@id": "_:N84f7b380ab924596b8cf804887f6f7ca",
+      "https://schema.org#geo": {
+        "@id": "_:N483c6068cfca4b2783134213408bafb7"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q1794"
+      },
+      "rdfs:label": "Frankfurt"
+    },
+    {
+      "@id": "_:N483c6068cfca4b2783134213408bafb7",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "50.110556",
+      "https://schema.org#longitude": "8.682222"
+    },
+    {
+      "@id": "_:N4131e5f7f6db4df4b61fd6581a277f8e",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1442-08-13"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1442-08-13"
+      }
+    },
+    {
+      "@id": "_:N03e550c662b641e7be47cc781509a688",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00001525"
+      },
+      "ps:P39": {
+        "@id": "ri:schenk"
+      },
+      "rdfs:label": "Schenk Konrad von Erbach"
+    }
+  ]
+}

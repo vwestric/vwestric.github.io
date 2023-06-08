@@ -1,0 +1,60 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1443-08-00_1_0_13_11_0_42_42",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N9531917136cb4bb8956509206c02f19f"
+      }
+    },
+    {
+      "@id": "_:N9531917136cb4bb8956509206c02f19f",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N3c6d2051a0744625b7146083a51a778d"
+      },
+      "ps:P291": {
+        "@id": "_:Nf1dca61ea7294326978ab00f9a96afd9"
+      }
+    },
+    {
+      "@id": "_:Nf1dca61ea7294326978ab00f9a96afd9",
+      "https://schema.org#geo": {
+        "@id": "_:Nac00549a24994102ad343175fa269997"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q131612"
+      },
+      "rdfs:label": "Wiener Neustadt"
+    },
+    {
+      "@id": "_:Nac00549a24994102ad343175fa269997",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.813153",
+      "https://schema.org#longitude": "16.24444"
+    },
+    {
+      "@id": "_:N3c6d2051a0744625b7146083a51a778d",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1443-08-01"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1443-08-31"
+      }
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1447-09-23_2_0_13_26_0_465_465",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Nb45be608fadd47828f480f063f6e7407"
+      }
+    },
+    {
+      "@id": "_:Nb45be608fadd47828f480f063f6e7407",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Na8ef1629e4544b62bc6c829dfe30e0a9"
+      },
+      "ps:P291": {
+        "@id": "_:Nb49fc3c6e4fd4fca82d9f708fb3f1a06"
+      },
+      "ps:P3342": {
+        "@id": "_:N857b4852971f450b9a1c277dec87f1e8"
+      }
+    },
+    {
+      "@id": "_:Nb49fc3c6e4fd4fca82d9f708fb3f1a06",
+      "https://schema.org#geo": {
+        "@id": "_:N3e6bfa4fc7b24b7ba083de9d9408757d"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q1741"
+      },
+      "rdfs:label": "Wien"
+    },
+    {
+      "@id": "_:N3e6bfa4fc7b24b7ba083de9d9408757d",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "48.20849",
+      "https://schema.org#longitude": "16.37208"
+    },
+    {
+      "@id": "_:Na8ef1629e4544b62bc6c829dfe30e0a9",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1447-09-23"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1447-09-23"
+      }
+    },
+    {
+      "@id": "_:N857b4852971f450b9a1c277dec87f1e8",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:W00000388"
+      },
+      "rdfs:label": "Reinprecht von Wallsee"
+    }
+  ]
+}

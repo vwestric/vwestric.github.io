@@ -1,0 +1,87 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1452-06-09_2_0_13_11_0_278_278",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N30fad5859cd14986b5708cfad0f6b9d9"
+      }
+    },
+    {
+      "@id": "_:N30fad5859cd14986b5708cfad0f6b9d9",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Ncc475c5e07964a6cb29a2c8093d59253"
+      },
+      "ps:P291": {
+        "@id": "_:N82c185ad6e1641d8ab71c687c8198c15"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N6fc31039291648f6aa3e0ecb460a319c"
+        },
+        {
+          "@id": "_:Na65af9582f964b558e2fce2366c3dab5"
+        }
+      ]
+    },
+    {
+      "@id": "_:N82c185ad6e1641d8ab71c687c8198c15",
+      "https://schema.org#geo": {
+        "@id": "_:Nf241296f9ffb47b78ef75808f195f4ff"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q483522"
+      },
+      "rdfs:label": "Villach"
+    },
+    {
+      "@id": "_:Nf241296f9ffb47b78ef75808f195f4ff",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "46.61028",
+      "https://schema.org#longitude": "13.85583"
+    },
+    {
+      "@id": "_:Ncc475c5e07964a6cb29a2c8093d59253",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1452-06-09"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1452-06-09"
+      }
+    },
+    {
+      "@id": "_:N6fc31039291648f6aa3e0ecb460a319c",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:O00000599"
+      },
+      "ps:P39": {
+        "@id": "ri:koenig"
+      },
+      "rdfs:label": "Kg. Ladislaus"
+    },
+    {
+      "@id": "_:Na65af9582f964b558e2fce2366c3dab5",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00002278"
+      },
+      "rdfs:label": "Hans von Kolditz"
+    }
+  ]
+}

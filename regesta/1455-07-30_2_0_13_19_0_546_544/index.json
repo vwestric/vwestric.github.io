@@ -1,0 +1,99 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1455-07-30_2_0_13_19_0_546_544",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N5535a5da34ee4ce890fcb614ac75fedd"
+      }
+    },
+    {
+      "@id": "_:N5535a5da34ee4ce890fcb614ac75fedd",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Nf314820313504361bc009e948473ec8a"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N0ba12550c0c14c7cb813508afe6f342a"
+        },
+        {
+          "@id": "_:N494c468a7db3416cafbe47a32768c9d1"
+        },
+        {
+          "@id": "_:N920bef0135214ed4a920338ca6b5bc7e"
+        },
+        {
+          "@id": "_:Nf3ce549e653e44099a35917a467acbeb"
+        }
+      ]
+    },
+    {
+      "@id": "_:Nf314820313504361bc009e948473ec8a",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1455-07-30"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1455-07-30"
+      }
+    },
+    {
+      "@id": "_:N0ba12550c0c14c7cb813508afe6f342a",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:E00000494"
+      },
+      "ps:P39": {
+        "@id": "ri:bischof"
+      },
+      "rdfs:label": "Bf. Johann von Eichstätt"
+    },
+    {
+      "@id": "_:N494c468a7db3416cafbe47a32768c9d1",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:M00000893"
+      },
+      "ps:P39": {
+        "@id": "ri:erbmarschall"
+      },
+      "rdfs:label": "Erbmarschall Heinrich von Pappenheim"
+    },
+    {
+      "@id": "_:N920bef0135214ed4a920338ca6b5bc7e",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:P00000962"
+      },
+      "ps:P39": {
+        "@id": "ri:pfalzgraf"
+      },
+      "rdfs:label": "Pfgf. Friedrich (I.) bei Rhein"
+    },
+    {
+      "@id": "_:Nf3ce549e653e44099a35917a467acbeb",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:P00001036"
+      },
+      "ps:P39": {
+        "@id": "ri:pfalzgraf"
+      },
+      "rdfs:label": "Pfgf. Ludwig von (Zweibrücken-)Veldenz"
+    }
+  ]
+}

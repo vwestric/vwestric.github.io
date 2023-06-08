@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1474-12-03_1_0_13_7_0_11590_424",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N37e45e228d724b199e94ae9d517cfdb3"
+      }
+    },
+    {
+      "@id": "_:N37e45e228d724b199e94ae9d517cfdb3",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Na7fdd9dbc75248c49ecf0c30909b4a82"
+      },
+      "ps:P291": {
+        "@id": "_:N7dc56c88c30743d49b0f85dd36c7633a"
+      },
+      "ps:P3342": {
+        "@id": "_:N71494260fe14469b86c8d32d20b67902"
+      }
+    },
+    {
+      "@id": "_:N7dc56c88c30743d49b0f85dd36c7633a",
+      "https://schema.org#geo": {
+        "@id": "_:Nc97375813e5d4f0e96626b2f0362c1cf"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q1794"
+      },
+      "rdfs:label": "Frankfurt"
+    },
+    {
+      "@id": "_:Nc97375813e5d4f0e96626b2f0362c1cf",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "50.110556",
+      "https://schema.org#longitude": "8.682222"
+    },
+    {
+      "@id": "_:Na7fdd9dbc75248c49ecf0c30909b4a82",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1474-12-03"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1474-12-03"
+      }
+    },
+    {
+      "@id": "_:N71494260fe14469b86c8d32d20b67902",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00003253"
+      },
+      "ps:P39": {
+        "@id": "ri:herzog"
+      },
+      "rdfs:label": "Hz. Karl von Burgund"
+    }
+  ]
+}

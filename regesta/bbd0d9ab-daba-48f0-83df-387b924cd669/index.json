@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:bbd0d9ab-daba-48f0-83df-387b924cd669",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Nbc81676988384f7ea9c0528075a87713"
+      }
+    },
+    {
+      "@id": "_:Nbc81676988384f7ea9c0528075a87713",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N6b72bafdacb74dbe8935e35e70f72edf"
+      },
+      "ps:P291": {
+        "@id": "_:N53becddc6fec405d885f91a54f0b9e5c"
+      },
+      "ps:P3342": {
+        "@id": "_:N4ecfef03f90d47a9ad432fa44c4e48de"
+      }
+    },
+    {
+      "@id": "_:N53becddc6fec405d885f91a54f0b9e5c",
+      "https://schema.org#geo": {
+        "@id": "_:N8ad22a324e0b4972b830eac42af7d124"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q131612"
+      },
+      "rdfs:label": "Wiener Neustadt"
+    },
+    {
+      "@id": "_:N8ad22a324e0b4972b830eac42af7d124",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.813153",
+      "https://schema.org#longitude": "16.24444"
+    },
+    {
+      "@id": "_:N6b72bafdacb74dbe8935e35e70f72edf",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1458-04-25"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1458-04-25"
+      }
+    },
+    {
+      "@id": "_:N4ecfef03f90d47a9ad432fa44c4e48de",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00002248"
+      },
+      "ps:P39": {
+        "@id": "ri:markgraf"
+      },
+      "rdfs:label": "Mgf. Albrecht von Brandenburg"
+    }
+  ]
+}

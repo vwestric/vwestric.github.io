@@ -1,0 +1,90 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1488-03-19_2_0_13_9_0_12929_387",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N0ff812d1adec4184a14e3b314bce867f"
+      }
+    },
+    {
+      "@id": "_:N0ff812d1adec4184a14e3b314bce867f",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Na7115d42a91b4fa0bb7177289383d76e"
+      },
+      "ps:P291": {
+        "@id": "_:N36c95c6530c24679a7e6f77ff00082b7"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N016cfb20eac44d86b7a37ead47958ee0"
+        },
+        {
+          "@id": "_:Nf98e5d57b5f74d249f54b4204607667b"
+        }
+      ]
+    },
+    {
+      "@id": "_:N36c95c6530c24679a7e6f77ff00082b7",
+      "https://schema.org#geo": {
+        "@id": "_:N771184e86fff455da1d1b43b935e8f25"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q1735"
+      },
+      "rdfs:label": "Innsbruck"
+    },
+    {
+      "@id": "_:N771184e86fff455da1d1b43b935e8f25",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.26266",
+      "https://schema.org#longitude": "11.39454"
+    },
+    {
+      "@id": "_:Na7115d42a91b4fa0bb7177289383d76e",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1488-03-19"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1488-03-19"
+      }
+    },
+    {
+      "@id": "_:N016cfb20eac44d86b7a37ead47958ee0",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:U00000212"
+      },
+      "ps:P39": {
+        "@id": "ri:koenig"
+      },
+      "rdfs:label": "Kg. (Matthias) von Ungarn"
+    },
+    {
+      "@id": "_:Nf98e5d57b5f74d249f54b4204607667b",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:T00001183"
+      },
+      "ps:P39": {
+        "@id": "ri:erzbischof"
+      },
+      "rdfs:label": "Eb. Johann von Trier"
+    }
+  ]
+}

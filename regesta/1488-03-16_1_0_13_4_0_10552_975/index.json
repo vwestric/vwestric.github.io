@@ -1,0 +1,90 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1488-03-16_1_0_13_4_0_10552_975",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Nd1e04c3ecf26464da585f8bf1bb7061d"
+      }
+    },
+    {
+      "@id": "_:Nd1e04c3ecf26464da585f8bf1bb7061d",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N0cbc31b03c904b679c40ec7cb533ffad"
+      },
+      "ps:P291": {
+        "@id": "_:N334d8f1aa664428c9a782fa591415ca9"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:Na8c3f1206f7042e3a18e993e901011e6"
+        },
+        {
+          "@id": "_:N20716a534c2449da871e7b21f68370d9"
+        }
+      ]
+    },
+    {
+      "@id": "_:N334d8f1aa664428c9a782fa591415ca9",
+      "https://schema.org#geo": {
+        "@id": "_:N210369601839430ba0d49dc901b9ae4c"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q1735"
+      },
+      "rdfs:label": "Innsbruck"
+    },
+    {
+      "@id": "_:N210369601839430ba0d49dc901b9ae4c",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.26266",
+      "https://schema.org#longitude": "11.39454"
+    },
+    {
+      "@id": "_:N0cbc31b03c904b679c40ec7cb533ffad",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1488-03-16"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1488-03-16"
+      }
+    },
+    {
+      "@id": "_:Na8c3f1206f7042e3a18e993e901011e6",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:M00001151"
+      },
+      "ps:P39": {
+        "@id": "ri:koenig"
+      },
+      "rdfs:label": "Kg. Maximilians"
+    },
+    {
+      "@id": "_:N20716a534c2449da871e7b21f68370d9",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00003253"
+      },
+      "ps:P39": {
+        "@id": "ri:herzog"
+      },
+      "rdfs:label": "Hz. Karls von Burgund"
+    }
+  ]
+}

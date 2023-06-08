@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1443-03-23_2_0_13_4_0_9630_60",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N6b7e1f3696914d54bf34cd0137dff3dc"
+      }
+    },
+    {
+      "@id": "_:N6b7e1f3696914d54bf34cd0137dff3dc",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Ndd219a0cfb5c419788e13051c189729a"
+      },
+      "ps:P291": {
+        "@id": "_:N3928ead162824bc99687ce2e2f436a76"
+      },
+      "ps:P3342": {
+        "@id": "_:N254bbbd62e5f4e53af57cb19b2dcfc5b"
+      }
+    },
+    {
+      "@id": "_:N3928ead162824bc99687ce2e2f436a76",
+      "https://schema.org#geo": {
+        "@id": "_:N557f9b4463c244039f1bf07b91fa666c"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q131612"
+      },
+      "rdfs:label": "Wiener Neustadt"
+    },
+    {
+      "@id": "_:N557f9b4463c244039f1bf07b91fa666c",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.813153",
+      "https://schema.org#longitude": "16.24444"
+    },
+    {
+      "@id": "_:Ndd219a0cfb5c419788e13051c189729a",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1443-03-23"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1443-03-23"
+      }
+    },
+    {
+      "@id": "_:N254bbbd62e5f4e53af57cb19b2dcfc5b",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:K00001681"
+      },
+      "ps:P39": {
+        "@id": "ri:erzbischof"
+      },
+      "rdfs:label": "Eb. Dietrich von Köln"
+    }
+  ]
+}

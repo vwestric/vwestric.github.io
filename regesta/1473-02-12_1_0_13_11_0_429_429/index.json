@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1473-02-12_1_0_13_11_0_429_429",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N803f8f3d105742e1ba9b14a939a01d37"
+      }
+    },
+    {
+      "@id": "_:N803f8f3d105742e1ba9b14a939a01d37",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N6bad74c7fe1e452b84576856c5a3e778"
+      },
+      "ps:P291": {
+        "@id": "_:Na0ac51b20097454e9453a8a13914f42f"
+      },
+      "ps:P3342": {
+        "@id": "_:Nc80bc3dadf0c437e901973895587830b"
+      }
+    },
+    {
+      "@id": "_:Na0ac51b20097454e9453a8a13914f42f",
+      "https://schema.org#geo": {
+        "@id": "_:Nf59f0c9097de44d8b2d77dfbe934cdd4"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q13298"
+      },
+      "rdfs:label": "Graz"
+    },
+    {
+      "@id": "_:Nf59f0c9097de44d8b2d77dfbe934cdd4",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.06667",
+      "https://schema.org#longitude": "15.45"
+    },
+    {
+      "@id": "_:N6bad74c7fe1e452b84576856c5a3e778",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1473-02-12"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1473-02-12"
+      }
+    },
+    {
+      "@id": "_:Nc80bc3dadf0c437e901973895587830b",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00000064"
+      },
+      "ps:P39": {
+        "@id": "ri:herzog"
+      },
+      "rdfs:label": "Hz. Albrecht von Sachsen"
+    }
+  ]
+}

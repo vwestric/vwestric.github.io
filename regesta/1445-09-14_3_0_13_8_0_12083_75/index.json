@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1445-09-14_3_0_13_8_0_12083_75",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N774dd83a394d47aea3509b8a2a552b80"
+      }
+    },
+    {
+      "@id": "_:N774dd83a394d47aea3509b8a2a552b80",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N386b2550d0734267b713cd6d72863941"
+      },
+      "ps:P291": {
+        "@id": "_:Nb71ace08fe504da5aef891ebd3c97596"
+      },
+      "ps:P3342": {
+        "@id": "_:Nfa612cdeab734304bc903b6bffcaecc7"
+      }
+    },
+    {
+      "@id": "_:Nb71ace08fe504da5aef891ebd3c97596",
+      "https://schema.org#geo": {
+        "@id": "_:N621c71c1ea9342dfbbe514fce9515630"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q1741"
+      },
+      "rdfs:label": "Wien"
+    },
+    {
+      "@id": "_:N621c71c1ea9342dfbbe514fce9515630",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "48.20849",
+      "https://schema.org#longitude": "16.37208"
+    },
+    {
+      "@id": "_:N386b2550d0734267b713cd6d72863941",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1445-09-14"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1445-09-14"
+      }
+    },
+    {
+      "@id": "_:Nfa612cdeab734304bc903b6bffcaecc7",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:I00000279"
+      },
+      "ps:P39": {
+        "@id": "ri:graf"
+      },
+      "rdfs:label": "Gf. Diether von Isenburg-Büdingen"
+    }
+  ]
+}

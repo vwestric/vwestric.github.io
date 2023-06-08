@@ -1,0 +1,101 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1442-10-13_2_0_13_4_0_9617_47",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N5cfb3008a6e54897a7396d51f0587bb4"
+      }
+    },
+    {
+      "@id": "_:N5cfb3008a6e54897a7396d51f0587bb4",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N3ed489e6423149f193856eb3933c1fd8"
+      },
+      "ps:P291": {
+        "@id": "_:N9c4f6b330c234846ad5a09248631cf54"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N6a8feb0568c243bcae183e3d05a7a012"
+        },
+        {
+          "@id": "_:N77921621c52b4288983e42e7df39694c"
+        },
+        {
+          "@id": "_:N35b54c632e0b44ed965cf6ad2ce53df8"
+        }
+      ]
+    },
+    {
+      "@id": "_:N9c4f6b330c234846ad5a09248631cf54",
+      "https://schema.org#geo": {
+        "@id": "_:N3ad8ed742c054d1c81e5ea1b670c4619"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q36378"
+      },
+      "rdfs:label": "Freiburg im Uechtland"
+    },
+    {
+      "@id": "_:N3ad8ed742c054d1c81e5ea1b670c4619",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "51.121944",
+      "https://schema.org#longitude": "6.842778"
+    },
+    {
+      "@id": "_:N3ed489e6423149f193856eb3933c1fd8",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1442-10-13"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1442-10-13"
+      }
+    },
+    {
+      "@id": "_:N6a8feb0568c243bcae183e3d05a7a012",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00005357"
+      },
+      "rdfs:label": "Hennes von Stockheim"
+    },
+    {
+      "@id": "_:N77921621c52b4288983e42e7df39694c",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:V00000969"
+      },
+      "ps:P39": {
+        "@id": "ri:buerger"
+      },
+      "rdfs:label": "Frankfurter Bürgers Erwin Voys"
+    },
+    {
+      "@id": "_:N35b54c632e0b44ed965cf6ad2ce53df8",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:H00000653"
+      },
+      "ps:P39": {
+        "@id": "ri:graf"
+      },
+      "rdfs:label": "Gf. Reinhards (II.) von Hanau"
+    }
+  ]
+}

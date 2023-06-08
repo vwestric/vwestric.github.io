@@ -1,0 +1,146 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1457-05-05_1_0_13_11_0_322_322",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N8f0c9f5bcc8947e89bbb5faf8197c2b6"
+      }
+    },
+    {
+      "@id": "_:N8f0c9f5bcc8947e89bbb5faf8197c2b6",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Nfec2f89ac75042a894564f9ef26b5b7b"
+      },
+      "ps:P291": {
+        "@id": "_:N8a95e291cf7c4077847b41b220dcb1ed"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N6c50322d57e74d4a95e944d82b8896fd"
+        },
+        {
+          "@id": "_:Nf8b00874c4b94d66b54c64fd628dbc37"
+        },
+        {
+          "@id": "_:N81593947f7264a498d146f0a8c798aeb"
+        },
+        {
+          "@id": "_:N90dd486210b641e3b3d2d16b6743159a"
+        },
+        {
+          "@id": "_:N0bc48b318e584b5983f79397ef978537"
+        },
+        {
+          "@id": "_:N96515f491b774dbd813f826c4d6d774b"
+        }
+      ]
+    },
+    {
+      "@id": "_:N8a95e291cf7c4077847b41b220dcb1ed",
+      "https://schema.org#geo": {
+        "@id": "_:N7f27966987c44f82b7b424a232d58027"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q3441823"
+      },
+      "rdfs:label": "Ober-Cilli"
+    },
+    {
+      "@id": "_:N7f27966987c44f82b7b424a232d58027",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "46.235833",
+      "https://schema.org#longitude": "15.2675"
+    },
+    {
+      "@id": "_:Nfec2f89ac75042a894564f9ef26b5b7b",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1457-05-05"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1457-05-05"
+      }
+    },
+    {
+      "@id": "_:N6c50322d57e74d4a95e944d82b8896fd",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:M00000277"
+      },
+      "ps:P39": {
+        "@id": "ri:erzbischof"
+      },
+      "rdfs:label": "Eb. Dietrich von Mainz"
+    },
+    {
+      "@id": "_:Nf8b00874c4b94d66b54c64fd628dbc37",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:P00000962"
+      },
+      "ps:P39": {
+        "@id": "ri:pfalzgraf"
+      },
+      "rdfs:label": "Pfgf. Friedrich (I.) bei Rhein"
+    },
+    {
+      "@id": "_:N81593947f7264a498d146f0a8c798aeb",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00000076"
+      },
+      "ps:P39": {
+        "@id": "ri:herzog"
+      },
+      "rdfs:label": "Hz. Friedrich (II.) von Sachsen"
+    },
+    {
+      "@id": "_:N90dd486210b641e3b3d2d16b6743159a",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00002265"
+      },
+      "ps:P39": {
+        "@id": "ri:markgraf"
+      },
+      "rdfs:label": "Mgf. Friedrich von Brandenburg"
+    },
+    {
+      "@id": "_:N0bc48b318e584b5983f79397ef978537",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:C00000030"
+      },
+      "ps:P39": {
+        "@id": "ri:papst"
+      },
+      "rdfs:label": "Papstes (Calixt III.)"
+    },
+    {
+      "@id": "_:N96515f491b774dbd813f826c4d6d774b",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:O00000594"
+      },
+      "ps:P39": {
+        "@id": "ri:koenig"
+      },
+      "rdfs:label": "Kg. Ladislaus von Böhmen"
+    }
+  ]
+}

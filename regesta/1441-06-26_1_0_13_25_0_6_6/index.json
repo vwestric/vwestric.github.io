@@ -1,0 +1,101 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1441-06-26_1_0_13_25_0_6_6",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Nbc44431aa964456082aba132c5439d93"
+      }
+    },
+    {
+      "@id": "_:Nbc44431aa964456082aba132c5439d93",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N5dadb442c3cc4f60adbf4ecdf80aa223"
+      },
+      "ps:P291": {
+        "@id": "_:N3cc9944fcc4c40778f0bf441cd4d5052"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N6c9dcfff2e334412a8b31457f1203cf3"
+        },
+        {
+          "@id": "_:N3ae5ccf6bf6d4a30b683fa6cb3d35273"
+        },
+        {
+          "@id": "_:N87d6bac6fcdc4a3aaecff15f740c4783"
+        }
+      ]
+    },
+    {
+      "@id": "_:N3cc9944fcc4c40778f0bf441cd4d5052",
+      "https://schema.org#geo": {
+        "@id": "_:N18847b513f574f1da5cf5a1ce343bd5c"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q1741"
+      },
+      "rdfs:label": "Wien"
+    },
+    {
+      "@id": "_:N18847b513f574f1da5cf5a1ce343bd5c",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "48.20849",
+      "https://schema.org#longitude": "16.37208"
+    },
+    {
+      "@id": "_:N5dadb442c3cc4f60adbf4ecdf80aa223",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1441-06-26"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1441-06-26"
+      }
+    },
+    {
+      "@id": "_:N6c9dcfff2e334412a8b31457f1203cf3",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:M00000305"
+      },
+      "ps:P39": {
+        "@id": "ri:erzbischof"
+      },
+      "rdfs:label": "Eb. Dietrichs von Mainz"
+    },
+    {
+      "@id": "_:N3ae5ccf6bf6d4a30b683fa6cb3d35273",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:W00001629"
+      },
+      "rdfs:label": "Itel d.J. von Westernach"
+    },
+    {
+      "@id": "_:N87d6bac6fcdc4a3aaecff15f740c4783",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:M00000277"
+      },
+      "ps:P39": {
+        "@id": "ri:erzbischof"
+      },
+      "rdfs:label": "Eb. Dietrich von Mainz"
+    }
+  ]
+}

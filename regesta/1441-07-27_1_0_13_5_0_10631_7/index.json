@@ -1,0 +1,101 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1441-07-27_1_0_13_5_0_10631_7",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N6d6f8c2453f54129aeac9e9bdd8ca6a0"
+      }
+    },
+    {
+      "@id": "_:N6d6f8c2453f54129aeac9e9bdd8ca6a0",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N1c8579b0d7344741a5f79808e6f16fab"
+      },
+      "ps:P291": {
+        "@id": "_:N043e83c8339b49918a30da86bac1d383"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N1b14d417c5fe4dfead96e0f203f235e2"
+        },
+        {
+          "@id": "_:Ned5eccbb744348b6a6718e92ff872584"
+        },
+        {
+          "@id": "_:N5bf974469a1a40d9bda1688e6fbff484"
+        }
+      ]
+    },
+    {
+      "@id": "_:N043e83c8339b49918a30da86bac1d383",
+      "https://schema.org#geo": {
+        "@id": "_:N8d3c43336dc04b0b8879aca4ea80083c"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q131612"
+      },
+      "rdfs:label": "Wiener Neustadt"
+    },
+    {
+      "@id": "_:N8d3c43336dc04b0b8879aca4ea80083c",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.813153",
+      "https://schema.org#longitude": "16.24444"
+    },
+    {
+      "@id": "_:N1c8579b0d7344741a5f79808e6f16fab",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1441-07-27"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1441-07-27"
+      }
+    },
+    {
+      "@id": "_:N1b14d417c5fe4dfead96e0f203f235e2",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:T00001172"
+      },
+      "ps:P39": {
+        "@id": "ri:erzbischof"
+      },
+      "rdfs:label": "Eb. Jakob von Trier"
+    },
+    {
+      "@id": "_:Ned5eccbb744348b6a6718e92ff872584",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:E00001144"
+      },
+      "rdfs:label": "Gottfried (VII.) von Eppstein(-Münzenberg)"
+    },
+    {
+      "@id": "_:N5bf974469a1a40d9bda1688e6fbff484",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:N00000099"
+      },
+      "ps:P39": {
+        "@id": "ri:graf"
+      },
+      "rdfs:label": "Gf. Engelbert von Nassau(-Dillenburg)-Breda"
+    }
+  ]
+}

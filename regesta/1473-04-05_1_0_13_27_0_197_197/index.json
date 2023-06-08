@@ -1,0 +1,60 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1473-04-05_1_0_13_27_0_197_197",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Ncf7e8fad078842b1a8fc2ae20d29f829"
+      }
+    },
+    {
+      "@id": "_:Ncf7e8fad078842b1a8fc2ae20d29f829",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N8ab142d0a0094f7493d26fcb46825d04"
+      },
+      "ps:P291": {
+        "@id": "_:N18bf6660c626433ba1e128a0ec6c6281"
+      }
+    },
+    {
+      "@id": "_:N18bf6660c626433ba1e128a0ec6c6281",
+      "https://schema.org#geo": {
+        "@id": "_:N2be49ab926d64547b5694094c97d891e"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q494604"
+      },
+      "rdfs:label": "St. Veit an der Glan"
+    },
+    {
+      "@id": "_:N2be49ab926d64547b5694094c97d891e",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "46.767222",
+      "https://schema.org#longitude": "14.359722"
+    },
+    {
+      "@id": "_:N8ab142d0a0094f7493d26fcb46825d04",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1473-04-05"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1473-04-05"
+      }
+    }
+  ]
+}

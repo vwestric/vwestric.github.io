@@ -1,0 +1,71 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1444-04-30_3_0_13_12_0_213_213",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Nb2600d0e092740558d2947ae5667b68f"
+      }
+    },
+    {
+      "@id": "_:Nb2600d0e092740558d2947ae5667b68f",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N9d4b56c1d52248f29099fa6eda4c8bad"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N24fca5b5ea3e4a3d97e0afd32541cbc2"
+        },
+        {
+          "@id": "_:Ncb20b67a40ed472aab067d7317c9ab1b"
+        }
+      ]
+    },
+    {
+      "@id": "_:N9d4b56c1d52248f29099fa6eda4c8bad",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1444-04-30"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1444-04-30"
+      }
+    },
+    {
+      "@id": "_:N24fca5b5ea3e4a3d97e0afd32541cbc2",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:G00001288"
+      },
+      "ps:P39": {
+        "@id": "ri:graf"
+      },
+      "rdfs:label": "Gf. Heinrich von Görz"
+    },
+    {
+      "@id": "_:Ncb20b67a40ed472aab067d7317c9ab1b",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00001346"
+      },
+      "ps:P39": {
+        "@id": "ri:graf"
+      },
+      "rdfs:label": "Gf. Johann von Schaunberg"
+    }
+  ]
+}

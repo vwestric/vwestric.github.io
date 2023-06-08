@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1442-04-13_1_0_13_12_0_98_98",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N7a6e6f59b8514e81a1f55ec56d6b6d1e"
+      }
+    },
+    {
+      "@id": "_:N7a6e6f59b8514e81a1f55ec56d6b6d1e",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Ndc64cc2aa1d84315b9ca1aa21198abba"
+      },
+      "ps:P291": {
+        "@id": "_:Nc4494c4cb9b7404b894dc3da37009da2"
+      },
+      "ps:P3342": {
+        "@id": "_:N58403d10da3f446b9de431e92038d2b8"
+      }
+    },
+    {
+      "@id": "_:Nc4494c4cb9b7404b894dc3da37009da2",
+      "https://schema.org#geo": {
+        "@id": "_:Nf68371f6b5044449bdc83d3f33d725e9"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q1735"
+      },
+      "rdfs:label": "Innsbruck"
+    },
+    {
+      "@id": "_:Nf68371f6b5044449bdc83d3f33d725e9",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.26266",
+      "https://schema.org#longitude": "11.39454"
+    },
+    {
+      "@id": "_:Ndc64cc2aa1d84315b9ca1aa21198abba",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1442-04-13"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1442-04-13"
+      }
+    },
+    {
+      "@id": "_:N58403d10da3f446b9de431e92038d2b8",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00000099"
+      },
+      "ps:P39": {
+        "@id": "ri:herzog"
+      },
+      "rdfs:label": "Hz. Wilhelm (III.) von Sachsen"
+    }
+  ]
+}

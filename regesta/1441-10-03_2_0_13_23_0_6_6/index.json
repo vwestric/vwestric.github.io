@@ -1,0 +1,98 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1441-10-03_2_0_13_23_0_6_6",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Na05bcc59f73b4acc97e79eba3aadaeeb"
+      }
+    },
+    {
+      "@id": "_:Na05bcc59f73b4acc97e79eba3aadaeeb",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N1abdfa405a3f41ca8ab9849970645c7d"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N4ff7de81074c4c879ebb52096dde22bd"
+        },
+        {
+          "@id": "_:N49922ff511b74a23b3cbba0b43dbe10e"
+        },
+        {
+          "@id": "_:N39888643d85d45aebdbe69e0dce7829d"
+        },
+        {
+          "@id": "_:Nf86dbdda752c46f09ea2664dd14b9ff1"
+        },
+        {
+          "@id": "_:N8c37bc8ed52c486c9f1d0cb914e1d443"
+        }
+      ]
+    },
+    {
+      "@id": "_:N1abdfa405a3f41ca8ab9849970645c7d",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1441-10-03"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1441-10-03"
+      }
+    },
+    {
+      "@id": "_:N4ff7de81074c4c879ebb52096dde22bd",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00000649"
+      },
+      "rdfs:label": "Konrad von Bebenburg"
+    },
+    {
+      "@id": "_:N49922ff511b74a23b3cbba0b43dbe10e",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00001676"
+      },
+      "rdfs:label": "Heinz Schilling"
+    },
+    {
+      "@id": "_:N39888643d85d45aebdbe69e0dce7829d",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:Z00000571"
+      },
+      "rdfs:label": "Siegfried von Zülnhart"
+    },
+    {
+      "@id": "_:Nf86dbdda752c46f09ea2664dd14b9ff1",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00005867"
+      },
+      "rdfs:label": "Burkhard Sturmfeder"
+    },
+    {
+      "@id": "_:N8c37bc8ed52c486c9f1d0cb914e1d443",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00001719"
+      },
+      "rdfs:label": "Siegfried Bock"
+    }
+  ]
+}

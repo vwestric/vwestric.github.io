@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1474-03-11_1_0_13_26_0_670_670",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N85eedbf8148447ab989872e532d0f3c7"
+      }
+    },
+    {
+      "@id": "_:N85eedbf8148447ab989872e532d0f3c7",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N7a6e9169875a4c1fa35fbfe5d81e4eb0"
+      },
+      "ps:P291": {
+        "@id": "_:N19602965902944b39e7f92616be6b822"
+      },
+      "ps:P3342": {
+        "@id": "_:Nd08c5ac9d02546e3884976b1fe30a33e"
+      }
+    },
+    {
+      "@id": "_:N19602965902944b39e7f92616be6b822",
+      "https://schema.org#geo": {
+        "@id": "_:N62d2d4b842c74ef4a69759eb1c8701b3"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q2090"
+      },
+      "rdfs:label": "Nürnberg"
+    },
+    {
+      "@id": "_:N62d2d4b842c74ef4a69759eb1c8701b3",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "49.45421",
+      "https://schema.org#longitude": "11.07752"
+    },
+    {
+      "@id": "_:N7a6e9169875a4c1fa35fbfe5d81e4eb0",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1474-03-11"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1474-03-11"
+      }
+    },
+    {
+      "@id": "_:Nd08c5ac9d02546e3884976b1fe30a33e",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00001841"
+      },
+      "ps:P39": {
+        "@id": "ri:koenig"
+      },
+      "rdfs:label": "Kg. Wladislaw (II.) von Böhmen"
+    }
+  ]
+}

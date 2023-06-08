@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1448-08-05_4_0_13_4_0_9718_148",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Ne80466c9bea247359a3e2795ec0b7147"
+      }
+    },
+    {
+      "@id": "_:Ne80466c9bea247359a3e2795ec0b7147",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Na28b91a666174ee481dd46e3e4c3cfcd"
+      },
+      "ps:P291": {
+        "@id": "_:Nc0bc3fdf07944bd9acea2ba12adb13b6"
+      },
+      "ps:P3342": {
+        "@id": "_:N8a090839ceba4d33bb1abc0ed0804481"
+      }
+    },
+    {
+      "@id": "_:Nc0bc3fdf07944bd9acea2ba12adb13b6",
+      "https://schema.org#geo": {
+        "@id": "_:N6032ee9c0f9647f082e53469c0cd3f65"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q131612"
+      },
+      "rdfs:label": "Wiener Neustadt"
+    },
+    {
+      "@id": "_:N6032ee9c0f9647f082e53469c0cd3f65",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.813153",
+      "https://schema.org#longitude": "16.24444"
+    },
+    {
+      "@id": "_:Na28b91a666174ee481dd46e3e4c3cfcd",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1448-08-05"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1448-08-05"
+      }
+    },
+    {
+      "@id": "_:N8a090839ceba4d33bb1abc0ed0804481",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00000071"
+      },
+      "ps:P39": {
+        "@id": "ri:markgraf"
+      },
+      "rdfs:label": "Mgf. Jakob von Baden"
+    }
+  ]
+}

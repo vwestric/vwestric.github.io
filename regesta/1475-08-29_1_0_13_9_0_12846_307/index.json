@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1475-08-29_1_0_13_9_0_12846_307",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N8a7a4feacfc648f9b695b5ac46c0163c"
+      }
+    },
+    {
+      "@id": "_:N8a7a4feacfc648f9b695b5ac46c0163c",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N19ad08e15fdb47f08e955c9bd6344be9"
+      },
+      "ps:P291": {
+        "@id": "_:N8952b92533d5417d8cf04f5b0fc7e34f"
+      },
+      "ps:P3342": {
+        "@id": "_:Nc8d0bd5d30084722b6f6d59b838dd804"
+      }
+    },
+    {
+      "@id": "_:N8952b92533d5417d8cf04f5b0fc7e34f",
+      "https://schema.org#geo": {
+        "@id": "_:N19f9ff8994d54cef97574391fc220ecf"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q1017"
+      },
+      "rdfs:label": "Aachen"
+    },
+    {
+      "@id": "_:N19f9ff8994d54cef97574391fc220ecf",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "50.77664",
+      "https://schema.org#longitude": "6.08342"
+    },
+    {
+      "@id": "_:N19ad08e15fdb47f08e955c9bd6344be9",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1475-08-29"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1475-08-29"
+      }
+    },
+    {
+      "@id": "_:Nc8d0bd5d30084722b6f6d59b838dd804",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:M00002247"
+      },
+      "ps:P39": {
+        "@id": "ri:graf"
+      },
+      "rdfs:label": "Gf. Vincenz von Moers-Saarwerden"
+    }
+  ]
+}

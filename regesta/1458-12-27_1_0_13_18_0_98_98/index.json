@@ -1,0 +1,84 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1458-12-27_1_0_13_18_0_98_98",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Nb7c7b2b0d2ff4496968d331c682f5d80"
+      }
+    },
+    {
+      "@id": "_:Nb7c7b2b0d2ff4496968d331c682f5d80",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Nf1cc7b4cd31c436fb04070e9e31547df"
+      },
+      "ps:P291": {
+        "@id": "_:N198f84ce3a0645de917eb29987d7ee6d"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:Nf76eae4381fc49e581768de5484f6239"
+        },
+        {
+          "@id": "_:Ndb2dc5fd2df5484e9c5d84ce0d87ffb9"
+        }
+      ]
+    },
+    {
+      "@id": "_:N198f84ce3a0645de917eb29987d7ee6d",
+      "https://schema.org#geo": {
+        "@id": "_:N6d6235e456e842ff93a2c8504c5c8405"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q13298"
+      },
+      "rdfs:label": "Graz"
+    },
+    {
+      "@id": "_:N6d6235e456e842ff93a2c8504c5c8405",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.06667",
+      "https://schema.org#longitude": "15.45"
+    },
+    {
+      "@id": "_:Nf1cc7b4cd31c436fb04070e9e31547df",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1458-12-27"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1458-12-27"
+      }
+    },
+    {
+      "@id": "_:Nf76eae4381fc49e581768de5484f6239",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:F00001413"
+      },
+      "rdfs:label": "Friedrich I."
+    },
+    {
+      "@id": "_:Ndb2dc5fd2df5484e9c5d84ce0d87ffb9",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:A00000228"
+      },
+      "rdfs:label": "Adolf von Nassau"
+    }
+  ]
+}

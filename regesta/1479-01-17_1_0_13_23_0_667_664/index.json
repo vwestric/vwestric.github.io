@@ -1,0 +1,98 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1479-01-17_1_0_13_23_0_667_664",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N5408c8fccd7147f19ed8f6d63c99f561"
+      }
+    },
+    {
+      "@id": "_:N5408c8fccd7147f19ed8f6d63c99f561",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Na07fdc7fcd77468787d10a141e548b3e"
+      },
+      "ps:P291": {
+        "@id": "_:Na0de72aae7a048aa84aaba06daa3c4d4"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:Nc073f8287e9c4e90a476e7ab4da96b97"
+        },
+        {
+          "@id": "_:Nd6076b9df5134767a1d802902767dde8"
+        }
+      ]
+    },
+    {
+      "@id": "_:Na0de72aae7a048aa84aaba06daa3c4d4",
+      "https://schema.org#geo": {
+        "@id": "_:N2895c39670524e89881480f609a32be2"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q13298"
+      },
+      "rdfs:label": "Graz"
+    },
+    {
+      "@id": "_:N2895c39670524e89881480f609a32be2",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.06667",
+      "https://schema.org#longitude": "15.45"
+    },
+    {
+      "@id": "_:Na07fdc7fcd77468787d10a141e548b3e",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1479-01-17"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1479-01-17"
+      }
+    },
+    {
+      "@id": "_:Nc073f8287e9c4e90a476e7ab4da96b97",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:W00003283"
+      },
+      "ps:P39": {
+        "@id": "ri:graf"
+      },
+      "rdfs:label": "Gf. Eberhard (V.) d.Ä. von Württemberg"
+    },
+    {
+      "@id": "_:Nd6076b9df5134767a1d802902767dde8",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:P00000987"
+      },
+      "ps:P39": [
+        {
+          "@id": "ri:erzherzog"
+        },
+        {
+          "@id": "ri:erzherzogin"
+        },
+        {
+          "@id": "ri:pfalzgraefin"
+        }
+      ],
+      "rdfs:label": "Erzherzogin Mechthild von Österreich, geborener Pfalzgräfin bei Rhein"
+    }
+  ]
+}

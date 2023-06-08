@@ -1,0 +1,90 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1454-09-10_1_0_13_4_0_9805_235",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N763cedf6f5524616a9c83f9f82fd2ac7"
+      }
+    },
+    {
+      "@id": "_:N763cedf6f5524616a9c83f9f82fd2ac7",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N7b25ffaf8f804f0099397076f7d5d913"
+      },
+      "ps:P291": {
+        "@id": "_:Nea23d8d50dcb42ef80a92580752c5b3e"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:Nc59a1984a8a3495bb1f578dcdadc2d45"
+        },
+        {
+          "@id": "_:N4bd0c9949c224911a80c7d7c68a751fe"
+        }
+      ]
+    },
+    {
+      "@id": "_:Nea23d8d50dcb42ef80a92580752c5b3e",
+      "https://schema.org#geo": {
+        "@id": "_:N0af013b30f224bd1a3945ac9589dd2b5"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q131612"
+      },
+      "rdfs:label": "Wiener Neustadt"
+    },
+    {
+      "@id": "_:N0af013b30f224bd1a3945ac9589dd2b5",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.813153",
+      "https://schema.org#longitude": "16.24444"
+    },
+    {
+      "@id": "_:N7b25ffaf8f804f0099397076f7d5d913",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1454-09-10"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1454-09-10"
+      }
+    },
+    {
+      "@id": "_:Nc59a1984a8a3495bb1f578dcdadc2d45",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:E00001151"
+      },
+      "ps:P39": {
+        "@id": "ri:koenig"
+      },
+      "rdfs:label": "Eberhards von Eppstein-Königstein"
+    },
+    {
+      "@id": "_:N4bd0c9949c224911a80c7d7c68a751fe",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:K00000431"
+      },
+      "ps:P39": {
+        "@id": "ri:kaiser"
+      },
+      "rdfs:label": "K. Karl IV."
+    }
+  ]
+}

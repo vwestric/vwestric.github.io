@@ -1,0 +1,55 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1483-06-28_2_0_13_16_0_174_174",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Nbc6be1bdca6b49038002d21161eda572"
+      }
+    },
+    {
+      "@id": "_:Nbc6be1bdca6b49038002d21161eda572",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N9aca25ba8b054b68a04ba411a532e11f"
+      },
+      "ps:P3342": {
+        "@id": "_:Nfb71922fe5734d9094bef7e6459aaefe"
+      }
+    },
+    {
+      "@id": "_:N9aca25ba8b054b68a04ba411a532e11f",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1483-06-28"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1483-06-28"
+      }
+    },
+    {
+      "@id": "_:Nfb71922fe5734d9094bef7e6459aaefe",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00002248"
+      },
+      "ps:P39": {
+        "@id": "ri:kurfuerst"
+      },
+      "rdfs:label": "Kf. Albrecht von Brandenburg"
+    }
+  ]
+}

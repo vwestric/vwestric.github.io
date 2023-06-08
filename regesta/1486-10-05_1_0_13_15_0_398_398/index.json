@@ -1,0 +1,90 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1486-10-05_1_0_13_15_0_398_398",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Nc7912209cd6c4e7e9d161fb65b83574b"
+      }
+    },
+    {
+      "@id": "_:Nc7912209cd6c4e7e9d161fb65b83574b",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Nf672a16ee996454c9de1ce73e1cddca3"
+      },
+      "ps:P291": {
+        "@id": "_:N1e68e843efb64ac9a14a34e0436fcd1e"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:Nbd0737f0e0ad4dd3883b92ebd1e831e8"
+        },
+        {
+          "@id": "_:N5b687f6677674c1a824c40ebd2b8f881"
+        }
+      ]
+    },
+    {
+      "@id": "_:N1e68e843efb64ac9a14a34e0436fcd1e",
+      "https://schema.org#geo": {
+        "@id": "_:N4fdb743212ce49d5b672b96cda9b2fa3"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q12892"
+      },
+      "rdfs:label": "Antwerpen"
+    },
+    {
+      "@id": "_:N4fdb743212ce49d5b672b96cda9b2fa3",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "51.21989",
+      "https://schema.org#longitude": "4.40346"
+    },
+    {
+      "@id": "_:Nf672a16ee996454c9de1ce73e1cddca3",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1486-10-05"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1486-10-05"
+      }
+    },
+    {
+      "@id": "_:Nbd0737f0e0ad4dd3883b92ebd1e831e8",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:U00000212"
+      },
+      "ps:P39": {
+        "@id": "ri:koenig"
+      },
+      "rdfs:label": "Kg. (Matthias) von Ungarn"
+    },
+    {
+      "@id": "_:N5b687f6677674c1a824c40ebd2b8f881",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:M00000893"
+      },
+      "ps:P39": {
+        "@id": "ri:erbmarschall"
+      },
+      "rdfs:label": "Erbmarschall Heinrich von Pappenheim"
+    }
+  ]
+}

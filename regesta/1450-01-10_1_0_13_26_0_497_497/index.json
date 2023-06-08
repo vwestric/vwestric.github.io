@@ -1,0 +1,87 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1450-01-10_1_0_13_26_0_497_497",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Nd5ad1b5f6c334ac788bb9478eb5fcb15"
+      }
+    },
+    {
+      "@id": "_:Nd5ad1b5f6c334ac788bb9478eb5fcb15",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N0e6a93cfe06e4e0ea43c822a54cb6e03"
+      },
+      "ps:P291": {
+        "@id": "_:Ne2cb47abe7414f7d87e6fa380c5aa969"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:Nb40f888d9b424f559dff8e20d35bf016"
+        },
+        {
+          "@id": "_:Nf5d7d42b39274758b177ea40f0af11b1"
+        }
+      ]
+    },
+    {
+      "@id": "_:Ne2cb47abe7414f7d87e6fa380c5aa969",
+      "https://schema.org#geo": {
+        "@id": "_:Na8de1e3192024a2bb30529b06c9d7a26"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q131612"
+      },
+      "rdfs:label": "Wiener Neustadt"
+    },
+    {
+      "@id": "_:Na8de1e3192024a2bb30529b06c9d7a26",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.813153",
+      "https://schema.org#longitude": "16.24444"
+    },
+    {
+      "@id": "_:N0e6a93cfe06e4e0ea43c822a54cb6e03",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1450-01-10"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1450-01-10"
+      }
+    },
+    {
+      "@id": "_:Nb40f888d9b424f559dff8e20d35bf016",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:R00002476"
+      },
+      "rdfs:label": "Ulrich von Rosenberg"
+    },
+    {
+      "@id": "_:Nf5d7d42b39274758b177ea40f0af11b1",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:M00000154"
+      },
+      "ps:P39": {
+        "@id": "ri:burggraf"
+      },
+      "rdfs:label": "Bggf. Michael von Maidburg"
+    }
+  ]
+}

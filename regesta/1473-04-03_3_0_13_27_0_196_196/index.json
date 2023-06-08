@@ -1,0 +1,90 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1473-04-03_3_0_13_27_0_196_196",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N5723b4829dd7452e95ef6109a2fd9a5a"
+      }
+    },
+    {
+      "@id": "_:N5723b4829dd7452e95ef6109a2fd9a5a",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Nf383689c61354977b77f2778052da39c"
+      },
+      "ps:P291": {
+        "@id": "_:N685f4d50507946e3ac09b589db0a126b"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N3cf9bd33b6484de58399e2010544cdf1"
+        },
+        {
+          "@id": "_:N6dc7816d4c6048ff9c8de32ee5e9f47e"
+        }
+      ]
+    },
+    {
+      "@id": "_:N685f4d50507946e3ac09b589db0a126b",
+      "https://schema.org#geo": {
+        "@id": "_:N113aaebbb73d44dc82df2e0a34f1f7ed"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q494604"
+      },
+      "rdfs:label": "St. Veit an der Glan"
+    },
+    {
+      "@id": "_:N113aaebbb73d44dc82df2e0a34f1f7ed",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "46.767222",
+      "https://schema.org#longitude": "14.359722"
+    },
+    {
+      "@id": "_:Nf383689c61354977b77f2778052da39c",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1473-04-03"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1473-04-03"
+      }
+    },
+    {
+      "@id": "_:N3cf9bd33b6484de58399e2010544cdf1",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:K00002070"
+      },
+      "ps:P39": {
+        "@id": "ri:bischof"
+      },
+      "rdfs:label": "Bf. Hermann von Konstanz"
+    },
+    {
+      "@id": "_:N6dc7816d4c6048ff9c8de32ee5e9f47e",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:O00000622"
+      },
+      "ps:P39": {
+        "@id": "ri:herzog"
+      },
+      "rdfs:label": "Hz. Sigmund von Österreich"
+    }
+  ]
+}

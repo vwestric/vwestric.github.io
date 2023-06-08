@@ -1,0 +1,132 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:c345e8bb-df13-4c8f-b293-b7191dc387d6",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Na9cbd16ea47f4632901573e487948eaa"
+      }
+    },
+    {
+      "@id": "_:Na9cbd16ea47f4632901573e487948eaa",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Nafb9584c49304352b230e098f8f3f832"
+      },
+      "ps:P291": {
+        "@id": "_:Nde8d21b1626f463091697181d3fe8a39"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:Nba0e974a738940479517bad6537112f8"
+        },
+        {
+          "@id": "_:N0b5cf67e92304072a45b4edc7b4c48ab"
+        },
+        {
+          "@id": "_:N2a8a2344aa7147ecb1dac6d2ff517f1e"
+        },
+        {
+          "@id": "_:N819b1680abe94a5ca839914a4e4d3a70"
+        },
+        {
+          "@id": "_:N91e71641f3154e6499c949556f98caab"
+        }
+      ]
+    },
+    {
+      "@id": "_:Nde8d21b1626f463091697181d3fe8a39",
+      "https://schema.org#geo": {
+        "@id": "_:N3db5fa6ff9e54d3783ced1a6c92839b4"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q131612"
+      },
+      "rdfs:label": "Wiener Neustadt"
+    },
+    {
+      "@id": "_:N3db5fa6ff9e54d3783ced1a6c92839b4",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.813153",
+      "https://schema.org#longitude": "16.24444"
+    },
+    {
+      "@id": "_:Nafb9584c49304352b230e098f8f3f832",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1463-10-01"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1463-10-31"
+      }
+    },
+    {
+      "@id": "_:Nba0e974a738940479517bad6537112f8",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00000565"
+      },
+      "ps:P39": {
+        "@id": "ri:herzog"
+      },
+      "rdfs:label": "Hz. Ludwig (IX.) von Bayern(-Landshut)"
+    },
+    {
+      "@id": "_:N0b5cf67e92304072a45b4edc7b4c48ab",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00001825"
+      },
+      "ps:P39": {
+        "@id": "ri:koenig"
+      },
+      "rdfs:label": "Kg. Georg von Böhmen"
+    },
+    {
+      "@id": "_:N2a8a2344aa7147ecb1dac6d2ff517f1e",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:M00001793"
+      },
+      "ps:P39": {
+        "@id": "ri:bischof"
+      },
+      "rdfs:label": "Bf. Georg von Metz"
+    },
+    {
+      "@id": "_:N819b1680abe94a5ca839914a4e4d3a70",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00000075"
+      },
+      "ps:P39": {
+        "@id": "ri:markgraf"
+      },
+      "rdfs:label": "Mgf. Karl (I.) von Baden"
+    },
+    {
+      "@id": "_:N91e71641f3154e6499c949556f98caab",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:W00003211"
+      },
+      "ps:P39": {
+        "@id": "ri:graf"
+      },
+      "rdfs:label": "Gf. Ulrich (V.) von Württemberg"
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1461-07-30_2_0_13_10_0_13164_204",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Ncc2a88fee064431a8ff5557955d7f88b"
+      }
+    },
+    {
+      "@id": "_:Ncc2a88fee064431a8ff5557955d7f88b",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N7d6a0ceb04b948b7ab36c71ed36390d0"
+      },
+      "ps:P291": {
+        "@id": "_:N1a77f02845424c24aa42d6890195ea51"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N265b976a10b94bb1a1a0235cd4ae21b6"
+        },
+        {
+          "@id": "_:N97843ef15c7d476b8fcdf6ec9f521b92"
+        },
+        {
+          "@id": "_:N78700b68ef4840fb8637a3db5671d502"
+        }
+      ]
+    },
+    {
+      "@id": "_:N1a77f02845424c24aa42d6890195ea51",
+      "https://schema.org#geo": {
+        "@id": "_:N4c9e674b39314e128f0b98c87d0dbba3"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q13298"
+      },
+      "rdfs:label": "Graz"
+    },
+    {
+      "@id": "_:N4c9e674b39314e128f0b98c87d0dbba3",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.06667",
+      "https://schema.org#longitude": "15.45"
+    },
+    {
+      "@id": "_:N7d6a0ceb04b948b7ab36c71ed36390d0",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1461-07-30"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1461-07-30"
+      }
+    },
+    {
+      "@id": "_:N265b976a10b94bb1a1a0235cd4ae21b6",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00001825"
+      },
+      "ps:P39": {
+        "@id": "ri:koenig"
+      },
+      "rdfs:label": "Kg. Georg von Böhmen"
+    },
+    {
+      "@id": "_:N97843ef15c7d476b8fcdf6ec9f521b92",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00000220"
+      },
+      "ps:P39": {
+        "@id": "ri:bischof"
+      },
+      "rdfs:label": "Bf. Georg von Bamberg"
+    },
+    {
+      "@id": "_:N78700b68ef4840fb8637a3db5671d502",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00000565"
+      },
+      "ps:P39": {
+        "@id": "ri:herzog"
+      },
+      "rdfs:label": "Hz. Ludwig (IX.) von Bayern (-Landshut)"
+    }
+  ]
+}

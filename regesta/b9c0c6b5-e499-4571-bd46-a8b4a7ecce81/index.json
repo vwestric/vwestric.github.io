@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:b9c0c6b5-e499-4571-bd46-a8b4a7ecce81",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N9a920e651f9041fdbc3aa9cbc88e2e04"
+      }
+    },
+    {
+      "@id": "_:N9a920e651f9041fdbc3aa9cbc88e2e04",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N8f0928cf2f5145e6b7ec8e6f2c34aba3"
+      },
+      "ps:P291": {
+        "@id": "_:N2deea47ff66a42058238ba823960972e"
+      },
+      "ps:P3342": {
+        "@id": "_:N848195a700224daeb43ca61045cab7f3"
+      }
+    },
+    {
+      "@id": "_:N2deea47ff66a42058238ba823960972e",
+      "https://schema.org#geo": {
+        "@id": "_:N981260c5cf664230909a072cf099a8d2"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q131612"
+      },
+      "rdfs:label": "Wiener Neustadt"
+    },
+    {
+      "@id": "_:N981260c5cf664230909a072cf099a8d2",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.813153",
+      "https://schema.org#longitude": "16.24444"
+    },
+    {
+      "@id": "_:N8f0928cf2f5145e6b7ec8e6f2c34aba3",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1448-12-19"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1448-12-19"
+      }
+    },
+    {
+      "@id": "_:N848195a700224daeb43ca61045cab7f3",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:V00000282"
+      },
+      "ps:P39": {
+        "@id": "ri:bischof"
+      },
+      "rdfs:label": "Bf. Johann von Verden"
+    }
+  ]
+}

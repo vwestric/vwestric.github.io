@@ -1,0 +1,148 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1462-08-22_2_0_13_18_0_284_284",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N7518e5e888a648bf94923d31c6b71b07"
+      }
+    },
+    {
+      "@id": "_:N7518e5e888a648bf94923d31c6b71b07",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N4e4d3590cf2c423ea14fe3c5834db2b6"
+      },
+      "ps:P291": {
+        "@id": "_:Nc1b4111d91f4415c9b4b835db54d8deb"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:Nd42b024f2b174eabb49fb850e2e1f91e"
+        },
+        {
+          "@id": "_:N9faa603607fb421d84bbed1dbb9d22a8"
+        },
+        {
+          "@id": "_:N1debfd365a0342fd9ede4f70e46636ea"
+        },
+        {
+          "@id": "_:N75a53c24e88b46ff8abf9b74f3a17e7f"
+        },
+        {
+          "@id": "_:N9be6c55aa07543ada90fadc6bd64a7ef"
+        },
+        {
+          "@id": "_:N43cfd8c96f1b46a8aec5d77cb9b47886"
+        }
+      ]
+    },
+    {
+      "@id": "_:Nc1b4111d91f4415c9b4b835db54d8deb",
+      "https://schema.org#geo": {
+        "@id": "_:N2afc1b7941f44b30a615c19b103ffd90"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q2090"
+      },
+      "rdfs:label": "Nürnberg"
+    },
+    {
+      "@id": "_:N2afc1b7941f44b30a615c19b103ffd90",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "49.45421",
+      "https://schema.org#longitude": "11.07752"
+    },
+    {
+      "@id": "_:N4e4d3590cf2c423ea14fe3c5834db2b6",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1462-08-22"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1462-08-22"
+      }
+    },
+    {
+      "@id": "_:Nd42b024f2b174eabb49fb850e2e1f91e",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00002265"
+      },
+      "ps:P39": {
+        "@id": "ri:kurfuerst"
+      },
+      "rdfs:label": "Kf. Friedrich von Brandenburg"
+    },
+    {
+      "@id": "_:N9faa603607fb421d84bbed1dbb9d22a8",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:M00000893"
+      },
+      "ps:P39": {
+        "@id": "ri:erbmarschall"
+      },
+      "rdfs:label": "Erbmarschall Heinrich von Pappenheim"
+    },
+    {
+      "@id": "_:N1debfd365a0342fd9ede4f70e46636ea",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00000565"
+      },
+      "ps:P39": {
+        "@id": "ri:herzog"
+      },
+      "rdfs:label": "Hz. Ludwig (IX.) von Bayern-Landshut"
+    },
+    {
+      "@id": "_:N75a53c24e88b46ff8abf9b74f3a17e7f",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:A00001569"
+      },
+      "ps:P39": [
+        {
+          "@id": "ri:kardinal"
+        },
+        {
+          "@id": "ri:bischof"
+        }
+      ],
+      "rdfs:label": "Kardinal Bf. Peter von Augsburg"
+    },
+    {
+      "@id": "_:N9be6c55aa07543ada90fadc6bd64a7ef",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:P00000962"
+      },
+      "ps:P39": {
+        "@id": "ri:pfalzgraf"
+      },
+      "rdfs:label": "Pfgf. Friedrich bei Rhein"
+    },
+    {
+      "@id": "_:N43cfd8c96f1b46a8aec5d77cb9b47886",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:A00000228"
+      },
+      "rdfs:label": "Adolf von Nassau"
+    }
+  ]
+}

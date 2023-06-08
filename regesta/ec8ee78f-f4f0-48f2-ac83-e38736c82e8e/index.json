@@ -1,0 +1,104 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:ec8ee78f-f4f0-48f2-ac83-e38736c82e8e",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N5c749c1ce4bb426d9a1d784e24a55aaa"
+      }
+    },
+    {
+      "@id": "_:N5c749c1ce4bb426d9a1d784e24a55aaa",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N23a50aeaac3144ce8599da93d9057a58"
+      },
+      "ps:P291": {
+        "@id": "_:N708cf9e92e0d423f94e728dfe8ae5d19"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N747a66daf10343c1a6560a2daf986c77"
+        },
+        {
+          "@id": "_:N8df32dfbf175495cb13367af2742380b"
+        },
+        {
+          "@id": "_:N14b8acfacc4c4a1c9cb76ac80c3e792c"
+        }
+      ]
+    },
+    {
+      "@id": "_:N708cf9e92e0d423f94e728dfe8ae5d19",
+      "https://schema.org#geo": {
+        "@id": "_:Nd0db92f7f66b494ebebdc45e6bc62e9f"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q365"
+      },
+      "rdfs:label": "Köln"
+    },
+    {
+      "@id": "_:Nd0db92f7f66b494ebebdc45e6bc62e9f",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "50.93333",
+      "https://schema.org#longitude": "6.95"
+    },
+    {
+      "@id": "_:N23a50aeaac3144ce8599da93d9057a58",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1475-03-25"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1475-03-25"
+      }
+    },
+    {
+      "@id": "_:N747a66daf10343c1a6560a2daf986c77",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00002248"
+      },
+      "ps:P39": {
+        "@id": "ri:markgraf"
+      },
+      "rdfs:label": "Mgf. Albrecht von Brandenburg"
+    },
+    {
+      "@id": "_:N8df32dfbf175495cb13367af2742380b",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:F00000908"
+      },
+      "ps:P39": {
+        "@id": "ri:koenig"
+      },
+      "rdfs:label": "Kg. Ludwig (XI.) von Frankreich"
+    },
+    {
+      "@id": "_:N14b8acfacc4c4a1c9cb76ac80c3e792c",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00000065"
+      },
+      "ps:P39": {
+        "@id": "ri:herzog"
+      },
+      "rdfs:label": "Hz. Ernst von Sachsen"
+    }
+  ]
+}

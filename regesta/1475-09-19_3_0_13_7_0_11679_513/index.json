@@ -1,0 +1,118 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1475-09-19_3_0_13_7_0_11679_513",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N75546e8cd03a4aa8a4ea30f8194ecd06"
+      }
+    },
+    {
+      "@id": "_:N75546e8cd03a4aa8a4ea30f8194ecd06",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N27da51623a8840a7a9123fa7c0521ffb"
+      },
+      "ps:P291": {
+        "@id": "_:N9ee310da1c6344179f6b4b461a4fbcf3"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N774f0928fdd345d985ff3b12f60e8c3e"
+        },
+        {
+          "@id": "_:Na5803166aef4418cacfac33b1684ed90"
+        },
+        {
+          "@id": "_:N05e4e340deef4d5ab7f387c35d2caaa2"
+        },
+        {
+          "@id": "_:Nb28c2c2b7160463fa9a69990a677cc48"
+        }
+      ]
+    },
+    {
+      "@id": "_:N9ee310da1c6344179f6b4b461a4fbcf3",
+      "https://schema.org#geo": {
+        "@id": "_:Neb5070df8a9b4d0e9c5e890ab70b8700"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q365"
+      },
+      "rdfs:label": "Köln"
+    },
+    {
+      "@id": "_:Neb5070df8a9b4d0e9c5e890ab70b8700",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "50.93333",
+      "https://schema.org#longitude": "6.95"
+    },
+    {
+      "@id": "_:N27da51623a8840a7a9123fa7c0521ffb",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1475-09-19"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1475-09-19"
+      }
+    },
+    {
+      "@id": "_:N774f0928fdd345d985ff3b12f60e8c3e",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:H00001475"
+      },
+      "ps:P39": {
+        "@id": "ri:koenig"
+      },
+      "rdfs:label": "Kg. Heinrichs (VII.)"
+    },
+    {
+      "@id": "_:Na5803166aef4418cacfac33b1684ed90",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:K00000431"
+      },
+      "ps:P39": {
+        "@id": "ri:kaiser"
+      },
+      "rdfs:label": "K. Karls IV."
+    },
+    {
+      "@id": "_:N05e4e340deef4d5ab7f387c35d2caaa2",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00003529"
+      },
+      "ps:P39": {
+        "@id": "ri:kaiser"
+      },
+      "rdfs:label": "K. Sigmunds"
+    },
+    {
+      "@id": "_:Nb28c2c2b7160463fa9a69990a677cc48",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00003253"
+      },
+      "ps:P39": {
+        "@id": "ri:herzog"
+      },
+      "rdfs:label": "Hz. (Karl) von Burgund"
+    }
+  ]
+}

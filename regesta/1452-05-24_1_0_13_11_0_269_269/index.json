@@ -1,0 +1,112 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1452-05-24_1_0_13_11_0_269_269",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N80b92ec90983456dbd5d77f377c36ba8"
+      }
+    },
+    {
+      "@id": "_:N80b92ec90983456dbd5d77f377c36ba8",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N1a54c368f18a42a4ab6ad90f899f642c"
+      },
+      "ps:P291": {
+        "@id": "_:N49762774759f44e8b6cb08d27dbeb124"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N09ab1e20e176404abca988a95190990e"
+        },
+        {
+          "@id": "_:N62868e27f0c24370bfe411923eb76663"
+        },
+        {
+          "@id": "_:N530d4e14b86a497caa8a213f7dc36b63"
+        },
+        {
+          "@id": "_:Ndf721b4a1b104e4981ead418658d348b"
+        }
+      ]
+    },
+    {
+      "@id": "_:N49762774759f44e8b6cb08d27dbeb124",
+      "https://schema.org#geo": {
+        "@id": "_:Na4e402b810cd42b1af50860ab89f0967"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q641"
+      },
+      "rdfs:label": "Venedig"
+    },
+    {
+      "@id": "_:Na4e402b810cd42b1af50860ab89f0967",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "45.43384",
+      "https://schema.org#longitude": "12.34028"
+    },
+    {
+      "@id": "_:N1a54c368f18a42a4ab6ad90f899f642c",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1452-05-24"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1452-05-24"
+      }
+    },
+    {
+      "@id": "_:N09ab1e20e176404abca988a95190990e",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:E00000067"
+      },
+      "rdfs:label": "Reinprecht von Ebersdorf"
+    },
+    {
+      "@id": "_:N62868e27f0c24370bfe411923eb76663",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:E00000546"
+      },
+      "rdfs:label": "Hildebrand von Einsiedel"
+    },
+    {
+      "@id": "_:N530d4e14b86a497caa8a213f7dc36b63",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:O00000599"
+      },
+      "ps:P39": {
+        "@id": "ri:koenig"
+      },
+      "rdfs:label": "Kg. Ladislaus"
+    },
+    {
+      "@id": "_:Ndf721b4a1b104e4981ead418658d348b",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00000076"
+      },
+      "ps:P39": {
+        "@id": "ri:kurfuerst"
+      },
+      "rdfs:label": "(Kf. Friedrich II.) von Sachsen"
+    }
+  ]
+}

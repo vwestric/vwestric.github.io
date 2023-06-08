@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1447-08-21_3_0_13_4_0_9699_129",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Nce63c551cf8d400a9bd102c38966c3de"
+      }
+    },
+    {
+      "@id": "_:Nce63c551cf8d400a9bd102c38966c3de",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N9550ff3d2a6c4441abe263cec09f01ed"
+      },
+      "ps:P291": {
+        "@id": "_:N8cf20b2b670c4efe95dc37e2d8179731"
+      },
+      "ps:P3342": {
+        "@id": "_:Ne43e5232fe474a7f9182c803c293ac9b"
+      }
+    },
+    {
+      "@id": "_:N8cf20b2b670c4efe95dc37e2d8179731",
+      "https://schema.org#geo": {
+        "@id": "_:Nf094946d10e149aeb216c73981c6452e"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q131612"
+      },
+      "rdfs:label": "Wiener Neustadt"
+    },
+    {
+      "@id": "_:Nf094946d10e149aeb216c73981c6452e",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.813153",
+      "https://schema.org#longitude": "16.24444"
+    },
+    {
+      "@id": "_:N9550ff3d2a6c4441abe263cec09f01ed",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1447-08-21"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1447-08-21"
+      }
+    },
+    {
+      "@id": "_:Ne43e5232fe474a7f9182c803c293ac9b",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:N00001044"
+      },
+      "ps:P39": {
+        "@id": "ri:papst"
+      },
+      "rdfs:label": "Papst Nikolaus (V.)"
+    }
+  ]
+}

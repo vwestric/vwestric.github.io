@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1450-11-30_2_0_13_19_0_83_83",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Nd775ba1c379e431499f61403d11fcb8a"
+      }
+    },
+    {
+      "@id": "_:Nd775ba1c379e431499f61403d11fcb8a",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N2cdd30ed037c4c5e978ce7494159e57a"
+      },
+      "ps:P291": {
+        "@id": "_:N7c4eeac44cc14d91be5e42da202da4ed"
+      },
+      "ps:P3342": {
+        "@id": "_:Nb19f6abb2ec34a3ba9e905252765c8f6"
+      }
+    },
+    {
+      "@id": "_:N7c4eeac44cc14d91be5e42da202da4ed",
+      "https://schema.org#geo": {
+        "@id": "_:Nea161b82628146c686e81bfdf296cc5e"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q131612"
+      },
+      "rdfs:label": "Wiener Neustadt"
+    },
+    {
+      "@id": "_:Nea161b82628146c686e81bfdf296cc5e",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.813153",
+      "https://schema.org#longitude": "16.24444"
+    },
+    {
+      "@id": "_:N2cdd30ed037c4c5e978ce7494159e57a",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1450-11-30"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1450-11-30"
+      }
+    },
+    {
+      "@id": "_:Nb19f6abb2ec34a3ba9e905252765c8f6",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:E00000494"
+      },
+      "ps:P39": {
+        "@id": "ri:bischof"
+      },
+      "rdfs:label": "Bf. Johann von Eichstätt"
+    }
+  ]
+}

@@ -1,0 +1,226 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1444-09-03_1_0_13_12_0_251_251",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Nd25e7a6778194b1d9f752ca0990943b1"
+      }
+    },
+    {
+      "@id": "_:Nd25e7a6778194b1d9f752ca0990943b1",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N3d60e5428b3943b9a574e78af07d76c6"
+      },
+      "ps:P291": {
+        "@id": "_:Nf1440b2074184732aebe043c7b620873"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:Nb437609dcf574e479bdb076089e8fae8"
+        },
+        {
+          "@id": "_:N0ff09a3bc87b4440b9a3c374d0db929e"
+        },
+        {
+          "@id": "_:N4cfad6d9e21f4624b428fc90582eea02"
+        },
+        {
+          "@id": "_:N82908a191b7c4a29bdfd896ab7eee4b5"
+        },
+        {
+          "@id": "_:N7469ca04c36943f3b3401c0be51f7bb0"
+        },
+        {
+          "@id": "_:N1d9d247cc5784608a6273b9ab93f60a4"
+        },
+        {
+          "@id": "_:N03ac06877b464f4cb951e8dc9905cf85"
+        },
+        {
+          "@id": "_:N9be862b4301a41cd9bc2ddb4ed128109"
+        },
+        {
+          "@id": "_:N49be7b67ee77484ba8be8a4cb1fd57d5"
+        },
+        {
+          "@id": "_:Na55db89b37e64b26ae7614f697c3d103"
+        },
+        {
+          "@id": "_:N7433238ed75043519ae26bc55bfb23dd"
+        },
+        {
+          "@id": "_:N7fc597f5ee814039a0da77b803e03fb2"
+        },
+        {
+          "@id": "_:N258520e4b9db4269989d2dae854c7913"
+        }
+      ]
+    },
+    {
+      "@id": "_:Nf1440b2074184732aebe043c7b620873",
+      "https://schema.org#geo": {
+        "@id": "_:N9fd134e1fe4748c48afcdfe260684e97"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q2090"
+      },
+      "rdfs:label": "Nürnberg"
+    },
+    {
+      "@id": "_:N9fd134e1fe4748c48afcdfe260684e97",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "49.45421",
+      "https://schema.org#longitude": "11.07752"
+    },
+    {
+      "@id": "_:N3d60e5428b3943b9a574e78af07d76c6",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1444-09-03"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1444-09-03"
+      }
+    },
+    {
+      "@id": "_:Nb437609dcf574e479bdb076089e8fae8",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:W00000940"
+      },
+      "ps:P39": {
+        "@id": "ri:reichserbkaemmerer"
+      },
+      "rdfs:label": "Reichserbkämmerers Konrad von Weinsberg"
+    },
+    {
+      "@id": "_:N0ff09a3bc87b4440b9a3c374d0db929e",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00001346"
+      },
+      "ps:P39": {
+        "@id": "ri:graf"
+      },
+      "rdfs:label": "Gf. Johann von Schaunberg"
+    },
+    {
+      "@id": "_:N4cfad6d9e21f4624b428fc90582eea02",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:G00001288"
+      },
+      "ps:P39": {
+        "@id": "ri:graf"
+      },
+      "rdfs:label": "Gf. Heinrich von Görz"
+    },
+    {
+      "@id": "_:N82908a191b7c4a29bdfd896ab7eee4b5",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:D00000713"
+      },
+      "rdfs:label": "Georg von Dornberg"
+    },
+    {
+      "@id": "_:N7469ca04c36943f3b3401c0be51f7bb0",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:C00000462"
+      },
+      "ps:P39": {
+        "@id": "ri:graf"
+      },
+      "rdfs:label": "Gf. Ulrich (II.) von Cilli"
+    },
+    {
+      "@id": "_:N1d9d247cc5784608a6273b9ab93f60a4",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:C00000462"
+      },
+      "ps:P39": {
+        "@id": "ri:graf"
+      },
+      "rdfs:label": "Gf. Ulrich von Cilli"
+    },
+    {
+      "@id": "_:N03ac06877b464f4cb951e8dc9905cf85",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:F00001027"
+      },
+      "ps:P39": {
+        "@id": "ri:frau"
+      },
+      "rdfs:label": "Wilhelm von Fraunberg"
+    },
+    {
+      "@id": "_:N9be862b4301a41cd9bc2ddb4ed128109",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:R00002666"
+      },
+      "rdfs:label": "Veit von Rotenhan"
+    },
+    {
+      "@id": "_:N49be7b67ee77484ba8be8a4cb1fd57d5",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:M00002730"
+      },
+      "rdfs:label": "Burkhard von Müllenheim"
+    },
+    {
+      "@id": "_:Na55db89b37e64b26ae7614f697c3d103",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00001537"
+      },
+      "ps:P39": {
+        "@id": "ri:schenk"
+      },
+      "rdfs:label": "Stephan (Schenk von) Geyern"
+    },
+    {
+      "@id": "_:N7433238ed75043519ae26bc55bfb23dd",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:N00001537"
+      },
+      "rdfs:label": "Heimeram von Nußberg"
+    },
+    {
+      "@id": "_:N7fc597f5ee814039a0da77b803e03fb2",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:F00000384"
+      },
+      "rdfs:label": "Georg Fischlin"
+    },
+    {
+      "@id": "_:N258520e4b9db4269989d2dae854c7913",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:H00001426"
+      },
+      "rdfs:label": "Dr. Gregor Heimburg"
+    }
+  ]
+}

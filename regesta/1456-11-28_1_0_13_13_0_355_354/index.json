@@ -1,0 +1,109 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1456-11-28_1_0_13_13_0_355_354",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N3ab5731b88fe4b01b28688383bb61408"
+      }
+    },
+    {
+      "@id": "_:N3ab5731b88fe4b01b28688383bb61408",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N130f65e93d2749b9aab5c457d888b2e1"
+      },
+      "ps:P291": {
+        "@id": "_:N0f2fee3234df4c0baeb598715d585779"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N202a102d5d3a49478f839aee646e5b7b"
+        },
+        {
+          "@id": "_:N4d941f58e199431a81c01553517808b5"
+        },
+        {
+          "@id": "_:Nff2a983ab67c4827a8506f167b2a7c4b"
+        },
+        {
+          "@id": "_:N5e2e43ee8dc8452b9c9f9fae7d0f1fa2"
+        }
+      ]
+    },
+    {
+      "@id": "_:N0f2fee3234df4c0baeb598715d585779",
+      "https://schema.org#geo": {
+        "@id": "_:Nb1dabecf655945eb88a7f61ff8116d27"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q131612"
+      },
+      "rdfs:label": "Wiener Neustadt"
+    },
+    {
+      "@id": "_:Nb1dabecf655945eb88a7f61ff8116d27",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.813153",
+      "https://schema.org#longitude": "16.24444"
+    },
+    {
+      "@id": "_:N130f65e93d2749b9aab5c457d888b2e1",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1456-11-28"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1456-11-28"
+      }
+    },
+    {
+      "@id": "_:N202a102d5d3a49478f839aee646e5b7b",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:L00001427"
+      },
+      "rdfs:label": "Heinrich von Liechtenstein"
+    },
+    {
+      "@id": "_:N4d941f58e199431a81c01553517808b5",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:E00000711"
+      },
+      "rdfs:label": "Berthold von Ellerbach"
+    },
+    {
+      "@id": "_:Nff2a983ab67c4827a8506f167b2a7c4b",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00000483"
+      },
+      "rdfs:label": "Andreas Baumkircher"
+    },
+    {
+      "@id": "_:N5e2e43ee8dc8452b9c9f9fae7d0f1fa2",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00000064"
+      },
+      "ps:P39": {
+        "@id": "ri:markgraf"
+      },
+      "rdfs:label": "Mgf. Bernhard (II.) von Baden"
+    }
+  ]
+}

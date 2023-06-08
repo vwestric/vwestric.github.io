@@ -1,0 +1,98 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1456-12-07_1_0_13_20_0_85_85",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Nfc74e4c3e622451b9d9fc97babb4ce0e"
+      }
+    },
+    {
+      "@id": "_:Nfc74e4c3e622451b9d9fc97babb4ce0e",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N7b83832adec34146abb842d1b3c11674"
+      },
+      "ps:P291": {
+        "@id": "_:N92f1aff17d8f4c2f99b655bbec0646a4"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:Naa894cfec07c4861a1e8f234c2be21c5"
+        },
+        {
+          "@id": "_:Ne106202247d04d3eb6c492df67c99db3"
+        },
+        {
+          "@id": "_:N8c3f7d2cf9ef46e49343de2e0a92e938"
+        }
+      ]
+    },
+    {
+      "@id": "_:N92f1aff17d8f4c2f99b655bbec0646a4",
+      "https://schema.org#geo": {
+        "@id": "_:N197ee01f1f624873bcd60834f1a562ad"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q131612"
+      },
+      "rdfs:label": "Wiener Neustadt"
+    },
+    {
+      "@id": "_:N197ee01f1f624873bcd60834f1a562ad",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.813153",
+      "https://schema.org#longitude": "16.24444"
+    },
+    {
+      "@id": "_:N7b83832adec34146abb842d1b3c11674",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1456-12-07"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1456-12-07"
+      }
+    },
+    {
+      "@id": "_:Naa894cfec07c4861a1e8f234c2be21c5",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:M00000893"
+      },
+      "rdfs:label": "Reichserbmarschall Heinrich von Pappenheim"
+    },
+    {
+      "@id": "_:Ne106202247d04d3eb6c492df67c99db3",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00002248"
+      },
+      "ps:P39": {
+        "@id": "ri:markgraf"
+      },
+      "rdfs:label": "Mgf. Albrecht von Brandenburg"
+    },
+    {
+      "@id": "_:N8c3f7d2cf9ef46e49343de2e0a92e938",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:H00003482"
+      },
+      "rdfs:label": "Walter von Hürnheim"
+    }
+  ]
+}

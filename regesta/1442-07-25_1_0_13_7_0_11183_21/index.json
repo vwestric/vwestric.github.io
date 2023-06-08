@@ -1,0 +1,142 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1442-07-25_1_0_13_7_0_11183_21",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Nc01a697514334de698eeee4d5f900442"
+      }
+    },
+    {
+      "@id": "_:Nc01a697514334de698eeee4d5f900442",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N23917c9f000d4b168d568802da9d3dd9"
+      },
+      "ps:P291": {
+        "@id": "_:Ncc3c3458f5e94f53b09740160ad58c83"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:Ndcca095769d348b4b8a0851d06102c87"
+        },
+        {
+          "@id": "_:N6ab9e114eeaf4314912f9d271495e84f"
+        },
+        {
+          "@id": "_:N85eee3165b954ba182ee8d93ce57b07f"
+        },
+        {
+          "@id": "_:Neddb7a18af044100bff4bbcfee34f7e3"
+        },
+        {
+          "@id": "_:N5002721e034446baa7b650b564faf48f"
+        },
+        {
+          "@id": "_:N431655dd40ec4d86860feacf43d146bb"
+        },
+        {
+          "@id": "_:Nb592c1bd269d46ef9e534bb0c6a7d023"
+        }
+      ]
+    },
+    {
+      "@id": "_:Ncc3c3458f5e94f53b09740160ad58c83",
+      "https://schema.org#geo": {
+        "@id": "_:N7177d9e3abe8472ea8edddf52ed792f4"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q1794"
+      },
+      "rdfs:label": "Frankfurt"
+    },
+    {
+      "@id": "_:N7177d9e3abe8472ea8edddf52ed792f4",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "50.110556",
+      "https://schema.org#longitude": "8.682222"
+    },
+    {
+      "@id": "_:N23917c9f000d4b168d568802da9d3dd9",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1442-07-25"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1442-07-25"
+      }
+    },
+    {
+      "@id": "_:Ndcca095769d348b4b8a0851d06102c87",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:M00000277"
+      },
+      "rdfs:label": "Dietrich von Mainz"
+    },
+    {
+      "@id": "_:N6ab9e114eeaf4314912f9d271495e84f",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:A00001569"
+      },
+      "rdfs:label": "Peter von Augsburg"
+    },
+    {
+      "@id": "_:N85eee3165b954ba182ee8d93ce57b07f",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:C00000330"
+      },
+      "rdfs:label": "Silvester von Chiemsee"
+    },
+    {
+      "@id": "_:Neddb7a18af044100bff4bbcfee34f7e3",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:J00000257"
+      },
+      "rdfs:label": "Gerhard von Jülich, Geldern und Berg"
+    },
+    {
+      "@id": "_:N5002721e034446baa7b650b564faf48f",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00000071"
+      },
+      "ps:P39": {
+        "@id": "ri:markgraf"
+      },
+      "rdfs:label": "Mgf. Jakob von Baden"
+    },
+    {
+      "@id": "_:N431655dd40ec4d86860feacf43d146bb",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:O00000788"
+      },
+      "rdfs:label": "Wilhelm von Oettingen"
+    },
+    {
+      "@id": "_:Nb592c1bd269d46ef9e534bb0c6a7d023",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00001341"
+      },
+      "rdfs:label": "Bernhard von Schaunberg"
+    }
+  ]
+}

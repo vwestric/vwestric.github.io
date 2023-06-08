@@ -1,0 +1,90 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1474-03-13_1_0_13_11_0_437_437",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Nceca9e4e8d34434b9cba276a60ddfe34"
+      }
+    },
+    {
+      "@id": "_:Nceca9e4e8d34434b9cba276a60ddfe34",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Na39061d8d03e45dd805389def2500f67"
+      },
+      "ps:P291": {
+        "@id": "_:Nab74bd7b45574c54ba4f1939dd0d6634"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N80bc5a668e7f445b804bb6c4eb450b8a"
+        },
+        {
+          "@id": "_:Ne3b0a5b7101d4b07b76e8f21ff448db2"
+        }
+      ]
+    },
+    {
+      "@id": "_:Nab74bd7b45574c54ba4f1939dd0d6634",
+      "https://schema.org#geo": {
+        "@id": "_:N01a9a597f79a44168e4486bd1a50f62d"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q2090"
+      },
+      "rdfs:label": "Nürnberg"
+    },
+    {
+      "@id": "_:N01a9a597f79a44168e4486bd1a50f62d",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "49.45421",
+      "https://schema.org#longitude": "11.07752"
+    },
+    {
+      "@id": "_:Na39061d8d03e45dd805389def2500f67",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1474-03-13"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1474-03-13"
+      }
+    },
+    {
+      "@id": "_:N80bc5a668e7f445b804bb6c4eb450b8a",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:P00001761"
+      },
+      "ps:P39": {
+        "@id": "ri:koenig"
+      },
+      "rdfs:label": "Kg. Kasimir (IV.) von Polen"
+    },
+    {
+      "@id": "_:Ne3b0a5b7101d4b07b76e8f21ff448db2",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00001841"
+      },
+      "ps:P39": {
+        "@id": "ri:koenig"
+      },
+      "rdfs:label": "Kg. Matthias (von Ungarn)"
+    }
+  ]
+}

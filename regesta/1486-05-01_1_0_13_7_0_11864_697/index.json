@@ -1,0 +1,90 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1486-05-01_1_0_13_7_0_11864_697",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N57560cbb53b94bd1a5390740de3512b4"
+      }
+    },
+    {
+      "@id": "_:N57560cbb53b94bd1a5390740de3512b4",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N591b3f4a8edc4e87b38a211db3f6dd95"
+      },
+      "ps:P291": {
+        "@id": "_:Ndb08fef95fd04cde9ac26eec4ef5082f"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N1e76cc72489447c78681ce4058016461"
+        },
+        {
+          "@id": "_:Na90ae6224b07433e80e9323887f4df77"
+        }
+      ]
+    },
+    {
+      "@id": "_:Ndb08fef95fd04cde9ac26eec4ef5082f",
+      "https://schema.org#geo": {
+        "@id": "_:N500e1207b5e24822bbdf47f50cd453d0"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q365"
+      },
+      "rdfs:label": "Köln"
+    },
+    {
+      "@id": "_:N500e1207b5e24822bbdf47f50cd453d0",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "50.93333",
+      "https://schema.org#longitude": "6.95"
+    },
+    {
+      "@id": "_:N591b3f4a8edc4e87b38a211db3f6dd95",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1486-05-01"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1486-05-01"
+      }
+    },
+    {
+      "@id": "_:N1e76cc72489447c78681ce4058016461",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:M00001151"
+      },
+      "ps:P39": {
+        "@id": "ri:koenig"
+      },
+      "rdfs:label": "Kg. Maximilian"
+    },
+    {
+      "@id": "_:Na90ae6224b07433e80e9323887f4df77",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:U00000212"
+      },
+      "ps:P39": {
+        "@id": "ri:koenig"
+      },
+      "rdfs:label": "Kg. (Matthias) von Ungarn"
+    }
+  ]
+}

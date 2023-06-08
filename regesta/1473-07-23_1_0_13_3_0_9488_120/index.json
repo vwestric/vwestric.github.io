@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1473-07-23_1_0_13_3_0_9488_120",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N991c93e9258942e491c353c9380cf765"
+      }
+    },
+    {
+      "@id": "_:N991c93e9258942e491c353c9380cf765",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Na5d122d34d2e4934b8ffb4ff5cf34887"
+      },
+      "ps:P291": {
+        "@id": "_:N3cb6cd83c4a34cc3a6815eb705217971"
+      },
+      "ps:P3342": {
+        "@id": "_:N63b852ec5a1942ef9f77541dfcbdfc06"
+      }
+    },
+    {
+      "@id": "_:N3cb6cd83c4a34cc3a6815eb705217971",
+      "https://schema.org#geo": {
+        "@id": "_:N284ea40ff6464301b8bdfbd029e466a5"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q4100"
+      },
+      "rdfs:label": "Niederbaden"
+    },
+    {
+      "@id": "_:N284ea40ff6464301b8bdfbd029e466a5",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "48.7606",
+      "https://schema.org#longitude": "8.23975"
+    },
+    {
+      "@id": "_:Na5d122d34d2e4934b8ffb4ff5cf34887",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1473-07-23"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1473-07-23"
+      }
+    },
+    {
+      "@id": "_:N63b852ec5a1942ef9f77541dfcbdfc06",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:H00002084"
+      },
+      "ps:P39": {
+        "@id": "ri:landgraf"
+      },
+      "rdfs:label": "Ldgf. Heinrich (III.) von Hessen"
+    }
+  ]
+}

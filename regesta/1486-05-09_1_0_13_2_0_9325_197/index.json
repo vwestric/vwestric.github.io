@@ -1,0 +1,90 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1486-05-09_1_0_13_2_0_9325_197",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N22659ea4396e4c2f9d59ad4ff8f4beb7"
+      }
+    },
+    {
+      "@id": "_:N22659ea4396e4c2f9d59ad4ff8f4beb7",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N98482850770c4a55a066a88bbcb05b43"
+      },
+      "ps:P291": {
+        "@id": "_:N6a108e7ad56f4e0385a7784ff30d0ef1"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N5e59c3c72693436b9d581b2810638dd4"
+        },
+        {
+          "@id": "_:N8a0e2b7a3b8043bcb525e44ad47b0185"
+        }
+      ]
+    },
+    {
+      "@id": "_:N6a108e7ad56f4e0385a7784ff30d0ef1",
+      "https://schema.org#geo": {
+        "@id": "_:N8971d4f8379347b2bd37ecd321e89ac0"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q365"
+      },
+      "rdfs:label": "Köln"
+    },
+    {
+      "@id": "_:N8971d4f8379347b2bd37ecd321e89ac0",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "50.93333",
+      "https://schema.org#longitude": "6.95"
+    },
+    {
+      "@id": "_:N98482850770c4a55a066a88bbcb05b43",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1486-05-09"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1486-05-09"
+      }
+    },
+    {
+      "@id": "_:N5e59c3c72693436b9d581b2810638dd4",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:K00000775"
+      },
+      "ps:P39": {
+        "@id": "ri:abt"
+      },
+      "rdfs:label": "Abt Johann des Klosters Kempten"
+    },
+    {
+      "@id": "_:N8a0e2b7a3b8043bcb525e44ad47b0185",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:K00000431"
+      },
+      "ps:P39": {
+        "@id": "ri:kaiser"
+      },
+      "rdfs:label": "Kaiser Karls IV."
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1484-05-29_1_0_13_30_0_105_105",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Na6fae5d962064860965c9fdeae2e5428"
+      }
+    },
+    {
+      "@id": "_:Na6fae5d962064860965c9fdeae2e5428",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N72d058148ccc4c12b6ddeaa3f9163de4"
+      },
+      "ps:P291": {
+        "@id": "_:N45ab8149c88d4cbc9794e3fa91ce3852"
+      },
+      "ps:P3342": {
+        "@id": "_:N6ebb9a5eec35482aa32f6c3c23a12b57"
+      }
+    },
+    {
+      "@id": "_:N45ab8149c88d4cbc9794e3fa91ce3852",
+      "https://schema.org#geo": {
+        "@id": "_:Nfde3de46e8364762beff5a824be4a9aa"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q13298"
+      },
+      "rdfs:label": "Graz"
+    },
+    {
+      "@id": "_:Nfde3de46e8364762beff5a824be4a9aa",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.06667",
+      "https://schema.org#longitude": "15.45"
+    },
+    {
+      "@id": "_:N72d058148ccc4c12b6ddeaa3f9163de4",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1484-05-29"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1484-05-29"
+      }
+    },
+    {
+      "@id": "_:N6ebb9a5eec35482aa32f6c3c23a12b57",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:P00002348"
+      },
+      "ps:P39": {
+        "@id": "ri:buerger"
+      },
+      "rdfs:label": "Hans Pretl, Bürger zu Bruck an der Mur"
+    }
+  ]
+}

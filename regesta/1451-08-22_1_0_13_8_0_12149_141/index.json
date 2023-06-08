@@ -1,0 +1,148 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1451-08-22_1_0_13_8_0_12149_141",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N311c715569ae4240907f655074bb2b75"
+      }
+    },
+    {
+      "@id": "_:N311c715569ae4240907f655074bb2b75",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Ne00dbd08e7e842ec8162de0cb8121b86"
+      },
+      "ps:P291": {
+        "@id": "_:N9f53fbf859d74bee8dd9d407159cc01c"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N03b190c0ef5f491084bc3711b7eb81fb"
+        },
+        {
+          "@id": "_:Na92e350a27bc4fa6acd9dc135711d738"
+        },
+        {
+          "@id": "_:Nf1186861895944e084d9f0d7b36cf320"
+        },
+        {
+          "@id": "_:N65090ae2bbb1473ea4d54fc115c8d8a0"
+        },
+        {
+          "@id": "_:N6ec33caa40024422a49be40d53193681"
+        },
+        {
+          "@id": "_:N8ba2ffe916004286a37d512f930e139b"
+        },
+        {
+          "@id": "_:Nc6aa2774944d4573be4f78537da657d1"
+        }
+      ]
+    },
+    {
+      "@id": "_:N9f53fbf859d74bee8dd9d407159cc01c",
+      "https://schema.org#geo": {
+        "@id": "_:Nb8870e8a0d454a94a52ff1c2810ac1ae"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q1741"
+      },
+      "rdfs:label": "Wien"
+    },
+    {
+      "@id": "_:Nb8870e8a0d454a94a52ff1c2810ac1ae",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "48.20849",
+      "https://schema.org#longitude": "16.37208"
+    },
+    {
+      "@id": "_:Ne00dbd08e7e842ec8162de0cb8121b86",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1451-08-22"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1451-08-22"
+      }
+    },
+    {
+      "@id": "_:N03b190c0ef5f491084bc3711b7eb81fb",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:P00002036"
+      },
+      "rdfs:label": "Albrechts von Pottendorf"
+    },
+    {
+      "@id": "_:Na92e350a27bc4fa6acd9dc135711d738",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:L00001300"
+      },
+      "ps:P39": {
+        "@id": "ri:lic"
+      },
+      "rdfs:label": "Ludwig von Lichtenberg"
+    },
+    {
+      "@id": "_:Nf1186861895944e084d9f0d7b36cf320",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:K00000431"
+      },
+      "ps:P39": {
+        "@id": "ri:kaiser"
+      },
+      "rdfs:label": "K. Karls IV."
+    },
+    {
+      "@id": "_:N65090ae2bbb1473ea4d54fc115c8d8a0",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00003529"
+      },
+      "ps:P39": {
+        "@id": "ri:kaiser"
+      },
+      "rdfs:label": "K. Sigmunds"
+    },
+    {
+      "@id": "_:N6ec33caa40024422a49be40d53193681",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00004611"
+      },
+      "rdfs:label": "Rüdiger von Starhemberg"
+    },
+    {
+      "@id": "_:N8ba2ffe916004286a37d512f930e139b",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:G00001059"
+      },
+      "rdfs:label": "Nikolaus von Glatz"
+    },
+    {
+      "@id": "_:Nc6aa2774944d4573be4f78537da657d1",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:H00000555"
+      },
+      "rdfs:label": "Konrad von Hallstatt"
+    }
+  ]
+}

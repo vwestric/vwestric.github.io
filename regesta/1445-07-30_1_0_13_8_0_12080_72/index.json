@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1445-07-30_1_0_13_8_0_12080_72",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N3c7ae22673a548c6b6c680614b51480d"
+      }
+    },
+    {
+      "@id": "_:N3c7ae22673a548c6b6c680614b51480d",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N225c55d729cf47309a3af0103d055f43"
+      },
+      "ps:P291": {
+        "@id": "_:N4c76e45e17f04374a9c12dee5a27dc7d"
+      },
+      "ps:P3342": {
+        "@id": "_:N5d82378b56dc44ae94b20de13da516c1"
+      }
+    },
+    {
+      "@id": "_:N4c76e45e17f04374a9c12dee5a27dc7d",
+      "https://schema.org#geo": {
+        "@id": "_:N9879d73c00b74949b73dfb6ec5660e9d"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q255604"
+      },
+      "rdfs:label": "im Feld bei Rechnitz in Ungarn"
+    },
+    {
+      "@id": "_:N9879d73c00b74949b73dfb6ec5660e9d",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.306944",
+      "https://schema.org#longitude": "16.438333"
+    },
+    {
+      "@id": "_:N225c55d729cf47309a3af0103d055f43",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1445-07-30"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1445-07-30"
+      }
+    },
+    {
+      "@id": "_:N5d82378b56dc44ae94b20de13da516c1",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:M00000277"
+      },
+      "ps:P39": {
+        "@id": "ri:erzbischof"
+      },
+      "rdfs:label": "Eb. Dietrich von Mainz"
+    }
+  ]
+}

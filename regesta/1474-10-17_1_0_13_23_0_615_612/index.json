@@ -1,0 +1,60 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1474-10-17_1_0_13_23_0_615_612",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Naff344903eb14a13abd88a92538a6c1e"
+      }
+    },
+    {
+      "@id": "_:Naff344903eb14a13abd88a92538a6c1e",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Nc8ff4ca218d74720975aa259d5fff51d"
+      },
+      "ps:P291": {
+        "@id": "_:N5cc1ecd725fa4bbdb29c84569c864d61"
+      }
+    },
+    {
+      "@id": "_:N5cc1ecd725fa4bbdb29c84569c864d61",
+      "https://schema.org#geo": {
+        "@id": "_:N55a017d064c24f438587059fab49951b"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q2999"
+      },
+      "rdfs:label": "Würzburg"
+    },
+    {
+      "@id": "_:N55a017d064c24f438587059fab49951b",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "49.79391",
+      "https://schema.org#longitude": "9.95121"
+    },
+    {
+      "@id": "_:Nc8ff4ca218d74720975aa259d5fff51d",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1474-10-17"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1474-10-17"
+      }
+    }
+  ]
+}

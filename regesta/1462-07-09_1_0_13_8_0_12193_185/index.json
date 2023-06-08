@@ -1,0 +1,90 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1462-07-09_1_0_13_8_0_12193_185",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Nbb9634806b364fde8698ebde2c7f78b2"
+      }
+    },
+    {
+      "@id": "_:Nbb9634806b364fde8698ebde2c7f78b2",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N0b1963da91af4c66b37f9dd2f75e6f2a"
+      },
+      "ps:P291": {
+        "@id": "_:N146df6e00f5147939c6391648614c876"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:Nb044f0d9e0724ba9a7e8027a15a4dbb0"
+        },
+        {
+          "@id": "_:Nb41f44f6ebbd4cc9aa63bcd7652b54e3"
+        }
+      ]
+    },
+    {
+      "@id": "_:N146df6e00f5147939c6391648614c876",
+      "https://schema.org#geo": {
+        "@id": "_:N274b17cc473a490eae7bd74a53be77dc"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q1012"
+      },
+      "rdfs:label": "Cilli"
+    },
+    {
+      "@id": "_:N274b17cc473a490eae7bd74a53be77dc",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "46.2259741",
+      "https://schema.org#longitude": "15.2686029"
+    },
+    {
+      "@id": "_:N0b1963da91af4c66b37f9dd2f75e6f2a",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1462-07-09"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1462-07-09"
+      }
+    },
+    {
+      "@id": "_:Nb044f0d9e0724ba9a7e8027a15a4dbb0",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:P00000962"
+      },
+      "ps:P39": {
+        "@id": "ri:pfalzgraf"
+      },
+      "rdfs:label": "Pfgf. Friedrich bei Rhein"
+    },
+    {
+      "@id": "_:Nb41f44f6ebbd4cc9aa63bcd7652b54e3",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:K00000579"
+      },
+      "ps:P39": {
+        "@id": "ri:graf"
+      },
+      "rdfs:label": "Gf. Philipp von Katzenelnbogen"
+    }
+  ]
+}

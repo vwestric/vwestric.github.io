@@ -1,0 +1,104 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1442-05-21_1_0_13_10_0_12966_6",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N7af6ee9f6fc04faa828af881d4d9ae55"
+      }
+    },
+    {
+      "@id": "_:N7af6ee9f6fc04faa828af881d4d9ae55",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N782b976321d64ca9b2bd0b074b29c734"
+      },
+      "ps:P291": {
+        "@id": "_:N43b2bff20b0f42af87b9a3b11a802fdc"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N35ff726cd6f243f0bae36c5b567a43f2"
+        },
+        {
+          "@id": "_:N7cf471265a504945b32024a1190c9423"
+        },
+        {
+          "@id": "_:N81e7634a869b4cce8ab60fc021d813c7"
+        }
+      ]
+    },
+    {
+      "@id": "_:N43b2bff20b0f42af87b9a3b11a802fdc",
+      "https://schema.org#geo": {
+        "@id": "_:N177a6986f458424298f27d2876219550"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q2090"
+      },
+      "rdfs:label": "Nürnberg"
+    },
+    {
+      "@id": "_:N177a6986f458424298f27d2876219550",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "49.45421",
+      "https://schema.org#longitude": "11.07752"
+    },
+    {
+      "@id": "_:N782b976321d64ca9b2bd0b074b29c734",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1442-05-21"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1442-05-21"
+      }
+    },
+    {
+      "@id": "_:N35ff726cd6f243f0bae36c5b567a43f2",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00000099"
+      },
+      "ps:P39": {
+        "@id": "ri:herzog"
+      },
+      "rdfs:label": "Hz. Wilhelm (III.) von Sachsen"
+    },
+    {
+      "@id": "_:N7cf471265a504945b32024a1190c9423",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00003264"
+      },
+      "ps:P39": {
+        "@id": "ri:herzog"
+      },
+      "rdfs:label": "Hz. Philipp von Burgund"
+    },
+    {
+      "@id": "_:N81e7634a869b4cce8ab60fc021d813c7",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:T00001172"
+      },
+      "ps:P39": {
+        "@id": "ri:erzbischof"
+      },
+      "rdfs:label": "Eb. Jakob von Trier"
+    }
+  ]
+}

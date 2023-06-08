@@ -1,0 +1,90 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1475-09-12_1_0_13_27_0_270_270",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N6069aec289904a15b289d7ac5df84bfb"
+      }
+    },
+    {
+      "@id": "_:N6069aec289904a15b289d7ac5df84bfb",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N41360d4d90704697a6864e1655bb8cfb"
+      },
+      "ps:P291": {
+        "@id": "_:Nd7fff9736d124a77a66977a2b51d981c"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:Ncb646704021242b7a2a777818d9711e5"
+        },
+        {
+          "@id": "_:N5d3344c196e7427aae0a10c7c7b59931"
+        }
+      ]
+    },
+    {
+      "@id": "_:Nd7fff9736d124a77a66977a2b51d981c",
+      "https://schema.org#geo": {
+        "@id": "_:N69af534b85814a7798076010cda9c0b9"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q365"
+      },
+      "rdfs:label": "Köln"
+    },
+    {
+      "@id": "_:N69af534b85814a7798076010cda9c0b9",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "50.93333",
+      "https://schema.org#longitude": "6.95"
+    },
+    {
+      "@id": "_:N41360d4d90704697a6864e1655bb8cfb",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1475-09-12"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1475-09-12"
+      }
+    },
+    {
+      "@id": "_:Ncb646704021242b7a2a777818d9711e5",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00003253"
+      },
+      "ps:P39": {
+        "@id": "ri:herzog"
+      },
+      "rdfs:label": "Hz. (Karl) von Burgund"
+    },
+    {
+      "@id": "_:N5d3344c196e7427aae0a10c7c7b59931",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00001064"
+      },
+      "ps:P39": {
+        "@id": "ri:graf"
+      },
+      "rdfs:label": "Gf. Gerhard von Sayn"
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1489-11-04_1_0_13_3_0_9547_179",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Nda27997059824b56973d3d8d4a9d56aa"
+      }
+    },
+    {
+      "@id": "_:Nda27997059824b56973d3d8d4a9d56aa",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Ne88413f5028543b784a91a4dcecbd64b"
+      },
+      "ps:P291": {
+        "@id": "_:Na36596ce180f4fd68fb6e9acb53cea49"
+      },
+      "ps:P3342": {
+        "@id": "_:N0cedb996e624416b9b5f393fd2765267"
+      }
+    },
+    {
+      "@id": "_:Na36596ce180f4fd68fb6e9acb53cea49",
+      "https://schema.org#geo": {
+        "@id": "_:Nf1fdf1c4635d4957ab363637a7ecb758"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q41329"
+      },
+      "rdfs:label": "Linz"
+    },
+    {
+      "@id": "_:Nf1fdf1c4635d4957ab363637a7ecb758",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "48.303056",
+      "https://schema.org#longitude": "14.290556"
+    },
+    {
+      "@id": "_:Ne88413f5028543b784a91a4dcecbd64b",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1489-11-04"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1489-11-04"
+      }
+    },
+    {
+      "@id": "_:N0cedb996e624416b9b5f393fd2765267",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:H00000641"
+      },
+      "ps:P39": {
+        "@id": "ri:graf"
+      },
+      "rdfs:label": "Gf. Philipp d. J. von Hanau"
+    }
+  ]
+}

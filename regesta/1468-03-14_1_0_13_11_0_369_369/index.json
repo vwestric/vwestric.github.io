@@ -1,0 +1,87 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1468-03-14_1_0_13_11_0_369_369",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N45142c3237974b4b9e3be4026f21874b"
+      }
+    },
+    {
+      "@id": "_:N45142c3237974b4b9e3be4026f21874b",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Nd3898b7ed4594c579b5c9971ff692721"
+      },
+      "ps:P291": {
+        "@id": "_:Nb3b266f3c77249f18b5c28e45bd6db7d"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:Nf530d5761ba844e0b6f861779847addf"
+        },
+        {
+          "@id": "_:N9957fd5ab45c47a7937b4187309b187b"
+        }
+      ]
+    },
+    {
+      "@id": "_:Nb3b266f3c77249f18b5c28e45bd6db7d",
+      "https://schema.org#geo": {
+        "@id": "_:Nc3f74c3fc1034efdbca3bc684ae3b75e"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q13298"
+      },
+      "rdfs:label": "Graz"
+    },
+    {
+      "@id": "_:Nc3f74c3fc1034efdbca3bc684ae3b75e",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.06667",
+      "https://schema.org#longitude": "15.45"
+    },
+    {
+      "@id": "_:Nd3898b7ed4594c579b5c9971ff692721",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1468-03-14"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1468-03-14"
+      }
+    },
+    {
+      "@id": "_:Nf530d5761ba844e0b6f861779847addf",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:P00000307"
+      },
+      "ps:P39": {
+        "@id": "ri:papst"
+      },
+      "rdfs:label": "Papstes (Paul II.)"
+    },
+    {
+      "@id": "_:N9957fd5ab45c47a7937b4187309b187b",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00001825"
+      },
+      "rdfs:label": "Georg von Podiebrad"
+    }
+  ]
+}

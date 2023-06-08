@@ -1,0 +1,52 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1486-02-18_2_0_13_4_0_10478_902",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Nc047765caaf445fbac4e131f5e7e9358"
+      }
+    },
+    {
+      "@id": "_:Nc047765caaf445fbac4e131f5e7e9358",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N46e340d709274879ad43118ba1f6ee33"
+      },
+      "ps:P3342": {
+        "@id": "_:N4c6577cd2e3f4ee785a0428a82d6ba41"
+      }
+    },
+    {
+      "@id": "_:N46e340d709274879ad43118ba1f6ee33",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1486-02-18"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1486-02-18"
+      }
+    },
+    {
+      "@id": "_:N4c6577cd2e3f4ee785a0428a82d6ba41",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:G00000154"
+      },
+      "rdfs:label": "Philipp Gans von Otzberg"
+    }
+  ]
+}

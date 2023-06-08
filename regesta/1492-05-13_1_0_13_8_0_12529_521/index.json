@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1492-05-13_1_0_13_8_0_12529_521",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N92bd7165a3f845899a8884d9902fc4b0"
+      }
+    },
+    {
+      "@id": "_:N92bd7165a3f845899a8884d9902fc4b0",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N4d07bc0553824e158bb3c5030b901402"
+      },
+      "ps:P291": {
+        "@id": "_:N6ca7c5b60b9a427597d69f3cbd81b4a8"
+      },
+      "ps:P3342": {
+        "@id": "_:Nbaa611ecc60746fb9b56e8b93c6add5c"
+      }
+    },
+    {
+      "@id": "_:N6ca7c5b60b9a427597d69f3cbd81b4a8",
+      "https://schema.org#geo": {
+        "@id": "_:Nb3fdd4dbcc324478b79303df4dc4e4ac"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q41329"
+      },
+      "rdfs:label": "Linz"
+    },
+    {
+      "@id": "_:Nb3fdd4dbcc324478b79303df4dc4e4ac",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "48.303056",
+      "https://schema.org#longitude": "14.290556"
+    },
+    {
+      "@id": "_:N4d07bc0553824e158bb3c5030b901402",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1492-05-13"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1492-05-13"
+      }
+    },
+    {
+      "@id": "_:Nbaa611ecc60746fb9b56e8b93c6add5c",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00000574"
+      },
+      "ps:P39": {
+        "@id": "ri:abt"
+      },
+      "rdfs:label": "Abt Ulrich von St. Gallen"
+    }
+  ]
+}

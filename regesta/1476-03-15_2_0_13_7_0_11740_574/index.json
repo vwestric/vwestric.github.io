@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1476-03-15_2_0_13_7_0_11740_574",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Ne8c5c326c66d42078c4cb38c2469bda2"
+      }
+    },
+    {
+      "@id": "_:Ne8c5c326c66d42078c4cb38c2469bda2",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N934b5de05517426dbdec8963b8e0d5ed"
+      },
+      "ps:P291": {
+        "@id": "_:Nb3b17de4e2a7442f95c4b1742519322a"
+      },
+      "ps:P3342": {
+        "@id": "_:N95983678f3894d7194727bf371771371"
+      }
+    },
+    {
+      "@id": "_:Nb3b17de4e2a7442f95c4b1742519322a",
+      "https://schema.org#geo": {
+        "@id": "_:Nab3186952d034505bbf3942592bc8f95"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q131612"
+      },
+      "rdfs:label": "Wiener Neustadt"
+    },
+    {
+      "@id": "_:Nab3186952d034505bbf3942592bc8f95",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.813153",
+      "https://schema.org#longitude": "16.24444"
+    },
+    {
+      "@id": "_:N934b5de05517426dbdec8963b8e0d5ed",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1476-03-15"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1476-03-15"
+      }
+    },
+    {
+      "@id": "_:N95983678f3894d7194727bf371771371",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00003253"
+      },
+      "ps:P39": {
+        "@id": "ri:herzog"
+      },
+      "rdfs:label": "(Hz.) Karl von Burgund"
+    }
+  ]
+}

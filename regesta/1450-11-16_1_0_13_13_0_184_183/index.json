@@ -1,0 +1,115 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1450-11-16_1_0_13_13_0_184_183",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N6d072bfbb93146f3b9824ab405b01255"
+      }
+    },
+    {
+      "@id": "_:N6d072bfbb93146f3b9824ab405b01255",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Nba2c311c2db84494b16d285985194c1b"
+      },
+      "ps:P291": {
+        "@id": "_:N3e6f095a059a4aa2be2076b63cad9b03"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N2f94c95564db4dd1a64cbeb6909c378d"
+        },
+        {
+          "@id": "_:N8a24b52d9d764d2592d549e6f103b06f"
+        },
+        {
+          "@id": "_:N6f9d6528b8424d43be94619b9857ce86"
+        },
+        {
+          "@id": "_:Ne2a81726b50d4584b7b207c00d9175b2"
+        }
+      ]
+    },
+    {
+      "@id": "_:N3e6f095a059a4aa2be2076b63cad9b03",
+      "https://schema.org#geo": {
+        "@id": "_:N73591dd713ef47fb8cd8bf3fc5bf789e"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q131612"
+      },
+      "rdfs:label": "Wiener Neustadt"
+    },
+    {
+      "@id": "_:N73591dd713ef47fb8cd8bf3fc5bf789e",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.813153",
+      "https://schema.org#longitude": "16.24444"
+    },
+    {
+      "@id": "_:Nba2c311c2db84494b16d285985194c1b",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1450-11-16"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1450-11-16"
+      }
+    },
+    {
+      "@id": "_:N2f94c95564db4dd1a64cbeb6909c378d",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00001346"
+      },
+      "ps:P39": {
+        "@id": "ri:graf"
+      },
+      "rdfs:label": "Gf. Johann von Schaunberg"
+    },
+    {
+      "@id": "_:N8a24b52d9d764d2592d549e6f103b06f",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:G00001288"
+      },
+      "ps:P39": {
+        "@id": "ri:graf"
+      },
+      "rdfs:label": "Gf. Heinrich von Görz"
+    },
+    {
+      "@id": "_:N6f9d6528b8424d43be94619b9857ce86",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:C00000456"
+      },
+      "ps:P39": {
+        "@id": "ri:graf"
+      },
+      "rdfs:label": "Gf. Friedrichs von Cilli"
+    },
+    {
+      "@id": "_:Ne2a81726b50d4584b7b207c00d9175b2",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:A00001508"
+      },
+      "rdfs:label": "Engelhard von Auersperg"
+    }
+  ]
+}

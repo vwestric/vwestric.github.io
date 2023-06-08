@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:d7cf8f43-90d2-4000-a741-ff1c97944c20",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Nbb08786579a647e0ba859a2b40703eb3"
+      }
+    },
+    {
+      "@id": "_:Nbb08786579a647e0ba859a2b40703eb3",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N7b55140ebb7347e6b2be03c9f83e1819"
+      },
+      "ps:P291": {
+        "@id": "_:Ne40631b200664a2496bc9bbd4e3a62e3"
+      },
+      "ps:P3342": {
+        "@id": "_:Nf6e77cc3b40d49c78ed12b834329a3ae"
+      }
+    },
+    {
+      "@id": "_:Ne40631b200664a2496bc9bbd4e3a62e3",
+      "https://schema.org#geo": {
+        "@id": "_:N39da5dcfe57b478f8482aa3cf744b5b8"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q131612"
+      },
+      "rdfs:label": "Wiener Neustadt"
+    },
+    {
+      "@id": "_:N39da5dcfe57b478f8482aa3cf744b5b8",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.813153",
+      "https://schema.org#longitude": "16.24444"
+    },
+    {
+      "@id": "_:N7b55140ebb7347e6b2be03c9f83e1819",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1448-10-26"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1448-10-26"
+      }
+    },
+    {
+      "@id": "_:Nf6e77cc3b40d49c78ed12b834329a3ae",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00000582"
+      },
+      "ps:P39": {
+        "@id": "ri:herzog"
+      },
+      "rdfs:label": "Hz. Albrecht (III.) von Bayern (-München)"
+    }
+  ]
+}

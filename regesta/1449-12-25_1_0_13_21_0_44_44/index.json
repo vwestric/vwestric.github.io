@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1449-12-25_1_0_13_21_0_44_44",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N7ea82e70ca894f10804dce2fa50d1250"
+      }
+    },
+    {
+      "@id": "_:N7ea82e70ca894f10804dce2fa50d1250",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N813372ebf62c4a81ac08f5f727a5a136"
+      },
+      "ps:P291": {
+        "@id": "_:N5cdcd5da80bb46728f772bf22dacfd7e"
+      },
+      "ps:P3342": {
+        "@id": "_:Nc1e8071805b24ebc90a545a22a4f8da1"
+      }
+    },
+    {
+      "@id": "_:N5cdcd5da80bb46728f772bf22dacfd7e",
+      "https://schema.org#geo": {
+        "@id": "_:N109089faeed443238f440b80cd30f3d5"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q131612"
+      },
+      "rdfs:label": "Wiener Neustadt"
+    },
+    {
+      "@id": "_:N109089faeed443238f440b80cd30f3d5",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.813153",
+      "https://schema.org#longitude": "16.24444"
+    },
+    {
+      "@id": "_:N813372ebf62c4a81ac08f5f727a5a136",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1449-12-25"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1449-12-25"
+      }
+    },
+    {
+      "@id": "_:Nc1e8071805b24ebc90a545a22a4f8da1",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00002265"
+      },
+      "ps:P39": {
+        "@id": "ri:markgraf"
+      },
+      "rdfs:label": "Mgf. Friedrich (II.) von Brandenburg"
+    }
+  ]
+}

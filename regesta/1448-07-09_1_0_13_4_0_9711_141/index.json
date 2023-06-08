@@ -1,0 +1,129 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1448-07-09_1_0_13_4_0_9711_141",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N6bef56ca2ae44853b938e23c73f84f75"
+      }
+    },
+    {
+      "@id": "_:N6bef56ca2ae44853b938e23c73f84f75",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Ncf1ab1a53ae049b187ef952d9c2ad4c8"
+      },
+      "ps:P291": {
+        "@id": "_:N250b477a621b40cbb61207f2b70bbc75"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:Nd13e462a7d3b45fd9192bf9ea7966d12"
+        },
+        {
+          "@id": "_:N6ed9525bef1c4801b48bf82a2c6a08f9"
+        },
+        {
+          "@id": "_:N5797a1571f24461dacfa77fce06709aa"
+        },
+        {
+          "@id": "_:N19db4a4901be4b4389f88d671d5784bc"
+        },
+        {
+          "@id": "_:N88dfd94d71274bebace954b6e95cc9b8"
+        }
+      ]
+    },
+    {
+      "@id": "_:N250b477a621b40cbb61207f2b70bbc75",
+      "https://schema.org#geo": {
+        "@id": "_:N5e225cf4232847c885d2211bb6f9c6fc"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q13298"
+      },
+      "rdfs:label": "Graz"
+    },
+    {
+      "@id": "_:N5e225cf4232847c885d2211bb6f9c6fc",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.06667",
+      "https://schema.org#longitude": "15.45"
+    },
+    {
+      "@id": "_:Ncf1ab1a53ae049b187ef952d9c2ad4c8",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1448-07-09"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1448-07-09"
+      }
+    },
+    {
+      "@id": "_:Nd13e462a7d3b45fd9192bf9ea7966d12",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:M00000277"
+      },
+      "ps:P39": {
+        "@id": "ri:erzbischof"
+      },
+      "rdfs:label": "Eb. Dietrich von Mainz"
+    },
+    {
+      "@id": "_:N6ed9525bef1c4801b48bf82a2c6a08f9",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:I00000279"
+      },
+      "ps:P39": {
+        "@id": "ri:graf"
+      },
+      "rdfs:label": "Gf. Diether von Isenburg-Büdingen"
+    },
+    {
+      "@id": "_:N5797a1571f24461dacfa77fce06709aa",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:E00001166"
+      },
+      "rdfs:label": "Gottfried von Eppstein"
+    },
+    {
+      "@id": "_:N19db4a4901be4b4389f88d671d5784bc",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:E00001151"
+      },
+      "ps:P39": {
+        "@id": "ri:koenig"
+      },
+      "rdfs:label": "Eberhard von Eppstein-Königstein"
+    },
+    {
+      "@id": "_:N88dfd94d71274bebace954b6e95cc9b8",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:L00000861"
+      },
+      "ps:P39": {
+        "@id": "ri:graf"
+      },
+      "rdfs:label": "Gf. Hessos von Leiningen"
+    }
+  ]
+}

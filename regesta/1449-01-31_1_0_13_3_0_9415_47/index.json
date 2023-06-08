@@ -1,0 +1,90 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1449-01-31_1_0_13_3_0_9415_47",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Nad4dd7a451fc4b778615bc3b21ef6ba0"
+      }
+    },
+    {
+      "@id": "_:Nad4dd7a451fc4b778615bc3b21ef6ba0",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N02fb0ed7eba84f10a901c6443820798e"
+      },
+      "ps:P291": {
+        "@id": "_:Nd10912e83e324f72a0dc43e4de43f8d4"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N9a217ae4b9d84a6cbe1497526977237b"
+        },
+        {
+          "@id": "_:N0fefbf38ab8e4bd1a5e3a547b319b3f7"
+        }
+      ]
+    },
+    {
+      "@id": "_:Nd10912e83e324f72a0dc43e4de43f8d4",
+      "https://schema.org#geo": {
+        "@id": "_:Nb7aa10d371494db4835b7350b1a124a0"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q131612"
+      },
+      "rdfs:label": "Wiener Neustadt"
+    },
+    {
+      "@id": "_:Nb7aa10d371494db4835b7350b1a124a0",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.813153",
+      "https://schema.org#longitude": "16.24444"
+    },
+    {
+      "@id": "_:N02fb0ed7eba84f10a901c6443820798e",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1449-01-31"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1449-01-31"
+      }
+    },
+    {
+      "@id": "_:N9a217ae4b9d84a6cbe1497526977237b",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:I00000279"
+      },
+      "ps:P39": {
+        "@id": "ri:graf"
+      },
+      "rdfs:label": "Gf. Diether von Isenburg"
+    },
+    {
+      "@id": "_:N0fefbf38ab8e4bd1a5e3a547b319b3f7",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:I00000279"
+      },
+      "ps:P39": {
+        "@id": "ri:graf"
+      },
+      "rdfs:label": "Gf. Diether von Isenburg-Büdingen"
+    }
+  ]
+}

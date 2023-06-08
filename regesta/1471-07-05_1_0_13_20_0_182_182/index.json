@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1471-07-05_1_0_13_20_0_182_182",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N90430f878c244daa9138cac4d1a94005"
+      }
+    },
+    {
+      "@id": "_:N90430f878c244daa9138cac4d1a94005",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N7396b9e0dfe648d886d37389c585e382"
+      },
+      "ps:P291": {
+        "@id": "_:N124ce907fef24c1a9b92230ec67b11a0"
+      },
+      "ps:P3342": {
+        "@id": "_:N27a1e380ea6d431fa22022a2a6b08d8b"
+      }
+    },
+    {
+      "@id": "_:N124ce907fef24c1a9b92230ec67b11a0",
+      "https://schema.org#geo": {
+        "@id": "_:N1b9811b99cb44d73ab83ef7b1513a093"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q2978"
+      },
+      "rdfs:label": "Regensburg"
+    },
+    {
+      "@id": "_:N1b9811b99cb44d73ab83ef7b1513a093",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "49.0054",
+      "https://schema.org#longitude": "12.0606"
+    },
+    {
+      "@id": "_:N7396b9e0dfe648d886d37389c585e382",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1471-07-05"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1471-07-05"
+      }
+    },
+    {
+      "@id": "_:N27a1e380ea6d431fa22022a2a6b08d8b",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:M00000083"
+      },
+      "ps:P39": {
+        "@id": "ri:erzbischof"
+      },
+      "rdfs:label": "Eb. Johann von Magdeburg"
+    }
+  ]
+}

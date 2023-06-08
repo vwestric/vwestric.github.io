@@ -1,0 +1,90 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1462-10-04_2_0_13_18_0_289_289",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N3f3830bb234e4154bd88c9b15be92fd4"
+      }
+    },
+    {
+      "@id": "_:N3f3830bb234e4154bd88c9b15be92fd4",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N8d88c8302fc7493cb7367ed7de16445b"
+      },
+      "ps:P291": {
+        "@id": "_:N469109cd4b1347d9ba32c17a6e89a5fa"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:Nc6fdb7788edc4c58b762bac55520a644"
+        },
+        {
+          "@id": "_:N78c08d2a110845209bdcb231e400a143"
+        }
+      ]
+    },
+    {
+      "@id": "_:N469109cd4b1347d9ba32c17a6e89a5fa",
+      "https://schema.org#geo": {
+        "@id": "_:Ncc9356a6cfd349ec98a79de5bc28278b"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q1741"
+      },
+      "rdfs:label": "Wien"
+    },
+    {
+      "@id": "_:Ncc9356a6cfd349ec98a79de5bc28278b",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "48.20849",
+      "https://schema.org#longitude": "16.37208"
+    },
+    {
+      "@id": "_:N8d88c8302fc7493cb7367ed7de16445b",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1462-10-04"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1462-10-04"
+      }
+    },
+    {
+      "@id": "_:Nc6fdb7788edc4c58b762bac55520a644",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00000360"
+      },
+      "ps:P39": {
+        "@id": "ri:erzbischof"
+      },
+      "rdfs:label": "Eb. Burkhard von Salzburg"
+    },
+    {
+      "@id": "_:N78c08d2a110845209bdcb231e400a143",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:G00002570"
+      },
+      "ps:P39": {
+        "@id": "ri:bischof"
+      },
+      "rdfs:label": "Bf. Ulrich von Gurk"
+    }
+  ]
+}

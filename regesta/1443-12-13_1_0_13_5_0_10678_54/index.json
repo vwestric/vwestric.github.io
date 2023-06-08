@@ -1,0 +1,90 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1443-12-13_1_0_13_5_0_10678_54",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Nb94ed88bfc2f45fa9c2041d30fc73014"
+      }
+    },
+    {
+      "@id": "_:Nb94ed88bfc2f45fa9c2041d30fc73014",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N68610a4a27cd43b5b483aa3e120b6784"
+      },
+      "ps:P291": {
+        "@id": "_:Nc7130688ae684a2a81fb576bd99a138a"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:Nf72e9cda5e6249828d727f2e739137bd"
+        },
+        {
+          "@id": "_:N528fb6edd83b41afb193fc86b41b9e18"
+        }
+      ]
+    },
+    {
+      "@id": "_:Nc7130688ae684a2a81fb576bd99a138a",
+      "https://schema.org#geo": {
+        "@id": "_:Ne6b7a7ad357440c1b8a117f5974ed5cf"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q13298"
+      },
+      "rdfs:label": "Graz"
+    },
+    {
+      "@id": "_:Ne6b7a7ad357440c1b8a117f5974ed5cf",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.06667",
+      "https://schema.org#longitude": "15.45"
+    },
+    {
+      "@id": "_:N68610a4a27cd43b5b483aa3e120b6784",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1443-12-13"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1443-12-13"
+      }
+    },
+    {
+      "@id": "_:Nf72e9cda5e6249828d727f2e739137bd",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00001525"
+      },
+      "ps:P39": {
+        "@id": "ri:schenk"
+      },
+      "rdfs:label": "Schenk Konrad von Erbach"
+    },
+    {
+      "@id": "_:N528fb6edd83b41afb193fc86b41b9e18",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:E00001151"
+      },
+      "ps:P39": {
+        "@id": "ri:koenig"
+      },
+      "rdfs:label": "Eberhard (III.) von Eppstein-Königstein"
+    }
+  ]
+}

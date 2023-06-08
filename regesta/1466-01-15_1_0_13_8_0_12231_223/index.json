@@ -1,0 +1,71 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1466-01-15_1_0_13_8_0_12231_223",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N59776e98d98843cca1b6e947d770d003"
+      }
+    },
+    {
+      "@id": "_:N59776e98d98843cca1b6e947d770d003",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Nc88e018894f348a1a6f121853c03d310"
+      },
+      "ps:P291": {
+        "@id": "_:N43d6b6964869413b824d11fc57763ba4"
+      },
+      "ps:P3342": {
+        "@id": "_:Ncdfc00d48f6e406380a0a9a08717a38e"
+      }
+    },
+    {
+      "@id": "_:N43d6b6964869413b824d11fc57763ba4",
+      "https://schema.org#geo": {
+        "@id": "_:Nd0904198209a44639725a4432e73142d"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q131612"
+      },
+      "rdfs:label": "Wiener Neustadt"
+    },
+    {
+      "@id": "_:Nd0904198209a44639725a4432e73142d",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.813153",
+      "https://schema.org#longitude": "16.24444"
+    },
+    {
+      "@id": "_:Nc88e018894f348a1a6f121853c03d310",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1466-01-15"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1466-01-15"
+      }
+    },
+    {
+      "@id": "_:Ncdfc00d48f6e406380a0a9a08717a38e",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00001357"
+      },
+      "rdfs:label": "Michael von Bickenbach"
+    }
+  ]
+}

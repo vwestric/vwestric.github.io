@@ -1,0 +1,150 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1451-02-26_2_0_13_19_0_139_139",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Nd20f5ecd9358401791d3bb83128320f5"
+      }
+    },
+    {
+      "@id": "_:Nd20f5ecd9358401791d3bb83128320f5",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Ndcdcec5f705f4de880db1c6fd57e35d1"
+      },
+      "ps:P291": {
+        "@id": "_:N3da81727d4a747d2bd8108314bf7085d"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:Nf28bdb0d1d3046a3a4bd02b9b85073db"
+        },
+        {
+          "@id": "_:N30c9e602f12c4e0cb5f5068372d35c80"
+        },
+        {
+          "@id": "_:N8082a1930f05467bbe1a11e3e8d20880"
+        },
+        {
+          "@id": "_:N04d0653f61c548e9b6cd107a2c46604c"
+        },
+        {
+          "@id": "_:Ne1e86454d9e64843b38549d83f90ef44"
+        },
+        {
+          "@id": "_:N578f15f1eb9146b798dca937124c4c21"
+        },
+        {
+          "@id": "_:N9a21a1af7c3b41a6a8aef79e335510c7"
+        },
+        {
+          "@id": "_:N51097ea216e3413e94d74debe150ef19"
+        }
+      ]
+    },
+    {
+      "@id": "_:N3da81727d4a747d2bd8108314bf7085d",
+      "https://schema.org#geo": {
+        "@id": "_:N71197d18c5454fb9803a48329cecf7af"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q131612"
+      },
+      "rdfs:label": "Wiener Neustadt"
+    },
+    {
+      "@id": "_:N71197d18c5454fb9803a48329cecf7af",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.813153",
+      "https://schema.org#longitude": "16.24444"
+    },
+    {
+      "@id": "_:Ndcdcec5f705f4de880db1c6fd57e35d1",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1451-02-26"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1451-02-26"
+      }
+    },
+    {
+      "@id": "_:Nf28bdb0d1d3046a3a4bd02b9b85073db",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:P00002036"
+      },
+      "rdfs:label": "Albrechts von Pottendorf"
+    },
+    {
+      "@id": "_:N30c9e602f12c4e0cb5f5068372d35c80",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:R00000028"
+      },
+      "rdfs:label": "Prokop von Rabenstein"
+    },
+    {
+      "@id": "_:N8082a1930f05467bbe1a11e3e8d20880",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:C00000119"
+      },
+      "rdfs:label": "Hartung von Cappel"
+    },
+    {
+      "@id": "_:N04d0653f61c548e9b6cd107a2c46604c",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:H00000555"
+      },
+      "rdfs:label": "Konrad von Hallstatt"
+    },
+    {
+      "@id": "_:Ne1e86454d9e64843b38549d83f90ef44",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:L00002238"
+      },
+      "rdfs:label": "Nikolaus von Lützelburg"
+    },
+    {
+      "@id": "_:N578f15f1eb9146b798dca937124c4c21",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:G00001059"
+      },
+      "rdfs:label": "Nikolaus von Glatz"
+    },
+    {
+      "@id": "_:N9a21a1af7c3b41a6a8aef79e335510c7",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00005403"
+      },
+      "rdfs:label": "Hans Ulrich von Stoffeln"
+    },
+    {
+      "@id": "_:N51097ea216e3413e94d74debe150ef19",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00000990"
+      },
+      "rdfs:label": "Wolfgang von Saurau"
+    }
+  ]
+}

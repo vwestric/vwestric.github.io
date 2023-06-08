@@ -1,0 +1,52 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1470-05-04_1_0_13_27_0_35_35",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N0f9ac5b14b5643a5866fe6a40ba8ec79"
+      }
+    },
+    {
+      "@id": "_:N0f9ac5b14b5643a5866fe6a40ba8ec79",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N35fd48a6a192458d9c1002d768377e37"
+      },
+      "ps:P3342": {
+        "@id": "_:Nc5bd5804ba8840989ee4683ac6c70354"
+      }
+    },
+    {
+      "@id": "_:N35fd48a6a192458d9c1002d768377e37",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1470-05-04"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1470-05-04"
+      }
+    },
+    {
+      "@id": "_:Nc5bd5804ba8840989ee4683ac6c70354",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:R00002243"
+      },
+      "rdfs:label": "Sigmund von Roggendorf"
+    }
+  ]
+}

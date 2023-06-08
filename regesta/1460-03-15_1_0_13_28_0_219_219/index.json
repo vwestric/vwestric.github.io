@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1460-03-15_1_0_13_28_0_219_219",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Nfe1db094ba7f406991fc35b5cdffb7d5"
+      }
+    },
+    {
+      "@id": "_:Nfe1db094ba7f406991fc35b5cdffb7d5",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N896e92d2ffbe4a75b75d027418fa1b5a"
+      },
+      "ps:P291": {
+        "@id": "_:N163406eb0da742aa8e6cda381defda89"
+      },
+      "ps:P3342": {
+        "@id": "_:Nc17b8574ce4c45db8f5e4e5fde05733d"
+      }
+    },
+    {
+      "@id": "_:N163406eb0da742aa8e6cda381defda89",
+      "https://schema.org#geo": {
+        "@id": "_:Nc47338de85fc44eeb77d8d5012279530"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q1741"
+      },
+      "rdfs:label": "Wien"
+    },
+    {
+      "@id": "_:Nc47338de85fc44eeb77d8d5012279530",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "48.20849",
+      "https://schema.org#longitude": "16.37208"
+    },
+    {
+      "@id": "_:N896e92d2ffbe4a75b75d027418fa1b5a",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1460-03-15"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1460-03-15"
+      }
+    },
+    {
+      "@id": "_:Nc17b8574ce4c45db8f5e4e5fde05733d",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:T00000369"
+      },
+      "ps:P39": {
+        "@id": "ri:buerger"
+      },
+      "rdfs:label": "Nürnberger Bürger Jobst Tetzel"
+    }
+  ]
+}

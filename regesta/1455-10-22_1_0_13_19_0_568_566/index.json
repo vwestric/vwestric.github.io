@@ -1,0 +1,79 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1455-10-22_1_0_13_19_0_568_566",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N97ed9f596d0743daab0abe80d74cc444"
+      }
+    },
+    {
+      "@id": "_:N97ed9f596d0743daab0abe80d74cc444",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Ne92218bf558e46ab9a8e0196f5360010"
+      },
+      "ps:P291": {
+        "@id": "_:N4201ccfde7e8413c9236cabcb64e61b2"
+      },
+      "ps:P3342": {
+        "@id": "_:N4c06d7292de848cdbf98312df2bd5e3b"
+      }
+    },
+    {
+      "@id": "_:N4201ccfde7e8413c9236cabcb64e61b2",
+      "https://schema.org#geo": {
+        "@id": "_:N28ed1d22b3db422faa7beab2257b02b0"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q13298"
+      },
+      "rdfs:label": "Graz"
+    },
+    {
+      "@id": "_:N28ed1d22b3db422faa7beab2257b02b0",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.06667",
+      "https://schema.org#longitude": "15.45"
+    },
+    {
+      "@id": "_:Ne92218bf558e46ab9a8e0196f5360010",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1455-10-22"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1455-10-22"
+      }
+    },
+    {
+      "@id": "_:N4c06d7292de848cdbf98312df2bd5e3b",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:M00000893"
+      },
+      "ps:P39": [
+        {
+          "@id": "ri:erbmarschall"
+        },
+        {
+          "@id": "ri:rat"
+        }
+      ],
+      "rdfs:label": "Erbmarschall und ksl. Rat Heinrich von Pappenheim"
+    }
+  ]
+}

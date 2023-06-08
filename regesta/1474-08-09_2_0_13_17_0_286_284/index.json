@@ -1,0 +1,98 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1474-08-09_2_0_13_17_0_286_284",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N55746261f4744a3ba121377107d74de4"
+      }
+    },
+    {
+      "@id": "_:N55746261f4744a3ba121377107d74de4",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N5e56cac8f40f42cd95df1c49e27f6752"
+      },
+      "ps:P291": {
+        "@id": "_:Ne09cd05a776a45cabb735eea5e000559"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N8c35c4448f3f4198a2579d8a1d5db925"
+        },
+        {
+          "@id": "_:Nda8a316dc705423796a01cdb1ab3ef6e"
+        },
+        {
+          "@id": "_:N5a180360618d4cc5929ee53c92746c39"
+        }
+      ]
+    },
+    {
+      "@id": "_:Ne09cd05a776a45cabb735eea5e000559",
+      "https://schema.org#geo": {
+        "@id": "_:N070df8bb670d4bc7b129f2d001e0379b"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q2749"
+      },
+      "rdfs:label": "Augsburg"
+    },
+    {
+      "@id": "_:N070df8bb670d4bc7b129f2d001e0379b",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "48.37154",
+      "https://schema.org#longitude": "10.89851"
+    },
+    {
+      "@id": "_:N5e56cac8f40f42cd95df1c49e27f6752",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1474-08-09"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1474-08-09"
+      }
+    },
+    {
+      "@id": "_:N8c35c4448f3f4198a2579d8a1d5db925",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:E00000172"
+      },
+      "rdfs:label": "Hans Eckbrecht von Dürckheim"
+    },
+    {
+      "@id": "_:Nda8a316dc705423796a01cdb1ab3ef6e",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00003318"
+      },
+      "rdfs:label": "Konrad von Busenberg"
+    },
+    {
+      "@id": "_:N5a180360618d4cc5929ee53c92746c39",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:M00000255"
+      },
+      "ps:P39": {
+        "@id": "ri:erzbischof"
+      },
+      "rdfs:label": "Eb. Adolf von Mainz"
+    }
+  ]
+}

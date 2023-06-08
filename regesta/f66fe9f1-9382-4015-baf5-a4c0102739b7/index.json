@@ -1,0 +1,148 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:f66fe9f1-9382-4015-baf5-a4c0102739b7",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N5bca514e9c674de1ac995564dca8f309"
+      }
+    },
+    {
+      "@id": "_:N5bca514e9c674de1ac995564dca8f309",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N0ce3261827c34e9792ba88257ca9334b"
+      },
+      "ps:P291": {
+        "@id": "_:Nf3752971b79c4557bc912123e2e04d9b"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:Nb29d86872ce847b7bace1ece6985903a"
+        },
+        {
+          "@id": "_:N2e5da9d53c7941b6aa10b44c2c72c9eb"
+        },
+        {
+          "@id": "_:N7188c35804474260949cddd0a3c02f79"
+        },
+        {
+          "@id": "_:Ncdb21192a91943f99747631646d7ece6"
+        },
+        {
+          "@id": "_:Nf95f68279b8a4f6b9eb95549cb20dc29"
+        },
+        {
+          "@id": "_:Ndf7c87f7cdc743ceaab140d85550a0e3"
+        },
+        {
+          "@id": "_:N22e87756c18743e4a24e2803db1629e3"
+        }
+      ]
+    },
+    {
+      "@id": "_:Nf3752971b79c4557bc912123e2e04d9b",
+      "https://schema.org#geo": {
+        "@id": "_:Nb4d64a7eb43148c98b84a1e92a82e5a7"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q1741"
+      },
+      "rdfs:label": "Wien"
+    },
+    {
+      "@id": "_:Nb4d64a7eb43148c98b84a1e92a82e5a7",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "48.20849",
+      "https://schema.org#longitude": "16.37208"
+    },
+    {
+      "@id": "_:N0ce3261827c34e9792ba88257ca9334b",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1459-08-21"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1459-08-21"
+      }
+    },
+    {
+      "@id": "_:Nb29d86872ce847b7bace1ece6985903a",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00000095"
+      },
+      "ps:P39": {
+        "@id": "ri:markgraf"
+      },
+      "rdfs:label": "Mgf. Wilhelms von (Baden-) Hachberg"
+    },
+    {
+      "@id": "_:N2e5da9d53c7941b6aa10b44c2c72c9eb",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00002248"
+      },
+      "ps:P39": {
+        "@id": "ri:markgraf"
+      },
+      "rdfs:label": "Mgf. Albrecht von Brandenburg"
+    },
+    {
+      "@id": "_:N7188c35804474260949cddd0a3c02f79",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00002248"
+      },
+      "ps:P39": {
+        "@id": "ri:markgraf"
+      },
+      "rdfs:label": "Mgf. Albrecht von Brandenburg"
+    },
+    {
+      "@id": "_:Ncdb21192a91943f99747631646d7ece6",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:L00000247"
+      },
+      "rdfs:label": "Lutz von Landau"
+    },
+    {
+      "@id": "_:Nf95f68279b8a4f6b9eb95549cb20dc29",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00001681"
+      },
+      "rdfs:label": "Melchior von Blumeneck"
+    },
+    {
+      "@id": "_:Ndf7c87f7cdc743ceaab140d85550a0e3",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:T00001402"
+      },
+      "rdfs:label": "Wilhelm Truchtlinger"
+    },
+    {
+      "@id": "_:N22e87756c18743e4a24e2803db1629e3",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00002427"
+      },
+      "rdfs:label": "Christian von Breda"
+    }
+  ]
+}

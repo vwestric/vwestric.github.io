@@ -1,0 +1,530 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1470-06-12_1_0_13_4_0_10076_504",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N3d8a76eca6ca483aae02cb94318d844e"
+      }
+    },
+    {
+      "@id": "_:N3d8a76eca6ca483aae02cb94318d844e",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N087b813e3c1d405e988e25fc8e2a27c0"
+      },
+      "ps:P291": {
+        "@id": "_:N084e8296a9214bb8b5892e15342b6d5c"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:Nb9cd800809f6479d8a3ea1c6a40e9279"
+        },
+        {
+          "@id": "_:Nf934a511a023465cb14d4753711715d3"
+        },
+        {
+          "@id": "_:N0b080bf2f9ba4ef3af35b78e23b88de5"
+        },
+        {
+          "@id": "_:Nad884515ce8a412fbd2ede93d2ba4af3"
+        },
+        {
+          "@id": "_:N9de1cf1c25904291afb2e95d55cc2ffb"
+        },
+        {
+          "@id": "_:N54896be9136e4924b8fff87c9f36bdc2"
+        },
+        {
+          "@id": "_:N44c45ca6e7174debbaf2c1dcb91b29b7"
+        },
+        {
+          "@id": "_:N92f2b12d9b19401b8f2626cf1803d12a"
+        },
+        {
+          "@id": "_:N32869119bf4b46dea8be2dbb2c9bf37a"
+        },
+        {
+          "@id": "_:Nbd20276ed7e24ffa9517e08416f8eed2"
+        },
+        {
+          "@id": "_:N6d50c6c4c38048eab057b9e7b00e09c8"
+        },
+        {
+          "@id": "_:N8e847e3f8eff4f268ffd4f40a8e16111"
+        },
+        {
+          "@id": "_:N8cf78bc9d09b4c18a65333d855533198"
+        },
+        {
+          "@id": "_:N6f27e79c49c946d6a349a63cfb8c9e86"
+        },
+        {
+          "@id": "_:N2b399e5d0a444d51ab0bebd3c6345d22"
+        },
+        {
+          "@id": "_:N29a6031d77b0467992afad8fe00e05cd"
+        },
+        {
+          "@id": "_:Ndf423a032c894732bac9de299de7aced"
+        },
+        {
+          "@id": "_:Nccb1814ef6964e028b54353236db60e8"
+        },
+        {
+          "@id": "_:N1ef781dc74334116a098ff3bb2db0ddc"
+        },
+        {
+          "@id": "_:Nddb777af6f0043fcb33771fbc0851541"
+        },
+        {
+          "@id": "_:N482bf58afe7447228f1cbc8c25a3ffa5"
+        },
+        {
+          "@id": "_:N9c2c43b8356e43ec8f3751d5a8b846e8"
+        },
+        {
+          "@id": "_:Nf082d8b3233e4fa1b94a867d0d937335"
+        },
+        {
+          "@id": "_:N0b81c9acc3d94c9d98cc2518a7b06166"
+        },
+        {
+          "@id": "_:N7f98a38759f842aaa949596ae246e023"
+        },
+        {
+          "@id": "_:N21d87eacbcef4210931e33702731c14e"
+        },
+        {
+          "@id": "_:N93aec418527d42c988f442d7a822d658"
+        },
+        {
+          "@id": "_:N184f34896bcc4c56af95fb34fba2367a"
+        },
+        {
+          "@id": "_:Nbfa8b3f1d62e49e38fc4f4eb4e226ac9"
+        },
+        {
+          "@id": "_:N5dbe42d636c541f28e7a4a795f3ae9bf"
+        },
+        {
+          "@id": "_:N9db039ee58fb432b80cd315ebebe8187"
+        },
+        {
+          "@id": "_:N6baca282afa140a392fd966b6e148c41"
+        },
+        {
+          "@id": "_:Ned07fa6fcf5c4f72b778ff3a5c0fe7a8"
+        },
+        {
+          "@id": "_:Ne2886bf9abc2499ea25984282c9095ad"
+        },
+        {
+          "@id": "_:N009f56b4e5224bd1a245a70c752adacb"
+        },
+        {
+          "@id": "_:Nabc823be13c14d8382c39cb1a712133b"
+        },
+        {
+          "@id": "_:Nb6f530f476794368a0409e504d5d616a"
+        },
+        {
+          "@id": "_:N69e556a661984768bcde8371568c38b5"
+        },
+        {
+          "@id": "_:N327a7ab7b623483f8ff316019ef9a2bc"
+        }
+      ]
+    },
+    {
+      "@id": "_:N084e8296a9214bb8b5892e15342b6d5c",
+      "https://schema.org#geo": {
+        "@id": "_:N781c6981f6a14b7881854f903298e43a"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q668044"
+      },
+      "rdfs:label": "Millstatt"
+    },
+    {
+      "@id": "_:N781c6981f6a14b7881854f903298e43a",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "46.80417",
+      "https://schema.org#longitude": "13.58056"
+    },
+    {
+      "@id": "_:N087b813e3c1d405e988e25fc8e2a27c0",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1470-06-12"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1470-06-12"
+      }
+    },
+    {
+      "@id": "_:Nb9cd800809f6479d8a3ea1c6a40e9279",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:P00000962"
+      },
+      "ps:P39": {
+        "@id": "ri:pfalzgraf"
+      },
+      "rdfs:label": "Pfgf. Friedrich bei Rhein"
+    },
+    {
+      "@id": "_:Nf934a511a023465cb14d4753711715d3",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:M00001793"
+      },
+      "rdfs:label": "Georg von Metz"
+    },
+    {
+      "@id": "_:N0b080bf2f9ba4ef3af35b78e23b88de5",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00000220"
+      },
+      "rdfs:label": "Georg von Bamberg"
+    },
+    {
+      "@id": "_:Nad884515ce8a412fbd2ede93d2ba4af3",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:K00002070"
+      },
+      "rdfs:label": "Hermann von Konstanz"
+    },
+    {
+      "@id": "_:N9de1cf1c25904291afb2e95d55cc2ffb",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00000385"
+      },
+      "rdfs:label": "Johann von Basel"
+    },
+    {
+      "@id": "_:N54896be9136e4924b8fff87c9f36bdc2",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:W00003114"
+      },
+      "rdfs:label": "Reinhard von Worms"
+    },
+    {
+      "@id": "_:N44c45ca6e7174debbaf2c1dcb91b29b7",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:E00000497"
+      },
+      "rdfs:label": "Wilhelm von Eichstätt"
+    },
+    {
+      "@id": "_:N92f2b12d9b19401b8f2626cf1803d12a",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00000099"
+      },
+      "rdfs:label": "Ernst von Sachsen"
+    },
+    {
+      "@id": "_:N32869119bf4b46dea8be2dbb2c9bf37a",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00002265"
+      },
+      "ps:P39": {
+        "@id": "ri:markgraf"
+      },
+      "rdfs:label": "Mgf. Friedrich von Brandenburg"
+    },
+    {
+      "@id": "_:Nbd20276ed7e24ffa9517e08416f8eed2",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:P00000998"
+      },
+      "ps:P39": {
+        "@id": "ri:pfalzgraf"
+      },
+      "rdfs:label": "Pfgf. Philipp bei Rhein"
+    },
+    {
+      "@id": "_:N6d50c6c4c38048eab057b9e7b00e09c8",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:P00001020"
+      },
+      "ps:P39": {
+        "@id": "ri:pfalzgraf"
+      },
+      "rdfs:label": "Pfgf. Otto bei Rhein(-Mosbach)"
+    },
+    {
+      "@id": "_:N8e847e3f8eff4f268ffd4f40a8e16111",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00000587"
+      },
+      "ps:P39": {
+        "@id": "ri:herzog"
+      },
+      "rdfs:label": "Hz. Albrecht (IV.) von Bayern(-München)"
+    },
+    {
+      "@id": "_:N8cf78bc9d09b4c18a65333d855533198",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:O00000622"
+      },
+      "rdfs:label": "Sigmund von Österreich"
+    },
+    {
+      "@id": "_:N6f27e79c49c946d6a349a63cfb8c9e86",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00000055"
+      },
+      "rdfs:label": "Albrecht von Sachsen"
+    },
+    {
+      "@id": "_:N2b399e5d0a444d51ab0bebd3c6345d22",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:K00001326"
+      },
+      "rdfs:label": "Johann von Kleve"
+    },
+    {
+      "@id": "_:N29a6031d77b0467992afad8fe00e05cd",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00002248"
+      },
+      "ps:P39": {
+        "@id": "ri:markgraf"
+      },
+      "rdfs:label": "Mgf. Albrecht von Brandenburg"
+    },
+    {
+      "@id": "_:Ndf423a032c894732bac9de299de7aced",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00000075"
+      },
+      "ps:P39": {
+        "@id": "ri:markgraf"
+      },
+      "rdfs:label": "Mgf. Karl von Baden"
+    },
+    {
+      "@id": "_:Nccb1814ef6964e028b54353236db60e8",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:F00001934"
+      },
+      "ps:P39": {
+        "@id": "ri:abt"
+      },
+      "rdfs:label": "Abt Reinhard von Fulda"
+    },
+    {
+      "@id": "_:N1ef781dc74334116a098ff3bb2db0ddc",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:I00000279"
+      },
+      "ps:P39": {
+        "@id": "ri:graf"
+      },
+      "rdfs:label": "Gf. Diether von Isenburg-Büdingen"
+    },
+    {
+      "@id": "_:Nddb777af6f0043fcb33771fbc0851541",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:K00000579"
+      },
+      "rdfs:label": "Philipp von Katzenelnbogen"
+    },
+    {
+      "@id": "_:N482bf58afe7447228f1cbc8c25a3ffa5",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:H00001704"
+      },
+      "rdfs:label": "Friedrich von Henneberg"
+    },
+    {
+      "@id": "_:N9c2c43b8356e43ec8f3751d5a8b846e8",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:W00001556"
+      },
+      "rdfs:label": "Johann von Wertheim"
+    },
+    {
+      "@id": "_:Nf082d8b3233e4fa1b94a867d0d937335",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:F00001865"
+      },
+      "rdfs:label": "Egon von Fürstenberg"
+    },
+    {
+      "@id": "_:N0b81c9acc3d94c9d98cc2518a7b06166",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00003992"
+      },
+      "rdfs:label": "Otto von Solms"
+    },
+    {
+      "@id": "_:N7f98a38759f842aaa949596ae246e023",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:E00000087"
+      },
+      "rdfs:label": "Bernhard von Eberstein"
+    },
+    {
+      "@id": "_:N21d87eacbcef4210931e33702731c14e",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:M00002238"
+      },
+      "rdfs:label": "Jakob von Moers"
+    },
+    {
+      "@id": "_:N93aec418527d42c988f442d7a822d658",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:T00001488"
+      },
+      "rdfs:label": "Konrad von Tübingen"
+    },
+    {
+      "@id": "_:N184f34896bcc4c56af95fb34fba2367a",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:I00000279"
+      },
+      "rdfs:label": "Diether von Isenburg"
+    },
+    {
+      "@id": "_:Nbfa8b3f1d62e49e38fc4f4eb4e226ac9",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:L00002291"
+      },
+      "rdfs:label": "Sigmund von Lupfen"
+    },
+    {
+      "@id": "_:N5dbe42d636c541f28e7a4a795f3ae9bf",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:H00002908"
+      },
+      "rdfs:label": "Albrecht von Hohenlohe"
+    },
+    {
+      "@id": "_:N9db039ee58fb432b80cd315ebebe8187",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:H00002908"
+      },
+      "rdfs:label": "Albrecht von Hohenlohe"
+    },
+    {
+      "@id": "_:N6baca282afa140a392fd966b6e148c41",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:E00001151"
+      },
+      "ps:P39": {
+        "@id": "ri:koenig"
+      },
+      "rdfs:label": "Eberhard von Eppstein-Königstein"
+    },
+    {
+      "@id": "_:Ned07fa6fcf5c4f72b778ff3a5c0fe7a8",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:F00000071"
+      },
+      "rdfs:label": "Thomas von Falkenstein"
+    },
+    {
+      "@id": "_:Ne2886bf9abc2499ea25984282c9095ad",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:O00000427"
+      },
+      "rdfs:label": "Georg von Ochsenstein"
+    },
+    {
+      "@id": "_:N009f56b4e5224bd1a245a70c752adacb",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:L00001297"
+      },
+      "ps:P39": {
+        "@id": "ri:lic"
+      },
+      "rdfs:label": "Jakob von Lichtenberg"
+    },
+    {
+      "@id": "_:Nabc823be13c14d8382c39cb1a712133b",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:F00000448"
+      },
+      "rdfs:label": "Friedrich von Fleckenstein"
+    },
+    {
+      "@id": "_:Nb6f530f476794368a0409e504d5d616a",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:K00002779"
+      },
+      "rdfs:label": "Jakob von Kronberg"
+    },
+    {
+      "@id": "_:N69e556a661984768bcde8371568c38b5",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00000565"
+      },
+      "ps:P39": {
+        "@id": "ri:herzog"
+      },
+      "rdfs:label": "Hz. Ludwig von Bayern(-Veldenz)"
+    },
+    {
+      "@id": "_:N327a7ab7b623483f8ff316019ef9a2bc",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:P00001026"
+      },
+      "ps:P39": {
+        "@id": "ri:pfalzgraf"
+      },
+      "rdfs:label": "Pfgf. Friedrichs bei Rhein"
+    }
+  ]
+}

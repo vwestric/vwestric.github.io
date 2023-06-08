@@ -1,0 +1,243 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1446-03-25_1_0_13_26_0_174_174",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N6d550aac76774c33815d7303a1f82e44"
+      }
+    },
+    {
+      "@id": "_:N6d550aac76774c33815d7303a1f82e44",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N13020f21a72f49a891bc937d242056dc"
+      },
+      "ps:P291": {
+        "@id": "_:Neddcdfe8251f4c5d8bb332b19512b0c2"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N7d8c6838f44249609a69175b51a09628"
+        },
+        {
+          "@id": "_:N8ff0b7890cde4be0aa805f2dacc02f1f"
+        },
+        {
+          "@id": "_:N3e3d2452b1c646419f52076daeb85ad4"
+        },
+        {
+          "@id": "_:Nebf8e17b4bc8460cb3466fe839979c70"
+        },
+        {
+          "@id": "_:N3cb2008e364545e9926b0e5807bd4541"
+        },
+        {
+          "@id": "_:N8f65518ae94346199e90bb6530887723"
+        },
+        {
+          "@id": "_:N469ded7ce1764186bf6da59197e5d1ee"
+        },
+        {
+          "@id": "_:N38afb90763fe4cad8bc9020e15957327"
+        },
+        {
+          "@id": "_:Ndb8575a15c5c4dc082af15c2b3f10c53"
+        },
+        {
+          "@id": "_:N5233dc8c65d64e8d928d84765e460c98"
+        },
+        {
+          "@id": "_:Nb6dcc67b0de2451d98c2942f11b40af5"
+        },
+        {
+          "@id": "_:N6dee3dc65f1b4ba4a391037268249984"
+        },
+        {
+          "@id": "_:N5a33bcd45dc84f97b6cdab61a93ade02"
+        },
+        {
+          "@id": "_:N96249aa02e214fcaa2309dc7171b7aeb"
+        }
+      ]
+    },
+    {
+      "@id": "_:Neddcdfe8251f4c5d8bb332b19512b0c2",
+      "https://schema.org#geo": {
+        "@id": "_:N3718c1faef3f4f2198961c18f01e19db"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q1741"
+      },
+      "rdfs:label": "Wien"
+    },
+    {
+      "@id": "_:N3718c1faef3f4f2198961c18f01e19db",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "48.20849",
+      "https://schema.org#longitude": "16.37208"
+    },
+    {
+      "@id": "_:N13020f21a72f49a891bc937d242056dc",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1446-03-25"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1446-03-25"
+      }
+    },
+    {
+      "@id": "_:N7d8c6838f44249609a69175b51a09628",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:O00000599"
+      },
+      "ps:P39": {
+        "@id": "ri:koenig"
+      },
+      "rdfs:label": "Kg. Ladislaus"
+    },
+    {
+      "@id": "_:N8ff0b7890cde4be0aa805f2dacc02f1f",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:O00000901"
+      },
+      "ps:P39": {
+        "@id": "ri:bischof"
+      },
+      "rdfs:label": "Bf. Paul von Olmütz"
+    },
+    {
+      "@id": "_:N3e3d2452b1c646419f52076daeb85ad4",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00001825"
+      },
+      "rdfs:label": "Georg von Podiebrad"
+    },
+    {
+      "@id": "_:Nebf8e17b4bc8460cb3466fe839979c70",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:L00001311"
+      },
+      "ps:P39": {
+        "@id": "ri:lic"
+      },
+      "rdfs:label": "Jan von Lichtenburg"
+    },
+    {
+      "@id": "_:N3cb2008e364545e9926b0e5807bd4541",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:L00001311"
+      },
+      "ps:P39": {
+        "@id": "ri:lic"
+      },
+      "rdfs:label": "Jan von Lichtenburg und Vöttau"
+    },
+    {
+      "@id": "_:N8f65518ae94346199e90bb6530887723",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:L00001121"
+      },
+      "ps:P39": {
+        "@id": "ri:hauptmann"
+      },
+      "rdfs:label": "Ernst von Leskau, Hauptmann zu Znaim"
+    },
+    {
+      "@id": "_:N469ded7ce1764186bf6da59197e5d1ee",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:O00000599"
+      },
+      "ps:P39": {
+        "@id": "ri:koenig"
+      },
+      "rdfs:label": "Kg. Ladislaus"
+    },
+    {
+      "@id": "_:N38afb90763fe4cad8bc9020e15957327",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:O00000599"
+      },
+      "ps:P39": {
+        "@id": "ri:koenig"
+      },
+      "rdfs:label": "Kg. Ladislaus"
+    },
+    {
+      "@id": "_:Ndb8575a15c5c4dc082af15c2b3f10c53",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:P00000246"
+      },
+      "ps:P39": {
+        "@id": "ri:bischof"
+      },
+      "rdfs:label": "Bf. Leonhard von Passau"
+    },
+    {
+      "@id": "_:N5233dc8c65d64e8d928d84765e460c98",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:W00000388"
+      },
+      "rdfs:label": "Reinprecht von Wallsee"
+    },
+    {
+      "@id": "_:Nb6dcc67b0de2451d98c2942f11b40af5",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:E00000617"
+      },
+      "rdfs:label": "Ulrich von Eitzing"
+    },
+    {
+      "@id": "_:N6dee3dc65f1b4ba4a391037268249984",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00004611"
+      },
+      "rdfs:label": "Rüdiger von Starhemberg"
+    },
+    {
+      "@id": "_:N5a33bcd45dc84f97b6cdab61a93ade02",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:N00000247"
+      },
+      "rdfs:label": "Hans von Neidegg"
+    },
+    {
+      "@id": "_:N96249aa02e214fcaa2309dc7171b7aeb",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:T00001395"
+      },
+      "ps:P39": {
+        "@id": "ri:truchsess"
+      },
+      "rdfs:label": "Niklas Truchseß zu Staatz"
+    }
+  ]
+}

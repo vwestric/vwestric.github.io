@@ -1,0 +1,129 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1442-08-03_1_0_13_9_0_12574_37",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Nda42a2f028e342b9bd5cb939ed8a0c7d"
+      }
+    },
+    {
+      "@id": "_:Nda42a2f028e342b9bd5cb939ed8a0c7d",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N70982cdcba5e4a2282d414d3a4230b8c"
+      },
+      "ps:P291": {
+        "@id": "_:N4ab8227dbf734b739fcfbe35435ffbeb"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N09ff00a3ec1b4439a5a161dda0e803cb"
+        },
+        {
+          "@id": "_:N669ede10fb414deaaa528025f83aaad9"
+        },
+        {
+          "@id": "_:Ndcd3f51eec3344c9adaa5ccbf1164e47"
+        },
+        {
+          "@id": "_:N84ccffe77b4541f1b4038f537c6028d5"
+        },
+        {
+          "@id": "_:N23c89873a8414fc985db2421902bb591"
+        }
+      ]
+    },
+    {
+      "@id": "_:N4ab8227dbf734b739fcfbe35435ffbeb",
+      "https://schema.org#geo": {
+        "@id": "_:Nc8d0166bf9314bdaa8e83ad17b7e4587"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q1794"
+      },
+      "rdfs:label": "Frankfurt"
+    },
+    {
+      "@id": "_:Nc8d0166bf9314bdaa8e83ad17b7e4587",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "50.110556",
+      "https://schema.org#longitude": "8.682222"
+    },
+    {
+      "@id": "_:N70982cdcba5e4a2282d414d3a4230b8c",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1442-08-03"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1442-08-03"
+      }
+    },
+    {
+      "@id": "_:N09ff00a3ec1b4439a5a161dda0e803cb",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00002248"
+      },
+      "ps:P39": {
+        "@id": "ri:markgraf"
+      },
+      "rdfs:label": "Mgf. Albrecht von Brandenburg"
+    },
+    {
+      "@id": "_:N669ede10fb414deaaa528025f83aaad9",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:M00000277"
+      },
+      "ps:P39": {
+        "@id": "ri:erzbischof"
+      },
+      "rdfs:label": "Eb. Dietrich von Mainz"
+    },
+    {
+      "@id": "_:Ndcd3f51eec3344c9adaa5ccbf1164e47",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:A00001569"
+      },
+      "rdfs:label": "Peter von Augsburg"
+    },
+    {
+      "@id": "_:N84ccffe77b4541f1b4038f537c6028d5",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:K00001681"
+      },
+      "ps:P39": {
+        "@id": "ri:erzbischof"
+      },
+      "rdfs:label": "Eb. Dietrichs von Köln"
+    },
+    {
+      "@id": "_:N23c89873a8414fc985db2421902bb591",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:H00001719"
+      },
+      "ps:P39": {
+        "@id": "ri:graf"
+      },
+      "rdfs:label": "Gf. Wilhelm von Henneberg"
+    }
+  ]
+}

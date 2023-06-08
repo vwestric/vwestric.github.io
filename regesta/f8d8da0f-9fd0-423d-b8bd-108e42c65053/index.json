@@ -1,0 +1,187 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:f8d8da0f-9fd0-423d-b8bd-108e42c65053",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Neb2d273cad7241f8b47866cc8ff3f288"
+      }
+    },
+    {
+      "@id": "_:Neb2d273cad7241f8b47866cc8ff3f288",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Ncc47b1e1ab724b0298aaca2fb5b6bc24"
+      },
+      "ps:P291": {
+        "@id": "_:N138137a6afa14e0584f11dc3936925ca"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N755a5e44dc054587ac154e8f2c9389ec"
+        },
+        {
+          "@id": "_:Na2b04401236e4bb69d7c4ff0966cbe7f"
+        },
+        {
+          "@id": "_:N7483fdbc03fe4efeb967ad5b42274052"
+        },
+        {
+          "@id": "_:N43f5708b596d40769a1d8a120919e7ef"
+        },
+        {
+          "@id": "_:N9ee4d10bfd8249b59cb72a6eec4467b9"
+        },
+        {
+          "@id": "_:N41554e3402304af98b6133a5e64a7e96"
+        },
+        {
+          "@id": "_:N1e5fe1fa530142a8b0e0ff248d17b4f9"
+        },
+        {
+          "@id": "_:N2305fbae78534c8eba1e4db83a808bc7"
+        },
+        {
+          "@id": "_:N25255f9094a74e79b6d344c65547fdc5"
+        },
+        {
+          "@id": "_:N3dea0e57058b4080888156e29d673af5"
+        }
+      ]
+    },
+    {
+      "@id": "_:N138137a6afa14e0584f11dc3936925ca",
+      "https://schema.org#geo": {
+        "@id": "_:Nef1f42d6296547d294d6b545ee4c1dc9"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q13298"
+      },
+      "rdfs:label": "Graz"
+    },
+    {
+      "@id": "_:Nef1f42d6296547d294d6b545ee4c1dc9",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.06667",
+      "https://schema.org#longitude": "15.45"
+    },
+    {
+      "@id": "_:Ncc47b1e1ab724b0298aaca2fb5b6bc24",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1456-01-10"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1456-01-10"
+      }
+    },
+    {
+      "@id": "_:N755a5e44dc054587ac154e8f2c9389ec",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00002248"
+      },
+      "ps:P39": {
+        "@id": "ri:markgraf"
+      },
+      "rdfs:label": "Mgf. Albrecht von Brandenburg"
+    },
+    {
+      "@id": "_:Na2b04401236e4bb69d7c4ff0966cbe7f",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:A00001569"
+      },
+      "ps:P39": {
+        "@id": "ri:bischof"
+      },
+      "rdfs:label": "Bf. Peter von Augsburg"
+    },
+    {
+      "@id": "_:N7483fdbc03fe4efeb967ad5b42274052",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:M00000277"
+      },
+      "ps:P39": {
+        "@id": "ri:erzbischof"
+      },
+      "rdfs:label": "Eb. Dietrich von Mainz"
+    },
+    {
+      "@id": "_:N43f5708b596d40769a1d8a120919e7ef",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:W00003365"
+      },
+      "ps:P39": {
+        "@id": "ri:bischof"
+      },
+      "rdfs:label": "Bf. Johann von Würzburg"
+    },
+    {
+      "@id": "_:N9ee4d10bfd8249b59cb72a6eec4467b9",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:O00000622"
+      },
+      "rdfs:label": "Sigmund von Österreich"
+    },
+    {
+      "@id": "_:N41554e3402304af98b6133a5e64a7e96",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:O00000786"
+      },
+      "rdfs:label": "Ulrich von Oettingen"
+    },
+    {
+      "@id": "_:N1e5fe1fa530142a8b0e0ff248d17b4f9",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:H00001558"
+      },
+      "rdfs:label": "Konrad von Helfenstein"
+    },
+    {
+      "@id": "_:N2305fbae78534c8eba1e4db83a808bc7",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:Z00000331"
+      },
+      "rdfs:label": "Gottfried von Zimmern"
+    },
+    {
+      "@id": "_:N25255f9094a74e79b6d344c65547fdc5",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:G00000747"
+      },
+      "rdfs:label": "Hans von Geroldseck"
+    },
+    {
+      "@id": "_:N3dea0e57058b4080888156e29d673af5",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:T00001381"
+      },
+      "ps:P39": {
+        "@id": "ri:truchsess"
+      },
+      "rdfs:label": "Jakob Truchseß von Waldburg"
+    }
+  ]
+}

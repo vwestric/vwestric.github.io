@@ -1,0 +1,71 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1462-10-12_1_0_13_4_0_9925_355",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N389977b9d29646d0a1ba1fe766477b78"
+      }
+    },
+    {
+      "@id": "_:N389977b9d29646d0a1ba1fe766477b78",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N451bab16856f4fdb93c417469d870960"
+      },
+      "ps:P291": {
+        "@id": "_:N52032725b40a46c5b82d40fbc82734dc"
+      },
+      "ps:P3342": {
+        "@id": "_:Nf8462cfe59784efbb5a044f23fd49ee0"
+      }
+    },
+    {
+      "@id": "_:N52032725b40a46c5b82d40fbc82734dc",
+      "https://schema.org#geo": {
+        "@id": "_:N3ca16b6020444afaaa8c4166fd32a5a5"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q1741"
+      },
+      "rdfs:label": "Wien"
+    },
+    {
+      "@id": "_:N3ca16b6020444afaaa8c4166fd32a5a5",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "48.20849",
+      "https://schema.org#longitude": "16.37208"
+    },
+    {
+      "@id": "_:N451bab16856f4fdb93c417469d870960",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1462-10-12"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1462-10-12"
+      }
+    },
+    {
+      "@id": "_:Nf8462cfe59784efbb5a044f23fd49ee0",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:W00000996"
+      },
+      "rdfs:label": "Konrad Weiß"
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1462-10-11_1_0_13_28_0_380_380",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N490c2c48417a45c686a74587e532bd98"
+      }
+    },
+    {
+      "@id": "_:N490c2c48417a45c686a74587e532bd98",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N636016fc68b644bfbe91c8576f913d76"
+      },
+      "ps:P291": {
+        "@id": "_:Nd4e46acd5c7f472cbe8dbf8c5c07d87b"
+      },
+      "ps:P3342": {
+        "@id": "_:N2df9efb2e5f3419ebd4ac06dd5c7de10"
+      }
+    },
+    {
+      "@id": "_:Nd4e46acd5c7f472cbe8dbf8c5c07d87b",
+      "https://schema.org#geo": {
+        "@id": "_:N556f31b3c22b4586b6d7183120dcdafe"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q1741"
+      },
+      "rdfs:label": "Wien"
+    },
+    {
+      "@id": "_:N556f31b3c22b4586b6d7183120dcdafe",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "48.20849",
+      "https://schema.org#longitude": "16.37208"
+    },
+    {
+      "@id": "_:N636016fc68b644bfbe91c8576f913d76",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1462-10-11"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1462-10-11"
+      }
+    },
+    {
+      "@id": "_:N2df9efb2e5f3419ebd4ac06dd5c7de10",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:M00000893"
+      },
+      "ps:P39": {
+        "@id": "ri:erbmarschall"
+      },
+      "rdfs:label": "Erbmarschall Heinrich von Pappenheim"
+    }
+  ]
+}

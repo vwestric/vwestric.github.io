@@ -1,0 +1,71 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1446-08-23_1_0_13_12_0_350_350",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N201a771c9c0b4f6db76d93af0a93b881"
+      }
+    },
+    {
+      "@id": "_:N201a771c9c0b4f6db76d93af0a93b881",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N41c5c3cda11a49469648c5b6482e1a11"
+      },
+      "ps:P291": {
+        "@id": "_:Naf975540cc264f1fab763d60ad8003c9"
+      },
+      "ps:P3342": {
+        "@id": "_:N44e5c704e8a64882b94199c28eb25159"
+      }
+    },
+    {
+      "@id": "_:Naf975540cc264f1fab763d60ad8003c9",
+      "https://schema.org#geo": {
+        "@id": "_:N3377080836e94d3cb6b60eb2f9d6783e"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q131612"
+      },
+      "rdfs:label": "Wiener Neustadt"
+    },
+    {
+      "@id": "_:N3377080836e94d3cb6b60eb2f9d6783e",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.813153",
+      "https://schema.org#longitude": "16.24444"
+    },
+    {
+      "@id": "_:N41c5c3cda11a49469648c5b6482e1a11",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1446-08-23"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1446-08-23"
+      }
+    },
+    {
+      "@id": "_:N44e5c704e8a64882b94199c28eb25159",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:W00000388"
+      },
+      "rdfs:label": "Reinprecht von Wallsee"
+    }
+  ]
+}

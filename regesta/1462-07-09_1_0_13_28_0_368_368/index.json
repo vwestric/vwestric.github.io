@@ -1,0 +1,71 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1462-07-09_1_0_13_28_0_368_368",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N80382f4325ee4f8c8ccf4f8fcbd822ee"
+      }
+    },
+    {
+      "@id": "_:N80382f4325ee4f8c8ccf4f8fcbd822ee",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N05fd45d3ff8442d083359d122773a5cd"
+      },
+      "ps:P291": {
+        "@id": "_:N50a4e3ea31aa4a30a5dbc6d35ca45295"
+      },
+      "ps:P3342": {
+        "@id": "_:N9b7f6e4091d2408aa8f52c72b97dd9c4"
+      }
+    },
+    {
+      "@id": "_:N50a4e3ea31aa4a30a5dbc6d35ca45295",
+      "https://schema.org#geo": {
+        "@id": "_:N96f17722a42942b4a3d3c303aa81cb16"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q13298"
+      },
+      "rdfs:label": "Graz"
+    },
+    {
+      "@id": "_:N96f17722a42942b4a3d3c303aa81cb16",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.06667",
+      "https://schema.org#longitude": "15.45"
+    },
+    {
+      "@id": "_:N05fd45d3ff8442d083359d122773a5cd",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1462-07-09"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1462-07-09"
+      }
+    },
+    {
+      "@id": "_:N9b7f6e4091d2408aa8f52c72b97dd9c4",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:T00000369"
+      },
+      "rdfs:label": "Jobst Tetzel"
+    }
+  ]
+}

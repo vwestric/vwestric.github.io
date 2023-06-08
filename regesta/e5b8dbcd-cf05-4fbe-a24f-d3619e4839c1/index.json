@@ -1,0 +1,90 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:e5b8dbcd-cf05-4fbe-a24f-d3619e4839c1",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Nc267e0739fa14813a4f18529a7739b01"
+      }
+    },
+    {
+      "@id": "_:Nc267e0739fa14813a4f18529a7739b01",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N4853d2146c914dab973da95ecf8494f3"
+      },
+      "ps:P291": {
+        "@id": "_:N4d2ed459f5944da9a7e663eb197d4875"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N9e2ba69633914d1b928723556c962b0e"
+        },
+        {
+          "@id": "_:Ncd5e45bcdd034c32a133fc3921987134"
+        }
+      ]
+    },
+    {
+      "@id": "_:N4d2ed459f5944da9a7e663eb197d4875",
+      "https://schema.org#geo": {
+        "@id": "_:Nfdffa870a8ab43aa9451bff9e2887234"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q13298"
+      },
+      "rdfs:label": "Graz"
+    },
+    {
+      "@id": "_:Nfdffa870a8ab43aa9451bff9e2887234",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.06667",
+      "https://schema.org#longitude": "15.45"
+    },
+    {
+      "@id": "_:N4853d2146c914dab973da95ecf8494f3",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1451-12-05"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1451-12-05"
+      }
+    },
+    {
+      "@id": "_:N9e2ba69633914d1b928723556c962b0e",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:H00001670"
+      },
+      "ps:P39": {
+        "@id": "ri:ritter"
+      },
+      "rdfs:label": "Ritter Hans von Hemstat"
+    },
+    {
+      "@id": "_:Ncd5e45bcdd034c32a133fc3921987134",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00003529"
+      },
+      "ps:P39": {
+        "@id": "ri:kaiser"
+      },
+      "rdfs:label": "K. Sigmund"
+    }
+  ]
+}

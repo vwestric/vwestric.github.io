@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:e5c3eef3-f3ea-4472-8c05-401951001446",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Nd6eb5b408b1e43ecb111ca487d1cf3d3"
+      }
+    },
+    {
+      "@id": "_:Nd6eb5b408b1e43ecb111ca487d1cf3d3",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N9d7d09fcd98148ae92bc1493ffdbe166"
+      },
+      "ps:P291": {
+        "@id": "_:N678cd9228fcb4c5d90d61ccf295642a4"
+      },
+      "ps:P3342": {
+        "@id": "_:N297a77b8a0a84daaa02723aed14329aa"
+      }
+    },
+    {
+      "@id": "_:N678cd9228fcb4c5d90d61ccf295642a4",
+      "https://schema.org#geo": {
+        "@id": "_:Ne33a04f432be4c829ea600d84e9f26fd"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q13298"
+      },
+      "rdfs:label": "Graz"
+    },
+    {
+      "@id": "_:Ne33a04f432be4c829ea600d84e9f26fd",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.06667",
+      "https://schema.org#longitude": "15.45"
+    },
+    {
+      "@id": "_:N9d7d09fcd98148ae92bc1493ffdbe166",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1466-11-24"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1466-11-24"
+      }
+    },
+    {
+      "@id": "_:N297a77b8a0a84daaa02723aed14329aa",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:K00000431"
+      },
+      "ps:P39": {
+        "@id": "ri:kaiser"
+      },
+      "rdfs:label": "K. Karl IV."
+    }
+  ]
+}

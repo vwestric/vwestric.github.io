@@ -1,0 +1,90 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1451-08-11_1_0_13_17_0_94_93",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N1570a01169e1409c8a806a207407e416"
+      }
+    },
+    {
+      "@id": "_:N1570a01169e1409c8a806a207407e416",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N2bdb78f26df0407b9408cbd8b5352eac"
+      },
+      "ps:P291": {
+        "@id": "_:N67febb4d0fa6466f92221097d6e66875"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:Na0536488972f40da9d1675eedab50e1e"
+        },
+        {
+          "@id": "_:Necda93e3a16849869077e439a17c0f2e"
+        }
+      ]
+    },
+    {
+      "@id": "_:N67febb4d0fa6466f92221097d6e66875",
+      "https://schema.org#geo": {
+        "@id": "_:Nd8cdb75e3f644b50a0a473afac8a489d"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q1741"
+      },
+      "rdfs:label": "Wien"
+    },
+    {
+      "@id": "_:Nd8cdb75e3f644b50a0a473afac8a489d",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "48.20849",
+      "https://schema.org#longitude": "16.37208"
+    },
+    {
+      "@id": "_:N2bdb78f26df0407b9408cbd8b5352eac",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1451-08-11"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1451-08-11"
+      }
+    },
+    {
+      "@id": "_:Na0536488972f40da9d1675eedab50e1e",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:V00000711"
+      },
+      "ps:P39": {
+        "@id": "ri:vogt"
+      },
+      "rdfs:label": "Nikolaus Vogt von Hunolstein"
+    },
+    {
+      "@id": "_:Necda93e3a16849869077e439a17c0f2e",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00000071"
+      },
+      "ps:P39": {
+        "@id": "ri:markgraf"
+      },
+      "rdfs:label": "Mgf. Jakob von Baden"
+    }
+  ]
+}

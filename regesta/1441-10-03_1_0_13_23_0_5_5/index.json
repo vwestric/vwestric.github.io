@@ -1,0 +1,117 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1441-10-03_1_0_13_23_0_5_5",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N9a86becba40d4e59bb7ec698b5cc3a60"
+      }
+    },
+    {
+      "@id": "_:N9a86becba40d4e59bb7ec698b5cc3a60",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N7cf3eb4114874e969c05d5eb99f3b809"
+      },
+      "ps:P291": {
+        "@id": "_:N220ecd6746d04710afb9745a249851dd"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N3fcab1d1681a4ff0b7bcd7082bb9c218"
+        },
+        {
+          "@id": "_:Ne1a2184cabbe491abd68ad0f1362e162"
+        },
+        {
+          "@id": "_:Ne66031d83a6d44789dca9926f240eb1d"
+        },
+        {
+          "@id": "_:N03aa67d96fff4407876e0a26c915784c"
+        },
+        {
+          "@id": "_:Ne304d83fc2914714930fdfc89702abc3"
+        }
+      ]
+    },
+    {
+      "@id": "_:N220ecd6746d04710afb9745a249851dd",
+      "https://schema.org#geo": {
+        "@id": "_:N95dcc9a90bf6453b85bcbf1478ca7227"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q13298"
+      },
+      "rdfs:label": "Graz"
+    },
+    {
+      "@id": "_:N95dcc9a90bf6453b85bcbf1478ca7227",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.06667",
+      "https://schema.org#longitude": "15.45"
+    },
+    {
+      "@id": "_:N7cf3eb4114874e969c05d5eb99f3b809",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1441-10-03"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1441-10-03"
+      }
+    },
+    {
+      "@id": "_:N3fcab1d1681a4ff0b7bcd7082bb9c218",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00000649"
+      },
+      "rdfs:label": "Konrad von Bebenburg"
+    },
+    {
+      "@id": "_:Ne1a2184cabbe491abd68ad0f1362e162",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00001676"
+      },
+      "rdfs:label": "Heinz Schilling"
+    },
+    {
+      "@id": "_:Ne66031d83a6d44789dca9926f240eb1d",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:Z00000571"
+      },
+      "rdfs:label": "Siegfried von Zülnhart"
+    },
+    {
+      "@id": "_:N03aa67d96fff4407876e0a26c915784c",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00005867"
+      },
+      "rdfs:label": "Burkhard Sturmfeder"
+    },
+    {
+      "@id": "_:Ne304d83fc2914714930fdfc89702abc3",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00001719"
+      },
+      "rdfs:label": "Siegfried Bock"
+    }
+  ]
+}

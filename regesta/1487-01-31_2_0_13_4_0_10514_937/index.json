@@ -1,0 +1,60 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1487-01-31_2_0_13_4_0_10514_937",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N5b8faf7db59a45b490aa81e08d34a712"
+      }
+    },
+    {
+      "@id": "_:N5b8faf7db59a45b490aa81e08d34a712",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N32cd6a9c1c7141c28e16b5710b6761c1"
+      },
+      "ps:P291": {
+        "@id": "_:Nf660663e1cbd473d8b0548eaccc35596"
+      }
+    },
+    {
+      "@id": "_:Nf660663e1cbd473d8b0548eaccc35596",
+      "https://schema.org#geo": {
+        "@id": "_:N9c5e0d951e784589b7342e2395b44e1b"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q6829"
+      },
+      "rdfs:label": "Speyer"
+    },
+    {
+      "@id": "_:N9c5e0d951e784589b7342e2395b44e1b",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "49.32083",
+      "https://schema.org#longitude": "8.43111"
+    },
+    {
+      "@id": "_:N32cd6a9c1c7141c28e16b5710b6761c1",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1487-01-31"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1487-01-31"
+      }
+    }
+  ]
+}

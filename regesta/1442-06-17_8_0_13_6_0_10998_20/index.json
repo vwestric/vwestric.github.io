@@ -1,0 +1,90 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1442-06-17_8_0_13_6_0_10998_20",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N44613ddd371a4de983b68696a4d52f11"
+      }
+    },
+    {
+      "@id": "_:N44613ddd371a4de983b68696a4d52f11",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N4aec8561371d413883eaa9f5d56c7f71"
+      },
+      "ps:P291": {
+        "@id": "_:Nd4785156db154e87a8a0a8caf347ee11"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N0a55e78a78fb47ba8d5cae068ac8dd0d"
+        },
+        {
+          "@id": "_:N58e27d48fa3d4ab7b10a0cc9b6a85e5f"
+        }
+      ]
+    },
+    {
+      "@id": "_:Nd4785156db154e87a8a0a8caf347ee11",
+      "https://schema.org#geo": {
+        "@id": "_:Nd3c844c079124ceca467f4193e7e7af6"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q1017"
+      },
+      "rdfs:label": "Aachen"
+    },
+    {
+      "@id": "_:Nd3c844c079124ceca467f4193e7e7af6",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "50.77664",
+      "https://schema.org#longitude": "6.08342"
+    },
+    {
+      "@id": "_:N4aec8561371d413883eaa9f5d56c7f71",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1442-06-17"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1442-06-17"
+      }
+    },
+    {
+      "@id": "_:N0a55e78a78fb47ba8d5cae068ac8dd0d",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:K00000431"
+      },
+      "ps:P39": {
+        "@id": "ri:kaiser"
+      },
+      "rdfs:label": "K. Karl IV."
+    },
+    {
+      "@id": "_:N58e27d48fa3d4ab7b10a0cc9b6a85e5f",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:W00001405"
+      },
+      "ps:P39": {
+        "@id": "ri:koenig"
+      },
+      "rdfs:label": "Kg. Wenzels"
+    }
+  ]
+}

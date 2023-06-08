@@ -1,0 +1,55 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1461-09-01_5_0_13_10_0_13180_220",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N58749fefa7b3418d987e9b83d5494301"
+      }
+    },
+    {
+      "@id": "_:N58749fefa7b3418d987e9b83d5494301",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N9ecb8e9415c54d02813beca6d72bae15"
+      },
+      "ps:P3342": {
+        "@id": "_:N7cc5d73666034c3b8a2908080aea00aa"
+      }
+    },
+    {
+      "@id": "_:N9ecb8e9415c54d02813beca6d72bae15",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1461-09-01"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1461-09-01"
+      }
+    },
+    {
+      "@id": "_:N7cc5d73666034c3b8a2908080aea00aa",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:W00003365"
+      },
+      "ps:P39": {
+        "@id": "ri:bischof"
+      },
+      "rdfs:label": "Bf. Johann (III.) von Würzburg"
+    }
+  ]
+}

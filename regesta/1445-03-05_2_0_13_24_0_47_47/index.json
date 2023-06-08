@@ -1,0 +1,104 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1445-03-05_2_0_13_24_0_47_47",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Nd6acfa31541e413c813c722459ac053c"
+      }
+    },
+    {
+      "@id": "_:Nd6acfa31541e413c813c722459ac053c",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N3cf76210cc06429e842184ef949f1f52"
+      },
+      "ps:P291": {
+        "@id": "_:N8b7cb2c610e64169ac07cd79161b3e99"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N8398f600af55414b9fc2f6739d00a557"
+        },
+        {
+          "@id": "_:N19e6d969ce86434b8fe97dfe66ffb12b"
+        },
+        {
+          "@id": "_:Nc123b905721f43718a3846c69d2756dd"
+        }
+      ]
+    },
+    {
+      "@id": "_:N8b7cb2c610e64169ac07cd79161b3e99",
+      "https://schema.org#geo": {
+        "@id": "_:N9323aa7198ec466697bd9e85f928f331"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q131612"
+      },
+      "rdfs:label": "Wiener Neustadt"
+    },
+    {
+      "@id": "_:N9323aa7198ec466697bd9e85f928f331",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.813153",
+      "https://schema.org#longitude": "16.24444"
+    },
+    {
+      "@id": "_:N3cf76210cc06429e842184ef949f1f52",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1445-03-05"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1445-03-05"
+      }
+    },
+    {
+      "@id": "_:N8398f600af55414b9fc2f6739d00a557",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:V00000282"
+      },
+      "ps:P39": {
+        "@id": "ri:bischof"
+      },
+      "rdfs:label": "Bf. Johann von Verden"
+    },
+    {
+      "@id": "_:N19e6d969ce86434b8fe97dfe66ffb12b",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:E00000740"
+      },
+      "ps:P39": {
+        "@id": "ri:hochmeister"
+      },
+      "rdfs:label": "Hochmeister des Deutschen Ordens Konrad von Erlichshausen"
+    },
+    {
+      "@id": "_:Nc123b905721f43718a3846c69d2756dd",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:K00001681"
+      },
+      "ps:P39": {
+        "@id": "ri:erzbischof"
+      },
+      "rdfs:label": "Eb. Dietrich (II.) von Köln"
+    }
+  ]
+}

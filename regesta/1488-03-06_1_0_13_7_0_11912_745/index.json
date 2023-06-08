@@ -1,0 +1,90 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1488-03-06_1_0_13_7_0_11912_745",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N2bfb4a01d224447ebf9a3dd3436102ea"
+      }
+    },
+    {
+      "@id": "_:N2bfb4a01d224447ebf9a3dd3436102ea",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N251a3c529f034171aaf8886921b26c58"
+      },
+      "ps:P291": {
+        "@id": "_:N3e055f3d001c4b00b00c55d1f4dd7586"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N96b5dc19e9844d9ab27f49b578dc823a"
+        },
+        {
+          "@id": "_:N93c2da3fa18f4beb9a73987df83f8bb4"
+        }
+      ]
+    },
+    {
+      "@id": "_:N3e055f3d001c4b00b00c55d1f4dd7586",
+      "https://schema.org#geo": {
+        "@id": "_:N1ec119a3541a4220b7fbb97687fa4c10"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q1735"
+      },
+      "rdfs:label": "Innsbruck"
+    },
+    {
+      "@id": "_:N1ec119a3541a4220b7fbb97687fa4c10",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.26266",
+      "https://schema.org#longitude": "11.39454"
+    },
+    {
+      "@id": "_:N251a3c529f034171aaf8886921b26c58",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1488-03-06"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1488-03-06"
+      }
+    },
+    {
+      "@id": "_:N96b5dc19e9844d9ab27f49b578dc823a",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:M00001151"
+      },
+      "ps:P39": {
+        "@id": "ri:koenig"
+      },
+      "rdfs:label": "Kg. Maximilian"
+    },
+    {
+      "@id": "_:N93c2da3fa18f4beb9a73987df83f8bb4",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:O00000622"
+      },
+      "ps:P39": {
+        "@id": "ri:erzherzog"
+      },
+      "rdfs:label": "Ehz. Sigmund von Österreich"
+    }
+  ]
+}

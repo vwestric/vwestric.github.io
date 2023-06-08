@@ -1,0 +1,60 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1474-01-29_1_0_13_10_0_13332_372",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Nfba07acabca94a9d86497f5804782574"
+      }
+    },
+    {
+      "@id": "_:Nfba07acabca94a9d86497f5804782574",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N1fc17a7ec0c1451aafd466744ca20298"
+      },
+      "ps:P291": {
+        "@id": "_:Nbcfb10765b2642239d8bd02f283d13cf"
+      }
+    },
+    {
+      "@id": "_:Nbcfb10765b2642239d8bd02f283d13cf",
+      "https://schema.org#geo": {
+        "@id": "_:Nf71c9f7ab26242e7a5ef8ef6c1264a06"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q3942"
+      },
+      "rdfs:label": "Aschaffenburg"
+    },
+    {
+      "@id": "_:Nf71c9f7ab26242e7a5ef8ef6c1264a06",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "49.97704",
+      "https://schema.org#longitude": "9.15214"
+    },
+    {
+      "@id": "_:N1fc17a7ec0c1451aafd466744ca20298",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1474-01-29"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1474-01-29"
+      }
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1466-07-15_3_0_13_17_0_178_176",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Nf4a114dc29854331ac1e64e777269511"
+      }
+    },
+    {
+      "@id": "_:Nf4a114dc29854331ac1e64e777269511",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Na3063860987a42df83496ac159f4db31"
+      },
+      "ps:P291": {
+        "@id": "_:Na4c80b33595f4ef5a582b9ef28828452"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N818a9fcb1b294af88059f53189e7c0b5"
+        },
+        {
+          "@id": "_:N53de8dca9ede4ca1969147cb03d089dd"
+        },
+        {
+          "@id": "_:N8b63c33d8d5640cb86d69faf4bbd886b"
+        }
+      ]
+    },
+    {
+      "@id": "_:Na4c80b33595f4ef5a582b9ef28828452",
+      "https://schema.org#geo": {
+        "@id": "_:N25cf1349480244a9915c84919bee710b"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q131612"
+      },
+      "rdfs:label": "Wiener Neustadt"
+    },
+    {
+      "@id": "_:N25cf1349480244a9915c84919bee710b",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.813153",
+      "https://schema.org#longitude": "16.24444"
+    },
+    {
+      "@id": "_:Na3063860987a42df83496ac159f4db31",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1466-07-15"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1466-07-15"
+      }
+    },
+    {
+      "@id": "_:N818a9fcb1b294af88059f53189e7c0b5",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00000587"
+      },
+      "rdfs:label": "Sigmund von Bayern (-München)"
+    },
+    {
+      "@id": "_:N53de8dca9ede4ca1969147cb03d089dd",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:F00001023"
+      },
+      "ps:P39": {
+        "@id": "ri:frau"
+      },
+      "rdfs:label": "Hans von Fraunberg"
+    },
+    {
+      "@id": "_:N8b63c33d8d5640cb86d69faf4bbd886b",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:F00001017"
+      },
+      "ps:P39": {
+        "@id": "ri:frau"
+      },
+      "rdfs:label": "Hans von Fraunberg (zu Haag und Massenhausen)"
+    }
+  ]
+}

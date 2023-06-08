@@ -1,0 +1,87 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1469-05-25_2_0_13_16_0_89_89",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N8b101dd693144b308ad285836aaa2934"
+      }
+    },
+    {
+      "@id": "_:N8b101dd693144b308ad285836aaa2934",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N227fe34535ce416db7effd495553a715"
+      },
+      "ps:P291": {
+        "@id": "_:Nceaaae06749b4540a4dcb2d713fc7779"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:Ndef5e7474b5a41beac8722489f7c0a2f"
+        },
+        {
+          "@id": "_:N006dd62d8f7e475c835a3d91d55433aa"
+        }
+      ]
+    },
+    {
+      "@id": "_:Nceaaae06749b4540a4dcb2d713fc7779",
+      "https://schema.org#geo": {
+        "@id": "_:Nf2ba36b644194055aa36aee8de2a32ab"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q13298"
+      },
+      "rdfs:label": "Graz"
+    },
+    {
+      "@id": "_:Nf2ba36b644194055aa36aee8de2a32ab",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.06667",
+      "https://schema.org#longitude": "15.45"
+    },
+    {
+      "@id": "_:N227fe34535ce416db7effd495553a715",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1469-05-25"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1469-05-25"
+      }
+    },
+    {
+      "@id": "_:Ndef5e7474b5a41beac8722489f7c0a2f",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00000064"
+      },
+      "ps:P39": {
+        "@id": "ri:herzog"
+      },
+      "rdfs:label": "Hz. Albrecht von Sachsen"
+    },
+    {
+      "@id": "_:N006dd62d8f7e475c835a3d91d55433aa",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00000055"
+      },
+      "rdfs:label": "Albrecht von Sachsen"
+    }
+  ]
+}

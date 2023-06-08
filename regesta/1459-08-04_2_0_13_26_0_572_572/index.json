@@ -1,0 +1,87 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1459-08-04_2_0_13_26_0_572_572",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Nbd849a4687284d0186a55108723a6dc5"
+      }
+    },
+    {
+      "@id": "_:Nbd849a4687284d0186a55108723a6dc5",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N1e750d0b6b8a4acca47f02dca49e6a2c"
+      },
+      "ps:P291": {
+        "@id": "_:Nc33c684675cd4d88af7f5004a545f81a"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:Na83a2fb935594d8b80ed1f92dd6168f5"
+        },
+        {
+          "@id": "_:N2f6b61a7c49f4362b602ff1deb6c1d65"
+        }
+      ]
+    },
+    {
+      "@id": "_:Nc33c684675cd4d88af7f5004a545f81a",
+      "https://schema.org#geo": {
+        "@id": "_:N0a9892a348c04e1b8069c080b60fc32e"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q14960"
+      },
+      "rdfs:label": "Brünn"
+    },
+    {
+      "@id": "_:N0a9892a348c04e1b8069c080b60fc32e",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "49.19522",
+      "https://schema.org#longitude": "16.60796"
+    },
+    {
+      "@id": "_:N1e750d0b6b8a4acca47f02dca49e6a2c",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1459-08-04"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1459-08-04"
+      }
+    },
+    {
+      "@id": "_:Na83a2fb935594d8b80ed1f92dd6168f5",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00001825"
+      },
+      "ps:P39": {
+        "@id": "ri:koenig"
+      },
+      "rdfs:label": "Kg. Georg von Böhmen"
+    },
+    {
+      "@id": "_:N2f6b61a7c49f4362b602ff1deb6c1d65",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:U00000212"
+      },
+      "rdfs:label": "Matthias Hunyadi"
+    }
+  ]
+}

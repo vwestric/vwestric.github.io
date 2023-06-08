@@ -1,0 +1,129 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1449-09-13_1_0_13_14_0_491_493",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Ne5b28e198b46452e9b163c4a75841034"
+      }
+    },
+    {
+      "@id": "_:Ne5b28e198b46452e9b163c4a75841034",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Nc1abbc9c2bcf4117892cfa2bd76e4e93"
+      },
+      "ps:P291": {
+        "@id": "_:N3f4d3aa8be6245eebfe0a5fda862494b"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:Na9db03f16ded4bcbbf7a4c91fd0ec918"
+        },
+        {
+          "@id": "_:Nae001ab0a27a4d848ada5172d43a5a7e"
+        },
+        {
+          "@id": "_:N86431949f6db4668825b224cb8d772f3"
+        },
+        {
+          "@id": "_:N25140ea60adf4fc8a1c6e1e6645bf35a"
+        },
+        {
+          "@id": "_:N8e57700e7b0b4c43a77a9409d7e6c440"
+        }
+      ]
+    },
+    {
+      "@id": "_:N3f4d3aa8be6245eebfe0a5fda862494b",
+      "https://schema.org#geo": {
+        "@id": "_:Nc69973121a7a4aa6844150df53428f6e"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q437"
+      },
+      "rdfs:label": "Laibach"
+    },
+    {
+      "@id": "_:Nc69973121a7a4aa6844150df53428f6e",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "46.05108",
+      "https://schema.org#longitude": "14.50513"
+    },
+    {
+      "@id": "_:Nc1abbc9c2bcf4117892cfa2bd76e4e93",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1449-09-13"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1449-09-13"
+      }
+    },
+    {
+      "@id": "_:Na9db03f16ded4bcbbf7a4c91fd0ec918",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00002248"
+      },
+      "ps:P39": {
+        "@id": "ri:markgraf"
+      },
+      "rdfs:label": "Mgf. Albrecht von Brandenburg"
+    },
+    {
+      "@id": "_:Nae001ab0a27a4d848ada5172d43a5a7e",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:M00000277"
+      },
+      "ps:P39": {
+        "@id": "ri:erzbischof"
+      },
+      "rdfs:label": "Eb. Dietrich von Mainz"
+    },
+    {
+      "@id": "_:N86431949f6db4668825b224cb8d772f3",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:A00001569"
+      },
+      "ps:P39": {
+        "@id": "ri:bischof"
+      },
+      "rdfs:label": "Bf. Peter von Augsburg"
+    },
+    {
+      "@id": "_:N25140ea60adf4fc8a1c6e1e6645bf35a",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00000582"
+      },
+      "ps:P39": {
+        "@id": "ri:herzog"
+      },
+      "rdfs:label": "Hz. Heinrich (IV.) von Bayern(-Landshut)"
+    },
+    {
+      "@id": "_:N8e57700e7b0b4c43a77a9409d7e6c440",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00004603"
+      },
+      "rdfs:label": "Hans von Starhemberg"
+    }
+  ]
+}

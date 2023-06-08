@@ -1,0 +1,90 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1474-06-29_1_0_13_7_0_11570_405",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Nbacba627197941fea97a27806aafc16d"
+      }
+    },
+    {
+      "@id": "_:Nbacba627197941fea97a27806aafc16d",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N033c4c33fea14416a991c9901fd76c07"
+      },
+      "ps:P291": {
+        "@id": "_:N79bd71ff29dc49dd94ad459798aab28f"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N6b1113659f2d4f33b8e8a0c72e685065"
+        },
+        {
+          "@id": "_:Ne1a1dc5abf54408983c387a46af607b6"
+        }
+      ]
+    },
+    {
+      "@id": "_:N79bd71ff29dc49dd94ad459798aab28f",
+      "https://schema.org#geo": {
+        "@id": "_:Nb5f1499c2ef743dcb9b5ce58768be5fc"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q2749"
+      },
+      "rdfs:label": "Augsburg"
+    },
+    {
+      "@id": "_:Nb5f1499c2ef743dcb9b5ce58768be5fc",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "48.37154",
+      "https://schema.org#longitude": "10.89851"
+    },
+    {
+      "@id": "_:N033c4c33fea14416a991c9901fd76c07",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1474-06-29"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1474-06-29"
+      }
+    },
+    {
+      "@id": "_:N6b1113659f2d4f33b8e8a0c72e685065",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:H00002084"
+      },
+      "ps:P39": {
+        "@id": "ri:landgraf"
+      },
+      "rdfs:label": "Ldgf. Heinrich von Hessen"
+    },
+    {
+      "@id": "_:Ne1a1dc5abf54408983c387a46af607b6",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:K00001690"
+      },
+      "ps:P39": {
+        "@id": "ri:erzbischof"
+      },
+      "rdfs:label": "Eb. Ruprecht von Köln"
+    }
+  ]
+}

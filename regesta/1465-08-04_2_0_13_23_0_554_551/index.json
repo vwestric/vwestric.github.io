@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1465-08-04_2_0_13_23_0_554_551",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N055fb4ed24f14acbb3bb8d1160da67d4"
+      }
+    },
+    {
+      "@id": "_:N055fb4ed24f14acbb3bb8d1160da67d4",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N3c41097c7d3f4430b8f2be18fdc6d12b"
+      },
+      "ps:P291": {
+        "@id": "_:Nfe80514af25b4a6296c859727cfa51d8"
+      },
+      "ps:P3342": {
+        "@id": "_:Nd5e6d858cce64d0c9b6f13adda78330b"
+      }
+    },
+    {
+      "@id": "_:Nfe80514af25b4a6296c859727cfa51d8",
+      "https://schema.org#geo": {
+        "@id": "_:N89ae6dfc8a864a2b902359bfeb586598"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q131612"
+      },
+      "rdfs:label": "Wiener Neustadt"
+    },
+    {
+      "@id": "_:N89ae6dfc8a864a2b902359bfeb586598",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.813153",
+      "https://schema.org#longitude": "16.24444"
+    },
+    {
+      "@id": "_:N3c41097c7d3f4430b8f2be18fdc6d12b",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1465-08-04"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1465-08-04"
+      }
+    },
+    {
+      "@id": "_:Nd5e6d858cce64d0c9b6f13adda78330b",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:W00003211"
+      },
+      "ps:P39": {
+        "@id": "ri:graf"
+      },
+      "rdfs:label": "Gf. Ulrich (V.) von Württemberg"
+    }
+  ]
+}

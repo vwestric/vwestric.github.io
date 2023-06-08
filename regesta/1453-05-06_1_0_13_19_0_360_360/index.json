@@ -1,0 +1,84 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1453-05-06_1_0_13_19_0_360_360",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Ndc1c03df736e49afaf5dcef9e8d6ec3b"
+      }
+    },
+    {
+      "@id": "_:Ndc1c03df736e49afaf5dcef9e8d6ec3b",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N9d52febf455c45c2991419ce5c50eb73"
+      },
+      "ps:P291": {
+        "@id": "_:Nc0c2f9ff2d9f4ca488bba4231c45a6cd"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N6186ec93107b41b9b512ca67e0b0ee5d"
+        },
+        {
+          "@id": "_:Neb4576be0a2a48ec8eb8c137fb144216"
+        }
+      ]
+    },
+    {
+      "@id": "_:Nc0c2f9ff2d9f4ca488bba4231c45a6cd",
+      "https://schema.org#geo": {
+        "@id": "_:Nf641d671a1e54ec3a28e294c3bbd4e59"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q131612"
+      },
+      "rdfs:label": "Wiener Neustadt"
+    },
+    {
+      "@id": "_:Nf641d671a1e54ec3a28e294c3bbd4e59",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.813153",
+      "https://schema.org#longitude": "16.24444"
+    },
+    {
+      "@id": "_:N9d52febf455c45c2991419ce5c50eb73",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1453-05-06"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1453-05-06"
+      }
+    },
+    {
+      "@id": "_:N6186ec93107b41b9b512ca67e0b0ee5d",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00003164"
+      },
+      "rdfs:label": "Hans von Burck (Burgk)"
+    },
+    {
+      "@id": "_:Neb4576be0a2a48ec8eb8c137fb144216",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:W00000244"
+      },
+      "rdfs:label": "Hermann Waldhaus (Walthuser)"
+    }
+  ]
+}

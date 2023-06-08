@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1489-01-02_1_0_13_15_0_411_411",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N10049561180d499692fb9f3a628aee35"
+      }
+    },
+    {
+      "@id": "_:N10049561180d499692fb9f3a628aee35",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N0b8b571c535c41ff8d750d26ef99002f"
+      },
+      "ps:P291": {
+        "@id": "_:N2fa72bc6f6ff43ef9100b98f795830cf"
+      },
+      "ps:P3342": {
+        "@id": "_:Nc6cf12da4cbb4c9892a66d9b9f6fe7c4"
+      }
+    },
+    {
+      "@id": "_:N2fa72bc6f6ff43ef9100b98f795830cf",
+      "https://schema.org#geo": {
+        "@id": "_:N0593bbae9bf94763ae1dd34f3d1e9cb9"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q1735"
+      },
+      "rdfs:label": "Innsbruck"
+    },
+    {
+      "@id": "_:N0593bbae9bf94763ae1dd34f3d1e9cb9",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.26266",
+      "https://schema.org#longitude": "11.39454"
+    },
+    {
+      "@id": "_:N0b8b571c535c41ff8d750d26ef99002f",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1489-01-02"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1489-01-02"
+      }
+    },
+    {
+      "@id": "_:Nc6cf12da4cbb4c9892a66d9b9f6fe7c4",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:R00000842"
+      },
+      "ps:P39": {
+        "@id": "ri:bischof"
+      },
+      "rdfs:label": "Bf. Heinrich von Regensburg"
+    }
+  ]
+}

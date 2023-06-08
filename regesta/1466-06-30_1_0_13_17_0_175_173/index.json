@@ -1,0 +1,101 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1466-06-30_1_0_13_17_0_175_173",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Na8232360654a40ca93e7a1ab991cabb2"
+      }
+    },
+    {
+      "@id": "_:Na8232360654a40ca93e7a1ab991cabb2",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Na37a20069f5443b387a3d117796bc5aa"
+      },
+      "ps:P291": {
+        "@id": "_:N829c9475a3a8429bb91c6e138cee0733"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N7c6773e2d5cc4e22a76bb173bf035d8f"
+        },
+        {
+          "@id": "_:N24087bf39d7c4084825fcd03d8047dd1"
+        },
+        {
+          "@id": "_:Nf4edb5fb27d54e3ab2a9e9d1082e3b9c"
+        }
+      ]
+    },
+    {
+      "@id": "_:N829c9475a3a8429bb91c6e138cee0733",
+      "https://schema.org#geo": {
+        "@id": "_:N5867a2f2602d48c38335a0c9dfed9d93"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q131612"
+      },
+      "rdfs:label": "Wiener Neustadt"
+    },
+    {
+      "@id": "_:N5867a2f2602d48c38335a0c9dfed9d93",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.813153",
+      "https://schema.org#longitude": "16.24444"
+    },
+    {
+      "@id": "_:Na37a20069f5443b387a3d117796bc5aa",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1466-06-30"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1466-06-30"
+      }
+    },
+    {
+      "@id": "_:N7c6773e2d5cc4e22a76bb173bf035d8f",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:F00001022"
+      },
+      "ps:P39": {
+        "@id": "ri:frau"
+      },
+      "rdfs:label": "Sigmund von Fraunberg (zu Haag und Prunn)"
+    },
+    {
+      "@id": "_:N24087bf39d7c4084825fcd03d8047dd1",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:A00000332"
+      },
+      "rdfs:label": "Leonhard von Aichberg (zu Moos)"
+    },
+    {
+      "@id": "_:Nf4edb5fb27d54e3ab2a9e9d1082e3b9c",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00000565"
+      },
+      "ps:P39": {
+        "@id": "ri:herzog"
+      },
+      "rdfs:label": "Hz. Ludwig (IX.) von Bayern (-Landshut)"
+    }
+  ]
+}

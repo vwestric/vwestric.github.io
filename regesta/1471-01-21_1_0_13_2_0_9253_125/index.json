@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1471-01-21_1_0_13_2_0_9253_125",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Nb72cf737d9aa48a49791bdaeb86ceeb2"
+      }
+    },
+    {
+      "@id": "_:Nb72cf737d9aa48a49791bdaeb86ceeb2",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N9c211bd188934433a7f1aac426a42d9c"
+      },
+      "ps:P291": {
+        "@id": "_:N22e1f1f9df28419fad72612a60adb801"
+      },
+      "ps:P3342": {
+        "@id": "_:N6990482698f54ad3ab1e0d2565c4b87a"
+      }
+    },
+    {
+      "@id": "_:N22e1f1f9df28419fad72612a60adb801",
+      "https://schema.org#geo": {
+        "@id": "_:N4bf3859092d949979b9bfb479d0786ae"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q13298"
+      },
+      "rdfs:label": "Graz"
+    },
+    {
+      "@id": "_:N4bf3859092d949979b9bfb479d0786ae",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.06667",
+      "https://schema.org#longitude": "15.45"
+    },
+    {
+      "@id": "_:N9c211bd188934433a7f1aac426a42d9c",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1471-01-21"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1471-01-21"
+      }
+    },
+    {
+      "@id": "_:N6990482698f54ad3ab1e0d2565c4b87a",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:U00000433"
+      },
+      "ps:P39": {
+        "@id": "ri:abt"
+      },
+      "rdfs:label": "Abt Ulrich des Klosters Ursberg"
+    }
+  ]
+}

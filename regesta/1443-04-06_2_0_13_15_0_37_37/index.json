@@ -1,0 +1,98 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1443-04-06_2_0_13_15_0_37_37",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Nccb09daa826b4bb79a1975d084c95ecf"
+      }
+    },
+    {
+      "@id": "_:Nccb09daa826b4bb79a1975d084c95ecf",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N04378c0a8f68413181a8f876f1d377a8"
+      },
+      "ps:P291": {
+        "@id": "_:N8d41e1e1b83f473fbe2c463f0b72eb4e"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N3384558445e34859ba2a15b1e431620a"
+        },
+        {
+          "@id": "_:N6587c4ea05c04dee9eb03dcb28023208"
+        },
+        {
+          "@id": "_:N8c8455bc7afe4f02b5342f3ecb54efde"
+        }
+      ]
+    },
+    {
+      "@id": "_:N8d41e1e1b83f473fbe2c463f0b72eb4e",
+      "https://schema.org#geo": {
+        "@id": "_:N006f3fcb7a7a42d8b631ebf609fe6b34"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q131612"
+      },
+      "rdfs:label": "Wiener Neustadt"
+    },
+    {
+      "@id": "_:N006f3fcb7a7a42d8b631ebf609fe6b34",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.813153",
+      "https://schema.org#longitude": "16.24444"
+    },
+    {
+      "@id": "_:N04378c0a8f68413181a8f876f1d377a8",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1443-04-06"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1443-04-06"
+      }
+    },
+    {
+      "@id": "_:N3384558445e34859ba2a15b1e431620a",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:P00000246"
+      },
+      "ps:P39": {
+        "@id": "ri:bischof"
+      },
+      "rdfs:label": "Bf. Leonhards von Passau"
+    },
+    {
+      "@id": "_:N6587c4ea05c04dee9eb03dcb28023208",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00000050"
+      },
+      "rdfs:label": "Peter Bachmüller"
+    },
+    {
+      "@id": "_:N8c8455bc7afe4f02b5342f3ecb54efde",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00000648"
+      },
+      "rdfs:label": "Jörg von Bebenburg"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1475-06-09_1_0_13_26_0_677_677",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N8a6aa1b88e8a41a39a36da42b714b97b"
+      }
+    },
+    {
+      "@id": "_:N8a6aa1b88e8a41a39a36da42b714b97b",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N0523a1a86b5c44b5b681ff149ded5b90"
+      },
+      "ps:P291": {
+        "@id": "_:N1a3dd8d4219c4e31a925dac0c8dd567f"
+      }
+    },
+    {
+      "@id": "_:N1a3dd8d4219c4e31a925dac0c8dd567f",
+      "https://schema.org#geo": {
+        "@id": "_:N4e07d0c5cd5448f09287013958567c1a"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q2948"
+      },
+      "rdfs:label": "im kaiserlichen Heer bei Neuss"
+    },
+    {
+      "@id": "_:N4e07d0c5cd5448f09287013958567c1a",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "51.198611",
+      "https://schema.org#longitude": "6.691389"
+    },
+    {
+      "@id": "_:N0523a1a86b5c44b5b681ff149ded5b90",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1475-06-09"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1475-06-09"
+      }
+    }
+  ]
+}

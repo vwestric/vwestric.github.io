@@ -1,0 +1,104 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1472-01-25_1_0_13_10_0_13301_341",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Ne59088f2f47f45eba61d454fe4213cbc"
+      }
+    },
+    {
+      "@id": "_:Ne59088f2f47f45eba61d454fe4213cbc",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N5907947253a64386b3e5aa37c4155b7b"
+      },
+      "ps:P291": {
+        "@id": "_:N7607f8a9ebc24e61972bc24dcec31297"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:Nf8a106a6530845b5b0f99731b0127ade"
+        },
+        {
+          "@id": "_:Nddcbb4f9727d41cd8c3ddef9adbd4e41"
+        },
+        {
+          "@id": "_:N0814308f74104233a0ca0c512b70b0c8"
+        }
+      ]
+    },
+    {
+      "@id": "_:N7607f8a9ebc24e61972bc24dcec31297",
+      "https://schema.org#geo": {
+        "@id": "_:N8e855f65e545477383c665ccbf8d6cec"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q1741"
+      },
+      "rdfs:label": "Wien"
+    },
+    {
+      "@id": "_:N8e855f65e545477383c665ccbf8d6cec",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "48.20849",
+      "https://schema.org#longitude": "16.37208"
+    },
+    {
+      "@id": "_:N5907947253a64386b3e5aa37c4155b7b",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1472-01-25"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1472-01-25"
+      }
+    },
+    {
+      "@id": "_:Nf8a106a6530845b5b0f99731b0127ade",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00000064"
+      },
+      "ps:P39": {
+        "@id": "ri:herzog"
+      },
+      "rdfs:label": "Hz. Albrecht von Sachsen"
+    },
+    {
+      "@id": "_:Nddcbb4f9727d41cd8c3ddef9adbd4e41",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:W00003368"
+      },
+      "ps:P39": {
+        "@id": "ri:bischof"
+      },
+      "rdfs:label": "Bf. Rudolf (II.) von Würzburg"
+    },
+    {
+      "@id": "_:N0814308f74104233a0ca0c512b70b0c8",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:M00000083"
+      },
+      "ps:P39": {
+        "@id": "ri:erzbischof"
+      },
+      "rdfs:label": "Eb. Johann von Magdeburg"
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1442-08-26_3_0_13_9_0_12592_55",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Nf9290d924da64b13aa76c7c15d6a05ae"
+      }
+    },
+    {
+      "@id": "_:Nf9290d924da64b13aa76c7c15d6a05ae",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N3e2b61029e044b39913087d8bf160e02"
+      },
+      "ps:P291": {
+        "@id": "_:N56d872b2d16f408286399d26b8cc4bd1"
+      },
+      "ps:P3342": {
+        "@id": "_:N152116cf70ed4b9587aee2aebf832efe"
+      }
+    },
+    {
+      "@id": "_:N56d872b2d16f408286399d26b8cc4bd1",
+      "https://schema.org#geo": {
+        "@id": "_:N750c2d9cac784fb8a35c5f0c4134eb96"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q6602"
+      },
+      "rdfs:label": "Straßburg"
+    },
+    {
+      "@id": "_:N750c2d9cac784fb8a35c5f0c4134eb96",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "48.58392",
+      "https://schema.org#longitude": "7.74553"
+    },
+    {
+      "@id": "_:N3e2b61029e044b39913087d8bf160e02",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1442-08-26"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1442-08-26"
+      }
+    },
+    {
+      "@id": "_:N152116cf70ed4b9587aee2aebf832efe",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:T00001172"
+      },
+      "ps:P39": {
+        "@id": "ri:erzbischof"
+      },
+      "rdfs:label": "Eb. Jakob von Trier"
+    }
+  ]
+}

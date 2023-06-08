@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1490-08-07_1_0_13_8_0_12516_508",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Nd6bcf63ba2a74a84ac92580f500d32db"
+      }
+    },
+    {
+      "@id": "_:Nd6bcf63ba2a74a84ac92580f500d32db",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Nd1addda9f5504e5c8370160ba9401d7a"
+      },
+      "ps:P291": {
+        "@id": "_:N9d96f95f81af48dd8e70fd1ddcd3c6be"
+      },
+      "ps:P3342": {
+        "@id": "_:Nc5a97e85cb3040ed8bdfa1893e5bdc3a"
+      }
+    },
+    {
+      "@id": "_:N9d96f95f81af48dd8e70fd1ddcd3c6be",
+      "https://schema.org#geo": {
+        "@id": "_:N6b7ad6939e9449c18171d491fa5295d2"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q41329"
+      },
+      "rdfs:label": "Linz"
+    },
+    {
+      "@id": "_:N6b7ad6939e9449c18171d491fa5295d2",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "48.303056",
+      "https://schema.org#longitude": "14.290556"
+    },
+    {
+      "@id": "_:Nd1addda9f5504e5c8370160ba9401d7a",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1490-08-07"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1490-08-07"
+      }
+    },
+    {
+      "@id": "_:Nc5a97e85cb3040ed8bdfa1893e5bdc3a",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00000559"
+      },
+      "ps:P39": {
+        "@id": "ri:herzog"
+      },
+      "rdfs:label": "Hz. Georg von Bayern"
+    }
+  ]
+}

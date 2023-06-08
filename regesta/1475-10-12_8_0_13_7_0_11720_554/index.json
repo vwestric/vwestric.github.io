@@ -1,0 +1,60 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1475-10-12_8_0_13_7_0_11720_554",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N35a992f92e5f4aca9ca9ade8c8425741"
+      }
+    },
+    {
+      "@id": "_:N35a992f92e5f4aca9ca9ade8c8425741",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Nce290f78fd7b4045bbec9cc0ddf80e4d"
+      },
+      "ps:P291": {
+        "@id": "_:N2e6f438e7c2c4766aa6ff40e369b75a2"
+      }
+    },
+    {
+      "@id": "_:N2e6f438e7c2c4766aa6ff40e369b75a2",
+      "https://schema.org#geo": {
+        "@id": "_:N1b17b49de6ae459680fa4931deed73ac"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q390125"
+      },
+      "rdfs:label": "Linz am Rhein"
+    },
+    {
+      "@id": "_:N1b17b49de6ae459680fa4931deed73ac",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "50.568611",
+      "https://schema.org#longitude": "7.283056"
+    },
+    {
+      "@id": "_:Nce290f78fd7b4045bbec9cc0ddf80e4d",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1475-10-12"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1475-10-12"
+      }
+    }
+  ]
+}

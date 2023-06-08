@@ -1,0 +1,60 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1445-07-28_1_0_13_26_0_151_151",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N00913df9ef0c458a876387f6b6bd20be"
+      }
+    },
+    {
+      "@id": "_:N00913df9ef0c458a876387f6b6bd20be",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N7f31e3c0fb944480a8b2acbd8a8775fe"
+      },
+      "ps:P291": {
+        "@id": "_:N6800d5930b554023bc95713bfa347eea"
+      }
+    },
+    {
+      "@id": "_:N6800d5930b554023bc95713bfa347eea",
+      "https://schema.org#geo": {
+        "@id": "_:Nfc37d1ca449a4bc4bb4759b071667c41"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q255604"
+      },
+      "rdfs:label": "im Feld bei Rechnitz"
+    },
+    {
+      "@id": "_:Nfc37d1ca449a4bc4bb4759b071667c41",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.306944",
+      "https://schema.org#longitude": "16.438333"
+    },
+    {
+      "@id": "_:N7f31e3c0fb944480a8b2acbd8a8775fe",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1445-07-28"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1445-07-28"
+      }
+    }
+  ]
+}

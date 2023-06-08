@@ -1,0 +1,109 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1458-08-21_2_0_13_18_0_37_37",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Ncc1673ad9d1e49b7b519718474dfa59b"
+      }
+    },
+    {
+      "@id": "_:Ncc1673ad9d1e49b7b519718474dfa59b",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N80fa3ce83cab4923a78894ea8a529fb4"
+      },
+      "ps:P291": {
+        "@id": "_:N50e22debb3b048c393b31fb5ed068861"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:Nebc53fcf82fe4901bf370198c1aa99ad"
+        },
+        {
+          "@id": "_:N8a893b9f403a4bc3b1ce3d34c3f98cae"
+        },
+        {
+          "@id": "_:N77475aca9f5b4b5a91c1d0f2bda77aad"
+        },
+        {
+          "@id": "_:N9f25adec05c94704888597a3867ca7c1"
+        }
+      ]
+    },
+    {
+      "@id": "_:N50e22debb3b048c393b31fb5ed068861",
+      "https://schema.org#geo": {
+        "@id": "_:Nd8789fd38fcb492989fcb6e039fbd8c1"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q131612"
+      },
+      "rdfs:label": "Wiener Neustadt"
+    },
+    {
+      "@id": "_:Nd8789fd38fcb492989fcb6e039fbd8c1",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.813153",
+      "https://schema.org#longitude": "16.24444"
+    },
+    {
+      "@id": "_:N80fa3ce83cab4923a78894ea8a529fb4",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1458-08-21"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1458-08-21"
+      }
+    },
+    {
+      "@id": "_:Nebc53fcf82fe4901bf370198c1aa99ad",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:C00000462"
+      },
+      "ps:P39": {
+        "@id": "ri:graf"
+      },
+      "rdfs:label": "Gf. Ulrichs von Cilli"
+    },
+    {
+      "@id": "_:N8a893b9f403a4bc3b1ce3d34c3f98cae",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:L00001427"
+      },
+      "rdfs:label": "Heinrich von Liechtenstein"
+    },
+    {
+      "@id": "_:N77475aca9f5b4b5a91c1d0f2bda77aad",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:E00000711"
+      },
+      "rdfs:label": "Berthold von Ellerbach"
+    },
+    {
+      "@id": "_:N9f25adec05c94704888597a3867ca7c1",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00000483"
+      },
+      "rdfs:label": "Andreas Baumkircher"
+    }
+  ]
+}

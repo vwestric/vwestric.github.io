@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1486-06-26_1_0_13_7_0_11872_705",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N65238582184a4c1e8866cf20998de10f"
+      }
+    },
+    {
+      "@id": "_:N65238582184a4c1e8866cf20998de10f",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Nb5314c3394ba4025ac84f9efc2757160"
+      },
+      "ps:P291": {
+        "@id": "_:N49574994ab7e4ddf91e18f3d082d7034"
+      },
+      "ps:P3342": {
+        "@id": "_:N4aa18e16f0c8401bbb38858be9c5f6fd"
+      }
+    },
+    {
+      "@id": "_:N49574994ab7e4ddf91e18f3d082d7034",
+      "https://schema.org#geo": {
+        "@id": "_:N151a3529f1714e05800e0d0109e86866"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q2948"
+      },
+      "rdfs:label": "Neuss"
+    },
+    {
+      "@id": "_:N151a3529f1714e05800e0d0109e86866",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "51.198611",
+      "https://schema.org#longitude": "6.691389"
+    },
+    {
+      "@id": "_:Nb5314c3394ba4025ac84f9efc2757160",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1486-06-26"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1486-06-26"
+      }
+    },
+    {
+      "@id": "_:N4aa18e16f0c8401bbb38858be9c5f6fd",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:M00001151"
+      },
+      "ps:P39": {
+        "@id": "ri:koenig"
+      },
+      "rdfs:label": "Kg. Maximilian"
+    }
+  ]
+}

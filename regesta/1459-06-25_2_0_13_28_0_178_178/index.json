@@ -1,0 +1,115 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1459-06-25_2_0_13_28_0_178_178",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N6410eaed92914293b61957ba6eae9fc3"
+      }
+    },
+    {
+      "@id": "_:N6410eaed92914293b61957ba6eae9fc3",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Na1cf39afc291435382ff9589c550a8af"
+      },
+      "ps:P291": {
+        "@id": "_:Nbe3fe5089c624ec28627147ec613bf7f"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N87b42067a56240f39d8fb5eb13f37a5e"
+        },
+        {
+          "@id": "_:N47172f0740aa471ea9d130d23c3edfff"
+        },
+        {
+          "@id": "_:Nc826c12b0de04580b7f276786a9c9231"
+        },
+        {
+          "@id": "_:N115282c2190e47fe9ac23bb8836ce77f"
+        }
+      ]
+    },
+    {
+      "@id": "_:Nbe3fe5089c624ec28627147ec613bf7f",
+      "https://schema.org#geo": {
+        "@id": "_:Nc63bc740268c4cdba668e46a30a415f6"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q1741"
+      },
+      "rdfs:label": "Wien"
+    },
+    {
+      "@id": "_:Nc63bc740268c4cdba668e46a30a415f6",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "48.20849",
+      "https://schema.org#longitude": "16.37208"
+    },
+    {
+      "@id": "_:Na1cf39afc291435382ff9589c550a8af",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1459-06-25"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1459-06-25"
+      }
+    },
+    {
+      "@id": "_:N87b42067a56240f39d8fb5eb13f37a5e",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:A00001569"
+      },
+      "ps:P39": {
+        "@id": "ri:bischof"
+      },
+      "rdfs:label": "Bf. Peter von Augsburg"
+    },
+    {
+      "@id": "_:N47172f0740aa471ea9d130d23c3edfff",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00000582"
+      },
+      "rdfs:label": "Albrecht (III.) von Bayern (-München)"
+    },
+    {
+      "@id": "_:Nc826c12b0de04580b7f276786a9c9231",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:O00000622"
+      },
+      "ps:P39": {
+        "@id": "ri:herzog"
+      },
+      "rdfs:label": "Hz. Sigmund von Österreich"
+    },
+    {
+      "@id": "_:N115282c2190e47fe9ac23bb8836ce77f",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:G00001296"
+      },
+      "ps:P39": {
+        "@id": "ri:graf"
+      },
+      "rdfs:label": "Gf. Johann von Görz"
+    }
+  ]
+}

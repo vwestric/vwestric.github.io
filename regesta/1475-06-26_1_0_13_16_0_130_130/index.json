@@ -1,0 +1,71 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1475-06-26_1_0_13_16_0_130_130",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N6ed9b81de0174763a720d37b13e1936f"
+      }
+    },
+    {
+      "@id": "_:N6ed9b81de0174763a720d37b13e1936f",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Ndea149b488224835b608740e5623083c"
+      },
+      "ps:P291": {
+        "@id": "_:N359fc3b9fb564cf981ad11e24e45c736"
+      },
+      "ps:P3342": {
+        "@id": "_:N8013d66b95104d07bcf1d8a420257c40"
+      }
+    },
+    {
+      "@id": "_:N359fc3b9fb564cf981ad11e24e45c736",
+      "https://schema.org#geo": {
+        "@id": "_:N66d659bf46504d28954e7d2d7a9f4adc"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q2948"
+      },
+      "rdfs:label": "im ksl. Heer bei Neuss"
+    },
+    {
+      "@id": "_:N66d659bf46504d28954e7d2d7a9f4adc",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "51.198611",
+      "https://schema.org#longitude": "6.691389"
+    },
+    {
+      "@id": "_:Ndea149b488224835b608740e5623083c",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1475-06-26"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1475-06-26"
+      }
+    },
+    {
+      "@id": "_:N8013d66b95104d07bcf1d8a420257c40",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:A00000955"
+      },
+      "rdfs:label": "Fürst Waidemars (VI.) von Anhalt"
+    }
+  ]
+}

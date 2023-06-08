@@ -1,0 +1,101 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1440-07-02_1_0_13_14_0_25_25",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N58cbc2766cef42e4817fc76b99bbe5a5"
+      }
+    },
+    {
+      "@id": "_:N58cbc2766cef42e4817fc76b99bbe5a5",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N2eed2fdac4df43b391f32e4f5b1c4519"
+      },
+      "ps:P291": {
+        "@id": "_:N15319984b5df4aa4a6cd6fb6e5100861"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N2da44e49705a415f8a97f0c6e9e36e1f"
+        },
+        {
+          "@id": "_:Ndac22a23595649929666d9b289d3ebb9"
+        },
+        {
+          "@id": "_:N7511bcb6132241259ba12deeb20a2275"
+        }
+      ]
+    },
+    {
+      "@id": "_:N15319984b5df4aa4a6cd6fb6e5100861",
+      "https://schema.org#geo": {
+        "@id": "_:Nd08a957d0bd2415396fabe15904b99a7"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q1741"
+      },
+      "rdfs:label": "Wien"
+    },
+    {
+      "@id": "_:Nd08a957d0bd2415396fabe15904b99a7",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "48.20849",
+      "https://schema.org#longitude": "16.37208"
+    },
+    {
+      "@id": "_:N2eed2fdac4df43b391f32e4f5b1c4519",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1440-07-02"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1440-07-02"
+      }
+    },
+    {
+      "@id": "_:N2da44e49705a415f8a97f0c6e9e36e1f",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:P00000246"
+      },
+      "ps:P39": {
+        "@id": "ri:bischof"
+      },
+      "rdfs:label": "Bf. Leonhard von Passau"
+    },
+    {
+      "@id": "_:Ndac22a23595649929666d9b289d3ebb9",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00003529"
+      },
+      "ps:P39": {
+        "@id": "ri:kaiser"
+      },
+      "rdfs:label": "K. Sigmund"
+    },
+    {
+      "@id": "_:N7511bcb6132241259ba12deeb20a2275",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:O00000788"
+      },
+      "rdfs:label": "Wilhelm von Oettingen"
+    }
+  ]
+}

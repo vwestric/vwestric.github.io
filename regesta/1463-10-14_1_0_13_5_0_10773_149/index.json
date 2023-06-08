@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1463-10-14_1_0_13_5_0_10773_149",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N95c5405a00e945768a96058923401b39"
+      }
+    },
+    {
+      "@id": "_:N95c5405a00e945768a96058923401b39",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Nd793019c4b5645e9b33daadea12f0d14"
+      },
+      "ps:P291": {
+        "@id": "_:Nbdda0df9c99f4e1990fec4efbaad9dce"
+      },
+      "ps:P3342": {
+        "@id": "_:N61c580cf1742458eae17fdc772567806"
+      }
+    },
+    {
+      "@id": "_:Nbdda0df9c99f4e1990fec4efbaad9dce",
+      "https://schema.org#geo": {
+        "@id": "_:N896664d1c75d4c2da0228bcef3e5303f"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q131612"
+      },
+      "rdfs:label": "Wiener Neustadt"
+    },
+    {
+      "@id": "_:N896664d1c75d4c2da0228bcef3e5303f",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.813153",
+      "https://schema.org#longitude": "16.24444"
+    },
+    {
+      "@id": "_:Nd793019c4b5645e9b33daadea12f0d14",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1463-10-14"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1463-10-14"
+      }
+    },
+    {
+      "@id": "_:N61c580cf1742458eae17fdc772567806",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:F00001934"
+      },
+      "ps:P39": {
+        "@id": "ri:abt"
+      },
+      "rdfs:label": "Abt Reinhard von Fulda"
+    }
+  ]
+}

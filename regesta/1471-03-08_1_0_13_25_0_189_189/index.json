@@ -1,0 +1,60 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1471-03-08_1_0_13_25_0_189_189",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N9f165ddf369c41779f4c1de836ca2e1a"
+      }
+    },
+    {
+      "@id": "_:N9f165ddf369c41779f4c1de836ca2e1a",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N16bd80e7583b490fada25f9492311748"
+      },
+      "ps:P291": {
+        "@id": "_:N4e6d05406bb94372910a15a8c2207935"
+      }
+    },
+    {
+      "@id": "_:N4e6d05406bb94372910a15a8c2207935",
+      "https://schema.org#geo": {
+        "@id": "_:N56585221a0c04819ac4399e778610752"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q7027"
+      },
+      "rdfs:label": "Straubing"
+    },
+    {
+      "@id": "_:N56585221a0c04819ac4399e778610752",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "48.88126",
+      "https://schema.org#longitude": "12.57385"
+    },
+    {
+      "@id": "_:N16bd80e7583b490fada25f9492311748",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1471-03-08"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1471-03-08"
+      }
+    }
+  ]
+}

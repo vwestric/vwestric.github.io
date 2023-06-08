@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1457-03-22_1_0_13_13_0_371_370",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Nbc30a530c88542f5a1692659b547c4a2"
+      }
+    },
+    {
+      "@id": "_:Nbc30a530c88542f5a1692659b547c4a2",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Nf56162fbf6264551b07925f961618766"
+      },
+      "ps:P291": {
+        "@id": "_:N72fbd6ae06cd40a8834d4dda76410cc8"
+      },
+      "ps:P3342": {
+        "@id": "_:N281efa541bac466093e5aca04f34cf42"
+      }
+    },
+    {
+      "@id": "_:N72fbd6ae06cd40a8834d4dda76410cc8",
+      "https://schema.org#geo": {
+        "@id": "_:N060dd9c66324440ba348df70a31dc739"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q1012"
+      },
+      "rdfs:label": "Cilli"
+    },
+    {
+      "@id": "_:N060dd9c66324440ba348df70a31dc739",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "46.2259741",
+      "https://schema.org#longitude": "15.2686029"
+    },
+    {
+      "@id": "_:Nf56162fbf6264551b07925f961618766",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1457-03-22"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1457-03-22"
+      }
+    },
+    {
+      "@id": "_:N281efa541bac466093e5aca04f34cf42",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:M00000277"
+      },
+      "ps:P39": {
+        "@id": "ri:erzbischof"
+      },
+      "rdfs:label": "Eb. Dietrich von Mainz"
+    }
+  ]
+}

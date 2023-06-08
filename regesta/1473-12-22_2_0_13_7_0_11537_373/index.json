@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1473-12-22_2_0_13_7_0_11537_373",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N043b87c4d45d4565ab602595c8c5527b"
+      }
+    },
+    {
+      "@id": "_:N043b87c4d45d4565ab602595c8c5527b",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Ndd91e41b313f4ef0b1ab95fed8b765ca"
+      },
+      "ps:P291": {
+        "@id": "_:Ne4a004bee8d54bb3b3e7c0fba247fa5d"
+      },
+      "ps:P3342": {
+        "@id": "_:N6fd38bb5c75646949f8a81464b62f6d9"
+      }
+    },
+    {
+      "@id": "_:Ne4a004bee8d54bb3b3e7c0fba247fa5d",
+      "https://schema.org#geo": {
+        "@id": "_:N903cd4bb72e7495bae8573997237c9a2"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q1017"
+      },
+      "rdfs:label": "Aachen"
+    },
+    {
+      "@id": "_:N903cd4bb72e7495bae8573997237c9a2",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "50.77664",
+      "https://schema.org#longitude": "6.08342"
+    },
+    {
+      "@id": "_:Ndd91e41b313f4ef0b1ab95fed8b765ca",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1473-12-22"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1473-12-22"
+      }
+    },
+    {
+      "@id": "_:N6fd38bb5c75646949f8a81464b62f6d9",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:E00000996"
+      },
+      "ps:P39": {
+        "@id": "ri:koenig"
+      },
+      "rdfs:label": "Kg. Eduard (IV.) von England"
+    }
+  ]
+}

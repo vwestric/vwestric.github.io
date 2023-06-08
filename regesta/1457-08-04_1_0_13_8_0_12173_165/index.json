@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1457-08-04_1_0_13_8_0_12173_165",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Nd7bdd1400ff74caabb4ed26c070d945f"
+      }
+    },
+    {
+      "@id": "_:Nd7bdd1400ff74caabb4ed26c070d945f",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N280fadc1eb654dbeaf9dc7f619ea0c57"
+      },
+      "ps:P291": {
+        "@id": "_:Nac5083c5b80c4f2eba23e129e2804944"
+      },
+      "ps:P3342": {
+        "@id": "_:N706d0f41d52b44fea801b87e034b4ed7"
+      }
+    },
+    {
+      "@id": "_:Nac5083c5b80c4f2eba23e129e2804944",
+      "https://schema.org#geo": {
+        "@id": "_:N1c0ce821f4db489da580d7ebdba48da3"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q487500"
+      },
+      "rdfs:label": "Spittal in Kärnten"
+    },
+    {
+      "@id": "_:N1c0ce821f4db489da580d7ebdba48da3",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "46.791667",
+      "https://schema.org#longitude": "13.495833"
+    },
+    {
+      "@id": "_:N280fadc1eb654dbeaf9dc7f619ea0c57",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1457-08-04"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1457-08-04"
+      }
+    },
+    {
+      "@id": "_:N706d0f41d52b44fea801b87e034b4ed7",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:I00000279"
+      },
+      "ps:P39": {
+        "@id": "ri:graf"
+      },
+      "rdfs:label": "Gf. Diether von Isenburg-Büdingen"
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1449-06-14_1_0_13_3_0_9417_49",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N8e85f58f70af4905b94c2d67beb89333"
+      }
+    },
+    {
+      "@id": "_:N8e85f58f70af4905b94c2d67beb89333",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Nec2c14863eeb4593b967eda89b5a4d39"
+      },
+      "ps:P291": {
+        "@id": "_:Naaa117ef7cf54b8daf6e08c5cc006bcc"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N49d8596b4c764a10a0a8f1c9707da5a9"
+        },
+        {
+          "@id": "_:N876a6cfd32f649eea3e5a647092ebdc8"
+        },
+        {
+          "@id": "_:Ne2ca0916069f465f9daa8b91d1bfe113"
+        }
+      ]
+    },
+    {
+      "@id": "_:Naaa117ef7cf54b8daf6e08c5cc006bcc",
+      "https://schema.org#geo": {
+        "@id": "_:Nc7ce32142f104599bee1c9697cee2de1"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q1741"
+      },
+      "rdfs:label": "Wien"
+    },
+    {
+      "@id": "_:Nc7ce32142f104599bee1c9697cee2de1",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "48.20849",
+      "https://schema.org#longitude": "16.37208"
+    },
+    {
+      "@id": "_:Nec2c14863eeb4593b967eda89b5a4d39",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1449-06-14"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1449-06-14"
+      }
+    },
+    {
+      "@id": "_:N49d8596b4c764a10a0a8f1c9707da5a9",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:C00000330"
+      },
+      "ps:P39": {
+        "@id": "ri:bischof"
+      },
+      "rdfs:label": "Bf. Silvesters von Chiemsee"
+    },
+    {
+      "@id": "_:N876a6cfd32f649eea3e5a647092ebdc8",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:H00000653"
+      },
+      "ps:P39": {
+        "@id": "ri:graf"
+      },
+      "rdfs:label": "Gf. Reinhards (II.) von Hanau"
+    },
+    {
+      "@id": "_:Ne2ca0916069f465f9daa8b91d1bfe113",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00003529"
+      },
+      "ps:P39": {
+        "@id": "ri:kaiser"
+      },
+      "rdfs:label": "K. Sigmunds"
+    }
+  ]
+}

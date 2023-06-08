@@ -1,0 +1,87 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1448-01-17_1_0_13_13_0_52_51",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N3df92c2555cd4c5ea06193b4a4fce081"
+      }
+    },
+    {
+      "@id": "_:N3df92c2555cd4c5ea06193b4a4fce081",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N979ac36088ad41028c3309c5fed168d3"
+      },
+      "ps:P291": {
+        "@id": "_:Nff7cf20a33b347ecb10b3ec290d457e8"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N40bf5295d4a547f1912902bcc2fe6bad"
+        },
+        {
+          "@id": "_:N844dc254e4af4a569ca4b54e7bfc6af9"
+        }
+      ]
+    },
+    {
+      "@id": "_:Nff7cf20a33b347ecb10b3ec290d457e8",
+      "https://schema.org#geo": {
+        "@id": "_:Nbdf16fc865f044f5881789a83c1e2d50"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q1741"
+      },
+      "rdfs:label": "Wien"
+    },
+    {
+      "@id": "_:Nbdf16fc865f044f5881789a83c1e2d50",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "48.20849",
+      "https://schema.org#longitude": "16.37208"
+    },
+    {
+      "@id": "_:N979ac36088ad41028c3309c5fed168d3",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1448-01-17"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1448-01-17"
+      }
+    },
+    {
+      "@id": "_:N40bf5295d4a547f1912902bcc2fe6bad",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:O00000599"
+      },
+      "ps:P39": {
+        "@id": "ri:koenig"
+      },
+      "rdfs:label": "Kg. Ladislaus"
+    },
+    {
+      "@id": "_:N844dc254e4af4a569ca4b54e7bfc6af9",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:P00002222"
+      },
+      "rdfs:label": "Bernhard Praun"
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:dd846ccf-a73a-48c9-b636-a75e0b5f4d9f",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Nfbf08d1f4c1846e3bad7749183610e9a"
+      }
+    },
+    {
+      "@id": "_:Nfbf08d1f4c1846e3bad7749183610e9a",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N1767a86a2c2d4a6e84aa9356fd0f4e4f"
+      },
+      "ps:P291": {
+        "@id": "_:N6661f74b75814c60a4c79ab4714ce7a1"
+      },
+      "ps:P3342": {
+        "@id": "_:N23dcc3fc86e0403184caf8cb68832b79"
+      }
+    },
+    {
+      "@id": "_:N6661f74b75814c60a4c79ab4714ce7a1",
+      "https://schema.org#geo": {
+        "@id": "_:Nbb3e4824f4204b198f88bede6cfc8aa2"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q220"
+      },
+      "rdfs:label": "Rom"
+    },
+    {
+      "@id": "_:Nbb3e4824f4204b198f88bede6cfc8aa2",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "41.89193",
+      "https://schema.org#longitude": "12.51133"
+    },
+    {
+      "@id": "_:N1767a86a2c2d4a6e84aa9356fd0f4e4f",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1452-03-26"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1452-03-26"
+      }
+    },
+    {
+      "@id": "_:N23dcc3fc86e0403184caf8cb68832b79",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00003529"
+      },
+      "ps:P39": {
+        "@id": "ri:kaiser"
+      },
+      "rdfs:label": "K. Sigmunds"
+    }
+  ]
+}

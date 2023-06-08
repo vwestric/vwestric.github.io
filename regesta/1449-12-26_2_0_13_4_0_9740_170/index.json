@@ -1,0 +1,193 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1449-12-26_2_0_13_4_0_9740_170",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N9c859c6e783641e3b0d491b9d90918c7"
+      }
+    },
+    {
+      "@id": "_:N9c859c6e783641e3b0d491b9d90918c7",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N55d7608745d64107be9d0ae211d29d20"
+      },
+      "ps:P291": {
+        "@id": "_:Na8bc921803a6495881d3dfcd84a433a6"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N29edc96c6d054b0e9f15296d064c464e"
+        },
+        {
+          "@id": "_:Nb0387d5670134d9bb140bc1822ecf804"
+        },
+        {
+          "@id": "_:N7b4fd34c03e84d48b65af95da144d2fc"
+        },
+        {
+          "@id": "_:N1b467e9f9f1348fe8caaa8d749465a67"
+        },
+        {
+          "@id": "_:N05522bc209c94dbbb760b7f4f2a3c16f"
+        },
+        {
+          "@id": "_:N26723c5ca2074f57b82fdece35f347f2"
+        },
+        {
+          "@id": "_:N790782358e4049e2b07f9b7394a4ed3a"
+        },
+        {
+          "@id": "_:N66baeae701054de6bb64919f689a53a8"
+        },
+        {
+          "@id": "_:N13df361a69784fdf92522c5900c30629"
+        },
+        {
+          "@id": "_:N04a45162825b44ce8a0e1851d2616b87"
+        }
+      ]
+    },
+    {
+      "@id": "_:Na8bc921803a6495881d3dfcd84a433a6",
+      "https://schema.org#geo": {
+        "@id": "_:N803f0f7a55004b01a11fff4febf183d9"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q131612"
+      },
+      "rdfs:label": "Wiener Neustadt"
+    },
+    {
+      "@id": "_:N803f0f7a55004b01a11fff4febf183d9",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.813153",
+      "https://schema.org#longitude": "16.24444"
+    },
+    {
+      "@id": "_:N55d7608745d64107be9d0ae211d29d20",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1449-12-26"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1449-12-26"
+      }
+    },
+    {
+      "@id": "_:N29edc96c6d054b0e9f15296d064c464e",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:A00001569"
+      },
+      "rdfs:label": "Peter von Augsburg"
+    },
+    {
+      "@id": "_:Nb0387d5670134d9bb140bc1822ecf804",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:P00000246"
+      },
+      "rdfs:label": "Leonhard von Passau"
+    },
+    {
+      "@id": "_:N7b4fd34c03e84d48b65af95da144d2fc",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:P00000962"
+      },
+      "ps:P39": {
+        "@id": "ri:pfalzgraf"
+      },
+      "rdfs:label": "Pfgf. Friedrich bei Rhein"
+    },
+    {
+      "@id": "_:N1b467e9f9f1348fe8caaa8d749465a67",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:O00000622"
+      },
+      "rdfs:label": "Sigmund von Österreich"
+    },
+    {
+      "@id": "_:N05522bc209c94dbbb760b7f4f2a3c16f",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:J00000257"
+      },
+      "ps:P39": {
+        "@id": "ri:herzog"
+      },
+      "rdfs:label": "Hz. Gerhard von Jülich"
+    },
+    {
+      "@id": "_:N26723c5ca2074f57b82fdece35f347f2",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:J00000257"
+      },
+      "ps:P39": {
+        "@id": "ri:herzog"
+      },
+      "rdfs:label": "Hz. Gerhard von Jülich-Berg"
+    },
+    {
+      "@id": "_:N790782358e4049e2b07f9b7394a4ed3a",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:M00000893"
+      },
+      "ps:P39": {
+        "@id": "ri:erbmarschall"
+      },
+      "rdfs:label": "Erbmarschall Heinrich von Pappenheim"
+    },
+    {
+      "@id": "_:N66baeae701054de6bb64919f689a53a8",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00000365"
+      },
+      "ps:P39": {
+        "@id": "ri:erzbischof"
+      },
+      "rdfs:label": "Eb. Friedrich von Salzburg"
+    },
+    {
+      "@id": "_:N13df361a69784fdf92522c5900c30629",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:C00000330"
+      },
+      "ps:P39": {
+        "@id": "ri:bischof"
+      },
+      "rdfs:label": "Bf. Silvester von Chiemsee"
+    },
+    {
+      "@id": "_:N04a45162825b44ce8a0e1851d2616b87",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:R00001810"
+      },
+      "ps:P39": {
+        "@id": "ri:lic"
+      },
+      "rdfs:label": "Lic. iur. utr. Ulrich Riederer"
+    }
+  ]
+}

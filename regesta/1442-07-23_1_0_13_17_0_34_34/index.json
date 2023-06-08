@@ -1,0 +1,87 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1442-07-23_1_0_13_17_0_34_34",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N42a9430507f44a43a0b9bbdfbf622417"
+      }
+    },
+    {
+      "@id": "_:N42a9430507f44a43a0b9bbdfbf622417",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Na6b8c239fd5c4c5286a42c93937ac1b0"
+      },
+      "ps:P291": {
+        "@id": "_:N5aef1764484c4b7ca6fc531e2e99ebfb"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:Nffce8fe75ead4297995844c69471e32e"
+        },
+        {
+          "@id": "_:N439999cff9be47cdb9ba8386ba37c556"
+        }
+      ]
+    },
+    {
+      "@id": "_:N5aef1764484c4b7ca6fc531e2e99ebfb",
+      "https://schema.org#geo": {
+        "@id": "_:Nedadfe75aa184deeb6c7b7cb51f64ffe"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q1794"
+      },
+      "rdfs:label": "Frankfurt"
+    },
+    {
+      "@id": "_:Nedadfe75aa184deeb6c7b7cb51f64ffe",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "50.110556",
+      "https://schema.org#longitude": "8.682222"
+    },
+    {
+      "@id": "_:Na6b8c239fd5c4c5286a42c93937ac1b0",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1442-07-23"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1442-07-23"
+      }
+    },
+    {
+      "@id": "_:Nffce8fe75ead4297995844c69471e32e",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:W00001172"
+      },
+      "rdfs:label": "Wenzel von der Weitenmühl"
+    },
+    {
+      "@id": "_:N439999cff9be47cdb9ba8386ba37c556",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:F00001656"
+      },
+      "ps:P39": {
+        "@id": "ri:buerger"
+      },
+      "rdfs:label": "Clesel Frisch, Bürger zu Hagenau"
+    }
+  ]
+}

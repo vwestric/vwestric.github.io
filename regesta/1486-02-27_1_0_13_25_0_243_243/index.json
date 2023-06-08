@@ -1,0 +1,60 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1486-02-27_1_0_13_25_0_243_243",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Nd6b94b3b8ba949c686a6f607f1fdec34"
+      }
+    },
+    {
+      "@id": "_:Nd6b94b3b8ba949c686a6f607f1fdec34",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N9d5bb805debc40cfb1da632e91c6790b"
+      },
+      "ps:P291": {
+        "@id": "_:Nf483a7fbc113437f91e831d184bd2f1b"
+      }
+    },
+    {
+      "@id": "_:Nf483a7fbc113437f91e831d184bd2f1b",
+      "https://schema.org#geo": {
+        "@id": "_:N5846807918334e85933a3e33876b8dab"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q1794"
+      },
+      "rdfs:label": "Frankfurt"
+    },
+    {
+      "@id": "_:N5846807918334e85933a3e33876b8dab",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "50.110556",
+      "https://schema.org#longitude": "8.682222"
+    },
+    {
+      "@id": "_:N9d5bb805debc40cfb1da632e91c6790b",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1486-02-27"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1486-02-27"
+      }
+    }
+  ]
+}

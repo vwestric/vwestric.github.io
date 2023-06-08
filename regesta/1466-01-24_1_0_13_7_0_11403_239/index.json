@@ -1,0 +1,68 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1466-01-24_1_0_13_7_0_11403_239",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N292e9720d5fd4f58972b81a2909196a1"
+      }
+    },
+    {
+      "@id": "_:N292e9720d5fd4f58972b81a2909196a1",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N257782556f364a8c81073e92c1e4f730"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N520dcef2ebb34adbbccf4efd26517d60"
+        },
+        {
+          "@id": "_:N1b0a9fe0185d407ebb4925039619feea"
+        }
+      ]
+    },
+    {
+      "@id": "_:N257782556f364a8c81073e92c1e4f730",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1466-01-24"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1466-01-24"
+      }
+    },
+    {
+      "@id": "_:N520dcef2ebb34adbbccf4efd26517d60",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:F00001768"
+      },
+      "rdfs:label": "Dr. Johann Frundt"
+    },
+    {
+      "@id": "_:N1b0a9fe0185d407ebb4925039619feea",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:W00001309"
+      },
+      "ps:P39": {
+        "@id": "ri:diener"
+      },
+      "rdfs:label": "Dieners Hans Weltzli"
+    }
+  ]
+}

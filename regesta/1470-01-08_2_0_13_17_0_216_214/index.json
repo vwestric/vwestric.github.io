@@ -1,0 +1,90 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1470-01-08_2_0_13_17_0_216_214",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N1b2fdad4f66544719b8dfdae9f50346c"
+      }
+    },
+    {
+      "@id": "_:N1b2fdad4f66544719b8dfdae9f50346c",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N381144afdf9c465ab25c9ad32ad84d93"
+      },
+      "ps:P291": {
+        "@id": "_:N5edfe9d3a25d46ad9581a0f71409d048"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N518894fb1815436b91401a0f6a9b6ac5"
+        },
+        {
+          "@id": "_:N51696a1c1bb44ec69e91ecc40d895b53"
+        }
+      ]
+    },
+    {
+      "@id": "_:N5edfe9d3a25d46ad9581a0f71409d048",
+      "https://schema.org#geo": {
+        "@id": "_:Nc9a825d075bf4ec7b8b5a15eb9d7cfdf"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q1741"
+      },
+      "rdfs:label": "Wien"
+    },
+    {
+      "@id": "_:Nc9a825d075bf4ec7b8b5a15eb9d7cfdf",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "48.20849",
+      "https://schema.org#longitude": "16.37208"
+    },
+    {
+      "@id": "_:N381144afdf9c465ab25c9ad32ad84d93",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1470-01-08"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1470-01-08"
+      }
+    },
+    {
+      "@id": "_:N518894fb1815436b91401a0f6a9b6ac5",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:P00000962"
+      },
+      "ps:P39": {
+        "@id": "ri:pfalzgraf"
+      },
+      "rdfs:label": "Pfgf. Friedrich (I.) bei Rhein"
+    },
+    {
+      "@id": "_:N51696a1c1bb44ec69e91ecc40d895b53",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:Z00000640"
+      },
+      "ps:P39": {
+        "@id": "ri:pfalzgraf"
+      },
+      "rdfs:label": "Pfgf. Ludwig (I.) (von Zweibrücken-Veldenz)"
+    }
+  ]
+}

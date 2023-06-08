@@ -1,0 +1,85 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1475-07-14_1_0_13_23_0_624_621",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N51ec081547684e3597503c36dd6f5139"
+      }
+    },
+    {
+      "@id": "_:N51ec081547684e3597503c36dd6f5139",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N83f9abaac4c24f22afd12ad411e2aba4"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N73a2e099158e4a89bf82140de536720a"
+        },
+        {
+          "@id": "_:Nc8163801f1744755a960555465cb48e1"
+        },
+        {
+          "@id": "_:N075c4d2b9d044cb4a987d986f225feb0"
+        }
+      ]
+    },
+    {
+      "@id": "_:N83f9abaac4c24f22afd12ad411e2aba4",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1475-07-14"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1475-07-14"
+      }
+    },
+    {
+      "@id": "_:N73a2e099158e4a89bf82140de536720a",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00003679"
+      },
+      "ps:P39": {
+        "@id": "ri:papst"
+      },
+      "rdfs:label": "Papst Sixtus IV."
+    },
+    {
+      "@id": "_:Nc8163801f1744755a960555465cb48e1",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:M00001152"
+      },
+      "ps:P39": {
+        "@id": "ri:herzog"
+      },
+      "rdfs:label": "Hz. Maximilian von Österreich"
+    },
+    {
+      "@id": "_:N075c4d2b9d044cb4a987d986f225feb0",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:W00003283"
+      },
+      "ps:P39": {
+        "@id": "ri:graf"
+      },
+      "rdfs:label": "Gf. Eberhard (V.) d.Ä. von Württemberg"
+    }
+  ]
+}

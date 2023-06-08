@@ -1,0 +1,118 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1462-03-30_3_0_13_23_0_303_300",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N8f2984fc10f6479d802d2dbeef9e2111"
+      }
+    },
+    {
+      "@id": "_:N8f2984fc10f6479d802d2dbeef9e2111",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N3b2ae2140427496cb8e6c447641fa556"
+      },
+      "ps:P291": {
+        "@id": "_:Nf39e4f8364264438a07cc2056d99c4f1"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N2c212f4c9c5441d8995d55bbc8ef6c1e"
+        },
+        {
+          "@id": "_:N06738158c3b6417bb08546267e7b10b2"
+        },
+        {
+          "@id": "_:N125a3422703e4a4aa1d46a684e98311a"
+        },
+        {
+          "@id": "_:N91b4f3ba9d3a497da09638f6178f8fb0"
+        }
+      ]
+    },
+    {
+      "@id": "_:Nf39e4f8364264438a07cc2056d99c4f1",
+      "https://schema.org#geo": {
+        "@id": "_:N2b40d2b99d4f41a7af57560b1a38a929"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q13298"
+      },
+      "rdfs:label": "Graz"
+    },
+    {
+      "@id": "_:N2b40d2b99d4f41a7af57560b1a38a929",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.06667",
+      "https://schema.org#longitude": "15.45"
+    },
+    {
+      "@id": "_:N3b2ae2140427496cb8e6c447641fa556",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1462-03-30"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1462-03-30"
+      }
+    },
+    {
+      "@id": "_:N2c212f4c9c5441d8995d55bbc8ef6c1e",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:P00000962"
+      },
+      "ps:P39": {
+        "@id": "ri:pfalzgraf"
+      },
+      "rdfs:label": "Pfgf. Friedrich bei Rhein"
+    },
+    {
+      "@id": "_:N06738158c3b6417bb08546267e7b10b2",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00002248"
+      },
+      "ps:P39": {
+        "@id": "ri:markgraf"
+      },
+      "rdfs:label": "Mgf. Albrecht von Brandenburg"
+    },
+    {
+      "@id": "_:N125a3422703e4a4aa1d46a684e98311a",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00000075"
+      },
+      "ps:P39": {
+        "@id": "ri:markgraf"
+      },
+      "rdfs:label": "Mgf. Karl (I.) von Baden"
+    },
+    {
+      "@id": "_:N91b4f3ba9d3a497da09638f6178f8fb0",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:W00003211"
+      },
+      "ps:P39": {
+        "@id": "ri:graf"
+      },
+      "rdfs:label": "Gf. Ulrich (V.) von Württemberg"
+    }
+  ]
+}

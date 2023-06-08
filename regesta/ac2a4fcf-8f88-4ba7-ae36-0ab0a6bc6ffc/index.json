@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:ac2a4fcf-8f88-4ba7-ae36-0ab0a6bc6ffc",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Nd40ad34760e547658a2946496581e2af"
+      }
+    },
+    {
+      "@id": "_:Nd40ad34760e547658a2946496581e2af",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N3ccc55d1fc334f099503b4fe9a9248a8"
+      },
+      "ps:P291": {
+        "@id": "_:Nf8cc1af31c534f1a9940712efa4220c4"
+      },
+      "ps:P3342": {
+        "@id": "_:N1b3c5b53f575416e973592aaf1bf324a"
+      }
+    },
+    {
+      "@id": "_:Nf8cc1af31c534f1a9940712efa4220c4",
+      "https://schema.org#geo": {
+        "@id": "_:Nbc4e18cd7698421fb17067ecf2cbdfe6"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q1741"
+      },
+      "rdfs:label": "Wien"
+    },
+    {
+      "@id": "_:Nbc4e18cd7698421fb17067ecf2cbdfe6",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "48.20849",
+      "https://schema.org#longitude": "16.37208"
+    },
+    {
+      "@id": "_:N3ccc55d1fc334f099503b4fe9a9248a8",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1448-03-02"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1448-03-02"
+      }
+    },
+    {
+      "@id": "_:N1b3c5b53f575416e973592aaf1bf324a",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00000582"
+      },
+      "ps:P39": {
+        "@id": "ri:herzog"
+      },
+      "rdfs:label": "Hz. Albrecht (III.) von Bayern (-München)"
+    }
+  ]
+}

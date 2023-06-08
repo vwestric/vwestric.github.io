@@ -1,0 +1,185 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1462-05-26_10_0_13_23_0_365_362",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Ne3325110e7614ba98e761079e08dcbfe"
+      }
+    },
+    {
+      "@id": "_:Ne3325110e7614ba98e761079e08dcbfe",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N58d421665cfb484a8ae37ad79019ce7b"
+      },
+      "ps:P291": {
+        "@id": "_:N13ed66beebf74406a86ab3085af523b7"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N78fd7926aa5b410b822f47cecdddc05f"
+        },
+        {
+          "@id": "_:N256d22ecf208457ca0fd1e4ae1862888"
+        },
+        {
+          "@id": "_:N7864de5d7856447b9faa15d498b4c6b4"
+        },
+        {
+          "@id": "_:N1e49332337ae45f7824be773e37202ce"
+        },
+        {
+          "@id": "_:Nedf8624c13744535a3869f57d08a7183"
+        },
+        {
+          "@id": "_:N582a4dde641f4e9394f38247b6a4d4bc"
+        },
+        {
+          "@id": "_:N29c78cca3a02427f9597a5c752170833"
+        },
+        {
+          "@id": "_:Ne146974ec6584b0db13426981c208e79"
+        },
+        {
+          "@id": "_:N9b94e9e04d7744fe8a2ddf17753fb03e"
+        }
+      ]
+    },
+    {
+      "@id": "_:N13ed66beebf74406a86ab3085af523b7",
+      "https://schema.org#geo": {
+        "@id": "_:N77a26147f1da45119eb74f55befd9561"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q13298"
+      },
+      "rdfs:label": "Graz"
+    },
+    {
+      "@id": "_:N77a26147f1da45119eb74f55befd9561",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.06667",
+      "https://schema.org#longitude": "15.45"
+    },
+    {
+      "@id": "_:N58d421665cfb484a8ae37ad79019ce7b",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1462-05-26"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1462-05-26"
+      }
+    },
+    {
+      "@id": "_:N78fd7926aa5b410b822f47cecdddc05f",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00002248"
+      },
+      "ps:P39": {
+        "@id": "ri:markgraf"
+      },
+      "rdfs:label": "Mgf. Albrecht von Brandenburg"
+    },
+    {
+      "@id": "_:N256d22ecf208457ca0fd1e4ae1862888",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:P00001458"
+      },
+      "ps:P39": {
+        "@id": "ri:papst"
+      },
+      "rdfs:label": "Papst (Pius II.)"
+    },
+    {
+      "@id": "_:N7864de5d7856447b9faa15d498b4c6b4",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00001825"
+      },
+      "ps:P39": {
+        "@id": "ri:koenig"
+      },
+      "rdfs:label": "Kg. (Georg) von Böhmen"
+    },
+    {
+      "@id": "_:N1e49332337ae45f7824be773e37202ce",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:F00001020"
+      },
+      "ps:P39": {
+        "@id": "ri:frau"
+      },
+      "rdfs:label": "Hans Fraunberger von Prunn"
+    },
+    {
+      "@id": "_:Nedf8624c13744535a3869f57d08a7183",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00000587"
+      },
+      "rdfs:label": "Sigmund von Bayern (-München)"
+    },
+    {
+      "@id": "_:N582a4dde641f4e9394f38247b6a4d4bc",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00000565"
+      },
+      "ps:P39": {
+        "@id": "ri:herzog"
+      },
+      "rdfs:label": "Hz. Ludwig (IX.) von Bayern (-Landshut)"
+    },
+    {
+      "@id": "_:N29c78cca3a02427f9597a5c752170833",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:D00000033"
+      },
+      "ps:P39": {
+        "@id": "ri:koenig"
+      },
+      "rdfs:label": "Kg. (Christian I.) von Dänemark"
+    },
+    {
+      "@id": "_:Ne146974ec6584b0db13426981c208e79",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00000565"
+      },
+      "ps:P39": {
+        "@id": "ri:herzog"
+      },
+      "rdfs:label": "Hz. Ludwig (IX.) von Bayern (-Landshut)"
+    },
+    {
+      "@id": "_:N9b94e9e04d7744fe8a2ddf17753fb03e",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00000076"
+      },
+      "ps:P39": {
+        "@id": "ri:kurfuerst"
+      },
+      "rdfs:label": "(Kf. Friedrich II.) von Sachsen"
+    }
+  ]
+}

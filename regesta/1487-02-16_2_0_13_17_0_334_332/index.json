@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1487-02-16_2_0_13_17_0_334_332",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Ncbb72d9b2d754e3786a7ff602b0b8888"
+      }
+    },
+    {
+      "@id": "_:Ncbb72d9b2d754e3786a7ff602b0b8888",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N57425d0a764d476fad902e05f25eb986"
+      },
+      "ps:P291": {
+        "@id": "_:Nb02c61bed93c414fa23a33a9a50bb986"
+      },
+      "ps:P3342": {
+        "@id": "_:N17b0aa21e0aa4ec582ede13caaa68c41"
+      }
+    },
+    {
+      "@id": "_:Nb02c61bed93c414fa23a33a9a50bb986",
+      "https://schema.org#geo": {
+        "@id": "_:Nef14260d2cc24819ba8eb73ef48ea4ae"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q6829"
+      },
+      "rdfs:label": "Speyer"
+    },
+    {
+      "@id": "_:Nef14260d2cc24819ba8eb73ef48ea4ae",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "49.32083",
+      "https://schema.org#longitude": "8.43111"
+    },
+    {
+      "@id": "_:N57425d0a764d476fad902e05f25eb986",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1487-02-16"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1487-02-16"
+      }
+    },
+    {
+      "@id": "_:N17b0aa21e0aa4ec582ede13caaa68c41",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:U00000212"
+      },
+      "ps:P39": {
+        "@id": "ri:koenig"
+      },
+      "rdfs:label": "Kg. (Matthias) von Ungarn"
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1472-11-14_2_0_13_27_0_177_177",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N97dd0df4a252494ba0caf928cfd2a6fa"
+      }
+    },
+    {
+      "@id": "_:N97dd0df4a252494ba0caf928cfd2a6fa",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N4193da6da2f947d38adb9b5db0eb7cfb"
+      },
+      "ps:P291": {
+        "@id": "_:N065c7229c352441cb8976e30c229e800"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:Nd57ed58e6d584004a1e2d5bbe7a8808b"
+        },
+        {
+          "@id": "_:Nc1810a6f902a4be9b502aee84b13bf74"
+        },
+        {
+          "@id": "_:Nbb80a719f1db4e5da7b370b601d235f9"
+        }
+      ]
+    },
+    {
+      "@id": "_:N065c7229c352441cb8976e30c229e800",
+      "https://schema.org#geo": {
+        "@id": "_:N3c7f2780b1de4d05a84d8b02b23e0fdf"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q13298"
+      },
+      "rdfs:label": "Graz"
+    },
+    {
+      "@id": "_:N3c7f2780b1de4d05a84d8b02b23e0fdf",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.06667",
+      "https://schema.org#longitude": "15.45"
+    },
+    {
+      "@id": "_:N4193da6da2f947d38adb9b5db0eb7cfb",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1472-11-14"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1472-11-14"
+      }
+    },
+    {
+      "@id": "_:Nd57ed58e6d584004a1e2d5bbe7a8808b",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:E00000617"
+      },
+      "rdfs:label": "Stephan von Eitzing"
+    },
+    {
+      "@id": "_:Nc1810a6f902a4be9b502aee84b13bf74",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:E00000617"
+      },
+      "rdfs:label": "Ulrich von Eitzing"
+    },
+    {
+      "@id": "_:Nbb80a719f1db4e5da7b370b601d235f9",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:N00000247"
+      },
+      "rdfs:label": "Hans von Neidegg"
+    }
+  ]
+}

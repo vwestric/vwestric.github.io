@@ -1,0 +1,71 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1487-12-01_1_0_13_11_0_613_613",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Nb02a48169cd6498786495aac86b36745"
+      }
+    },
+    {
+      "@id": "_:Nb02a48169cd6498786495aac86b36745",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N9301a8455f494fb895b76da889d37d4a"
+      },
+      "ps:P291": {
+        "@id": "_:Ne1527df3aef547f8b66689f225b277e2"
+      },
+      "ps:P3342": {
+        "@id": "_:N9578471b22ca4903a888b063b3e58e2b"
+      }
+    },
+    {
+      "@id": "_:Ne1527df3aef547f8b66689f225b277e2",
+      "https://schema.org#geo": {
+        "@id": "_:N89417a0e4dea4ee5a63193585f1df4ff"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q2090"
+      },
+      "rdfs:label": "Nürnberg"
+    },
+    {
+      "@id": "_:N89417a0e4dea4ee5a63193585f1df4ff",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "49.45421",
+      "https://schema.org#longitude": "11.07752"
+    },
+    {
+      "@id": "_:N9301a8455f494fb895b76da889d37d4a",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1487-12-01"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1487-12-01"
+      }
+    },
+    {
+      "@id": "_:N9578471b22ca4903a888b063b3e58e2b",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00001841"
+      },
+      "rdfs:label": "(Wladislaw II.) von Böhmen"
+    }
+  ]
+}

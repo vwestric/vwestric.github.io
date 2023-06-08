@@ -1,0 +1,55 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1454-08-03_1_0_13_19_0_472_470",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N707481f1ce984def8af856ea1b7017d3"
+      }
+    },
+    {
+      "@id": "_:N707481f1ce984def8af856ea1b7017d3",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N75a809bb56824ae0b40e65c01118181f"
+      },
+      "ps:P3342": {
+        "@id": "_:N822eb8d789bd43f4b7c5d87adefe180a"
+      }
+    },
+    {
+      "@id": "_:N75a809bb56824ae0b40e65c01118181f",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1454-08-03"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1454-08-03"
+      }
+    },
+    {
+      "@id": "_:N822eb8d789bd43f4b7c5d87adefe180a",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00000565"
+      },
+      "ps:P39": {
+        "@id": "ri:herzog"
+      },
+      "rdfs:label": "Hz. Ludwig (IX.) von Bayern (-Landshut)"
+    }
+  ]
+}

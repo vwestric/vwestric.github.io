@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1487-08-01_3_0_13_11_0_578_578",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N439ce17bffd842a98057782987b7718f"
+      }
+    },
+    {
+      "@id": "_:N439ce17bffd842a98057782987b7718f",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Nb0808106dab64885b486ea9140ba0eee"
+      },
+      "ps:P291": {
+        "@id": "_:N5fd9919e023b4e81aeab6a783482c76d"
+      },
+      "ps:P3342": {
+        "@id": "_:Nf5a0de8dd08945d7b7c40941e32f0056"
+      }
+    },
+    {
+      "@id": "_:N5fd9919e023b4e81aeab6a783482c76d",
+      "https://schema.org#geo": {
+        "@id": "_:Nd05e90f8b5b140b7a683a00d000ce6c7"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q2090"
+      },
+      "rdfs:label": "Nürnberg"
+    },
+    {
+      "@id": "_:Nd05e90f8b5b140b7a683a00d000ce6c7",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "49.45421",
+      "https://schema.org#longitude": "11.07752"
+    },
+    {
+      "@id": "_:Nb0808106dab64885b486ea9140ba0eee",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1487-08-01"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1487-08-01"
+      }
+    },
+    {
+      "@id": "_:Nf5a0de8dd08945d7b7c40941e32f0056",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00000064"
+      },
+      "ps:P39": {
+        "@id": "ri:herzog"
+      },
+      "rdfs:label": "Hz. Albrecht von Sachsen"
+    }
+  ]
+}

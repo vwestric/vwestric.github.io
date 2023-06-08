@@ -1,0 +1,90 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1442-08-14_1_0_13_4_0_9611_41",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N0d2fc749c9ab4ea98313e4265a0a9549"
+      }
+    },
+    {
+      "@id": "_:N0d2fc749c9ab4ea98313e4265a0a9549",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N0e3578a05cc3407599ab3a2a4244ebc0"
+      },
+      "ps:P291": {
+        "@id": "_:N88f560c593cb41058d704498389af029"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:Nc7916e38f9484df28d10fafc4fdd1554"
+        },
+        {
+          "@id": "_:Na7794067a3c340f98012a449e96a87f1"
+        }
+      ]
+    },
+    {
+      "@id": "_:N88f560c593cb41058d704498389af029",
+      "https://schema.org#geo": {
+        "@id": "_:Nf0ec7f6e9079415d8f045897923ec3b6"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q1794"
+      },
+      "rdfs:label": "Frankfurt"
+    },
+    {
+      "@id": "_:Nf0ec7f6e9079415d8f045897923ec3b6",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "50.110556",
+      "https://schema.org#longitude": "8.682222"
+    },
+    {
+      "@id": "_:N0e3578a05cc3407599ab3a2a4244ebc0",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1442-08-14"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1442-08-14"
+      }
+    },
+    {
+      "@id": "_:Nc7916e38f9484df28d10fafc4fdd1554",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:K00000431"
+      },
+      "ps:P39": {
+        "@id": "ri:kaiser"
+      },
+      "rdfs:label": "K. Karls IV."
+    },
+    {
+      "@id": "_:Na7794067a3c340f98012a449e96a87f1",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:K00001681"
+      },
+      "ps:P39": {
+        "@id": "ri:erzbischof"
+      },
+      "rdfs:label": "Eb. Dietrich von Köln"
+    }
+  ]
+}

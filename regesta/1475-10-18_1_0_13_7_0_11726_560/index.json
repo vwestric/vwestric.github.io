@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1475-10-18_1_0_13_7_0_11726_560",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N2ae4a84bbd4d44f2b328636b6eb90826"
+      }
+    },
+    {
+      "@id": "_:N2ae4a84bbd4d44f2b328636b6eb90826",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Na32ba21a6ff6491d995a4b458be97f65"
+      },
+      "ps:P291": {
+        "@id": "_:Ne33ca6dddec8485ea9db40c39747fe64"
+      },
+      "ps:P3342": {
+        "@id": "_:Ne13048629d0844a7a0fd3fb38bf997d6"
+      }
+    },
+    {
+      "@id": "_:Ne33ca6dddec8485ea9db40c39747fe64",
+      "https://schema.org#geo": {
+        "@id": "_:N5bf45260f7ab44cc972ff3ae0ff70824"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q390125"
+      },
+      "rdfs:label": "Linz am Rhein"
+    },
+    {
+      "@id": "_:N5bf45260f7ab44cc972ff3ae0ff70824",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "50.568611",
+      "https://schema.org#longitude": "7.283056"
+    },
+    {
+      "@id": "_:Na32ba21a6ff6491d995a4b458be97f65",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1475-10-18"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1475-10-18"
+      }
+    },
+    {
+      "@id": "_:Ne13048629d0844a7a0fd3fb38bf997d6",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:K00001690"
+      },
+      "ps:P39": {
+        "@id": "ri:erzbischof"
+      },
+      "rdfs:label": "Eb. Ruprecht von Köln"
+    }
+  ]
+}

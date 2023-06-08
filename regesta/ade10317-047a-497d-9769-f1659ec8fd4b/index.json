@@ -1,0 +1,101 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:ade10317-047a-497d-9769-f1659ec8fd4b",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N1d42bed601a24459be431c506a543238"
+      }
+    },
+    {
+      "@id": "_:N1d42bed601a24459be431c506a543238",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N9d8239d1a0c540bfb04e4b6ee28560dd"
+      },
+      "ps:P291": {
+        "@id": "_:N14cab10ceada4691aae659b035503f6b"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N04c09a0e2f5b4f388adf040cd9682932"
+        },
+        {
+          "@id": "_:Nea846648c06446879b61f8ee9e29e0ef"
+        },
+        {
+          "@id": "_:N898159ea227d404ba3dee47ca3ab72de"
+        }
+      ]
+    },
+    {
+      "@id": "_:N14cab10ceada4691aae659b035503f6b",
+      "https://schema.org#geo": {
+        "@id": "_:Na5a631b5379946cba8291de713e57287"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q131612"
+      },
+      "rdfs:label": "Wiener Neustadt"
+    },
+    {
+      "@id": "_:Na5a631b5379946cba8291de713e57287",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.813153",
+      "https://schema.org#longitude": "16.24444"
+    },
+    {
+      "@id": "_:N9d8239d1a0c540bfb04e4b6ee28560dd",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1453-01-17"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1453-01-17"
+      }
+    },
+    {
+      "@id": "_:N04c09a0e2f5b4f388adf040cd9682932",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00000565"
+      },
+      "ps:P39": {
+        "@id": "ri:herzog"
+      },
+      "rdfs:label": "Hz. Ludwig (IX.) von Bayern(-Landshut)"
+    },
+    {
+      "@id": "_:Nea846648c06446879b61f8ee9e29e0ef",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00002248"
+      },
+      "ps:P39": {
+        "@id": "ri:markgraf"
+      },
+      "rdfs:label": "Mgf. Albrecht von Brandenburg"
+    },
+    {
+      "@id": "_:N898159ea227d404ba3dee47ca3ab72de",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:H00001319"
+      },
+      "rdfs:label": "Konrad von Heideck"
+    }
+  ]
+}

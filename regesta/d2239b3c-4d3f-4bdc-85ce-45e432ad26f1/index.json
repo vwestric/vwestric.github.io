@@ -1,0 +1,90 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:d2239b3c-4d3f-4bdc-85ce-45e432ad26f1",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N163c295a6cec4df991a6dffb1302606f"
+      }
+    },
+    {
+      "@id": "_:N163c295a6cec4df991a6dffb1302606f",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N072b12646dfe4b869ff5c0d3c7723d30"
+      },
+      "ps:P291": {
+        "@id": "_:Necb5c26162da4b2095213caafd9eabc3"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N4dac63c848194280875d9375a0eb0a11"
+        },
+        {
+          "@id": "_:N185d350927d04edaa5691422f9348429"
+        }
+      ]
+    },
+    {
+      "@id": "_:Necb5c26162da4b2095213caafd9eabc3",
+      "https://schema.org#geo": {
+        "@id": "_:N361cf40c4e7a4e35bd46f80ed57638c7"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q1794"
+      },
+      "rdfs:label": "Frankfurt"
+    },
+    {
+      "@id": "_:N361cf40c4e7a4e35bd46f80ed57638c7",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "50.110556",
+      "https://schema.org#longitude": "8.682222"
+    },
+    {
+      "@id": "_:N072b12646dfe4b869ff5c0d3c7723d30",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1442-07-31"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1442-07-31"
+      }
+    },
+    {
+      "@id": "_:N4dac63c848194280875d9375a0eb0a11",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00003529"
+      },
+      "ps:P39": {
+        "@id": "ri:kaiser"
+      },
+      "rdfs:label": "K. Sigmund"
+    },
+    {
+      "@id": "_:N185d350927d04edaa5691422f9348429",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:J00000257"
+      },
+      "ps:P39": {
+        "@id": "ri:herzog"
+      },
+      "rdfs:label": "Hz. Gerhard (VII.) von Jülich"
+    }
+  ]
+}

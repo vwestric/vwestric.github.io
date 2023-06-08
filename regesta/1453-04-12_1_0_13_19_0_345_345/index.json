@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1453-04-12_1_0_13_19_0_345_345",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N4d3142018fa04140aae69b79ea61a53d"
+      }
+    },
+    {
+      "@id": "_:N4d3142018fa04140aae69b79ea61a53d",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Nea87be3c12044ec3aac7fd33c2276d2c"
+      },
+      "ps:P291": {
+        "@id": "_:N6c9a9948b6ae4615845ff2b927ed995e"
+      },
+      "ps:P3342": {
+        "@id": "_:N8867b68fffd54dc4a775a793986879f3"
+      }
+    },
+    {
+      "@id": "_:N6c9a9948b6ae4615845ff2b927ed995e",
+      "https://schema.org#geo": {
+        "@id": "_:Nfd78b7210ed941b58006bd465c4700b0"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q131612"
+      },
+      "rdfs:label": "Wiener Neustadt"
+    },
+    {
+      "@id": "_:Nfd78b7210ed941b58006bd465c4700b0",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.813153",
+      "https://schema.org#longitude": "16.24444"
+    },
+    {
+      "@id": "_:Nea87be3c12044ec3aac7fd33c2276d2c",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1453-04-12"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1453-04-12"
+      }
+    },
+    {
+      "@id": "_:N8867b68fffd54dc4a775a793986879f3",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:P00000208"
+      },
+      "ps:P39": {
+        "@id": "ri:schultheiss"
+      },
+      "rdfs:label": "Werner von Parsberg, Schultheiß zu Nürnberg"
+    }
+  ]
+}

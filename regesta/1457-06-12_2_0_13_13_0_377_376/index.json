@@ -1,0 +1,71 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1457-06-12_2_0_13_13_0_377_376",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N5830fadb6ee647d391bcc5cfabc0787d"
+      }
+    },
+    {
+      "@id": "_:N5830fadb6ee647d391bcc5cfabc0787d",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N1b730aee838d4645a94eda184e74b94f"
+      },
+      "ps:P291": {
+        "@id": "_:Nf0687ef18eb44aad81a65c8cda3b727e"
+      },
+      "ps:P3342": {
+        "@id": "_:N9dd47d770a784eee9b3490e8863bb810"
+      }
+    },
+    {
+      "@id": "_:Nf0687ef18eb44aad81a65c8cda3b727e",
+      "https://schema.org#geo": {
+        "@id": "_:Nf566c58969af4a3c89142db1f2e7145e"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q1021"
+      },
+      "rdfs:label": "Krainburg"
+    },
+    {
+      "@id": "_:Nf566c58969af4a3c89142db1f2e7145e",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "46.23887",
+      "https://schema.org#longitude": "14.35561"
+    },
+    {
+      "@id": "_:N1b730aee838d4645a94eda184e74b94f",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1457-06-12"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1457-06-12"
+      }
+    },
+    {
+      "@id": "_:N9dd47d770a784eee9b3490e8863bb810",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:R00000449"
+      },
+      "rdfs:label": "Hermann Rauber"
+    }
+  ]
+}

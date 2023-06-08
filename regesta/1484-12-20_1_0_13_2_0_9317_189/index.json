@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1484-12-20_1_0_13_2_0_9317_189",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N49ddb4525f824945bcc646b32af3236c"
+      }
+    },
+    {
+      "@id": "_:N49ddb4525f824945bcc646b32af3236c",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Nd71e060ae7564651af68cd0617b37fe9"
+      },
+      "ps:P291": {
+        "@id": "_:Nd90fe836bb744846aaa6898f1e3e60f6"
+      },
+      "ps:P3342": {
+        "@id": "_:N32e5ea9700f641b68d5f2fc1a308f01c"
+      }
+    },
+    {
+      "@id": "_:Nd90fe836bb744846aaa6898f1e3e60f6",
+      "https://schema.org#geo": {
+        "@id": "_:Nf03797f1a4264ec79fb36eea3a3ef90c"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q41329"
+      },
+      "rdfs:label": "Linz"
+    },
+    {
+      "@id": "_:Nf03797f1a4264ec79fb36eea3a3ef90c",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "48.303056",
+      "https://schema.org#longitude": "14.290556"
+    },
+    {
+      "@id": "_:Nd71e060ae7564651af68cd0617b37fe9",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1484-12-20"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1484-12-20"
+      }
+    },
+    {
+      "@id": "_:N32e5ea9700f641b68d5f2fc1a308f01c",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:K00000775"
+      },
+      "ps:P39": {
+        "@id": "ri:abt"
+      },
+      "rdfs:label": "Abt Johann von Kempten"
+    }
+  ]
+}

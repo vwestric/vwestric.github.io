@@ -1,0 +1,90 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1454-09-13_2_0_13_9_0_12660_123",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N36ca4f543d5e4f3d82ae09aeebd626d6"
+      }
+    },
+    {
+      "@id": "_:N36ca4f543d5e4f3d82ae09aeebd626d6",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Nfbff9aa9ea254332a8da9938c35d54d0"
+      },
+      "ps:P291": {
+        "@id": "_:Nb5eb5ebb4834406bbfc572fff721bdfe"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:Nfba4f6d0322243c8ac993f79db594392"
+        },
+        {
+          "@id": "_:N1652246098bb4c94afd92b7250fe975c"
+        }
+      ]
+    },
+    {
+      "@id": "_:Nb5eb5ebb4834406bbfc572fff721bdfe",
+      "https://schema.org#geo": {
+        "@id": "_:Ncf214007a1e542e5a342cf2e141f1337"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q131612"
+      },
+      "rdfs:label": "Wiener Neustadt"
+    },
+    {
+      "@id": "_:Ncf214007a1e542e5a342cf2e141f1337",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.813153",
+      "https://schema.org#longitude": "16.24444"
+    },
+    {
+      "@id": "_:Nfbff9aa9ea254332a8da9938c35d54d0",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1454-09-13"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1454-09-13"
+      }
+    },
+    {
+      "@id": "_:Nfba4f6d0322243c8ac993f79db594392",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:K00001681"
+      },
+      "ps:P39": {
+        "@id": "ri:erzbischof"
+      },
+      "rdfs:label": "Eb. Dietrich von Köln"
+    },
+    {
+      "@id": "_:N1652246098bb4c94afd92b7250fe975c",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:L00000861"
+      },
+      "ps:P39": {
+        "@id": "ri:graf"
+      },
+      "rdfs:label": "Gf. Hesso von Leiningen"
+    }
+  ]
+}

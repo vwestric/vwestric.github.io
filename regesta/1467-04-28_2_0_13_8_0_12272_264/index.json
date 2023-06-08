@@ -1,0 +1,90 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1467-04-28_2_0_13_8_0_12272_264",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N8dd7ed8309754be7b71efd7452e0a93c"
+      }
+    },
+    {
+      "@id": "_:N8dd7ed8309754be7b71efd7452e0a93c",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Nd1f9c0a3103c41a0b06fb5841194acf4"
+      },
+      "ps:P291": {
+        "@id": "_:N02dbebd6ea4b4772a3db804cbe227442"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N2e143f1244b0424e80aca76037b1bb66"
+        },
+        {
+          "@id": "_:Ne9a9ac725345428fa37b5809d1143287"
+        }
+      ]
+    },
+    {
+      "@id": "_:N02dbebd6ea4b4772a3db804cbe227442",
+      "https://schema.org#geo": {
+        "@id": "_:N80ab0e88c65843679153e1e36a8d7f94"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q131612"
+      },
+      "rdfs:label": "Wiener Neustadt"
+    },
+    {
+      "@id": "_:N80ab0e88c65843679153e1e36a8d7f94",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.813153",
+      "https://schema.org#longitude": "16.24444"
+    },
+    {
+      "@id": "_:Nd1f9c0a3103c41a0b06fb5841194acf4",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1467-04-28"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1467-04-28"
+      }
+    },
+    {
+      "@id": "_:N2e143f1244b0424e80aca76037b1bb66",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00003983"
+      },
+      "ps:P39": {
+        "@id": "ri:graf"
+      },
+      "rdfs:label": "Gf. Otto von Solms(-Braunfels)"
+    },
+    {
+      "@id": "_:Ne9a9ac725345428fa37b5809d1143287",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:T00001183"
+      },
+      "ps:P39": {
+        "@id": "ri:erzbischof"
+      },
+      "rdfs:label": "Eb. Johann von Trier"
+    }
+  ]
+}

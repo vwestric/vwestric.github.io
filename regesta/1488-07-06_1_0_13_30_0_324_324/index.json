@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1488-07-06_1_0_13_30_0_324_324",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N0189285f3c794434b655b9e48ce3dc38"
+      }
+    },
+    {
+      "@id": "_:N0189285f3c794434b655b9e48ce3dc38",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N110f68e9c06b4351b7ee9027ccf80c05"
+      },
+      "ps:P291": {
+        "@id": "_:N8f6507f1d8194749b0ad7e2e9448d11d"
+      },
+      "ps:P3342": {
+        "@id": "_:N28f70fb9dff54a42b542be8b3c6cf4aa"
+      }
+    },
+    {
+      "@id": "_:N8f6507f1d8194749b0ad7e2e9448d11d",
+      "https://schema.org#geo": {
+        "@id": "_:N65f9e29fbb8d4678ad989fba1230b2a9"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q1296"
+      },
+      "rdfs:label": "im Feld bei Gent"
+    },
+    {
+      "@id": "_:N65f9e29fbb8d4678ad989fba1230b2a9",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "51.053889",
+      "https://schema.org#longitude": "3.721667"
+    },
+    {
+      "@id": "_:N110f68e9c06b4351b7ee9027ccf80c05",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1488-07-06"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1488-07-06"
+      }
+    },
+    {
+      "@id": "_:N28f70fb9dff54a42b542be8b3c6cf4aa",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:O00000622"
+      },
+      "ps:P39": {
+        "@id": "ri:erzherzog"
+      },
+      "rdfs:label": "Ehz. Sigmund von Österreich"
+    }
+  ]
+}

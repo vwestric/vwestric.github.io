@@ -1,0 +1,55 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1461-06-16_1_0_13_26_0_588_588",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N15e1dc133fc94bb6b2a49d87d698ade0"
+      }
+    },
+    {
+      "@id": "_:N15e1dc133fc94bb6b2a49d87d698ade0",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N297f9b4f1d2142b892d1044fc87b9c2e"
+      },
+      "ps:P3342": {
+        "@id": "_:Nc5600bdb37d540b5a917fb06fbc7643b"
+      }
+    },
+    {
+      "@id": "_:N297f9b4f1d2142b892d1044fc87b9c2e",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1461-06-16"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1461-06-16"
+      }
+    },
+    {
+      "@id": "_:Nc5600bdb37d540b5a917fb06fbc7643b",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00001825"
+      },
+      "ps:P39": {
+        "@id": "ri:koenig"
+      },
+      "rdfs:label": "Kg. Georg von Böhmen"
+    }
+  ]
+}

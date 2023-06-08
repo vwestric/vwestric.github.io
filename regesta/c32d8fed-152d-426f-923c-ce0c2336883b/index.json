@@ -1,0 +1,312 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:c32d8fed-152d-426f-923c-ce0c2336883b",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N06d6737182774d4ca76798e232a42b3e"
+      }
+    },
+    {
+      "@id": "_:N06d6737182774d4ca76798e232a42b3e",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Na1fc85ba86a94701ad1414cdf143343c"
+      },
+      "ps:P291": {
+        "@id": "_:N36bced25a69c4a509b47ce1b037337da"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N2fda1cca978641e7893e485ef9e6145e"
+        },
+        {
+          "@id": "_:N3540b127f7494ffe935cdaa2fbd55be1"
+        },
+        {
+          "@id": "_:N1933b4ba001f47aa92e983f055ee2dab"
+        },
+        {
+          "@id": "_:N33d629bbb4b44494953b8460e9e962a3"
+        },
+        {
+          "@id": "_:N1627146483a44631815ff0ea00fcfc5b"
+        },
+        {
+          "@id": "_:Nc5600aad79674067998e77e95414ed42"
+        },
+        {
+          "@id": "_:Na774b9a619634806afd2a32e8b06e0fc"
+        },
+        {
+          "@id": "_:N14b95bd440024d5bb24046276a41d703"
+        },
+        {
+          "@id": "_:N93a6d0c2d54c4ce896d00e64fd9a2c45"
+        },
+        {
+          "@id": "_:Ne5d9360b5ce24d5ea6b51d0648f320b7"
+        },
+        {
+          "@id": "_:N3b5bd8366c934c6680bdee9bfd070a35"
+        },
+        {
+          "@id": "_:Nadfcf8eea8c942ec87f4691cebe56dda"
+        },
+        {
+          "@id": "_:Nc2f9d7922be74d8bb308d1bbfbfb0083"
+        },
+        {
+          "@id": "_:N6f84bb62dc5a44e48959d548e466e6a2"
+        },
+        {
+          "@id": "_:Ne27f80c4c1a743179165d3b9c2725421"
+        },
+        {
+          "@id": "_:N564a5ccfed0e40e482230a849a0fe0d7"
+        },
+        {
+          "@id": "_:N253961d21fb041ebb5a8a0f8a58c59d0"
+        },
+        {
+          "@id": "_:Na894bc028b6841e9b1c02387c8d7965c"
+        },
+        {
+          "@id": "_:Nd41cff1882ec4619abbdcea4ea3c881c"
+        }
+      ]
+    },
+    {
+      "@id": "_:N36bced25a69c4a509b47ce1b037337da",
+      "https://schema.org#geo": {
+        "@id": "_:Nf3d5cbc9189346228a7950d4a086a60a"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q131612"
+      },
+      "rdfs:label": "Wiener Neustadt"
+    },
+    {
+      "@id": "_:Nf3d5cbc9189346228a7950d4a086a60a",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.813153",
+      "https://schema.org#longitude": "16.24444"
+    },
+    {
+      "@id": "_:Na1fc85ba86a94701ad1414cdf143343c",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1463-04-19"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1463-04-19"
+      }
+    },
+    {
+      "@id": "_:N2fda1cca978641e7893e485ef9e6145e",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00000360"
+      },
+      "ps:P39": {
+        "@id": "ri:erzbischof"
+      },
+      "rdfs:label": "Eb. Burkhard von Salzburg"
+    },
+    {
+      "@id": "_:N3540b127f7494ffe935cdaa2fbd55be1",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:A00001569"
+      },
+      "ps:P39": [
+        {
+          "@id": "ri:kardinal"
+        },
+        {
+          "@id": "ri:bischof"
+        }
+      ],
+      "rdfs:label": "Kardinal Bf. Peter von Augsburg"
+    },
+    {
+      "@id": "_:N1933b4ba001f47aa92e983f055ee2dab",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:M00000255"
+      },
+      "ps:P39": {
+        "@id": "ri:erzbischof"
+      },
+      "rdfs:label": "Eb. Adolf von Mainz"
+    },
+    {
+      "@id": "_:N33d629bbb4b44494953b8460e9e962a3",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:T00001183"
+      },
+      "ps:P39": {
+        "@id": "ri:erzbischof"
+      },
+      "rdfs:label": "Eb. Johann von Trier"
+    },
+    {
+      "@id": "_:N1627146483a44631815ff0ea00fcfc5b",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00005552"
+      },
+      "ps:P39": {
+        "@id": "ri:bischof"
+      },
+      "rdfs:label": "Bf. Ruprecht von Straßburg"
+    },
+    {
+      "@id": "_:Nc5600aad79674067998e77e95414ed42",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00000385"
+      },
+      "ps:P39": {
+        "@id": "ri:bischof"
+      },
+      "rdfs:label": "Bf. Johann von Basel"
+    },
+    {
+      "@id": "_:Na774b9a619634806afd2a32e8b06e0fc",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:P00000251"
+      },
+      "ps:P39": {
+        "@id": "ri:bischof"
+      },
+      "rdfs:label": "Bf. Ulrich von Passau"
+    },
+    {
+      "@id": "_:N14b95bd440024d5bb24046276a41d703",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:W00003365"
+      },
+      "ps:P39": {
+        "@id": "ri:bischof"
+      },
+      "rdfs:label": "Bf. Johann von Würzburg"
+    },
+    {
+      "@id": "_:N93a6d0c2d54c4ce896d00e64fd9a2c45",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00000220"
+      },
+      "ps:P39": {
+        "@id": "ri:bischof"
+      },
+      "rdfs:label": "Bf. Georg von Bamberg"
+    },
+    {
+      "@id": "_:Ne5d9360b5ce24d5ea6b51d0648f320b7",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:F00001127"
+      },
+      "ps:P39": {
+        "@id": "ri:bischof"
+      },
+      "rdfs:label": "Bf. Johann von Freising"
+    },
+    {
+      "@id": "_:N3b5bd8366c934c6680bdee9bfd070a35",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:E00000494"
+      },
+      "ps:P39": {
+        "@id": "ri:bischof"
+      },
+      "rdfs:label": "Bf. Johann (III.) von Eichstätt"
+    },
+    {
+      "@id": "_:Nadfcf8eea8c942ec87f4691cebe56dda",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00000596"
+      },
+      "rdfs:label": "Sigmund von Bayern"
+    },
+    {
+      "@id": "_:Nc2f9d7922be74d8bb308d1bbfbfb0083",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:O00000622"
+      },
+      "ps:P39": {
+        "@id": "ri:herzog"
+      },
+      "rdfs:label": "Hz. Sigmund von Österreich"
+    },
+    {
+      "@id": "_:N6f84bb62dc5a44e48959d548e466e6a2",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:O00000783"
+      },
+      "rdfs:label": "Ludwig von Oettingen"
+    },
+    {
+      "@id": "_:Ne27f80c4c1a743179165d3b9c2725421",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00001354"
+      },
+      "rdfs:label": "Wolfgang von Schaunberg"
+    },
+    {
+      "@id": "_:N564a5ccfed0e40e482230a849a0fe0d7",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:F00001864"
+      },
+      "rdfs:label": "Egen von Fürstenberg"
+    },
+    {
+      "@id": "_:N253961d21fb041ebb5a8a0f8a58c59d0",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:E00000087"
+      },
+      "rdfs:label": "Bernhard von Eberstein"
+    },
+    {
+      "@id": "_:Na894bc028b6841e9b1c02387c8d7965c",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00005161"
+      },
+      "rdfs:label": "Zdenko von Sternberg"
+    },
+    {
+      "@id": "_:Nd41cff1882ec4619abbdcea4ea3c881c",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00004611"
+      },
+      "rdfs:label": "Rüdiger von Starhemberg"
+    }
+  ]
+}

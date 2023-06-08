@@ -1,0 +1,90 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1458-10-13_1_0_13_11_0_328_328",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N2b5b6fe8ba144d34990e330c06f103cc"
+      }
+    },
+    {
+      "@id": "_:N2b5b6fe8ba144d34990e330c06f103cc",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N11a607471a5d41e998e9ef8337305a6c"
+      },
+      "ps:P291": {
+        "@id": "_:N07783d16627048988429eba30c012b58"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N15add1741651406d8294bec82e2e585b"
+        },
+        {
+          "@id": "_:Ndc6afed412314983be7668d2fad33750"
+        }
+      ]
+    },
+    {
+      "@id": "_:N07783d16627048988429eba30c012b58",
+      "https://schema.org#geo": {
+        "@id": "_:Nb7ca919bc1184effb40cf810e4c9aa20"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q1741"
+      },
+      "rdfs:label": "Wien"
+    },
+    {
+      "@id": "_:Nb7ca919bc1184effb40cf810e4c9aa20",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "48.20849",
+      "https://schema.org#longitude": "16.37208"
+    },
+    {
+      "@id": "_:N11a607471a5d41e998e9ef8337305a6c",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1458-10-13"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1458-10-13"
+      }
+    },
+    {
+      "@id": "_:N15add1741651406d8294bec82e2e585b",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00000099"
+      },
+      "ps:P39": {
+        "@id": "ri:herzog"
+      },
+      "rdfs:label": "Hz. Wilhelm (III.) von Sachsen"
+    },
+    {
+      "@id": "_:Ndc6afed412314983be7668d2fad33750",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:O00000622"
+      },
+      "ps:P39": {
+        "@id": "ri:herzog"
+      },
+      "rdfs:label": "Hz. Sigmund von Österreich"
+    }
+  ]
+}

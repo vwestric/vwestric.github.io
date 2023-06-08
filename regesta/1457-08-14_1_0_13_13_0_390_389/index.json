@@ -1,0 +1,60 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1457-08-14_1_0_13_13_0_390_389",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N638c5adf92784738a781de250e0c9eae"
+      }
+    },
+    {
+      "@id": "_:N638c5adf92784738a781de250e0c9eae",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Na93e32c0c98d43ba843b78a83b16f785"
+      },
+      "ps:P291": {
+        "@id": "_:N56001e0f1c08432aa13034014357738b"
+      }
+    },
+    {
+      "@id": "_:N56001e0f1c08432aa13034014357738b",
+      "https://schema.org#geo": {
+        "@id": "_:N788ee53ca82b45ffb63c9a3348e8c3a1"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q668044"
+      },
+      "rdfs:label": "Millstatt"
+    },
+    {
+      "@id": "_:N788ee53ca82b45ffb63c9a3348e8c3a1",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "46.80417",
+      "https://schema.org#longitude": "13.58056"
+    },
+    {
+      "@id": "_:Na93e32c0c98d43ba843b78a83b16f785",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1457-08-14"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1457-08-14"
+      }
+    }
+  ]
+}

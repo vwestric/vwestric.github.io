@@ -1,0 +1,106 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:fb278059-4b0a-44db-aaf8-1bd7bfffa61f",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Nd7943215c4e542aab0ee0bba39e3c8a4"
+      }
+    },
+    {
+      "@id": "_:Nd7943215c4e542aab0ee0bba39e3c8a4",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N2685ba8248884a6688598fa26a62942a"
+      },
+      "ps:P291": {
+        "@id": "_:N596fdd9eb8704829a4c036fffffd013b"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N8c7703c2bf194686b28fde1d31e40a97"
+        },
+        {
+          "@id": "_:N2fa12d16bfd34a7b8e20c5e991bedc3a"
+        },
+        {
+          "@id": "_:N17d67c5f0d024f2fa5872b974a210f4c"
+        },
+        {
+          "@id": "_:N28666a4ed3374bc9a28f6a49ff8f108c"
+        }
+      ]
+    },
+    {
+      "@id": "_:N596fdd9eb8704829a4c036fffffd013b",
+      "https://schema.org#geo": {
+        "@id": "_:N4442c97d62be4b92b2c895a350bc53a1"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q131612"
+      },
+      "rdfs:label": "Wiener Neustadt"
+    },
+    {
+      "@id": "_:N4442c97d62be4b92b2c895a350bc53a1",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.813153",
+      "https://schema.org#longitude": "16.24444"
+    },
+    {
+      "@id": "_:N2685ba8248884a6688598fa26a62942a",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1453-04-18"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1453-04-18"
+      }
+    },
+    {
+      "@id": "_:N8c7703c2bf194686b28fde1d31e40a97",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:P00002036"
+      },
+      "rdfs:label": "Albrechts von Pottendorf"
+    },
+    {
+      "@id": "_:N2fa12d16bfd34a7b8e20c5e991bedc3a",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:R00000028"
+      },
+      "rdfs:label": "Prokop von Rabenstein"
+    },
+    {
+      "@id": "_:N17d67c5f0d024f2fa5872b974a210f4c",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00004032"
+      },
+      "rdfs:label": "Ulrich Sonnenberger"
+    },
+    {
+      "@id": "_:N28666a4ed3374bc9a28f6a49ff8f108c",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:C00000119"
+      },
+      "rdfs:label": "Hartung von Cappel"
+    }
+  ]
+}

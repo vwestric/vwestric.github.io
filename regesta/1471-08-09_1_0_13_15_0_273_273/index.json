@@ -1,0 +1,60 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1471-08-09_1_0_13_15_0_273_273",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N6cd88b8a41d446fcb42fe7f8c5b044a5"
+      }
+    },
+    {
+      "@id": "_:N6cd88b8a41d446fcb42fe7f8c5b044a5",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N4f74a5dea00a4c81bc448f4f0913a87d"
+      },
+      "ps:P291": {
+        "@id": "_:Nfb985351dfdd4956b7331336ed7d551a"
+      }
+    },
+    {
+      "@id": "_:Nfb985351dfdd4956b7331336ed7d551a",
+      "https://schema.org#geo": {
+        "@id": "_:Ncc3de34034ac4c25a57f02f02ed24588"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q2978"
+      },
+      "rdfs:label": "Regensburg"
+    },
+    {
+      "@id": "_:Ncc3de34034ac4c25a57f02f02ed24588",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "49.0054",
+      "https://schema.org#longitude": "12.0606"
+    },
+    {
+      "@id": "_:N4f74a5dea00a4c81bc448f4f0913a87d",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1471-08-09"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1471-08-09"
+      }
+    }
+  ]
+}

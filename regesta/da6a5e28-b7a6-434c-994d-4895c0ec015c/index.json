@@ -1,0 +1,90 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:da6a5e28-b7a6-434c-994d-4895c0ec015c",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N42bdcd61d5264022be4cfb4b1d06510b"
+      }
+    },
+    {
+      "@id": "_:N42bdcd61d5264022be4cfb4b1d06510b",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N7a1e95641b7a434f98fc6f452677f870"
+      },
+      "ps:P291": {
+        "@id": "_:N2becda10eab34c8aa4b91f2cc1eaf77a"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N0ced1f0cb4074248801b33a37182c1cb"
+        },
+        {
+          "@id": "_:N23ee1828fb7742e28f5a1d370879fccc"
+        }
+      ]
+    },
+    {
+      "@id": "_:N2becda10eab34c8aa4b91f2cc1eaf77a",
+      "https://schema.org#geo": {
+        "@id": "_:N61d2f607ce2442f89cc5454b18249fac"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q2090"
+      },
+      "rdfs:label": "Nürnberg"
+    },
+    {
+      "@id": "_:N61d2f607ce2442f89cc5454b18249fac",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "49.45421",
+      "https://schema.org#longitude": "11.07752"
+    },
+    {
+      "@id": "_:N7a1e95641b7a434f98fc6f452677f870",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1444-09-15"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1444-09-15"
+      }
+    },
+    {
+      "@id": "_:N0ced1f0cb4074248801b33a37182c1cb",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:J00000257"
+      },
+      "ps:P39": {
+        "@id": "ri:herzog"
+      },
+      "rdfs:label": "Hz. Gerhard von Jülich"
+    },
+    {
+      "@id": "_:N23ee1828fb7742e28f5a1d370879fccc",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:J00000257"
+      },
+      "ps:P39": {
+        "@id": "ri:herzog"
+      },
+      "rdfs:label": "Hz. Gerhard von Jülich und Berg"
+    }
+  ]
+}

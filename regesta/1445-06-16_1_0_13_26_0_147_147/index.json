@@ -1,0 +1,55 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1445-06-16_1_0_13_26_0_147_147",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N2b06b32e103f4b9ca45ecc332a31ad76"
+      }
+    },
+    {
+      "@id": "_:N2b06b32e103f4b9ca45ecc332a31ad76",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N1c9b5ac8bbbc4ed7a9ea9ae683e4868a"
+      },
+      "ps:P3342": {
+        "@id": "_:N6008fa05c91d4a3c9217f9d602085283"
+      }
+    },
+    {
+      "@id": "_:N1c9b5ac8bbbc4ed7a9ea9ae683e4868a",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1445-06-16"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1445-06-16"
+      }
+    },
+    {
+      "@id": "_:N6008fa05c91d4a3c9217f9d602085283",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:T00001395"
+      },
+      "ps:P39": {
+        "@id": "ri:truchsess"
+      },
+      "rdfs:label": "Niklas Truchseß zu Staatz"
+    }
+  ]
+}

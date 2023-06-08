@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1477-05-18_1_0_13_17_0_295_293",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N661525b769f04cc6945e2839762ad48e"
+      }
+    },
+    {
+      "@id": "_:N661525b769f04cc6945e2839762ad48e",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N80439316bea54ea3b6d1b3425f479a35"
+      },
+      "ps:P291": {
+        "@id": "_:Nd16aa12a2e124dd68baf6cf29bf06864"
+      },
+      "ps:P3342": {
+        "@id": "_:N87dea44bea04491bb178bf55965594b5"
+      }
+    },
+    {
+      "@id": "_:Nd16aa12a2e124dd68baf6cf29bf06864",
+      "https://schema.org#geo": {
+        "@id": "_:N12c62733ec224eb5960eb18f33863c5e"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q1741"
+      },
+      "rdfs:label": "Wien"
+    },
+    {
+      "@id": "_:N12c62733ec224eb5960eb18f33863c5e",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "48.20849",
+      "https://schema.org#longitude": "16.37208"
+    },
+    {
+      "@id": "_:N80439316bea54ea3b6d1b3425f479a35",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1477-05-18"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1477-05-18"
+      }
+    },
+    {
+      "@id": "_:N87dea44bea04491bb178bf55965594b5",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:T00001183"
+      },
+      "ps:P39": {
+        "@id": "ri:erzbischof"
+      },
+      "rdfs:label": "Eb. Johann von Trier"
+    }
+  ]
+}

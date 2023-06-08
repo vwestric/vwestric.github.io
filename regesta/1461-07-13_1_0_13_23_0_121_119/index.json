@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1461-07-13_1_0_13_23_0_121_119",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N0d81d54c48f848b894ef80cb5ee60368"
+      }
+    },
+    {
+      "@id": "_:N0d81d54c48f848b894ef80cb5ee60368",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Ndc68a706c37f4a2da0fb21bc4cb2faec"
+      },
+      "ps:P291": {
+        "@id": "_:N3c9e000cc9ea4d88acbb13d26ef0e046"
+      },
+      "ps:P3342": {
+        "@id": "_:Ncadf68c34d9641eb9c1b68f74c16e9bd"
+      }
+    },
+    {
+      "@id": "_:N3c9e000cc9ea4d88acbb13d26ef0e046",
+      "https://schema.org#geo": {
+        "@id": "_:Nfdf2f894e52d464c8620f7d097671ed7"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q13298"
+      },
+      "rdfs:label": "Graz"
+    },
+    {
+      "@id": "_:Nfdf2f894e52d464c8620f7d097671ed7",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.06667",
+      "https://schema.org#longitude": "15.45"
+    },
+    {
+      "@id": "_:Ndc68a706c37f4a2da0fb21bc4cb2faec",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1461-07-13"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1461-07-13"
+      }
+    },
+    {
+      "@id": "_:Ncadf68c34d9641eb9c1b68f74c16e9bd",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00000565"
+      },
+      "ps:P39": {
+        "@id": "ri:herzog"
+      },
+      "rdfs:label": "Hz. Ludwig (IX.) von Bayern (- Landshut)"
+    }
+  ]
+}

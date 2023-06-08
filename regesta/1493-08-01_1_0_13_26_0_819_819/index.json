@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1493-08-01_1_0_13_26_0_819_819",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N834fa60af2c44c45a65cc86c45310a90"
+      }
+    },
+    {
+      "@id": "_:N834fa60af2c44c45a65cc86c45310a90",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Nb70355e55085458a944b92c094d96681"
+      },
+      "ps:P291": {
+        "@id": "_:N204dcf6a731a4d0ea5eb21e510c34388"
+      },
+      "ps:P3342": {
+        "@id": "_:N92146b68e2a34a94b2e748fc05da91e3"
+      }
+    },
+    {
+      "@id": "_:N204dcf6a731a4d0ea5eb21e510c34388",
+      "https://schema.org#geo": {
+        "@id": "_:N0616e1b8e32945c8bc3bb982a19472b1"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q41329"
+      },
+      "rdfs:label": "Linz"
+    },
+    {
+      "@id": "_:N0616e1b8e32945c8bc3bb982a19472b1",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "48.303056",
+      "https://schema.org#longitude": "14.290556"
+    },
+    {
+      "@id": "_:Nb70355e55085458a944b92c094d96681",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1493-08-01"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1493-08-01"
+      }
+    },
+    {
+      "@id": "_:N92146b68e2a34a94b2e748fc05da91e3",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:R00002243"
+      },
+      "ps:P39": {
+        "@id": "ri:rat"
+      },
+      "rdfs:label": "Rat Kaspar von Roggendorf"
+    }
+  ]
+}

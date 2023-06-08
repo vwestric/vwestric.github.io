@@ -1,0 +1,55 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1466-05-20_1_0_13_7_0_11411_247",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N908e94e73c344bebbdf34cefdce54c19"
+      }
+    },
+    {
+      "@id": "_:N908e94e73c344bebbdf34cefdce54c19",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N4b05d30ee7fc40ed8799f0be232cad28"
+      },
+      "ps:P3342": {
+        "@id": "_:Nea93e715fb604c869bb79509132f33ce"
+      }
+    },
+    {
+      "@id": "_:N4b05d30ee7fc40ed8799f0be232cad28",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1466-05-20"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1466-05-20"
+      }
+    },
+    {
+      "@id": "_:Nea93e715fb604c869bb79509132f33ce",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00002248"
+      },
+      "ps:P39": {
+        "@id": "ri:markgraf"
+      },
+      "rdfs:label": "Mgf. Albrecht von Brandenburg"
+    }
+  ]
+}

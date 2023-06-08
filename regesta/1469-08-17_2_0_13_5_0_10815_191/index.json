@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1469-08-17_2_0_13_5_0_10815_191",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Nd044a17a84a24d0f863dd9544e26b5c8"
+      }
+    },
+    {
+      "@id": "_:Nd044a17a84a24d0f863dd9544e26b5c8",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N38c44213e2ac40bb9563a3dacd5341ae"
+      },
+      "ps:P291": {
+        "@id": "_:N9710140f0d97437eab0f8bb40fe62072"
+      },
+      "ps:P3342": {
+        "@id": "_:Nb669471c35db4e6b994a554d6d420563"
+      }
+    },
+    {
+      "@id": "_:N9710140f0d97437eab0f8bb40fe62072",
+      "https://schema.org#geo": {
+        "@id": "_:N50afea6bd43a4a86b1f9ccfc7625b78c"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q131612"
+      },
+      "rdfs:label": "Wiener Neustadt"
+    },
+    {
+      "@id": "_:N50afea6bd43a4a86b1f9ccfc7625b78c",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.813153",
+      "https://schema.org#longitude": "16.24444"
+    },
+    {
+      "@id": "_:N38c44213e2ac40bb9563a3dacd5341ae",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1469-08-17"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1469-08-17"
+      }
+    },
+    {
+      "@id": "_:Nb669471c35db4e6b994a554d6d420563",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:W00003114"
+      },
+      "ps:P39": {
+        "@id": "ri:bischof"
+      },
+      "rdfs:label": "Bf. Reinhard von Worms"
+    }
+  ]
+}

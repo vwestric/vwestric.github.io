@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1450-01-05_2_0_13_17_0_91_90",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N147bb8ef1b1446dcbf9ae33a4b46853e"
+      }
+    },
+    {
+      "@id": "_:N147bb8ef1b1446dcbf9ae33a4b46853e",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Nc1a4c1e62e3a417081be42daaa340da5"
+      },
+      "ps:P291": {
+        "@id": "_:Nff23eb6311fb4c7890a04434feb92a66"
+      },
+      "ps:P3342": {
+        "@id": "_:N208c1a7063b04f73a0f0d5858e0dead5"
+      }
+    },
+    {
+      "@id": "_:Nff23eb6311fb4c7890a04434feb92a66",
+      "https://schema.org#geo": {
+        "@id": "_:N9033289d22cb4b7eb5457035e615a69b"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q131612"
+      },
+      "rdfs:label": "Wiener Neustadt"
+    },
+    {
+      "@id": "_:N9033289d22cb4b7eb5457035e615a69b",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.813153",
+      "https://schema.org#longitude": "16.24444"
+    },
+    {
+      "@id": "_:Nc1a4c1e62e3a417081be42daaa340da5",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1450-01-05"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1450-01-05"
+      }
+    },
+    {
+      "@id": "_:N208c1a7063b04f73a0f0d5858e0dead5",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:V00000711"
+      },
+      "ps:P39": {
+        "@id": "ri:vogt"
+      },
+      "rdfs:label": "Nikolaus Vogt von Hunolstein"
+    }
+  ]
+}

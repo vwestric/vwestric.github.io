@@ -1,0 +1,60 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1450-04-27_1_0_13_17_0_92_91",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Nfe05547b062f4f39b82c9779821af32d"
+      }
+    },
+    {
+      "@id": "_:Nfe05547b062f4f39b82c9779821af32d",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N9e8ce1050eaf490d9710d9fa570fb9d1"
+      },
+      "ps:P291": {
+        "@id": "_:N0fc245ba6daf48e99790ed0b9f22a764"
+      }
+    },
+    {
+      "@id": "_:N0fc245ba6daf48e99790ed0b9f22a764",
+      "https://schema.org#geo": {
+        "@id": "_:N08e5d13574084483b905acde20f9661f"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q4100"
+      },
+      "rdfs:label": "[Baden]"
+    },
+    {
+      "@id": "_:N08e5d13574084483b905acde20f9661f",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "48.761944",
+      "https://schema.org#longitude": "8.240833"
+    },
+    {
+      "@id": "_:N9e8ce1050eaf490d9710d9fa570fb9d1",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1450-04-27"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1450-04-27"
+      }
+    }
+  ]
+}

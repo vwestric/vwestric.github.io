@@ -1,0 +1,79 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1465-04-04_1_0_13_16_0_71_71",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Na8a8188bc2404aa48ff4fc5fb7285541"
+      }
+    },
+    {
+      "@id": "_:Na8a8188bc2404aa48ff4fc5fb7285541",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Na9d60a28203543c6af5af95638b49781"
+      },
+      "ps:P291": {
+        "@id": "_:N5b45278c9b034630bd6616cb29e1ee71"
+      },
+      "ps:P3342": {
+        "@id": "_:N7a01cdd3dac2431391a5f0a5871ba837"
+      }
+    },
+    {
+      "@id": "_:N5b45278c9b034630bd6616cb29e1ee71",
+      "https://schema.org#geo": {
+        "@id": "_:N5c306d87e6ea4fe5aca5665c6420c0f7"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q131612"
+      },
+      "rdfs:label": "Wiener Neustadt"
+    },
+    {
+      "@id": "_:N5c306d87e6ea4fe5aca5665c6420c0f7",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.813153",
+      "https://schema.org#longitude": "16.24444"
+    },
+    {
+      "@id": "_:Na9d60a28203543c6af5af95638b49781",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1465-04-04"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1465-04-04"
+      }
+    },
+    {
+      "@id": "_:N7a01cdd3dac2431391a5f0a5871ba837",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:W00000945"
+      },
+      "ps:P39": [
+        {
+          "@id": "ri:diener"
+        },
+        {
+          "@id": "ri:reichserbkaemmerer"
+        }
+      ],
+      "rdfs:label": "Diener Reichserbkämmerer Philipp d. Ä. von Weinsberg"
+    }
+  ]
+}

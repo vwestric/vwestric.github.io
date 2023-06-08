@@ -1,0 +1,55 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:d2a97692-b537-4b80-aa55-709fad79fea5",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Nfac43c6945be44d288fac46c2232b56c"
+      }
+    },
+    {
+      "@id": "_:Nfac43c6945be44d288fac46c2232b56c",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N4d8985d52f154359b4dc241b33c95ad2"
+      },
+      "ps:P3342": {
+        "@id": "_:N739a3224ddd146b89d71a99457e4c86d"
+      }
+    },
+    {
+      "@id": "_:N4d8985d52f154359b4dc241b33c95ad2",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1468-01-01"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1468-02-17"
+      }
+    },
+    {
+      "@id": "_:N739a3224ddd146b89d71a99457e4c86d",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00002265"
+      },
+      "ps:P39": {
+        "@id": "ri:kurfuerst"
+      },
+      "rdfs:label": "Kf. Friedrich (II.) von Brandenburg"
+    }
+  ]
+}

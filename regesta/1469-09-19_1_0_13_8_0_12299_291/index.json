@@ -1,0 +1,55 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1469-09-19_1_0_13_8_0_12299_291",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Nbe458c2d63a54e7b9295402d3d7444da"
+      }
+    },
+    {
+      "@id": "_:Nbe458c2d63a54e7b9295402d3d7444da",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Na457a1c9e01043409f0b0ceddcbca47e"
+      },
+      "ps:P3342": {
+        "@id": "_:N36048150ceee4eadbc441ebc292f4449"
+      }
+    },
+    {
+      "@id": "_:Na457a1c9e01043409f0b0ceddcbca47e",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1469-09-19"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1469-09-19"
+      }
+    },
+    {
+      "@id": "_:N36048150ceee4eadbc441ebc292f4449",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00003983"
+      },
+      "ps:P39": {
+        "@id": "ri:graf"
+      },
+      "rdfs:label": "Gf. Otto von Solms(-Braunfels)"
+    }
+  ]
+}

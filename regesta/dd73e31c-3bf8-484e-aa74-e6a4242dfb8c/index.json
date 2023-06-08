@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:dd73e31c-3bf8-484e-aa74-e6a4242dfb8c",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Nb4bc0e4e2bd548529b42a42e7f97123b"
+      }
+    },
+    {
+      "@id": "_:Nb4bc0e4e2bd548529b42a42e7f97123b",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N08763411cb444e98917b87bc0c2f371c"
+      },
+      "ps:P291": {
+        "@id": "_:N9f53738105e348898403c437b0715b71"
+      },
+      "ps:P3342": {
+        "@id": "_:N408d1d9847e34214bb3430c19ebed3c0"
+      }
+    },
+    {
+      "@id": "_:N9f53738105e348898403c437b0715b71",
+      "https://schema.org#geo": {
+        "@id": "_:Nf230e63f58a84f7386e6a35be622523d"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q485294"
+      },
+      "rdfs:label": "Leoben"
+    },
+    {
+      "@id": "_:Nf230e63f58a84f7386e6a35be622523d",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.3765",
+      "https://schema.org#longitude": "15.09144"
+    },
+    {
+      "@id": "_:N08763411cb444e98917b87bc0c2f371c",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1461-09-14"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1461-09-14"
+      }
+    },
+    {
+      "@id": "_:N408d1d9847e34214bb3430c19ebed3c0",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00002248"
+      },
+      "ps:P39": {
+        "@id": "ri:markgraf"
+      },
+      "rdfs:label": "Mgf. Albrecht von Brandenburg"
+    }
+  ]
+}

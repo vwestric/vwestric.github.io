@@ -1,0 +1,143 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1449-12-26_1_0_13_14_0_497_499",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N5ca25326c8f443fcab2934ebdfe4f8cb"
+      }
+    },
+    {
+      "@id": "_:N5ca25326c8f443fcab2934ebdfe4f8cb",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Nf2201bab7c7041529f2234e5ccfa390c"
+      },
+      "ps:P291": {
+        "@id": "_:Nd4e37cb4a7be4756a36feb1339fdfae1"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N790b4d6b95644a1aa99690648428701f"
+        },
+        {
+          "@id": "_:N7f4f0ffe4d39497b9034f412b638c2ce"
+        },
+        {
+          "@id": "_:N3aa6636e6c2647e5ac5240a4e019556b"
+        },
+        {
+          "@id": "_:N631fa252b81d4df093aa2888874cf171"
+        },
+        {
+          "@id": "_:Ne1e30326217642258c5374db47c724e5"
+        },
+        {
+          "@id": "_:N18e32853774b46af88e1667f3c5690e6"
+        }
+      ]
+    },
+    {
+      "@id": "_:Nd4e37cb4a7be4756a36feb1339fdfae1",
+      "https://schema.org#geo": {
+        "@id": "_:N3d98bc7cdb994ef3a6c42bcbba6d1c37"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q131612"
+      },
+      "rdfs:label": "Wiener Neustadt"
+    },
+    {
+      "@id": "_:N3d98bc7cdb994ef3a6c42bcbba6d1c37",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.813153",
+      "https://schema.org#longitude": "16.24444"
+    },
+    {
+      "@id": "_:Nf2201bab7c7041529f2234e5ccfa390c",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1449-12-26"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1449-12-26"
+      }
+    },
+    {
+      "@id": "_:N790b4d6b95644a1aa99690648428701f",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00000365"
+      },
+      "ps:P39": {
+        "@id": "ri:erzbischof"
+      },
+      "rdfs:label": "Eb. Friedrich von Salzburg"
+    },
+    {
+      "@id": "_:N7f4f0ffe4d39497b9034f412b638c2ce",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:C00000330"
+      },
+      "ps:P39": {
+        "@id": "ri:bischof"
+      },
+      "rdfs:label": "Bf. Sylvester von Chiemsee"
+    },
+    {
+      "@id": "_:N3aa6636e6c2647e5ac5240a4e019556b",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:R00001810"
+      },
+      "ps:P39": {
+        "@id": "ri:lic"
+      },
+      "rdfs:label": "Lic. iur. utr. Ulrich Riederer"
+    },
+    {
+      "@id": "_:N631fa252b81d4df093aa2888874cf171",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00002248"
+      },
+      "ps:P39": {
+        "@id": "ri:markgraf"
+      },
+      "rdfs:label": "Mgf. Albrechts von Brandenburg"
+    },
+    {
+      "@id": "_:Ne1e30326217642258c5374db47c724e5",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:H00001319"
+      },
+      "rdfs:label": "Konrad von Heideck"
+    },
+    {
+      "@id": "_:N18e32853774b46af88e1667f3c5690e6",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:M00000305"
+      },
+      "ps:P39": {
+        "@id": "ri:erzbischof"
+      },
+      "rdfs:label": "Eb. Dietrichs von Mainz"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1477-10-05_2_0_13_6_0_11111_133",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Nb08d33d05c3d40178af265f5fa9df0af"
+      }
+    },
+    {
+      "@id": "_:Nb08d33d05c3d40178af265f5fa9df0af",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Nfe743a7758ba42cd9ccc0a1a60e24214"
+      },
+      "ps:P3342": {
+        "@id": "_:Ncdfe0e6449be417fa669aac232bb7907"
+      }
+    },
+    {
+      "@id": "_:Nfe743a7758ba42cd9ccc0a1a60e24214",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1477-10-05"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1477-10-05"
+      }
+    },
+    {
+      "@id": "_:Ncdfe0e6449be417fa669aac232bb7907",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:P00001017"
+      },
+      "ps:P39": [
+        {
+          "@id": "ri:dompropst"
+        },
+        {
+          "@id": "ri:pfalzgraf"
+        }
+      ],
+      "rdfs:label": "Augsburger Dompropst Johann (Pfalzgf. bei Rhein)"
+    }
+  ]
+}

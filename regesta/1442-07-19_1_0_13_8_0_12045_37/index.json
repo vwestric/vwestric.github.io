@@ -1,0 +1,98 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1442-07-19_1_0_13_8_0_12045_37",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N9b82c2f488734e1a9c07fb1755fa0112"
+      }
+    },
+    {
+      "@id": "_:N9b82c2f488734e1a9c07fb1755fa0112",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N1211619c9ce445758c7751d8164f1257"
+      },
+      "ps:P291": {
+        "@id": "_:N90cad9d52f55463b892b4b3c7fc49527"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N8afa9bb6e5624cafb7a81e491ef0bb62"
+        },
+        {
+          "@id": "_:N8a3878662c7a42969f737ff805e13de3"
+        },
+        {
+          "@id": "_:N1a2b75f61cfd40bb8fd1d02326e24a40"
+        }
+      ]
+    },
+    {
+      "@id": "_:N90cad9d52f55463b892b4b3c7fc49527",
+      "https://schema.org#geo": {
+        "@id": "_:Nbeafd98d9330454bacdcd3671494edc6"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q1794"
+      },
+      "rdfs:label": "Frankfurt"
+    },
+    {
+      "@id": "_:Nbeafd98d9330454bacdcd3671494edc6",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "50.110556",
+      "https://schema.org#longitude": "8.682222"
+    },
+    {
+      "@id": "_:N1211619c9ce445758c7751d8164f1257",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1442-07-19"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1442-07-19"
+      }
+    },
+    {
+      "@id": "_:N8afa9bb6e5624cafb7a81e491ef0bb62",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:R00002961"
+      },
+      "rdfs:label": "Philipp von Rüdigheim"
+    },
+    {
+      "@id": "_:N8a3878662c7a42969f737ff805e13de3",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:K00002757"
+      },
+      "rdfs:label": "Frank d. Ä. von Kronberg"
+    },
+    {
+      "@id": "_:N1a2b75f61cfd40bb8fd1d02326e24a40",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00003529"
+      },
+      "ps:P39": {
+        "@id": "ri:kaiser"
+      },
+      "rdfs:label": "K. Sigmunds"
+    }
+  ]
+}

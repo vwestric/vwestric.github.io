@@ -1,0 +1,101 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:bb820257-f3de-4533-9e7e-f269198d1fcc",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N7fe46aba715444e0b4433ee8c0127c6b"
+      }
+    },
+    {
+      "@id": "_:N7fe46aba715444e0b4433ee8c0127c6b",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N08cac5a202af4d418127e08f85811270"
+      },
+      "ps:P291": {
+        "@id": "_:N5d68ed82d3df450e879051af3a20d6df"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:Nf56a2d40129740c4b216e1cff1391cee"
+        },
+        {
+          "@id": "_:Ncdc1ee9333a44501b5a80baf7da598c1"
+        },
+        {
+          "@id": "_:N8d4f1370c0dd41e58a0b9e5851ef2a12"
+        }
+      ]
+    },
+    {
+      "@id": "_:N5d68ed82d3df450e879051af3a20d6df",
+      "https://schema.org#geo": {
+        "@id": "_:N9349f511575e460f97dcc5cf0d93395c"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q131612"
+      },
+      "rdfs:label": "Wiener Neustadt"
+    },
+    {
+      "@id": "_:N9349f511575e460f97dcc5cf0d93395c",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.813153",
+      "https://schema.org#longitude": "16.24444"
+    },
+    {
+      "@id": "_:N08cac5a202af4d418127e08f85811270",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1449-04-25"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1449-04-25"
+      }
+    },
+    {
+      "@id": "_:Nf56a2d40129740c4b216e1cff1391cee",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:H00002093"
+      },
+      "ps:P39": {
+        "@id": "ri:landgraf"
+      },
+      "rdfs:label": "Ldgf. Ludwig (I.) von Hessen"
+    },
+    {
+      "@id": "_:Ncdc1ee9333a44501b5a80baf7da598c1",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00002248"
+      },
+      "ps:P39": {
+        "@id": "ri:markgraf"
+      },
+      "rdfs:label": "Mgf. Albrecht von Brandenburg"
+    },
+    {
+      "@id": "_:N8d4f1370c0dd41e58a0b9e5851ef2a12",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:H00001319"
+      },
+      "rdfs:label": "Konrad von Heideck"
+    }
+  ]
+}

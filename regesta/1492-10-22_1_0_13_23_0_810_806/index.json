@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1492-10-22_1_0_13_23_0_810_806",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N8f0a03b98ff34010b797ea0e24fbca47"
+      }
+    },
+    {
+      "@id": "_:N8f0a03b98ff34010b797ea0e24fbca47",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Na350553ba45145879f2c099910a7c73e"
+      },
+      "ps:P291": {
+        "@id": "_:N4ca3db477afb48d6a0ccf50fe25490e1"
+      },
+      "ps:P3342": {
+        "@id": "_:N7c1aa26c64934a33a4c5268ff3c5ae37"
+      }
+    },
+    {
+      "@id": "_:N4ca3db477afb48d6a0ccf50fe25490e1",
+      "https://schema.org#geo": {
+        "@id": "_:N512fc70135b34a01b97b7ac4e867c1b8"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q41329"
+      },
+      "rdfs:label": "Linz"
+    },
+    {
+      "@id": "_:N512fc70135b34a01b97b7ac4e867c1b8",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "48.303056",
+      "https://schema.org#longitude": "14.290556"
+    },
+    {
+      "@id": "_:Na350553ba45145879f2c099910a7c73e",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1492-10-22"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1492-10-22"
+      }
+    },
+    {
+      "@id": "_:N7c1aa26c64934a33a4c5268ff3c5ae37",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:W00003283"
+      },
+      "ps:P39": {
+        "@id": "ri:graf"
+      },
+      "rdfs:label": "Gf. Eberhard (V.) d.Ä. von Württemberg"
+    }
+  ]
+}

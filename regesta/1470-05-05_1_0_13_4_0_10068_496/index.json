@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1470-05-05_1_0_13_4_0_10068_496",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N0b620ac299ec4243b9331bbf0c799074"
+      }
+    },
+    {
+      "@id": "_:N0b620ac299ec4243b9331bbf0c799074",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N07b802df29694dd494fef4119b0470f1"
+      },
+      "ps:P291": {
+        "@id": "_:Nf1ff7cdaa5844dde9ba6d7cc7c2892b8"
+      },
+      "ps:P3342": {
+        "@id": "_:N323c5a96a2df47b8a9ad781d763e7ce7"
+      }
+    },
+    {
+      "@id": "_:Nf1ff7cdaa5844dde9ba6d7cc7c2892b8",
+      "https://schema.org#geo": {
+        "@id": "_:N1312663a9964453f93295d586e7eac11"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q437"
+      },
+      "rdfs:label": "Laibach"
+    },
+    {
+      "@id": "_:N1312663a9964453f93295d586e7eac11",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "46.05108",
+      "https://schema.org#longitude": "14.50513"
+    },
+    {
+      "@id": "_:N07b802df29694dd494fef4119b0470f1",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1470-05-05"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1470-05-05"
+      }
+    },
+    {
+      "@id": "_:N323c5a96a2df47b8a9ad781d763e7ce7",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00000075"
+      },
+      "ps:P39": {
+        "@id": "ri:markgraf"
+      },
+      "rdfs:label": "Mgf. Karl (I.) von Baden"
+    }
+  ]
+}

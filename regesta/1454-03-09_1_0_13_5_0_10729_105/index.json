@@ -1,0 +1,90 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1454-03-09_1_0_13_5_0_10729_105",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Nabf9a02f60a94517a368bf4fc8eebbc1"
+      }
+    },
+    {
+      "@id": "_:Nabf9a02f60a94517a368bf4fc8eebbc1",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Nbe477a1df72642af9a2bfd815a61fd06"
+      },
+      "ps:P291": {
+        "@id": "_:Nf6089cc0847c48e1be83fd21fcd5ba32"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N7ca055e564254d048ec644fc273b8c2d"
+        },
+        {
+          "@id": "_:Nacb098cf806b45b3a65c7d5ab6ac1b30"
+        }
+      ]
+    },
+    {
+      "@id": "_:Nf6089cc0847c48e1be83fd21fcd5ba32",
+      "https://schema.org#geo": {
+        "@id": "_:Nd99a877fb5104f669d84cbd87c6ab33a"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q131612"
+      },
+      "rdfs:label": "Wiener Neustadt"
+    },
+    {
+      "@id": "_:Nd99a877fb5104f669d84cbd87c6ab33a",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.813153",
+      "https://schema.org#longitude": "16.24444"
+    },
+    {
+      "@id": "_:Nbe477a1df72642af9a2bfd815a61fd06",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1454-03-09"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1454-03-09"
+      }
+    },
+    {
+      "@id": "_:N7ca055e564254d048ec644fc273b8c2d",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00003529"
+      },
+      "ps:P39": {
+        "@id": "ri:kaiser"
+      },
+      "rdfs:label": "K. Sigmund"
+    },
+    {
+      "@id": "_:Nacb098cf806b45b3a65c7d5ab6ac1b30",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:M00000277"
+      },
+      "ps:P39": {
+        "@id": "ri:erzbischof"
+      },
+      "rdfs:label": "Eb. Dietrich von Mainz"
+    }
+  ]
+}

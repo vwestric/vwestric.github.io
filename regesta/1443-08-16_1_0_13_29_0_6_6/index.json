@@ -1,0 +1,87 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1443-08-16_1_0_13_29_0_6_6",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Nd4a64f10ae9644ffa81cd0d0071b9464"
+      }
+    },
+    {
+      "@id": "_:Nd4a64f10ae9644ffa81cd0d0071b9464",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N8dc76fa459f74630b23a2d57cc2a6116"
+      },
+      "ps:P291": {
+        "@id": "_:N3363f1753ff74754a4c5ddf861e4904a"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:Nb2c339167c4c4d94b3d02131aa920210"
+        },
+        {
+          "@id": "_:N3708427c28cf45ed8d5701b247e7a428"
+        }
+      ]
+    },
+    {
+      "@id": "_:N3363f1753ff74754a4c5ddf861e4904a",
+      "https://schema.org#geo": {
+        "@id": "_:N7cafb6d714e745728e0d22c352886a1e"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q131612"
+      },
+      "rdfs:label": "Wiener Neustadt"
+    },
+    {
+      "@id": "_:N7cafb6d714e745728e0d22c352886a1e",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.813153",
+      "https://schema.org#longitude": "16.24444"
+    },
+    {
+      "@id": "_:N8dc76fa459f74630b23a2d57cc2a6116",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1443-08-16"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1443-08-16"
+      }
+    },
+    {
+      "@id": "_:Nb2c339167c4c4d94b3d02131aa920210",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:O00000622"
+      },
+      "rdfs:label": "Sigmund von Österreich"
+    },
+    {
+      "@id": "_:N3708427c28cf45ed8d5701b247e7a428",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:C00000462"
+      },
+      "ps:P39": {
+        "@id": "ri:graf"
+      },
+      "rdfs:label": "Ulrich (II.), Gff. von Cilli"
+    }
+  ]
+}

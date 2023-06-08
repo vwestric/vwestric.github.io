@@ -1,0 +1,55 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1478-03-16_1_0_13_20_0_252_252",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N86a06c2781614ea099f7ae45df9f2635"
+      }
+    },
+    {
+      "@id": "_:N86a06c2781614ea099f7ae45df9f2635",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N2b3a296a876f4cda9ca6116ba733a38d"
+      },
+      "ps:P3342": {
+        "@id": "_:Nd74ab2a0edf14f1fb19a7d60ab077bba"
+      }
+    },
+    {
+      "@id": "_:N2b3a296a876f4cda9ca6116ba733a38d",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1478-03-16"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1478-03-16"
+      }
+    },
+    {
+      "@id": "_:Nd74ab2a0edf14f1fb19a7d60ab077bba",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:U00000212"
+      },
+      "ps:P39": {
+        "@id": "ri:koenig"
+      },
+      "rdfs:label": "Kg. (Matthias) von Ungarn"
+    }
+  ]
+}

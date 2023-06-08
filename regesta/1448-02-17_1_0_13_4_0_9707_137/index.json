@@ -1,0 +1,370 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1448-02-17_1_0_13_4_0_9707_137",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N150813aa24b646bc921714bc7abb82e8"
+      }
+    },
+    {
+      "@id": "_:N150813aa24b646bc921714bc7abb82e8",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N1e4a5ed32fcb4addb823b6f36bc52485"
+      },
+      "ps:P291": {
+        "@id": "_:Nce1be2353edd455c8f306ba48e057705"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:Nd6485e74ff214db293d659fe5a3cd04b"
+        },
+        {
+          "@id": "_:Nc31ac89b3d0f4ff9b7092b68cf1557ee"
+        },
+        {
+          "@id": "_:N91d6af3b9b414359a20cabba3a3fd344"
+        },
+        {
+          "@id": "_:Ne5cbc95f80844878bc5e7db96ee28931"
+        },
+        {
+          "@id": "_:N1d5042b2fcfc4b168f3ca234d4f2b2ab"
+        },
+        {
+          "@id": "_:N3cd295d8fd5e4b54a19302bb5c527c49"
+        },
+        {
+          "@id": "_:N7a62b12518ea4c5a8b244e979f60481f"
+        },
+        {
+          "@id": "_:N689158c6ed094220b8bbc84b83692236"
+        },
+        {
+          "@id": "_:N22d3604d8e2642a3b739d1c99b98641a"
+        },
+        {
+          "@id": "_:Nd9c08c8e6aca4d43a99a51628f9483a8"
+        },
+        {
+          "@id": "_:N62d94e787dfc4f049e55f061565d0ab3"
+        },
+        {
+          "@id": "_:Ne5e3c472019a4223ad265a83d1d239e3"
+        },
+        {
+          "@id": "_:Nfbda790ec9ef458c93737901a82d0bdd"
+        },
+        {
+          "@id": "_:N726d772faf3f49cf95a3167a3334bb67"
+        },
+        {
+          "@id": "_:Nd2cfc8dc46f5419ca229643b7f15b0b6"
+        },
+        {
+          "@id": "_:Nd616e41effbf4c5ba5e93f881f9ec506"
+        },
+        {
+          "@id": "_:Nd07c6771416747d08ad6863471dfb39e"
+        },
+        {
+          "@id": "_:Nc835c10375404430a77c05029bcd5e60"
+        },
+        {
+          "@id": "_:N88bef83be038404a9a858f3fffe64104"
+        },
+        {
+          "@id": "_:Nf7e85a816bc74a9cbabc8a192b6fcf19"
+        },
+        {
+          "@id": "_:N40b0a26e126b444aa2e8e3cdc045bc24"
+        },
+        {
+          "@id": "_:N1f27eff2b23049a9b877ad8c937adac7"
+        },
+        {
+          "@id": "_:N2846122f9b8f437ba93be66e8a658dc5"
+        },
+        {
+          "@id": "_:N0128b34ecdde4b8d8d6010d31bc149f9"
+        }
+      ]
+    },
+    {
+      "@id": "_:Nce1be2353edd455c8f306ba48e057705",
+      "https://schema.org#geo": {
+        "@id": "_:N6ddd2638bf5e429caa6081e288720f40"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q1741"
+      },
+      "rdfs:label": "Wien"
+    },
+    {
+      "@id": "_:N6ddd2638bf5e429caa6081e288720f40",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "48.20849",
+      "https://schema.org#longitude": "16.37208"
+    },
+    {
+      "@id": "_:N1e4a5ed32fcb4addb823b6f36bc52485",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1448-02-17"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1448-02-17"
+      }
+    },
+    {
+      "@id": "_:Nd6485e74ff214db293d659fe5a3cd04b",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:M00000277"
+      },
+      "ps:P39": {
+        "@id": "ri:erzbischof"
+      },
+      "rdfs:label": "Eb. Dietrich von Mainz"
+    },
+    {
+      "@id": "_:Nc31ac89b3d0f4ff9b7092b68cf1557ee",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:I00000279"
+      },
+      "ps:P39": {
+        "@id": "ri:graf"
+      },
+      "rdfs:label": "Gf. Diether von Isenburg"
+    },
+    {
+      "@id": "_:N91d6af3b9b414359a20cabba3a3fd344",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:I00000279"
+      },
+      "ps:P39": {
+        "@id": "ri:graf"
+      },
+      "rdfs:label": "Gf. Diether von Isenburg-Büdingen"
+    },
+    {
+      "@id": "_:Ne5cbc95f80844878bc5e7db96ee28931",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:E00001166"
+      },
+      "rdfs:label": "Gottfried von Eppstein"
+    },
+    {
+      "@id": "_:N1d5042b2fcfc4b168f3ca234d4f2b2ab",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:E00001151"
+      },
+      "rdfs:label": "Eberhard von Eppstein"
+    },
+    {
+      "@id": "_:N3cd295d8fd5e4b54a19302bb5c527c49",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:E00001151"
+      },
+      "ps:P39": {
+        "@id": "ri:koenig"
+      },
+      "rdfs:label": "Eberhard von Eppstein-Königstein"
+    },
+    {
+      "@id": "_:N7a62b12518ea4c5a8b244e979f60481f",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00002248"
+      },
+      "ps:P39": {
+        "@id": "ri:markgraf"
+      },
+      "rdfs:label": "Mgf. Albrecht von Brandenburg"
+    },
+    {
+      "@id": "_:N689158c6ed094220b8bbc84b83692236",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00002248"
+      },
+      "rdfs:label": "Albrecht von Brandenburg"
+    },
+    {
+      "@id": "_:N22d3604d8e2642a3b739d1c99b98641a",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:P00000246"
+      },
+      "ps:P39": [
+        {
+          "@id": "ri:rat"
+        },
+        {
+          "@id": "ri:bischof"
+        }
+      ],
+      "rdfs:label": "kgl. Rats Bf. Leonhards von Passau"
+    },
+    {
+      "@id": "_:Nd9c08c8e6aca4d43a99a51628f9483a8",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:P00000246"
+      },
+      "ps:P39": {
+        "@id": "ri:bischof"
+      },
+      "rdfs:label": "Bf. Leonhards von Passau"
+    },
+    {
+      "@id": "_:N62d94e787dfc4f049e55f061565d0ab3",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00003529"
+      },
+      "ps:P39": {
+        "@id": "ri:kaiser"
+      },
+      "rdfs:label": "K. Sigmund"
+    },
+    {
+      "@id": "_:Ne5e3c472019a4223ad265a83d1d239e3",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:P00000976"
+      },
+      "ps:P39": {
+        "@id": "ri:pfalzgraf"
+      },
+      "rdfs:label": "Pfgf. Ruprecht (d. Ä.) bei Rhein"
+    },
+    {
+      "@id": "_:Nfbda790ec9ef458c93737901a82d0bdd",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:R00002924"
+      },
+      "ps:P39": {
+        "@id": "ri:koenig"
+      },
+      "rdfs:label": "Kg. Rudolf (I.)"
+    },
+    {
+      "@id": "_:N726d772faf3f49cf95a3167a3334bb67",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:P00000976"
+      },
+      "ps:P39": {
+        "@id": "ri:pfalzgraf"
+      },
+      "rdfs:label": "Pfgf. Ludwig (IV.) bei Rhein"
+    },
+    {
+      "@id": "_:Nd2cfc8dc46f5419ca229643b7f15b0b6",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:L00000861"
+      },
+      "ps:P39": {
+        "@id": "ri:graf"
+      },
+      "rdfs:label": "Gf. Hesso von Leiningen"
+    },
+    {
+      "@id": "_:Nd616e41effbf4c5ba5e93f881f9ec506",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:K00002757"
+      },
+      "rdfs:label": "Frank d. Ä. von Kronberg"
+    },
+    {
+      "@id": "_:Nd07c6771416747d08ad6863471dfb39e",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:K00002779"
+      },
+      "rdfs:label": "Philipp von Kronberg"
+    },
+    {
+      "@id": "_:Nc835c10375404430a77c05029bcd5e60",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00001866"
+      },
+      "ps:P39": {
+        "@id": "ri:herr"
+      },
+      "rdfs:label": "Herr Kaspar von Weißkirchen"
+    },
+    {
+      "@id": "_:N88bef83be038404a9a858f3fffe64104",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:P00002036"
+      },
+      "rdfs:label": "Albrecht von Pottendorf"
+    },
+    {
+      "@id": "_:Nf7e85a816bc74a9cbabc8a192b6fcf19",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00004603"
+      },
+      "rdfs:label": "Hans von Starhemberg"
+    },
+    {
+      "@id": "_:N40b0a26e126b444aa2e8e3cdc045bc24",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:R00000028"
+      },
+      "rdfs:label": "Prokop von Rabenstein"
+    },
+    {
+      "@id": "_:N1f27eff2b23049a9b877ad8c937adac7",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:M00003049"
+      },
+      "rdfs:label": "Friedrich Muracher"
+    },
+    {
+      "@id": "_:N2846122f9b8f437ba93be66e8a658dc5",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:C00000119"
+      },
+      "rdfs:label": "Hartung von Kappel"
+    },
+    {
+      "@id": "_:N0128b34ecdde4b8d8d6010d31bc149f9",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00000050"
+      },
+      "rdfs:label": "Peter Bachmullner"
+    }
+  ]
+}

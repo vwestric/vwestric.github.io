@@ -1,0 +1,218 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1442-07-25_1_0_13_12_0_112_112",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N3f7b182a53944546b58b00d9eb715da3"
+      }
+    },
+    {
+      "@id": "_:N3f7b182a53944546b58b00d9eb715da3",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Nbe09ff9bb183463cb342cfce8ccbd1f3"
+      },
+      "ps:P291": {
+        "@id": "_:N596225dd712b4c80ab4ea0b1415cacbd"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N03de1f4569eb458d8831e4bec180f465"
+        },
+        {
+          "@id": "_:N0784fa01511b4e149ca0bb749a436c49"
+        },
+        {
+          "@id": "_:Nfb062b8ac31b4f0c8b35e5d01845d6bc"
+        },
+        {
+          "@id": "_:Nefc0338edf834fd6a835c74b7a76643b"
+        },
+        {
+          "@id": "_:N9ea2dcba3a464f8a89cbb942a6a74db5"
+        },
+        {
+          "@id": "_:Na850f384ac9c42a0ba28eb11fc45f3f9"
+        },
+        {
+          "@id": "_:Nfb5c58ec88444830b1fe4bc88b3f58c7"
+        },
+        {
+          "@id": "_:N226e0d4d8d0b4c5ba2d6d58c870f24e0"
+        },
+        {
+          "@id": "_:Nbb2c33843c0c4ac6b349f701bd1794e5"
+        },
+        {
+          "@id": "_:Nafcbabd1d4db42b28d2af6c68db4a248"
+        },
+        {
+          "@id": "_:Nc30e3c7fcec34742b21b31600b533e03"
+        },
+        {
+          "@id": "_:N9401af5e51d3464dbefdad666bc9974d"
+        }
+      ]
+    },
+    {
+      "@id": "_:N596225dd712b4c80ab4ea0b1415cacbd",
+      "https://schema.org#geo": {
+        "@id": "_:Nf913b5b19ff14eb4b392b7eb2322579b"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q1794"
+      },
+      "rdfs:label": "Frankfurt"
+    },
+    {
+      "@id": "_:Nf913b5b19ff14eb4b392b7eb2322579b",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "50.110556",
+      "https://schema.org#longitude": "8.682222"
+    },
+    {
+      "@id": "_:Nbe09ff9bb183463cb342cfce8ccbd1f3",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1442-07-25"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1442-07-25"
+      }
+    },
+    {
+      "@id": "_:N03de1f4569eb458d8831e4bec180f465",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:O00000622"
+      },
+      "ps:P39": {
+        "@id": "ri:herzog"
+      },
+      "rdfs:label": "Hz. Sigmunds von Österreich"
+    },
+    {
+      "@id": "_:N0784fa01511b4e149ca0bb749a436c49",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:M00000277"
+      },
+      "ps:P39": {
+        "@id": "ri:erzbischof"
+      },
+      "rdfs:label": "Eb. Dietrich von Mainz"
+    },
+    {
+      "@id": "_:Nfb062b8ac31b4f0c8b35e5d01845d6bc",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:K00001681"
+      },
+      "ps:P39": {
+        "@id": "ri:erzbischof"
+      },
+      "rdfs:label": "Eb. Dietrich von Köln"
+    },
+    {
+      "@id": "_:Nefc0338edf834fd6a835c74b7a76643b",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:T00001172"
+      },
+      "ps:P39": {
+        "@id": "ri:erzbischof"
+      },
+      "rdfs:label": "Eb. Jakob von Trier"
+    },
+    {
+      "@id": "_:N9ea2dcba3a464f8a89cbb942a6a74db5",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:P00000976"
+      },
+      "ps:P39": {
+        "@id": "ri:pfalzgraf"
+      },
+      "rdfs:label": "Pfgf. Ludwig (IV.) bei Rhein"
+    },
+    {
+      "@id": "_:Na850f384ac9c42a0ba28eb11fc45f3f9",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00000076"
+      },
+      "ps:P39": {
+        "@id": "ri:herzog"
+      },
+      "rdfs:label": "Hz. Friedrich (II.) von Sachsen"
+    },
+    {
+      "@id": "_:Nfb5c58ec88444830b1fe4bc88b3f58c7",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00002265"
+      },
+      "ps:P39": {
+        "@id": "ri:markgraf"
+      },
+      "rdfs:label": "Mgf. Friedrich (II.) von Brandenburg"
+    },
+    {
+      "@id": "_:N226e0d4d8d0b4c5ba2d6d58c870f24e0",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:A00001569"
+      },
+      "rdfs:label": "Peter von Augsburg"
+    },
+    {
+      "@id": "_:Nbb2c33843c0c4ac6b349f701bd1794e5",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:C00000330"
+      },
+      "rdfs:label": "Silvester von Chiemsee"
+    },
+    {
+      "@id": "_:Nafcbabd1d4db42b28d2af6c68db4a248",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00000071"
+      },
+      "ps:P39": {
+        "@id": "ri:markgraf"
+      },
+      "rdfs:label": "Mgf. Jakob (I.) von Baden"
+    },
+    {
+      "@id": "_:Nc30e3c7fcec34742b21b31600b533e03",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:O00000788"
+      },
+      "rdfs:label": "Wilhelm von Oettingen"
+    },
+    {
+      "@id": "_:N9401af5e51d3464dbefdad666bc9974d",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00001341"
+      },
+      "rdfs:label": "Bernhard von Schaunberg"
+    }
+  ]
+}

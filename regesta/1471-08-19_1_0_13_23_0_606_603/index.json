@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1471-08-19_1_0_13_23_0_606_603",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Nb79a8f07b690493fb5d2ac77c838c48e"
+      }
+    },
+    {
+      "@id": "_:Nb79a8f07b690493fb5d2ac77c838c48e",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N4bfb10cf0d8241a2a4683dc519267c3c"
+      },
+      "ps:P291": {
+        "@id": "_:N014dc462e0b04b8189ebf4e999dd9234"
+      },
+      "ps:P3342": {
+        "@id": "_:N703f91d1ae1b436a8d149c789d585654"
+      }
+    },
+    {
+      "@id": "_:N014dc462e0b04b8189ebf4e999dd9234",
+      "https://schema.org#geo": {
+        "@id": "_:N0b11353bab2341c6bc2cc34c3eff1077"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q2978"
+      },
+      "rdfs:label": "Regensburg"
+    },
+    {
+      "@id": "_:N0b11353bab2341c6bc2cc34c3eff1077",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "49.0054",
+      "https://schema.org#longitude": "12.0606"
+    },
+    {
+      "@id": "_:N4bfb10cf0d8241a2a4683dc519267c3c",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1471-08-19"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1471-08-19"
+      }
+    },
+    {
+      "@id": "_:N703f91d1ae1b436a8d149c789d585654",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:A00001566"
+      },
+      "ps:P39": {
+        "@id": "ri:bischof"
+      },
+      "rdfs:label": "Bf. Johann von Augsburg"
+    }
+  ]
+}

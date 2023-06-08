@@ -1,0 +1,55 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:accf44de-796a-4096-829e-8c2764349570",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Nff03c096ce844e709afe4a5db87123c0"
+      }
+    },
+    {
+      "@id": "_:Nff03c096ce844e709afe4a5db87123c0",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N0b803a8c8795443dbae8cd9051de9c7b"
+      },
+      "ps:P3342": {
+        "@id": "_:Nd80884e1ae4043ff9415f5948f96d7c6"
+      }
+    },
+    {
+      "@id": "_:N0b803a8c8795443dbae8cd9051de9c7b",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1475-03-14"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1475-03-18"
+      }
+    },
+    {
+      "@id": "_:Nd80884e1ae4043ff9415f5948f96d7c6",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00003253"
+      },
+      "ps:P39": {
+        "@id": "ri:herzog"
+      },
+      "rdfs:label": "Hz. (Karl) von Burgund"
+    }
+  ]
+}

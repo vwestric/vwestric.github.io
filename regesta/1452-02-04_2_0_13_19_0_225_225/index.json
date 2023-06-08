@@ -1,0 +1,71 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1452-02-04_2_0_13_19_0_225_225",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N337b1566f8ac4d7c858a10bbd6bc3311"
+      }
+    },
+    {
+      "@id": "_:N337b1566f8ac4d7c858a10bbd6bc3311",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N6c5417c2756d44d785f2a5d834fb22f1"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N2a05c5e6dd2b4950b2dabde996e1a048"
+        },
+        {
+          "@id": "_:N914b8c7021d34e0282c0a3c81f6e0ea3"
+        }
+      ]
+    },
+    {
+      "@id": "_:N6c5417c2756d44d785f2a5d834fb22f1",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1452-02-04"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1452-02-04"
+      }
+    },
+    {
+      "@id": "_:N2a05c5e6dd2b4950b2dabde996e1a048",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00000582"
+      },
+      "ps:P39": {
+        "@id": "ri:herzog"
+      },
+      "rdfs:label": "Hz. Albrecht von Bayern"
+    },
+    {
+      "@id": "_:N914b8c7021d34e0282c0a3c81f6e0ea3",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00000582"
+      },
+      "ps:P39": {
+        "@id": "ri:herzog"
+      },
+      "rdfs:label": "Hz. Albrecht von Bayern (-München)"
+    }
+  ]
+}

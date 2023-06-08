@@ -1,0 +1,165 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1442-07-28_2_0_13_25_0_24_24",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Nd523aae4ec5e4026adb8b44002a69c71"
+      }
+    },
+    {
+      "@id": "_:Nd523aae4ec5e4026adb8b44002a69c71",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Ncec620902fe84a05bbcfbd007ee40755"
+      },
+      "ps:P291": {
+        "@id": "_:N8e908f278de24fafb5a5ee93b6c6a575"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N75514501ecae412f8116c3381d53f88d"
+        },
+        {
+          "@id": "_:N3bb780f4872d469088b6b23d271cddeb"
+        },
+        {
+          "@id": "_:N7dfe6d96937d48eeace63e01a3181943"
+        },
+        {
+          "@id": "_:Naf92658b7cd14555a49f234a308c093a"
+        },
+        {
+          "@id": "_:Nad6ead15a745461b8735e9f77772e471"
+        },
+        {
+          "@id": "_:N063be88d4bda42b98351b8d76fcfa7d4"
+        },
+        {
+          "@id": "_:N7b5ab7beb2a040e1af6e95345cef5461"
+        }
+      ]
+    },
+    {
+      "@id": "_:N8e908f278de24fafb5a5ee93b6c6a575",
+      "https://schema.org#geo": {
+        "@id": "_:N360ebf343eb944b181fad2c2b227b73a"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q1794"
+      },
+      "rdfs:label": "Frankfurt"
+    },
+    {
+      "@id": "_:N360ebf343eb944b181fad2c2b227b73a",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "50.110556",
+      "https://schema.org#longitude": "8.682222"
+    },
+    {
+      "@id": "_:Ncec620902fe84a05bbcfbd007ee40755",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1442-07-28"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1442-07-28"
+      }
+    },
+    {
+      "@id": "_:N75514501ecae412f8116c3381d53f88d",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:M00000305"
+      },
+      "ps:P39": {
+        "@id": "ri:erzbischof"
+      },
+      "rdfs:label": "Eb. Dietrichs von Mainz"
+    },
+    {
+      "@id": "_:N3bb780f4872d469088b6b23d271cddeb",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:H00001475"
+      },
+      "ps:P39": {
+        "@id": "ri:koenig"
+      },
+      "rdfs:label": "Kg. Heinrichs (VII.)"
+    },
+    {
+      "@id": "_:N7dfe6d96937d48eeace63e01a3181943",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:R00003121"
+      },
+      "ps:P39": {
+        "@id": "ri:koenig"
+      },
+      "rdfs:label": "Kg. Rudolfs"
+    },
+    {
+      "@id": "_:Naf92658b7cd14555a49f234a308c093a",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:K00000431"
+      },
+      "ps:P39": [
+        {
+          "@id": "ri:kaiser"
+        },
+        {
+          "@id": "ri:bischof"
+        }
+      ],
+      "rdfs:label": "K. Ludwigs d.B."
+    },
+    {
+      "@id": "_:Nad6ead15a745461b8735e9f77772e471",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:K00000431"
+      },
+      "ps:P39": {
+        "@id": "ri:kaiser"
+      },
+      "rdfs:label": "K. Karls IV."
+    },
+    {
+      "@id": "_:N063be88d4bda42b98351b8d76fcfa7d4",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:W00001405"
+      },
+      "ps:P39": {
+        "@id": "ri:koenig"
+      },
+      "rdfs:label": "Kg. Wenzels"
+    },
+    {
+      "@id": "_:N7b5ab7beb2a040e1af6e95345cef5461",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:R00003121"
+      },
+      "ps:P39": {
+        "@id": "ri:koenig"
+      },
+      "rdfs:label": "Kg. Ruprechts"
+    }
+  ]
+}

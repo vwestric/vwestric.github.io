@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1466-10-29_1_0_13_29_0_147_147",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Nb334beac86094933b4ed26e047aadb48"
+      }
+    },
+    {
+      "@id": "_:Nb334beac86094933b4ed26e047aadb48",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N5c8f983c974547b88dd969b4e31818d7"
+      },
+      "ps:P291": {
+        "@id": "_:Nb1918afc538647afb40a01774b69491e"
+      },
+      "ps:P3342": {
+        "@id": "_:N611ab9c1029d425fbbb1b277ba223176"
+      }
+    },
+    {
+      "@id": "_:Nb1918afc538647afb40a01774b69491e",
+      "https://schema.org#geo": {
+        "@id": "_:Nb7fde1788f0940cf8e906f538649ffb8"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q13298"
+      },
+      "rdfs:label": "Graz"
+    },
+    {
+      "@id": "_:Nb7fde1788f0940cf8e906f538649ffb8",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.06667",
+      "https://schema.org#longitude": "15.45"
+    },
+    {
+      "@id": "_:N5c8f983c974547b88dd969b4e31818d7",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1466-10-29"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1466-10-29"
+      }
+    },
+    {
+      "@id": "_:N611ab9c1029d425fbbb1b277ba223176",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:L00000112"
+      },
+      "ps:P39": {
+        "@id": "ri:bischof"
+      },
+      "rdfs:label": "Bf. Sigmund von Laibach"
+    }
+  ]
+}

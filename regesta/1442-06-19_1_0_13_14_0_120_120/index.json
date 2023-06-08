@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1442-06-19_1_0_13_14_0_120_120",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N819d9598c76b48f79d8343c060b94546"
+      }
+    },
+    {
+      "@id": "_:N819d9598c76b48f79d8343c060b94546",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N0b223de88c5147cc93b1981dde843131"
+      },
+      "ps:P291": {
+        "@id": "_:N184e6bfd28864b9399c5b519a4fd2627"
+      },
+      "ps:P3342": {
+        "@id": "_:N8702a19088424af8a7512fd915172a3d"
+      }
+    },
+    {
+      "@id": "_:N184e6bfd28864b9399c5b519a4fd2627",
+      "https://schema.org#geo": {
+        "@id": "_:N1cbc830f0bc5459eaf2b9027969c4ccd"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q1017"
+      },
+      "rdfs:label": "Aachen"
+    },
+    {
+      "@id": "_:N1cbc830f0bc5459eaf2b9027969c4ccd",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "50.77664",
+      "https://schema.org#longitude": "6.08342"
+    },
+    {
+      "@id": "_:N0b223de88c5147cc93b1981dde843131",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1442-06-19"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1442-06-19"
+      }
+    },
+    {
+      "@id": "_:N8702a19088424af8a7512fd915172a3d",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00002265"
+      },
+      "ps:P39": {
+        "@id": "ri:kurfuerst"
+      },
+      "rdfs:label": "Kf. Friedrich (II.) von Brandenburg"
+    }
+  ]
+}

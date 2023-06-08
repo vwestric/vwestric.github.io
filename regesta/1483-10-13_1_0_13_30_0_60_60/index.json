@@ -1,0 +1,87 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1483-10-13_1_0_13_30_0_60_60",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N3d5a1c64caa54ce385f7d5642128a0cf"
+      }
+    },
+    {
+      "@id": "_:N3d5a1c64caa54ce385f7d5642128a0cf",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N3fbae962f3be4a21814d88b65025d935"
+      },
+      "ps:P291": {
+        "@id": "_:N6ea4496cf33a48bc840dae9fc80c00c4"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N0c33c1ede89f4b699686589b44cda4eb"
+        },
+        {
+          "@id": "_:Ne23de8d0c9da4fd0a5aac28df973c8be"
+        }
+      ]
+    },
+    {
+      "@id": "_:N6ea4496cf33a48bc840dae9fc80c00c4",
+      "https://schema.org#geo": {
+        "@id": "_:Nbeefe1f44ba549f88c549d7c75918f6f"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q13298"
+      },
+      "rdfs:label": "Graz"
+    },
+    {
+      "@id": "_:Nbeefe1f44ba549f88c549d7c75918f6f",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.06667",
+      "https://schema.org#longitude": "15.45"
+    },
+    {
+      "@id": "_:N3fbae962f3be4a21814d88b65025d935",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1483-10-13"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1483-10-13"
+      }
+    },
+    {
+      "@id": "_:N0c33c1ede89f4b699686589b44cda4eb",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00003679"
+      },
+      "ps:P39": {
+        "@id": "ri:papst"
+      },
+      "rdfs:label": "Papst Sixtus IV."
+    },
+    {
+      "@id": "_:Ne23de8d0c9da4fd0a5aac28df973c8be",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:P00002929"
+      },
+      "rdfs:label": "Albert Puck"
+    }
+  ]
+}

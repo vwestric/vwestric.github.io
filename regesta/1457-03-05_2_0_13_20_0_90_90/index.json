@@ -1,0 +1,120 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1457-03-05_2_0_13_20_0_90_90",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Need2f049a092410c86f9316e1cf6c7e1"
+      }
+    },
+    {
+      "@id": "_:Need2f049a092410c86f9316e1cf6c7e1",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N9aca0bf0b6734ca19dd63ce912ab9a9d"
+      },
+      "ps:P291": {
+        "@id": "_:N2ea6e4a969034de6a872cc08ff390684"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N931eec8b9cac493c9e010ae0b1131090"
+        },
+        {
+          "@id": "_:N39b9c2ed51e4475ea824fea4538b22a4"
+        },
+        {
+          "@id": "_:N6fce7d786cf3465d8497ecd968313970"
+        },
+        {
+          "@id": "_:Nb61678b1a2b3417a910b62fe542fc2b6"
+        },
+        {
+          "@id": "_:Ndc9a3ef31821454c8ab8609f184d9448"
+        }
+      ]
+    },
+    {
+      "@id": "_:N2ea6e4a969034de6a872cc08ff390684",
+      "https://schema.org#geo": {
+        "@id": "_:Nc8ee94c5e5b4416cadfcb64359c036db"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q13298"
+      },
+      "rdfs:label": "Graz"
+    },
+    {
+      "@id": "_:Nc8ee94c5e5b4416cadfcb64359c036db",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.06667",
+      "https://schema.org#longitude": "15.45"
+    },
+    {
+      "@id": "_:N9aca0bf0b6734ca19dd63ce912ab9a9d",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1457-03-05"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1457-03-05"
+      }
+    },
+    {
+      "@id": "_:N931eec8b9cac493c9e010ae0b1131090",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00000324"
+      },
+      "rdfs:label": "Jaroslaw Barnekow"
+    },
+    {
+      "@id": "_:N39b9c2ed51e4475ea824fea4538b22a4",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00000324"
+      },
+      "rdfs:label": "Raven Barnekow"
+    },
+    {
+      "@id": "_:N6fce7d786cf3465d8497ecd968313970",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:R00002243"
+      },
+      "rdfs:label": "Sigmund von Roggendorf"
+    },
+    {
+      "@id": "_:Nb61678b1a2b3417a910b62fe542fc2b6",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:W00001310"
+      },
+      "rdfs:label": "Vizekanzler Ulrich Weltzli"
+    },
+    {
+      "@id": "_:Ndc9a3ef31821454c8ab8609f184d9448",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:R00003009"
+      },
+      "ps:P39": {
+        "@id": "ri:propst"
+      },
+      "rdfs:label": "Johann Rüttler, Propst zu Rheinfelden"
+    }
+  ]
+}

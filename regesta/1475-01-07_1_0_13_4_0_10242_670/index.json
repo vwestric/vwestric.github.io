@@ -1,0 +1,60 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1475-01-07_1_0_13_4_0_10242_670",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Nc4b894bb0b42413faa11de3d026e91da"
+      }
+    },
+    {
+      "@id": "_:Nc4b894bb0b42413faa11de3d026e91da",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Nbc22512b11b84511895445005db05914"
+      },
+      "ps:P291": {
+        "@id": "_:N8e2b6ac349d641b58f1d923e2c87b1c9"
+      }
+    },
+    {
+      "@id": "_:N8e2b6ac349d641b58f1d923e2c87b1c9",
+      "https://schema.org#geo": {
+        "@id": "_:Nf17494614bb44b9a92b58a1cc4f80a90"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q490058"
+      },
+      "rdfs:label": "Andernach"
+    },
+    {
+      "@id": "_:Nf17494614bb44b9a92b58a1cc4f80a90",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "50.4333",
+      "https://schema.org#longitude": "7.4"
+    },
+    {
+      "@id": "_:Nbc22512b11b84511895445005db05914",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1475-01-07"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1475-01-07"
+      }
+    }
+  ]
+}

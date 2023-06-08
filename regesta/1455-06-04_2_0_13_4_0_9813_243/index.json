@@ -1,0 +1,90 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1455-06-04_2_0_13_4_0_9813_243",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N6d4cdb7fa56944d98cab6d1c01f4c2fe"
+      }
+    },
+    {
+      "@id": "_:N6d4cdb7fa56944d98cab6d1c01f4c2fe",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N75169840734a43ab8f2d49d5712d7112"
+      },
+      "ps:P291": {
+        "@id": "_:N988b2fbdd82642aabd102387a7d11429"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N31e48baa26fa463a91fe8bac0fd82a3c"
+        },
+        {
+          "@id": "_:N3d77602e1679433c8f20a7ac1bd8e554"
+        }
+      ]
+    },
+    {
+      "@id": "_:N988b2fbdd82642aabd102387a7d11429",
+      "https://schema.org#geo": {
+        "@id": "_:Ne2edd0b2b1f74588a5aff87ad743536c"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q131612"
+      },
+      "rdfs:label": "Wiener Neustadt"
+    },
+    {
+      "@id": "_:Ne2edd0b2b1f74588a5aff87ad743536c",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.813153",
+      "https://schema.org#longitude": "16.24444"
+    },
+    {
+      "@id": "_:N75169840734a43ab8f2d49d5712d7112",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1455-06-04"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1455-06-04"
+      }
+    },
+    {
+      "@id": "_:N31e48baa26fa463a91fe8bac0fd82a3c",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:M00000277"
+      },
+      "ps:P39": {
+        "@id": "ri:erzbischof"
+      },
+      "rdfs:label": "Eb. Dietrich von Mainz"
+    },
+    {
+      "@id": "_:N3d77602e1679433c8f20a7ac1bd8e554",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:K00002684"
+      },
+      "ps:P39": {
+        "@id": "ri:diener"
+      },
+      "rdfs:label": "Diener Hans Kreygenberg"
+    }
+  ]
+}

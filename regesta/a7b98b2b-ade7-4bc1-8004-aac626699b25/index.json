@@ -1,0 +1,90 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:a7b98b2b-ade7-4bc1-8004-aac626699b25",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N2aa2cf4e6d9c4ef0a86498d671474954"
+      }
+    },
+    {
+      "@id": "_:N2aa2cf4e6d9c4ef0a86498d671474954",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N676a690732ba45e0a0b186418c127dc2"
+      },
+      "ps:P291": {
+        "@id": "_:Ndda84d97c08c4d92b3fbc65377737314"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N20222a319c504c8686674c84876bb00f"
+        },
+        {
+          "@id": "_:N7e3cdb0899794b07842c5ed5a7c24ef3"
+        }
+      ]
+    },
+    {
+      "@id": "_:Ndda84d97c08c4d92b3fbc65377737314",
+      "https://schema.org#geo": {
+        "@id": "_:N35ffa74029784ff381a3dd751acce470"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q131612"
+      },
+      "rdfs:label": "Wiener Neustadt"
+    },
+    {
+      "@id": "_:N35ffa74029784ff381a3dd751acce470",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.813153",
+      "https://schema.org#longitude": "16.24444"
+    },
+    {
+      "@id": "_:N676a690732ba45e0a0b186418c127dc2",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1466-01-27"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1466-01-27"
+      }
+    },
+    {
+      "@id": "_:N20222a319c504c8686674c84876bb00f",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00002248"
+      },
+      "ps:P39": {
+        "@id": "ri:markgraf"
+      },
+      "rdfs:label": "Mgf. Albrecht von Brandenburg"
+    },
+    {
+      "@id": "_:N7e3cdb0899794b07842c5ed5a7c24ef3",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:O00000622"
+      },
+      "ps:P39": {
+        "@id": "ri:herzog"
+      },
+      "rdfs:label": "Hz. Sigmund von Österreich"
+    }
+  ]
+}

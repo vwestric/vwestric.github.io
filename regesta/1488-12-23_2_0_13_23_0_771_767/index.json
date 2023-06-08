@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1488-12-23_2_0_13_23_0_771_767",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N078385dd0f1a44db86a7c1e19b6a45d5"
+      }
+    },
+    {
+      "@id": "_:N078385dd0f1a44db86a7c1e19b6a45d5",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N370ae2297b3f4691aa597b2ba95c8534"
+      },
+      "ps:P291": {
+        "@id": "_:N45fee79a6f0747af8b82abd85b7491da"
+      },
+      "ps:P3342": {
+        "@id": "_:N40018ac400624049b8ccce41ca61152a"
+      }
+    },
+    {
+      "@id": "_:N45fee79a6f0747af8b82abd85b7491da",
+      "https://schema.org#geo": {
+        "@id": "_:N5996e999dd7e43e6a2ab2d445bc6c13c"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q1735"
+      },
+      "rdfs:label": "Innsbruck"
+    },
+    {
+      "@id": "_:N5996e999dd7e43e6a2ab2d445bc6c13c",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.26266",
+      "https://schema.org#longitude": "11.39454"
+    },
+    {
+      "@id": "_:N370ae2297b3f4691aa597b2ba95c8534",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1488-12-23"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1488-12-23"
+      }
+    },
+    {
+      "@id": "_:N40018ac400624049b8ccce41ca61152a",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:M00001151"
+      },
+      "ps:P39": {
+        "@id": "ri:koenig"
+      },
+      "rdfs:label": "Kg. Maximilian"
+    }
+  ]
+}

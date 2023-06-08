@@ -1,0 +1,118 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1463-08-23_1_0_13_18_0_331_331",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Nf1a59602163843beb4621009a58c8b11"
+      }
+    },
+    {
+      "@id": "_:Nf1a59602163843beb4621009a58c8b11",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Nd007a58a655445b2bb4cdcc3984da74a"
+      },
+      "ps:P291": {
+        "@id": "_:N570bf04f93a04b7f997755a35947d271"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N84b7c5d96c794451b150625d1ba7e23d"
+        },
+        {
+          "@id": "_:N2ac61535f2574c52a7337cb8d9985de0"
+        },
+        {
+          "@id": "_:N60d1d24e1779473dbad72709d5c5981c"
+        },
+        {
+          "@id": "_:N53cd69b9a76344acbc04a7c502660d8e"
+        }
+      ]
+    },
+    {
+      "@id": "_:N570bf04f93a04b7f997755a35947d271",
+      "https://schema.org#geo": {
+        "@id": "_:N3d8e2d07034f45879a5702e2ddf0f64a"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q1085"
+      },
+      "rdfs:label": "Prag"
+    },
+    {
+      "@id": "_:N3d8e2d07034f45879a5702e2ddf0f64a",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "50.08804",
+      "https://schema.org#longitude": "14.42076"
+    },
+    {
+      "@id": "_:Nd007a58a655445b2bb4cdcc3984da74a",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1463-08-23"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1463-08-23"
+      }
+    },
+    {
+      "@id": "_:N84b7c5d96c794451b150625d1ba7e23d",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00000565"
+      },
+      "ps:P39": {
+        "@id": "ri:herzog"
+      },
+      "rdfs:label": "Hz. Ludwig (IX.) von Bayern (-Landshut)"
+    },
+    {
+      "@id": "_:N2ac61535f2574c52a7337cb8d9985de0",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:M00000396"
+      },
+      "ps:P39": {
+        "@id": "ri:meister"
+      },
+      "rdfs:label": "Meister Martin Mair"
+    },
+    {
+      "@id": "_:N60d1d24e1779473dbad72709d5c5981c",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00001825"
+      },
+      "ps:P39": {
+        "@id": "ri:koenig"
+      },
+      "rdfs:label": "Kg. Georg (von Podiebrad) von Böhmen"
+    },
+    {
+      "@id": "_:N53cd69b9a76344acbc04a7c502660d8e",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00000565"
+      },
+      "ps:P39": {
+        "@id": "ri:herzog"
+      },
+      "rdfs:label": "Hz. Ludwig von Bayern"
+    }
+  ]
+}

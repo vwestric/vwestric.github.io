@@ -1,0 +1,173 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1465-08-19_3_0_13_17_0_163_161",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N53d2bc6e847c4ecca0d2b26e53a8e314"
+      }
+    },
+    {
+      "@id": "_:N53d2bc6e847c4ecca0d2b26e53a8e314",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N699a310d94b64d72a9a9b99eb3aa3ab9"
+      },
+      "ps:P291": {
+        "@id": "_:N3c9a1b06d9f64b54bb5b906451569dbe"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N85cca3e4b2a3452ebea35c85a563acb3"
+        },
+        {
+          "@id": "_:N51122d6477a04fb5a783996afa89e5f7"
+        },
+        {
+          "@id": "_:Ne0c1c30e30a046d7a0ba2c5e215f3c0b"
+        },
+        {
+          "@id": "_:N7e81c5e1e62b4092962667ccb86646b3"
+        },
+        {
+          "@id": "_:Nc9586347e22a428c9b0c791fd0ec5341"
+        },
+        {
+          "@id": "_:N849e43ec5c174d79b9cbb198db72f8f1"
+        },
+        {
+          "@id": "_:Na3df61d6f01449f88518d903e1b4d10f"
+        },
+        {
+          "@id": "_:N60372b0d67c64fa38c83ca0268a1c9c9"
+        },
+        {
+          "@id": "_:N1a8e4ddc37bf4b2fb75caefe8e13e2c7"
+        }
+      ]
+    },
+    {
+      "@id": "_:N3c9a1b06d9f64b54bb5b906451569dbe",
+      "https://schema.org#geo": {
+        "@id": "_:N3e133973b9f945c381a463ab6ae3dc3d"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q131612"
+      },
+      "rdfs:label": "Wiener Neustadt"
+    },
+    {
+      "@id": "_:N3e133973b9f945c381a463ab6ae3dc3d",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.813153",
+      "https://schema.org#longitude": "16.24444"
+    },
+    {
+      "@id": "_:N699a310d94b64d72a9a9b99eb3aa3ab9",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1465-08-19"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1465-08-19"
+      }
+    },
+    {
+      "@id": "_:N85cca3e4b2a3452ebea35c85a563acb3",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:Z00000640"
+      },
+      "ps:P39": {
+        "@id": "ri:pfalzgraf"
+      },
+      "rdfs:label": "Pfgf. Ludwig (I.) (von Zweibrücken-Veldenz)"
+    },
+    {
+      "@id": "_:N51122d6477a04fb5a783996afa89e5f7",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00000075"
+      },
+      "ps:P39": {
+        "@id": "ri:markgraf"
+      },
+      "rdfs:label": "Mgf. Karl (I.) von Baden"
+    },
+    {
+      "@id": "_:Ne0c1c30e30a046d7a0ba2c5e215f3c0b",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:L00000861"
+      },
+      "ps:P39": {
+        "@id": "ri:landgraf"
+      },
+      "rdfs:label": "Ldgf. Hesso von Leiningen (-Dagsburg)"
+    },
+    {
+      "@id": "_:N7e81c5e1e62b4092962667ccb86646b3",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:L00000872"
+      },
+      "ps:P39": {
+        "@id": "ri:graf"
+      },
+      "rdfs:label": "Gf. Emich von Leiningen (-Dagsburg-Hardenburg)"
+    },
+    {
+      "@id": "_:Nc9586347e22a428c9b0c791fd0ec5341",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:E00000087"
+      },
+      "rdfs:label": "Bernhard von Eberstein"
+    },
+    {
+      "@id": "_:N849e43ec5c174d79b9cbb198db72f8f1",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:W00003114"
+      },
+      "rdfs:label": "Reinhard von Worms"
+    },
+    {
+      "@id": "_:Na3df61d6f01449f88518d903e1b4d10f",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:M00002238"
+      },
+      "rdfs:label": "Jakob von Moers"
+    },
+    {
+      "@id": "_:N60372b0d67c64fa38c83ca0268a1c9c9",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:T00001488"
+      },
+      "rdfs:label": "Konrad von Tübingen"
+    },
+    {
+      "@id": "_:N1a8e4ddc37bf4b2fb75caefe8e13e2c7",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:P00001085"
+      },
+      "rdfs:label": "Stuhlbrüderpropst Eberhard Pfeil"
+    }
+  ]
+}

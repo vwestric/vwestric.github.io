@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1468-05-17_1_0_13_22_0_222_222",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N90fb85bdfb1147da86ca74430737d977"
+      }
+    },
+    {
+      "@id": "_:N90fb85bdfb1147da86ca74430737d977",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N9b1178df0131419d8dbbfbb5fda41f1f"
+      },
+      "ps:P291": {
+        "@id": "_:N446e5a65468647a18aa0c3a6402e31a0"
+      },
+      "ps:P3342": {
+        "@id": "_:N638f72bb1095445aa59d10fdbb1a69e3"
+      }
+    },
+    {
+      "@id": "_:N446e5a65468647a18aa0c3a6402e31a0",
+      "https://schema.org#geo": {
+        "@id": "_:Ncd3674bd2874457f968605f406121d93"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q13298"
+      },
+      "rdfs:label": "Graz"
+    },
+    {
+      "@id": "_:Ncd3674bd2874457f968605f406121d93",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.06667",
+      "https://schema.org#longitude": "15.45"
+    },
+    {
+      "@id": "_:N9b1178df0131419d8dbbfbb5fda41f1f",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1468-05-17"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1468-05-17"
+      }
+    },
+    {
+      "@id": "_:N638f72bb1095445aa59d10fdbb1a69e3",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:M00001152"
+      },
+      "ps:P39": {
+        "@id": "ri:herzog"
+      },
+      "rdfs:label": "Hz. Maximilian von Österreich"
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1486-11-20_2_0_13_8_0_12463_455",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N5dae1298f53d48e0b75db7fe8acf81aa"
+      }
+    },
+    {
+      "@id": "_:N5dae1298f53d48e0b75db7fe8acf81aa",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Ne1fa3a6c132c450e8358c5c522464f01"
+      },
+      "ps:P291": {
+        "@id": "_:N9eb4d34c8ab24d21b40078e184b8361b"
+      },
+      "ps:P3342": {
+        "@id": "_:N6702109919624fa29dde41038a86f78f"
+      }
+    },
+    {
+      "@id": "_:N9eb4d34c8ab24d21b40078e184b8361b",
+      "https://schema.org#geo": {
+        "@id": "_:Ndb74d451d9684fad9e42c084228b214b"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q586"
+      },
+      "rdfs:label": "Bonn"
+    },
+    {
+      "@id": "_:Ndb74d451d9684fad9e42c084228b214b",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "50.73438",
+      "https://schema.org#longitude": "7.09549"
+    },
+    {
+      "@id": "_:Ne1fa3a6c132c450e8358c5c522464f01",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1486-11-20"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1486-11-20"
+      }
+    },
+    {
+      "@id": "_:N6702109919624fa29dde41038a86f78f",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:L00001157"
+      },
+      "ps:P39": {
+        "@id": "ri:landgraf"
+      },
+      "rdfs:label": "Ldgf. Friedrich von Leuchtenberg"
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1468-07-18_1_0_13_23_0_575_572",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N8e0c7af5069f496eb09d6f1c1e3d68aa"
+      }
+    },
+    {
+      "@id": "_:N8e0c7af5069f496eb09d6f1c1e3d68aa",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N9ba26a9710c849b2a8817043098cf0d7"
+      },
+      "ps:P291": {
+        "@id": "_:Ndd018b8f7da0475d9e4d0d24385e09ca"
+      },
+      "ps:P3342": {
+        "@id": "_:N91f25172d92747099df842440eff9a58"
+      }
+    },
+    {
+      "@id": "_:Ndd018b8f7da0475d9e4d0d24385e09ca",
+      "https://schema.org#geo": {
+        "@id": "_:N55f20f16c20c4ab8990a614b0eed72ee"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q13298"
+      },
+      "rdfs:label": "Graz"
+    },
+    {
+      "@id": "_:N55f20f16c20c4ab8990a614b0eed72ee",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.06667",
+      "https://schema.org#longitude": "15.45"
+    },
+    {
+      "@id": "_:N9ba26a9710c849b2a8817043098cf0d7",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1468-07-18"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1468-07-18"
+      }
+    },
+    {
+      "@id": "_:N91f25172d92747099df842440eff9a58",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:O00000622"
+      },
+      "ps:P39": {
+        "@id": "ri:herzog"
+      },
+      "rdfs:label": "Hz. Sigmund von Österreich"
+    }
+  ]
+}

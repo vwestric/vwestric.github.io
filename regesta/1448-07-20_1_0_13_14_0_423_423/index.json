@@ -1,0 +1,104 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1448-07-20_1_0_13_14_0_423_423",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Nab30bb8e7758407095ab8471be519883"
+      }
+    },
+    {
+      "@id": "_:Nab30bb8e7758407095ab8471be519883",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N2554dadf660f491eb3ea2dbc96177b98"
+      },
+      "ps:P291": {
+        "@id": "_:N8fd1ae7f01b6494ab9acdea3568b0aed"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:Nd5776055ff964f5fa3cd76b7b7a1482d"
+        },
+        {
+          "@id": "_:Nff923bd508714888a0c3fbc8f6161b16"
+        },
+        {
+          "@id": "_:N27c2ca41e1e3447da49af482690f7c75"
+        }
+      ]
+    },
+    {
+      "@id": "_:N8fd1ae7f01b6494ab9acdea3568b0aed",
+      "https://schema.org#geo": {
+        "@id": "_:N9e6ea00ae09e4287b82cac1e3b0e97a1"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q131612"
+      },
+      "rdfs:label": "Wiener Neustadt"
+    },
+    {
+      "@id": "_:N9e6ea00ae09e4287b82cac1e3b0e97a1",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.813153",
+      "https://schema.org#longitude": "16.24444"
+    },
+    {
+      "@id": "_:N2554dadf660f491eb3ea2dbc96177b98",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1448-07-20"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1448-07-20"
+      }
+    },
+    {
+      "@id": "_:Nd5776055ff964f5fa3cd76b7b7a1482d",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:K00000431"
+      },
+      "ps:P39": {
+        "@id": "ri:kaiser"
+      },
+      "rdfs:label": "K. Karl IV."
+    },
+    {
+      "@id": "_:Nff923bd508714888a0c3fbc8f6161b16",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:W00001405"
+      },
+      "ps:P39": {
+        "@id": "ri:koenig"
+      },
+      "rdfs:label": "Kg. Wenzel"
+    },
+    {
+      "@id": "_:N27c2ca41e1e3447da49af482690f7c75",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00003529"
+      },
+      "ps:P39": {
+        "@id": "ri:kaiser"
+      },
+      "rdfs:label": "K. Sigmund"
+    }
+  ]
+}

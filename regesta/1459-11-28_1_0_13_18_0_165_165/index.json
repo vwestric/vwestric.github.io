@@ -1,0 +1,215 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1459-11-28_1_0_13_18_0_165_165",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N566bcbd089db41d7bac8e287822a7bfb"
+      }
+    },
+    {
+      "@id": "_:N566bcbd089db41d7bac8e287822a7bfb",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N64fc257458cd4842904e27fa6f9c396f"
+      },
+      "ps:P291": {
+        "@id": "_:N34ef6796ac844d4482aeb049fb5a6700"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N078a33712ebf4978a8851a21f49f4c47"
+        },
+        {
+          "@id": "_:Nd1e476d25ce742cea8a7d8befb66b8f2"
+        },
+        {
+          "@id": "_:Ne6ea315a8bad40ba89e02cbe40a67d95"
+        },
+        {
+          "@id": "_:Nf02961a3fcda42dd86cc704b1765bb91"
+        },
+        {
+          "@id": "_:Nc14768648c7549f6a23eaa3220eee752"
+        },
+        {
+          "@id": "_:N14d8808fb2f040018a8d977b73411133"
+        },
+        {
+          "@id": "_:N6a71b76951cf4b0b97e06256a0a01a62"
+        },
+        {
+          "@id": "_:Ne917c15132904dd58c5de58352cf8095"
+        },
+        {
+          "@id": "_:Nab445c599c634b4f8757de0e655e6243"
+        },
+        {
+          "@id": "_:Nee5d466e00a54740b79fbf3f1aa9d686"
+        },
+        {
+          "@id": "_:Nc9b72b5d7bb64fd8b293f1685d77e778"
+        },
+        {
+          "@id": "_:N02f2f6333f0140cf826b401ddf7dcfaa"
+        }
+      ]
+    },
+    {
+      "@id": "_:N34ef6796ac844d4482aeb049fb5a6700",
+      "https://schema.org#geo": {
+        "@id": "_:N5c3c9b2c7ab64ab7984612c3a03cf167"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q131612"
+      },
+      "rdfs:label": "Wiener Neustadt"
+    },
+    {
+      "@id": "_:N5c3c9b2c7ab64ab7984612c3a03cf167",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.813153",
+      "https://schema.org#longitude": "16.24444"
+    },
+    {
+      "@id": "_:N64fc257458cd4842904e27fa6f9c396f",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1459-11-28"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1459-11-28"
+      }
+    },
+    {
+      "@id": "_:N078a33712ebf4978a8851a21f49f4c47",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00000095"
+      },
+      "ps:P39": {
+        "@id": "ri:markgraf"
+      },
+      "rdfs:label": "Mgf. Wilhelms von (Baden-)Hochberg"
+    },
+    {
+      "@id": "_:Nd1e476d25ce742cea8a7d8befb66b8f2",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00001354"
+      },
+      "rdfs:label": "Wolfgang von Schaunberg"
+    },
+    {
+      "@id": "_:Ne6ea315a8bad40ba89e02cbe40a67d95",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:G00001296"
+      },
+      "ps:P39": {
+        "@id": "ri:graf"
+      },
+      "rdfs:label": "Gf. Johann von Görz"
+    },
+    {
+      "@id": "_:Nf02961a3fcda42dd86cc704b1765bb91",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00001346"
+      },
+      "ps:P39": {
+        "@id": "ri:graf"
+      },
+      "rdfs:label": "Gf. Johann von Schaunberg"
+    },
+    {
+      "@id": "_:Nc14768648c7549f6a23eaa3220eee752",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:G00001288"
+      },
+      "ps:P39": {
+        "@id": "ri:graf"
+      },
+      "rdfs:label": "Gf. Heinrich von Görz"
+    },
+    {
+      "@id": "_:N14d8808fb2f040018a8d977b73411133",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00002248"
+      },
+      "ps:P39": {
+        "@id": "ri:markgraf"
+      },
+      "rdfs:label": "Mgf. Albrecht von Brandenburg"
+    },
+    {
+      "@id": "_:N6a71b76951cf4b0b97e06256a0a01a62",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:M00000154"
+      },
+      "ps:P39": {
+        "@id": "ri:burggraf"
+      },
+      "rdfs:label": "Bggf. Michael von Maidburg"
+    },
+    {
+      "@id": "_:Ne917c15132904dd58c5de58352cf8095",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:M00000154"
+      },
+      "ps:P39": {
+        "@id": "ri:burggraf"
+      },
+      "rdfs:label": "Bggf. Michael von Maidburg"
+    },
+    {
+      "@id": "_:Nab445c599c634b4f8757de0e655e6243",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00004832"
+      },
+      "rdfs:label": "David vom Stein"
+    },
+    {
+      "@id": "_:Nee5d466e00a54740b79fbf3f1aa9d686",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:H00001070"
+      },
+      "rdfs:label": "Jobst Hauser"
+    },
+    {
+      "@id": "_:Nc9b72b5d7bb64fd8b293f1685d77e778",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:G00000499"
+      },
+      "rdfs:label": "Hans Gelthaus"
+    },
+    {
+      "@id": "_:N02f2f6333f0140cf826b401ddf7dcfaa",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00002427"
+      },
+      "rdfs:label": "Christian von Breda"
+    }
+  ]
+}

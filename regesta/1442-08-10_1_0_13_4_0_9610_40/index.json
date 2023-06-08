@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1442-08-10_1_0_13_4_0_9610_40",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N8f8f84c1744a465990dbb2ebf4c6cf39"
+      }
+    },
+    {
+      "@id": "_:N8f8f84c1744a465990dbb2ebf4c6cf39",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N90fe980f63a24af5a81304e588958748"
+      },
+      "ps:P291": {
+        "@id": "_:N83c72bbce9964e16a635cdb96873d38b"
+      },
+      "ps:P3342": {
+        "@id": "_:Nb13329ef680e4cfb9e8cb6cfd2e99557"
+      }
+    },
+    {
+      "@id": "_:N83c72bbce9964e16a635cdb96873d38b",
+      "https://schema.org#geo": {
+        "@id": "_:Naea0b24a20304de588a6a8615a8a5b0b"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q1794"
+      },
+      "rdfs:label": "Frankfurt"
+    },
+    {
+      "@id": "_:Naea0b24a20304de588a6a8615a8a5b0b",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "50.110556",
+      "https://schema.org#longitude": "8.682222"
+    },
+    {
+      "@id": "_:N90fe980f63a24af5a81304e588958748",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1442-08-10"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1442-08-10"
+      }
+    },
+    {
+      "@id": "_:Nb13329ef680e4cfb9e8cb6cfd2e99557",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:M00000277"
+      },
+      "ps:P39": {
+        "@id": "ri:erzbischof"
+      },
+      "rdfs:label": "Eb. Dietrich von Mainz"
+    }
+  ]
+}

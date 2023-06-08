@@ -1,0 +1,118 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1451-02-10_1_0_13_19_0_102_102",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Nf7f80d5fd48345799aa27f70f04098c3"
+      }
+    },
+    {
+      "@id": "_:Nf7f80d5fd48345799aa27f70f04098c3",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Na45e8e2ae05b4c98a2823685d002cac2"
+      },
+      "ps:P291": {
+        "@id": "_:N409182fb739f40c0b736d7fa3e80bd3a"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:Ne695c4087c824c8b9ea9653bebc905b9"
+        },
+        {
+          "@id": "_:N0c0a39543d2f4739841e33f34c83cfd9"
+        },
+        {
+          "@id": "_:N4f555d8abc4e44a785a757782f5878be"
+        },
+        {
+          "@id": "_:N4f69ec1e1beb4d7ba8254845ce7307a1"
+        }
+      ]
+    },
+    {
+      "@id": "_:N409182fb739f40c0b736d7fa3e80bd3a",
+      "https://schema.org#geo": {
+        "@id": "_:Nd7bcf52f62e24391b1de8a924a6ef0a5"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q131612"
+      },
+      "rdfs:label": "Wiener Neustadt"
+    },
+    {
+      "@id": "_:Nd7bcf52f62e24391b1de8a924a6ef0a5",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.813153",
+      "https://schema.org#longitude": "16.24444"
+    },
+    {
+      "@id": "_:Na45e8e2ae05b4c98a2823685d002cac2",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1451-02-10"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1451-02-10"
+      }
+    },
+    {
+      "@id": "_:Ne695c4087c824c8b9ea9653bebc905b9",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00002248"
+      },
+      "ps:P39": {
+        "@id": "ri:markgraf"
+      },
+      "rdfs:label": "Mgf. Albrecht von Brandenburg"
+    },
+    {
+      "@id": "_:N0c0a39543d2f4739841e33f34c83cfd9",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:M00000893"
+      },
+      "ps:P39": {
+        "@id": "ri:erbmarschall"
+      },
+      "rdfs:label": "Erbmarschall Heinrich von Pappenheim"
+    },
+    {
+      "@id": "_:N4f555d8abc4e44a785a757782f5878be",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:K00000431"
+      },
+      "ps:P39": {
+        "@id": "ri:koenig"
+      },
+      "rdfs:label": "Kg. Karls IV."
+    },
+    {
+      "@id": "_:N4f69ec1e1beb4d7ba8254845ce7307a1",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:K00001487"
+      },
+      "ps:P39": {
+        "@id": "ri:propst"
+      },
+      "rdfs:label": "Peter Knorr, Propst zu Wetzlar"
+    }
+  ]
+}

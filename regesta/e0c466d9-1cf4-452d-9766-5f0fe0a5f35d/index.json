@@ -1,0 +1,151 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:e0c466d9-1cf4-452d-9766-5f0fe0a5f35d",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N1889b1ca558f48219492dd93e6d88d31"
+      }
+    },
+    {
+      "@id": "_:N1889b1ca558f48219492dd93e6d88d31",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Nfb6bfad7b4734613a3ae48543c45a788"
+      },
+      "ps:P291": {
+        "@id": "_:Nce8b742a42b44155b9804f1f0ae86401"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N292a3fa51fb24a0c804f8e8cf2d82c87"
+        },
+        {
+          "@id": "_:N4e2eaa1493c6408282f99550d4a099eb"
+        },
+        {
+          "@id": "_:Nbd9023076c32422b98434c5ec47aa43e"
+        },
+        {
+          "@id": "_:Nd4ca9d8427984ff4a24cd633efc901e2"
+        },
+        {
+          "@id": "_:Nc9cdfde58b5a4e568d4d0a2893cebc81"
+        },
+        {
+          "@id": "_:Ndbe726ce4c62454c9f6d188428bf4caf"
+        },
+        {
+          "@id": "_:N61e2d5c881d74db8b10bf02f24cc0274"
+        }
+      ]
+    },
+    {
+      "@id": "_:Nce8b742a42b44155b9804f1f0ae86401",
+      "https://schema.org#geo": {
+        "@id": "_:N71e2eb2770ea414f99b2e6494bc09215"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q13298"
+      },
+      "rdfs:label": "Graz"
+    },
+    {
+      "@id": "_:N71e2eb2770ea414f99b2e6494bc09215",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.06667",
+      "https://schema.org#longitude": "15.45"
+    },
+    {
+      "@id": "_:Nfb6bfad7b4734613a3ae48543c45a788",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1456-01-10"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1456-01-10"
+      }
+    },
+    {
+      "@id": "_:N292a3fa51fb24a0c804f8e8cf2d82c87",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:K00000431"
+      },
+      "ps:P39": {
+        "@id": "ri:kaiser"
+      },
+      "rdfs:label": "K. Karls IV."
+    },
+    {
+      "@id": "_:N4e2eaa1493c6408282f99550d4a099eb",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:K00002022"
+      },
+      "ps:P39": {
+        "@id": "ri:koenig"
+      },
+      "rdfs:label": "Kg. Ruprecht"
+    },
+    {
+      "@id": "_:Nbd9023076c32422b98434c5ec47aa43e",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:G00002570"
+      },
+      "ps:P39": {
+        "@id": "ri:bischof"
+      },
+      "rdfs:label": "Bf. Ulrich von Gurk"
+    },
+    {
+      "@id": "_:Nd4ca9d8427984ff4a24cd633efc901e2",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:U00000280"
+      },
+      "ps:P39": {
+        "@id": "ri:kammermeister"
+      },
+      "rdfs:label": "Kammermeister Hans Ungnad"
+    },
+    {
+      "@id": "_:Nc9cdfde58b5a4e568d4d0a2893cebc81",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:A00001391"
+      },
+      "rdfs:label": "Leopold von Aspach"
+    },
+    {
+      "@id": "_:Ndbe726ce4c62454c9f6d188428bf4caf",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00000990"
+      },
+      "rdfs:label": "Wolfgang von Saurau"
+    },
+    {
+      "@id": "_:N61e2d5c881d74db8b10bf02f24cc0274",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:W00001310"
+      },
+      "rdfs:label": "Vizekanzler Ulrich Weltzli"
+    }
+  ]
+}

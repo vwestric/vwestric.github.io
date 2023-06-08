@@ -1,0 +1,84 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1468-09-09_1_0_13_22_0_241_241",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Nb8c502c593c34a218d7d6aedfb05614b"
+      }
+    },
+    {
+      "@id": "_:Nb8c502c593c34a218d7d6aedfb05614b",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N3ba0a507b6c944ef8d2e67e97d399911"
+      },
+      "ps:P291": {
+        "@id": "_:N76594851bfbb46ab8f2e7e8173648d0c"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:Nc37e8a50557e4032b028c7bdbe50a802"
+        },
+        {
+          "@id": "_:N6e8749d6fd4f4c29a6ffcba139e13b16"
+        }
+      ]
+    },
+    {
+      "@id": "_:N76594851bfbb46ab8f2e7e8173648d0c",
+      "https://schema.org#geo": {
+        "@id": "_:Nc9cf0e30d3584423a4a2cda3c1608b24"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q13298"
+      },
+      "rdfs:label": "[Graz]"
+    },
+    {
+      "@id": "_:Nc9cf0e30d3584423a4a2cda3c1608b24",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.06667",
+      "https://schema.org#longitude": "15.45"
+    },
+    {
+      "@id": "_:N3ba0a507b6c944ef8d2e67e97d399911",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1468-09-09"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1468-09-09"
+      }
+    },
+    {
+      "@id": "_:Nc37e8a50557e4032b028c7bdbe50a802",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:E00000158"
+      },
+      "rdfs:label": "Jörg von Eckartsau"
+    },
+    {
+      "@id": "_:N6e8749d6fd4f4c29a6ffcba139e13b16",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:W00003411"
+      },
+      "rdfs:label": "Watzlaw Wulczko"
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1447-07-10_1_0_13_17_0_74_74",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Nd659375f2fbc4516bb23e28e4ec99aaa"
+      }
+    },
+    {
+      "@id": "_:Nd659375f2fbc4516bb23e28e4ec99aaa",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Nb1379c7aede6476db2a70755f1aa2322"
+      },
+      "ps:P291": {
+        "@id": "_:N637a14f551bd4e0689fd0ffbeda1b137"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:Nddb06ac054ba40baa59c37d1ea563be8"
+        },
+        {
+          "@id": "_:N54a735c0297c421f8320fb830056be81"
+        },
+        {
+          "@id": "_:Ne67b8147fdd74954991c847871aa3cc0"
+        }
+      ]
+    },
+    {
+      "@id": "_:N637a14f551bd4e0689fd0ffbeda1b137",
+      "https://schema.org#geo": {
+        "@id": "_:N331ae2185f15442d95d9286d1e25511e"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q131612"
+      },
+      "rdfs:label": "Wiener Neustadt"
+    },
+    {
+      "@id": "_:N331ae2185f15442d95d9286d1e25511e",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.813153",
+      "https://schema.org#longitude": "16.24444"
+    },
+    {
+      "@id": "_:Nb1379c7aede6476db2a70755f1aa2322",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1447-07-10"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1447-07-10"
+      }
+    },
+    {
+      "@id": "_:Nddb06ac054ba40baa59c37d1ea563be8",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:V00000711"
+      },
+      "ps:P39": {
+        "@id": "ri:vogt"
+      },
+      "rdfs:label": "Nikolaus Vogt von Hunolstein"
+    },
+    {
+      "@id": "_:N54a735c0297c421f8320fb830056be81",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:P00000976"
+      },
+      "ps:P39": {
+        "@id": "ri:pfalzgraf"
+      },
+      "rdfs:label": "Pfgf. Ludwig (IV.) bei Rhein"
+    },
+    {
+      "@id": "_:Ne67b8147fdd74954991c847871aa3cc0",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:M00000277"
+      },
+      "ps:P39": {
+        "@id": "ri:erzbischof"
+      },
+      "rdfs:label": "Eb. Dietrich von Mainz"
+    }
+  ]
+}

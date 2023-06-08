@@ -1,0 +1,79 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1454-09-04_1_0_13_19_0_482_480",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N5e4290b428104d2285d2d8dce9c8025e"
+      }
+    },
+    {
+      "@id": "_:N5e4290b428104d2285d2d8dce9c8025e",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N923870f72a884c6d894796c4dcf9fe7e"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N73fa0a0dc3324d97a146ca0f877fae43"
+        },
+        {
+          "@id": "_:Na9da68fa6f3a4440947cd918e8f33037"
+        },
+        {
+          "@id": "_:Nc5cf55d98ad74778b48d69e74b3acd14"
+        }
+      ]
+    },
+    {
+      "@id": "_:N923870f72a884c6d894796c4dcf9fe7e",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1454-09-04"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1454-09-04"
+      }
+    },
+    {
+      "@id": "_:N73fa0a0dc3324d97a146ca0f877fae43",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:W00003361"
+      },
+      "ps:P39": {
+        "@id": "ri:bischof"
+      },
+      "rdfs:label": "Bf. Gottfried von Würzburg"
+    },
+    {
+      "@id": "_:Na9da68fa6f3a4440947cd918e8f33037",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:G00000746"
+      },
+      "rdfs:label": "Heinrich von Geroldseck"
+    },
+    {
+      "@id": "_:Nc5cf55d98ad74778b48d69e74b3acd14",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:R00000569"
+      },
+      "rdfs:label": "Hans von Rechberg"
+    }
+  ]
+}

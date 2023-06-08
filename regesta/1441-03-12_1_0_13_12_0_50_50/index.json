@@ -1,0 +1,71 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1441-03-12_1_0_13_12_0_50_50",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N39f8bf7c86cf45c2b55673b79a3744fd"
+      }
+    },
+    {
+      "@id": "_:N39f8bf7c86cf45c2b55673b79a3744fd",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N625e4187a9bf43b1b06e2c5709fbadb2"
+      },
+      "ps:P291": {
+        "@id": "_:Nb0fb3d7b6fe1456bbe6457fda8ee00e2"
+      },
+      "ps:P3342": {
+        "@id": "_:N1f0350b26dbc4b28a3915027ca3bf34a"
+      }
+    },
+    {
+      "@id": "_:Nb0fb3d7b6fe1456bbe6457fda8ee00e2",
+      "https://schema.org#geo": {
+        "@id": "_:N779f4b7a000d4969a1e728ff0ce45cbb"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q13298"
+      },
+      "rdfs:label": "Graz"
+    },
+    {
+      "@id": "_:N779f4b7a000d4969a1e728ff0ce45cbb",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.06667",
+      "https://schema.org#longitude": "15.45"
+    },
+    {
+      "@id": "_:N625e4187a9bf43b1b06e2c5709fbadb2",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1441-03-12"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1441-03-12"
+      }
+    },
+    {
+      "@id": "_:N1f0350b26dbc4b28a3915027ca3bf34a",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:R00001978"
+      },
+      "rdfs:label": "Pankraz Rindscheit"
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:ecfaf56e-27cd-4653-b6cf-d34989dd66e9",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Nce086fd8f94c4f4cb0f9a80f245f6603"
+      }
+    },
+    {
+      "@id": "_:Nce086fd8f94c4f4cb0f9a80f245f6603",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N5f3d98ea1d0c437f8fe8ec30367f9110"
+      },
+      "ps:P291": {
+        "@id": "_:Nc4ec7fe54ece4bc5a2de51d4a3b8be58"
+      },
+      "ps:P3342": {
+        "@id": "_:N16609c3f67e54d039246a0b76605a6af"
+      }
+    },
+    {
+      "@id": "_:Nc4ec7fe54ece4bc5a2de51d4a3b8be58",
+      "https://schema.org#geo": {
+        "@id": "_:N049be361bcff48db87d23b23ab6d7c30"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q1741"
+      },
+      "rdfs:label": "Wien"
+    },
+    {
+      "@id": "_:N049be361bcff48db87d23b23ab6d7c30",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "48.20849",
+      "https://schema.org#longitude": "16.37208"
+    },
+    {
+      "@id": "_:N5f3d98ea1d0c437f8fe8ec30367f9110",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1445-01-29"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1445-01-29"
+      }
+    },
+    {
+      "@id": "_:N16609c3f67e54d039246a0b76605a6af",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:J00000257"
+      },
+      "ps:P39": {
+        "@id": "ri:herzog"
+      },
+      "rdfs:label": "Hz. Gerhard von Jülich-Berg"
+    }
+  ]
+}

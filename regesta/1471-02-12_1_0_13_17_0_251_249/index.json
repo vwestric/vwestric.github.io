@@ -1,0 +1,71 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1471-02-12_1_0_13_17_0_251_249",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N168185faeecd4aeeb1d914480c2fabc6"
+      }
+    },
+    {
+      "@id": "_:N168185faeecd4aeeb1d914480c2fabc6",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Nba0dde3f92294502902798aac967b69e"
+      },
+      "ps:P291": {
+        "@id": "_:Nd073d64a03dd4a0f887ed9a9fe4761c6"
+      },
+      "ps:P3342": {
+        "@id": "_:N90ce1a52507a4af798b6457448e9b7ab"
+      }
+    },
+    {
+      "@id": "_:Nd073d64a03dd4a0f887ed9a9fe4761c6",
+      "https://schema.org#geo": {
+        "@id": "_:Naf8eba24a6dd42b8aa84b31d2f162df1"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q13298"
+      },
+      "rdfs:label": "Graz"
+    },
+    {
+      "@id": "_:Naf8eba24a6dd42b8aa84b31d2f162df1",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.06667",
+      "https://schema.org#longitude": "15.45"
+    },
+    {
+      "@id": "_:Nba0dde3f92294502902798aac967b69e",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1471-02-12"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1471-02-12"
+      }
+    },
+    {
+      "@id": "_:N90ce1a52507a4af798b6457448e9b7ab",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:W00001172"
+      },
+      "rdfs:label": "Melchior von der Weitenmühl"
+    }
+  ]
+}

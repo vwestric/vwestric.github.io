@@ -1,0 +1,118 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1449-12-26_1_0_13_26_0_495_495",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N19415209e5674041818c1fcd752e69c6"
+      }
+    },
+    {
+      "@id": "_:N19415209e5674041818c1fcd752e69c6",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N7d62bff058ea440a80c7df03e82e2403"
+      },
+      "ps:P291": {
+        "@id": "_:N8c1bfca90f624330842aa9d572c1b25e"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N8c2ee154621d444a8e849588be6973a9"
+        },
+        {
+          "@id": "_:Nc20a0781aa4a435c93a91d7303550fdc"
+        },
+        {
+          "@id": "_:N3e5543e71e1b4fc4a2e4c9a5f88b70c4"
+        },
+        {
+          "@id": "_:N960eb3292b004b79adc28207cce3544b"
+        }
+      ]
+    },
+    {
+      "@id": "_:N8c1bfca90f624330842aa9d572c1b25e",
+      "https://schema.org#geo": {
+        "@id": "_:N22ce10b66e0e493eba199b65e2adb4b0"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q131612"
+      },
+      "rdfs:label": "Wiener Neustadt"
+    },
+    {
+      "@id": "_:N22ce10b66e0e493eba199b65e2adb4b0",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.813153",
+      "https://schema.org#longitude": "16.24444"
+    },
+    {
+      "@id": "_:N7d62bff058ea440a80c7df03e82e2403",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1449-12-26"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1449-12-26"
+      }
+    },
+    {
+      "@id": "_:N8c2ee154621d444a8e849588be6973a9",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00000365"
+      },
+      "ps:P39": {
+        "@id": "ri:erzbischof"
+      },
+      "rdfs:label": "Eb. Friedrich von Salzburg"
+    },
+    {
+      "@id": "_:Nc20a0781aa4a435c93a91d7303550fdc",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:C00000330"
+      },
+      "ps:P39": {
+        "@id": "ri:bischof"
+      },
+      "rdfs:label": "Bf. Sylvester von Chiemsee"
+    },
+    {
+      "@id": "_:N3e5543e71e1b4fc4a2e4c9a5f88b70c4",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00000582"
+      },
+      "ps:P39": {
+        "@id": "ri:herzog"
+      },
+      "rdfs:label": "Hz. Albrecht (III.) von Bayern"
+    },
+    {
+      "@id": "_:N960eb3292b004b79adc28207cce3544b",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:R00001810"
+      },
+      "ps:P39": {
+        "@id": "ri:lic"
+      },
+      "rdfs:label": "Lic. iur. utr. Ulrich Riederer"
+    }
+  ]
+}

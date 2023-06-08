@@ -1,0 +1,90 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1486-04-20_1_0_13_8_0_12458_450",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Nfc37e0c9e7ad4a78a44b49d43e71c1f2"
+      }
+    },
+    {
+      "@id": "_:Nfc37e0c9e7ad4a78a44b49d43e71c1f2",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Nef176b1f59aa452ba7ace6f2c74e78d5"
+      },
+      "ps:P291": {
+        "@id": "_:N21e57fb1ff964937828a7b3125de8bb7"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:Nbf03868ac458430f815d7c93092dc7a5"
+        },
+        {
+          "@id": "_:N5b7bdd8c010c4bcda7500de62908dbbc"
+        }
+      ]
+    },
+    {
+      "@id": "_:N21e57fb1ff964937828a7b3125de8bb7",
+      "https://schema.org#geo": {
+        "@id": "_:N0502bce6a8d2449189cf82c306169b95"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q365"
+      },
+      "rdfs:label": "Köln"
+    },
+    {
+      "@id": "_:N0502bce6a8d2449189cf82c306169b95",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "50.93333",
+      "https://schema.org#longitude": "6.95"
+    },
+    {
+      "@id": "_:Nef176b1f59aa452ba7ace6f2c74e78d5",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1486-04-20"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1486-04-20"
+      }
+    },
+    {
+      "@id": "_:Nbf03868ac458430f815d7c93092dc7a5",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:P00000998"
+      },
+      "ps:P39": {
+        "@id": "ri:pfalzgraf"
+      },
+      "rdfs:label": "Pfgf. Philipp bei Rhein"
+    },
+    {
+      "@id": "_:N5b7bdd8c010c4bcda7500de62908dbbc",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:M00000268"
+      },
+      "ps:P39": {
+        "@id": "ri:erzbischof"
+      },
+      "rdfs:label": "Eb. Berthold von Mainz"
+    }
+  ]
+}

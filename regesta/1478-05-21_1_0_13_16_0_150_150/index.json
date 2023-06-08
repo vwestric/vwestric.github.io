@@ -1,0 +1,87 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1478-05-21_1_0_13_16_0_150_150",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N09c02ab0719d42debfbdf1913501405a"
+      }
+    },
+    {
+      "@id": "_:N09c02ab0719d42debfbdf1913501405a",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Ne27e51bdc11547a0888102214199e8ba"
+      },
+      "ps:P291": {
+        "@id": "_:Nc635d6052e3a4dc9b87af348fcc92078"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N4e2af2c506ca42daa2b265b68044121a"
+        },
+        {
+          "@id": "_:N934188a802b8480eb9102ebd4d3d72df"
+        }
+      ]
+    },
+    {
+      "@id": "_:Nc635d6052e3a4dc9b87af348fcc92078",
+      "https://schema.org#geo": {
+        "@id": "_:N49025b9bcf47401d981e96449b3df91b"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q13298"
+      },
+      "rdfs:label": "Graz"
+    },
+    {
+      "@id": "_:N49025b9bcf47401d981e96449b3df91b",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.06667",
+      "https://schema.org#longitude": "15.45"
+    },
+    {
+      "@id": "_:Ne27e51bdc11547a0888102214199e8ba",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1478-05-21"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1478-05-21"
+      }
+    },
+    {
+      "@id": "_:N4e2af2c506ca42daa2b265b68044121a",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:M00001687"
+      },
+      "rdfs:label": "Thilo von Merseburg"
+    },
+    {
+      "@id": "_:N934188a802b8480eb9102ebd4d3d72df",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:H00000397"
+      },
+      "ps:P39": {
+        "@id": "ri:bischof"
+      },
+      "rdfs:label": "Bf. Gebhard von Halberstadt"
+    }
+  ]
+}

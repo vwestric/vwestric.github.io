@@ -1,0 +1,52 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1445-00-00_3_0_13_4_0_9666_96",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N9d53d53a06ad4ca2b6c513811d6a368f"
+      }
+    },
+    {
+      "@id": "_:N9d53d53a06ad4ca2b6c513811d6a368f",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Nb93e34d572c648dcb799591db1d091bb"
+      },
+      "ps:P3342": {
+        "@id": "_:N7e07f696851e4379a257f212f1d79c24"
+      }
+    },
+    {
+      "@id": "_:Nb93e34d572c648dcb799591db1d091bb",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1445-01-01"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1445-12-31"
+      }
+    },
+    {
+      "@id": "_:N7e07f696851e4379a257f212f1d79c24",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:K00000400"
+      },
+      "rdfs:label": "Emmerichs von Karben"
+    }
+  ]
+}

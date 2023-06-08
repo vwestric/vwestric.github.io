@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1462-02-12_1_0_13_18_0_265_265",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N9b2db0acef1f4665857b04e487750e07"
+      }
+    },
+    {
+      "@id": "_:N9b2db0acef1f4665857b04e487750e07",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N3e436886b76e490e978b50c0f3ca8924"
+      },
+      "ps:P291": {
+        "@id": "_:N794774d62a1f40c7a6d80d02476db454"
+      },
+      "ps:P3342": {
+        "@id": "_:N73fc6cfb8f2b4ccabbf756fe28115357"
+      }
+    },
+    {
+      "@id": "_:N794774d62a1f40c7a6d80d02476db454",
+      "https://schema.org#geo": {
+        "@id": "_:N866d8c23b97047eab963f2bef3d4b0c0"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q13298"
+      },
+      "rdfs:label": "Graz"
+    },
+    {
+      "@id": "_:N866d8c23b97047eab963f2bef3d4b0c0",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.06667",
+      "https://schema.org#longitude": "15.45"
+    },
+    {
+      "@id": "_:N3e436886b76e490e978b50c0f3ca8924",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1462-02-12"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1462-02-12"
+      }
+    },
+    {
+      "@id": "_:N73fc6cfb8f2b4ccabbf756fe28115357",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:F00000347"
+      },
+      "ps:P39": {
+        "@id": "ri:diener"
+      },
+      "rdfs:label": "Diener Peter Fintz"
+    }
+  ]
+}

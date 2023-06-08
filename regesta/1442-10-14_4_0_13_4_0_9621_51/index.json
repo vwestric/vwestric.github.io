@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1442-10-14_4_0_13_4_0_9621_51",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N62463f8ef7fb4828a5b4aee237ae61f8"
+      }
+    },
+    {
+      "@id": "_:N62463f8ef7fb4828a5b4aee237ae61f8",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N35bbbb0cdf7b480bbfa9784ac76cc789"
+      },
+      "ps:P291": {
+        "@id": "_:Nd77d4310e9794ac79edcdd54194e934b"
+      },
+      "ps:P3342": {
+        "@id": "_:Nb9a714c5af7a4f8fb5b8b60ebf628b43"
+      }
+    },
+    {
+      "@id": "_:Nd77d4310e9794ac79edcdd54194e934b",
+      "https://schema.org#geo": {
+        "@id": "_:N21e38dd8816f4cde9b1ad04ada6b2b3a"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q36378"
+      },
+      "rdfs:label": "Freiburg im Uechtland"
+    },
+    {
+      "@id": "_:N21e38dd8816f4cde9b1ad04ada6b2b3a",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "51.121944",
+      "https://schema.org#longitude": "6.842778"
+    },
+    {
+      "@id": "_:N35bbbb0cdf7b480bbfa9784ac76cc789",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1442-10-14"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1442-10-14"
+      }
+    },
+    {
+      "@id": "_:Nb9a714c5af7a4f8fb5b8b60ebf628b43",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00002248"
+      },
+      "ps:P39": {
+        "@id": "ri:markgraf"
+      },
+      "rdfs:label": "Mgf. Albrecht von Brandenburg"
+    }
+  ]
+}

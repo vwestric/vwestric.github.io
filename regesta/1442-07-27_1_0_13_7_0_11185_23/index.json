@@ -1,0 +1,71 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1442-07-27_1_0_13_7_0_11185_23",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N5250f9e21a9e47e395a2468038e30301"
+      }
+    },
+    {
+      "@id": "_:N5250f9e21a9e47e395a2468038e30301",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Na25a11cb2e8f421ba6288c9e1b581ac9"
+      },
+      "ps:P291": {
+        "@id": "_:N0938d8338d964538ac10e034f7e2afed"
+      },
+      "ps:P3342": {
+        "@id": "_:Nf31fddc556f141cf903706a550fa2c35"
+      }
+    },
+    {
+      "@id": "_:N0938d8338d964538ac10e034f7e2afed",
+      "https://schema.org#geo": {
+        "@id": "_:Ndaf9a2ee86f842a8ad90705649a9cafa"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q1794"
+      },
+      "rdfs:label": "Frankfurt"
+    },
+    {
+      "@id": "_:Ndaf9a2ee86f842a8ad90705649a9cafa",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "50.110556",
+      "https://schema.org#longitude": "8.682222"
+    },
+    {
+      "@id": "_:Na25a11cb2e8f421ba6288c9e1b581ac9",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1442-07-27"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1442-07-27"
+      }
+    },
+    {
+      "@id": "_:Nf31fddc556f141cf903706a550fa2c35",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:E00000937"
+      },
+      "rdfs:label": "Eneas Silvius Piccolomini aus Siena"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1442-09-02_2_0_13_6_0_11011_33",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N05e23c61122447faa3e962155dd1440f"
+      }
+    },
+    {
+      "@id": "_:N05e23c61122447faa3e962155dd1440f",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Na55d7825f041401094d770ec3a05a60d"
+      },
+      "ps:P291": {
+        "@id": "_:N9f40d74f84c941cb8788637e73b24e8d"
+      }
+    },
+    {
+      "@id": "_:N9f40d74f84c941cb8788637e73b24e8d",
+      "https://schema.org#geo": {
+        "@id": "_:Nd40ec08174524bf584e9fa7db08e8078"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q2833"
+      },
+      "rdfs:label": "Freiburg im Breisgau"
+    },
+    {
+      "@id": "_:Nd40ec08174524bf584e9fa7db08e8078",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.994828",
+      "https://schema.org#longitude": "7.849881"
+    },
+    {
+      "@id": "_:Na55d7825f041401094d770ec3a05a60d",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1442-09-02"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1442-09-02"
+      }
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1468-07-18_2_0_13_23_0_576_573",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Na8ea06adbc7542b9983c2c50463a442e"
+      }
+    },
+    {
+      "@id": "_:Na8ea06adbc7542b9983c2c50463a442e",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N514d4ae5abba4ed0be764ec4f60d0d49"
+      },
+      "ps:P291": {
+        "@id": "_:N72bdd95b251a44daa3190d327c172006"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N8f8e9ae22d534678a7bd75a8adb56229"
+        },
+        {
+          "@id": "_:N27663b3431c24c1bb480ce0613e5501c"
+        }
+      ]
+    },
+    {
+      "@id": "_:N72bdd95b251a44daa3190d327c172006",
+      "https://schema.org#geo": {
+        "@id": "_:N66081a0316124d508a8b916edc7b76c9"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q13298"
+      },
+      "rdfs:label": "Graz"
+    },
+    {
+      "@id": "_:N66081a0316124d508a8b916edc7b76c9",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.06667",
+      "https://schema.org#longitude": "15.45"
+    },
+    {
+      "@id": "_:N514d4ae5abba4ed0be764ec4f60d0d49",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1468-07-18"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1468-07-18"
+      }
+    },
+    {
+      "@id": "_:N8f8e9ae22d534678a7bd75a8adb56229",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:W00003211"
+      },
+      "ps:P39": {
+        "@id": "ri:graf"
+      },
+      "rdfs:label": "Gf. Ulrich (V.) von Württemberg"
+    },
+    {
+      "@id": "_:N27663b3431c24c1bb480ce0613e5501c",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:O00000622"
+      },
+      "ps:P39": {
+        "@id": "ri:herzog"
+      },
+      "rdfs:label": "Hz. Sigmund von Österreich"
+    }
+  ]
+}

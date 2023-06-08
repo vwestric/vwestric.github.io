@@ -1,0 +1,90 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1455-04-28_2_0_13_9_0_12673_136",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Nedc8aa0ad3c84e849c74bc379449e467"
+      }
+    },
+    {
+      "@id": "_:Nedc8aa0ad3c84e849c74bc379449e467",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N37ac04a40e3447cd94765b78ce81bc25"
+      },
+      "ps:P291": {
+        "@id": "_:Ne5413fe1882d4d57ba998e4ca6559568"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N035e8a7e863546adb49834c25bfd6500"
+        },
+        {
+          "@id": "_:Nbf24461732784090867f8ebc136e8db0"
+        }
+      ]
+    },
+    {
+      "@id": "_:Ne5413fe1882d4d57ba998e4ca6559568",
+      "https://schema.org#geo": {
+        "@id": "_:N27d5539245114aac8e3f3fa665177200"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q131612"
+      },
+      "rdfs:label": "Wiener Neustadt"
+    },
+    {
+      "@id": "_:N27d5539245114aac8e3f3fa665177200",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.813153",
+      "https://schema.org#longitude": "16.24444"
+    },
+    {
+      "@id": "_:N37ac04a40e3447cd94765b78ce81bc25",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1455-04-28"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1455-04-28"
+      }
+    },
+    {
+      "@id": "_:N035e8a7e863546adb49834c25bfd6500",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:M00000277"
+      },
+      "ps:P39": {
+        "@id": "ri:erzbischof"
+      },
+      "rdfs:label": "Eb. Dietrich von Mainz"
+    },
+    {
+      "@id": "_:Nbf24461732784090867f8ebc136e8db0",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:T00001172"
+      },
+      "ps:P39": {
+        "@id": "ri:erzbischof"
+      },
+      "rdfs:label": "Eb. Jakob von Trier"
+    }
+  ]
+}

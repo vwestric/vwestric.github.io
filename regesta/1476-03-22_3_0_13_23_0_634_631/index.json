@@ -1,0 +1,71 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1476-03-22_3_0_13_23_0_634_631",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Nd46cda3fc7004e15840881357b0340ca"
+      }
+    },
+    {
+      "@id": "_:Nd46cda3fc7004e15840881357b0340ca",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N66aceacb38934aeb8e6d112535a65146"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N40109e45418d4e85aa721e370d72af0a"
+        },
+        {
+          "@id": "_:N805f4f909a804ffeb10a9e3d8b4a9743"
+        }
+      ]
+    },
+    {
+      "@id": "_:N66aceacb38934aeb8e6d112535a65146",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1476-03-22"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1476-03-22"
+      }
+    },
+    {
+      "@id": "_:N40109e45418d4e85aa721e370d72af0a",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:W00003283"
+      },
+      "ps:P39": {
+        "@id": "ri:graf"
+      },
+      "rdfs:label": "Gf. Eberhard (V.) d.Ä. von Württemberg"
+    },
+    {
+      "@id": "_:N805f4f909a804ffeb10a9e3d8b4a9743",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:O00000622"
+      },
+      "ps:P39": {
+        "@id": "ri:herzog"
+      },
+      "rdfs:label": "Hz. Sigmunds von Österreich"
+    }
+  ]
+}

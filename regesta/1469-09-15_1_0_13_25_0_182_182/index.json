@@ -1,0 +1,41 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1469-09-15_1_0_13_25_0_182_182",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Nd9098ab508ab42da9a5359c74dff283d"
+      }
+    },
+    {
+      "@id": "_:Nd9098ab508ab42da9a5359c74dff283d",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N51dd559567b0432c8f3c4d245c1d1a75"
+      }
+    },
+    {
+      "@id": "_:N51dd559567b0432c8f3c4d245c1d1a75",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1469-09-15"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1469-09-15"
+      }
+    }
+  ]
+}

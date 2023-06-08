@@ -1,0 +1,55 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1441-07-22_1_0_13_5_0_10628_4",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Ne0ecdef8908d4772ba957cc78368b347"
+      }
+    },
+    {
+      "@id": "_:Ne0ecdef8908d4772ba957cc78368b347",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N37b797eec48742a38be592cefed2aad1"
+      },
+      "ps:P3342": {
+        "@id": "_:N34d7e976e2ea427a8acea195c6e05425"
+      }
+    },
+    {
+      "@id": "_:N37b797eec48742a38be592cefed2aad1",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1441-07-22"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1441-07-22"
+      }
+    },
+    {
+      "@id": "_:N34d7e976e2ea427a8acea195c6e05425",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:T00001172"
+      },
+      "ps:P39": {
+        "@id": "ri:erzbischof"
+      },
+      "rdfs:label": "Eb. Jakob von Trier"
+    }
+  ]
+}

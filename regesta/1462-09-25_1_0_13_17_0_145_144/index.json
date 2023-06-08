@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1462-09-25_1_0_13_17_0_145_144",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Na4561a04690048848d0e7da2d9b866e6"
+      }
+    },
+    {
+      "@id": "_:Na4561a04690048848d0e7da2d9b866e6",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N8306b32907604ff5a111f13ba57e898a"
+      },
+      "ps:P291": {
+        "@id": "_:N7abcf04eb5d244cc96dd356bc4edf64d"
+      },
+      "ps:P3342": {
+        "@id": "_:N852b21bd164848a2a3d6e88588d202a8"
+      }
+    },
+    {
+      "@id": "_:N7abcf04eb5d244cc96dd356bc4edf64d",
+      "https://schema.org#geo": {
+        "@id": "_:N44940ace44dd4cceaa0924d21984729a"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q1741"
+      },
+      "rdfs:label": "Wien"
+    },
+    {
+      "@id": "_:N44940ace44dd4cceaa0924d21984729a",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "48.20849",
+      "https://schema.org#longitude": "16.37208"
+    },
+    {
+      "@id": "_:N8306b32907604ff5a111f13ba57e898a",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1462-09-25"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1462-09-25"
+      }
+    },
+    {
+      "@id": "_:N852b21bd164848a2a3d6e88588d202a8",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00000565"
+      },
+      "ps:P39": {
+        "@id": "ri:herzog"
+      },
+      "rdfs:label": "Hz. Ludwig (IX.) von Bayern (-Landshut)"
+    }
+  ]
+}

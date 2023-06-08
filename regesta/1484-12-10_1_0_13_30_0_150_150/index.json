@@ -1,0 +1,71 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1484-12-10_1_0_13_30_0_150_150",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N36b1d2fcc0f64658a91f6524549c594e"
+      }
+    },
+    {
+      "@id": "_:N36b1d2fcc0f64658a91f6524549c594e",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N3a52fa21b69d415ba16102bf124f45e1"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:Nbed084ed9d4447ea992b1d742465b3a4"
+        },
+        {
+          "@id": "_:N6dc9589b72dd45babb366590ebddf2b2"
+        }
+      ]
+    },
+    {
+      "@id": "_:N3a52fa21b69d415ba16102bf124f45e1",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1484-12-10"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1484-12-10"
+      }
+    },
+    {
+      "@id": "_:Nbed084ed9d4447ea992b1d742465b3a4",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:A00001566"
+      },
+      "ps:P39": {
+        "@id": "ri:bischof"
+      },
+      "rdfs:label": "Bf. Johann von Augsburg"
+    },
+    {
+      "@id": "_:N6dc9589b72dd45babb366590ebddf2b2",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:O00000622"
+      },
+      "ps:P39": {
+        "@id": "ri:erzherzog"
+      },
+      "rdfs:label": "Ehz. Sigmund von Österreich"
+    }
+  ]
+}

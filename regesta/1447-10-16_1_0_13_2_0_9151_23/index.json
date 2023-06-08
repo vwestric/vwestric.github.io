@@ -1,0 +1,60 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1447-10-16_1_0_13_2_0_9151_23",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N7566aa46f89a4ae7aac8eb863d849485"
+      }
+    },
+    {
+      "@id": "_:N7566aa46f89a4ae7aac8eb863d849485",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Nd360b6dbc8d2479b840a50c4fe67a42f"
+      },
+      "ps:P291": {
+        "@id": "_:N6ab6d6d7f9ca4dd393bb644806444d4c"
+      }
+    },
+    {
+      "@id": "_:N6ab6d6d7f9ca4dd393bb644806444d4c",
+      "https://schema.org#geo": {
+        "@id": "_:N14f3c307cd8f434887cb517b303aced1"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q1741"
+      },
+      "rdfs:label": "Wien"
+    },
+    {
+      "@id": "_:N14f3c307cd8f434887cb517b303aced1",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "48.20849",
+      "https://schema.org#longitude": "16.37208"
+    },
+    {
+      "@id": "_:Nd360b6dbc8d2479b840a50c4fe67a42f",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1447-10-16"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1447-10-16"
+      }
+    }
+  ]
+}

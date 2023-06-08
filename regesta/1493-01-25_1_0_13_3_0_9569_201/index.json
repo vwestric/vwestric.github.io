@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1493-01-25_1_0_13_3_0_9569_201",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N89ccfd645106433b8627b44fc1f775f4"
+      }
+    },
+    {
+      "@id": "_:N89ccfd645106433b8627b44fc1f775f4",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N7dd72273d6f24d2dae9e7e1a1bc2c746"
+      },
+      "ps:P291": {
+        "@id": "_:Nbc3fa382eeb44493b651ff70e2f7d378"
+      },
+      "ps:P3342": {
+        "@id": "_:Na23a1f4f0e554165b6cc7996b3ea1eba"
+      }
+    },
+    {
+      "@id": "_:Nbc3fa382eeb44493b651ff70e2f7d378",
+      "https://schema.org#geo": {
+        "@id": "_:N8c03a17481674067803ebd88b27fb634"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q41329"
+      },
+      "rdfs:label": "Linz"
+    },
+    {
+      "@id": "_:N8c03a17481674067803ebd88b27fb634",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "48.303056",
+      "https://schema.org#longitude": "14.290556"
+    },
+    {
+      "@id": "_:N7dd72273d6f24d2dae9e7e1a1bc2c746",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1493-01-25"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1493-01-25"
+      }
+    },
+    {
+      "@id": "_:Na23a1f4f0e554165b6cc7996b3ea1eba",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:H00002105"
+      },
+      "ps:P39": {
+        "@id": "ri:landgraf"
+      },
+      "rdfs:label": "Ldgf. Wilhelm d. J. von Hessen"
+    }
+  ]
+}

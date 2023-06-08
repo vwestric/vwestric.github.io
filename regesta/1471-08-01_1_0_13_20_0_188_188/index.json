@@ -1,0 +1,87 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1471-08-01_1_0_13_20_0_188_188",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N5897997c6dbf4ab9816709da0136bfed"
+      }
+    },
+    {
+      "@id": "_:N5897997c6dbf4ab9816709da0136bfed",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Na26d8bb129224efaa650315d9d2d75d2"
+      },
+      "ps:P291": {
+        "@id": "_:N76233349932442298bbda306c5bd07a9"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:Nd2bf66d4a9ea4891bff970076f1cf5e0"
+        },
+        {
+          "@id": "_:N15ee397de6284fb9af2a9843a56e3bcf"
+        }
+      ]
+    },
+    {
+      "@id": "_:N76233349932442298bbda306c5bd07a9",
+      "https://schema.org#geo": {
+        "@id": "_:N33befa7dc51f4e96a68758d357634b9e"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q2978"
+      },
+      "rdfs:label": "Regensburg"
+    },
+    {
+      "@id": "_:N33befa7dc51f4e96a68758d357634b9e",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "49.0054",
+      "https://schema.org#longitude": "12.0606"
+    },
+    {
+      "@id": "_:Na26d8bb129224efaa650315d9d2d75d2",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1471-08-01"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1471-08-01"
+      }
+    },
+    {
+      "@id": "_:Nd2bf66d4a9ea4891bff970076f1cf5e0",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:P00001852"
+      },
+      "rdfs:label": "Wartislaw (X.) von (Pommern-) Wolgast und Barth"
+    },
+    {
+      "@id": "_:N15ee397de6284fb9af2a9843a56e3bcf",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00002248"
+      },
+      "ps:P39": {
+        "@id": "ri:kurfuerst"
+      },
+      "rdfs:label": "Kf. Friedrich (I.) von Brandenburg"
+    }
+  ]
+}

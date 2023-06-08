@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:e26e2e12-535c-4f7c-a7f2-a4d99c2637f8",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Nc9ed1fb8bd3e45b9b445dbea18fbf4ce"
+      }
+    },
+    {
+      "@id": "_:Nc9ed1fb8bd3e45b9b445dbea18fbf4ce",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N1691faf215b34410a839996172199c32"
+      },
+      "ps:P291": {
+        "@id": "_:N07caa4f85e82463b944fce3c3fe2897f"
+      },
+      "ps:P3342": {
+        "@id": "_:N63784c03f6e941308d2a6a148ce88dca"
+      }
+    },
+    {
+      "@id": "_:N07caa4f85e82463b944fce3c3fe2897f",
+      "https://schema.org#geo": {
+        "@id": "_:N43a5f7c1ae4c4313a21033a883436c03"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q485294"
+      },
+      "rdfs:label": "Leoben"
+    },
+    {
+      "@id": "_:N43a5f7c1ae4c4313a21033a883436c03",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.3765",
+      "https://schema.org#longitude": "15.09144"
+    },
+    {
+      "@id": "_:N1691faf215b34410a839996172199c32",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1461-09-25"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1461-09-25"
+      }
+    },
+    {
+      "@id": "_:N63784c03f6e941308d2a6a148ce88dca",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00000565"
+      },
+      "ps:P39": {
+        "@id": "ri:herzog"
+      },
+      "rdfs:label": "Hz. Ludwig (IX.) von Bayern(-Landshut)"
+    }
+  ]
+}

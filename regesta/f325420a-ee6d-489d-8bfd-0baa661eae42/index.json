@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:f325420a-ee6d-489d-8bfd-0baa661eae42",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N5c912db7c8f74f91a8fa887eae9bb4f0"
+      }
+    },
+    {
+      "@id": "_:N5c912db7c8f74f91a8fa887eae9bb4f0",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N15128a90139c4193b8e33c2bb128e49c"
+      },
+      "ps:P291": {
+        "@id": "_:N8ad82adc7a49448895f709e1143b9315"
+      },
+      "ps:P3342": {
+        "@id": "_:N3d25d2529a7f4fdcbdf5a34cd7aaadf0"
+      }
+    },
+    {
+      "@id": "_:N8ad82adc7a49448895f709e1143b9315",
+      "https://schema.org#geo": {
+        "@id": "_:N1c05b0e780684da0869cfb1407abfc13"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q41329"
+      },
+      "rdfs:label": "Linz"
+    },
+    {
+      "@id": "_:N1c05b0e780684da0869cfb1407abfc13",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "48.303056",
+      "https://schema.org#longitude": "14.290556"
+    },
+    {
+      "@id": "_:N15128a90139c4193b8e33c2bb128e49c",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1492-02-28"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1492-02-28"
+      }
+    },
+    {
+      "@id": "_:N3d25d2529a7f4fdcbdf5a34cd7aaadf0",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00000587"
+      },
+      "ps:P39": {
+        "@id": "ri:herzog"
+      },
+      "rdfs:label": "Hz. Albrecht (IV.) von Bayern(-München)"
+    }
+  ]
+}

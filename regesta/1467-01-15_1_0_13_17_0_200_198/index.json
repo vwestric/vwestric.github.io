@@ -1,0 +1,101 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1467-01-15_1_0_13_17_0_200_198",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Nf7cd6d41fbf34042a8feee3718e890b7"
+      }
+    },
+    {
+      "@id": "_:Nf7cd6d41fbf34042a8feee3718e890b7",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Nd2a8dccd03a64b7e8a12d9ac5bd5c6ee"
+      },
+      "ps:P291": {
+        "@id": "_:Nc459b190d0f849d3b347a6296fe4a971"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:Ndb499f27eef04c959d92722c99f6d801"
+        },
+        {
+          "@id": "_:N1959a6f00154454bbd576e4af50466a8"
+        },
+        {
+          "@id": "_:N73af9372650e49b38e457f94d1cd4c59"
+        }
+      ]
+    },
+    {
+      "@id": "_:Nc459b190d0f849d3b347a6296fe4a971",
+      "https://schema.org#geo": {
+        "@id": "_:N517833c3f7014417828ca3598f4affea"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q131612"
+      },
+      "rdfs:label": "Wiener Neustadt"
+    },
+    {
+      "@id": "_:N517833c3f7014417828ca3598f4affea",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.813153",
+      "https://schema.org#longitude": "16.24444"
+    },
+    {
+      "@id": "_:Nd2a8dccd03a64b7e8a12d9ac5bd5c6ee",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1467-01-15"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1467-01-15"
+      }
+    },
+    {
+      "@id": "_:Ndb499f27eef04c959d92722c99f6d801",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:P00000251"
+      },
+      "ps:P39": {
+        "@id": "ri:bischof"
+      },
+      "rdfs:label": "Bf. Ulrich von Passau"
+    },
+    {
+      "@id": "_:N1959a6f00154454bbd576e4af50466a8",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:F00001025"
+      },
+      "ps:P39": {
+        "@id": "ri:frau"
+      },
+      "rdfs:label": "Sigmund von Fraunberg (zu Haag und Prunn) "
+    },
+    {
+      "@id": "_:N73af9372650e49b38e457f94d1cd4c59",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:A00000332"
+      },
+      "rdfs:label": "Leonhard von Aichberg (zu Moos)"
+    }
+  ]
+}

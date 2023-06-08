@@ -1,0 +1,90 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1462-11-23_1_0_13_8_0_12194_186",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Nd989f17a7d834725b8c6533eee53ccf4"
+      }
+    },
+    {
+      "@id": "_:Nd989f17a7d834725b8c6533eee53ccf4",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N800190d6ff15482080c9aa4febf12ed7"
+      },
+      "ps:P291": {
+        "@id": "_:N1b634cd1c3dc43a5818b2c195ace6694"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:Nc07495dfecfd48d6b80236baba7ca6b9"
+        },
+        {
+          "@id": "_:Nc5739450229846dc831d4b9c46c77df1"
+        }
+      ]
+    },
+    {
+      "@id": "_:N1b634cd1c3dc43a5818b2c195ace6694",
+      "https://schema.org#geo": {
+        "@id": "_:Ne5eb1c1a0fc549cfaacf450709759fec"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q1741"
+      },
+      "rdfs:label": "Wien"
+    },
+    {
+      "@id": "_:Ne5eb1c1a0fc549cfaacf450709759fec",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "48.20849",
+      "https://schema.org#longitude": "16.37208"
+    },
+    {
+      "@id": "_:N800190d6ff15482080c9aa4febf12ed7",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1462-11-23"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1462-11-23"
+      }
+    },
+    {
+      "@id": "_:Nc07495dfecfd48d6b80236baba7ca6b9",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:A00000455"
+      },
+      "ps:P39": {
+        "@id": "ri:koenig"
+      },
+      "rdfs:label": "Kg. Albrecht (I.)"
+    },
+    {
+      "@id": "_:Nc5739450229846dc831d4b9c46c77df1",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00004244"
+      },
+      "ps:P39": {
+        "@id": "ri:bischof"
+      },
+      "rdfs:label": "Bf. Ludwig von Speyer"
+    }
+  ]
+}

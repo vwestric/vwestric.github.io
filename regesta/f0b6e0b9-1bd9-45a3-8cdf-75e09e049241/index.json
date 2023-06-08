@@ -1,0 +1,104 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:f0b6e0b9-1bd9-45a3-8cdf-75e09e049241",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N3e116ea5976e4c5eaaea3234765e2959"
+      }
+    },
+    {
+      "@id": "_:N3e116ea5976e4c5eaaea3234765e2959",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N6f4846bd23584f91bbcc3627637d9ddd"
+      },
+      "ps:P291": {
+        "@id": "_:Na81a13e6cdf641b69130b5fe43011835"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:Nfe0bcab3d49a4d5e80ee0c965a12413f"
+        },
+        {
+          "@id": "_:N00406ed128b747d4a6ad7e9c3b4353be"
+        },
+        {
+          "@id": "_:N9b10859126cf42ca9a67a653fd769ac7"
+        }
+      ]
+    },
+    {
+      "@id": "_:Na81a13e6cdf641b69130b5fe43011835",
+      "https://schema.org#geo": {
+        "@id": "_:N3ace7a87e1224dceaed6c45dfc941664"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q490058"
+      },
+      "rdfs:label": "Andernach"
+    },
+    {
+      "@id": "_:N3ace7a87e1224dceaed6c45dfc941664",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "50.4333",
+      "https://schema.org#longitude": "7.4"
+    },
+    {
+      "@id": "_:N6f4846bd23584f91bbcc3627637d9ddd",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1475-02-26"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1475-02-26"
+      }
+    },
+    {
+      "@id": "_:Nfe0bcab3d49a4d5e80ee0c965a12413f",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00002248"
+      },
+      "ps:P39": {
+        "@id": "ri:kurfuerst"
+      },
+      "rdfs:label": "Kf. Albrecht von Brandenburg"
+    },
+    {
+      "@id": "_:N00406ed128b747d4a6ad7e9c3b4353be",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00000099"
+      },
+      "ps:P39": {
+        "@id": "ri:herzog"
+      },
+      "rdfs:label": "Hz. Wilhelm (III.) von Sachsen"
+    },
+    {
+      "@id": "_:N9b10859126cf42ca9a67a653fd769ac7",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00000064"
+      },
+      "ps:P39": {
+        "@id": "ri:herzog"
+      },
+      "rdfs:label": "Hz. Albrecht von Sachsen"
+    }
+  ]
+}

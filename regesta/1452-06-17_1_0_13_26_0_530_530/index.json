@@ -1,0 +1,60 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1452-06-17_1_0_13_26_0_530_530",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N76ac6f0fd10c44aea811eec37d909483"
+      }
+    },
+    {
+      "@id": "_:N76ac6f0fd10c44aea811eec37d909483",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N4b7ae2d995684f438a9fa8e9a1536e1d"
+      },
+      "ps:P291": {
+        "@id": "_:N46846051ae4a4491ad0444a09b85f85c"
+      }
+    },
+    {
+      "@id": "_:N46846051ae4a4491ad0444a09b85f85c",
+      "https://schema.org#geo": {
+        "@id": "_:Ne57f0932a8a54a5b870e9e55285c47f1"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q259893"
+      },
+      "rdfs:label": "Bruck a. d. Mur"
+    },
+    {
+      "@id": "_:Ne57f0932a8a54a5b870e9e55285c47f1",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.410556",
+      "https://schema.org#longitude": "15.268889"
+    },
+    {
+      "@id": "_:N4b7ae2d995684f438a9fa8e9a1536e1d",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1452-06-17"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1452-06-17"
+      }
+    }
+  ]
+}

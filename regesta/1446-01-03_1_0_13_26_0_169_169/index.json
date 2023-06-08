@@ -1,0 +1,110 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1446-01-03_1_0_13_26_0_169_169",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N619e3509c06a488d8fc35a679b43e335"
+      }
+    },
+    {
+      "@id": "_:N619e3509c06a488d8fc35a679b43e335",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N066b06aa50a8458597b764709480713f"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N62088c1341da4109b7abfcf5a249a26f"
+        },
+        {
+          "@id": "_:Nd2a9fbde916a441a9a478b530a13bfc6"
+        },
+        {
+          "@id": "_:N4dc5200fe7fe43b79d9a07d11610103e"
+        },
+        {
+          "@id": "_:Nf7a16689e5e74c2dbfeba70e5646a4bb"
+        },
+        {
+          "@id": "_:N33351c877e1a4ab98dd0eb489301eae9"
+        }
+      ]
+    },
+    {
+      "@id": "_:N066b06aa50a8458597b764709480713f",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1446-01-03"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1446-01-03"
+      }
+    },
+    {
+      "@id": "_:N62088c1341da4109b7abfcf5a249a26f",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:K00001407"
+      },
+      "ps:P39": {
+        "@id": "ri:abt"
+      },
+      "rdfs:label": "Abt Pribislaw von Klosterbruck"
+    },
+    {
+      "@id": "_:Nd2a9fbde916a441a9a478b530a13bfc6",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:L00001311"
+      },
+      "ps:P39": {
+        "@id": "ri:lic"
+      },
+      "rdfs:label": "Jan von Lichtenburg"
+    },
+    {
+      "@id": "_:N4dc5200fe7fe43b79d9a07d11610103e",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:L00001311"
+      },
+      "ps:P39": {
+        "@id": "ri:lic"
+      },
+      "rdfs:label": "Jan von Lichtenburg und Vöttau"
+    },
+    {
+      "@id": "_:Nf7a16689e5e74c2dbfeba70e5646a4bb",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:O00000901"
+      },
+      "ps:P39": {
+        "@id": "ri:bischof"
+      },
+      "rdfs:label": "Bf. Paul von Olmütz"
+    },
+    {
+      "@id": "_:N33351c877e1a4ab98dd0eb489301eae9",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:E00000617"
+      },
+      "rdfs:label": "Ulrich von Eitzing"
+    }
+  ]
+}

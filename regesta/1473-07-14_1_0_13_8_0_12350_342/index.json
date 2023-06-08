@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1473-07-14_1_0_13_8_0_12350_342",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N1a3e23471b9046f6b98fab3435776c97"
+      }
+    },
+    {
+      "@id": "_:N1a3e23471b9046f6b98fab3435776c97",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Nddad8cda694e4c83b2f9bc61b6aa06e3"
+      },
+      "ps:P291": {
+        "@id": "_:N82537a8a6d964a61a8680faddaebbb82"
+      },
+      "ps:P3342": {
+        "@id": "_:N7a7fec35ef9a461e9e7612ac7c98fc36"
+      }
+    },
+    {
+      "@id": "_:N82537a8a6d964a61a8680faddaebbb82",
+      "https://schema.org#geo": {
+        "@id": "_:N635be53c65c744c8baadba8c430fdb53"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q4100"
+      },
+      "rdfs:label": "Niederbaden"
+    },
+    {
+      "@id": "_:N635be53c65c744c8baadba8c430fdb53",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "48.7606",
+      "https://schema.org#longitude": "8.23975"
+    },
+    {
+      "@id": "_:Nddad8cda694e4c83b2f9bc61b6aa06e3",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1473-07-14"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1473-07-14"
+      }
+    },
+    {
+      "@id": "_:N7a7fec35ef9a461e9e7612ac7c98fc36",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:R00001863"
+      },
+      "ps:P39": {
+        "@id": "ri:graf"
+      },
+      "rdfs:label": "Gf. Philipp d. J. von Rieneck"
+    }
+  ]
+}

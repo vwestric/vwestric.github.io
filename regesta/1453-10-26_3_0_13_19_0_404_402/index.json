@@ -1,0 +1,87 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1453-10-26_3_0_13_19_0_404_402",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Nc9504e36e99740af9c76d2528bfd0391"
+      }
+    },
+    {
+      "@id": "_:Nc9504e36e99740af9c76d2528bfd0391",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Nd3ea39854874419a9977d8215daa89ad"
+      },
+      "ps:P291": {
+        "@id": "_:N28b618b3a5e242bc9e8aee4691d81dbe"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N7cd2a6d3b7d5442597c184800905a333"
+        },
+        {
+          "@id": "_:Nd78e5686bfe943889535d610a8eed31c"
+        }
+      ]
+    },
+    {
+      "@id": "_:N28b618b3a5e242bc9e8aee4691d81dbe",
+      "https://schema.org#geo": {
+        "@id": "_:N855c457f9fdc43b88b7734955bf408c2"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q131612"
+      },
+      "rdfs:label": "Wiener Neustadt"
+    },
+    {
+      "@id": "_:N855c457f9fdc43b88b7734955bf408c2",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.813153",
+      "https://schema.org#longitude": "16.24444"
+    },
+    {
+      "@id": "_:Nd3ea39854874419a9977d8215daa89ad",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1453-10-26"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1453-10-26"
+      }
+    },
+    {
+      "@id": "_:N7cd2a6d3b7d5442597c184800905a333",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:R00000569"
+      },
+      "rdfs:label": "Hans von Rechberg"
+    },
+    {
+      "@id": "_:Nd78e5686bfe943889535d610a8eed31c",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:W00003361"
+      },
+      "ps:P39": {
+        "@id": "ri:bischof"
+      },
+      "rdfs:label": "Bf. Gottfried von Würzburg"
+    }
+  ]
+}

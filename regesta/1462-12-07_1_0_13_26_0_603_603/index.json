@@ -1,0 +1,60 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1462-12-07_1_0_13_26_0_603_603",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N832e494e5a2d43e2bfddc13cdf15e5c1"
+      }
+    },
+    {
+      "@id": "_:N832e494e5a2d43e2bfddc13cdf15e5c1",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Ncf57e0c64d7b4e72b58ffe911d5c5947"
+      },
+      "ps:P291": {
+        "@id": "_:Ncfe3980c6a354b5aa6909db61ae329ec"
+      }
+    },
+    {
+      "@id": "_:Ncfe3980c6a354b5aa6909db61ae329ec",
+      "https://schema.org#geo": {
+        "@id": "_:Nbda73fc72d5049df9cbafe99fa862ca0"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q659841"
+      },
+      "rdfs:label": "Korneuburg"
+    },
+    {
+      "@id": "_:Nbda73fc72d5049df9cbafe99fa862ca0",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "48.35",
+      "https://schema.org#longitude": "16.33333"
+    },
+    {
+      "@id": "_:Ncf57e0c64d7b4e72b58ffe911d5c5947",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1462-12-07"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1462-12-07"
+      }
+    }
+  ]
+}

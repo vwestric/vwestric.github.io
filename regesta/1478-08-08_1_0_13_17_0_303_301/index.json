@@ -1,0 +1,90 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1478-08-08_1_0_13_17_0_303_301",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N3bb847d56889438b8c8401d9bd09083b"
+      }
+    },
+    {
+      "@id": "_:N3bb847d56889438b8c8401d9bd09083b",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Nce7e8a7560eb4469a4718b61785ddd0e"
+      },
+      "ps:P291": {
+        "@id": "_:N083278816ac64f30b9dcdea8788590ef"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:Nff88b898028d406696df552b8e33824f"
+        },
+        {
+          "@id": "_:Nfe7f38fdf066441c88bc85c6fc9871ab"
+        }
+      ]
+    },
+    {
+      "@id": "_:N083278816ac64f30b9dcdea8788590ef",
+      "https://schema.org#geo": {
+        "@id": "_:N98e5c5869ac84521bfe5290d1dbd87c7"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q13298"
+      },
+      "rdfs:label": "Graz"
+    },
+    {
+      "@id": "_:N98e5c5869ac84521bfe5290d1dbd87c7",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.06667",
+      "https://schema.org#longitude": "15.45"
+    },
+    {
+      "@id": "_:Nce7e8a7560eb4469a4718b61785ddd0e",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1478-08-08"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1478-08-08"
+      }
+    },
+    {
+      "@id": "_:Nff88b898028d406696df552b8e33824f",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:F00001025"
+      },
+      "ps:P39": {
+        "@id": "ri:frau"
+      },
+      "rdfs:label": "Sigmund von Fraunberg"
+    },
+    {
+      "@id": "_:Nfe7f38fdf066441c88bc85c6fc9871ab",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:F00001022"
+      },
+      "ps:P39": {
+        "@id": "ri:frau"
+      },
+      "rdfs:label": "Sigmund von Fraunberg (zu Haag und Prunn)"
+    }
+  ]
+}

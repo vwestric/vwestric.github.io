@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1456-10-09_1_0_13_15_0_119_119",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Nb7ad6beaaddc4eaf867dd516408d20d5"
+      }
+    },
+    {
+      "@id": "_:Nb7ad6beaaddc4eaf867dd516408d20d5",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N3c9fc4486c2e40279500fbd02c26cf7a"
+      },
+      "ps:P291": {
+        "@id": "_:Nbc80c0b55fe54efa872afa57a1915396"
+      },
+      "ps:P3342": {
+        "@id": "_:N008f6e975e4a4c6ea905c34d44b96d82"
+      }
+    },
+    {
+      "@id": "_:Nbc80c0b55fe54efa872afa57a1915396",
+      "https://schema.org#geo": {
+        "@id": "_:Neb3f61924bc4436ab85444021cf153e4"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q131612"
+      },
+      "rdfs:label": "Wiener Neustadt"
+    },
+    {
+      "@id": "_:Neb3f61924bc4436ab85444021cf153e4",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.813153",
+      "https://schema.org#longitude": "16.24444"
+    },
+    {
+      "@id": "_:N3c9fc4486c2e40279500fbd02c26cf7a",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1456-10-09"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1456-10-09"
+      }
+    },
+    {
+      "@id": "_:N008f6e975e4a4c6ea905c34d44b96d82",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:R00000840"
+      },
+      "ps:P39": {
+        "@id": "ri:bischof"
+      },
+      "rdfs:label": "Bf. Friedrich von Regensburg"
+    }
+  ]
+}

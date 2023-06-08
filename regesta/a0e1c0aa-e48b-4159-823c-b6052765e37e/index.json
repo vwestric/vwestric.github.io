@@ -1,0 +1,90 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:a0e1c0aa-e48b-4159-823c-b6052765e37e",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Nc3eec3fc431e4513aabb046be932a98d"
+      }
+    },
+    {
+      "@id": "_:Nc3eec3fc431e4513aabb046be932a98d",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N00762f6e98e44195986fd14ed3e47316"
+      },
+      "ps:P291": {
+        "@id": "_:N00322fec63a64bc385517a2bb24e1085"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N4541b793ba314b8388a4c6c5da821cac"
+        },
+        {
+          "@id": "_:N7ea982c4f2b34d7aba6ecb1c9ec13c27"
+        }
+      ]
+    },
+    {
+      "@id": "_:N00322fec63a64bc385517a2bb24e1085",
+      "https://schema.org#geo": {
+        "@id": "_:N781d29f1ea0f4496b0fe7c2eb0218f58"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q2749"
+      },
+      "rdfs:label": "Augsburg"
+    },
+    {
+      "@id": "_:N781d29f1ea0f4496b0fe7c2eb0218f58",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "48.37154",
+      "https://schema.org#longitude": "10.89851"
+    },
+    {
+      "@id": "_:N00762f6e98e44195986fd14ed3e47316",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1474-06-22"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1474-06-22"
+      }
+    },
+    {
+      "@id": "_:N4541b793ba314b8388a4c6c5da821cac",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00000064"
+      },
+      "ps:P39": {
+        "@id": "ri:herzog"
+      },
+      "rdfs:label": "Hz. Albrecht von Sachsen"
+    },
+    {
+      "@id": "_:N7ea982c4f2b34d7aba6ecb1c9ec13c27",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:D00000033"
+      },
+      "ps:P39": {
+        "@id": "ri:koenig"
+      },
+      "rdfs:label": "Kg. Christian (I.) von Dänemark"
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1490-02-09_1_0_13_10_0_13530_570",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Nb396e7995773474c806410c3e82c4401"
+      }
+    },
+    {
+      "@id": "_:Nb396e7995773474c806410c3e82c4401",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N5e16ac1f60f344609cbca58167981bc3"
+      },
+      "ps:P291": {
+        "@id": "_:N465659ad3c17486ea3aff49bae2f77c7"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N268e40e0cc934d058eb6e05daf2a43a0"
+        },
+        {
+          "@id": "_:N16c507f353684a389df064b1d584dab0"
+        },
+        {
+          "@id": "_:N06da0ac2109146ceb13d7132225f2e0b"
+        },
+        {
+          "@id": "_:Nc5a09c632b6c4c7f80682939c3286685"
+        }
+      ]
+    },
+    {
+      "@id": "_:N465659ad3c17486ea3aff49bae2f77c7",
+      "https://schema.org#geo": {
+        "@id": "_:N0b29f975534d4a05b1cde8313eb92e9e"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q41329"
+      },
+      "rdfs:label": "Linz"
+    },
+    {
+      "@id": "_:N0b29f975534d4a05b1cde8313eb92e9e",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "48.303056",
+      "https://schema.org#longitude": "14.290556"
+    },
+    {
+      "@id": "_:N5e16ac1f60f344609cbca58167981bc3",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1490-02-09"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1490-02-09"
+      }
+    },
+    {
+      "@id": "_:N268e40e0cc934d058eb6e05daf2a43a0",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00000085"
+      },
+      "ps:P39": {
+        "@id": "ri:kurfuerst"
+      },
+      "rdfs:label": "Kf. Friedrich (III.) von Sachsen"
+    },
+    {
+      "@id": "_:N16c507f353684a389df064b1d584dab0",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:M00001151"
+      },
+      "ps:P39": {
+        "@id": "ri:koenig"
+      },
+      "rdfs:label": "Kg. Maximilian"
+    },
+    {
+      "@id": "_:N06da0ac2109146ceb13d7132225f2e0b",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:F00000907"
+      },
+      "ps:P39": {
+        "@id": "ri:koenig"
+      },
+      "rdfs:label": "Kg. (Karl VIII.) von Frankreich"
+    },
+    {
+      "@id": "_:Nc5a09c632b6c4c7f80682939c3286685",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:U00000212"
+      },
+      "ps:P39": {
+        "@id": "ri:koenig"
+      },
+      "rdfs:label": "Kg. (Matthias) von Ungarn"
+    }
+  ]
+}

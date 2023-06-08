@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1452-05-31_3_0_13_19_0_239_239",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N0c700fd77b8148239ed007b81177c76a"
+      }
+    },
+    {
+      "@id": "_:N0c700fd77b8148239ed007b81177c76a",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N9743030b2cf94827994d08285213c961"
+      },
+      "ps:P291": {
+        "@id": "_:Nbe581b6f424f4a94ac20ff30d8c5827b"
+      },
+      "ps:P3342": {
+        "@id": "_:Nf312ae1a663e4bc8a63d517300283ea7"
+      }
+    },
+    {
+      "@id": "_:Nbe581b6f424f4a94ac20ff30d8c5827b",
+      "https://schema.org#geo": {
+        "@id": "_:Nc0f5ea7f11334e96b8cf81a713176e1a"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q641"
+      },
+      "rdfs:label": "Venedig"
+    },
+    {
+      "@id": "_:Nc0f5ea7f11334e96b8cf81a713176e1a",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "45.43384",
+      "https://schema.org#longitude": "12.34028"
+    },
+    {
+      "@id": "_:N9743030b2cf94827994d08285213c961",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1452-05-31"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1452-05-31"
+      }
+    },
+    {
+      "@id": "_:Nf312ae1a663e4bc8a63d517300283ea7",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00000099"
+      },
+      "ps:P39": {
+        "@id": "ri:herzog"
+      },
+      "rdfs:label": "Hz. Wilhelm (III.) von Sachsen"
+    }
+  ]
+}

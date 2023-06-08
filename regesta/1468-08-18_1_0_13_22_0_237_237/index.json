@@ -1,0 +1,87 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1468-08-18_1_0_13_22_0_237_237",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N8b24a3d90eb94550b9a0d27d90e63416"
+      }
+    },
+    {
+      "@id": "_:N8b24a3d90eb94550b9a0d27d90e63416",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Nd614243334804817ae14959136c81f18"
+      },
+      "ps:P291": {
+        "@id": "_:N360dcad4a5a9498cbc4103054c6a62d3"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N489be8ef856248d9902fb10365349ea9"
+        },
+        {
+          "@id": "_:N5783774a084445099d32dc2e71e19856"
+        }
+      ]
+    },
+    {
+      "@id": "_:N360dcad4a5a9498cbc4103054c6a62d3",
+      "https://schema.org#geo": {
+        "@id": "_:N060dc7eafb394705a545c7777ff8e62c"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q13298"
+      },
+      "rdfs:label": "Graz"
+    },
+    {
+      "@id": "_:N060dc7eafb394705a545c7777ff8e62c",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.06667",
+      "https://schema.org#longitude": "15.45"
+    },
+    {
+      "@id": "_:Nd614243334804817ae14959136c81f18",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1468-08-18"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1468-08-18"
+      }
+    },
+    {
+      "@id": "_:N489be8ef856248d9902fb10365349ea9",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:K00001471"
+      },
+      "rdfs:label": "Ludwig von Knöringen"
+    },
+    {
+      "@id": "_:N5783774a084445099d32dc2e71e19856",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:K00000179"
+      },
+      "ps:P39": {
+        "@id": "ri:abt"
+      },
+      "rdfs:label": "Abt Jörg von Kaisheim"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1474-10-09_3_0_13_27_0_240_240",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N822146b57ddb40f995ed4481294595e2"
+      }
+    },
+    {
+      "@id": "_:N822146b57ddb40f995ed4481294595e2",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Ncf00ec432dab46059f1fab16f1215f00"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:Nd6850edc761d4f1c9ab399ebe5a3010a"
+        },
+        {
+          "@id": "_:Ne18fd207198347b487784f830bf4fafc"
+        }
+      ]
+    },
+    {
+      "@id": "_:Ncf00ec432dab46059f1fab16f1215f00",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1474-10-09"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1474-10-09"
+      }
+    },
+    {
+      "@id": "_:Nd6850edc761d4f1c9ab399ebe5a3010a",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:F00000908"
+      },
+      "ps:P39": {
+        "@id": "ri:koenig"
+      },
+      "rdfs:label": "Kg. Ludwig XI. von Frankreich"
+    },
+    {
+      "@id": "_:Ne18fd207198347b487784f830bf4fafc",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00003253"
+      },
+      "ps:P39": {
+        "@id": "ri:herzog"
+      },
+      "rdfs:label": "Hz. (Karl) von Burgund"
+    }
+  ]
+}

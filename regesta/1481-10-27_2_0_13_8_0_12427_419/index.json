@@ -1,0 +1,79 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1481-10-27_2_0_13_8_0_12427_419",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N4a6700ec7c5c48f4816300150ad6c043"
+      }
+    },
+    {
+      "@id": "_:N4a6700ec7c5c48f4816300150ad6c043",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N62ef737c172149b5831faa98654fed27"
+      },
+      "ps:P291": {
+        "@id": "_:N19d8c4184edf42c8a7438c8e0a56ce64"
+      },
+      "ps:P3342": {
+        "@id": "_:Nf69028be66724e0e8122128d48c63485"
+      }
+    },
+    {
+      "@id": "_:N19d8c4184edf42c8a7438c8e0a56ce64",
+      "https://schema.org#geo": {
+        "@id": "_:N082d1218ee684361a3a5b7a9d85eae95"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q1741"
+      },
+      "rdfs:label": "Wien"
+    },
+    {
+      "@id": "_:N082d1218ee684361a3a5b7a9d85eae95",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "48.20849",
+      "https://schema.org#longitude": "16.37208"
+    },
+    {
+      "@id": "_:N62ef737c172149b5831faa98654fed27",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1481-10-27"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1481-10-27"
+      }
+    },
+    {
+      "@id": "_:Nf69028be66724e0e8122128d48c63485",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00005971"
+      },
+      "ps:P39": [
+        {
+          "@id": "ri:graf"
+        },
+        {
+          "@id": "ri:hofrichter"
+        }
+      ],
+      "rdfs:label": "Gf. Johann von Sulz, Hofrichter zu Rottweil"
+    }
+  ]
+}

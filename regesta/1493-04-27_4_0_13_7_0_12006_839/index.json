@@ -1,0 +1,90 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1493-04-27_4_0_13_7_0_12006_839",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Nb244d2448d6645dfb50e9376eced0b6f"
+      }
+    },
+    {
+      "@id": "_:Nb244d2448d6645dfb50e9376eced0b6f",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N4da6757a4d9d405199d55ce72f9f5151"
+      },
+      "ps:P291": {
+        "@id": "_:N7d56ffdd023e4f47af8c464e85aa9afd"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N26c65fccae1a4610910413d762a140b6"
+        },
+        {
+          "@id": "_:Nc93aeb6b2efa4f5fb0b5130193b636f2"
+        }
+      ]
+    },
+    {
+      "@id": "_:N7d56ffdd023e4f47af8c464e85aa9afd",
+      "https://schema.org#geo": {
+        "@id": "_:Nafdad89a8aff4c798faca4747d1d54fd"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q41329"
+      },
+      "rdfs:label": "Linz"
+    },
+    {
+      "@id": "_:Nafdad89a8aff4c798faca4747d1d54fd",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "48.303056",
+      "https://schema.org#longitude": "14.290556"
+    },
+    {
+      "@id": "_:N4da6757a4d9d405199d55ce72f9f5151",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1493-04-27"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1493-04-27"
+      }
+    },
+    {
+      "@id": "_:N26c65fccae1a4610910413d762a140b6",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:K00001692"
+      },
+      "ps:P39": {
+        "@id": "ri:erzbischof"
+      },
+      "rdfs:label": "Eb. Hermann (IV.) von Köln"
+    },
+    {
+      "@id": "_:Nc93aeb6b2efa4f5fb0b5130193b636f2",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:J00000265"
+      },
+      "ps:P39": {
+        "@id": "ri:herzog"
+      },
+      "rdfs:label": "Hz. Wilhelm (IV.) von Jülich-Berg"
+    }
+  ]
+}

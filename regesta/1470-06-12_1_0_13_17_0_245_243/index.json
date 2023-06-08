@@ -1,0 +1,90 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1470-06-12_1_0_13_17_0_245_243",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Nbe3b7a6008ac4bfa8db2fc618a086d75"
+      }
+    },
+    {
+      "@id": "_:Nbe3b7a6008ac4bfa8db2fc618a086d75",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Ne6c422c5916d4ff195069a490e7fef83"
+      },
+      "ps:P291": {
+        "@id": "_:N92026f15e6e64e3f86e045a998531b4b"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N97d9f2dfb1584b048268447b75b27030"
+        },
+        {
+          "@id": "_:N8cf2286441f64eaeb0143c178e2b0960"
+        }
+      ]
+    },
+    {
+      "@id": "_:N92026f15e6e64e3f86e045a998531b4b",
+      "https://schema.org#geo": {
+        "@id": "_:Nafd7f1f3650e44b587d2e3a5538ae56e"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q668044"
+      },
+      "rdfs:label": "Millstatt"
+    },
+    {
+      "@id": "_:Nafd7f1f3650e44b587d2e3a5538ae56e",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "46.80417",
+      "https://schema.org#longitude": "13.58056"
+    },
+    {
+      "@id": "_:Ne6c422c5916d4ff195069a490e7fef83",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1470-06-12"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1470-06-12"
+      }
+    },
+    {
+      "@id": "_:N97d9f2dfb1584b048268447b75b27030",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:Z00000640"
+      },
+      "ps:P39": {
+        "@id": "ri:pfalzgraf"
+      },
+      "rdfs:label": "Pfgf. Ludwig (I.) (von Zweibrücken-Veldenz)"
+    },
+    {
+      "@id": "_:N8cf2286441f64eaeb0143c178e2b0960",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:P00000962"
+      },
+      "ps:P39": {
+        "@id": "ri:pfalzgraf"
+      },
+      "rdfs:label": "Pfgf. Friedrich (I.) bei Rhein"
+    }
+  ]
+}

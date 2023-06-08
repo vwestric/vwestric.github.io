@@ -1,0 +1,60 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1485-07-14_1_0_13_8_0_12444_436",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Nf59435dc13034093a8d8011376355136"
+      }
+    },
+    {
+      "@id": "_:Nf59435dc13034093a8d8011376355136",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Nedd209528e884f67b721a4d3aa0c0503"
+      },
+      "ps:P291": {
+        "@id": "_:N49f5ce54ac794faca8eb741afc287288"
+      }
+    },
+    {
+      "@id": "_:N49f5ce54ac794faca8eb741afc287288",
+      "https://schema.org#geo": {
+        "@id": "_:N45bb2dd5406c4c7884c4eaf1686f3ef9"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q3994"
+      },
+      "rdfs:label": "Kempten"
+    },
+    {
+      "@id": "_:N45bb2dd5406c4c7884c4eaf1686f3ef9",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.72674",
+      "https://schema.org#longitude": "10.31389"
+    },
+    {
+      "@id": "_:Nedd209528e884f67b721a4d3aa0c0503",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1485-07-14"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1485-07-14"
+      }
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1466-11-14_4_0_13_15_0_205_205",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N778d4987f75e4235bb8bfff69e94c63c"
+      }
+    },
+    {
+      "@id": "_:N778d4987f75e4235bb8bfff69e94c63c",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N54766c4405cc415abc2efbde11ff0ac4"
+      },
+      "ps:P291": {
+        "@id": "_:Nd865a94a4d434fe6b9f9a880beabb26d"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N63917671582b445ea8f249f6373b15d8"
+        },
+        {
+          "@id": "_:N03a247c0cf094b8f9ef3cd4465e2897d"
+        }
+      ]
+    },
+    {
+      "@id": "_:Nd865a94a4d434fe6b9f9a880beabb26d",
+      "https://schema.org#geo": {
+        "@id": "_:N2f0290e6d87b4074b92a20fec97e1919"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q13298"
+      },
+      "rdfs:label": "Graz"
+    },
+    {
+      "@id": "_:N2f0290e6d87b4074b92a20fec97e1919",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.06667",
+      "https://schema.org#longitude": "15.45"
+    },
+    {
+      "@id": "_:N54766c4405cc415abc2efbde11ff0ac4",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1466-11-14"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1466-11-14"
+      }
+    },
+    {
+      "@id": "_:N63917671582b445ea8f249f6373b15d8",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00000954"
+      },
+      "rdfs:label": "Hans Sattelboger"
+    },
+    {
+      "@id": "_:N03a247c0cf094b8f9ef3cd4465e2897d",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00000956"
+      },
+      "rdfs:label": "Jörg Sattelboger"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1441-02-10_1_0_13_12_0_42_42",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N9e9438a189314f8d8c990dc4b6fd7114"
+      }
+    },
+    {
+      "@id": "_:N9e9438a189314f8d8c990dc4b6fd7114",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Nd2839650be804e8fa180bd899b2d3987"
+      },
+      "ps:P291": {
+        "@id": "_:N2a06fc85f1774b6fbe6f1081315726cf"
+      },
+      "ps:P3342": {
+        "@id": "_:N48470076a5fc4babbdc3327f528707db"
+      }
+    },
+    {
+      "@id": "_:N2a06fc85f1774b6fbe6f1081315726cf",
+      "https://schema.org#geo": {
+        "@id": "_:Nf18021801bbd42abab374d4389e2e1b4"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q131612"
+      },
+      "rdfs:label": "Wiener Neustadt"
+    },
+    {
+      "@id": "_:Nf18021801bbd42abab374d4389e2e1b4",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.813153",
+      "https://schema.org#longitude": "16.24444"
+    },
+    {
+      "@id": "_:Nd2839650be804e8fa180bd899b2d3987",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1441-02-10"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1441-02-10"
+      }
+    },
+    {
+      "@id": "_:N48470076a5fc4babbdc3327f528707db",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:E00000158"
+      },
+      "rdfs:label": "Jörg von Eckartsau"
+    }
+  ]
+}

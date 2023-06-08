@@ -1,0 +1,98 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1486-02-27_1_0_13_4_0_10483_907",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N8eba357004c147869e015cf244e030de"
+      }
+    },
+    {
+      "@id": "_:N8eba357004c147869e015cf244e030de",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Nf23290a18dd14f59b4dae33f84359831"
+      },
+      "ps:P291": {
+        "@id": "_:N86f77ac686084c43ba07c78616d8f5a6"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N2f8d2cc435ed40389aa7fdb9de611124"
+        },
+        {
+          "@id": "_:Na2241443dfa04544af3420f718d5e293"
+        },
+        {
+          "@id": "_:Ndaca48a3bfb343949a6f995e2f2db13f"
+        }
+      ]
+    },
+    {
+      "@id": "_:N86f77ac686084c43ba07c78616d8f5a6",
+      "https://schema.org#geo": {
+        "@id": "_:N46c1360134d7463eb0409420fdfadc5b"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q1794"
+      },
+      "rdfs:label": "Frankfurt"
+    },
+    {
+      "@id": "_:N46c1360134d7463eb0409420fdfadc5b",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "50.110556",
+      "https://schema.org#longitude": "8.682222"
+    },
+    {
+      "@id": "_:Nf23290a18dd14f59b4dae33f84359831",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1486-02-27"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1486-02-27"
+      }
+    },
+    {
+      "@id": "_:N2f8d2cc435ed40389aa7fdb9de611124",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00002624"
+      },
+      "rdfs:label": "Ludwig von Schwalbach"
+    },
+    {
+      "@id": "_:Na2241443dfa04544af3420f718d5e293",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:G00000154"
+      },
+      "rdfs:label": "Philipp Gans von Otzberg"
+    },
+    {
+      "@id": "_:Ndaca48a3bfb343949a6f995e2f2db13f",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:H00000641"
+      },
+      "ps:P39": {
+        "@id": "ri:graf"
+      },
+      "rdfs:label": "Gf. Philipp d. Ä. von Hanau"
+    }
+  ]
+}

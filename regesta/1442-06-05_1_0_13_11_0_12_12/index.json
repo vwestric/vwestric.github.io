@@ -1,0 +1,104 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1442-06-05_1_0_13_11_0_12_12",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Na98b9e3a673a4c5a8aea320909e5bdf3"
+      }
+    },
+    {
+      "@id": "_:Na98b9e3a673a4c5a8aea320909e5bdf3",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N9ae802c6ebe44ecc9490c59c01a1ecf5"
+      },
+      "ps:P291": {
+        "@id": "_:Ne562cb893255421a85d3e2c9753ef883"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N7eb65bc79b234705b2ca10c7ca64e148"
+        },
+        {
+          "@id": "_:N6f3c420c7077438eb78218f355e242bf"
+        },
+        {
+          "@id": "_:N3963d592b8dd46e2b926069dc74b3c3b"
+        }
+      ]
+    },
+    {
+      "@id": "_:Ne562cb893255421a85d3e2c9753ef883",
+      "https://schema.org#geo": {
+        "@id": "_:N926444de25aa4abf9f0b4494f4ca15d5"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q1794"
+      },
+      "rdfs:label": "Frankfurt"
+    },
+    {
+      "@id": "_:N926444de25aa4abf9f0b4494f4ca15d5",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "50.110556",
+      "https://schema.org#longitude": "8.682222"
+    },
+    {
+      "@id": "_:N9ae802c6ebe44ecc9490c59c01a1ecf5",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1442-06-05"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1442-06-05"
+      }
+    },
+    {
+      "@id": "_:N7eb65bc79b234705b2ca10c7ca64e148",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:A00000457"
+      },
+      "ps:P39": {
+        "@id": "ri:koenig"
+      },
+      "rdfs:label": "Kg. Albrecht (II.)"
+    },
+    {
+      "@id": "_:N6f3c420c7077438eb78218f355e242bf",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:O00000599"
+      },
+      "ps:P39": {
+        "@id": "ri:koenig"
+      },
+      "rdfs:label": "Kg. Ladislaus"
+    },
+    {
+      "@id": "_:N3963d592b8dd46e2b926069dc74b3c3b",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00000076"
+      },
+      "ps:P39": {
+        "@id": "ri:kurfuerst"
+      },
+      "rdfs:label": "Kf. Friedrich (II.) von Sachsen"
+    }
+  ]
+}

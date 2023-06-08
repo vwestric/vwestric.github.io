@@ -1,0 +1,95 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:a851584a-8dbd-4f5d-acef-1c37ed562136",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Na2081f14280b4c1ab900c5592709775a"
+      }
+    },
+    {
+      "@id": "_:Na2081f14280b4c1ab900c5592709775a",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Ne4d90d2aaf1a4ff68353bb5f1ba2ac29"
+      },
+      "ps:P291": {
+        "@id": "_:Nbbe29ca9331a4e9c80fe926081e21ae0"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:Ndd55b0781ffc4d51b71e7e4573a34004"
+        },
+        {
+          "@id": "_:N7b20a40b976d4f46831de86e5e1e72dd"
+        }
+      ]
+    },
+    {
+      "@id": "_:Nbbe29ca9331a4e9c80fe926081e21ae0",
+      "https://schema.org#geo": {
+        "@id": "_:Nea0abd02d345469a83f7688850a505dd"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q15917"
+      },
+      "rdfs:label": "Feistritz"
+    },
+    {
+      "@id": "_:Nea0abd02d345469a83f7688850a505dd",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "46.39278",
+      "https://schema.org#longitude": "15.57444"
+    },
+    {
+      "@id": "_:Ne4d90d2aaf1a4ff68353bb5f1ba2ac29",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1462-07-08"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1462-07-08"
+      }
+    },
+    {
+      "@id": "_:Ndd55b0781ffc4d51b71e7e4573a34004",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00000565"
+      },
+      "ps:P39": {
+        "@id": "ri:herzog"
+      },
+      "rdfs:label": "Hz. Ludwig (IX.) von Bayern(-Landshut)"
+    },
+    {
+      "@id": "_:N7b20a40b976d4f46831de86e5e1e72dd",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:A00001569"
+      },
+      "ps:P39": [
+        {
+          "@id": "ri:kardinal"
+        },
+        {
+          "@id": "ri:bischof"
+        }
+      ],
+      "rdfs:label": "Kardinal Bf. (Peter) von Augsburg"
+    }
+  ]
+}

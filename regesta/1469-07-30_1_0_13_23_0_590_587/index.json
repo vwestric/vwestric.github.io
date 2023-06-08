@@ -1,0 +1,55 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1469-07-30_1_0_13_23_0_590_587",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Ne0cf63cdeeab4b45a0616adb5e7f5426"
+      }
+    },
+    {
+      "@id": "_:Ne0cf63cdeeab4b45a0616adb5e7f5426",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Nc7471170362b4044ab803a300c739fcf"
+      },
+      "ps:P3342": {
+        "@id": "_:Nffbef272c9e14ced87b3f992db6c7389"
+      }
+    },
+    {
+      "@id": "_:Nc7471170362b4044ab803a300c739fcf",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1469-07-30"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1469-07-30"
+      }
+    },
+    {
+      "@id": "_:Nffbef272c9e14ced87b3f992db6c7389",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00000075"
+      },
+      "ps:P39": {
+        "@id": "ri:markgraf"
+      },
+      "rdfs:label": "Mgf. Karl (I.) von Baden"
+    }
+  ]
+}

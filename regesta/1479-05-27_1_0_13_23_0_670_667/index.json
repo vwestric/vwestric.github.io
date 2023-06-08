@@ -1,0 +1,82 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1479-05-27_1_0_13_23_0_670_667",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N407ded514441490dae2f0fd47f8b1d8e"
+      }
+    },
+    {
+      "@id": "_:N407ded514441490dae2f0fd47f8b1d8e",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Ne97d41d144834c5bbbfb602e57f7db29"
+      },
+      "ps:P291": {
+        "@id": "_:Ned465845d06f4e2c9ae6869a2bcfdd55"
+      },
+      "ps:P3342": {
+        "@id": "_:Ne8059a4d698b4f63906e70b20fb66715"
+      }
+    },
+    {
+      "@id": "_:Ned465845d06f4e2c9ae6869a2bcfdd55",
+      "https://schema.org#geo": {
+        "@id": "_:N8c2a1837375c409797af1a8e1cbcb0f8"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q13298"
+      },
+      "rdfs:label": "Graz"
+    },
+    {
+      "@id": "_:N8c2a1837375c409797af1a8e1cbcb0f8",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.06667",
+      "https://schema.org#longitude": "15.45"
+    },
+    {
+      "@id": "_:Ne97d41d144834c5bbbfb602e57f7db29",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1479-05-27"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1479-05-27"
+      }
+    },
+    {
+      "@id": "_:Ne8059a4d698b4f63906e70b20fb66715",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:P00000987"
+      },
+      "ps:P39": [
+        {
+          "@id": "ri:erzherzog"
+        },
+        {
+          "@id": "ri:erzherzogin"
+        },
+        {
+          "@id": "ri:pfalzgraefin"
+        }
+      ],
+      "rdfs:label": "Erzherzogin Mechthild von Österreich, geborener Pfalzgräfin bei Rhein"
+    }
+  ]
+}

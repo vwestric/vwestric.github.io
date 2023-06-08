@@ -1,0 +1,60 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1488-07-18_1_0_13_26_0_771_771",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Nb1aba3ca7d9747edb1e5aff9cb2089da"
+      }
+    },
+    {
+      "@id": "_:Nb1aba3ca7d9747edb1e5aff9cb2089da",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N886bb200cd8e462eb899d8fd9ffea134"
+      },
+      "ps:P291": {
+        "@id": "_:Nda0d1d6a8eec4c3ca3ed82a2df19f28f"
+      }
+    },
+    {
+      "@id": "_:Nda0d1d6a8eec4c3ca3ed82a2df19f28f",
+      "https://schema.org#geo": {
+        "@id": "_:Nd8b7e38c296743c0a75d7db745c4dc8b"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q1296"
+      },
+      "rdfs:label": "im Feld bei Gent"
+    },
+    {
+      "@id": "_:Nd8b7e38c296743c0a75d7db745c4dc8b",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "51.053889",
+      "https://schema.org#longitude": "3.721667"
+    },
+    {
+      "@id": "_:N886bb200cd8e462eb899d8fd9ffea134",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1488-07-18"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1488-07-18"
+      }
+    }
+  ]
+}

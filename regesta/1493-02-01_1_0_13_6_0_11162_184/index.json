@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1493-02-01_1_0_13_6_0_11162_184",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N10d754c6eb184e5387ba60fc36d18826"
+      }
+    },
+    {
+      "@id": "_:N10d754c6eb184e5387ba60fc36d18826",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N9600f6d6050d4878a86e7ec04d68c6e2"
+      },
+      "ps:P291": {
+        "@id": "_:Nbb7a00f056994976a4f11fda92309045"
+      },
+      "ps:P3342": {
+        "@id": "_:N4946afe26cb348b4b93d2a3865cebaec"
+      }
+    },
+    {
+      "@id": "_:Nbb7a00f056994976a4f11fda92309045",
+      "https://schema.org#geo": {
+        "@id": "_:Nb15b2334367342a1b11b0c50f1e58d95"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q41329"
+      },
+      "rdfs:label": "Linz"
+    },
+    {
+      "@id": "_:Nb15b2334367342a1b11b0c50f1e58d95",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "48.303056",
+      "https://schema.org#longitude": "14.290556"
+    },
+    {
+      "@id": "_:N9600f6d6050d4878a86e7ec04d68c6e2",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1493-02-01"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1493-02-01"
+      }
+    },
+    {
+      "@id": "_:N4946afe26cb348b4b93d2a3865cebaec",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:M00001151"
+      },
+      "ps:P39": {
+        "@id": "ri:koenig"
+      },
+      "rdfs:label": "Kg. Maximilian"
+    }
+  ]
+}

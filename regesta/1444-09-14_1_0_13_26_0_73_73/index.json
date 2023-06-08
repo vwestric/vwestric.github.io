@@ -1,0 +1,60 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1444-09-14_1_0_13_26_0_73_73",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Nbb2c9de092f847f9a2c6420e669edb1c"
+      }
+    },
+    {
+      "@id": "_:Nbb2c9de092f847f9a2c6420e669edb1c",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N6ccb5503f87a4d8d95bef2ae6f287f5c"
+      },
+      "ps:P291": {
+        "@id": "_:N28e9b944c1c94c7fb4a77f6296c87c85"
+      }
+    },
+    {
+      "@id": "_:N28e9b944c1c94c7fb4a77f6296c87c85",
+      "https://schema.org#geo": {
+        "@id": "_:N2d3753a39b4140f3a5a3fefc05712ade"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q2090"
+      },
+      "rdfs:label": "Nürnberg"
+    },
+    {
+      "@id": "_:N2d3753a39b4140f3a5a3fefc05712ade",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "49.45421",
+      "https://schema.org#longitude": "11.07752"
+    },
+    {
+      "@id": "_:N6ccb5503f87a4d8d95bef2ae6f287f5c",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1444-09-14"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1444-09-14"
+      }
+    }
+  ]
+}

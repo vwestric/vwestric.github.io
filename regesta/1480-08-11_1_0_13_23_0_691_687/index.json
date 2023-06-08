@@ -1,0 +1,118 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1480-08-11_1_0_13_23_0_691_687",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N6cd119a8499b4dc2b6713cdb6f9efe7b"
+      }
+    },
+    {
+      "@id": "_:N6cd119a8499b4dc2b6713cdb6f9efe7b",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Nbbc5849fd02d4818a2554ffd508dc980"
+      },
+      "ps:P291": {
+        "@id": "_:Ne89cc1e368764162975da6a4276df59e"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N85890e17d6f142c3afa4efb0d8d7bac5"
+        },
+        {
+          "@id": "_:N07969c7ce04748fc97920ab806e26180"
+        },
+        {
+          "@id": "_:N5ef98fd9fd034e5f95eb0dbdb61e1751"
+        },
+        {
+          "@id": "_:N079eed41fa554f73bfa96da3334a2a4c"
+        }
+      ]
+    },
+    {
+      "@id": "_:Ne89cc1e368764162975da6a4276df59e",
+      "https://schema.org#geo": {
+        "@id": "_:N0d9fa304d1ec44e2a9d81bf4359023d4"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q1741"
+      },
+      "rdfs:label": "Wien"
+    },
+    {
+      "@id": "_:N0d9fa304d1ec44e2a9d81bf4359023d4",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "48.20849",
+      "https://schema.org#longitude": "16.37208"
+    },
+    {
+      "@id": "_:Nbbc5849fd02d4818a2554ffd508dc980",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1480-08-11"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1480-08-11"
+      }
+    },
+    {
+      "@id": "_:N85890e17d6f142c3afa4efb0d8d7bac5",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:W00003283"
+      },
+      "ps:P39": {
+        "@id": "ri:graf"
+      },
+      "rdfs:label": "Gf. Eberhard (V.) d.Ä. von Württemberg"
+    },
+    {
+      "@id": "_:N07969c7ce04748fc97920ab806e26180",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:O00000622"
+      },
+      "ps:P39": {
+        "@id": "ri:erzherzog"
+      },
+      "rdfs:label": "Ehz. Sigmund von Österreich"
+    },
+    {
+      "@id": "_:N5ef98fd9fd034e5f95eb0dbdb61e1751",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00002248"
+      },
+      "ps:P39": {
+        "@id": "ri:markgraf"
+      },
+      "rdfs:label": "Mgf. Albrecht von Brandenburg"
+    },
+    {
+      "@id": "_:N079eed41fa554f73bfa96da3334a2a4c",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:A00001566"
+      },
+      "ps:P39": {
+        "@id": "ri:bischof"
+      },
+      "rdfs:label": "Bf. Johann von Augsburg"
+    }
+  ]
+}

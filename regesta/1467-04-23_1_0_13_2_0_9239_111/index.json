@@ -1,0 +1,148 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1467-04-23_1_0_13_2_0_9239_111",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Nefd50d7f0ce44058b4b7f18b972462ca"
+      }
+    },
+    {
+      "@id": "_:Nefd50d7f0ce44058b4b7f18b972462ca",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N948db7f372074d8da61d501b2bae0c83"
+      },
+      "ps:P291": {
+        "@id": "_:N7f11a1c926754f05b78e38f840c6905d"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N27cb56e349194f6b95276e7a55750f46"
+        },
+        {
+          "@id": "_:N6706fa9b491b4becbe1a68e06659deb7"
+        },
+        {
+          "@id": "_:N6a32b781b9064c9bb00275e41e0cd8eb"
+        },
+        {
+          "@id": "_:N35a6f57993a64bd98ec726e8671317c4"
+        },
+        {
+          "@id": "_:Ne46e9588366745aebcc68f432867a853"
+        },
+        {
+          "@id": "_:N544b451451bb4018940dc2bc55692e4b"
+        }
+      ]
+    },
+    {
+      "@id": "_:N7f11a1c926754f05b78e38f840c6905d",
+      "https://schema.org#geo": {
+        "@id": "_:N667110e7431b4059b327ca42e7cdb60a"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q131612"
+      },
+      "rdfs:label": "Wiener Neustadt"
+    },
+    {
+      "@id": "_:N667110e7431b4059b327ca42e7cdb60a",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.813153",
+      "https://schema.org#longitude": "16.24444"
+    },
+    {
+      "@id": "_:N948db7f372074d8da61d501b2bae0c83",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1467-04-23"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1467-04-23"
+      }
+    },
+    {
+      "@id": "_:N27cb56e349194f6b95276e7a55750f46",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:K00000775"
+      },
+      "ps:P39": {
+        "@id": "ri:abt"
+      },
+      "rdfs:label": "Abt Johann von Kempten"
+    },
+    {
+      "@id": "_:N6706fa9b491b4becbe1a68e06659deb7",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:P00000251"
+      },
+      "ps:P39": {
+        "@id": "ri:bischof"
+      },
+      "rdfs:label": "Bischof Ulrich von Passau"
+    },
+    {
+      "@id": "_:N6a32b781b9064c9bb00275e41e0cd8eb",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:K00000774"
+      },
+      "ps:P39": {
+        "@id": "ri:abt"
+      },
+      "rdfs:label": "Abt Heinrich von Kempten"
+    },
+    {
+      "@id": "_:N35a6f57993a64bd98ec726e8671317c4",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00003529"
+      },
+      "ps:P39": {
+        "@id": "ri:kaiser"
+      },
+      "rdfs:label": "Kaiser Siegmund"
+    },
+    {
+      "@id": "_:Ne46e9588366745aebcc68f432867a853",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:K00000774"
+      },
+      "ps:P39": [
+        {
+          "@id": "ri:konventuale"
+        },
+        {
+          "@id": "ri:konventual"
+        }
+      ],
+      "rdfs:label": "Johann von Linstetten, Konventuale des Klosters Kempten"
+    },
+    {
+      "@id": "_:N544b451451bb4018940dc2bc55692e4b",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:H00000738"
+      },
+      "rdfs:label": "Berthold Happ, gemeiner Procurator des kaiserlichen Hofes"
+    }
+  ]
+}

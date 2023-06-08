@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1488-05-31_1_0_13_5_0_10942_318",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N040fd7a974094d058f2401c0320d3ad2"
+      }
+    },
+    {
+      "@id": "_:N040fd7a974094d058f2401c0320d3ad2",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N2282b2706a054de18841a6d0a2f035e4"
+      },
+      "ps:P291": {
+        "@id": "_:N0cbcf0fa100149f293581dbdc0802f31"
+      },
+      "ps:P3342": {
+        "@id": "_:N4a676b692a504fe2bf2c484c467d2ba4"
+      }
+    },
+    {
+      "@id": "_:N0cbcf0fa100149f293581dbdc0802f31",
+      "https://schema.org#geo": {
+        "@id": "_:N8d1d1b13c276490ea96a423a95ed92d7"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q13121"
+      },
+      "rdfs:label": "Aalst"
+    },
+    {
+      "@id": "_:N8d1d1b13c276490ea96a423a95ed92d7",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "50.9375",
+      "https://schema.org#longitude": "4.041111"
+    },
+    {
+      "@id": "_:N2282b2706a054de18841a6d0a2f035e4",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1488-05-31"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1488-05-31"
+      }
+    },
+    {
+      "@id": "_:N4a676b692a504fe2bf2c484c467d2ba4",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:M00001151"
+      },
+      "ps:P39": {
+        "@id": "ri:koenig"
+      },
+      "rdfs:label": "Kg. Maximilians"
+    }
+  ]
+}

@@ -1,0 +1,264 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1448-09-20_3_0_13_17_0_87_86",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N442ceeda5b2742e6a195cdd6f5a6d871"
+      }
+    },
+    {
+      "@id": "_:N442ceeda5b2742e6a195cdd6f5a6d871",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Nff13334288034b29a01957773da33d9e"
+      },
+      "ps:P291": {
+        "@id": "_:N637e61c9e0904d37a3f00f71f7cbdde5"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N360a1561947d4e63ac4bc33ff932fa84"
+        },
+        {
+          "@id": "_:N6cc664b86d9c48b5babb627e85ec4a96"
+        },
+        {
+          "@id": "_:N952c920fb6744092b15cb4a59232920c"
+        },
+        {
+          "@id": "_:N0d6fe80c2c2749e9ab6fd322b3f0e0de"
+        },
+        {
+          "@id": "_:Na8cfb6b8fd25403b946af2c85bf1b278"
+        },
+        {
+          "@id": "_:N8e6441283f884ab192a77b76a78ff082"
+        },
+        {
+          "@id": "_:Nb565ec5f87d244e0971f2c2a5d9cfb5b"
+        },
+        {
+          "@id": "_:Ne5bd4364f82541e985bcc049360f23d0"
+        },
+        {
+          "@id": "_:N28189726ed3d46a88bd4f402e2927f5c"
+        },
+        {
+          "@id": "_:Nd66e77b9d52446b58093736541d071ab"
+        },
+        {
+          "@id": "_:Na72b5625efca4014a205a50999123f69"
+        },
+        {
+          "@id": "_:N688afe5d141d45e1bad07db099198b57"
+        },
+        {
+          "@id": "_:N8031bca67e6849e8a47b134e32a9edd3"
+        },
+        {
+          "@id": "_:Nc692319c2f1f4f5bb51feca8d698eb26"
+        },
+        {
+          "@id": "_:Na961dcc97ea54adbbea7c5e53ab11d76"
+        },
+        {
+          "@id": "_:Nb6847bdd8dc94d539c46344222448220"
+        },
+        {
+          "@id": "_:N98a5f99a508a402ab59b961fb2ec7296"
+        }
+      ]
+    },
+    {
+      "@id": "_:N637e61c9e0904d37a3f00f71f7cbdde5",
+      "https://schema.org#geo": {
+        "@id": "_:N32e953adc6d0406aa0a9430200a97fc8"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q1741"
+      },
+      "rdfs:label": "Wien"
+    },
+    {
+      "@id": "_:N32e953adc6d0406aa0a9430200a97fc8",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "48.20849",
+      "https://schema.org#longitude": "16.37208"
+    },
+    {
+      "@id": "_:Nff13334288034b29a01957773da33d9e",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1448-09-20"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1448-09-20"
+      }
+    },
+    {
+      "@id": "_:N360a1561947d4e63ac4bc33ff932fa84",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:V00000711"
+      },
+      "ps:P39": {
+        "@id": "ri:vogt"
+      },
+      "rdfs:label": "Nikolaus Vogt von Hunolstein"
+    },
+    {
+      "@id": "_:N6cc664b86d9c48b5babb627e85ec4a96",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:V00000711"
+      },
+      "ps:P39": {
+        "@id": "ri:vogt"
+      },
+      "rdfs:label": "Nikolaus Vogt von Hunolstein"
+    },
+    {
+      "@id": "_:N952c920fb6744092b15cb4a59232920c",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:P00000246"
+      },
+      "rdfs:label": "Leonhard von Passau"
+    },
+    {
+      "@id": "_:N0d6fe80c2c2749e9ab6fd322b3f0e0de",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:C00000462"
+      },
+      "ps:P39": {
+        "@id": "ri:graf"
+      },
+      "rdfs:label": "Gf. Ulrich von Cilli"
+    },
+    {
+      "@id": "_:Na8cfb6b8fd25403b946af2c85bf1b278",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:L00001160"
+      },
+      "ps:P39": {
+        "@id": "ri:landgraf"
+      },
+      "rdfs:label": "Ldgf. Johann von Leuchtenberg"
+    },
+    {
+      "@id": "_:N8e6441283f884ab192a77b76a78ff082",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00001341"
+      },
+      "rdfs:label": "Bernhard von Schaunberg"
+    },
+    {
+      "@id": "_:Nb565ec5f87d244e0971f2c2a5d9cfb5b",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:P00002036"
+      },
+      "rdfs:label": "Albrecht von Pottendorf"
+    },
+    {
+      "@id": "_:Ne5bd4364f82541e985bcc049360f23d0",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00004611"
+      },
+      "rdfs:label": "Rüdiger von Starhemberg"
+    },
+    {
+      "@id": "_:N28189726ed3d46a88bd4f402e2927f5c",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:R00000028"
+      },
+      "rdfs:label": "Prokop von Rabenstein"
+    },
+    {
+      "@id": "_:Nd66e77b9d52446b58093736541d071ab",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:E00000546"
+      },
+      "rdfs:label": "Hildebrand von Einsiedel"
+    },
+    {
+      "@id": "_:Na72b5625efca4014a205a50999123f69",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00000648"
+      },
+      "rdfs:label": "Georg von Bebenburg"
+    },
+    {
+      "@id": "_:N688afe5d141d45e1bad07db099198b57",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:F00001017"
+      },
+      "ps:P39": {
+        "@id": "ri:frau"
+      },
+      "rdfs:label": "Hans von Fraunberg (zu Haag und Massenhausen)"
+    },
+    {
+      "@id": "_:N8031bca67e6849e8a47b134e32a9edd3",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:A00001391"
+      },
+      "rdfs:label": "Leopold von Aspach"
+    },
+    {
+      "@id": "_:Nc692319c2f1f4f5bb51feca8d698eb26",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:L00001144"
+      },
+      "rdfs:label": "Heinrich Leubing"
+    },
+    {
+      "@id": "_:Na961dcc97ea54adbbea7c5e53ab11d76",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:G00001059"
+      },
+      "rdfs:label": "Nikolaus von Glatz"
+    },
+    {
+      "@id": "_:Nb6847bdd8dc94d539c46344222448220",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:H00000555"
+      },
+      "rdfs:label": "Konrad von Hallstatt"
+    },
+    {
+      "@id": "_:N98a5f99a508a402ab59b961fb2ec7296",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:C00000119"
+      },
+      "rdfs:label": "Hartung von Cappel"
+    }
+  ]
+}

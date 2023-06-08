@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1443-01-23_1_0_13_11_0_25_25",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Nef877069048f457285daf030f9663e22"
+      }
+    },
+    {
+      "@id": "_:Nef877069048f457285daf030f9663e22",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Nca6638ce93c74f728c5a6e992d7c009d"
+      },
+      "ps:P291": {
+        "@id": "_:N9708306fc5634c16a09418a586b22ef1"
+      },
+      "ps:P3342": {
+        "@id": "_:N162561f980f041089967a07b7cc9e4b1"
+      }
+    },
+    {
+      "@id": "_:N9708306fc5634c16a09418a586b22ef1",
+      "https://schema.org#geo": {
+        "@id": "_:N7597443dfa1646fb9f947238f9037c46"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q1735"
+      },
+      "rdfs:label": "Innsbruck"
+    },
+    {
+      "@id": "_:N7597443dfa1646fb9f947238f9037c46",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.26266",
+      "https://schema.org#longitude": "11.39454"
+    },
+    {
+      "@id": "_:Nca6638ce93c74f728c5a6e992d7c009d",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1443-01-23"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1443-01-23"
+      }
+    },
+    {
+      "@id": "_:N162561f980f041089967a07b7cc9e4b1",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00000582"
+      },
+      "ps:P39": {
+        "@id": "ri:herzog"
+      },
+      "rdfs:label": "Hz. Albrecht (III.) von Bayern (-München)"
+    }
+  ]
+}

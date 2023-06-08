@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1464-06-26_1_0_13_10_0_13201_241",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N0fd3388985fd4bdca6973ba36af557a1"
+      }
+    },
+    {
+      "@id": "_:N0fd3388985fd4bdca6973ba36af557a1",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Nb4f04031489a47a6902664373c578caf"
+      },
+      "ps:P291": {
+        "@id": "_:Ndce0fcb27cc84c0fba1c0e97823f5681"
+      },
+      "ps:P3342": {
+        "@id": "_:Nade1abd20b094f6a9d25f3de7e2b7d6b"
+      }
+    },
+    {
+      "@id": "_:Ndce0fcb27cc84c0fba1c0e97823f5681",
+      "https://schema.org#geo": {
+        "@id": "_:N9730398fb7884bfab34febec9f94c5f2"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q131612"
+      },
+      "rdfs:label": "Wiener Neustadt"
+    },
+    {
+      "@id": "_:N9730398fb7884bfab34febec9f94c5f2",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.813153",
+      "https://schema.org#longitude": "16.24444"
+    },
+    {
+      "@id": "_:Nb4f04031489a47a6902664373c578caf",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1464-06-26"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1464-06-26"
+      }
+    },
+    {
+      "@id": "_:Nade1abd20b094f6a9d25f3de7e2b7d6b",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00002711"
+      },
+      "ps:P39": {
+        "@id": "ri:graf"
+      },
+      "rdfs:label": "Gf. Heinrich (XXVI.) von Schwarzburg-Arnstadt-Sondershausen"
+    }
+  ]
+}

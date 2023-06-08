@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1468-07-13_1_0_13_4_0_10033_461",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Nb107d304ecc14ba0ab82451f22c0d277"
+      }
+    },
+    {
+      "@id": "_:Nb107d304ecc14ba0ab82451f22c0d277",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N148043a8950f4babbd5f5d502f19333d"
+      },
+      "ps:P291": {
+        "@id": "_:Ne794a49c58604277a03e09cdf5b31457"
+      },
+      "ps:P3342": {
+        "@id": "_:N4406f2731afd4a0eb262fe159162aa89"
+      }
+    },
+    {
+      "@id": "_:Ne794a49c58604277a03e09cdf5b31457",
+      "https://schema.org#geo": {
+        "@id": "_:Nbae5c0779d584376ae76aa7b30570d85"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q13298"
+      },
+      "rdfs:label": "Graz"
+    },
+    {
+      "@id": "_:Nbae5c0779d584376ae76aa7b30570d85",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.06667",
+      "https://schema.org#longitude": "15.45"
+    },
+    {
+      "@id": "_:N148043a8950f4babbd5f5d502f19333d",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1468-07-13"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1468-07-13"
+      }
+    },
+    {
+      "@id": "_:N4406f2731afd4a0eb262fe159162aa89",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:Z00000055"
+      },
+      "ps:P39": {
+        "@id": "ri:koenig"
+      },
+      "rdfs:label": "Kg. Matthias' von Ungarn"
+    }
+  ]
+}

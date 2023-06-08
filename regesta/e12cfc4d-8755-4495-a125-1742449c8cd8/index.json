@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:e12cfc4d-8755-4495-a125-1742449c8cd8",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N7b26ed07954b4fafba3b743d1d0e5908"
+      }
+    },
+    {
+      "@id": "_:N7b26ed07954b4fafba3b743d1d0e5908",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N628357b539ea449ea32d7421caecd8a9"
+      },
+      "ps:P291": {
+        "@id": "_:Nf9845d380c8f4c129b3041f36decb7e5"
+      },
+      "ps:P3342": {
+        "@id": "_:N2f2c59aa1f3244f497e7e9d3d27906cd"
+      }
+    },
+    {
+      "@id": "_:Nf9845d380c8f4c129b3041f36decb7e5",
+      "https://schema.org#geo": {
+        "@id": "_:N601354598d02435390475d408d2ab199"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q365"
+      },
+      "rdfs:label": "Köln"
+    },
+    {
+      "@id": "_:N601354598d02435390475d408d2ab199",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "50.93333",
+      "https://schema.org#longitude": "6.95"
+    },
+    {
+      "@id": "_:N628357b539ea449ea32d7421caecd8a9",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1475-04-14"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1475-04-14"
+      }
+    },
+    {
+      "@id": "_:N2f2c59aa1f3244f497e7e9d3d27906cd",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00003253"
+      },
+      "ps:P39": {
+        "@id": "ri:herzog"
+      },
+      "rdfs:label": "Hz. (Karl) von Burgund"
+    }
+  ]
+}

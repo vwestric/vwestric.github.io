@@ -1,0 +1,90 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1444-10-11_1_0_13_20_0_44_44",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N5601123918dc4d449488e9cf2a22c67d"
+      }
+    },
+    {
+      "@id": "_:N5601123918dc4d449488e9cf2a22c67d",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N7776c5d495064df2b711c361ce85370f"
+      },
+      "ps:P291": {
+        "@id": "_:Nfd8178cffc804443aa6f68982e28070d"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:Nafd0f4b36f004bd693376884543ffcca"
+        },
+        {
+          "@id": "_:N41edd06883da4769a990c41df3691d56"
+        }
+      ]
+    },
+    {
+      "@id": "_:Nfd8178cffc804443aa6f68982e28070d",
+      "https://schema.org#geo": {
+        "@id": "_:Nd119fc8110c347f4a9db38ed49cb9504"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q2090"
+      },
+      "rdfs:label": "Nürnberg"
+    },
+    {
+      "@id": "_:Nd119fc8110c347f4a9db38ed49cb9504",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "49.45421",
+      "https://schema.org#longitude": "11.07752"
+    },
+    {
+      "@id": "_:N7776c5d495064df2b711c361ce85370f",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1444-10-11"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1444-10-11"
+      }
+    },
+    {
+      "@id": "_:Nafd0f4b36f004bd693376884543ffcca",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00002265"
+      },
+      "ps:P39": {
+        "@id": "ri:kurfuerst"
+      },
+      "rdfs:label": "Kf. Friedrich (II.) von Brandenburg"
+    },
+    {
+      "@id": "_:N41edd06883da4769a990c41df3691d56",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:P00000976"
+      },
+      "ps:P39": {
+        "@id": "ri:pfalzgraf"
+      },
+      "rdfs:label": "Pfgf. Ludwig (IV.) bei Rhein"
+    }
+  ]
+}

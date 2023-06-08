@@ -1,0 +1,55 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:bb069a1e-1808-4cfe-841c-861dbb26ac97",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Nc1d6f31baf9f400c98b5378fc41ac25b"
+      }
+    },
+    {
+      "@id": "_:Nc1d6f31baf9f400c98b5378fc41ac25b",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N67a183ff57a04bc08b2aa06e2183bcab"
+      },
+      "ps:P3342": {
+        "@id": "_:N7a5139d3683d44c48aec57b9097d4abc"
+      }
+    },
+    {
+      "@id": "_:N67a183ff57a04bc08b2aa06e2183bcab",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1492-05-07"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1492-05-07"
+      }
+    },
+    {
+      "@id": "_:N7a5139d3683d44c48aec57b9097d4abc",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:Z00000467"
+      },
+      "ps:P39": {
+        "@id": "ri:graf"
+      },
+      "rdfs:label": "Gf. Eitelfritz von Zollern"
+    }
+  ]
+}

@@ -1,0 +1,230 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1442-06-18_1_0_13_7_0_11171_9",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Na49c06d9168e4b5bb5d982f7c5e87811"
+      }
+    },
+    {
+      "@id": "_:Na49c06d9168e4b5bb5d982f7c5e87811",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Ncc67a51e2ed04d34a9ce0f14d029a169"
+      },
+      "ps:P291": {
+        "@id": "_:Nb6817dd67e7e418f953d9fddd31d3e4d"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:Nca594f1d68a545f9b0eb77f9ec5a23de"
+        },
+        {
+          "@id": "_:Ne2e0e234e68c473b82c2601f053fd60e"
+        },
+        {
+          "@id": "_:Nbb362ed738a44556b9ecd72dfb4f85f7"
+        },
+        {
+          "@id": "_:N205d44f5e8a946f88c9cb44239487e3c"
+        },
+        {
+          "@id": "_:Nabbcdb34a3c6494c9349a345e158c162"
+        },
+        {
+          "@id": "_:N2d5df6905a41483f939391b7fb1174e9"
+        },
+        {
+          "@id": "_:N8d29205221014416ad3257ccc27391bf"
+        },
+        {
+          "@id": "_:N738f8fa7b67e4f0cbe5444d54f13a7ab"
+        },
+        {
+          "@id": "_:N52d2d5c88acf4ee6855cbdc458b7a439"
+        },
+        {
+          "@id": "_:Na3a3a6194a70482aa1045344c679e5ec"
+        },
+        {
+          "@id": "_:N6f12659d176941d991c0ce802e499bac"
+        },
+        {
+          "@id": "_:Nae66257d57a44bee936bd14ef2cd1c0e"
+        }
+      ]
+    },
+    {
+      "@id": "_:Nb6817dd67e7e418f953d9fddd31d3e4d",
+      "https://schema.org#geo": {
+        "@id": "_:N6254037f89f8407b93e4f6c4360ee804"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q1017"
+      },
+      "rdfs:label": "Aachen"
+    },
+    {
+      "@id": "_:N6254037f89f8407b93e4f6c4360ee804",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "50.77664",
+      "https://schema.org#longitude": "6.08342"
+    },
+    {
+      "@id": "_:Ncc67a51e2ed04d34a9ce0f14d029a169",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1442-06-18"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1442-06-18"
+      }
+    },
+    {
+      "@id": "_:Nca594f1d68a545f9b0eb77f9ec5a23de",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:K00001681"
+      },
+      "ps:P39": {
+        "@id": "ri:erzbischof"
+      },
+      "rdfs:label": "Eb. Dietrich (II.) von Köln"
+    },
+    {
+      "@id": "_:Ne2e0e234e68c473b82c2601f053fd60e",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:O00001249"
+      },
+      "ps:P39": {
+        "@id": "ri:koenig"
+      },
+      "rdfs:label": "Kg. Ottos IV."
+    },
+    {
+      "@id": "_:Nbb362ed738a44556b9ecd72dfb4f85f7",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:O00001249"
+      },
+      "ps:P39": {
+        "@id": "ri:koenig"
+      },
+      "rdfs:label": "Kg. Ottos IV."
+    },
+    {
+      "@id": "_:N205d44f5e8a946f88c9cb44239487e3c",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:R00003121"
+      },
+      "ps:P39": {
+        "@id": "ri:koenig"
+      },
+      "rdfs:label": "Kg. Rudolfs"
+    },
+    {
+      "@id": "_:Nabbcdb34a3c6494c9349a345e158c162",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:K00000431"
+      },
+      "ps:P39": {
+        "@id": "ri:koenig"
+      },
+      "rdfs:label": "Kg. Karls IV."
+    },
+    {
+      "@id": "_:N2d5df6905a41483f939391b7fb1174e9",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:W00001405"
+      },
+      "ps:P39": {
+        "@id": "ri:koenig"
+      },
+      "rdfs:label": "Kg. Wenzels"
+    },
+    {
+      "@id": "_:N8d29205221014416ad3257ccc27391bf",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:K00000431"
+      },
+      "ps:P39": {
+        "@id": "ri:koenig"
+      },
+      "rdfs:label": "Kg. Karls IV."
+    },
+    {
+      "@id": "_:N738f8fa7b67e4f0cbe5444d54f13a7ab",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:H00001476"
+      },
+      "ps:P39": {
+        "@id": "ri:koenig"
+      },
+      "rdfs:label": "Kg. Heinrichs VII."
+    },
+    {
+      "@id": "_:N52d2d5c88acf4ee6855cbdc458b7a439",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:R00003121"
+      },
+      "ps:P39": {
+        "@id": "ri:koenig"
+      },
+      "rdfs:label": "Kg. Ruprechts"
+    },
+    {
+      "@id": "_:Na3a3a6194a70482aa1045344c679e5ec",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:K00000431"
+      },
+      "ps:P39": {
+        "@id": "ri:kaiser"
+      },
+      "rdfs:label": "K. Karls IV."
+    },
+    {
+      "@id": "_:N6f12659d176941d991c0ce802e499bac",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:K00000431"
+      },
+      "ps:P39": {
+        "@id": "ri:kaiser"
+      },
+      "rdfs:label": "K. Karls IV."
+    },
+    {
+      "@id": "_:Nae66257d57a44bee936bd14ef2cd1c0e",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:H00001476"
+      },
+      "ps:P39": {
+        "@id": "ri:koenig"
+      },
+      "rdfs:label": "Kg. Heinrichs VII."
+    }
+  ]
+}

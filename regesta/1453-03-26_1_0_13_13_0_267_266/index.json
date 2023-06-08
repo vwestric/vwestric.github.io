@@ -1,0 +1,123 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1453-03-26_1_0_13_13_0_267_266",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N9f5d97d7ef304bb686323f83aade2020"
+      }
+    },
+    {
+      "@id": "_:N9f5d97d7ef304bb686323f83aade2020",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N3f2c83ccf2cd479f998d34cd14729f1a"
+      },
+      "ps:P291": {
+        "@id": "_:N62ddca5d04ee4c20a81b012183c9637e"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N439bb34bf5764f5b918d1a4e2249e86e"
+        },
+        {
+          "@id": "_:N8dcac6dd25dd4cc38a5396843154f1a7"
+        },
+        {
+          "@id": "_:N564fe67b155d4e1493d10b9947f07280"
+        },
+        {
+          "@id": "_:Nae6cffe6d0a3491fa4b214b7a6eeae8e"
+        },
+        {
+          "@id": "_:N0d98a75b6c08457abf43719ee56ccbe2"
+        }
+      ]
+    },
+    {
+      "@id": "_:N62ddca5d04ee4c20a81b012183c9637e",
+      "https://schema.org#geo": {
+        "@id": "_:N294c99444fac47c7924d65f73f6270e1"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q131612"
+      },
+      "rdfs:label": "Wiener Neustadt"
+    },
+    {
+      "@id": "_:N294c99444fac47c7924d65f73f6270e1",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.813153",
+      "https://schema.org#longitude": "16.24444"
+    },
+    {
+      "@id": "_:N3f2c83ccf2cd479f998d34cd14729f1a",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1453-03-26"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1453-03-26"
+      }
+    },
+    {
+      "@id": "_:N439bb34bf5764f5b918d1a4e2249e86e",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:O00000599"
+      },
+      "ps:P39": {
+        "@id": "ri:koenig"
+      },
+      "rdfs:label": "Kg. Ladislaus"
+    },
+    {
+      "@id": "_:N8dcac6dd25dd4cc38a5396843154f1a7",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00000099"
+      },
+      "ps:P39": {
+        "@id": "ri:herzog"
+      },
+      "rdfs:label": "Hz. Wilhelms (III.) von Sachsen"
+    },
+    {
+      "@id": "_:N564fe67b155d4e1493d10b9947f07280",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00003138"
+      },
+      "rdfs:label": "Jörg von Seisenegg"
+    },
+    {
+      "@id": "_:Nae6cffe6d0a3491fa4b214b7a6eeae8e",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:U00000280"
+      },
+      "rdfs:label": "Hans Ungnad"
+    },
+    {
+      "@id": "_:N0d98a75b6c08457abf43719ee56ccbe2",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:R00002273"
+      },
+      "rdfs:label": "Hans von Rohrbach"
+    }
+  ]
+}

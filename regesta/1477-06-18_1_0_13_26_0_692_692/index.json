@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1477-06-18_1_0_13_26_0_692_692",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N621f7ddac699414282b1013469c41cb0"
+      }
+    },
+    {
+      "@id": "_:N621f7ddac699414282b1013469c41cb0",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N8ddb84611b2d4d1daffd66a791a0058f"
+      },
+      "ps:P291": {
+        "@id": "_:Nb462aaa72f9447f6b707571a144d3e94"
+      },
+      "ps:P3342": {
+        "@id": "_:Nc4bb8b214d9b4d679c891c0c157f8783"
+      }
+    },
+    {
+      "@id": "_:Nb462aaa72f9447f6b707571a144d3e94",
+      "https://schema.org#geo": {
+        "@id": "_:N381d5fbc436a4c2a88ca35e328b4e103"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q1741"
+      },
+      "rdfs:label": "Wien"
+    },
+    {
+      "@id": "_:N381d5fbc436a4c2a88ca35e328b4e103",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "48.20849",
+      "https://schema.org#longitude": "16.37208"
+    },
+    {
+      "@id": "_:N8ddb84611b2d4d1daffd66a791a0058f",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1477-06-18"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1477-06-18"
+      }
+    },
+    {
+      "@id": "_:Nc4bb8b214d9b4d679c891c0c157f8783",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:O00000901"
+      },
+      "ps:P39": {
+        "@id": "ri:bischof"
+      },
+      "rdfs:label": "Bf. Protas von Olmütz"
+    }
+  ]
+}

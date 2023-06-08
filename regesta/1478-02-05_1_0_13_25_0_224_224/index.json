@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1478-02-05_1_0_13_25_0_224_224",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N123ba7b99f84459cbb917b5ee9ea5287"
+      }
+    },
+    {
+      "@id": "_:N123ba7b99f84459cbb917b5ee9ea5287",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N55bea91c44484219a5a753001dbb3d3f"
+      },
+      "ps:P291": {
+        "@id": "_:N31622a7584204ebda79fb63ee1ddf90d"
+      },
+      "ps:P3342": {
+        "@id": "_:N8b4047c347314c579392877e49b9d7c9"
+      }
+    },
+    {
+      "@id": "_:N31622a7584204ebda79fb63ee1ddf90d",
+      "https://schema.org#geo": {
+        "@id": "_:N95dfa1c82b5f470a899e30fe02224a38"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q13298"
+      },
+      "rdfs:label": "Graz"
+    },
+    {
+      "@id": "_:N95dfa1c82b5f470a899e30fe02224a38",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.06667",
+      "https://schema.org#longitude": "15.45"
+    },
+    {
+      "@id": "_:N55bea91c44484219a5a753001dbb3d3f",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1478-02-05"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1478-02-05"
+      }
+    },
+    {
+      "@id": "_:N8b4047c347314c579392877e49b9d7c9",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:H00000397"
+      },
+      "ps:P39": {
+        "@id": "ri:bischof"
+      },
+      "rdfs:label": "Bf. Gebhard von Halberstadt"
+    }
+  ]
+}

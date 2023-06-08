@@ -1,0 +1,123 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1443-07-01_1_0_13_12_0_148_148",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Naf6809c4bfb949ec9b77c81761689d4d"
+      }
+    },
+    {
+      "@id": "_:Naf6809c4bfb949ec9b77c81761689d4d",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N0a99be89cf1544b18d26f01ca4664f1d"
+      },
+      "ps:P291": {
+        "@id": "_:N844c08c4403a44878af6d7e56ec9087a"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:Nbe09b292729848e0b55606d041c340ea"
+        },
+        {
+          "@id": "_:N0a5e8589987a47888a9c6410e827468b"
+        },
+        {
+          "@id": "_:N027e14c07aee4bcd9ec27b96d2de0740"
+        },
+        {
+          "@id": "_:N13062834587044ddb40e0204f672023f"
+        },
+        {
+          "@id": "_:N192ac977ae0d4dc58ce60fb793ef5ac1"
+        }
+      ]
+    },
+    {
+      "@id": "_:N844c08c4403a44878af6d7e56ec9087a",
+      "https://schema.org#geo": {
+        "@id": "_:N1c0f0f6c27d844ebb61c9cb7cdf6b3d9"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q1741"
+      },
+      "rdfs:label": "Wien"
+    },
+    {
+      "@id": "_:N1c0f0f6c27d844ebb61c9cb7cdf6b3d9",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "48.20849",
+      "https://schema.org#longitude": "16.37208"
+    },
+    {
+      "@id": "_:N0a99be89cf1544b18d26f01ca4664f1d",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1443-07-01"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1443-07-01"
+      }
+    },
+    {
+      "@id": "_:Nbe09b292729848e0b55606d041c340ea",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:O00000599"
+      },
+      "ps:P39": {
+        "@id": "ri:koenig"
+      },
+      "rdfs:label": "Kg. Ladislaus"
+    },
+    {
+      "@id": "_:N0a5e8589987a47888a9c6410e827468b",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00003529"
+      },
+      "ps:P39": {
+        "@id": "ri:kaiser"
+      },
+      "rdfs:label": "K. Sigmunds"
+    },
+    {
+      "@id": "_:N027e14c07aee4bcd9ec27b96d2de0740",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:R00002476"
+      },
+      "rdfs:label": "Ulrich von Rosenberg"
+    },
+    {
+      "@id": "_:N13062834587044ddb40e0204f672023f",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:W00000940"
+      },
+      "rdfs:label": "Konrad von Weinsberg"
+    },
+    {
+      "@id": "_:N192ac977ae0d4dc58ce60fb793ef5ac1",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:W00000940"
+      },
+      "rdfs:label": "Konrad von Weinsberg"
+    }
+  ]
+}

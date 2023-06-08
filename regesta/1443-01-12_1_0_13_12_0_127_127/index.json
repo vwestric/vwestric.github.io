@@ -1,0 +1,90 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1443-01-12_1_0_13_12_0_127_127",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N6d4a36906f9f4c18bf5aae04b7f4f828"
+      }
+    },
+    {
+      "@id": "_:N6d4a36906f9f4c18bf5aae04b7f4f828",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Nfbe154e5bf38495680294aa0bba5186d"
+      },
+      "ps:P291": {
+        "@id": "_:Nae75cfe8779a4147a3ff7899e309c3c2"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N898d534498364f41822baa866ee37caa"
+        },
+        {
+          "@id": "_:N91d483a895c34cc583b25fb7f48d0d18"
+        }
+      ]
+    },
+    {
+      "@id": "_:Nae75cfe8779a4147a3ff7899e309c3c2",
+      "https://schema.org#geo": {
+        "@id": "_:N77308e4cf6204f9e9eabcf0fdc55e33a"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q185541"
+      },
+      "rdfs:label": "Brixen"
+    },
+    {
+      "@id": "_:N77308e4cf6204f9e9eabcf0fdc55e33a",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "46.71644",
+      "https://schema.org#longitude": "11.65672"
+    },
+    {
+      "@id": "_:Nfbe154e5bf38495680294aa0bba5186d",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1443-01-12"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1443-01-12"
+      }
+    },
+    {
+      "@id": "_:N898d534498364f41822baa866ee37caa",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00000371"
+      },
+      "ps:P39": {
+        "@id": "ri:erzbischof"
+      },
+      "rdfs:label": "Eb. Friedrichs von Salzburg"
+    },
+    {
+      "@id": "_:N91d483a895c34cc583b25fb7f48d0d18",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00000582"
+      },
+      "ps:P39": {
+        "@id": "ri:herzog"
+      },
+      "rdfs:label": "Hz. Heinrich (IV.) von Bayern(-Landshut)"
+    }
+  ]
+}

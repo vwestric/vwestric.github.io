@@ -1,0 +1,159 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1474-08-09_3_0_13_17_0_287_285",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Ne639e9c75108409d9ed8946b054e4a7a"
+      }
+    },
+    {
+      "@id": "_:Ne639e9c75108409d9ed8946b054e4a7a",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Ndd0146db1d614f069c8499f3ddb10616"
+      },
+      "ps:P291": {
+        "@id": "_:N7068c8163990409488002e80487def5b"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N85eda7313f474dfd81ffdbc3c1e6f249"
+        },
+        {
+          "@id": "_:N0e25b11baf94457388fff9644a4a7d50"
+        },
+        {
+          "@id": "_:Nf5bd0acdd51c4d0ab9543392c99838fc"
+        },
+        {
+          "@id": "_:N0288d049f7ab4f08a5fae80ebe56ebc4"
+        },
+        {
+          "@id": "_:Nf3b0be5014d94dff94409b9883fcb005"
+        },
+        {
+          "@id": "_:Nd387ddda27074f3d947d75a0fbfa9385"
+        },
+        {
+          "@id": "_:N8508331d68fc4508ad67601d1c314269"
+        },
+        {
+          "@id": "_:Nec8c1921e45d46d2bd9738eeb38bd89c"
+        }
+      ]
+    },
+    {
+      "@id": "_:N7068c8163990409488002e80487def5b",
+      "https://schema.org#geo": {
+        "@id": "_:N92418b5f66d94137a71b26004d00fa65"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q2749"
+      },
+      "rdfs:label": "Augsburg"
+    },
+    {
+      "@id": "_:N92418b5f66d94137a71b26004d00fa65",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "48.37154",
+      "https://schema.org#longitude": "10.89851"
+    },
+    {
+      "@id": "_:Ndd0146db1d614f069c8499f3ddb10616",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1474-08-09"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1474-08-09"
+      }
+    },
+    {
+      "@id": "_:N85eda7313f474dfd81ffdbc3c1e6f249",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:O00000622"
+      },
+      "ps:P39": {
+        "@id": "ri:herzog"
+      },
+      "rdfs:label": "Hz. Sigmund von Österreich"
+    },
+    {
+      "@id": "_:N0e25b11baf94457388fff9644a4a7d50",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:M00001793"
+      },
+      "rdfs:label": "Georg von Metz"
+    },
+    {
+      "@id": "_:Nf5bd0acdd51c4d0ab9543392c99838fc",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:W00003114"
+      },
+      "rdfs:label": "Reinhard von Worms"
+    },
+    {
+      "@id": "_:N0288d049f7ab4f08a5fae80ebe56ebc4",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:Z00000640"
+      },
+      "ps:P39": {
+        "@id": "ri:pfalzgraf"
+      },
+      "rdfs:label": "Pfgf. Ludwig (I.) (von Zweibrücken-Veldenz)"
+    },
+    {
+      "@id": "_:Nf3b0be5014d94dff94409b9883fcb005",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:O00000427"
+      },
+      "rdfs:label": "Georg von Ochsenstein"
+    },
+    {
+      "@id": "_:Nd387ddda27074f3d947d75a0fbfa9385",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:L00001297"
+      },
+      "ps:P39": {
+        "@id": "ri:lic"
+      },
+      "rdfs:label": "Jakob von Lichtenberg"
+    },
+    {
+      "@id": "_:N8508331d68fc4508ad67601d1c314269",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:E00000172"
+      },
+      "rdfs:label": "Hans Eckbrecht von Dürckheim"
+    },
+    {
+      "@id": "_:Nec8c1921e45d46d2bd9738eeb38bd89c",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00003318"
+      },
+      "rdfs:label": "Konrad von Busenberg"
+    }
+  ]
+}

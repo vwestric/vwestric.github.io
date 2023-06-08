@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1487-11-14_2_0_13_7_0_11902_735",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N48e957eb5d384a5bba7c64e7ae4e7508"
+      }
+    },
+    {
+      "@id": "_:N48e957eb5d384a5bba7c64e7ae4e7508",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N8e01c3dc89854773a2ea4500664156ce"
+      },
+      "ps:P291": {
+        "@id": "_:N0940335a23e841ccb47689bd87c41293"
+      },
+      "ps:P3342": {
+        "@id": "_:N7765791440f949a6a713e8f56cf282c0"
+      }
+    },
+    {
+      "@id": "_:N0940335a23e841ccb47689bd87c41293",
+      "https://schema.org#geo": {
+        "@id": "_:N814667e8c38e44deba60cf8d126c2200"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q14859"
+      },
+      "rdfs:label": "Ansbach"
+    },
+    {
+      "@id": "_:N814667e8c38e44deba60cf8d126c2200",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "49.3",
+      "https://schema.org#longitude": "10.55"
+    },
+    {
+      "@id": "_:N8e01c3dc89854773a2ea4500664156ce",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1487-11-14"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1487-11-14"
+      }
+    },
+    {
+      "@id": "_:N7765791440f949a6a713e8f56cf282c0",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:J00000265"
+      },
+      "ps:P39": {
+        "@id": "ri:herzog"
+      },
+      "rdfs:label": "Hz. Wilhelm (IV.) von Jülich-Berg"
+    }
+  ]
+}

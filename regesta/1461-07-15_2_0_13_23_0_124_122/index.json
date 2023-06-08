@@ -1,0 +1,185 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1461-07-15_2_0_13_23_0_124_122",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Ne37b3c1531fe410683ca730b316ae556"
+      }
+    },
+    {
+      "@id": "_:Ne37b3c1531fe410683ca730b316ae556",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Nfd041e62f29c4d2096fe087cc31fefc2"
+      },
+      "ps:P291": {
+        "@id": "_:N4613c7eeb7884a26940aecfb0d63b775"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N4acc7daf39f14ce19fc3d4449b261e30"
+        },
+        {
+          "@id": "_:Nc43c578c68ec48f1ade217404c14f218"
+        },
+        {
+          "@id": "_:N9d54910294f14002a6d3a98b95b7927c"
+        },
+        {
+          "@id": "_:N247ea62b243043698f17aefb392588d1"
+        },
+        {
+          "@id": "_:N46639b4e640c46d5a5b8ca63f9277a4e"
+        },
+        {
+          "@id": "_:Nd42be591acd14280a22a0758214d7baa"
+        },
+        {
+          "@id": "_:N031dbc00be39431b867e73df9c33ed02"
+        },
+        {
+          "@id": "_:N8fa9118341994abfbf80a60719f1f430"
+        },
+        {
+          "@id": "_:Nd2ecf2fed0ba4763a29365b46e486532"
+        }
+      ]
+    },
+    {
+      "@id": "_:N4613c7eeb7884a26940aecfb0d63b775",
+      "https://schema.org#geo": {
+        "@id": "_:Nb1d6fc781d9f4153820d4a3b6694484b"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q13298"
+      },
+      "rdfs:label": "Graz"
+    },
+    {
+      "@id": "_:Nb1d6fc781d9f4153820d4a3b6694484b",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.06667",
+      "https://schema.org#longitude": "15.45"
+    },
+    {
+      "@id": "_:Nfd041e62f29c4d2096fe087cc31fefc2",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1461-07-15"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1461-07-15"
+      }
+    },
+    {
+      "@id": "_:N4acc7daf39f14ce19fc3d4449b261e30",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00002248"
+      },
+      "ps:P39": {
+        "@id": "ri:markgraf"
+      },
+      "rdfs:label": "Mgf. Albrecht von Brandenburg"
+    },
+    {
+      "@id": "_:Nc43c578c68ec48f1ade217404c14f218",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:W00003211"
+      },
+      "ps:P39": {
+        "@id": "ri:graf"
+      },
+      "rdfs:label": "Gf. Ulrich (V.) von Württemberg"
+    },
+    {
+      "@id": "_:N9d54910294f14002a6d3a98b95b7927c",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00000565"
+      },
+      "ps:P39": {
+        "@id": "ri:herzog"
+      },
+      "rdfs:label": "Hz. Ludwig (IX.) von Bayern (-Landshut)"
+    },
+    {
+      "@id": "_:N247ea62b243043698f17aefb392588d1",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:M00000274"
+      },
+      "ps:P39": {
+        "@id": "ri:erzbischof"
+      },
+      "rdfs:label": "Eb. Diether von Mainz"
+    },
+    {
+      "@id": "_:N46639b4e640c46d5a5b8ca63f9277a4e",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:K00001681"
+      },
+      "ps:P39": {
+        "@id": "ri:erzbischof"
+      },
+      "rdfs:label": "Eb. Dietrich von Köln"
+    },
+    {
+      "@id": "_:Nd42be591acd14280a22a0758214d7baa",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:T00001183"
+      },
+      "ps:P39": {
+        "@id": "ri:erzbischof"
+      },
+      "rdfs:label": "Eb. Johann von Trier"
+    },
+    {
+      "@id": "_:N031dbc00be39431b867e73df9c33ed02",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00002265"
+      },
+      "ps:P39": {
+        "@id": "ri:markgraf"
+      },
+      "rdfs:label": "Mgf. Friedrich (II.) von Brandenburg"
+    },
+    {
+      "@id": "_:N8fa9118341994abfbf80a60719f1f430",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00000587"
+      },
+      "rdfs:label": "Sigmund von Bayern (-München)"
+    },
+    {
+      "@id": "_:Nd2ecf2fed0ba4763a29365b46e486532",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00000075"
+      },
+      "ps:P39": {
+        "@id": "ri:markgraf"
+      },
+      "rdfs:label": "Mgf. Karl (I.) von Baden"
+    }
+  ]
+}

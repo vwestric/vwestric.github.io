@@ -1,0 +1,90 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1472-06-11_1_0_13_25_0_199_199",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N05da789025c244a3b86091e4451d1a67"
+      }
+    },
+    {
+      "@id": "_:N05da789025c244a3b86091e4451d1a67",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Nc9f6cbabcb474b97a7eb909cf78c9e41"
+      },
+      "ps:P291": {
+        "@id": "_:Nd3c1b2dddb854a63a13cff614df55502"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N5be22c03d19a4e0aa2353f2d6c9899a3"
+        },
+        {
+          "@id": "_:N4595933ef6b04411b5ec050bb7c34ef2"
+        }
+      ]
+    },
+    {
+      "@id": "_:Nd3c1b2dddb854a63a13cff614df55502",
+      "https://schema.org#geo": {
+        "@id": "_:N62c784e4b0dc41ebb0913d53ff1611f6"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q131612"
+      },
+      "rdfs:label": "Wiener Neustadt"
+    },
+    {
+      "@id": "_:N62c784e4b0dc41ebb0913d53ff1611f6",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.813153",
+      "https://schema.org#longitude": "16.24444"
+    },
+    {
+      "@id": "_:Nc9f6cbabcb474b97a7eb909cf78c9e41",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1472-06-11"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1472-06-11"
+      }
+    },
+    {
+      "@id": "_:N5be22c03d19a4e0aa2353f2d6c9899a3",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:M00000255"
+      },
+      "ps:P39": {
+        "@id": "ri:erzbischof"
+      },
+      "rdfs:label": "Eb. Adolfs von Mainz"
+    },
+    {
+      "@id": "_:N4595933ef6b04411b5ec050bb7c34ef2",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:P00000962"
+      },
+      "ps:P39": {
+        "@id": "ri:pfalzgraf"
+      },
+      "rdfs:label": "Pfgf. Friedrich (I.) bei Rhein"
+    }
+  ]
+}

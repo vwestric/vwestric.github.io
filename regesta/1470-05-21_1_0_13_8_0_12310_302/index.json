@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1470-05-21_1_0_13_8_0_12310_302",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N0416546c02154ae99786976736bab0d0"
+      }
+    },
+    {
+      "@id": "_:N0416546c02154ae99786976736bab0d0",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N8ca3cc37e757467ca1a09eb849da17fc"
+      },
+      "ps:P291": {
+        "@id": "_:N7c210b1968fe4751a9f7bc500cde237a"
+      },
+      "ps:P3342": {
+        "@id": "_:Nb7b4dcf411f449a5b4fe2daf7ba4df90"
+      }
+    },
+    {
+      "@id": "_:N7c210b1968fe4751a9f7bc500cde237a",
+      "https://schema.org#geo": {
+        "@id": "_:Nee18b725fd1d4cf58ec432e57e4c7605"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q164488"
+      },
+      "rdfs:label": "Völkermarkt"
+    },
+    {
+      "@id": "_:Nee18b725fd1d4cf58ec432e57e4c7605",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "46.66222",
+      "https://schema.org#longitude": "14.63444"
+    },
+    {
+      "@id": "_:N8ca3cc37e757467ca1a09eb849da17fc",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1470-05-21"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1470-05-21"
+      }
+    },
+    {
+      "@id": "_:Nb7b4dcf411f449a5b4fe2daf7ba4df90",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:M00000255"
+      },
+      "ps:P39": {
+        "@id": "ri:erzbischof"
+      },
+      "rdfs:label": "Eb. Adolf von Mainz"
+    }
+  ]
+}

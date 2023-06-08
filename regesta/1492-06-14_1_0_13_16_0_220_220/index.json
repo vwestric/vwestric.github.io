@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1492-06-14_1_0_13_16_0_220_220",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Nfec3b57b886449b6b312d003b0933720"
+      }
+    },
+    {
+      "@id": "_:Nfec3b57b886449b6b312d003b0933720",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N52a32e91f88c45a6a5b5002f90fb1b62"
+      },
+      "ps:P291": {
+        "@id": "_:N667129c407264107bf215e95ed8b6588"
+      },
+      "ps:P3342": {
+        "@id": "_:N334907ba55ae482a85ab16e12637ba56"
+      }
+    },
+    {
+      "@id": "_:N667129c407264107bf215e95ed8b6588",
+      "https://schema.org#geo": {
+        "@id": "_:Nbdf46ef82bb64b15ab70c78851825e64"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q41329"
+      },
+      "rdfs:label": "Linz"
+    },
+    {
+      "@id": "_:Nbdf46ef82bb64b15ab70c78851825e64",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "48.303056",
+      "https://schema.org#longitude": "14.290556"
+    },
+    {
+      "@id": "_:N52a32e91f88c45a6a5b5002f90fb1b62",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1492-06-14"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1492-06-14"
+      }
+    },
+    {
+      "@id": "_:N334907ba55ae482a85ab16e12637ba56",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:M00001687"
+      },
+      "ps:P39": {
+        "@id": "ri:bischof"
+      },
+      "rdfs:label": "Bf. (Thilo) von Merseburg"
+    }
+  ]
+}

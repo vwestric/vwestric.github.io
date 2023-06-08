@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1463-10-12_1_0_13_21_0_97_97",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N0c2aad464a7f4927a9977ea13d9a99bc"
+      }
+    },
+    {
+      "@id": "_:N0c2aad464a7f4927a9977ea13d9a99bc",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Ne9c3ba630b174395ae80550fb0a70771"
+      },
+      "ps:P291": {
+        "@id": "_:Nf7883cc4c157417c8995987e7f32d656"
+      },
+      "ps:P3342": {
+        "@id": "_:Nc1488ba317644c53966363c41527a8e3"
+      }
+    },
+    {
+      "@id": "_:Nf7883cc4c157417c8995987e7f32d656",
+      "https://schema.org#geo": {
+        "@id": "_:N5bd2905314dc4710a0f3eaf01bf090da"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q131612"
+      },
+      "rdfs:label": "Wiener Neustadt"
+    },
+    {
+      "@id": "_:N5bd2905314dc4710a0f3eaf01bf090da",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.813153",
+      "https://schema.org#longitude": "16.24444"
+    },
+    {
+      "@id": "_:Ne9c3ba630b174395ae80550fb0a70771",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1463-10-12"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1463-10-12"
+      }
+    },
+    {
+      "@id": "_:Nc1488ba317644c53966363c41527a8e3",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:P00001761"
+      },
+      "ps:P39": {
+        "@id": "ri:koenig"
+      },
+      "rdfs:label": "Kg. Kasimir (IV.) von Polen"
+    }
+  ]
+}

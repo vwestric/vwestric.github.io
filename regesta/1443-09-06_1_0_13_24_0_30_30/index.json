@@ -1,0 +1,90 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1443-09-06_1_0_13_24_0_30_30",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N7c12778d72864cdeb7d6e662ee7fc959"
+      }
+    },
+    {
+      "@id": "_:N7c12778d72864cdeb7d6e662ee7fc959",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N669e0fd8a78641a7b2a353406210a5fe"
+      },
+      "ps:P291": {
+        "@id": "_:N3985fb921ce046a893195c6a105a1f2d"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N9c68c627a2054fb88f21c210c650e547"
+        },
+        {
+          "@id": "_:Nee3211dd4796471c8b43519755d92cc7"
+        }
+      ]
+    },
+    {
+      "@id": "_:N3985fb921ce046a893195c6a105a1f2d",
+      "https://schema.org#geo": {
+        "@id": "_:N1e43838d129b4e8287c465f7502c5773"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q131612"
+      },
+      "rdfs:label": "Wiener Neustadt"
+    },
+    {
+      "@id": "_:N1e43838d129b4e8287c465f7502c5773",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.813153",
+      "https://schema.org#longitude": "16.24444"
+    },
+    {
+      "@id": "_:N669e0fd8a78641a7b2a353406210a5fe",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1443-09-06"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1443-09-06"
+      }
+    },
+    {
+      "@id": "_:N9c68c627a2054fb88f21c210c650e547",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:E00000740"
+      },
+      "ps:P39": {
+        "@id": "ri:hochmeister"
+      },
+      "rdfs:label": "Hochmeisters Konrad von Erlichshausen"
+    },
+    {
+      "@id": "_:Nee3211dd4796471c8b43519755d92cc7",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00003529"
+      },
+      "ps:P39": {
+        "@id": "ri:koenig"
+      },
+      "rdfs:label": "Kg. Sigmund"
+    }
+  ]
+}

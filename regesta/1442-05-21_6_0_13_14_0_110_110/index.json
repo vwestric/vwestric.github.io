@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1442-05-21_6_0_13_14_0_110_110",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Nfb1e847ed5fa4095928c030f11c1b564"
+      }
+    },
+    {
+      "@id": "_:Nfb1e847ed5fa4095928c030f11c1b564",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N7333d00f4c35408b8b3d396b99fa5752"
+      },
+      "ps:P291": {
+        "@id": "_:N07e9e4d9e0944e32991fa9b5fbf19b2d"
+      },
+      "ps:P3342": {
+        "@id": "_:N4d9ffc0a47e9415487965cd2fba74bd2"
+      }
+    },
+    {
+      "@id": "_:N07e9e4d9e0944e32991fa9b5fbf19b2d",
+      "https://schema.org#geo": {
+        "@id": "_:N038fce5fe9724b36be2d6fdccc034a7a"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q2090"
+      },
+      "rdfs:label": "Nürnberg"
+    },
+    {
+      "@id": "_:N038fce5fe9724b36be2d6fdccc034a7a",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "49.45421",
+      "https://schema.org#longitude": "11.07752"
+    },
+    {
+      "@id": "_:N7333d00f4c35408b8b3d396b99fa5752",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1442-05-21"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1442-05-21"
+      }
+    },
+    {
+      "@id": "_:N4d9ffc0a47e9415487965cd2fba74bd2",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:H00003207"
+      },
+      "ps:P39": {
+        "@id": "ri:buerger"
+      },
+      "rdfs:label": "Nürnberger Bürger Karl Holzschuher"
+    }
+  ]
+}

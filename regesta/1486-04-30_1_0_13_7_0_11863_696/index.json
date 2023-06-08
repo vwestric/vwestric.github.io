@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1486-04-30_1_0_13_7_0_11863_696",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N8994e772b2a244b28e7d5dd50df5358b"
+      }
+    },
+    {
+      "@id": "_:N8994e772b2a244b28e7d5dd50df5358b",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N799767858be54ea28cdf4988afbfe281"
+      },
+      "ps:P291": {
+        "@id": "_:Nfbc6cda2fac743ae9480e2ffcaa7880f"
+      },
+      "ps:P3342": {
+        "@id": "_:N34cf4a74a67243c99d3bee6faad8ae49"
+      }
+    },
+    {
+      "@id": "_:Nfbc6cda2fac743ae9480e2ffcaa7880f",
+      "https://schema.org#geo": {
+        "@id": "_:N341ab31a7ad744eea028fc47cca4fa72"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q365"
+      },
+      "rdfs:label": "Köln"
+    },
+    {
+      "@id": "_:N341ab31a7ad744eea028fc47cca4fa72",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "50.93333",
+      "https://schema.org#longitude": "6.95"
+    },
+    {
+      "@id": "_:N799767858be54ea28cdf4988afbfe281",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1486-04-30"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1486-04-30"
+      }
+    },
+    {
+      "@id": "_:N34cf4a74a67243c99d3bee6faad8ae49",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:M00000268"
+      },
+      "ps:P39": {
+        "@id": "ri:erzbischof"
+      },
+      "rdfs:label": "Eb. Berthold von Mainz"
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1459-06-22_2_0_13_4_0_9864_294",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N1cec45e5366144c195b83bd0bfa09d78"
+      }
+    },
+    {
+      "@id": "_:N1cec45e5366144c195b83bd0bfa09d78",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N49d60fd3923845179508cfff9f1bb807"
+      },
+      "ps:P291": {
+        "@id": "_:N8a4fff34a6f24aec94145ba2cc984de5"
+      },
+      "ps:P3342": {
+        "@id": "_:Nec09aebfb1524a3699c52bd3707fd02c"
+      }
+    },
+    {
+      "@id": "_:N8a4fff34a6f24aec94145ba2cc984de5",
+      "https://schema.org#geo": {
+        "@id": "_:Nb40ce0ec1ac746c9842af3d40254acff"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q1741"
+      },
+      "rdfs:label": "Wien"
+    },
+    {
+      "@id": "_:Nb40ce0ec1ac746c9842af3d40254acff",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "48.20849",
+      "https://schema.org#longitude": "16.37208"
+    },
+    {
+      "@id": "_:N49d60fd3923845179508cfff9f1bb807",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1459-06-22"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1459-06-22"
+      }
+    },
+    {
+      "@id": "_:Nec09aebfb1524a3699c52bd3707fd02c",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:E00001151"
+      },
+      "ps:P39": {
+        "@id": "ri:koenig"
+      },
+      "rdfs:label": "Eberhard von Eppstein-Königstein"
+    }
+  ]
+}

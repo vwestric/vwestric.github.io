@@ -1,0 +1,71 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1475-01-17_1_0_13_10_0_13368_408",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Nc27c89e5dac749b99463bc694a497aca"
+      }
+    },
+    {
+      "@id": "_:Nc27c89e5dac749b99463bc694a497aca",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N10a6f36bf7d7498499fc5b7fecf078f0"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N9bf519ff2be249789cb6e5f633d0e028"
+        },
+        {
+          "@id": "_:Na063b9c0be58426ea62f846d51c69ee7"
+        }
+      ]
+    },
+    {
+      "@id": "_:N10a6f36bf7d7498499fc5b7fecf078f0",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1475-01-17"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1475-01-17"
+      }
+    },
+    {
+      "@id": "_:N9bf519ff2be249789cb6e5f633d0e028",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:W00003368"
+      },
+      "ps:P39": {
+        "@id": "ri:bischof"
+      },
+      "rdfs:label": "Bf. Rudolf (II.) von Würzburg"
+    },
+    {
+      "@id": "_:Na063b9c0be58426ea62f846d51c69ee7",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00003253"
+      },
+      "ps:P39": {
+        "@id": "ri:herzog"
+      },
+      "rdfs:label": "Hz. (Karl) von Burgund"
+    }
+  ]
+}

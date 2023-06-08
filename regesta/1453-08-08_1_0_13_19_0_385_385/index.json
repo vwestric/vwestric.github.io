@@ -1,0 +1,98 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1453-08-08_1_0_13_19_0_385_385",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N40661fbf03a040f98b37a32e3c2c7718"
+      }
+    },
+    {
+      "@id": "_:N40661fbf03a040f98b37a32e3c2c7718",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N69c91dce56534e918ab163c30cf85c36"
+      },
+      "ps:P291": {
+        "@id": "_:N76522a71b4734251b538462b2862c83d"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N310181a7d49b46db9e3e385f05ae6938"
+        },
+        {
+          "@id": "_:N40b85550f8d24106aa4805630b99fa85"
+        },
+        {
+          "@id": "_:N105fdb65ebed481b94d9a144fdf7ebba"
+        }
+      ]
+    },
+    {
+      "@id": "_:N76522a71b4734251b538462b2862c83d",
+      "https://schema.org#geo": {
+        "@id": "_:N22b251af121a424e82865d0410bf2682"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q13298"
+      },
+      "rdfs:label": "Graz"
+    },
+    {
+      "@id": "_:N22b251af121a424e82865d0410bf2682",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.06667",
+      "https://schema.org#longitude": "15.45"
+    },
+    {
+      "@id": "_:N69c91dce56534e918ab163c30cf85c36",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1453-08-08"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1453-08-08"
+      }
+    },
+    {
+      "@id": "_:N310181a7d49b46db9e3e385f05ae6938",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:M00000396"
+      },
+      "rdfs:label": "Martin Mair"
+    },
+    {
+      "@id": "_:N40b85550f8d24106aa4805630b99fa85",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:P00001110"
+      },
+      "rdfs:label": "Sebald Pfinzing d. Ä."
+    },
+    {
+      "@id": "_:N105fdb65ebed481b94d9a144fdf7ebba",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:P00000962"
+      },
+      "ps:P39": {
+        "@id": "ri:pfalzgraf"
+      },
+      "rdfs:label": "Pfgf. Friedrich (I.) bei Rhein"
+    }
+  ]
+}

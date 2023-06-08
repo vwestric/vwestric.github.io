@@ -1,0 +1,104 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1487-07-23_1_0_13_11_0_570_570",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Nab7fb2e8d1b54ecfb19305fcc272689a"
+      }
+    },
+    {
+      "@id": "_:Nab7fb2e8d1b54ecfb19305fcc272689a",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Nd791de18b11347759919be4abd063d9d"
+      },
+      "ps:P291": {
+        "@id": "_:N48764b684f0149b98a3381ef71679f54"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N289a33bc06254ca38db5053e41c33c79"
+        },
+        {
+          "@id": "_:N7587638141754dd5a1adafeae8793d86"
+        },
+        {
+          "@id": "_:N8901afdbfbf4405db8b5c037d271787d"
+        }
+      ]
+    },
+    {
+      "@id": "_:N48764b684f0149b98a3381ef71679f54",
+      "https://schema.org#geo": {
+        "@id": "_:N257863b28aec44378933aa1c75603514"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q2090"
+      },
+      "rdfs:label": "Nürnberg"
+    },
+    {
+      "@id": "_:N257863b28aec44378933aa1c75603514",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "49.45421",
+      "https://schema.org#longitude": "11.07752"
+    },
+    {
+      "@id": "_:Nd791de18b11347759919be4abd063d9d",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1487-07-23"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1487-07-23"
+      }
+    },
+    {
+      "@id": "_:N289a33bc06254ca38db5053e41c33c79",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00000064"
+      },
+      "ps:P39": {
+        "@id": "ri:herzog"
+      },
+      "rdfs:label": "Hz. Albrecht von Sachsen"
+    },
+    {
+      "@id": "_:N7587638141754dd5a1adafeae8793d86",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:U00000212"
+      },
+      "ps:P39": {
+        "@id": "ri:koenig"
+      },
+      "rdfs:label": "Kg. Matthias von Ungarn"
+    },
+    {
+      "@id": "_:N8901afdbfbf4405db8b5c037d271787d",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:K00001692"
+      },
+      "ps:P39": {
+        "@id": "ri:erzbischof"
+      },
+      "rdfs:label": "Eb. Hermann (IV.) von Köln"
+    }
+  ]
+}

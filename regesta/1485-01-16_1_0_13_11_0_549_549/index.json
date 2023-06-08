@@ -1,0 +1,101 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1485-01-16_1_0_13_11_0_549_549",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N45381b6f157e438e8092f4ade8a73558"
+      }
+    },
+    {
+      "@id": "_:N45381b6f157e438e8092f4ade8a73558",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Na83e8d4fc2a54efe8d47f7fb3257b871"
+      },
+      "ps:P291": {
+        "@id": "_:N9384aee9c02f45e1bde7eee07ab6f151"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:Na809640909ba4ba4815b235a6b87780d"
+        },
+        {
+          "@id": "_:Na83f82804b6d461a81ce544d3e2ca4e4"
+        },
+        {
+          "@id": "_:Nc36b0ea6717a4cacbdee0096511c82b3"
+        }
+      ]
+    },
+    {
+      "@id": "_:N9384aee9c02f45e1bde7eee07ab6f151",
+      "https://schema.org#geo": {
+        "@id": "_:Nb57e8ec8796445239459652d1ff76b5f"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q41329"
+      },
+      "rdfs:label": "Linz"
+    },
+    {
+      "@id": "_:Nb57e8ec8796445239459652d1ff76b5f",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "48.303056",
+      "https://schema.org#longitude": "14.290556"
+    },
+    {
+      "@id": "_:Na83e8d4fc2a54efe8d47f7fb3257b871",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1485-01-16"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1485-01-16"
+      }
+    },
+    {
+      "@id": "_:Na809640909ba4ba4815b235a6b87780d",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00000064"
+      },
+      "ps:P39": {
+        "@id": "ri:herzog"
+      },
+      "rdfs:label": "Hz. Albrecht von Sachsen"
+    },
+    {
+      "@id": "_:Na83f82804b6d461a81ce544d3e2ca4e4",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:M00000583"
+      },
+      "rdfs:label": "Volrad (III.) von Mansfeld"
+    },
+    {
+      "@id": "_:Nc36b0ea6717a4cacbdee0096511c82b3",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00000064"
+      },
+      "ps:P39": {
+        "@id": "ri:herzog"
+      },
+      "rdfs:label": "Hz. Albrecht von Sachsen"
+    }
+  ]
+}

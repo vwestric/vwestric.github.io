@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1475-10-31_1_0_13_23_0_626_623",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N3ea73b78d1e748f39c312ca58f8df7a3"
+      }
+    },
+    {
+      "@id": "_:N3ea73b78d1e748f39c312ca58f8df7a3",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N7580954fb6274c1c959c7538bbc96a39"
+      },
+      "ps:P291": {
+        "@id": "_:Nbabc18d250b94c5c996f1f6b2c95d7ef"
+      },
+      "ps:P3342": {
+        "@id": "_:N4e50867c8fd64e5e99fd717285438cfe"
+      }
+    },
+    {
+      "@id": "_:Nbabc18d250b94c5c996f1f6b2c95d7ef",
+      "https://schema.org#geo": {
+        "@id": "_:Na51a5b2904ea4c6aa005a6d4860c4a3c"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q489902"
+      },
+      "rdfs:label": "Nördlingen"
+    },
+    {
+      "@id": "_:Na51a5b2904ea4c6aa005a6d4860c4a3c",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "48.85122",
+      "https://schema.org#longitude": "10.48868"
+    },
+    {
+      "@id": "_:N7580954fb6274c1c959c7538bbc96a39",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1475-10-31"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1475-10-31"
+      }
+    },
+    {
+      "@id": "_:N4e50867c8fd64e5e99fd717285438cfe",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00003679"
+      },
+      "ps:P39": {
+        "@id": "ri:papst"
+      },
+      "rdfs:label": "Papst (Sixtus IV.)"
+    }
+  ]
+}

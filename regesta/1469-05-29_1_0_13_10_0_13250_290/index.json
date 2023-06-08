@@ -1,0 +1,87 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1469-05-29_1_0_13_10_0_13250_290",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N3862106ab1144da88d2c672c30cd8f37"
+      }
+    },
+    {
+      "@id": "_:N3862106ab1144da88d2c672c30cd8f37",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Ned08b31272ed41958776223a072511ec"
+      },
+      "ps:P291": {
+        "@id": "_:N8f0e1df174734352867595574d230dc0"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N33d8c019fd56440dab701e4934a4e16b"
+        },
+        {
+          "@id": "_:N7377a01ff03d475ea65fe03348984909"
+        }
+      ]
+    },
+    {
+      "@id": "_:N8f0e1df174734352867595574d230dc0",
+      "https://schema.org#geo": {
+        "@id": "_:N9a8db35e9e0e43119b81716e26d01015"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q13298"
+      },
+      "rdfs:label": "Graz"
+    },
+    {
+      "@id": "_:N9a8db35e9e0e43119b81716e26d01015",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.06667",
+      "https://schema.org#longitude": "15.45"
+    },
+    {
+      "@id": "_:Ned08b31272ed41958776223a072511ec",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1469-05-29"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1469-05-29"
+      }
+    },
+    {
+      "@id": "_:N33d8c019fd56440dab701e4934a4e16b",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00000065"
+      },
+      "ps:P39": {
+        "@id": "ri:kurfuerst"
+      },
+      "rdfs:label": "Kf. Ernst von Sachsen"
+    },
+    {
+      "@id": "_:N7377a01ff03d475ea65fe03348984909",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00001825"
+      },
+      "rdfs:label": "Georg von Podiebrad"
+    }
+  ]
+}

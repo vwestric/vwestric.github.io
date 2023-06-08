@@ -1,0 +1,68 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1472-08-25_1_0_13_27_0_164_164",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N9a598e7ee1684a939f41ce69641e3e3c"
+      }
+    },
+    {
+      "@id": "_:N9a598e7ee1684a939f41ce69641e3e3c",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Nff91f7745c3f4afe92f27bbdc59a6988"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:Na1f54958435f4013a9b5ee21092dc1f9"
+        },
+        {
+          "@id": "_:Nd745413940ee47c39e1804924e3c2767"
+        }
+      ]
+    },
+    {
+      "@id": "_:Nff91f7745c3f4afe92f27bbdc59a6988",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1472-08-25"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1472-08-25"
+      }
+    },
+    {
+      "@id": "_:Na1f54958435f4013a9b5ee21092dc1f9",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:F00001201"
+      },
+      "rdfs:label": "Jacob Fretter aus Hallein"
+    },
+    {
+      "@id": "_:Nd745413940ee47c39e1804924e3c2767",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00000354"
+      },
+      "ps:P39": {
+        "@id": "ri:erzbischof"
+      },
+      "rdfs:label": "Eb. Bernhards von Salzburg"
+    }
+  ]
+}

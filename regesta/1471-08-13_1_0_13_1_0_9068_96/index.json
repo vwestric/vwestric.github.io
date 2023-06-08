@@ -1,0 +1,90 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1471-08-13_1_0_13_1_0_9068_96",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N653dd2a4dce04620a17ae36483d0dd45"
+      }
+    },
+    {
+      "@id": "_:N653dd2a4dce04620a17ae36483d0dd45",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N21f809dac50243679131686cef183aea"
+      },
+      "ps:P291": {
+        "@id": "_:N98d1a3ee560f4038921e052b588bbae6"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N35211e2c3ce04cbf848342ec4c2bcde4"
+        },
+        {
+          "@id": "_:N4f2d0a34ec054aa7b10ceb2b35459955"
+        }
+      ]
+    },
+    {
+      "@id": "_:N98d1a3ee560f4038921e052b588bbae6",
+      "https://schema.org#geo": {
+        "@id": "_:N69bde13391dd43208a7bd0c6eadf43d4"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q2978"
+      },
+      "rdfs:label": "Regensburg"
+    },
+    {
+      "@id": "_:N69bde13391dd43208a7bd0c6eadf43d4",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "49.0054",
+      "https://schema.org#longitude": "12.0606"
+    },
+    {
+      "@id": "_:N21f809dac50243679131686cef183aea",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1471-08-13"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1471-08-13"
+      }
+    },
+    {
+      "@id": "_:N35211e2c3ce04cbf848342ec4c2bcde4",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:N00000104"
+      },
+      "ps:P39": {
+        "@id": "ri:graf"
+      },
+      "rdfs:label": "Gf. Johann von Nassau"
+    },
+    {
+      "@id": "_:N4f2d0a34ec054aa7b10ceb2b35459955",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00002248"
+      },
+      "ps:P39": {
+        "@id": "ri:markgraf"
+      },
+      "rdfs:label": "Mgf. Albrecht von Brandenburg"
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1488-11-17_4_0_13_9_0_12937_395",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N4f9dd963a21e4bc2ad43aa83e66f402d"
+      }
+    },
+    {
+      "@id": "_:N4f9dd963a21e4bc2ad43aa83e66f402d",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Nb0219836fe774f429cda78b995955c0e"
+      },
+      "ps:P291": {
+        "@id": "_:Naf992ab04faf471f9a59da8a1ea3adc2"
+      },
+      "ps:P3342": {
+        "@id": "_:N425a1ed9300e44b6a9ee5a97f7c261fb"
+      }
+    },
+    {
+      "@id": "_:Naf992ab04faf471f9a59da8a1ea3adc2",
+      "https://schema.org#geo": {
+        "@id": "_:N5e53edd4f8414aa0be719fae05df233f"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q523273"
+      },
+      "rdfs:label": "Bacharach"
+    },
+    {
+      "@id": "_:N5e53edd4f8414aa0be719fae05df233f",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "50.05725",
+      "https://schema.org#longitude": "7.76948"
+    },
+    {
+      "@id": "_:Nb0219836fe774f429cda78b995955c0e",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1488-11-17"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1488-11-17"
+      }
+    },
+    {
+      "@id": "_:N425a1ed9300e44b6a9ee5a97f7c261fb",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:T00001183"
+      },
+      "ps:P39": {
+        "@id": "ri:erzbischof"
+      },
+      "rdfs:label": "Eb. Johann von Trier"
+    }
+  ]
+}

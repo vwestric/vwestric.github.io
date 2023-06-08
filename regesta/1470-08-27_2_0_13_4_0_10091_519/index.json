@@ -1,0 +1,71 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1470-08-27_2_0_13_4_0_10091_519",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N25debff8fc494d5da53d5c55bbd10e38"
+      }
+    },
+    {
+      "@id": "_:N25debff8fc494d5da53d5c55bbd10e38",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N5c4a9147d69b4a9eba83de778ded73a4"
+      },
+      "ps:P291": {
+        "@id": "_:N95dfb8c6a3bd480e8338579beac03bd6"
+      },
+      "ps:P3342": {
+        "@id": "_:N257569053a4344348a9d5e070546db08"
+      }
+    },
+    {
+      "@id": "_:N95dfb8c6a3bd480e8338579beac03bd6",
+      "https://schema.org#geo": {
+        "@id": "_:N84e807d73a3f48f1909add6de105dda2"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q13298"
+      },
+      "rdfs:label": "Graz"
+    },
+    {
+      "@id": "_:N84e807d73a3f48f1909add6de105dda2",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.06667",
+      "https://schema.org#longitude": "15.45"
+    },
+    {
+      "@id": "_:N5c4a9147d69b4a9eba83de778ded73a4",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1470-08-27"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1470-08-27"
+      }
+    },
+    {
+      "@id": "_:N257569053a4344348a9d5e070546db08",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:W00000996"
+      },
+      "rdfs:label": "Konrad Weiß"
+    }
+  ]
+}

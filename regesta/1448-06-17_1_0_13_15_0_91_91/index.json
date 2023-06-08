@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1448-06-17_1_0_13_15_0_91_91",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Na2ba102b88b54c2da68ded19621e922d"
+      }
+    },
+    {
+      "@id": "_:Na2ba102b88b54c2da68ded19621e922d",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N93e8d8184e734bfd81af8a2fef609d50"
+      },
+      "ps:P291": {
+        "@id": "_:N6b755afe82c94659a31e17f1f2100ca7"
+      },
+      "ps:P3342": {
+        "@id": "_:Nbe91f4c56d4a482f9ff8ec6a50036367"
+      }
+    },
+    {
+      "@id": "_:N6b755afe82c94659a31e17f1f2100ca7",
+      "https://schema.org#geo": {
+        "@id": "_:Nd67aa2acbe844cb9954775aad4d94762"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q13298"
+      },
+      "rdfs:label": "Graz"
+    },
+    {
+      "@id": "_:Nd67aa2acbe844cb9954775aad4d94762",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.06667",
+      "https://schema.org#longitude": "15.45"
+    },
+    {
+      "@id": "_:N93e8d8184e734bfd81af8a2fef609d50",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1448-06-17"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1448-06-17"
+      }
+    },
+    {
+      "@id": "_:Nbe91f4c56d4a482f9ff8ec6a50036367",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:R00000840"
+      },
+      "ps:P39": {
+        "@id": "ri:bischof"
+      },
+      "rdfs:label": "Bf. Friedrich von Regensburg"
+    }
+  ]
+}

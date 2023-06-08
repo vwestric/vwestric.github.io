@@ -1,0 +1,60 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1462-02-19_1_0_13_23_0_232_229",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N13216e605dd640f881aadea0d77677f0"
+      }
+    },
+    {
+      "@id": "_:N13216e605dd640f881aadea0d77677f0",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Nc35d7f61698d41f3ae910d047e8015bd"
+      },
+      "ps:P3342": {
+        "@id": "_:N92c63d22229b4ad7a1323d1d61158c10"
+      }
+    },
+    {
+      "@id": "_:Nc35d7f61698d41f3ae910d047e8015bd",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1462-02-19"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1462-02-19"
+      }
+    },
+    {
+      "@id": "_:N92c63d22229b4ad7a1323d1d61158c10",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:W00003211"
+      },
+      "ps:P39": [
+        {
+          "@id": "ri:hauptmann"
+        },
+        {
+          "@id": "ri:graf"
+        }
+      ],
+      "rdfs:label": "Hauptmann Gf. Ulrich (V.) von Württemberg"
+    }
+  ]
+}

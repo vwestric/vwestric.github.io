@@ -1,0 +1,60 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1475-05-21_2_0_13_7_0_11638_472",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Nce77d133b8a84f2eb0052ecadbec5035"
+      }
+    },
+    {
+      "@id": "_:Nce77d133b8a84f2eb0052ecadbec5035",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Nd086c9cb2a3546bdb5f69077b3798116"
+      },
+      "ps:P291": {
+        "@id": "_:Neef1a89c615743db8e46d5b439fec88b"
+      }
+    },
+    {
+      "@id": "_:Neef1a89c615743db8e46d5b439fec88b",
+      "https://schema.org#geo": {
+        "@id": "_:Nd56c8864997c4eb491a7d47fc31f73b3"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q219964"
+      },
+      "rdfs:label": "im kaiserlichen Feldlager bei Zons"
+    },
+    {
+      "@id": "_:Nd56c8864997c4eb491a7d47fc31f73b3",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "51.121944",
+      "https://schema.org#longitude": "6.842778"
+    },
+    {
+      "@id": "_:Nd086c9cb2a3546bdb5f69077b3798116",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1475-05-21"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1475-05-21"
+      }
+    }
+  ]
+}

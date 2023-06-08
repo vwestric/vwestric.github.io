@@ -1,0 +1,104 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1470-12-12_2_0_13_20_0_170_170",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N0bb5af96f38844758c73cf2756cfd1f5"
+      }
+    },
+    {
+      "@id": "_:N0bb5af96f38844758c73cf2756cfd1f5",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Ne4f420be8b4f4b2bb5a06c80121aff1a"
+      },
+      "ps:P291": {
+        "@id": "_:N8c2bd329b0de4d0eb46bf2e7b5cd0a7d"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N4e4c055f842f4c6db203df98c57722dc"
+        },
+        {
+          "@id": "_:N97f90d43de944cde8c9fb3f6058a75d3"
+        },
+        {
+          "@id": "_:N2b97e20bd4244e6db0c2930c38ee6ae3"
+        }
+      ]
+    },
+    {
+      "@id": "_:N8c2bd329b0de4d0eb46bf2e7b5cd0a7d",
+      "https://schema.org#geo": {
+        "@id": "_:N42d94dbe6e964205b9279fea6114617f"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q13298"
+      },
+      "rdfs:label": "Graz"
+    },
+    {
+      "@id": "_:N42d94dbe6e964205b9279fea6114617f",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.06667",
+      "https://schema.org#longitude": "15.45"
+    },
+    {
+      "@id": "_:Ne4f420be8b4f4b2bb5a06c80121aff1a",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1470-12-12"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1470-12-12"
+      }
+    },
+    {
+      "@id": "_:N4e4c055f842f4c6db203df98c57722dc",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00002248"
+      },
+      "ps:P39": {
+        "@id": "ri:kurfuerst"
+      },
+      "rdfs:label": "Kf. Albrecht von Brandenburg"
+    },
+    {
+      "@id": "_:N97f90d43de944cde8c9fb3f6058a75d3",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00003529"
+      },
+      "ps:P39": {
+        "@id": "ri:koenig"
+      },
+      "rdfs:label": "Kg. Sigmund"
+    },
+    {
+      "@id": "_:N2b97e20bd4244e6db0c2930c38ee6ae3",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00002248"
+      },
+      "ps:P39": {
+        "@id": "ri:kurfuerst"
+      },
+      "rdfs:label": "Kf. Friedrich (I.) von Brandenburg"
+    }
+  ]
+}

@@ -1,0 +1,162 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1441-06-26_1_0_13_4_0_9581_11",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N339b3112444d4d5580b5f51b022a82e6"
+      }
+    },
+    {
+      "@id": "_:N339b3112444d4d5580b5f51b022a82e6",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Nd18d1602ba564e569627ab9136f23655"
+      },
+      "ps:P291": {
+        "@id": "_:N61c1e378f7af4c4a803edfef317f22e0"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:Nb8b43ba9eaf64a828dc85b0d7aaca83f"
+        },
+        {
+          "@id": "_:N812ca6b295744b1ab5cc233b79158f52"
+        },
+        {
+          "@id": "_:Na3dad3023bf34823a167b57dccebfb63"
+        },
+        {
+          "@id": "_:Nbf2f1e67b14341498a5661a923922cd3"
+        },
+        {
+          "@id": "_:Nbd7ededbe8af42c78314c05ff185ca7e"
+        },
+        {
+          "@id": "_:N423757a8c8f14ec18c36defe55848e64"
+        },
+        {
+          "@id": "_:Ne77b4648c1f949a88d94c926b146ac2d"
+        },
+        {
+          "@id": "_:N231a4329e2274258a78aaf9136281834"
+        }
+      ]
+    },
+    {
+      "@id": "_:N61c1e378f7af4c4a803edfef317f22e0",
+      "https://schema.org#geo": {
+        "@id": "_:Nd4dbfcc5e092440085899ae6f80b9016"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q1741"
+      },
+      "rdfs:label": "Wien"
+    },
+    {
+      "@id": "_:Nd4dbfcc5e092440085899ae6f80b9016",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "48.20849",
+      "https://schema.org#longitude": "16.37208"
+    },
+    {
+      "@id": "_:Nd18d1602ba564e569627ab9136f23655",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1441-06-26"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1441-06-26"
+      }
+    },
+    {
+      "@id": "_:Nb8b43ba9eaf64a828dc85b0d7aaca83f",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:K00000431"
+      },
+      "ps:P39": {
+        "@id": "ri:kaiser"
+      },
+      "rdfs:label": "K. Karl IV."
+    },
+    {
+      "@id": "_:N812ca6b295744b1ab5cc233b79158f52",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00003529"
+      },
+      "ps:P39": {
+        "@id": "ri:kaiser"
+      },
+      "rdfs:label": "K. Sigmunds"
+    },
+    {
+      "@id": "_:Na3dad3023bf34823a167b57dccebfb63",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:M00000277"
+      },
+      "ps:P39": {
+        "@id": "ri:erzbischof"
+      },
+      "rdfs:label": "Eb. Dietrich von Mainz"
+    },
+    {
+      "@id": "_:Nbf2f1e67b14341498a5661a923922cd3",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:E00001166"
+      },
+      "rdfs:label": "Gottfried von Eppstein"
+    },
+    {
+      "@id": "_:Nbd7ededbe8af42c78314c05ff185ca7e",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:E00001151"
+      },
+      "rdfs:label": "Eberhard von Eppstein"
+    },
+    {
+      "@id": "_:N423757a8c8f14ec18c36defe55848e64",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:E00001151"
+      },
+      "ps:P39": {
+        "@id": "ri:koenig"
+      },
+      "rdfs:label": "Eberhard von Eppstein-Königstein"
+    },
+    {
+      "@id": "_:Ne77b4648c1f949a88d94c926b146ac2d",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:I00000279"
+      },
+      "rdfs:label": "Diether von Isenburg"
+    },
+    {
+      "@id": "_:N231a4329e2274258a78aaf9136281834",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:I00000279"
+      },
+      "rdfs:label": "Diether von Isenburg-Büdingen"
+    }
+  ]
+}

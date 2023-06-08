@@ -1,0 +1,87 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1474-10-17_1_0_13_3_0_9495_127",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N1273c5574e2240b89cfc395602e34a33"
+      }
+    },
+    {
+      "@id": "_:N1273c5574e2240b89cfc395602e34a33",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N254969775cc24ea88bb960b13edefe68"
+      },
+      "ps:P291": {
+        "@id": "_:N02151c24e1b44db4968cbf4ca0d927b1"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:Nb8bc196e011b47db933359498a6e193e"
+        },
+        {
+          "@id": "_:N3ebdd28316a04a5ea98b92997606ec58"
+        }
+      ]
+    },
+    {
+      "@id": "_:N02151c24e1b44db4968cbf4ca0d927b1",
+      "https://schema.org#geo": {
+        "@id": "_:N4b3721d8f8fb43b5bc8713258afc8635"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q2999"
+      },
+      "rdfs:label": "Würzburg"
+    },
+    {
+      "@id": "_:N4b3721d8f8fb43b5bc8713258afc8635",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "49.79391",
+      "https://schema.org#longitude": "9.95121"
+    },
+    {
+      "@id": "_:N254969775cc24ea88bb960b13edefe68",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1474-10-17"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1474-10-17"
+      }
+    },
+    {
+      "@id": "_:Nb8bc196e011b47db933359498a6e193e",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:H00000634"
+      },
+      "rdfs:label": "Philipp d. J. von Hanau"
+    },
+    {
+      "@id": "_:N3ebdd28316a04a5ea98b92997606ec58",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00003253"
+      },
+      "ps:P39": {
+        "@id": "ri:herzog"
+      },
+      "rdfs:label": "Hz. Karls von Burgund"
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1440-01-07_1_0_13_25_0_5_5",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Nf99c08cd229c46f1af7987c16f6f701b"
+      }
+    },
+    {
+      "@id": "_:Nf99c08cd229c46f1af7987c16f6f701b",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N27f7bd21fe1041259182cba6d1da20a5"
+      },
+      "ps:P291": {
+        "@id": "_:N5a55493a0dff4cd088301f4cc13858dc"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N535e079df5a7456685146874a3e1be5c"
+        },
+        {
+          "@id": "_:N8dd21c6844b6484a8ae2c6ffc9907d51"
+        }
+      ]
+    },
+    {
+      "@id": "_:N5a55493a0dff4cd088301f4cc13858dc",
+      "https://schema.org#geo": {
+        "@id": "_:N68db5dccb6ac47f39d88038048351a37"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q131612"
+      },
+      "rdfs:label": "Wiener Neustadt"
+    },
+    {
+      "@id": "_:N68db5dccb6ac47f39d88038048351a37",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.813153",
+      "https://schema.org#longitude": "16.24444"
+    },
+    {
+      "@id": "_:N27f7bd21fe1041259182cba6d1da20a5",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1440-01-07"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1440-01-07"
+      }
+    },
+    {
+      "@id": "_:N535e079df5a7456685146874a3e1be5c",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:A00001569"
+      },
+      "ps:P39": {
+        "@id": "ri:bischof"
+      },
+      "rdfs:label": "Bf. Peter von Augsburg"
+    },
+    {
+      "@id": "_:N8dd21c6844b6484a8ae2c6ffc9907d51",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:C00000330"
+      },
+      "ps:P39": {
+        "@id": "ri:bischof"
+      },
+      "rdfs:label": "Bf. Silvester von Chiemsee"
+    }
+  ]
+}

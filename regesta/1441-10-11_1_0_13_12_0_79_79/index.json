@@ -1,0 +1,82 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1441-10-11_1_0_13_12_0_79_79",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N308e506567184a85a13388a4b5e20386"
+      }
+    },
+    {
+      "@id": "_:N308e506567184a85a13388a4b5e20386",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Ne6c1d748e5bf4d69b462d85e5668e660"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:Nf680fae3455f4e5b9ea05787c06b4953"
+        },
+        {
+          "@id": "_:N1e6e7ab0ffed4ee1b371d215b7c95666"
+        },
+        {
+          "@id": "_:Necb2358408ec4e77ad7e7f083cac3fdb"
+        }
+      ]
+    },
+    {
+      "@id": "_:Ne6c1d748e5bf4d69b462d85e5668e660",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1441-10-11"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1441-10-11"
+      }
+    },
+    {
+      "@id": "_:Nf680fae3455f4e5b9ea05787c06b4953",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:O00000599"
+      },
+      "ps:P39": {
+        "@id": "ri:koenig"
+      },
+      "rdfs:label": "Kg. Ladislaus"
+    },
+    {
+      "@id": "_:N1e6e7ab0ffed4ee1b371d215b7c95666",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:R00002476"
+      },
+      "rdfs:label": "Ulrich von Rosenberg"
+    },
+    {
+      "@id": "_:Necb2358408ec4e77ad7e7f083cac3fdb",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:A00000457"
+      },
+      "ps:P39": {
+        "@id": "ri:koenig"
+      },
+      "rdfs:label": "Kg. Albrecht (II.)"
+    }
+  ]
+}

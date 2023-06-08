@@ -1,0 +1,71 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:ee5129b6-d254-43e1-b8db-0962ad1538cb",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N0bf5f824f10a48f999ad7bd6d2cbfc4b"
+      }
+    },
+    {
+      "@id": "_:N0bf5f824f10a48f999ad7bd6d2cbfc4b",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Nd72df1a1882840108759071734036d4e"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N38d9311e1c264bb2ac1bc52ea1b34869"
+        },
+        {
+          "@id": "_:Nc177b43c0c0f4a9d9dfdf67795b3128f"
+        }
+      ]
+    },
+    {
+      "@id": "_:Nd72df1a1882840108759071734036d4e",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1443-01-01"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1443-10-21"
+      }
+    },
+    {
+      "@id": "_:N38d9311e1c264bb2ac1bc52ea1b34869",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00002265"
+      },
+      "ps:P39": {
+        "@id": "ri:kurfuerst"
+      },
+      "rdfs:label": "Kf. Friedrich (II.) von Brandenburg"
+    },
+    {
+      "@id": "_:Nc177b43c0c0f4a9d9dfdf67795b3128f",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:H00002093"
+      },
+      "ps:P39": {
+        "@id": "ri:landgraf"
+      },
+      "rdfs:label": "Ldgf. Ludwig (I.) von Hessen"
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1492-10-18_1_0_13_23_0_809_805",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Ndc32d279952b4938af5006c9ed4d8ea2"
+      }
+    },
+    {
+      "@id": "_:Ndc32d279952b4938af5006c9ed4d8ea2",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Nc268b44def3f484fa421366fcaced0d7"
+      },
+      "ps:P291": {
+        "@id": "_:N1953e4f5a50048929eb4949ec84de0bd"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N6bc7e499d7494fc99fc8f99b631108b7"
+        },
+        {
+          "@id": "_:N0cd95f59865a4f73ae54173146c14fb0"
+        },
+        {
+          "@id": "_:Nd4878442ab494a348f3bc14954910a16"
+        }
+      ]
+    },
+    {
+      "@id": "_:N1953e4f5a50048929eb4949ec84de0bd",
+      "https://schema.org#geo": {
+        "@id": "_:Ne3c50bf1d40c408887787eca925a6161"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q41329"
+      },
+      "rdfs:label": "Linz"
+    },
+    {
+      "@id": "_:Ne3c50bf1d40c408887787eca925a6161",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "48.303056",
+      "https://schema.org#longitude": "14.290556"
+    },
+    {
+      "@id": "_:Nc268b44def3f484fa421366fcaced0d7",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1492-10-18"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1492-10-18"
+      }
+    },
+    {
+      "@id": "_:N6bc7e499d7494fc99fc8f99b631108b7",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:W00003241"
+      },
+      "ps:P39": {
+        "@id": "ri:graf"
+      },
+      "rdfs:label": "Gf. Eberhard (VI.) d.J. von Württemberg"
+    },
+    {
+      "@id": "_:N0cd95f59865a4f73ae54173146c14fb0",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:M00000268"
+      },
+      "ps:P39": {
+        "@id": "ri:erzbischof"
+      },
+      "rdfs:label": "Eb. Berthold von Mainz"
+    },
+    {
+      "@id": "_:Nd4878442ab494a348f3bc14954910a16",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00002265"
+      },
+      "ps:P39": {
+        "@id": "ri:markgraf"
+      },
+      "rdfs:label": "Mgf. Friedrich von Brandenburg"
+    }
+  ]
+}

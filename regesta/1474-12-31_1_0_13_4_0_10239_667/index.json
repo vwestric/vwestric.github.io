@@ -1,0 +1,112 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1474-12-31_1_0_13_4_0_10239_667",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Nc9675c9558ff41b1a6391939b9573b7e"
+      }
+    },
+    {
+      "@id": "_:Nc9675c9558ff41b1a6391939b9573b7e",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Nad2a52b65f0f42f395cabe88e671527f"
+      },
+      "ps:P291": {
+        "@id": "_:N76dee67455a341ba9451f00248d3c2c4"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:Nda39e6f0c1724aaba332fdc05d929d59"
+        },
+        {
+          "@id": "_:Na55ab24b6e7e4a74848e448c8117352b"
+        },
+        {
+          "@id": "_:N7e0c345a01044120af9eb04aecbe9de8"
+        },
+        {
+          "@id": "_:N876e9db93bad414885e4352a1ca9b81c"
+        }
+      ]
+    },
+    {
+      "@id": "_:N76dee67455a341ba9451f00248d3c2c4",
+      "https://schema.org#geo": {
+        "@id": "_:N258d4dc9b9564252bfa065345c0fd8d9"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q490058"
+      },
+      "rdfs:label": "Andernach"
+    },
+    {
+      "@id": "_:N258d4dc9b9564252bfa065345c0fd8d9",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "50.4333",
+      "https://schema.org#longitude": "7.4"
+    },
+    {
+      "@id": "_:Nad2a52b65f0f42f395cabe88e671527f",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1474-12-31"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1474-12-31"
+      }
+    },
+    {
+      "@id": "_:Nda39e6f0c1724aaba332fdc05d929d59",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:F00000908"
+      },
+      "ps:P39": {
+        "@id": "ri:koenig"
+      },
+      "rdfs:label": "Kg. Ludwig (XI.) von Frankreich"
+    },
+    {
+      "@id": "_:Na55ab24b6e7e4a74848e448c8117352b",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00003253"
+      },
+      "ps:P39": {
+        "@id": "ri:herzog"
+      },
+      "rdfs:label": "Hz. Karls von Burgund"
+    },
+    {
+      "@id": "_:N7e0c345a01044120af9eb04aecbe9de8",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00000099"
+      },
+      "rdfs:label": "Ernst von Sachsen"
+    },
+    {
+      "@id": "_:N876e9db93bad414885e4352a1ca9b81c",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00002248"
+      },
+      "rdfs:label": "Albrecht von Brandenburg"
+    }
+  ]
+}

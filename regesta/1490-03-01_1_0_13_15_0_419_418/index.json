@@ -1,0 +1,90 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1490-03-01_1_0_13_15_0_419_418",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Nec036976f8ed4075885b472fa5ff1134"
+      }
+    },
+    {
+      "@id": "_:Nec036976f8ed4075885b472fa5ff1134",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Ne03dfaf729ff49d886a475bf0beb2abf"
+      },
+      "ps:P291": {
+        "@id": "_:Nad6b8151bf884280aa59866d034bc52d"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N23d5a652c2394456bbc830bed4515161"
+        },
+        {
+          "@id": "_:N958e68bc1dc949fcb37bac400075b6a1"
+        }
+      ]
+    },
+    {
+      "@id": "_:Nad6b8151bf884280aa59866d034bc52d",
+      "https://schema.org#geo": {
+        "@id": "_:N963fe92a2fcc4d74bba5cf3541988c1f"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q41329"
+      },
+      "rdfs:label": "Linz"
+    },
+    {
+      "@id": "_:N963fe92a2fcc4d74bba5cf3541988c1f",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "48.303056",
+      "https://schema.org#longitude": "14.290556"
+    },
+    {
+      "@id": "_:Ne03dfaf729ff49d886a475bf0beb2abf",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1490-03-01"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1490-03-01"
+      }
+    },
+    {
+      "@id": "_:N23d5a652c2394456bbc830bed4515161",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:R00000842"
+      },
+      "ps:P39": {
+        "@id": "ri:bischof"
+      },
+      "rdfs:label": "Bf. Heinrich von Regensburg"
+    },
+    {
+      "@id": "_:N958e68bc1dc949fcb37bac400075b6a1",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00000559"
+      },
+      "ps:P39": {
+        "@id": "ri:herzog"
+      },
+      "rdfs:label": "Hz. Georg von Bayern (-Landshut)"
+    }
+  ]
+}

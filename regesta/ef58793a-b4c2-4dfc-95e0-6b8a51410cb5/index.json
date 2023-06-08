@@ -1,0 +1,71 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:ef58793a-b4c2-4dfc-95e0-6b8a51410cb5",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N9bf5b1d378a045b19482b02de39bd699"
+      }
+    },
+    {
+      "@id": "_:N9bf5b1d378a045b19482b02de39bd699",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N0a83cedaac2a438a82db929b6e81a66d"
+      },
+      "ps:P291": {
+        "@id": "_:Nebf606811b66441381e69d8b4b28cff9"
+      },
+      "ps:P3342": {
+        "@id": "_:Nb2eec92211994bd6a0b35f5c500c9bee"
+      }
+    },
+    {
+      "@id": "_:Nebf606811b66441381e69d8b4b28cff9",
+      "https://schema.org#geo": {
+        "@id": "_:N889cce2abd3349128e9581851bf41260"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q131612"
+      },
+      "rdfs:label": "Wiener Neustadt"
+    },
+    {
+      "@id": "_:N889cce2abd3349128e9581851bf41260",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.813153",
+      "https://schema.org#longitude": "16.24444"
+    },
+    {
+      "@id": "_:N0a83cedaac2a438a82db929b6e81a66d",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1464-06-23"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1464-06-23"
+      }
+    },
+    {
+      "@id": "_:Nb2eec92211994bd6a0b35f5c500c9bee",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:T00000369"
+      },
+      "rdfs:label": "Jobst Tetzel"
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1462-10-13_1_0_13_23_0_541_538",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Ndcf09e7404ac48e18d4d66b15d41a2b6"
+      }
+    },
+    {
+      "@id": "_:Ndcf09e7404ac48e18d4d66b15d41a2b6",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N3cde88cd50994d4c8758013daf8a09a9"
+      },
+      "ps:P291": {
+        "@id": "_:Nd591bb646d314f20a0fc6042c64c81c6"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:Nec9b20e276a3476bb9dc67fef18b29dc"
+        },
+        {
+          "@id": "_:Ncb8ccad69f0b44738f7d28cff7b0fa2a"
+        }
+      ]
+    },
+    {
+      "@id": "_:Nd591bb646d314f20a0fc6042c64c81c6",
+      "https://schema.org#geo": {
+        "@id": "_:Nae52130dae934652a9b71049267c6576"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q1741"
+      },
+      "rdfs:label": "Wien"
+    },
+    {
+      "@id": "_:Nae52130dae934652a9b71049267c6576",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "48.20849",
+      "https://schema.org#longitude": "16.37208"
+    },
+    {
+      "@id": "_:N3cde88cd50994d4c8758013daf8a09a9",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1462-10-13"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1462-10-13"
+      }
+    },
+    {
+      "@id": "_:Nec9b20e276a3476bb9dc67fef18b29dc",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:W00003211"
+      },
+      "ps:P39": {
+        "@id": "ri:graf"
+      },
+      "rdfs:label": "Gf. Ulrich (V.) von Württemberg"
+    },
+    {
+      "@id": "_:Ncb8ccad69f0b44738f7d28cff7b0fa2a",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:P00001026"
+      },
+      "ps:P39": {
+        "@id": "ri:pfalzgraf"
+      },
+      "rdfs:label": "Pfgf. Friedrichs bei Rhein"
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1443-09-21_1_0_13_12_0_170_170",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N97b52a9f79dd46c2a69ba5957c58ea11"
+      }
+    },
+    {
+      "@id": "_:N97b52a9f79dd46c2a69ba5957c58ea11",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N0466086a3c5443ffbdb70fe0601b1835"
+      },
+      "ps:P291": {
+        "@id": "_:Ne033536ff5034cb7b1242bb0e9c864ab"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:Ne3b9f99192ed46bd8c897bf43d8a5d63"
+        },
+        {
+          "@id": "_:N1c03541658f4408381ef58699c2c8fac"
+        }
+      ]
+    },
+    {
+      "@id": "_:Ne033536ff5034cb7b1242bb0e9c864ab",
+      "https://schema.org#geo": {
+        "@id": "_:N26931ef87d82434c8e458d49323ce5cc"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q13298"
+      },
+      "rdfs:label": "Graz"
+    },
+    {
+      "@id": "_:N26931ef87d82434c8e458d49323ce5cc",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.06667",
+      "https://schema.org#longitude": "15.45"
+    },
+    {
+      "@id": "_:N0466086a3c5443ffbdb70fe0601b1835",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1443-09-21"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1443-09-21"
+      }
+    },
+    {
+      "@id": "_:Ne3b9f99192ed46bd8c897bf43d8a5d63",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:C00000462"
+      },
+      "ps:P39": {
+        "@id": "ri:graf"
+      },
+      "rdfs:label": "Ulrich (II.), Gff. von Cilli"
+    },
+    {
+      "@id": "_:N1c03541658f4408381ef58699c2c8fac",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:O00000622"
+      },
+      "rdfs:label": "Sigmund von Österreich"
+    }
+  ]
+}

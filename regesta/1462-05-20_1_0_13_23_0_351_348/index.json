@@ -1,0 +1,71 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1462-05-20_1_0_13_23_0_351_348",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N0de00115f31e48da8f22ddb90c138a2c"
+      }
+    },
+    {
+      "@id": "_:N0de00115f31e48da8f22ddb90c138a2c",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Nbf1873a085ad4315aac55e58d491b4a0"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N710f3df3c8a1419b8a8e7f114017d3cc"
+        },
+        {
+          "@id": "_:Nbf7fd4adfa494a6d840be8893dc5c27c"
+        }
+      ]
+    },
+    {
+      "@id": "_:Nbf1873a085ad4315aac55e58d491b4a0",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1462-05-20"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1462-05-20"
+      }
+    },
+    {
+      "@id": "_:N710f3df3c8a1419b8a8e7f114017d3cc",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:K00000579"
+      },
+      "ps:P39": {
+        "@id": "ri:graf"
+      },
+      "rdfs:label": "Gf. Philipp von Katzenelnbogen"
+    },
+    {
+      "@id": "_:Nbf7fd4adfa494a6d840be8893dc5c27c",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:P00001458"
+      },
+      "ps:P39": {
+        "@id": "ri:papst"
+      },
+      "rdfs:label": "Papst (Pius II.)"
+    }
+  ]
+}

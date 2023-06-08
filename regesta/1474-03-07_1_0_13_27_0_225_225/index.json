@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1474-03-07_1_0_13_27_0_225_225",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N6a757de4bd644330beb199b8400be72d"
+      }
+    },
+    {
+      "@id": "_:N6a757de4bd644330beb199b8400be72d",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N7fe5e0cc64ef469cabb924b07091df32"
+      },
+      "ps:P291": {
+        "@id": "_:N1682953fd5024e6eb2d2814cb7a46666"
+      },
+      "ps:P3342": {
+        "@id": "_:Nd4b1476a924a48fb8e6ba9fe37c42914"
+      }
+    },
+    {
+      "@id": "_:N1682953fd5024e6eb2d2814cb7a46666",
+      "https://schema.org#geo": {
+        "@id": "_:N6eab6c9896bd42038f3697cb016ca2fd"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q2090"
+      },
+      "rdfs:label": "[Nürnberg]"
+    },
+    {
+      "@id": "_:N6eab6c9896bd42038f3697cb016ca2fd",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "49.45421",
+      "https://schema.org#longitude": "11.07752"
+    },
+    {
+      "@id": "_:N7fe5e0cc64ef469cabb924b07091df32",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1474-03-07"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1474-03-07"
+      }
+    },
+    {
+      "@id": "_:Nd4b1476a924a48fb8e6ba9fe37c42914",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:P00000962"
+      },
+      "ps:P39": {
+        "@id": "ri:pfalzgraf"
+      },
+      "rdfs:label": "Pfgf. Friedrich bei Rhein"
+    }
+  ]
+}

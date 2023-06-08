@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1477-12-05_1_0_13_26_0_703_703",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Nd754f5f1f22342c8af53f57aa16563e9"
+      }
+    },
+    {
+      "@id": "_:Nd754f5f1f22342c8af53f57aa16563e9",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N2728800aa80d4438beedbea8691fae0e"
+      },
+      "ps:P291": {
+        "@id": "_:N09799a77908c442fb342b12e353d53bc"
+      },
+      "ps:P3342": {
+        "@id": "_:N477b9e039ef54b77885b584fa4ca6bd2"
+      }
+    },
+    {
+      "@id": "_:N09799a77908c442fb342b12e353d53bc",
+      "https://schema.org#geo": {
+        "@id": "_:N448cdcc5a86f46dbb4eee922a6152dbb"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q430449"
+      },
+      "rdfs:label": "Gmunden"
+    },
+    {
+      "@id": "_:N448cdcc5a86f46dbb4eee922a6152dbb",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.91839",
+      "https://schema.org#longitude": "13.79933"
+    },
+    {
+      "@id": "_:N2728800aa80d4438beedbea8691fae0e",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1477-12-05"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1477-12-05"
+      }
+    },
+    {
+      "@id": "_:N477b9e039ef54b77885b584fa4ca6bd2",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:U00000212"
+      },
+      "ps:P39": {
+        "@id": "ri:koenig"
+      },
+      "rdfs:label": "Kg. (Matthias) von Ungarn"
+    }
+  ]
+}

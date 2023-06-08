@@ -1,0 +1,95 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1472-05-09_3_0_13_27_0_157_157",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Nf0895bc81dbc490f828cccd1a002a93b"
+      }
+    },
+    {
+      "@id": "_:Nf0895bc81dbc490f828cccd1a002a93b",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N7aa16ec4e60a4931b379f8d9f715cf49"
+      },
+      "ps:P291": {
+        "@id": "_:N83db24c426234bed85b8337c373262bd"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N01e51c55232b4b71b42fd8982a6adc8f"
+        },
+        {
+          "@id": "_:Nfe5d27edf90847c198d1b9425ddd4942"
+        }
+      ]
+    },
+    {
+      "@id": "_:N83db24c426234bed85b8337c373262bd",
+      "https://schema.org#geo": {
+        "@id": "_:Nfbda8d5b1e894821aa0533d5d4e14bc0"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q131612"
+      },
+      "rdfs:label": "Wiener Neustadt"
+    },
+    {
+      "@id": "_:Nfbda8d5b1e894821aa0533d5d4e14bc0",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.813153",
+      "https://schema.org#longitude": "16.24444"
+    },
+    {
+      "@id": "_:N7aa16ec4e60a4931b379f8d9f715cf49",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1472-05-09"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1472-05-09"
+      }
+    },
+    {
+      "@id": "_:N01e51c55232b4b71b42fd8982a6adc8f",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00005971"
+      },
+      "ps:P39": [
+        {
+          "@id": "ri:hofrichter"
+        },
+        {
+          "@id": "ri:graf"
+        }
+      ],
+      "rdfs:label": "Hofrichter Gf. Johann von Sulz"
+    },
+    {
+      "@id": "_:Nfe5d27edf90847c198d1b9425ddd4942",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:O00000622"
+      },
+      "ps:P39": {
+        "@id": "ri:herzog"
+      },
+      "rdfs:label": "Hz. Sigmund von Österreich"
+    }
+  ]
+}

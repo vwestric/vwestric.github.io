@@ -1,0 +1,71 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1451-05-17_1_0_13_19_0_161_161",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N2083df7aeae24d788b92a43fd3fc2fa1"
+      }
+    },
+    {
+      "@id": "_:N2083df7aeae24d788b92a43fd3fc2fa1",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N4d553e41770c4f7b9a4f0952b74a113e"
+      },
+      "ps:P291": {
+        "@id": "_:Nc0a17bc4224e4a3eb802fb5e17d14169"
+      },
+      "ps:P3342": {
+        "@id": "_:N8a93597fbd3a4890ab21cf4ac87c2723"
+      }
+    },
+    {
+      "@id": "_:Nc0a17bc4224e4a3eb802fb5e17d14169",
+      "https://schema.org#geo": {
+        "@id": "_:N7f8e8dde0a6f438c9d960aa4e7fdd775"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q1741"
+      },
+      "rdfs:label": "Wien"
+    },
+    {
+      "@id": "_:N7f8e8dde0a6f438c9d960aa4e7fdd775",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "48.20849",
+      "https://schema.org#longitude": "16.37208"
+    },
+    {
+      "@id": "_:N4d553e41770c4f7b9a4f0952b74a113e",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1451-05-17"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1451-05-17"
+      }
+    },
+    {
+      "@id": "_:N8a93597fbd3a4890ab21cf4ac87c2723",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:G00000869"
+      },
+      "rdfs:label": "Georg Geuder"
+    }
+  ]
+}

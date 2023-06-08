@@ -1,0 +1,90 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1489-05-20_1_0_13_4_0_10571_994",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Ne342376e9d774516b063d53cf7fac757"
+      }
+    },
+    {
+      "@id": "_:Ne342376e9d774516b063d53cf7fac757",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N540cb7c6444b47c790b48f91d06ac875"
+      },
+      "ps:P291": {
+        "@id": "_:Nc28b8031650047f288fc424b15c007cf"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N052090bd4cd54474ab35650875f28dcf"
+        },
+        {
+          "@id": "_:Neee5a13dfe3540b69f8e50e9d2db6aa4"
+        }
+      ]
+    },
+    {
+      "@id": "_:Nc28b8031650047f288fc424b15c007cf",
+      "https://schema.org#geo": {
+        "@id": "_:Ncb9a2bb0d7354cbe8f288a9b198553db"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q1735"
+      },
+      "rdfs:label": "[Innsbruck]"
+    },
+    {
+      "@id": "_:Ncb9a2bb0d7354cbe8f288a9b198553db",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.26266",
+      "https://schema.org#longitude": "11.39454"
+    },
+    {
+      "@id": "_:N540cb7c6444b47c790b48f91d06ac875",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1489-05-20"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1489-05-20"
+      }
+    },
+    {
+      "@id": "_:N052090bd4cd54474ab35650875f28dcf",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:M00001151"
+      },
+      "ps:P39": {
+        "@id": "ri:koenig"
+      },
+      "rdfs:label": "Kg. Maximilian"
+    },
+    {
+      "@id": "_:Neee5a13dfe3540b69f8e50e9d2db6aa4",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:E00000497"
+      },
+      "ps:P39": {
+        "@id": "ri:bischof"
+      },
+      "rdfs:label": "Bf. Wilhelm von Eichstätt"
+    }
+  ]
+}

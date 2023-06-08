@@ -1,0 +1,90 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1470-06-07_1_0_13_17_0_239_237",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N1f97bd2fe0084b3585049212b335f251"
+      }
+    },
+    {
+      "@id": "_:N1f97bd2fe0084b3585049212b335f251",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N7b909fc0e6c84bb79e8f1eb8e66787b1"
+      },
+      "ps:P291": {
+        "@id": "_:N38fc375928ba46288f9dc03057062654"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N46aae80a83bc4a528aee113549aa1d1b"
+        },
+        {
+          "@id": "_:Ndd846145de9448bc9719c647dcc340d8"
+        }
+      ]
+    },
+    {
+      "@id": "_:N38fc375928ba46288f9dc03057062654",
+      "https://schema.org#geo": {
+        "@id": "_:Nadb9f8f4f5b1475499102960974583f4"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q494604"
+      },
+      "rdfs:label": "St. Veit in Kärnten"
+    },
+    {
+      "@id": "_:Nadb9f8f4f5b1475499102960974583f4",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "46.767222",
+      "https://schema.org#longitude": "14.359722"
+    },
+    {
+      "@id": "_:N7b909fc0e6c84bb79e8f1eb8e66787b1",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1470-06-07"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1470-06-07"
+      }
+    },
+    {
+      "@id": "_:N46aae80a83bc4a528aee113549aa1d1b",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:F00001021"
+      },
+      "ps:P39": {
+        "@id": "ri:frau"
+      },
+      "rdfs:label": "Hans von Fraunberg (zu Haag und Prunn)"
+    },
+    {
+      "@id": "_:Ndd846145de9448bc9719c647dcc340d8",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00000565"
+      },
+      "ps:P39": {
+        "@id": "ri:herzog"
+      },
+      "rdfs:label": "Hz. Ludwig (IX.) von Bayern (-Landshut)"
+    }
+  ]
+}

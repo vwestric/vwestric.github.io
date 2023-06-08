@@ -1,0 +1,71 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1442-09-27_1_0_13_12_0_121_121",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Nee795b7e0a604ebca9e32248d8f89000"
+      }
+    },
+    {
+      "@id": "_:Nee795b7e0a604ebca9e32248d8f89000",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N460f3a5efa044172924034630556b105"
+      },
+      "ps:P291": {
+        "@id": "_:N82f98d986cfe44cb859c184dbf7b8b4f"
+      },
+      "ps:P3342": {
+        "@id": "_:N14c3df6fb0c34b46b349d036255742ec"
+      }
+    },
+    {
+      "@id": "_:N82f98d986cfe44cb859c184dbf7b8b4f",
+      "https://schema.org#geo": {
+        "@id": "_:N6e91843cc75344f19364642faac0edbf"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q72"
+      },
+      "rdfs:label": "Zürich"
+    },
+    {
+      "@id": "_:N6e91843cc75344f19364642faac0edbf",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.36667",
+      "https://schema.org#longitude": "8.55"
+    },
+    {
+      "@id": "_:N460f3a5efa044172924034630556b105",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1442-09-27"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1442-09-27"
+      }
+    },
+    {
+      "@id": "_:N14c3df6fb0c34b46b349d036255742ec",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:O00000622"
+      },
+      "rdfs:label": "Sigmund von Österreich"
+    }
+  ]
+}

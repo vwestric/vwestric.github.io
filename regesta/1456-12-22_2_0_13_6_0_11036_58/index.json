@@ -1,0 +1,71 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1456-12-22_2_0_13_6_0_11036_58",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N4ecb961cdb464369bf4e179b64fc20d8"
+      }
+    },
+    {
+      "@id": "_:N4ecb961cdb464369bf4e179b64fc20d8",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N5033402e477549b5a7914ee74ec08a60"
+      },
+      "ps:P291": {
+        "@id": "_:N715340d432a149f386b75cf249dda298"
+      },
+      "ps:P3342": {
+        "@id": "_:N3a07d071c2b245459573cf1dafe07f82"
+      }
+    },
+    {
+      "@id": "_:N715340d432a149f386b75cf249dda298",
+      "https://schema.org#geo": {
+        "@id": "_:N2d106b1098814ffc8010fbea92f9215c"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q131612"
+      },
+      "rdfs:label": "Wiener Neustadt"
+    },
+    {
+      "@id": "_:N2d106b1098814ffc8010fbea92f9215c",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.813153",
+      "https://schema.org#longitude": "16.24444"
+    },
+    {
+      "@id": "_:N5033402e477549b5a7914ee74ec08a60",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1456-12-22"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1456-12-22"
+      }
+    },
+    {
+      "@id": "_:N3a07d071c2b245459573cf1dafe07f82",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:H00002182"
+      },
+      "rdfs:label": "Bilgeri von Heudorf"
+    }
+  ]
+}

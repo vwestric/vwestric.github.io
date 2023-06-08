@@ -1,0 +1,95 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1465-06-28_1_0_13_20_0_133_133",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Nf39aedf8e4384442900bc74aa5cd6d02"
+      }
+    },
+    {
+      "@id": "_:Nf39aedf8e4384442900bc74aa5cd6d02",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N0af0996e951941f8ba6e6eea21f6ba6c"
+      },
+      "ps:P291": {
+        "@id": "_:N3c039edee1f541d797712536bc62d2d9"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N7a5c3f1f042b46cd82bbed417a87d502"
+        },
+        {
+          "@id": "_:Nc94acb1d1d09461d85049bbb8799459b"
+        }
+      ]
+    },
+    {
+      "@id": "_:N3c039edee1f541d797712536bc62d2d9",
+      "https://schema.org#geo": {
+        "@id": "_:N82261f59939b4b4386bce0bd14c01922"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q131612"
+      },
+      "rdfs:label": "Wiener Neustadt"
+    },
+    {
+      "@id": "_:N82261f59939b4b4386bce0bd14c01922",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.813153",
+      "https://schema.org#longitude": "16.24444"
+    },
+    {
+      "@id": "_:N0af0996e951941f8ba6e6eea21f6ba6c",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1465-06-28"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1465-06-28"
+      }
+    },
+    {
+      "@id": "_:N7a5c3f1f042b46cd82bbed417a87d502",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00002265"
+      },
+      "ps:P39": {
+        "@id": "ri:kurfuerst"
+      },
+      "rdfs:label": "Kf. Friedrich (II.) von Brandenburg"
+    },
+    {
+      "@id": "_:Nc94acb1d1d09461d85049bbb8799459b",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:M00003175"
+      },
+      "ps:P39": [
+        {
+          "@id": "ri:graf"
+        },
+        {
+          "@id": "ri:herr"
+        }
+      ],
+      "rdfs:label": "Gf. Günther von Mühlingen, Herrn zu Barby"
+    }
+  ]
+}

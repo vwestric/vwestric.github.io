@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1470-06-11_1_0_13_17_0_244_242",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N6151ad41921948f5b01b0926acee0617"
+      }
+    },
+    {
+      "@id": "_:N6151ad41921948f5b01b0926acee0617",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N0d2738e0bc9a4f42a9227c6c8fc516d0"
+      },
+      "ps:P291": {
+        "@id": "_:Nd40adf0e08884a65aeafdd0801e24155"
+      },
+      "ps:P3342": {
+        "@id": "_:Nac0825e7f9d048c4a4934a4156471d15"
+      }
+    },
+    {
+      "@id": "_:Nd40adf0e08884a65aeafdd0801e24155",
+      "https://schema.org#geo": {
+        "@id": "_:Nbd244364dd6943a191f4784d402bcbce"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q494604"
+      },
+      "rdfs:label": "St. Veit in Kärnten"
+    },
+    {
+      "@id": "_:Nbd244364dd6943a191f4784d402bcbce",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "46.767222",
+      "https://schema.org#longitude": "14.359722"
+    },
+    {
+      "@id": "_:N0d2738e0bc9a4f42a9227c6c8fc516d0",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1470-06-11"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1470-06-11"
+      }
+    },
+    {
+      "@id": "_:Nac0825e7f9d048c4a4934a4156471d15",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:Z00000640"
+      },
+      "ps:P39": {
+        "@id": "ri:pfalzgraf"
+      },
+      "rdfs:label": "Pfgf. Ludwig (I.) (von Zweibrücken-Veldenz)"
+    }
+  ]
+}

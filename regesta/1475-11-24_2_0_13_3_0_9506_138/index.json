@@ -1,0 +1,84 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1475-11-24_2_0_13_3_0_9506_138",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N4194092aca0c4847b1a0f937ab072e89"
+      }
+    },
+    {
+      "@id": "_:N4194092aca0c4847b1a0f937ab072e89",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N4188e07936e243d49eaed95f6b1c2996"
+      },
+      "ps:P291": {
+        "@id": "_:N09e8b784308e4d16b26da07f2e5997cf"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N612c6ed7088949fd9fefd07875208b37"
+        },
+        {
+          "@id": "_:N2786c81805dd40ddb16193788f1bbf90"
+        }
+      ]
+    },
+    {
+      "@id": "_:N09e8b784308e4d16b26da07f2e5997cf",
+      "https://schema.org#geo": {
+        "@id": "_:N4b0007a62e31407594737f5b0eafcd2b"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q4190"
+      },
+      "rdfs:label": "Passau"
+    },
+    {
+      "@id": "_:N4b0007a62e31407594737f5b0eafcd2b",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "48.5665",
+      "https://schema.org#longitude": "13.43122"
+    },
+    {
+      "@id": "_:N4188e07936e243d49eaed95f6b1c2996",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1475-11-24"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1475-11-24"
+      }
+    },
+    {
+      "@id": "_:N612c6ed7088949fd9fefd07875208b37",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00004284"
+      },
+      "rdfs:label": "Sigfried von Speyer"
+    },
+    {
+      "@id": "_:N2786c81805dd40ddb16193788f1bbf90",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:W00000993"
+      },
+      "rdfs:label": "Hert Weiß von Frankfurt"
+    }
+  ]
+}

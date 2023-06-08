@@ -1,0 +1,87 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1461-11-12_1_0_13_28_0_321_321",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N195efe703a644398959dc68c97267eca"
+      }
+    },
+    {
+      "@id": "_:N195efe703a644398959dc68c97267eca",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N3096c378f7c34db6a79ff4160f62ff46"
+      },
+      "ps:P291": {
+        "@id": "_:Nf34708da5fdf450b9486fefd7a1fd65e"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:Nb05fc9fe076040a5aea0c2afe3890f3a"
+        },
+        {
+          "@id": "_:N95a1d619238e4ffa99fd031cf5b3c4f8"
+        }
+      ]
+    },
+    {
+      "@id": "_:Nf34708da5fdf450b9486fefd7a1fd65e",
+      "https://schema.org#geo": {
+        "@id": "_:N3fc154f15fc14125a1fc9d377f91aa90"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q13298"
+      },
+      "rdfs:label": "Graz"
+    },
+    {
+      "@id": "_:N3fc154f15fc14125a1fc9d377f91aa90",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.06667",
+      "https://schema.org#longitude": "15.45"
+    },
+    {
+      "@id": "_:N3096c378f7c34db6a79ff4160f62ff46",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1461-11-12"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1461-11-12"
+      }
+    },
+    {
+      "@id": "_:Nb05fc9fe076040a5aea0c2afe3890f3a",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:P00001458"
+      },
+      "ps:P39": {
+        "@id": "ri:papst"
+      },
+      "rdfs:label": "Papst (Pius II.)"
+    },
+    {
+      "@id": "_:N95a1d619238e4ffa99fd031cf5b3c4f8",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:L00001144"
+      },
+      "rdfs:label": "Heinrich Leubing"
+    }
+  ]
+}

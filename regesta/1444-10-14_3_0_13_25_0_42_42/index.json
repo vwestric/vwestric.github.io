@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1444-10-14_3_0_13_25_0_42_42",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N9a7bb43891ed43dd89a70ef369bbb4d9"
+      }
+    },
+    {
+      "@id": "_:N9a7bb43891ed43dd89a70ef369bbb4d9",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N7b6978a1d2d54553a3c45e289adb557c"
+      },
+      "ps:P291": {
+        "@id": "_:N68a5380d30584ab6b00982263dc72919"
+      },
+      "ps:P3342": {
+        "@id": "_:N7395756f29044eca9219f269cc307627"
+      }
+    },
+    {
+      "@id": "_:N68a5380d30584ab6b00982263dc72919",
+      "https://schema.org#geo": {
+        "@id": "_:N0c23aad0fca64105a4d56e1b6dee9a6c"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q2978"
+      },
+      "rdfs:label": "Regensburg"
+    },
+    {
+      "@id": "_:N0c23aad0fca64105a4d56e1b6dee9a6c",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "49.0054",
+      "https://schema.org#longitude": "12.0606"
+    },
+    {
+      "@id": "_:N7b6978a1d2d54553a3c45e289adb557c",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1444-10-14"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1444-10-14"
+      }
+    },
+    {
+      "@id": "_:N7395756f29044eca9219f269cc307627",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:M00000277"
+      },
+      "ps:P39": {
+        "@id": "ri:erzbischof"
+      },
+      "rdfs:label": "Eb. Dietrich von Mainz"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1442-03-10_2_0_13_14_0_87_87",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Nab1e51cce7b44264a9f65966da04193e"
+      }
+    },
+    {
+      "@id": "_:Nab1e51cce7b44264a9f65966da04193e",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N6b5c776bb79843949c7af76b9e4fdf23"
+      },
+      "ps:P291": {
+        "@id": "_:N42a60d276fc54a089e2ae8de27801581"
+      },
+      "ps:P3342": {
+        "@id": "_:N14ae84431fa74b8f8d8d92d6bff840e7"
+      }
+    },
+    {
+      "@id": "_:N42a60d276fc54a089e2ae8de27801581",
+      "https://schema.org#geo": {
+        "@id": "_:N7c060274129540e69e92ee101291074d"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q1735"
+      },
+      "rdfs:label": "Innsbruck"
+    },
+    {
+      "@id": "_:N7c060274129540e69e92ee101291074d",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.26266",
+      "https://schema.org#longitude": "11.39454"
+    },
+    {
+      "@id": "_:N6b5c776bb79843949c7af76b9e4fdf23",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1442-03-10"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1442-03-10"
+      }
+    },
+    {
+      "@id": "_:N14ae84431fa74b8f8d8d92d6bff840e7",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00005153"
+      },
+      "rdfs:label": "Alesch von Sternberg"
+    }
+  ]
+}

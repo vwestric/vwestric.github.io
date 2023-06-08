@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1490-11-22_1_0_13_17_0_353_351",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N5b5706c170eb4158a85f6e51fedd4c91"
+      }
+    },
+    {
+      "@id": "_:N5b5706c170eb4158a85f6e51fedd4c91",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N25e62f471a1a4596a7ad3b3d22009247"
+      },
+      "ps:P291": {
+        "@id": "_:N178aef77a12b4ae08eb8ca30d40c54a7"
+      },
+      "ps:P3342": {
+        "@id": "_:N6060dc1415b7436ebb1fb0944897a2f2"
+      }
+    },
+    {
+      "@id": "_:N178aef77a12b4ae08eb8ca30d40c54a7",
+      "https://schema.org#geo": {
+        "@id": "_:N6a64a95936c4478996089538a2d993b0"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q41329"
+      },
+      "rdfs:label": "Linz"
+    },
+    {
+      "@id": "_:N6a64a95936c4478996089538a2d993b0",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "48.303056",
+      "https://schema.org#longitude": "14.290556"
+    },
+    {
+      "@id": "_:N25e62f471a1a4596a7ad3b3d22009247",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1490-11-22"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1490-11-22"
+      }
+    },
+    {
+      "@id": "_:N6060dc1415b7436ebb1fb0944897a2f2",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:M00000922"
+      },
+      "ps:P39": {
+        "@id": "ri:rat"
+      },
+      "rdfs:label": "ksl. Rat und Kammerprokurator-Fiskal Heinrich Martin"
+    }
+  ]
+}

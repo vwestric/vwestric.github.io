@@ -1,0 +1,52 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1441-07-07_2_0_13_12_0_57_57",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Nc664ee720f6b4eab83ce370534b9c003"
+      }
+    },
+    {
+      "@id": "_:Nc664ee720f6b4eab83ce370534b9c003",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Nbce5fe6492664743b95537aa57a9e804"
+      },
+      "ps:P3342": {
+        "@id": "_:N050144f7e6ff4c02ba77595b61e656ed"
+      }
+    },
+    {
+      "@id": "_:Nbce5fe6492664743b95537aa57a9e804",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1441-07-07"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1441-07-07"
+      }
+    },
+    {
+      "@id": "_:N050144f7e6ff4c02ba77595b61e656ed",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:E00000618"
+      },
+      "rdfs:label": "Ulrich Eitzinger von Eitzing"
+    }
+  ]
+}

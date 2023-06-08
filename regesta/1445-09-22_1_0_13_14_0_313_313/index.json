@@ -1,0 +1,186 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1445-09-22_1_0_13_14_0_313_313",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N4aa7a57bae2347fdb6cd4e34220ee460"
+      }
+    },
+    {
+      "@id": "_:N4aa7a57bae2347fdb6cd4e34220ee460",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Nde36c78efe134ce7b964fa4a3ededce8"
+      },
+      "ps:P291": {
+        "@id": "_:N7d147da4ff9b47489e587259a54d69dc"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:Nfdd3a5031a0640c18f38db9c7a44e1fb"
+        },
+        {
+          "@id": "_:Na8d197547a7642c4bd2a329c420bd5c1"
+        },
+        {
+          "@id": "_:N3c6e11b109a44759b9b33279e1c021b9"
+        },
+        {
+          "@id": "_:N6dbf122a1bd04a1ab8982018b33a4cee"
+        },
+        {
+          "@id": "_:Nb81cf791c5284b409a0140e2e07f620d"
+        },
+        {
+          "@id": "_:Ne693c5aec30a4a61bee53d0ba70ad648"
+        },
+        {
+          "@id": "_:N7faf114ea812438284d751ae81652f65"
+        },
+        {
+          "@id": "_:N2a50ca4715a043b2997dbdf7cfa24bf4"
+        },
+        {
+          "@id": "_:N7f52a54afd4544349828b745de03ea90"
+        },
+        {
+          "@id": "_:Nf9283d5c8eae40188a59f862d6500392"
+        },
+        {
+          "@id": "_:N0641e913e3a940e5a279894674f5e31b"
+        }
+      ]
+    },
+    {
+      "@id": "_:N7d147da4ff9b47489e587259a54d69dc",
+      "https://schema.org#geo": {
+        "@id": "_:N608d01de8b3b4ac684485186bebb90bf"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q1741"
+      },
+      "rdfs:label": "Wien"
+    },
+    {
+      "@id": "_:N608d01de8b3b4ac684485186bebb90bf",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "48.20849",
+      "https://schema.org#longitude": "16.37208"
+    },
+    {
+      "@id": "_:Nde36c78efe134ce7b964fa4a3ededce8",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1445-09-22"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1445-09-22"
+      }
+    },
+    {
+      "@id": "_:Nfdd3a5031a0640c18f38db9c7a44e1fb",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:G00000869"
+      },
+      "rdfs:label": "Georg Geuder"
+    },
+    {
+      "@id": "_:Na8d197547a7642c4bd2a329c420bd5c1",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:G00000871"
+      },
+      "rdfs:label": "Sebald Geuder"
+    },
+    {
+      "@id": "_:N3c6e11b109a44759b9b33279e1c021b9",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:G00000864"
+      },
+      "rdfs:label": "Seitz Geuder"
+    },
+    {
+      "@id": "_:N6dbf122a1bd04a1ab8982018b33a4cee",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:G00000864"
+      },
+      "rdfs:label": "Seitz Geuder"
+    },
+    {
+      "@id": "_:Nb81cf791c5284b409a0140e2e07f620d",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:G00000864"
+      },
+      "rdfs:label": "Seitz Geuder"
+    },
+    {
+      "@id": "_:Ne693c5aec30a4a61bee53d0ba70ad648",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:C00000330"
+      },
+      "ps:P39": {
+        "@id": "ri:bischof"
+      },
+      "rdfs:label": "Bf. Sylvester von Chiemsee"
+    },
+    {
+      "@id": "_:N7faf114ea812438284d751ae81652f65",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:K00002312"
+      },
+      "rdfs:label": "Konrad von Kraig"
+    },
+    {
+      "@id": "_:N2a50ca4715a043b2997dbdf7cfa24bf4",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:H00000555"
+      },
+      "rdfs:label": "Konrad von Hallstatt"
+    },
+    {
+      "@id": "_:N7f52a54afd4544349828b745de03ea90",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00000050"
+      },
+      "rdfs:label": "Peter Bachmüller"
+    },
+    {
+      "@id": "_:Nf9283d5c8eae40188a59f862d6500392",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00004603"
+      },
+      "rdfs:label": "Hans von Starhemberg"
+    },
+    {
+      "@id": "_:N0641e913e3a940e5a279894674f5e31b",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:T00000994"
+      },
+      "rdfs:label": "Rudolf Trauner"
+    }
+  ]
+}

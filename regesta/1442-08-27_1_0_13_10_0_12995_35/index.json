@@ -1,0 +1,60 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1442-08-27_1_0_13_10_0_12995_35",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Na5258a4c44ae4cc09af4a22965bf7797"
+      }
+    },
+    {
+      "@id": "_:Na5258a4c44ae4cc09af4a22965bf7797",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Naa4dfa8807fb4f0296e9e22abdc182a7"
+      },
+      "ps:P291": {
+        "@id": "_:N4141f2f7c68045babb3d6b7f3cea197c"
+      }
+    },
+    {
+      "@id": "_:N4141f2f7c68045babb3d6b7f3cea197c",
+      "https://schema.org#geo": {
+        "@id": "_:N2a99a4dc3c5c48ef98e785566b6f62bd"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q6602"
+      },
+      "rdfs:label": "Straßburg"
+    },
+    {
+      "@id": "_:N2a99a4dc3c5c48ef98e785566b6f62bd",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "48.58392",
+      "https://schema.org#longitude": "7.74553"
+    },
+    {
+      "@id": "_:Naa4dfa8807fb4f0296e9e22abdc182a7",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1442-08-27"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1442-08-27"
+      }
+    }
+  ]
+}

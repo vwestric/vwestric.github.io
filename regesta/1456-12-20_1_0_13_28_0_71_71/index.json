@@ -1,0 +1,71 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1456-12-20_1_0_13_28_0_71_71",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N90e76f4b032d43b7ad3743c520ce6b73"
+      }
+    },
+    {
+      "@id": "_:N90e76f4b032d43b7ad3743c520ce6b73",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N55a62f25b1614cc09d236292196012eb"
+      },
+      "ps:P291": {
+        "@id": "_:N9558cedb423449c28e06e5fc9b03fef2"
+      },
+      "ps:P3342": {
+        "@id": "_:Ne09e9871e5e84526a10e143c4fa45317"
+      }
+    },
+    {
+      "@id": "_:N9558cedb423449c28e06e5fc9b03fef2",
+      "https://schema.org#geo": {
+        "@id": "_:Nd6a7dfb0b4e5486facfd2d5505f7d035"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q131612"
+      },
+      "rdfs:label": "Wiener Neustadt"
+    },
+    {
+      "@id": "_:Nd6a7dfb0b4e5486facfd2d5505f7d035",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.813153",
+      "https://schema.org#longitude": "16.24444"
+    },
+    {
+      "@id": "_:N55a62f25b1614cc09d236292196012eb",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1456-12-20"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1456-12-20"
+      }
+    },
+    {
+      "@id": "_:Ne09e9871e5e84526a10e143c4fa45317",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:H00001319"
+      },
+      "rdfs:label": "Konrad von Heideck"
+    }
+  ]
+}

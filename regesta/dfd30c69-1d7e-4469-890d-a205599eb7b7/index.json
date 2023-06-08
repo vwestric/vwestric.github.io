@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:dfd30c69-1d7e-4469-890d-a205599eb7b7",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Nb0470a64aab84ee5b96d49f8c9be0a37"
+      }
+    },
+    {
+      "@id": "_:Nb0470a64aab84ee5b96d49f8c9be0a37",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N623b1bb93cfe41129bbbbff14204eb8f"
+      },
+      "ps:P291": {
+        "@id": "_:Nd2879762746142bebfd375add03d0533"
+      },
+      "ps:P3342": {
+        "@id": "_:N6e366a8bbdc54d3aac5efdcd5a2dfb24"
+      }
+    },
+    {
+      "@id": "_:Nd2879762746142bebfd375add03d0533",
+      "https://schema.org#geo": {
+        "@id": "_:Nf31d4b0f86e84ac28649086875a00c2c"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q4072"
+      },
+      "rdfs:label": "Göppingen"
+    },
+    {
+      "@id": "_:Nf31d4b0f86e84ac28649086875a00c2c",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "48.70354",
+      "https://schema.org#longitude": "9.65209"
+    },
+    {
+      "@id": "_:N623b1bb93cfe41129bbbbff14204eb8f",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1473-06-24"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1473-06-24"
+      }
+    },
+    {
+      "@id": "_:N6e366a8bbdc54d3aac5efdcd5a2dfb24",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00002248"
+      },
+      "ps:P39": {
+        "@id": "ri:kurfuerst"
+      },
+      "rdfs:label": "Kf. Albrecht von Brandenburg"
+    }
+  ]
+}

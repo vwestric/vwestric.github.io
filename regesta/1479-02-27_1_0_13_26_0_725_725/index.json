@@ -1,0 +1,71 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1479-02-27_1_0_13_26_0_725_725",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N02d87b7e9bb24353b7048c942ab3d3dc"
+      }
+    },
+    {
+      "@id": "_:N02d87b7e9bb24353b7048c942ab3d3dc",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Nf26c4bb2f3324d79b81ffc90b824c50c"
+      },
+      "ps:P291": {
+        "@id": "_:N28c3f8588b4d4ba98e5a81029a866cf3"
+      },
+      "ps:P3342": {
+        "@id": "_:Nd80a25be1d5b44cfb8f6493734a181b5"
+      }
+    },
+    {
+      "@id": "_:N28c3f8588b4d4ba98e5a81029a866cf3",
+      "https://schema.org#geo": {
+        "@id": "_:N4a5d03192fac471eadd4916e69250b2b"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q13298"
+      },
+      "rdfs:label": "Graz"
+    },
+    {
+      "@id": "_:N4a5d03192fac471eadd4916e69250b2b",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.06667",
+      "https://schema.org#longitude": "15.45"
+    },
+    {
+      "@id": "_:Nf26c4bb2f3324d79b81ffc90b824c50c",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1479-02-27"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1479-02-27"
+      }
+    },
+    {
+      "@id": "_:Nd80a25be1d5b44cfb8f6493734a181b5",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:W00000388"
+      },
+      "rdfs:label": "Reinprecht von Wallsee"
+    }
+  ]
+}

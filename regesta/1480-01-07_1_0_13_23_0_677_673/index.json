@@ -1,0 +1,87 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1480-01-07_1_0_13_23_0_677_673",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N8dc243755dfe4786b866a86d24848421"
+      }
+    },
+    {
+      "@id": "_:N8dc243755dfe4786b866a86d24848421",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N7207ff87697e4f90ad2c301c7b62d2e1"
+      },
+      "ps:P291": {
+        "@id": "_:Nee872b86da7c4767813142ad625dd7e3"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N90b661c0bbb2433c807d042e90519a89"
+        },
+        {
+          "@id": "_:N14b5a720c16145ba952aa5c2b51e7571"
+        }
+      ]
+    },
+    {
+      "@id": "_:Nee872b86da7c4767813142ad625dd7e3",
+      "https://schema.org#geo": {
+        "@id": "_:N710f117513664c15aac0c82b88c8321b"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q131612"
+      },
+      "rdfs:label": "Wiener Neustadt"
+    },
+    {
+      "@id": "_:N710f117513664c15aac0c82b88c8321b",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.813153",
+      "https://schema.org#longitude": "16.24444"
+    },
+    {
+      "@id": "_:N7207ff87697e4f90ad2c301c7b62d2e1",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1480-01-07"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1480-01-07"
+      }
+    },
+    {
+      "@id": "_:N90b661c0bbb2433c807d042e90519a89",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00000164"
+      },
+      "rdfs:label": "Hermann von Sachsenheim"
+    },
+    {
+      "@id": "_:N14b5a720c16145ba952aa5c2b51e7571",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:W00003283"
+      },
+      "ps:P39": {
+        "@id": "ri:graf"
+      },
+      "rdfs:label": "Gf. Eberhard (V.) d.Ä. von Württemberg"
+    }
+  ]
+}

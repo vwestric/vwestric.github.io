@@ -1,0 +1,90 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:a5eb89ff-0e4a-4772-accf-47567598cfe2",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Nb1b5745ad6a143e1808f238de263e819"
+      }
+    },
+    {
+      "@id": "_:Nb1b5745ad6a143e1808f238de263e819",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N84d7af9fc7b34ebda0f998218b87bf4d"
+      },
+      "ps:P291": {
+        "@id": "_:Nb06b8c7f7b864126ba53a16a02daee95"
+      },
+      "ps:P3342": [
+        {
+          "@id": "_:N08521f5cb8ad479691d8967b63d146b8"
+        },
+        {
+          "@id": "_:Nc6a022225e234cefa57eac3c820b499e"
+        }
+      ]
+    },
+    {
+      "@id": "_:Nb06b8c7f7b864126ba53a16a02daee95",
+      "https://schema.org#geo": {
+        "@id": "_:N4c7eefde34544bdc9b81ff1f67caf240"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q131612"
+      },
+      "rdfs:label": "Wiener Neustadt"
+    },
+    {
+      "@id": "_:N4c7eefde34544bdc9b81ff1f67caf240",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "47.813153",
+      "https://schema.org#longitude": "16.24444"
+    },
+    {
+      "@id": "_:N84d7af9fc7b34ebda0f998218b87bf4d",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1463-08-09"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1463-08-09"
+      }
+    },
+    {
+      "@id": "_:N08521f5cb8ad479691d8967b63d146b8",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00001825"
+      },
+      "ps:P39": {
+        "@id": "ri:koenig"
+      },
+      "rdfs:label": "Kg. Georg von Böhmen"
+    },
+    {
+      "@id": "_:Nc6a022225e234cefa57eac3c820b499e",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:B00002248"
+      },
+      "ps:P39": {
+        "@id": "ri:markgraf"
+      },
+      "rdfs:label": "Mgf. Albrecht von Brandenburg"
+    }
+  ]
+}

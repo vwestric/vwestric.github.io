@@ -1,0 +1,79 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:a10933f4-a390-4d8d-98fb-3db7466fc8cb",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:Na0d71629bb7d408f88f15493966bf12a"
+      }
+    },
+    {
+      "@id": "_:Na0d71629bb7d408f88f15493966bf12a",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:N9b0379c093ad4bfdb6ec9d2f17ef77f2"
+      },
+      "ps:P291": {
+        "@id": "_:N8cc40ad31d3144b7afe7610b918ac3ae"
+      },
+      "ps:P3342": {
+        "@id": "_:N71bc2c1c66aa452bb3aed58394702e71"
+      }
+    },
+    {
+      "@id": "_:N8cc40ad31d3144b7afe7610b918ac3ae",
+      "https://schema.org#geo": {
+        "@id": "_:N79294bb98b95400ca6b113aec7f9ab16"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q1741"
+      },
+      "rdfs:label": "Wien"
+    },
+    {
+      "@id": "_:N79294bb98b95400ca6b113aec7f9ab16",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "48.20849",
+      "https://schema.org#longitude": "16.37208"
+    },
+    {
+      "@id": "_:N9b0379c093ad4bfdb6ec9d2f17ef77f2",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1451-05-11"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1451-05-11"
+      }
+    },
+    {
+      "@id": "_:N71bc2c1c66aa452bb3aed58394702e71",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00000096"
+      },
+      "ps:P39": [
+        {
+          "@id": "ri:herzog"
+        },
+        {
+          "@id": "ri:herzogin"
+        }
+      ],
+      "rdfs:label": "Hzn. Margarethe von Sachsen"
+    }
+  ]
+}

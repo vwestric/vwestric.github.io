@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ri": "https://vwestric.github.io/regesta/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "ri:1442-08-11_1_0_13_7_0_11188_26",
+      "@type": "wd:Q1933248",
+      "dcterms:source": {
+        "@id": "_:N34b0f65fc154482da6fd12c3b7d0f6c9"
+      }
+    },
+    {
+      "@id": "_:N34b0f65fc154482da6fd12c3b7d0f6c9",
+      "@type": "wd:Q49848",
+      "dcterms:issued": {
+        "@id": "_:Na4905c6691a742d887208e8f98a9649e"
+      },
+      "ps:P291": {
+        "@id": "_:N89aac375c6bd48a689ae30e04d7cbad9"
+      },
+      "ps:P3342": {
+        "@id": "_:N0d733b6aef6f4a27a5494690cef1d7da"
+      }
+    },
+    {
+      "@id": "_:N89aac375c6bd48a689ae30e04d7cbad9",
+      "https://schema.org#geo": {
+        "@id": "_:N0ffd478055a9427e9736deb018512c58"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q1794"
+      },
+      "rdfs:label": "Frankfurt"
+    },
+    {
+      "@id": "_:N0ffd478055a9427e9736deb018512c58",
+      "@type": "https://schema.org#GeoCoordinates",
+      "https://schema.org#latitude": "50.110556",
+      "https://schema.org#longitude": "8.682222"
+    },
+    {
+      "@id": "_:Na4905c6691a742d887208e8f98a9649e",
+      "@type": "dcterms:PeriodOfTime",
+      "ps:P580": {
+        "@type": "xsd:date",
+        "@value": "1442-08-11"
+      },
+      "ps:P582": {
+        "@type": "xsd:date",
+        "@value": "1442-08-11"
+      }
+    },
+    {
+      "@id": "_:N0d733b6aef6f4a27a5494690cef1d7da",
+      "@type": "wd:Q5",
+      "owl:sameAs": {
+        "@id": "ri:S00003529"
+      },
+      "ps:P39": {
+        "@id": "ri:kaiser"
+      },
+      "rdfs:label": "K. Sigmund"
+    }
+  ]
+}
