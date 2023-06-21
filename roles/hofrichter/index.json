@@ -6,8 +6,8 @@
     "wd": "http://www.wikidata.org/entity/"
   },
   "@id": "ri:hofrichter",
-  "rdfs:label": "Hofrichter",
-  "rdfs:subClassOf": {
+  "owl:equivalentClass": {
     "@id": "wd:Q16533"
-  }
+  },
+  "rdfs:label": "Hofrichter"
 }
